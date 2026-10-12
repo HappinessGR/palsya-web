@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "About Palsya",
+    "description": "Why Palsya exists, what it is and is not, how it is funded, and the things we refuse to build."
+  },
+  "hero": {
+    "eyebrow": "About",
+    "title": "We started because a leaflet is not a programme"
+  },
+  "story": {
+    "p1": "In 2019 our head of product woke up unable to close his left eye. He was diagnosed with Bell's palsy the same day, given steroids, and sent home with a photocopied sheet of nine facial exercises and no follow-up for four months.",
+    "p2": "He did the exercises. Hard, twice a day, at maximum effort, for eleven weeks — which is close to the worst thing he could have done, and nobody told him otherwise until he found a specialist physiotherapist privately in month four. By then the synkinesis was established and it took another six months of coordination work to reduce it.",
+    "p3": "The information that would have changed his recovery existed. It was in physiotherapy training, in specialist clinics, in journals. It was not in his hands, in his language, on the day he needed it."
+  },
+  "whatWeAre": {
+    "title": "What we are",
+    "body": "A rehabilitation programme for peripheral facial paralysis, delivered in a browser, built and supervised by clinicians who do this work in person. Founded in 2023, based in Lisbon and Amsterdam, currently used by around fourteen thousand people across twenty-two countries."
+  },
+  "whatWeAreNot": {
+    "title": "What we are not",
+    "body": "We are not a diagnostic service, we are not a replacement for medical care, and we are not a wellness product. We do not treat facial paralysis as a mindset problem. We will not tell you that your recovery depends on your attitude."
+  },
+  "funding": {
+    "title": "How we are funded",
+    "body": "Entirely by subscriptions. No advertising, no data sales, no insurer partnerships that would give someone else an interest in what your face is doing. We have taken a single seed investment round and our investors have no access to patient data."
+  },
+  "refuse": {
+    "title": "The things we refuse to build",
+    "body": "Recovery predictions. Streak mechanics. Patient leaderboards. Push notifications that imply you have let someone down. Countdown timers on pricing. A cancellation flow with more than two clicks in it. These come up in product meetings and the answer has been no every time."
+  },
+  "stats": {
+    "people": { "value": "{n, number}+", "label": "People in recovery", "detail": "Across {count, number} countries" },
+    "founded": { "label": "Founded", "detail": "Lisbon and Amsterdam" },
+    "languages": { "label": "Languages", "detail": "Full app and knowledge base" },
+    "dataSold": { "label": "Rows of data sold", "detail": "Not to anyone, ever" }
+  },
+  "team": {
+    "title": "The people behind it",
+    "lead": "Registration numbers included, because you should be able to check.",
+    "cta": "Meet the clinical team"
+  }
+}

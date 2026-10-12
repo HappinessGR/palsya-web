@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Hoe Palsya werk",
+    "description": "Van die assessering tot u eerste skandering: fase-indeling, die daaglikse sessie, weeklikse skanderings, vordering oor tyd en die klinikus — sonder die bemarkingsglans."
+  },
+  "hero": {
+    "eyebrow": "Hoe dit werk",
+    "title": "Van die assessering tot u eerste skandering",
+    "lead": "Die hele ding, sonder die bemarkingsglans."
+  },
+  "stepLabel": "Stap {n}",
+  "steps": {
+    "assessment": {
+      "title": "Die assessering",
+      "p1": "Sestien vrae, sowat agt minute. Nie 'n vasvra wat u kan slaag nie — die antwoorde bepaal u beginpunt, so as u raai wat beter klink, word u program slegter.",
+      "p2": "Dit vra wanneer die swakheid begin het, wat u diagnose is, wat in drie areas van u gesig beweeg en wat nie, of bewegings aan mekaar gekoppel is, en hoe die daaglikse lewe gaan. Dit vra ook in besonderhede oor u oog, want dit is die deel wat blywende skade kan veroorsaak.",
+      "p3": "As u antwoorde iets toon wat 'n dokter eerder as 'n toep nodig het — oogpyn, swakheid in 'n arm of been, swakheid wat ná weke steeds erger word, albei kante wat aangetas is, of nog geen diagnose nie — hou ons op en sê dit. Ons verloor eerder die registrasie."
+    },
+    "stage": {
+      "title": "U fase, en waarom",
+      "p1": "U antwoorde gaan deur 'n indelingsproses wat deur ons kliniese span gebou is: die tyd sedert aanvang stel 'n buitegrens, wat werklik beweeg doen die eintlike werk, dan volg aanpassings vir gekoppelde beweging en styfheid, en dan 'n betroubaarheidstoets.",
+      "p2": "U sien die redenasie, in gewone taal. Nie net \"Fase 3\" nie, maar waarom fase 3 en wat dit spesifiek aan u dag verander.",
+      "p3": "Wanneer die antwoorde nie in 'n gewone patroon saampas nie, of u aanvang meer as 90 dae gelede was, of u verlamming ná 'n operasie of 'n besering gevolg het, hersien 'n klinikus die indeling voordat u program begin. Daardie hersiening gebeur binne een werksdag en is ingesluit."
+    },
+    "session": {
+      "title": "Die daaglikse sessie",
+      "p1": "Een skerm, een knoppie. Drie dele: kleefband, oefeninge, daaglikse roetine. Tien tot twintig minute, afhangende van u fase, en u kan dit in twee verdeel.",
+      "p2": "Elke oefening word gelei deur 'n tydhouer met gesproke wenke, 'n diagram, die aantal herhalings vir u fase, en die een ding wat die meeste mense by daardie spesifieke beweging verkeerd doen. By die kleefband sien u waar elke strook gaan en hoeveel spanning — dit is die fout wat byna almal maak, altyd in die rigting van te veel.",
+      "p3": "Merk dit as gedoen en dit word aangeteken. Slaan 'n dag oor en niks gebeur nie."
+    },
+    "scan": {
+      "title": "Die weeklikse skandering",
+      "p1": "U plaas u gesig binne 'n buitelyn en volg vier opdragte: rus, wenkbroue lig, sagte glimlag, oë toemaak. Sowat negentig sekondes.",
+      "p2": "Voordat enigiets gemeet word, word die beeld nagegaan vir die dinge wat valse resultate gee — lig wat van een kant af kom, te donker, onskerpte, beweging. As die beeld nie goed genoeg is nie, sê ons dit en u neem dit weer. 'n Swak skandering is erger as geen skandering nie.",
+      "p3": "Landmerke word op u toestel bepaal. U aangetaste kant word streek vir streek vergelyk met die spieëlbeeld van u onaangetaste kant, en saamgevoeg tot een telling uit 100 relatief tot u eie basislyn.",
+      "p4": "Die telling is 'n geometriese meting. Dit is nie 'n graad van erns nie, dit kan nie na House-Brackmann omgeskakel word nie, en dit is nie 'n persentasie van herstel nie. Die hele doel daarvan is om u vandag met u verlede maand te vergelyk."
+    },
+    "timeline": {
+      "title": "Wat u oor tyd sien",
+      "p1": "'n Tydlyn van u telling met die meetmarge daarop aangedui, sodat u kan sien watter veranderinge werklik is en watter ruis is. 'n Vergelyking langs mekaar met enige vroeëre skandering. 'n Fototydlyn wat u beheer en op enige stadium kan uitvee.",
+      "p2": "Vorderingsverslae wat uit u eie data geskryf word, in 'n sjabloon wat nie u uitkoms sal voorspel of u vir inspanning sal prys nie. Mylpale wat feitelike waarnemings is — \"lippe het tydens drink toe gebly\" — nie kentekens nie."
+    },
+    "clinician": {
+      "title": "Die klinikus",
+      "p1": "Op die planne wat konsultasies insluit, bespreek u 'n video-oproep van 30 minute met 'n spesialis in gesigsrehabilitasie en kies u met wie u praat. U kan u skanderings en verslae vooraf met hulle deel, sodat die oproep nie aan bybring bestee word nie.",
+      "p2": "Daarna kry u geskrewe notas en 'n spesifieke plan. As u program moet verander, verander hulle dit — 'n klinikus kan die algoritme ignoreer en doen dit dikwels."
+    }
+  },
+  "notRight": {
+    "title": "En as dit nie vir u reg is nie?",
+    "lead": "Kanselleer tydens die sewe gratis dae en u word niks gehef nie. Kanselleer later en dit neem twee klikke — geen oproep nie, geen aanbod om u te hou nie, geen misleidende ontwerp nie. Neem 'n uitvoer van u data saam wanneer u gaan.",
+    "cta": "Begin u gratis 7 dae"
+  }
+}

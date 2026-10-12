@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Clínico — Palsya",
+    "description": "O portal de clínicos da Palsya."
+  },
+  "welcome": "Bem-vindo",
+  "welcomeNamed": "Bem-vindo, {name}",
+  "subtitle": "Portal de clínicos",
+  "patients": {
+    "title": "Os seus doentes",
+    "count": "{count, plural, one {# doente atribuído a si} other {# doentes atribuídos a si}}",
+    "emptyTitle": "Ainda sem doentes",
+    "emptyBody": "Os doentes são-lhe atribuídos por um administrador. Aparecem aqui assim que forem atribuídos.",
+    "columns": {
+      "name": "Nome",
+      "email": "Email",
+      "stage": "Fase",
+      "onset": "Data de início",
+      "lastSession": "Última sessão"
+    },
+    "noStage": "Não avaliado",
+    "none": "—",
+    "open": "Abrir {name}"
+  },
+  "patient": {
+    "meta": {
+      "title": "Doente — Palsya",
+      "description": "Progresso, histórico de fases e notas de um dos seus doentes."
+    },
+    "back": "Voltar aos seus doentes",
+    "stageBadge": "Fase {stage} · {name}",
+    "noStage": "Ainda não avaliado",
+    "onset": "Início: {date}",
+    "noOnset": "Data de início não indicada",
+    "sessions": {
+      "title": "Histórico de sessões",
+      "empty": "Ainda não há sessões registadas.",
+      "columns": {
+        "date": "Data",
+        "status": "Estado",
+        "note": "Nota do doente"
+      },
+      "status": {
+        "full": "Completa",
+        "part": "Parcial",
+        "none": "Não feita"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Histórico de fases",
+      "empty": "Ainda não foi atribuída nenhuma fase.",
+      "override": "Alterada por um clínico",
+      "overrideReason": "Motivo: {reason}",
+      "assessment": "Pela avaliação",
+      "needsReview": "Requer revisão"
+    },
+    "notes": {
+      "title": "Notas",
+      "empty": "Ainda não há notas.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Antigo membro da equipa",
+      "label": "Adicionar uma nota",
+      "hint": "As notas fazem parte do processo do doente e não podem ser editadas nem eliminadas. Até {max} caracteres.",
+      "placeholder": "O que observou ou aconselhou?",
+      "submit": "Guardar nota",
+      "saving": "A guardar…",
+      "saved": "Nota guardada."
+    },
+    "stage": {
+      "title": "Alterar fase",
+      "intro": "Defina a fase do doente quando a sua avaliação for diferente da do programa. A alteração fica registada no histórico de fases.",
+      "label": "Nova fase",
+      "option": "Fase {stage} · {name}",
+      "reasonLabel": "Motivo (opcional)",
+      "reasonHint": "Aparece no histórico de fases. Até {max} caracteres.",
+      "submit": "Alterar fase",
+      "saving": "A guardar…",
+      "saved": "Fase alterada para {stage}."
+    },
+    "errors": {
+      "forbidden": "Não pode fazer alterações a este doente.",
+      "not_signed_in": "A sua sessão terminou. Entre novamente.",
+      "invalid_note": "Escreva uma nota com 1 a 5000 caracteres.",
+      "invalid_stage": "Escolha uma fase de 1 a 5.",
+      "invalid_reason": "O motivo pode ter até 500 caracteres.",
+      "failed": "Algo correu mal. Tente novamente."
+    }
+  }
+}

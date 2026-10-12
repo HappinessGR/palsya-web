@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "meta": {
+      "title": "Bladsy nie gevind nie — Palsya",
+      "description": "Hierdie bladsy bestaan nie of het geskuif."
+    },
+    "code": "404",
+    "title": "Ons kon nie daardie bladsy vind nie",
+    "body": "Die skakel is dalk verouderd, of die bladsy word nog geskryf. Alles anders is waar u dit gelos het.",
+    "home": "Terug na die tuisblad",
+    "guides": "Blaai deur die gidse"
+  },
+  "error": {
+    "title": "Iets het skeefgeloop",
+    "body": "Dit is ons kant, nie u s'n nie. Probeer weer, en as dit aanhou gebeur, kontak ondersteuning.",
+    "retry": "Probeer weer",
+    "home": "Terug na die tuisblad",
+    "reference": "Verwysing: {digest}"
+  },
+  "loading": "Laai tans…"
+}

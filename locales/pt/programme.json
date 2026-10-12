@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Proteger",
+      "short": "O nervo está inflamado. O trabalho é proteger, não esforçar.",
+      "window": "Normalmente entre os dias 1 e 14 após o início",
+      "body": "Nada do que faça com o músculo vai acelerar o nervo nesta fase, e forçar pode dificultar as coisas mais tarde. Por isso, o programa é deliberadamente calmo: proteger o olho, manter os tecidos flexíveis, apoiar a posição de repouso do rosto e deixar a inflamação acalmar.",
+      "focus": {
+        "f1": "Proteção e lubrificação do olho",
+        "f2": "Apoio passivo, sem movimentos forçados",
+        "f3": "Massagem suave para a circulação",
+        "f4": "Sono e repouso"
+      },
+      "avoid": {
+        "a1": "Movimentos forçados ou de esforço máximo",
+        "a2": "Estimulação elétrica",
+        "a3": "Pastilha elástica como \"exercício\"",
+        "a4": "Continuar apesar da dor"
+      },
+      "tapeMode": "Apoio em repouso — levanta a zona média do rosto contra a gravidade. Sem puxar para o movimento."
+    },
+    "2": {
+      "name": "Ativar",
+      "short": "Os primeiros sinais estão a chegar. Ajudamos o cérebro a encontrá-los.",
+      "window": "Normalmente entre as semanas 2 e 6, assim que surge algum esboço de movimento",
+      "body": "Um esboço de movimento chega para trabalhar. O objetivo agora é encontrar o movimento mais pequeno que consegue realmente fazer e repeti-lo com precisão, em vez de fazer mal um movimento grande. Pequeno e correto é melhor do que grande e com recrutamento de outros músculos.",
+      "focus": {
+        "f1": "Encontrar o movimento voluntário mínimo",
+        "f2": "Repetições com pouco esforço e muita precisão",
+        "f3": "Feedback do espelho para a direção",
+        "f4": "Manter o lado não afetado quieto"
+      },
+      "avoid": {
+        "a1": "Esforço excessivo, que recruta os músculos errados",
+        "a2": "Séries longas — o cansaço piora o padrão",
+        "a3": "Comparar os dois lados a meio do exercício"
+      },
+      "tapeMode": "Assistência — a fita ajuda o movimento que está a tentar fazer, para que precise de menos esforço."
+    },
+    "3": {
+      "name": "Coordenação",
+      "short": "O movimento existe. Agora tem de ir para onde o manda.",
+      "window": "Normalmente entre as semanas 6 e 16",
+      "body": "Nesta fase, a maioria das pessoas consegue produzir movimento, mas não isolá-lo — o olho fecha-se um pouco quando sorri, ou o canto da boca puxa quando fecha o olho. O trabalho de coordenação ensina a separar. É mais lento e menos gratificante do que o trabalho de força, e é mais importante.",
+      "focus": {
+        "f1": "Separar o movimento do olho do movimento da boca",
+        "f2": "Amplitude lenta e controlada a meio do movimento",
+        "f3": "Manter uma posição em vez de a atingir de repente",
+        "f4": "Relaxar entre repetições"
+      },
+      "avoid": {
+        "a1": "Repetições rápidas",
+        "a2": "Praticar o padrão ligado que está a tentar desaprender",
+        "a3": "Continuar depois de chegar ao cansaço"
+      },
+      "tapeMode": "Orientação — a fita dá uma indicação de direção e desencoraja o movimento ligado."
+    },
+    "4": {
+      "name": "Refinar",
+      "short": "O rosto funciona. Procuramos controlo com pouco esforço.",
+      "window": "Normalmente entre os meses 4 e 9",
+      "body": "Refinar tem a ver com os movimentos que faz sem pensar: falar, comer, as expressões numa conversa. Os exercícios aproximam-se da vida real e afastam-se do espelho, e gerir a tensão passa a ser tão importante como ativar.",
+      "focus": {
+        "f1": "Expressão ao falar",
+        "f2": "Simetria com o esforço de uma conversa, não com esforço máximo",
+        "f3": "Libertar a rigidez e o recrutamento excessivo",
+        "f4": "Resistência ao longo do dia"
+      },
+      "avoid": {
+        "a1": "Manter posições com esforço máximo",
+        "a2": "Ignorar a rigidez porque já há movimento"
+      },
+      "tapeMode": "Ocasional — usada para tarefas específicas ou em caso de cansaço, não todos os dias."
+    },
+    "5": {
+      "name": "Manter",
+      "short": "Conservar o que construiu, e usá-lo.",
+      "window": "A partir de cerca do mês 9",
+      "body": "A recuperação estabiliza, mas normalmente não regride. Uma rotina de manutenção mais curta protege a amplitude e impede que a rigidez volte aos poucos, com análises periódicas para que qualquer desvio seja detetado cedo e não descoberto tarde.",
+      "focus": {
+        "f1": "Rotina diária de manutenção curta",
+        "f2": "Alongamentos e trabalho de relaxamento",
+        "f3": "Análises periódicas para confirmar a estabilidade",
+        "f4": "Regresso à atividade plena"
+      },
+      "avoid": {
+        "a1": "Parar completamente e perder amplitude sem dar por isso"
+      },
+      "tapeMode": "Não é de rotina. Disponível para dias cansativos ou ocasiões específicas."
+    }
+  },
+  "taping": {
+    "restingSupport": "Apoio em repouso",
+    "movementAssist": "Assistência ao movimento",
+    "directionalGuide": "Orientação direcional"
+  }
+}

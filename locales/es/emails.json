@@ -1,0 +1,26 @@
+{
+  "footer": "Recibe este correo debido a la actividad en su cuenta de Palsya. ¿Tiene preguntas? Contacte con {support}.",
+  "reset": {
+    "subject": "Restablezca su contraseña de Palsya",
+    "preheader": "Este enlace es válido durante {minutes} minutos.",
+    "heading": "Restablezca su contraseña",
+    "body": "Hemos recibido una solicitud para restablecer la contraseña de su cuenta de Palsya. Elija una nueva contraseña con el botón de abajo. El enlace solo funciona una vez y caduca en {minutes} minutos.",
+    "button": "Elegir una nueva contraseña",
+    "ignore": "Si no lo ha solicitado, puede ignorar este correo: su contraseña no cambiará."
+  },
+  "changed": {
+    "subject": "Se ha cambiado su contraseña de Palsya",
+    "preheader": "Si no ha sido usted, contacte con soporte.",
+    "heading": "Se ha cambiado su contraseña",
+    "body": "La contraseña de su cuenta de Palsya se cambió el {when, date, long} a las {when, time, short}. Se ha cerrado su sesión en sus otros dispositivos.",
+    "notYou": "Si no ha sido usted, contacte con soporte de inmediato en {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {Le han invitado a administrar Palsya} other {Le han invitado a Palsya como clínico}}",
+    "preheader": "Acepte la invitación y establezca su contraseña.",
+    "heading": "{role, select, admin {Únase a Palsya como administrador} other {Únase a Palsya como clínico}}",
+    "body": "{inviter} le ha invitado a Palsya {role, select, admin {como administrador} other {como clínico}}. Acepte la invitación para indicar su nombre y establecer su contraseña.",
+    "button": "Aceptar invitación",
+    "ignore": "Si no esperaba esta invitación, puede ignorar este correo."
+  }
+}

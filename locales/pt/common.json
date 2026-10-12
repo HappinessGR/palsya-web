@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Recuperação guiada da paralisia facial."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Idioma",
+    "change": "Idioma: {language}. Mudar de idioma"
+  },
+  "nav": {
+    "main": "Principal",
+    "menu": "Menu",
+    "closeMenu": "Fechar menu",
+    "home": "Página inicial da Palsya",
+    "howItWorks": "Como funciona",
+    "guides": "Guias",
+    "stories": "Histórias",
+    "pricing": "Preços",
+    "about": "Sobre nós",
+    "logIn": "Entrar",
+    "startTrial": "Comece os 7 dias grátis",
+    "myDashboard": "O meu painel",
+    "logOut": "Terminar sessão",
+    "signedInAs": "Sessão iniciada como {name}"
+  },
+  "footer": {
+    "tagline": "Reabilitação guiada para a paralisia facial periférica. Criada e supervisionada por clínicos que fazem este trabalho presencialmente.",
+    "location": "Lisboa e Amesterdão · Fundada em {year}",
+    "product": "Produto",
+    "guides": "Guias",
+    "company": "Empresa",
+    "links": {
+      "howItWorks": "Como funciona",
+      "pricing": "Preços",
+      "stories": "Histórias de recuperação",
+      "startFree": "Comece grátis",
+      "signIn": "Entrar",
+      "about": "Sobre nós",
+      "team": "Equipa clínica",
+      "contact": "Contacto e apoio",
+      "privacy": "Aviso de privacidade",
+      "terms": "Termos",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Aviso médico.",
+    "copyright": "© {year} Palsya Health, Lda. Todos os direitos reservados.",
+    "trust": {
+      "gdpr": "Em conformidade com o RGPD",
+      "eu": "Servidores na UE",
+      "languages": "{count} idiomas",
+      "stripe": "Pagamentos via Stripe"
+    }
+  },
+  "medicalDisclaimer": "A Palsya é um programa de apoio à reabilitação. Não faz diagnósticos e não substitui os cuidados médicos. Obtenha sempre um diagnóstico de um médico antes de começar e contacte um médico no próprio dia se tiver dor, vermelhidão ou alterações da visão num olho.",
+  "actions": {
+    "back": "Voltar",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "save": "Guardar",
+    "retry": "Tentar novamente",
+    "signOut": "Terminar sessão",
+    "loading": "A carregar…"
+  }
+}

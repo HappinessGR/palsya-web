@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Guides — Palsya",
+    "description": "Seven free guides to peripheral facial paralysis, written by our clinical team, reviewed by a second clinician, and dated."
+  },
+  "hero": {
+    "eyebrow": "Knowledge base",
+    "title": "Seven guides, free, no account",
+    "lead": "Written by our clinical team, reviewed by a second clinician, and dated so you know how current they are. Where the evidence is thin, we say so."
+  },
+  "byline": "{minutes, plural, one {# min read} other {# min read}} · {author} · reviewed {date}",
+  "safety": "<b>If your eye is painful or red, or your vision has changed, see a doctor today.</b> Corneal damage from an eye that cannot close is the one complication of facial paralysis that can cause lasting harm, and it is treatable. That is more urgent than anything on this page.",
+  "articles": {
+    "what-is-pfp": {
+      "title": "What is peripheral facial paralysis?",
+      "blurb": "What has happened to the nerve, why one side of the face stopped moving, and what that does and does not mean."
+    },
+    "stages-of-recovery": {
+      "title": "The stages of recovery",
+      "blurb": "Five stages, what the body is doing in each, and why the programme changes shape as you move through them."
+    },
+    "facial-taping-guide": {
+      "title": "Facial taping: a practical guide",
+      "blurb": "What the tape does, what it does not do, how to apply it safely, and when to take it off."
+    },
+    "facial-exercises-guide": {
+      "title": "Facial exercises: how to do them properly",
+      "blurb": "Why small and accurate beats big and forceful, and the mistakes that make recovery harder."
+    },
+    "daily-routine": {
+      "title": "Building a daily routine that holds",
+      "blurb": "Eye care, eating, sleep, and fitting a programme into a life that already exists."
+    },
+    "research-evidence": {
+      "title": "Research and evidence",
+      "blurb": "What the literature supports, what is uncertain, and where our own numbers come from."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "blurb": "Eligibility, timelines, cost, data, and the questions people ask before signing up."
+    }
+  },
+  "faq": {
+    "gettingStarted": {
+      "title": "Getting started",
+      "items": {
+        "rightForMe": {
+          "q": "Is Palsya right for me?",
+          "a": "Palsya is built for people with peripheral facial paralysis — Bell's palsy, Ramsay Hunt, and post-surgical or post-traumatic facial nerve injury — whose onset was between 5 and 90 days ago. If your onset was more recent than 5 days, you should be under medical assessment first; steroids given early make a measurable difference and that window matters more than starting rehabilitation. If it was longer than 90 days ago, a structured programme can still help, but you should speak to a clinician about the right starting point. Our assessment will tell you honestly if we are not the right fit."
+        },
+        "diagnosis": {
+          "q": "Do I need a diagnosis first?",
+          "a": "Yes. Palsya is a rehabilitation programme, not a diagnostic service. Facial weakness has causes that need medical investigation, some of them urgent. See a doctor first and come to us with a diagnosis."
+        },
+        "install": {
+          "q": "Do I need to install anything?",
+          "a": "No. Palsya runs in your browser on a phone, tablet, or computer. You will need to allow camera access for scans, and a reasonably steady internet connection."
+        },
+        "technology": {
+          "q": "What if I am not confident with technology?",
+          "a": "The daily session is one screen with one button. Scans are guided step by step with plain instructions. If you get stuck, support answers in your language and can walk you through it on a call."
+        }
+      }
+    },
+    "programme": {
+      "title": "The programme",
+      "items": {
+        "timePerDay": {
+          "q": "How much time does it take each day?",
+          "a": "Between 10 and 20 minutes depending on your stage, usually split into two shorter sessions. Stage 1 is the shortest because it is mostly protection. Stage 3 is the longest because coordination work needs rest between repetitions."
+        },
+        "missDays": {
+          "q": "What if I miss days?",
+          "a": "Nothing happens. Your programme does not reset, nothing is lost, and we will not send you guilt. Open the app and do today's session. If a pattern of missed days appears, your clinician may ask about it — usually because the programme needs adjusting, not because you do."
+        },
+        "physio": {
+          "q": "Can I use this alongside in-person physiotherapy?",
+          "a": "Yes, and many people do. Tell your therapist you are using Palsya and share your progress reports with them. If their guidance conflicts with ours, follow theirs — they can see you."
+        },
+        "recovery": {
+          "q": "Will I definitely recover?",
+          "a": "We will not answer that, because nobody honestly can. Most people with Bell's palsy recover well. A minority retain lasting asymmetry. We will not predict which group you are in, and you should be wary of anyone who does."
+        }
+      }
+    },
+    "scans": {
+      "title": "Scans and measurement",
+      "items": {
+        "howScan": {
+          "q": "How does the scan work?",
+          "a": "You position your face in an outline and follow four prompts — rest, brow raise, gentle smile, eye closure. Facial landmarks are detected and the geometry of your affected side is compared with the mirrored unaffected side. The result is a symmetry score out of 100 relative to your own baseline."
+        },
+        "photos": {
+          "q": "Do my photos leave my device?",
+          "a": "Landmark detection runs on your device — the images themselves are not sent anywhere for processing. Your photos are stored only if you consent to it, and only so you can see your own timeline. You can delete any photo, or all of them, at any time."
+        },
+        "scoreMeaning": {
+          "q": "What does the score actually mean?",
+          "a": "It measures geometric symmetry, and nothing more. It is not a clinical severity grade, it does not translate to a House-Brackmann number, and it is not a percentage of recovery. Its only real job is comparing you today with you last month. Measurement variability is about ±2.5 points, so we treat smaller changes as noise."
+        },
+        "scoreDown": {
+          "q": "My score went down. What does that mean?",
+          "a": "Most often: lighting, head angle, time of day, or fatigue. Sometimes: a genuinely harder week after illness or poor sleep. Occasionally: something worth a clinician looking at. A single lower scan is not evidence of decline. Two or three in a row is worth a conversation, and we will suggest one."
+        }
+      }
+    },
+    "cost": {
+      "title": "Cost and consultations",
+      "items": {
+        "pricing": {
+          "q": "How does pricing work?",
+          "a": "Three-month packages: {app} for the app alone, {guided} with two video consultations, {supported} with six. There is a {trialDays}-day free trial and you are not charged until day {chargeDay}. After three months you can extend month to month at {extension}, or stop. Extra consultations are {consult} each."
+        },
+        "whyThreeMonths": {
+          "q": "Why three months and not monthly?",
+          "a": "Because meaningful change in facial rehabilitation happens across months, and a one-month subscription would set you up to conclude it was not working right before it did. Three months is roughly the shortest honest commitment."
+        },
+        "cancel": {
+          "q": "Can I cancel?",
+          "a": "Yes, any time, from your account settings, in two clicks. No phone call, no retention offer. If you cancel during the free trial you are not charged at all."
+        },
+        "clinicians": {
+          "q": "Who are the clinicians on the calls?",
+          "a": "Licensed physiotherapists and physicians with specific training in facial rehabilitation. Their names, registrations, and languages are listed on our clinical team page. You can choose who you speak to."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy",
+      "items": {
+        "dataStored": {
+          "q": "Where is my data stored?",
+          "a": "On servers in the European Union, encrypted at rest and in transit. We are GDPR compliant. Facial images are treated as special category biometric data under Article 9 and handled accordingly."
+        },
+        "sellData": {
+          "q": "Do you sell my data?",
+          "a": "No. Not to advertisers, not to insurers, not to researchers. Research use is opt-in, separate, aggregated, and refusing it changes nothing about your programme."
+        },
+        "exportDelete": {
+          "q": "Can I get my data out, or delete it?",
+          "a": "Both, from your account settings. Export gives you your scans, sessions, and reports in a portable format. Deletion is permanent and removes your images within 30 days."
+        }
+      }
+    }
+  },
+  "authorTeam": "Palsya clinical team"
+}

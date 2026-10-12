@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Wenkbrauw optrekken",
+      "instructions": "Ga voor een spiegel zitten, schouders laag, kaak ontspannen. Leg twee vingers plat op de wenkbrauw aan de <b>gezonde</b> kant en houd die stil. Zo kan de goede kant het werk niet overnemen. Trek de wenkbrauw aan de aangedane kant op, alsof u licht verbaasd bent. Mik op een kleine beweging die u onder controle hebt, niet op de grootste die u kunt maken. Houd drie seconden vast en laat de wenkbrauw dan vanzelf zakken. Duw hem niet omlaag. Wacht vijf seconden tussen de herhalingen.",
+      "why": "De wenkbrauw herstelt vaak als laatste. Door hem te oefenen blijft de zenuwbaan actief en voorkomt u dat het voorhoofd aan de aangedane kant stijf wordt.",
+      "steps": {
+        "s1": "Ga voor een spiegel zitten, schouders laag, kaak ontspannen.",
+        "s2": "Leg twee vingers plat op de wenkbrauw aan de <b>gezonde</b> kant en houd die stil. Zo kan de goede kant het werk niet overnemen.",
+        "s3": "Trek de wenkbrauw aan de aangedane kant op, alsof u licht verbaasd bent. Mik op een kleine beweging die u onder controle hebt, niet op de grootste die u kunt maken.",
+        "s4": "Houd drie seconden vast en laat de wenkbrauw dan vanzelf zakken. Duw hem niet omlaag.",
+        "s5": "Wacht vijf seconden tussen de herhalingen."
+      },
+      "watch": "Gaat het oog dicht of trekt de mond mee als u optrekt, gebruik dan minder kracht. Die koppeling wordt sterker als u ermee oefent, dus we oefenen eronder."
+    },
+    "eye": {
+      "name": "Oog zacht sluiten",
+      "instructions": "Kijk recht vooruit. Laat eerst uw gezicht tot rust komen. Sluit beide ogen zacht, alsof u in slaap valt — niet dichtknijpen. Houd twee seconden vast en let erop of het aangedane bovenooglid het onderooglid raakt. Open de ogen langzaam en helemaal. Sluit het ooglid niet helemaal, forceer dan niets. Sluit zo ver als het gaat en ondersteun het ooglid voorzichtig met een schone vingertop.",
+      "why": "Het sluiten van het oog beschermt het hoornvlies. Herhaald zacht sluiten herstelt ook het knipperpatroon, dat los van krachtig dichtknijpen herstelt.",
+      "steps": {
+        "s1": "Kijk recht vooruit. Laat eerst uw gezicht tot rust komen.",
+        "s2": "Sluit beide ogen zacht, alsof u in slaap valt — niet dichtknijpen.",
+        "s3": "Houd twee seconden vast en let erop of het aangedane bovenooglid het onderooglid raakt.",
+        "s4": "Open de ogen langzaam en helemaal.",
+        "s5": "Sluit het ooglid niet helemaal, forceer dan niets. Sluit zo ver als het gaat en ondersteun het ooglid voorzichtig met een schone vingertop."
+      },
+      "watch": "Krachtig dichtknijpen schakelt de mond en de nek in. Voelt u uw mondhoek bewegen, dan knijpt u."
+    },
+    "nose": {
+      "name": "Neusvleugels spreiden",
+      "instructions": "Adem in door de neus en laat de neusvleugels daarbij wijder worden. Probeer de neusvleugel aan de aangedane kant iets verder te spreiden. Houd twee seconden vast en laat helemaal los. Houd de bovenlip stil — dit is een beweging van de neus, geen minachtende grimas.",
+      "why": "Het middengezicht tilt de neus-lipplooi op en ondersteunt de bovenlip. Het reageert goed op kleine, gerichte oefeningen en wordt makkelijk overgeslagen.",
+      "steps": {
+        "s1": "Adem in door de neus en laat de neusvleugels daarbij wijder worden.",
+        "s2": "Probeer de neusvleugel aan de aangedane kant iets verder te spreiden.",
+        "s3": "Houd twee seconden vast en laat helemaal los.",
+        "s4": "Houd de bovenlip stil — dit is een beweging van de neus, geen minachtende grimas."
+      },
+      "watch": "Houd de boventanden bedekt. Gaat de lip omhoog zodat de tanden zichtbaar worden, dan heeft de verkeerde spier het overgenomen."
+    },
+    "smile": {
+      "name": "Zachte glimlach",
+      "instructions": "Leg uw lippen op elkaar, tanden los van elkaar. Trek beide mondhoeken omhoog en iets naar buiten — een glimlach met gesloten lippen, ongeveer een derde van uw maximum. Kijk in de spiegel: bewegen de mondhoeken even ver? Zo niet, gebruik dan minder kracht tot dat wel zo is. Houd drie seconden vast en laat in twee seconden langzaam los. Laat uw gezicht tussen de herhalingen helemaal ontspannen.",
+      "why": "Functioneel de belangrijkste oefening, en de oefening die het vaakst wordt overdreven. Een gecontroleerde kleine glimlach traint het juiste patroon; een geforceerde grote glimlach traint de compensatie.",
+      "steps": {
+        "s1": "Leg uw lippen op elkaar, tanden los van elkaar.",
+        "s2": "Trek beide mondhoeken omhoog en iets naar buiten — een glimlach met gesloten lippen, ongeveer een derde van uw maximum.",
+        "s3": "Kijk in de spiegel: bewegen de mondhoeken even ver? Zo niet, gebruik dan minder kracht tot dat wel zo is.",
+        "s4": "Houd drie seconden vast en laat in twee seconden langzaam los.",
+        "s5": "Laat uw gezicht tussen de herhalingen helemaal ontspannen."
+      },
+      "watch": "Dat het oog kleiner wordt als u glimlacht, is precies de koppeling waar we tegenin werken. Minder kracht, niet meer herhalingen."
+    },
+    "pucker": {
+      "name": "Tuiten en sluiten van de lippen",
+      "instructions": "Breng de lippen samen en naar voren, alsof u \"oe\" gaat zeggen. Houd de tuit in het midden — laat hem niet naar de sterkere kant wegtrekken. Houd drie seconden vast. Druk de lippen licht op elkaar, zonder te klemmen. Laat los en laat de lippen van elkaar gaan.",
+      "why": "Door de lipsluiting kunt u drinken, eten en ploffende klanken uitspreken. Vaak is het de eerste verandering die patiënten in het dagelijks leven merken.",
+      "steps": {
+        "s1": "Breng de lippen samen en naar voren, alsof u \"oe\" gaat zeggen.",
+        "s2": "Houd de tuit in het midden — laat hem niet naar de sterkere kant wegtrekken.",
+        "s3": "Houd drie seconden vast. Druk de lippen licht op elkaar, zonder te klemmen.",
+        "s4": "Laat los en laat de lippen van elkaar gaan."
+      },
+      "watch": "Trekt de tuit opzij, leg dan een vingertop licht op de mondhoek aan de sterke kant om hem op zijn plaats te houden."
+    },
+    "cheek": {
+      "name": "Wangen bol blazen en vasthouden",
+      "instructions": "Adem normaal in en blaas beide wangen bol met gesloten lippen. Houd vijf seconden vast zonder lucht te laten ontsnappen. Ontsnapt er lucht aan de aangedane kant, houd die wang dan licht vast met een schone hand en probeer het opnieuw. Laat de lucht langzaam via de neus ontsnappen, niet met een plop.",
+      "why": "Lucht vasthouden test de lipsluiting onder belasting en bouwt het uithoudingsvermogen op dat u nodig hebt om te praten en te eten, niet alleen voor de oefeningen.",
+      "steps": {
+        "s1": "Adem normaal in en blaas beide wangen bol met gesloten lippen.",
+        "s2": "Houd vijf seconden vast zonder lucht te laten ontsnappen.",
+        "s3": "Ontsnapt er lucht aan de aangedane kant, houd die wang dan licht vast met een schone hand en probeer het opnieuw.",
+        "s4": "Laat de lucht langzaam via de neus ontsnappen, niet met een plop."
+      },
+      "watch": "Doe deze oefening niet als u onlangs een oroperatie hebt gehad of als uw behandelaar heeft gezegd dat u drukveranderingen moet vermijden."
+    },
+    "separate": {
+      "name": "Oog en mond loskoppelen",
+      "instructions": "Kijk in de spiegel. Glimlach zacht — een derde van uw maximum — en houd daarbij bewust beide ogen wijd open. Wordt het oog ook maar iets kleiner, verklein de glimlach dan tot dat niet meer gebeurt. Houd vier seconden vast met het oog open en laat dan los. Draai het nu om: sluit de ogen zacht en houd de mond daarbij helemaal stil. Rust acht seconden tussen de herhalingen. Deze oefening vermoeit snel.",
+      "why": "Dit is de kernoefening tegen synkinesie — de meebeweging waarbij het ene gebied reageert als u het andere aanspreekt. Loskoppelen traint u langzaam en met weinig kracht.",
+      "steps": {
+        "s1": "Kijk in de spiegel. Glimlach zacht — een derde van uw maximum — en houd daarbij bewust beide ogen wijd open.",
+        "s2": "Wordt het oog ook maar iets kleiner, verklein de glimlach dan tot dat niet meer gebeurt.",
+        "s3": "Houd vier seconden vast met het oog open en laat dan los.",
+        "s4": "Draai het nu om: sluit de ogen zacht en houd de mond daarbij helemaal stil.",
+        "s5": "Rust acht seconden tussen de herhalingen. Deze oefening vermoeit snel."
+      },
+      "watch": "Bij deze oefening is minder echt meer. Vijf nauwkeurige herhalingen zijn beter dan twintig met meebeweging."
+    },
+    "release": {
+      "name": "Stijfheid losmaken",
+      "instructions": "Leg schone vingertoppen op het stijve gebied — vaak de wang of de zijkant van de kin. Geef lichte, gelijkmatige druk en rek de huid langzaam in de richting tegengesteld aan de stijfheid. Houd vijftien seconden vast en adem normaal door. Het moet voelen als rekken, nooit als een scherpe pijn. Laat langzaam los en laat het weefsel tot rust komen voordat u herhaalt.",
+      "why": "Later in het herstel beperkt stijfheid de beweging meer dan zwakte. Losmaken herstelt bewegingsruimte die activatieoefeningen niet bereiken.",
+      "steps": {
+        "s1": "Leg schone vingertoppen op het stijve gebied — vaak de wang of de zijkant van de kin.",
+        "s2": "Geef lichte, gelijkmatige druk en rek de huid langzaam in de richting tegengesteld aan de stijfheid.",
+        "s3": "Houd vijftien seconden vast en adem normaal door. Het moet voelen als rekken, nooit als een scherpe pijn.",
+        "s4": "Laat langzaam los en laat het weefsel tot rust komen voordat u herhaalt."
+      },
+      "watch": "Stop als u scherpe pijn of tintelingen voelt, of als u na afloop meer trekkingen hebt."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Ondersteuning in rust",
+      "instructions": "Wang: net boven de kaaklijn, onder de aangedane mondhoek -> omhoog en naar buiten, richting jukbeen. Plak het begin zonder rek, het midden met lichte rek, en de laatste 2 cm weer zonder rek. Mondhoek: 1 cm naast de aangedane mondhoek -> schuin omhoog richting oor. Deze strook is heel licht. Hij dient als prikkel, niet om op te tillen.",
+      "goal": "Het middengezicht ondersteunen tegen de zwaartekracht terwijl de zenuw nog stil is, zodat het weefsel niet uitrekt en in een afgezakte stand blijft staan.",
+      "tension": "Heel licht — ongeveer 10% rek. U moet er een vingertop onder kunnen schuiven.",
+      "wear": "4–6 uur overdag. Nooit 's nachts.",
+      "strips": {
+        "s1": {
+          "where": "Wang",
+          "from": "Net boven de kaaklijn, onder de aangedane mondhoek",
+          "to": "Omhoog en naar buiten, richting jukbeen",
+          "note": "Plak het begin zonder rek, het midden met lichte rek, en de laatste 2 cm weer zonder rek."
+        },
+        "s2": {
+          "where": "Mondhoek",
+          "from": "1 cm naast de aangedane mondhoek",
+          "to": "Schuin omhoog richting oor",
+          "note": "Deze strook is heel licht. Hij dient als prikkel, niet om op te tillen."
+        }
+      }
+    },
+    "assist": {
+      "name": "Bewegingsondersteuning",
+      "instructions": "Jukbeenlijn: de aangedane mondhoek -> langs de natuurlijke lachlijn tot net voor het oor. Aanbrengen terwijl het gezicht in rust is, niet tijdens het lachen. Wenkbrauw: net boven de aangedane wenkbrauw, bij het buitenste derde deel -> omhoog richting haargrens. Blijf ruim uit de buurt van het oog. Trekt de tape aan het ooglid, verwijder hem dan en plak hem lager opnieuw.",
+      "goal": "De inspanning voor een beweging verminderen, zodat u het juiste patroon met weinig kracht kunt oefenen in plaats van u in een verkeerd patroon te forceren.",
+      "tension": "Licht tot matig — ongeveer 25% rek in het midden van de strook.",
+      "wear": "Tijdens de oefensessies, en tot 4 uur daarna.",
+      "strips": {
+        "s1": {
+          "where": "Jukbeenlijn",
+          "from": "De aangedane mondhoek",
+          "to": "Langs de natuurlijke lachlijn tot net voor het oor",
+          "note": "Aanbrengen terwijl het gezicht in rust is, niet tijdens het lachen."
+        },
+        "s2": {
+          "where": "Wenkbrauw",
+          "from": "Net boven de aangedane wenkbrauw, bij het buitenste derde deel",
+          "to": "Omhoog richting haargrens",
+          "note": "Blijf ruim uit de buurt van het oog. Trekt de tape aan het ooglid, verwijder hem dan en plak hem lager opnieuw."
+        }
+      }
+    },
+    "guide": {
+      "name": "Richtinggevende geleiding",
+      "instructions": "Ondersteuning onderooglid: de buitenste ooghoek -> naar buiten en iets omlaag, richting slaap. Nooit over het ooglid zelf. Alleen onder de rand van de oogkas. Tegenprikkel wang: midden van de wang -> omlaag en naar buiten. Dit werkt de opwaartse trek tegen die bij synkinesie hoort.",
+      "goal": "De huid tijdens coördinatietraining een richtingsprikkel geven en de meebeweging die u probeert los te koppelen licht ontmoedigen.",
+      "tension": "Licht — ongeveer 15%. De prikkel is gevoelsmatig, niet mechanisch.",
+      "wear": "Alleen tijdens coördinatieoefeningen. 20–30 minuten.",
+      "strips": {
+        "s1": {
+          "where": "Ondersteuning onderooglid",
+          "from": "De buitenste ooghoek",
+          "to": "Naar buiten en iets omlaag, richting slaap",
+          "note": "Nooit over het ooglid zelf. Alleen onder de rand van de oogkas."
+        },
+        "s2": {
+          "where": "Tegenprikkel wang",
+          "from": "Midden van de wang",
+          "to": "Omlaag en naar buiten",
+          "note": "Dit werkt de opwaartse trek tegen die bij synkinesie hoort."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Oogzorg",
+      "instructions": "Bevochtigende oogdruppels bij het opstaan Druppels elke 2–3 uur zolang u wakker bent 's Nachts oogzalf en het oog dichttapen of een vochtkamerbril Buiten een zonnebril, ook als het bewolkt is",
+      "when": "'s Ochtends, gedurende de dag en voor het slapengaan",
+      "body": "Sluit uw oog niet helemaal, dan is het beschermen van het hoornvlies het allerbelangrijkste van uw dag — belangrijker dan welke oefening ook. Overdag bevochtigende oogdruppels zonder conserveermiddel, 's nachts oogzalf, en overleg met uw behandelaar als het oog rood of pijnlijk wordt of als uw zicht verandert.",
+      "items": {
+        "i1": "Bevochtigende oogdruppels bij het opstaan",
+        "i2": "Druppels elke 2–3 uur zolang u wakker bent",
+        "i3": "'s Nachts oogzalf en het oog dichttapen of een vochtkamerbril",
+        "i4": "Buiten een zonnebril, ook als het bewolkt is"
+      }
+    },
+    "eat": {
+      "name": "Eten en drinken",
+      "instructions": "Kleinere happen, rustiger tempo Leg het eten aan de gezonde kant van de mond Spoel na het eten en controleer de aangedane wang Zit rechtop als u drinkt",
+      "when": "Bij elke maaltijd",
+      "body": "Voedsel dat zich in de aangedane wang verzamelt en drinken dat langs de lippen ontsnapt, zijn mechanische problemen met mechanische oplossingen. Kleinere happen, eten aan de sterkere kant, na het eten even in de spiegel kijken, en alleen een rietje als dat de lipsluiting niet moeilijker maakt.",
+      "items": {
+        "i1": "Kleinere happen, rustiger tempo",
+        "i2": "Leg het eten aan de gezonde kant van de mond",
+        "i3": "Spoel na het eten en controleer de aangedane wang",
+        "i4": "Zit rechtop als u drinkt"
+      }
+    },
+    "massage": {
+      "name": "Massage",
+      "instructions": "Schone, droge handen Kleine cirkels, lichte druk, naar boven toe Beide kanten, niet alleen de aangedane kant Stop als het trekkingen veroorzaakt",
+      "when": "Een- of tweemaal per dag, 3–4 minuten",
+      "body": "Langzame, cirkelende druk met schone vingertoppen over de wang, de kaak en rond de mond. Dit houdt de doorbloeding en de beweeglijkheid van het weefsel op peil. Het is geen training — voelt het stevig aan, doe het dan rustiger.",
+      "items": {
+        "i1": "Schone, droge handen",
+        "i2": "Kleine cirkels, lichte druk, naar boven toe",
+        "i3": "Beide kanten, niet alleen de aangedane kant",
+        "i4": "Stop als het trekkingen veroorzaakt"
+      }
+    },
+    "sleep": {
+      "name": "Slaap en rust",
+      "instructions": "Op de rug of op de gezonde kant, niet op de buik Oogbescherming voordat het licht uitgaat Oefen 's ochtends als de avonden zwaar zijn Rustdagen horen bij het programma",
+      "when": "Elke nacht",
+      "body": "Vermoeidheid van het gezicht is echt, en het maakt uw bewegingen minder zuiver. Slaap op uw rug of op de gezonde kant, zodat uw gezicht niet in het kussen wordt gedrukt, en neem de middagdip serieus — oefen als u fris bent.",
+      "items": {
+        "i1": "Op de rug of op de gezonde kant, niet op de buik",
+        "i2": "Oogbescherming voordat het licht uitgaat",
+        "i3": "Oefen 's ochtends als de avonden zwaar zijn",
+        "i4": "Rustdagen horen bij het programma"
+      }
+    },
+    "speech": {
+      "name": "Spraakoefening",
+      "instructions": "Lees elke dag 3 minuten hardop voor Leg de nadruk op p, b, m, f, v, w Langzaam genoeg om de lipsluiting vast te houden Neem uzelf wekelijks op als u dat nuttig vindt",
+      "when": "Eenmaal per dag, 3 minuten",
+      "body": "Ploffende klanken en lipklanken vragen om lipsluiting, dus ze werken ook als oefening die u zonder spiegel kunt doen. Lees langzaam hardop voor en overdrijf een beetje.",
+      "items": {
+        "i1": "Lees elke dag 3 minuten hardop voor",
+        "i2": "Leg de nadruk op p, b, m, f, v, w",
+        "i3": "Langzaam genoeg om de lipsluiting vast te houden",
+        "i4": "Neem uzelf wekelijks op als u dat nuttig vindt"
+      }
+    }
+  }
+}

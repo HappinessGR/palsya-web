@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Vandaag — Palsya",
+    "description": "Uw dagelijkse sessie, waar u staat in uw herstel en wat de moeite waard is om te lezen in deze fase."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Goedemorgen",
+        "afternoon": "Goedemiddag",
+        "evening": "Goedenavond",
+        "night": "Goedenacht"
+      },
+      "named": {
+        "morning": "Goedemorgen, {name}",
+        "afternoon": "Goedemiddag, {name}",
+        "evening": "Goedenavond, {name}",
+        "night": "Goedenacht, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# dag} other {# dagen}} in fase {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Fase {stage} · {name}",
+    "title": "Sessie van vandaag",
+    "allDone": "Alle drie de onderdelen zijn voor vandaag vastgelegd.",
+    "about": "Ongeveer {minutes} minuten. U kunt het over de dag verdelen.",
+    "partMinutes": "{minutes} min",
+    "exercisesCount": "{count, plural, one {# oefening} other {# oefeningen}}",
+    "dailyRoutine": "Dagelijkse routine",
+    "review": "Sessie van vandaag bekijken",
+    "continue": "Sessie hervatten",
+    "start": "Sessie starten",
+    "order": "Tapen, oefeningen en dan de dagelijkse routine"
+  },
+  "phaseBand": {
+    "title": "Waar u staat",
+    "fullProgress": "Alle voortgang",
+    "summary": "{short} {days, plural, one {# dag} other {# dagen}} in deze fase.",
+    "patternTitle": "Sessies van de afgelopen drie weken",
+    "patternLabel": "Sessies van de afgelopen {days} dagen",
+    "state": {
+      "full": "Voltooid",
+      "part": "Deels gedaan",
+      "none": "Niet vastgelegd"
+    },
+    "legend": "Gevuld is voltooid, licht is deels gedaan, leeg is niet vastgelegd. Er is hier geen reeks die u moet volhouden, en niets wordt teruggezet."
+  },
+  "score": {
+    "title": "Symmetriescore",
+    "emptyTitle": "Nog geen nulmeting",
+    "emptyBody": "Twee minuten nu bespaart u later het giswerk.",
+    "cta": "Nulmeting maken"
+  },
+  "clinician": {
+    "title": "Uw behandelaar",
+    "allConsultations": "Alle consulten",
+    "available": "U hebt nog {count, plural, one {# consult} other {# consulten}} beschikbaar in uw abonnement.",
+    "add": "Consult toevoegen"
+  },
+  "library": {
+    "title": "Het lezen waard in deze fase",
+    "link": "Bibliotheek",
+    "readTime": "{minutes} min lezen",
+    "logNote": "Noteer iets wat u opviel",
+    "logHint": "De functie verandert vaak eerder dan de vorm van het gezicht. Wat u opmerkt, telt ook als gegeven."
+  },
+  "backToDashboard": "Terug naar dashboard",
+  "progress": {
+    "meta": {
+      "title": "Uw voortgang — Palsya",
+      "description": "Een overzicht van uw vastgelegde sessies en hoe uw fase in de loop van de tijd is veranderd."
+    },
+    "title": "Uw voortgang",
+    "intro": "Een overzicht van uw vastgelegde sessies en hoe uw fase in de loop van de tijd is veranderd.",
+    "stageHistory": "Fasegeschiedenis",
+    "noPhase": "Er is nog geen fase toegewezen.",
+    "stageBadge": "Fase {stage} · {name}",
+    "sessionLog": "Sessielogboek",
+    "noSessions": "Nog niets vastgelegd — uw eerste sessie verschijnt hier.",
+    "columns": {
+      "date": "Datum",
+      "status": "Status",
+      "note": "Notitie"
+    },
+    "status": {
+      "full": "Voltooid",
+      "part": "Deels gedaan",
+      "none": "Niet vastgelegd"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Sessie van vandaag — Palsya",
+      "description": "Tapen, oefeningen en dan de dagelijkse routine voor uw huidige fase."
+    },
+    "title": "Sessie van vandaag — fase {stage} · {name}",
+    "intro": "Tapen, oefeningen en dan de dagelijkse routine. Doe ze in één keer of verdeel ze over de dag.",
+    "doneToday": "Vandaag gedaan",
+    "markNotDone": "Markeren als niet gedaan",
+    "taping": {
+      "title": "Tapen",
+      "none": "Geen techniek toegewezen voor deze fase",
+      "goal": "Doel",
+      "tension": "Spanning",
+      "wear": "Draagtijd",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Tapen gedaan"
+    },
+    "exercises": {
+      "title": "Oefeningen",
+      "progress": "{done} van {total} gedaan vandaag",
+      "dose": "{reps} × {hold} s vasthouden"
+    },
+    "routine": {
+      "title": "Dagelijkse routine",
+      "count": "{count, plural, one {# onderdeel} other {# onderdelen}} voor deze fase",
+      "markDone": "Routine gedaan"
+    },
+    "note": {
+      "title": "Is u iets opgevallen?",
+      "hint": "Optioneel. Vastgelegd bij vandaag, zichtbaar voor uw behandelaar als u het deelt.",
+      "placeholder": "Bijv. uit een glas gedronken zonder mijn mondhoek vast te houden."
+    }
+  }
+}

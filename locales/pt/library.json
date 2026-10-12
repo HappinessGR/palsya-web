@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Elevação da sobrancelha",
+      "instructions": "Sente-se em frente a um espelho, com os ombros descontraídos e o maxilar solto. Coloque dois dedos esticados sobre a sobrancelha do lado <b>não afetado</b> e mantenha-a quieta. Assim, o lado bom não faz o trabalho. Levante a sobrancelha do lado afetado como se estivesse ligeiramente surpreendido. Procure um movimento pequeno que consiga controlar, não o maior que conseguir. Mantenha durante três segundos e depois deixe-a descer sozinha. Não a empurre para baixo. Espere cinco segundos entre repetições.",
+      "why": "A sobrancelha é muitas vezes a última zona a recuperar. Trabalhá-la mantém a via nervosa ativa e evita que a testa fique rígida do lado afetado.",
+      "steps": {
+        "s1": "Sente-se em frente a um espelho, com os ombros descontraídos e o maxilar solto.",
+        "s2": "Coloque dois dedos esticados sobre a sobrancelha do lado <b>não afetado</b> e mantenha-a quieta. Assim, o lado bom não faz o trabalho.",
+        "s3": "Levante a sobrancelha do lado afetado como se estivesse ligeiramente surpreendido. Procure um movimento pequeno que consiga controlar, não o maior que conseguir.",
+        "s4": "Mantenha durante três segundos e depois deixe-a descer sozinha. Não a empurre para baixo.",
+        "s5": "Espere cinco segundos entre repetições."
+      },
+      "watch": "Se o olho se fechar ou a boca puxar quando levanta a sobrancelha, use menos esforço. Essa ligação fortalece-se com a prática, por isso treinamos abaixo desse limiar."
+    },
+    "eye": {
+      "name": "Fecho suave do olho",
+      "instructions": "Olhe em frente. Deixe primeiro o rosto em repouso. Feche os dois olhos suavemente, como se estivesse a adormecer — sem os apertar. Mantenha dois segundos e repare se a pálpebra do lado afetado chegou à pálpebra de baixo. Abra devagar e por completo. Se a pálpebra não fechar totalmente, não force. Feche até onde conseguir e apoie a pálpebra suavemente com a ponta de um dedo limpo.",
+      "why": "Fechar o olho protege a córnea. Fechá-lo suavemente e de forma repetida também recupera o padrão do pestanejar, que recupera separadamente do fecho com força.",
+      "steps": {
+        "s1": "Olhe em frente. Deixe primeiro o rosto em repouso.",
+        "s2": "Feche os dois olhos suavemente, como se estivesse a adormecer — sem os apertar.",
+        "s3": "Mantenha dois segundos e repare se a pálpebra do lado afetado chegou à pálpebra de baixo.",
+        "s4": "Abra devagar e por completo.",
+        "s5": "Se a pálpebra não fechar totalmente, não force. Feche até onde conseguir e apoie a pálpebra suavemente com a ponta de um dedo limpo."
+      },
+      "watch": "Apertar com força recruta a boca e o pescoço. Se sentir o canto da boca mexer-se, está a apertar."
+    },
+    "nose": {
+      "name": "Abrir as narinas",
+      "instructions": "Inspire pelo nariz e deixe as narinas alargarem ao fazê-lo. Tente alargar um pouco mais a narina do lado afetado. Mantenha dois segundos e relaxe por completo. Mantenha o lábio superior quieto — é um movimento do nariz, não uma careta de desdém.",
+      "why": "A zona média do rosto levanta o sulco nasogeniano e apoia o lábio superior. Responde bem a trabalho pequeno e isolado, e é fácil de esquecer.",
+      "steps": {
+        "s1": "Inspire pelo nariz e deixe as narinas alargarem ao fazê-lo.",
+        "s2": "Tente alargar um pouco mais a narina do lado afetado.",
+        "s3": "Mantenha dois segundos e relaxe por completo.",
+        "s4": "Mantenha o lábio superior quieto — é um movimento do nariz, não uma careta de desdém."
+      },
+      "watch": "Mantenha os dentes de cima tapados. Se o lábio subir e mostrar os dentes, foi o músculo errado que assumiu o movimento."
+    },
+    "smile": {
+      "name": "Sorriso suave",
+      "instructions": "Junte os lábios, com os dentes afastados. Puxe os dois cantos da boca para cima e ligeiramente para fora — um sorriso de lábios fechados, com cerca de um terço do seu máximo. Observe o espelho: os cantos mexem-se a mesma distância? Se não, use menos esforço até se mexerem. Mantenha três segundos e relaxe devagar, ao longo de dois segundos. Deixe o rosto completamente neutro entre repetições.",
+      "why": "É o mais importante para a função e o que mais vezes se exagera. Um sorriso pequeno e controlado treina o padrão; um sorriso grande e forçado treina a compensação.",
+      "steps": {
+        "s1": "Junte os lábios, com os dentes afastados.",
+        "s2": "Puxe os dois cantos da boca para cima e ligeiramente para fora — um sorriso de lábios fechados, com cerca de um terço do seu máximo.",
+        "s3": "Observe o espelho: os cantos mexem-se a mesma distância? Se não, use menos esforço até se mexerem.",
+        "s4": "Mantenha três segundos e relaxe devagar, ao longo de dois segundos.",
+        "s5": "Deixe o rosto completamente neutro entre repetições."
+      },
+      "watch": "O olho a fechar-se um pouco quando sorri é a ligação contra a qual estamos a trabalhar. Menos esforço, não mais repetições."
+    },
+    "pucker": {
+      "name": "Biquinho e fecho dos lábios",
+      "instructions": "Junte os lábios e projete-os para a frente, como se fosse dizer \"u\". Mantenha o biquinho ao centro — não o deixe desviar para o lado mais forte. Mantenha três segundos. Pressione os lábios um contra o outro com leveza, sem cerrar. Relaxe e deixe os lábios separarem-se.",
+      "why": "O fecho dos lábios é o que lhe permite beber, comer e dizer sons explosivos. Costuma ser a primeira mudança que os doentes notam no dia a dia.",
+      "steps": {
+        "s1": "Junte os lábios e projete-os para a frente, como se fosse dizer \"u\".",
+        "s2": "Mantenha o biquinho ao centro — não o deixe desviar para o lado mais forte.",
+        "s3": "Mantenha três segundos. Pressione os lábios um contra o outro com leveza, sem cerrar.",
+        "s4": "Relaxe e deixe os lábios separarem-se."
+      },
+      "watch": "Se o biquinho puxar para o lado, coloque levemente a ponta de um dedo no canto mais forte para o manter no sítio."
+    },
+    "cheek": {
+      "name": "Encher as bochechas e manter",
+      "instructions": "Inspire normalmente e encha as duas bochechas de ar, com os lábios fechados. Mantenha cinco segundos sem deixar o ar escapar. Se o ar escapar do lado afetado, segure essa bochecha levemente com a mão limpa e tente de novo. Deite o ar fora devagar pelo nariz, sem estalido.",
+      "why": "Reter o ar testa o fecho dos lábios sob carga e desenvolve a resistência de que precisa para falar e comer, e não só para os exercícios.",
+      "steps": {
+        "s1": "Inspire normalmente e encha as duas bochechas de ar, com os lábios fechados.",
+        "s2": "Mantenha cinco segundos sem deixar o ar escapar.",
+        "s3": "Se o ar escapar do lado afetado, segure essa bochecha levemente com a mão limpa e tente de novo.",
+        "s4": "Deite o ar fora devagar pelo nariz, sem estalido."
+      },
+      "watch": "Não faça este exercício se tiver sido operado ao ouvido recentemente ou se o seu clínico lhe tiver dito para evitar mudanças de pressão."
+    },
+    "separate": {
+      "name": "Separação olho–boca",
+      "instructions": "Observe o espelho. Sorria suavemente — um terço do máximo — mantendo conscientemente os dois olhos bem abertos. Se o olho se fechar minimamente, reduza o sorriso até deixar de acontecer. Mantenha quatro segundos com o olho aberto e depois relaxe. Agora ao contrário: feche os olhos suavemente, mantendo a boca completamente quieta. Descanse oito segundos entre repetições. Este exercício cansa depressa.",
+      "why": "É o exercício central contra a sincinesia — o movimento ligado em que uma zona se ativa quando pede o movimento de outra. A separação treina-se devagar e com pouco esforço.",
+      "steps": {
+        "s1": "Observe o espelho. Sorria suavemente — um terço do máximo — mantendo conscientemente os dois olhos bem abertos.",
+        "s2": "Se o olho se fechar minimamente, reduza o sorriso até deixar de acontecer.",
+        "s3": "Mantenha quatro segundos com o olho aberto e depois relaxe.",
+        "s4": "Agora ao contrário: feche os olhos suavemente, mantendo a boca completamente quieta.",
+        "s5": "Descanse oito segundos entre repetições. Este exercício cansa depressa."
+      },
+      "watch": "É o exercício em que menos é mesmo mais. Cinco repetições precisas valem mais do que vinte com movimento ligado."
+    },
+    "release": {
+      "name": "Relaxamento da rigidez",
+      "instructions": "Coloque as pontas dos dedos, limpas, sobre a zona tensa — normalmente a bochecha ou o lado do queixo. Faça uma pressão leve e constante e estique a pele devagar na direção oposta à da tensão. Mantenha quinze segundos, a respirar normalmente. Deve sentir-se como um alongamento, nunca como uma dor aguda. Relaxe devagar e deixe os tecidos assentarem antes de repetir.",
+      "why": "Mais tarde na recuperação, a rigidez limita o movimento mais do que a fraqueza. O trabalho de relaxamento recupera amplitude que o trabalho de ativação não consegue alcançar.",
+      "steps": {
+        "s1": "Coloque as pontas dos dedos, limpas, sobre a zona tensa — normalmente a bochecha ou o lado do queixo.",
+        "s2": "Faça uma pressão leve e constante e estique a pele devagar na direção oposta à da tensão.",
+        "s3": "Mantenha quinze segundos, a respirar normalmente. Deve sentir-se como um alongamento, nunca como uma dor aguda.",
+        "s4": "Relaxe devagar e deixe os tecidos assentarem antes de repetir."
+      },
+      "watch": "Pare se sentir dor aguda, formigueiro ou mais contrações involuntárias depois."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Apoio em repouso",
+      "instructions": "Bochecha: Logo acima da linha do maxilar, abaixo do canto afetado da boca -> Para cima e para fora, em direção à maçã do rosto. Fixe a ponta sem esticar, aplique o meio com um estiramento leve e termine os últimos 2 cm sem esticar. Canto da boca: 1 cm para fora do canto afetado do lábio -> Na diagonal, para cima, em direção à orelha. Esta é muito leve. Serve de indicação, não para levantar.",
+      "goal": "Segurar a zona média do rosto contra a gravidade enquanto o nervo está inativo, para que os tecidos não estiquem e fiquem numa posição descaída.",
+      "tension": "Muito leve — cerca de 10% de estiramento. Deve conseguir passar a ponta de um dedo por baixo.",
+      "wear": "4–6 horas durante o dia. Nunca durante a noite.",
+      "strips": {
+        "s1": {
+          "where": "Bochecha",
+          "from": "Logo acima da linha do maxilar, abaixo do canto afetado da boca",
+          "to": "Para cima e para fora, em direção à maçã do rosto",
+          "note": "Fixe a ponta sem esticar, aplique o meio com um estiramento leve e termine os últimos 2 cm sem esticar."
+        },
+        "s2": {
+          "where": "Canto da boca",
+          "from": "1 cm para fora do canto afetado do lábio",
+          "to": "Na diagonal, para cima, em direção à orelha",
+          "note": "Esta é muito leve. Serve de indicação, não para levantar."
+        }
+      }
+    },
+    "assist": {
+      "name": "Assistência ao movimento",
+      "instructions": "Linha zigomática: O canto afetado da boca -> Ao longo da linha natural do sorriso até logo à frente da orelha. Aplique com o rosto em repouso, não a sorrir. Sobrancelha: Logo acima da sobrancelha afetada, no terço exterior -> Para cima, em direção à linha do cabelo. Mantenha-a bem afastada do olho. Se puxar a pálpebra, retire-a e volte a colocá-la mais abaixo.",
+      "goal": "Reduzir o esforço que um movimento exige, para poder praticar o padrão correto com pouco esforço em vez de forçar um padrão errado.",
+      "tension": "Leve a moderada — cerca de 25% de estiramento na parte do meio da tira.",
+      "wear": "Durante as sessões de exercícios, e até 4 horas depois.",
+      "strips": {
+        "s1": {
+          "where": "Linha zigomática",
+          "from": "O canto afetado da boca",
+          "to": "Ao longo da linha natural do sorriso até logo à frente da orelha",
+          "note": "Aplique com o rosto em repouso, não a sorrir."
+        },
+        "s2": {
+          "where": "Sobrancelha",
+          "from": "Logo acima da sobrancelha afetada, no terço exterior",
+          "to": "Para cima, em direção à linha do cabelo",
+          "note": "Mantenha-a bem afastada do olho. Se puxar a pálpebra, retire-a e volte a colocá-la mais abaixo."
+        }
+      }
+    },
+    "guide": {
+      "name": "Orientação direcional",
+      "instructions": "Apoio da pálpebra inferior: O canto exterior do olho -> Para fora e ligeiramente para baixo, em direção à têmpora. Nunca sobre a própria pálpebra. Apenas abaixo do rebordo da órbita. Indicação contrária na bochecha: Meio da bochecha -> Para baixo e para fora. Contraria o puxão para cima que acompanha a sincinesia.",
+      "goal": "Dar à pele uma indicação de direção durante o trabalho de coordenação e desencorajar ligeiramente o movimento ligado que está a tentar separar.",
+      "tension": "Leve — cerca de 15%. A indicação é sensorial, não mecânica.",
+      "wear": "Apenas durante os exercícios de coordenação. 20–30 minutos.",
+      "strips": {
+        "s1": {
+          "where": "Apoio da pálpebra inferior",
+          "from": "O canto exterior do olho",
+          "to": "Para fora e ligeiramente para baixo, em direção à têmpora",
+          "note": "Nunca sobre a própria pálpebra. Apenas abaixo do rebordo da órbita."
+        },
+        "s2": {
+          "where": "Indicação contrária na bochecha",
+          "from": "Meio da bochecha",
+          "to": "Para baixo e para fora",
+          "note": "Contraria o puxão para cima que acompanha a sincinesia."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Cuidados com o olho",
+      "instructions": "Gotas lubrificantes ao acordar Gotas de 2 em 2 ou de 3 em 3 horas enquanto está acordado Pomada e pálpebra fechada com fita ou câmara de humidade à noite Óculos de sol ao ar livre, mesmo em dias nublados",
+      "when": "De manhã, ao longo do dia e antes de dormir",
+      "body": "Se o seu olho não fecha completamente, proteger a córnea é a coisa mais importante do seu dia — mais importante do que qualquer exercício. Gotas lubrificantes sem conservantes durante o dia, pomada à noite, e falar com o seu clínico se o olho ficar vermelho, dorido ou se a sua visão mudar.",
+      "items": {
+        "i1": "Gotas lubrificantes ao acordar",
+        "i2": "Gotas de 2 em 2 ou de 3 em 3 horas enquanto está acordado",
+        "i3": "Pomada e pálpebra fechada com fita ou câmara de humidade à noite",
+        "i4": "Óculos de sol ao ar livre, mesmo em dias nublados"
+      }
+    },
+    "eat": {
+      "name": "Comer e beber",
+      "instructions": "Porções mais pequenas, ritmo mais lento Coloque a comida do lado não afetado Bocheche e verifique a bochecha afetada depois de comer Sente-se direito ao beber",
+      "when": "Em todas as refeições",
+      "body": "A comida que se acumula na bochecha afetada e as bebidas que escapam pelos lábios são problemas mecânicos com soluções mecânicas. Porções mais pequenas, comida do lado mais forte, uma verificação ao espelho depois de comer e uma palhinha só se não tornar o fecho dos lábios mais difícil.",
+      "items": {
+        "i1": "Porções mais pequenas, ritmo mais lento",
+        "i2": "Coloque a comida do lado não afetado",
+        "i3": "Bocheche e verifique a bochecha afetada depois de comer",
+        "i4": "Sente-se direito ao beber"
+      }
+    },
+    "massage": {
+      "name": "Massagem",
+      "instructions": "Mãos limpas e secas Pequenos círculos, pressão leve, para cima Nos dois lados, não só no lado afetado Pare se provocar contrações involuntárias",
+      "when": "Uma ou duas vezes por dia, 3–4 minutos",
+      "body": "Pressão circular lenta com as pontas dos dedos limpas na bochecha, no maxilar e à volta da boca. Mantém a circulação e a mobilidade dos tecidos. Não é um treino — se parecer vigoroso, alivie.",
+      "items": {
+        "i1": "Mãos limpas e secas",
+        "i2": "Pequenos círculos, pressão leve, para cima",
+        "i3": "Nos dois lados, não só no lado afetado",
+        "i4": "Pare se provocar contrações involuntárias"
+      }
+    },
+    "sleep": {
+      "name": "Sono e repouso",
+      "instructions": "De costas ou sobre o lado não afetado, não de barriga para baixo Proteção do olho antes de apagar a luz Pratique de manhã se ao fim do dia estiver cansado Os dias de descanso fazem parte do programa",
+      "when": "Todas as noites",
+      "body": "O cansaço facial é real e piora a qualidade do movimento. Durma de costas ou sobre o lado não afetado para que o rosto não fique pressionado contra a almofada, e leve a sério a quebra de energia da tarde — pratique quando estiver descansado.",
+      "items": {
+        "i1": "De costas ou sobre o lado não afetado, não de barriga para baixo",
+        "i2": "Proteção do olho antes de apagar a luz",
+        "i3": "Pratique de manhã se ao fim do dia estiver cansado",
+        "i4": "Os dias de descanso fazem parte do programa"
+      }
+    },
+    "speech": {
+      "name": "Treino da fala",
+      "instructions": "Leia em voz alta 3 minutos por dia Acentue o p, b, m, f e v Devagar o suficiente para manter os lábios fechados Grave-se uma vez por semana, se achar útil",
+      "when": "Uma vez por dia, 3 minutos",
+      "body": "Os sons explosivos e labiais precisam do fecho dos lábios, por isso servem também de exercício que pode fazer sem espelho. Leia em voz alta, devagar, e exagere um pouco.",
+      "items": {
+        "i1": "Leia em voz alta 3 minutos por dia",
+        "i2": "Acentue o p, b, m, f e v",
+        "i3": "Devagar o suficiente para manter os lábios fechados",
+        "i4": "Grave-se uma vez por semana, se achar útil"
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Protect",
+      "short": "The nerve is inflamed. The work is protection, not effort.",
+      "window": "Usually days 1–14 from onset",
+      "body": "Nothing you do with the muscle will speed the nerve up in this stage, and pushing hard can make things harder later. So the programme is deliberately quiet: protect the eye, keep the tissue supple, support the resting position of the face, and let the inflammation settle.",
+      "focus": {
+        "f1": "Eye protection and lubrication",
+        "f2": "Passive support, no forced movement",
+        "f3": "Gentle massage for circulation",
+        "f4": "Sleep and rest"
+      },
+      "avoid": {
+        "a1": "Forced or maximum-effort movements",
+        "a2": "Electrical stimulation",
+        "a3": "Chewing gum as \"exercise\"",
+        "a4": "Pushing through pain"
+      },
+      "tapeMode": "Resting support — lifts the mid-face against gravity. No pull into movement."
+    },
+    "2": {
+      "name": "Activate",
+      "short": "The first signals are arriving. We help the brain find them.",
+      "window": "Usually weeks 2–6, once any flicker of movement appears",
+      "body": "A flicker is enough to work with. The goal now is to find the smallest movement you can actually produce and repeat it accurately, rather than to produce a big movement badly. Small and correct beats large and recruited.",
+      "focus": {
+        "f1": "Finding minimum voluntary movement",
+        "f2": "Low-effort, high-accuracy repetitions",
+        "f3": "Mirror feedback for direction",
+        "f4": "Keeping the unaffected side quiet"
+      },
+      "avoid": {
+        "a1": "Effortful straining, which recruits the wrong muscles",
+        "a2": "Long sets — fatigue makes the pattern worse",
+        "a3": "Comparing the two sides mid-exercise"
+      },
+      "tapeMode": "Assist — tape helps the movement you are trying to make, so less effort is needed."
+    },
+    "3": {
+      "name": "Coordination",
+      "short": "Movement exists. Now it needs to go where you send it.",
+      "window": "Usually weeks 6–16",
+      "body": "At this stage most people can produce movement but not isolate it — the eye narrows when you smile, or the corner of the mouth pulls when you close the eye. Coordination work teaches separation. This is slower and less satisfying than strength work, and it matters more.",
+      "focus": {
+        "f1": "Separating eye movement from mouth movement",
+        "f2": "Slow, controlled range through the middle of movement",
+        "f3": "Holding a position rather than snapping to it",
+        "f4": "Relaxation between repetitions"
+      },
+      "avoid": {
+        "a1": "Fast repetitions",
+        "a2": "Practising the linked pattern you are trying to unlearn",
+        "a3": "Working past the point of fatigue"
+      },
+      "tapeMode": "Guide — tape gives a directional cue and discourages the linked movement."
+    },
+    "4": {
+      "name": "Refine",
+      "short": "The face works. We are after control at low effort.",
+      "window": "Usually months 4–9",
+      "body": "Refinement is about the movements you use without thinking: speaking, eating, expressions in conversation. The exercises get closer to real life and further from the mirror, and tension management becomes as important as activation.",
+      "focus": {
+        "f1": "Expression during speech",
+        "f2": "Symmetry at conversational effort, not maximum effort",
+        "f3": "Releasing tightness and over-recruitment",
+        "f4": "Endurance across the day"
+      },
+      "avoid": {
+        "a1": "Maximum-effort holds",
+        "a2": "Ignoring tightness because movement is present"
+      },
+      "tapeMode": "Occasional — used for specific tasks or tiredness, not daily."
+    },
+    "5": {
+      "name": "Maintain",
+      "short": "Holding what you have built, and using it.",
+      "window": "From around month 9",
+      "body": "Recovery flattens out but does not usually reverse. A shorter maintenance routine protects range and keeps tightness from creeping back, with periodic scans so any drift is caught early rather than discovered late.",
+      "focus": {
+        "f1": "Short daily maintenance routine",
+        "f2": "Stretching and release work",
+        "f3": "Periodic scans to confirm stability",
+        "f4": "Returning to full activity"
+      },
+      "avoid": {
+        "a1": "Stopping entirely and losing range quietly"
+      },
+      "tapeMode": "Not routine. Available for tiring days or specific events."
+    }
+  },
+  "taping": {
+    "restingSupport": "Resting support",
+    "movementAssist": "Movement assist",
+    "directionalGuide": "Directional guide"
+  }
+}

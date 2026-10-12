@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Begeleide herstel van gesigsverlamming."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Taal",
+    "change": "Taal: {language}. Verander taal"
+  },
+  "nav": {
+    "main": "Hoofkieslys",
+    "menu": "Kieslys",
+    "closeMenu": "Sluit kieslys",
+    "home": "Palsya-tuisblad",
+    "howItWorks": "Hoe dit werk",
+    "guides": "Gidse",
+    "stories": "Verhale",
+    "pricing": "Pryse",
+    "about": "Oor ons",
+    "logIn": "Meld aan",
+    "startTrial": "Begin u gratis 7 dae",
+    "myDashboard": "My paneelbord",
+    "logOut": "Meld af",
+    "signedInAs": "Aangemeld as {name}"
+  },
+  "footer": {
+    "tagline": "Begeleide rehabilitasie vir perifere gesigsverlamming. Gebou en onder toesig van klinici wat hierdie werk persoonlik doen.",
+    "location": "Lissabon en Amsterdam · Gestig {year}",
+    "product": "Produk",
+    "guides": "Gidse",
+    "company": "Maatskappy",
+    "links": {
+      "howItWorks": "Hoe dit werk",
+      "pricing": "Pryse",
+      "stories": "Herstelverhale",
+      "startFree": "Begin gratis",
+      "signIn": "Meld aan",
+      "about": "Oor ons",
+      "team": "Kliniese span",
+      "contact": "Kontak en ondersteuning",
+      "privacy": "Privaatheidskennisgewing",
+      "terms": "Bepalings",
+      "cookies": "Koekies"
+    },
+    "disclaimerTitle": "Mediese vrywaring.",
+    "copyright": "© {year} Palsya Health, Lda. Alle regte voorbehou.",
+    "trust": {
+      "gdpr": "Voldoen aan GDPR",
+      "eu": "EU-bedieners",
+      "languages": "{count} tale",
+      "stripe": "Betalings via Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya is 'n rehabilitasie-ondersteuningsprogram. Dit stel nie diagnoses nie en dit vervang nie mediese sorg nie. Kry altyd 'n diagnose van 'n dokter voordat u begin, en kontak dieselfde dag 'n dokter oor oogpyn, rooiheid of veranderinge in u sig.",
+  "actions": {
+    "back": "Terug",
+    "continue": "Gaan voort",
+    "cancel": "Kanselleer",
+    "close": "Sluit",
+    "save": "Stoor",
+    "retry": "Probeer weer",
+    "signOut": "Meld af",
+    "loading": "Laai tans…"
+  }
+}

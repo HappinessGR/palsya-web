@@ -1,0 +1,765 @@
+[
+  {
+    "area": "sign-up",
+    "test": "new account with no role → provisioned as patient (/me)",
+    "expected": "307→/patient",
+    "actual": "307→/patient",
+    "pass": true
+  },
+  {
+    "area": "sign-up",
+    "test": "users.role for the new account",
+    "expected": "patient",
+    "actual": "patient",
+    "pass": true
+  },
+  {
+    "area": "admin",
+    "test": "seed script makes the first admin (/me)",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "admin",
+    "test": "admin promotes an account to clinician (API)",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "sign-in",
+    "test": "clinician lands on /clinician (/me)",
+    "expected": "307→/clinician",
+    "actual": "307→/clinician",
+    "pass": true
+  },
+  {
+    "area": "forged role",
+    "test": "POST /api/auth/finalize {role:'admin'} as patient",
+    "expected": "patient route",
+    "actual": "patient route",
+    "pass": true
+  },
+  {
+    "area": "forged role",
+    "test": "users.role after forged finalize",
+    "expected": "patient",
+    "actual": "patient",
+    "pass": true
+  },
+  {
+    "area": "sign-in",
+    "test": "finalize redirect for clinician",
+    "expected": "/clinician",
+    "actual": "/clinician",
+    "pass": true
+  },
+  {
+    "area": "sign-in",
+    "test": "finalize redirect for admin",
+    "expected": "/admin",
+    "actual": "/admin",
+    "pass": true
+  },
+  {
+    "area": "forged role",
+    "test": "sign-up with unsafeMetadata {role:'admin'}",
+    "expected": "307→/patient",
+    "actual": "307→/patient",
+    "pass": true
+  },
+  {
+    "area": "forged role",
+    "test": "old self-registered clinician metadata (no invitation)",
+    "expected": "307→/patient",
+    "actual": "307→/patient",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /patient",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /dashboard",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /clinician",
+    "expected": "→/patient",
+    "actual": "→/patient",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /admin",
+    "expected": "→/patient",
+    "actual": "→/patient",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /admin/users",
+    "expected": "→/patient",
+    "actual": "→/patient",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "patient opens /onboarding",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /patient",
+    "expected": "→/clinician",
+    "actual": "→/clinician",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /dashboard",
+    "expected": "→/clinician",
+    "actual": "→/clinician",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /clinician",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /admin",
+    "expected": "→/clinician",
+    "actual": "→/clinician",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /admin/users",
+    "expected": "→/clinician",
+    "actual": "→/clinician",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "clinician opens /onboarding",
+    "expected": "→/clinician",
+    "actual": "→/clinician",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /patient",
+    "expected": "→/admin",
+    "actual": "→/admin",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /dashboard",
+    "expected": "→/admin",
+    "actual": "→/admin",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /clinician",
+    "expected": "→/admin",
+    "actual": "→/admin",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /admin",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /admin/users",
+    "expected": "allowed",
+    "actual": "allowed",
+    "pass": true
+  },
+  {
+    "area": "pages",
+    "test": "admin opens /onboarding",
+    "expected": "→/admin",
+    "actual": "→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in admin visits /",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in admin visits /login",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in admin visits /sign-in",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in admin visits /sign-up",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in admin visits /signup",
+    "expected": "307→/admin",
+    "actual": "307→/admin",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in patient visits /",
+    "expected": "307→/patient",
+    "actual": "307→/patient",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-in clinician visits /signup",
+    "expected": "307→/clinician",
+    "actual": "307→/clinician",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-out visitor opens /signup",
+    "expected": "307→/sign-up",
+    "actual": "307→/sign-up",
+    "pass": true
+  },
+  {
+    "area": "redirect",
+    "test": "signed-out visitor opens /admin",
+    "expected": "blocked",
+    "actual": "blocked",
+    "pass": true
+  },
+  {
+    "area": "forged role",
+    "test": "patient opens /admin?role=admin with cookie role=admin",
+    "expected": "307→/patient",
+    "actual": "307→/patient",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "clinician GET /api/admin/users",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "patient GET /api/admin/users",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "clinician PATCH /api/admin/users/:id/role",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "patient PATCH /api/admin/users/:id/role",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "clinician PATCH /api/admin/users/:id/status",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "patient PATCH /api/admin/users/:id/status",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "clinician POST /api/admin/invitations",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "patient POST /api/admin/invitations",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "clinician PUT /api/admin/assignments",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "patient PUT /api/admin/assignments",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin API",
+    "test": "signed-out GET /api/admin/users",
+    "expected": "401",
+    "actual": "401",
+    "pass": true
+  },
+  {
+    "area": "roles",
+    "test": "users.role of patient after clinician tried to make them admin",
+    "expected": "patient",
+    "actual": "patient",
+    "pass": true
+  },
+  {
+    "area": "billing",
+    "test": "clinician POST /api/billing/start-trial",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "unassigned patient record",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "patient calls clinician API",
+    "expected": "403",
+    "actual": "403",
+    "pass": true
+  },
+  {
+    "area": "admin",
+    "test": "admin assigns patient to clinician",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "assigned patient record",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "add note to assigned patient",
+    "expected": "201",
+    "actual": "201",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "change assigned patient's stage",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "clinician",
+    "test": "clinician opens own patient page",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "invite",
+    "test": "admin invites a clinician",
+    "expected": "2xx",
+    "actual": "2xx",
+    "pass": true
+  },
+  {
+    "area": "invite",
+    "test": "invitation email sent in chosen language (de)",
+    "expected": "German + link",
+    "actual": "German + link",
+    "pass": true
+  },
+  {
+    "area": "invite",
+    "test": "admin revokes the invitation",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  },
+  {
+    "area": "last admin",
+    "test": "only admin removes own admin role",
+    "expected": "409",
+    "actual": "409",
+    "pass": true
+  },
+  {
+    "area": "last admin",
+    "test": "role after refused self-demotion",
+    "expected": "admin",
+    "actual": "admin",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has role_changed",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has patient_assigned",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has clinician_note_added",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has patient_stage_changed",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has user_invited",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "audit",
+    "test": "activity_log has invitation_revoked",
+    "expected": "≥1",
+    "actual": "≥1",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "reset email sent (French)",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "page state for fresh link",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "mismatched passwords",
+    "expected": "mismatch",
+    "actual": "mismatch",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "weak password",
+    "expected": "weak",
+    "actual": "weak",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "link still valid after rejected attempts",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "valid new password accepted",
+    "expected": "ok",
+    "actual": "ok",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "Clerk accepts the new password",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "other sessions signed out",
+    "expected": "not active",
+    "actual": "not active",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "reusing the same link",
+    "expected": "used",
+    "actual": "used",
+    "pass": true
+  },
+  {
+    "area": "reset patient",
+    "test": "'password changed' email",
+    "expected": "sent",
+    "actual": "sent",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "reset email sent (French)",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "page state for fresh link",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "mismatched passwords",
+    "expected": "mismatch",
+    "actual": "mismatch",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "weak password",
+    "expected": "weak",
+    "actual": "weak",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "link still valid after rejected attempts",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "valid new password accepted",
+    "expected": "ok",
+    "actual": "ok",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "Clerk accepts the new password",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "other sessions signed out",
+    "expected": "not active",
+    "actual": "not active",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "reusing the same link",
+    "expected": "used",
+    "actual": "used",
+    "pass": true
+  },
+  {
+    "area": "reset clinician",
+    "test": "'password changed' email",
+    "expected": "sent",
+    "actual": "sent",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "reset email sent (French)",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "page state for fresh link",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "mismatched passwords",
+    "expected": "mismatch",
+    "actual": "mismatch",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "weak password",
+    "expected": "weak",
+    "actual": "weak",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "link still valid after rejected attempts",
+    "expected": "valid",
+    "actual": "valid",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "valid new password accepted",
+    "expected": "ok",
+    "actual": "ok",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "Clerk accepts the new password",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "other sessions signed out",
+    "expected": "not active",
+    "actual": "not active",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "reusing the same link",
+    "expected": "used",
+    "actual": "used",
+    "pass": true
+  },
+  {
+    "area": "reset admin",
+    "test": "'password changed' email",
+    "expected": "sent",
+    "actual": "sent",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "expired link: page state",
+    "expected": "expired",
+    "actual": "expired",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "expired link: submit",
+    "expected": "expired",
+    "actual": "expired",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "expired link: page shows request-new-link",
+    "expected": "yes",
+    "actual": "yes",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "garbage token: page state",
+    "expected": "invalid",
+    "actual": "invalid",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "unknown email: no email sent",
+    "expected": "none",
+    "actual": "none",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "4 requests for one email in an hour → links issued",
+    "expected": "3",
+    "actual": "3",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "older links invalidated when a new one is issued",
+    "expected": "1 unused",
+    "actual": "1 unused",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "11th request from one IP in an hour",
+    "expected": "not sent",
+    "actual": "not sent",
+    "pass": true
+  },
+  {
+    "area": "reset",
+    "test": "/forgot-password renders",
+    "expected": "200",
+    "actual": "200",
+    "pass": true
+  }
+]

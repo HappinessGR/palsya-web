@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Sobre a Palsya",
+    "description": "Porque existe a Palsya, o que é e o que não é, como é financiada e o que nos recusamos a construir."
+  },
+  "hero": {
+    "eyebrow": "Sobre nós",
+    "title": "Começámos porque um folheto não é um programa"
+  },
+  "story": {
+    "p1": "Em 2019, o nosso responsável de produto acordou sem conseguir fechar o olho esquerdo. Foi-lhe diagnosticada paralisia de Bell no mesmo dia, recebeu corticoides e foi mandado para casa com uma fotocópia de nove exercícios faciais e sem qualquer acompanhamento durante quatro meses.",
+    "p2": "Fez os exercícios. Com força, duas vezes por dia, no esforço máximo, durante onze semanas — o que é quase a pior coisa que poderia ter feito, e ninguém lhe disse o contrário até encontrar, no quarto mês, um fisioterapeuta especializado no privado. Nessa altura, a sincinesia já estava instalada, e foram precisos mais seis meses de trabalho de coordenação para a reduzir.",
+    "p3": "A informação que teria mudado a sua recuperação existia. Estava na formação em fisioterapia, nas consultas especializadas, nas revistas científicas. Não estava nas mãos dele, na língua dele, no dia em que precisava dela."
+  },
+  "whatWeAre": {
+    "title": "O que somos",
+    "body": "Um programa de reabilitação para a paralisia facial periférica, disponível no navegador, criado e supervisionado por clínicos que fazem este trabalho presencialmente. Fundada em 2023, com sede em Lisboa e Amesterdão, é atualmente usada por cerca de catorze mil pessoas em vinte e dois países."
+  },
+  "whatWeAreNot": {
+    "title": "O que não somos",
+    "body": "Não somos um serviço de diagnóstico, não substituímos os cuidados médicos e não somos um produto de bem-estar. Não tratamos a paralisia facial como uma questão de atitude mental. Não lhe vamos dizer que a sua recuperação depende da sua atitude."
+  },
+  "funding": {
+    "title": "Como somos financiados",
+    "body": "Exclusivamente por subscrições. Sem publicidade, sem venda de dados, sem parcerias com seguradoras que dariam a outra pessoa interesse no que o seu rosto está a fazer. Fizemos uma única ronda de investimento inicial e os nossos investidores não têm acesso a dados de doentes."
+  },
+  "refuse": {
+    "title": "O que nos recusamos a construir",
+    "body": "Previsões de recuperação. Mecânicas de sequências de dias. Classificações de doentes. Notificações que sugerem que desiludiu alguém. Contagens decrescentes nos preços. Um processo de cancelamento com mais de dois cliques. Estas ideias surgem em reuniões de produto e a resposta tem sido sempre não."
+  },
+  "stats": {
+    "people": {
+      "value": "{n, number}+",
+      "label": "Pessoas em recuperação",
+      "detail": "Em {count, number} países"
+    },
+    "founded": {
+      "label": "Fundação",
+      "detail": "Lisboa e Amesterdão"
+    },
+    "languages": {
+      "label": "Idiomas",
+      "detail": "Aplicação e base de conhecimento completas"
+    },
+    "dataSold": {
+      "label": "Linhas de dados vendidas",
+      "detail": "A ninguém, nunca"
+    }
+  },
+  "team": {
+    "title": "As pessoas por detrás da Palsya",
+    "lead": "Com os números de cédula profissional, porque deve poder verificá-los.",
+    "cta": "Conhecer a equipa clínica"
+  }
+}

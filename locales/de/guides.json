@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Ratgeber — Palsya",
+    "description": "Sieben kostenlose Ratgeber zur peripheren Fazialisparese, geschrieben von unserem klinischen Team, von einer zweiten Fachkraft geprüft und mit Datum versehen."
+  },
+  "hero": {
+    "eyebrow": "Wissensdatenbank",
+    "title": "Sieben Ratgeber, kostenlos, ohne Konto",
+    "lead": "Geschrieben von unserem klinischen Team, von einer zweiten Fachkraft geprüft und datiert, damit Sie wissen, wie aktuell sie sind. Wo die Studienlage dünn ist, sagen wir das."
+  },
+  "byline": "{minutes, plural, one {# Min. Lesezeit} other {# Min. Lesezeit}} · {author} · geprüft {date}",
+  "safety": "<b>Wenn Ihr Auge schmerzt oder gerötet ist oder sich Ihr Sehen verändert hat, gehen Sie noch heute zu einer Ärztin oder einem Arzt.</b> Eine Schädigung der Hornhaut durch ein Auge, das sich nicht schließen lässt, ist die einzige Komplikation einer Gesichtslähmung, die bleibenden Schaden verursachen kann – und sie ist behandelbar. Das ist dringender als alles auf dieser Seite.",
+  "articles": {
+    "what-is-pfp": {
+      "title": "Was ist eine periphere Fazialisparese?",
+      "blurb": "Was mit dem Nerv passiert ist, warum eine Gesichtshälfte sich nicht mehr bewegt und was das bedeutet – und was nicht."
+    },
+    "stages-of-recovery": {
+      "title": "Die Phasen der Genesung",
+      "blurb": "Fünf Phasen, was der Körper in jeder von ihnen tut und warum sich das Programm verändert, während Sie sie durchlaufen."
+    },
+    "facial-taping-guide": {
+      "title": "Gesichtstaping: ein praktischer Ratgeber",
+      "blurb": "Was das Tape bewirkt, was nicht, wie Sie es sicher anlegen und wann Sie es abnehmen sollten."
+    },
+    "facial-exercises-guide": {
+      "title": "Gesichtsübungen: So machen Sie sie richtig",
+      "blurb": "Warum klein und genau besser ist als groß und kraftvoll – und welche Fehler die Genesung erschweren."
+    },
+    "daily-routine": {
+      "title": "Eine Tagesroutine, die trägt",
+      "blurb": "Augenpflege, Essen, Schlaf – und wie ein Programm in ein Leben passt, das schon voll ist."
+    },
+    "research-evidence": {
+      "title": "Forschung und Evidenz",
+      "blurb": "Was die Fachliteratur stützt, was unsicher ist und woher unsere eigenen Zahlen stammen."
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "blurb": "Eignung, Zeitrahmen, Kosten, Daten und die Fragen, die Menschen vor der Anmeldung stellen."
+    }
+  },
+  "faq": {
+    "gettingStarted": {
+      "title": "Der Einstieg",
+      "items": {
+        "rightForMe": {
+          "q": "Ist Palsya das Richtige für mich?",
+          "a": "Palsya ist für Menschen mit peripherer Fazialisparese gedacht – idiopathische Fazialisparese (Bell-Lähmung), Ramsay-Hunt-Syndrom sowie Verletzungen des Gesichtsnervs nach Operationen oder Unfällen –, deren Beginn zwischen 5 und 90 Tagen zurückliegt. Liegt der Beginn weniger als 5 Tage zurück, sollten Sie zuerst ärztlich untersucht werden: Früh gegebenes Kortison macht einen messbaren Unterschied, und dieses Zeitfenster ist wichtiger als der Beginn der Rehabilitation. Liegt er mehr als 90 Tage zurück, kann ein strukturiertes Programm trotzdem helfen, aber Sie sollten mit einer Fachkraft über den richtigen Ausgangspunkt sprechen. Unsere Einstufung sagt Ihnen ehrlich, wenn wir nicht das Richtige für Sie sind."
+        },
+        "diagnosis": {
+          "q": "Brauche ich zuerst eine Diagnose?",
+          "a": "Ja. Palsya ist ein Rehabilitationsprogramm, kein Diagnosedienst. Eine Gesichtsschwäche kann Ursachen haben, die ärztlich abgeklärt werden müssen, manche davon dringend. Gehen Sie zuerst zu einer Ärztin oder einem Arzt und kommen Sie mit einer Diagnose zu uns."
+        },
+        "install": {
+          "q": "Muss ich etwas installieren?",
+          "a": "Nein. Palsya läuft im Browser auf Smartphone, Tablet oder Computer. Für die Scans müssen Sie den Kamerazugriff erlauben, und Sie brauchen eine einigermaßen stabile Internetverbindung."
+        },
+        "technology": {
+          "q": "Was, wenn ich mit Technik nicht so sicher bin?",
+          "a": "Die tägliche Einheit ist ein Bildschirm mit einem Knopf. Die Scans werden Schritt für Schritt mit einfachen Anweisungen angeleitet. Wenn Sie nicht weiterkommen, antwortet der Support in Ihrer Sprache und kann Sie in einem Anruf durch alles führen."
+        }
+      }
+    },
+    "programme": {
+      "title": "Das Programm",
+      "items": {
+        "timePerDay": {
+          "q": "Wie viel Zeit brauche ich täglich?",
+          "a": "Zwischen 10 und 20 Minuten je nach Phase, meist aufgeteilt in zwei kürzere Einheiten. Phase 1 ist am kürzesten, weil es vor allem um Schutz geht. Phase 3 ist am längsten, weil Koordinationsarbeit Pausen zwischen den Wiederholungen braucht."
+        },
+        "missDays": {
+          "q": "Was, wenn ich Tage verpasse?",
+          "a": "Dann passiert nichts. Ihr Programm wird nicht zurückgesetzt, nichts geht verloren, und wir machen Ihnen kein schlechtes Gewissen. Öffnen Sie die App und machen Sie die heutige Einheit. Wenn sich ein Muster verpasster Tage zeigt, fragt Ihre Fachkraft vielleicht nach – meist, weil das Programm angepasst werden muss, nicht Sie."
+        },
+        "physio": {
+          "q": "Kann ich das neben einer Physiotherapie vor Ort nutzen?",
+          "a": "Ja, und viele tun das. Sagen Sie Ihrer Therapeutin oder Ihrem Therapeuten, dass Sie Palsya nutzen, und teilen Sie Ihre Fortschrittsberichte. Wenn deren Empfehlungen von unseren abweichen, folgen Sie ihnen – sie sehen Sie persönlich."
+        },
+        "recovery": {
+          "q": "Werde ich mich sicher erholen?",
+          "a": "Das beantworten wir nicht, weil es niemand ehrlich kann. Die meisten Menschen mit idiopathischer Fazialisparese erholen sich gut. Bei einer Minderheit bleibt eine dauerhafte Asymmetrie. Wir werden nicht vorhersagen, zu welcher Gruppe Sie gehören, und Sie sollten jedem misstrauen, der das tut."
+        }
+      }
+    },
+    "scans": {
+      "title": "Scans und Messung",
+      "items": {
+        "howScan": {
+          "q": "Wie funktioniert der Scan?",
+          "a": "Sie richten Ihr Gesicht in einem Umriss aus und folgen vier Anweisungen – Ruhe, Stirn heben, sanftes Lächeln, Augen schließen. Die Gesichtsmerkmale werden erkannt, und die Geometrie Ihrer betroffenen Seite wird mit der gespiegelten nicht betroffenen Seite verglichen. Das Ergebnis ist ein Symmetriewert von 0 bis 100, bezogen auf Ihren eigenen Ausgangswert."
+        },
+        "photos": {
+          "q": "Verlassen meine Fotos mein Gerät?",
+          "a": "Die Erkennung der Gesichtsmerkmale läuft auf Ihrem Gerät – die Bilder selbst werden zur Verarbeitung nirgendwohin gesendet. Ihre Fotos werden nur gespeichert, wenn Sie zustimmen, und nur, damit Sie Ihre eigene Chronik sehen können. Sie können jederzeit einzelne oder alle Fotos löschen."
+        },
+        "scoreMeaning": {
+          "q": "Was bedeutet der Wert eigentlich?",
+          "a": "Er misst geometrische Symmetrie, sonst nichts. Er ist kein klinischer Schweregrad, lässt sich nicht in einen House-Brackmann-Grad übersetzen und ist kein Prozentsatz der Genesung. Seine einzige echte Aufgabe ist, Sie heute mit Ihnen im letzten Monat zu vergleichen. Die Messschwankung liegt bei etwa ±2,5 Punkten, daher werten wir kleinere Veränderungen als Rauschen."
+        },
+        "scoreDown": {
+          "q": "Mein Wert ist gesunken. Was bedeutet das?",
+          "a": "Meistens: Licht, Kopfhaltung, Tageszeit oder Müdigkeit. Manchmal: eine tatsächlich schwerere Woche nach Krankheit oder schlechtem Schlaf. Gelegentlich: etwas, das sich eine Fachkraft ansehen sollte. Ein einzelner niedrigerer Scan ist kein Beleg für eine Verschlechterung. Zwei oder drei hintereinander sind ein Gespräch wert, und wir schlagen Ihnen eines vor."
+        }
+      }
+    },
+    "cost": {
+      "title": "Kosten und Sprechstunden",
+      "items": {
+        "pricing": {
+          "q": "Wie funktionieren die Preise?",
+          "a": "Pakete über drei Monate: {app} nur für die App, {guided} mit zwei Videosprechstunden, {supported} mit sechs. Es gibt einen {trialDays}-tägigen kostenlosen Test, und vor Tag {chargeDay} wird nichts abgebucht. Nach drei Monaten können Sie monatlich für {extension} verlängern oder aufhören. Zusätzliche Sprechstunden kosten je {consult}."
+        },
+        "whyThreeMonths": {
+          "q": "Warum drei Monate und nicht monatlich?",
+          "a": "Weil sich in der Gesichtsrehabilitation spürbare Veränderungen über Monate vollziehen. Ein Monatsabo würde Sie dazu verleiten, kurz bevor es wirkt, zu dem Schluss zu kommen, dass es nicht wirkt. Drei Monate sind ungefähr die kürzeste ehrliche Verpflichtung."
+        },
+        "cancel": {
+          "q": "Kann ich kündigen?",
+          "a": "Ja, jederzeit, in Ihren Kontoeinstellungen, mit zwei Klicks. Kein Anruf, kein Halteangebot. Wenn Sie während des kostenlosen Tests kündigen, zahlen Sie gar nichts."
+        },
+        "clinicians": {
+          "q": "Wer sind die Fachkräfte in den Gesprächen?",
+          "a": "Zugelassene Physiotherapeutinnen und -therapeuten sowie Ärztinnen und Ärzte mit spezieller Ausbildung in Gesichtsrehabilitation. Ihre Namen, Registrierungen und Sprachen stehen auf unserer Seite zum klinischen Team. Sie können wählen, mit wem Sie sprechen."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "items": {
+        "dataStored": {
+          "q": "Wo werden meine Daten gespeichert?",
+          "a": "Auf Servern in der Europäischen Union, verschlüsselt bei der Speicherung und bei der Übertragung. Wir sind DSGVO-konform. Gesichtsbilder werden als besondere Kategorie biometrischer Daten nach Artikel 9 behandelt und entsprechend geschützt."
+        },
+        "sellData": {
+          "q": "Verkaufen Sie meine Daten?",
+          "a": "Nein. Nicht an Werbetreibende, nicht an Versicherer, nicht an Forschende. Die Nutzung für die Forschung ist freiwillig, gesondert und nur in zusammengefasster Form – und wenn Sie ablehnen, ändert das nichts an Ihrem Programm."
+        },
+        "exportDelete": {
+          "q": "Kann ich meine Daten exportieren oder löschen?",
+          "a": "Beides, in Ihren Kontoeinstellungen. Der Export liefert Ihre Scans, Einheiten und Berichte in einem übertragbaren Format. Die Löschung ist endgültig und entfernt Ihre Bilder innerhalb von 30 Tagen."
+        }
+      }
+    }
+  },
+  "authorTeam": "Klinisches Team von Palsya"
+}

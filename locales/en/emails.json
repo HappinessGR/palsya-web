@@ -1,0 +1,26 @@
+{
+  "footer": "You are receiving this email because of activity on your Palsya account. Questions? Contact {support}.",
+  "reset": {
+    "subject": "Reset your Palsya password",
+    "preheader": "This link works for {minutes} minutes.",
+    "heading": "Reset your password",
+    "body": "We received a request to reset the password for your Palsya account. Choose a new password with the button below. The link works once and expires in {minutes} minutes.",
+    "button": "Choose a new password",
+    "ignore": "If you did not ask for this, you can ignore this email — your password will not change."
+  },
+  "changed": {
+    "subject": "Your Palsya password was changed",
+    "preheader": "If this wasn't you, contact support.",
+    "heading": "Your password was changed",
+    "body": "The password for your Palsya account was changed on {when, date, long} at {when, time, short}. You have been signed out on your other devices.",
+    "notYou": "If this wasn't you, contact support straight away at {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {You have been invited to administer Palsya} other {You have been invited to Palsya as a clinician}}",
+    "preheader": "Accept the invitation and set your password.",
+    "heading": "{role, select, admin {Join Palsya as an administrator} other {Join Palsya as a clinician}}",
+    "body": "{inviter} has invited you to Palsya {role, select, admin {as an administrator} other {as a clinician}}. Accept the invitation to set your name and password.",
+    "button": "Accept invitation",
+    "ignore": "If you were not expecting this invitation, you can ignore this email."
+  }
+}

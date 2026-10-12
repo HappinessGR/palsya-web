@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Protección",
+      "short": "El nervio está inflamado. El trabajo es proteger, no esforzarse.",
+      "window": "Normalmente, días 1–14 desde el inicio",
+      "body": "En esta fase, nada de lo que haga con el músculo acelerará el nervio, y forzar puede complicar las cosas más adelante. Por eso el programa es deliberadamente tranquilo: proteger el ojo, mantener los tejidos flexibles, sostener la posición de reposo de la cara y dejar que la inflamación remita.",
+      "focus": {
+        "f1": "Protección y lubricación del ojo",
+        "f2": "Soporte pasivo, sin movimientos forzados",
+        "f3": "Masaje suave para la circulación",
+        "f4": "Sueño y descanso"
+      },
+      "avoid": {
+        "a1": "Movimientos forzados o al máximo esfuerzo",
+        "a2": "Electroestimulación",
+        "a3": "Mascar chicle como «ejercicio»",
+        "a4": "Seguir a pesar del dolor"
+      },
+      "tapeMode": "Soporte en reposo: eleva la zona media de la cara contra la gravedad. Sin tracción hacia el movimiento."
+    },
+    "2": {
+      "name": "Activación",
+      "short": "Llegan las primeras señales. Ayudamos al cerebro a encontrarlas.",
+      "window": "Normalmente, semanas 2–6, en cuanto aparece cualquier atisbo de movimiento",
+      "body": "Un atisbo basta para trabajar. El objetivo ahora es encontrar el movimiento más pequeño que realmente pueda producir y repetirlo con precisión, en lugar de hacer mal un movimiento grande. Pequeño y correcto es mejor que grande y compensado.",
+      "focus": {
+        "f1": "Encontrar el movimiento voluntario mínimo",
+        "f2": "Repeticiones de poco esfuerzo y mucha precisión",
+        "f3": "Espejo para orientar la dirección",
+        "f4": "Mantener quieto el lado sano"
+      },
+      "avoid": {
+        "a1": "Forzar con esfuerzo, lo que activa los músculos equivocados",
+        "a2": "Series largas: la fatiga empeora el patrón",
+        "a3": "Comparar los dos lados en mitad del ejercicio"
+      },
+      "tapeMode": "Asistencia: el vendaje ayuda al movimiento que intenta hacer, así que necesita menos esfuerzo."
+    },
+    "3": {
+      "name": "Coordinación",
+      "short": "El movimiento ya existe. Ahora tiene que ir adonde usted lo envía.",
+      "window": "Normalmente, semanas 6–16",
+      "body": "En esta fase, la mayoría de las personas pueden producir movimiento pero no aislarlo: el ojo se entrecierra al sonreír, o la comisura de la boca tira al cerrar el ojo. El trabajo de coordinación enseña a separar. Es más lento y menos gratificante que el trabajo de fuerza, y es más importante.",
+      "focus": {
+        "f1": "Separar el movimiento del ojo del de la boca",
+        "f2": "Recorrido lento y controlado por la parte media del movimiento",
+        "f3": "Mantener una posición en lugar de llegar a ella de golpe",
+        "f4": "Relajación entre repeticiones"
+      },
+      "avoid": {
+        "a1": "Repeticiones rápidas",
+        "a2": "Practicar el patrón asociado que intenta desaprender",
+        "a3": "Seguir trabajando más allá de la fatiga"
+      },
+      "tapeMode": "Guía: el vendaje da una indicación de dirección y frena el movimiento asociado."
+    },
+    "4": {
+      "name": "Refinamiento",
+      "short": "La cara funciona. Buscamos control con poco esfuerzo.",
+      "window": "Normalmente, meses 4–9",
+      "body": "El refinamiento se centra en los movimientos que hace sin pensar: hablar, comer, las expresiones durante una conversación. Los ejercicios se acercan a la vida real y se alejan del espejo, y controlar la tensión pasa a ser tan importante como activar.",
+      "focus": {
+        "f1": "Expresión al hablar",
+        "f2": "Simetría con el esfuerzo de una conversación, no con el máximo esfuerzo",
+        "f3": "Liberar la tirantez y el exceso de activación",
+        "f4": "Resistencia a lo largo del día"
+      },
+      "avoid": {
+        "a1": "Mantener posiciones al máximo esfuerzo",
+        "a2": "Ignorar la tirantez porque ya hay movimiento"
+      },
+      "tapeMode": "Ocasional: se usa para tareas concretas o cuando hay cansancio, no a diario."
+    },
+    "5": {
+      "name": "Mantenimiento",
+      "short": "Conservar lo que ha construido, y usarlo.",
+      "window": "Aproximadamente a partir del mes 9",
+      "body": "La recuperación se estabiliza, pero normalmente no retrocede. Una rutina de mantenimiento más corta protege la amplitud de movimiento y evita que la tirantez vuelva poco a poco, con escaneos periódicos para detectar pronto cualquier desviación en lugar de descubrirla tarde.",
+      "focus": {
+        "f1": "Rutina diaria breve de mantenimiento",
+        "f2": "Estiramientos y trabajo de liberación",
+        "f3": "Escaneos periódicos para confirmar la estabilidad",
+        "f4": "Volver a la actividad completa"
+      },
+      "avoid": {
+        "a1": "Dejarlo del todo y perder amplitud sin darse cuenta"
+      },
+      "tapeMode": "No es rutinario. Disponible para días de cansancio o eventos concretos."
+    }
+  },
+  "taping": {
+    "restingSupport": "Soporte en reposo",
+    "movementAssist": "Asistencia al movimiento",
+    "directionalGuide": "Guía direccional"
+  }
+}

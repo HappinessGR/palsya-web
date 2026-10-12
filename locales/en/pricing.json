@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Pricing — Palsya",
+    "description": "Seven days free, then three-month plans: app only, or with two or six video consultations. No countdowns, cancel in two clicks."
+  },
+  "hero": {
+    "eyebrow": "Pricing",
+    "title": "Seven days free, then three months",
+    "lead": "Nothing is pre-selected, there is no countdown, and the middle option is marked as most chosen because it is, not to steer you."
+  },
+  "card": {
+    "mostChosen": "Most chosen",
+    "period": "/ {months, plural, one {# month} other {# months}}",
+    "perDay": "{price} a day",
+    "goToDashboard": "Go to dashboard",
+    "subscribe": "Subscribe",
+    "startTrial": "Start {days, plural, one {# day} other {# days}} free"
+  },
+  "plans": {
+    "app": {
+      "name": "App only",
+      "forWho": "For people who want the structure and are already under the care of a clinician they can ask questions of.",
+      "features": {
+        "programme": "Full guided programme, all five stages",
+        "sessions": "Daily sessions with taping and exercise guidance",
+        "scans": "Camera scans and symmetry tracking",
+        "timeline": "Photo timeline and progress reports",
+        "knowledge": "Complete knowledge base in 7 languages",
+        "support": "Email support within one working day"
+      }
+    },
+    "guided": {
+      "name": "App + 2 consultations",
+      "forWho": "The one most people choose. Two calls is usually enough to catch the mistakes that matter — taping tension, effort level, and synkinesis appearing.",
+      "features": {
+        "everything": "Everything in App only",
+        "consults": "<b>Two 30-minute video consultations</b> with a facial rehabilitation specialist",
+        "notes": "Written notes and a plan after each call",
+        "adjusted": "Your programme adjusted by a clinician, not only by the algorithm",
+        "priority": "Priority support within four working hours"
+      }
+    },
+    "supported": {
+      "name": "App + 6 consultations",
+      "forWho": "For more complex cases: significant synkinesis, post-surgical recovery, slow early progress, or anyone who simply wants regular contact with a person.",
+      "features": {
+        "everything": "Everything in App + 2 consultations",
+        "consults": "<b>Six 30-minute video consultations</b> — roughly every two weeks",
+        "continuity": "Continuity with the same clinician throughout",
+        "messages": "Direct message thread with your clinician",
+        "scanReviews": "Scan reviews between calls"
+      }
+    }
+  },
+  "table": {
+    "title": "What is in each plan",
+    "feature": "Feature",
+    "consultsHeader": "+{count, plural, one {# consultation} other {# consultations}}",
+    "days": "{count, plural, one {# day} other {# days}}",
+    "hours": "{count, plural, one {# hour} other {# hours}}",
+    "rows": {
+      "programme": "Full guided programme, five stages",
+      "guidance": "Daily taping and exercise guidance",
+      "scans": "Camera scans and symmetry tracking",
+      "timeline": "Photo timeline and comparison",
+      "reports": "AI progress reports",
+      "knowledge": "Knowledge base, {count} languages",
+      "share": "Share reports with your own clinician",
+      "consults": "Video consultations",
+      "notes": "Written notes after each call",
+      "sameClinician": "Same clinician throughout",
+      "messages": "Message thread with your clinician",
+      "scanReviews": "Scan reviews between calls",
+      "support": "Support response time"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "After the first three months",
+      "body": "Extend month to month at {price}, or stop. Most people in Stage 4 or 5 extend for two or three months and then move to a short maintenance routine on their own."
+    },
+    "consult": {
+      "title": "Extra consultations",
+      "body": "{price} each, on any plan. Booked from your account, usually available inside three days."
+    },
+    "referral": {
+      "title": "Referred by a clinician?",
+      "body": "{discount, number, percent} off your first three months. Enter their referral code at checkout — it also lets them see your progress reports, if you agree to that separately."
+    },
+    "reducedCost": {
+      "title": "If cost is the problem",
+      "body": "Write to us. We hold a number of reduced-cost places each month for people who cannot afford this, and you will not be asked to prove anything beyond a sentence about your situation."
+    }
+  },
+  "faq": {
+    "title": "Questions about paying",
+    "all": "All frequently asked questions"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Histórias de recuperação — Palsya",
+    "description": "Recuperações reais de utilizadores da Palsya, incluindo as fases de estagnação e os retrocessos, além de avaliações, apoio de clínicos e imprensa."
+  },
+  "hero": {
+    "eyebrow": "Testemunhos, identificados com honestidade",
+    "title": "Recuperações reais, incluindo as partes difíceis",
+    "lead": "Cada história aqui é de um utilizador real que deu autorização, com os nomes abreviados a seu pedido. Não retirámos as fases de estagnação, os retrocessos nem os resultados que ficaram aquém da recuperação completa — são precisamente essas as histórias que as pessoas precisam de ler."
+  },
+  "quoted": "“{text}”",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · começou na semana {week, number} · {months, plural, one {# mês de programa} other {# meses de programa}}"
+  },
+  "reviews": {
+    "title": "Avaliações",
+    "lead": "Recolhidas na aplicação junto de utilizadores que completaram pelo menos quatro semanas. Também publicamos as negativas.",
+    "stars": "{n, number} de {max, number} estrelas",
+    "verified": "Utilizador verificado"
+  },
+  "clinicians": {
+    "title": "Da parte dos clínicos",
+    "lead": "Clínicos independentes que nos encaminham doentes. Nenhum deles é pago por isso.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Imprensa e publicações",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Varsóvia",
+      "dx": "Paralisia de Bell",
+      "summary": "De uma paralisia completa do lado direito a comer e falar normalmente, com uma ligeira sincinesia residual.",
+      "body": "A Marta acordou numa terça-feira sem conseguir fechar o olho direito. Começou os corticoides em menos de 48 horas. Iniciou a Palsya na segunda semana, na Fase 1, e passou onze dias a fazer quase só proteção do olho e massagem suave — o que descreve como a parte mais difícil de todo o programa. O primeiro esboço de movimento na bochecha surgiu ao 19.º dia. A sincinesia apareceu por volta da sétima semana, o que achou mais angustiante do que a paralisia inicial. O trabalho de coordenação nas Fases 3 e 4 reduziu-a bastante, mas não por completo. Ao fim de cinco meses, o olho fecha-se ligeiramente quando sorri muito, e de resto tem a função completa.",
+      "quote": "A quietude do início parecia desistir. Não era. Agora percebo isso, e na altura não percebia."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Paralisia de Bell",
+      "summary": "Um início lento, nove semanas de estagnação e uma mudança constante a seguir.",
+      "body": "O Tomás chegou tarde à Palsya, na sexta semana, sem qualquer movimento e depois de lhe terem dito para esperar para ver. As suas primeiras oito análises variaram menos de quatro pontos, o que fica dentro da margem de medição e, portanto, não é bem movimento. Descreve as semanas sete a quinze como o momento em que deixou de acreditar que alguma coisa ia mudar. A sua clínica manteve-o na Fase 2 durante todo esse período em vez de o fazer avançar, com o argumento de que é ao adiantar o programa em relação à função que as compensações se instalam. O movimento tornou-se claramente voluntário na décima sexta semana. Ao sétimo mês, a sua pontuação de simetria tinha subido vinte e dois pontos em relação à linha de base.",
+      "quote": "Nove semanas de linhas planas. A minha fisioterapeuta não me deixava avançar e tinha razão, mas fiquei ressentido com ela durante cerca de um mês."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Pós-cirúrgica",
+      "summary": "Lesão do nervo facial após cirurgia a um neurinoma do acústico, com uma recuperação parcial e assimétrica.",
+      "body": "A paralisia da Sanne surgiu depois de uma cirurgia, o que a coloca numa categoria diferente da paralisia de Bell: o padrão de recuperação foi menos previsível e o prazo mais longo. Usou o pacote de seis consultas do princípio ao fim e ficou com o mesmo clínico durante nove meses. A boca recuperou bastante, o olho em parte e a testa quase nada — um padrão desigual que, diz, foi mais fácil de aceitar quando alguém lhe explicou porque acontece em vez de o tratar como uma falha. Continua na Fase 5, com uma rotina curta de manutenção e uma análise de seis em seis semanas.",
+      "quote": "Deixei de me medir pelo rosto que tinha. Não foi uma derrota. Foi o que me permitiu seguir em frente."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "O que mais me ajudou foi dizerem-me para fazer menos. Andava a forçar o sorriso o mais que podia, duas vezes por dia, há cinco semanas. O meu fisioterapeuta, na segunda chamada, reparou nisso em cerca de um minuto.",
+      "ctx": "Paralisia de Bell · Cracóvia · começou na semana 3"
+    },
+    "aisling": {
+      "quote": "Consegui ver a mudança na cronologia de fotografias antes de a ver ao espelho. Isso contou mais do que esperava nas semanas em que parecia não estar a acontecer nada.",
+      "ctx": "Paralisia de Bell · Cork · começou na semana 2"
+    },
+    "dieter": {
+      "quote": "Ramsay Hunt, portanto um caminho mais lento do que a maioria. O que apreciei foi ninguém fingir o contrário nem me prometer um prazo que não podia saber.",
+      "ctx": "Síndrome de Ramsay Hunt · Leipzig · começou na semana 6"
+    },
+    "rosa": {
+      "quote": "Tenho 71 anos e não me dou bem com aplicações. É um ecrã com um botão. A minha filha configurou-a e uso-a sozinha desde o segundo dia.",
+      "ctx": "Paralisia de Bell · Valência · começou na semana 4"
+    },
+    "youssef": {
+      "quote": "Ao fim de seis meses, o meu rosto não é o rosto que tinha. Mas consigo beber por um copo, consigo comer num restaurante e deixei de evitar fotografias. Era esse o verdadeiro objetivo.",
+      "ctx": "Lesão do nervo facial pós-cirúrgica · Lyon"
+    },
+    "lena": {
+      "quote": "As instruções de cuidados com o olho foram mais úteis do que tudo o que recebi no hospital, onde me deram um folheto e me mandaram para casa. A minha córnea está bem e acho que é por isso.",
+      "ctx": "Paralisia de Bell · Malmö · começou na semana 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "Especialista em Otorrinolaringologia",
+      "where": "Viena",
+      "quote": "O que aqui é invulgar é a contenção. O programa não promete recuperação, não classifica os doentes uns em relação aos outros e é explícito sobre onde a evidência é escassa. Encaminho doentes para cá e leio os relatórios de progresso que me enviam."
+    },
+    "aubert": {
+      "role": "Neurorreabilitação, hospital universitário",
+      "where": "Lille",
+      "quote": "A adequação à fase é o que importa clinicamente. Dar a todos os doentes a mesma folha de exercícios, tenham ou não sincinesia, é prática comum e não é boa prática. Isto faz melhor do que isso."
+    },
+    "solberg": {
+      "role": "Fisioterapeuta especialista em reabilitação facial",
+      "where": "Oslo",
+      "quote": "Uso a cronologia das análises nas minhas próprias sessões clínicas. Poder mostrar a um doente uma mudança objetiva durante nove semanas de estagnação faz-lhe algo que as minhas palavras de tranquilização, sozinhas, não fazem."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "As aplicações de reabilitação que se recusam a transformar a recuperação num jogo",
+      "kind": "Reportagem"
+    },
+    "jdr": {
+      "headline": "Reeducação neuromuscular facial à distância: uma coorte observacional de 1204 utilizadores",
+      "kind": "Revisto por pares"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Entrevista"
+    },
+    "bpa": {
+      "headline": "Recurso analisado: Palsya",
+      "kind": "Associação de doentes"
+    }
+  }
+}

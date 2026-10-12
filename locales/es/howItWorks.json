@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Cómo funciona Palsya",
+    "description": "De la evaluación a su primer escaneo: asignación de fase, la sesión diaria, los escaneos semanales, el progreso con el tiempo y el clínico, sin adornos de marketing."
+  },
+  "hero": {
+    "eyebrow": "Cómo funciona",
+    "title": "De la evaluación a su primer escaneo",
+    "lead": "Todo el proceso, sin adornos de marketing."
+  },
+  "stepLabel": "Paso {n}",
+  "steps": {
+    "assessment": {
+      "title": "La evaluación",
+      "p1": "Dieciséis preguntas, unos ocho minutos. No es un examen que se pueda aprobar: las respuestas fijan su punto de partida, así que responder lo que suena mejor empeora su programa.",
+      "p2": "Pregunta cuándo empezó la debilidad, cuál es su diagnóstico, qué se mueve y qué no en tres zonas de la cara, si hay movimientos que van unidos entre sí y cómo va su día a día. También pregunta en detalle por el ojo, porque es la parte que puede sufrir daños permanentes.",
+      "p3": "Si sus respuestas muestran algo que necesita un médico y no una aplicación (dolor ocular, debilidad en una extremidad, debilidad que sigue empeorando al cabo de semanas, afectación de ambos lados o ausencia de diagnóstico), nos detenemos y se lo decimos. Preferimos perder el registro."
+    },
+    "stage": {
+      "title": "Su fase, y por qué",
+      "p1": "Sus respuestas pasan por un proceso de asignación creado por nuestro equipo clínico: el tiempo desde el inicio fija un límite exterior, lo que realmente se mueve hace el trabajo de verdad, después se aplican modificadores por movimientos asociados y tirantez, y por último una comprobación de fiabilidad.",
+      "p2": "Verá el razonamiento, en lenguaje sencillo. No solo «Fase 3», sino por qué la fase 3 y qué cambia exactamente en su día.",
+      "p3": "Cuando las respuestas no encajan en un patrón habitual, o el inicio fue hace más de 90 días, o la parálisis se produjo tras una cirugía o una lesión, un clínico revisa la asignación antes de que empiece su programa. Esa revisión se hace en un día laborable y está incluida."
+    },
+    "session": {
+      "title": "La sesión diaria",
+      "p1": "Una pantalla, un botón. Tres partes: vendaje, ejercicios y rutina diaria. De diez a veinte minutos según su fase, y puede dividirla en dos.",
+      "p2": "Cada ejercicio va guiado por un temporizador con indicaciones como si se las dijeran en voz alta, un diagrama, el número de repeticiones para su fase y el error más habitual en ese movimiento concreto. El vendaje le muestra dónde va cada tira y con cuánta tensión, que es el error que comete casi todo el mundo, siempre por exceso.",
+      "p3": "Márquela como hecha y queda registrada. Si se salta un día, no pasa nada."
+    },
+    "scan": {
+      "title": "El escaneo semanal",
+      "p1": "Coloque la cara dentro de un contorno y siga cuatro indicaciones: reposo, subir las cejas, sonrisa suave y cierre de los ojos. Unos noventa segundos.",
+      "p2": "Antes de medir nada, se revisa la imagen en busca de lo que produce resultados falsos: luz lateral, poca luz, desenfoque, movimiento. Si la imagen no es lo bastante buena, se lo decimos y la repite. Un escaneo malo es peor que ninguno.",
+      "p3": "Los puntos de referencia se detectan en su dispositivo. Su lado afectado se compara con la imagen especular del lado sano, zona por zona, y se combina en una única puntuación sobre 100 respecto a su propio punto de partida.",
+      "p4": "La puntuación es una medida geométrica. No es un grado de gravedad, no equivale a la escala de House-Brackmann y no es un porcentaje de recuperación. Su único propósito es comparar cómo está usted hoy con cómo estaba el mes pasado."
+    },
+    "timeline": {
+      "title": "Lo que verá con el tiempo",
+      "p1": "Una cronología de la puntuación con el margen de medición dibujado, para que vea qué cambios son reales y cuáles son ruido. Una comparación lado a lado con cualquier escaneo anterior. Una cronología de fotos que usted controla y puede borrar en cualquier momento.",
+      "p2": "Informes de progreso redactados a partir de sus propios datos, con una plantilla que no predice su resultado ni le felicita por el esfuerzo. Hitos que son observaciones objetivas («mantiene el cierre de los labios al beber»), no insignias."
+    },
+    "clinician": {
+      "title": "El clínico",
+      "p1": "En los planes que incluyen consultas, reserva una videollamada de 30 minutos con un especialista en rehabilitación facial y elige con quién habla. Puede compartir antes sus escaneos e informes, para no gastar la llamada en ponerse al día.",
+      "p2": "Después recibe notas escritas y un plan concreto. Si su programa debe cambiar, lo cambian: un clínico puede corregir al algoritmo, y a menudo lo hace."
+    }
+  },
+  "notRight": {
+    "title": "¿Y si no es para usted?",
+    "lead": "Si cancela durante los siete días gratis, no se le cobra nada. Si cancela más tarde, bastan dos clics: sin llamadas, sin ofertas para retenerle, sin trucos. Llévese una exportación de sus datos al salir.",
+    "cta": "Empiece sus 7 días gratis"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Über Palsya",
+    "description": "Warum es Palsya gibt, was es ist und was nicht, wie es finanziert wird – und was wir nicht entwickeln werden."
+  },
+  "hero": {
+    "eyebrow": "Über uns",
+    "title": "Wir haben angefangen, weil ein Merkblatt kein Programm ist"
+  },
+  "story": {
+    "p1": "2019 wachte unser Produktleiter auf und konnte sein linkes Auge nicht mehr schließen. Noch am selben Tag wurde eine Fazialisparese (Bell-Lähmung) diagnostiziert. Er bekam Kortison und wurde mit einem kopierten Blatt mit neun Gesichtsübungen nach Hause geschickt – ohne Nachsorge, vier Monate lang.",
+    "p2": "Er machte die Übungen. Kräftig, zweimal täglich, mit maximaler Anstrengung, elf Wochen lang – ziemlich genau das Schlechteste, was er hätte tun können. Niemand sagte ihm etwas anderes, bis er im vierten Monat privat eine spezialisierte Physiotherapeutin fand. Da hatten sich die Synkinesien bereits verfestigt, und es brauchte weitere sechs Monate Koordinationsarbeit, um sie zu verringern.",
+    "p3": "Das Wissen, das seine Genesung verändert hätte, gab es. In der Physiotherapie-Ausbildung, in Spezialkliniken, in Fachzeitschriften. Nur nicht in seinen Händen, in seiner Sprache, an dem Tag, an dem er es brauchte."
+  },
+  "whatWeAre": {
+    "title": "Was wir sind",
+    "body": "Ein Rehabilitationsprogramm bei peripherer Fazialisparese, im Browser nutzbar, entwickelt und betreut von Fachkräften, die diese Arbeit auch persönlich machen. Gegründet 2023, mit Sitz in Lissabon und Amsterdam, derzeit genutzt von rund vierzehntausend Menschen in zweiundzwanzig Ländern."
+  },
+  "whatWeAreNot": {
+    "title": "Was wir nicht sind",
+    "body": "Wir sind kein Diagnosedienst, kein Ersatz für ärztliche Behandlung und kein Wellnessprodukt. Wir behandeln eine Gesichtslähmung nicht als Frage der Einstellung. Wir werden Ihnen nicht erzählen, dass Ihre Genesung von Ihrer inneren Haltung abhängt."
+  },
+  "funding": {
+    "title": "Wie wir uns finanzieren",
+    "body": "Ausschließlich über Abonnements. Keine Werbung, kein Datenverkauf, keine Partnerschaften mit Versicherern, die jemand anderem ein Interesse daran geben würden, was Ihr Gesicht tut. Wir haben eine einzige Seed-Finanzierungsrunde aufgenommen, und unsere Investoren haben keinen Zugriff auf Patientendaten."
+  },
+  "refuse": {
+    "title": "Was wir nicht entwickeln werden",
+    "body": "Genesungsprognosen. Serien-Mechaniken. Ranglisten von Patienten. Push-Benachrichtigungen, die andeuten, Sie hätten jemanden enttäuscht. Countdown-Timer bei den Preisen. Eine Kündigung mit mehr als zwei Klicks. Diese Ideen kommen in Produktbesprechungen auf, und die Antwort war jedes Mal Nein."
+  },
+  "stats": {
+    "people": {
+      "value": "{n, number}+",
+      "label": "Menschen in Genesung",
+      "detail": "In {count, number} Ländern"
+    },
+    "founded": {
+      "label": "Gegründet",
+      "detail": "Lissabon und Amsterdam"
+    },
+    "languages": {
+      "label": "Sprachen",
+      "detail": "Komplette App und Wissensdatenbank"
+    },
+    "dataSold": {
+      "label": "Verkaufte Datensätze",
+      "detail": "An niemanden, niemals"
+    }
+  },
+  "team": {
+    "title": "Die Menschen dahinter",
+    "lead": "Mit Registrierungsnummern, denn Sie sollten das überprüfen können.",
+    "cta": "Klinisches Team kennenlernen"
+  }
+}

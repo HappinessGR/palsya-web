@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Accept your invitation — Palsya",
+    "description": "Set your name and password to join Palsya."
+  },
+  "loading": "Loading…",
+  "title": "Accept your invitation",
+  "lead": "Your email address and role were set by the person who invited you. Choose your name and a password to finish.",
+  "submit": "Create my account",
+  "side": {
+    "title": "Welcome to the Palsya team",
+    "points": {
+      "role": "Your access is set by an administrator — there is nothing to choose",
+      "password": "Use a strong password: you will be working with patient records"
+    }
+  },
+  "missing": {
+    "title": "This invitation link is incomplete",
+    "body": "Open the link from your invitation email again, or ask the administrator who invited you to send a new one.",
+    "signIn": "Go to sign in"
+  }
+}

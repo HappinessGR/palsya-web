@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "meta": {
+      "title": "Page not found — Palsya",
+      "description": "This page does not exist or has moved."
+    },
+    "code": "404",
+    "title": "We could not find that page",
+    "body": "The link may be out of date, or the page is still being written. Everything else is where you left it.",
+    "home": "Back to the home page",
+    "guides": "Browse the guides"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "This is on our side, not yours. Try again, and if it keeps happening, contact support.",
+    "retry": "Try again",
+    "home": "Back to the home page",
+    "reference": "Reference: {digest}"
+  },
+  "loading": "Loading…"
+}

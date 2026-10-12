@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Schutz",
+      "short": "Der Nerv ist entzündet. Es geht um Schutz, nicht um Anstrengung.",
+      "window": "Meist Tag 1–14 nach Beginn",
+      "body": "In dieser Phase beschleunigt nichts, was Sie mit dem Muskel tun, den Nerv – und starkes Forcieren kann später Probleme machen. Deshalb ist das Programm bewusst ruhig: das Auge schützen, das Gewebe geschmeidig halten, die Ruheposition des Gesichts stützen und die Entzündung abklingen lassen.",
+      "focus": {
+        "f1": "Schutz und Befeuchtung des Auges",
+        "f2": "Passive Unterstützung, keine erzwungene Bewegung",
+        "f3": "Sanfte Massage für die Durchblutung",
+        "f4": "Schlaf und Ruhe"
+      },
+      "avoid": {
+        "a1": "Erzwungene Bewegungen oder maximale Anstrengung",
+        "a2": "Elektrostimulation",
+        "a3": "Kaugummikauen als „Übung“",
+        "a4": "Trotz Schmerzen weitermachen"
+      },
+      "tapeMode": "Ruhestütze – hebt das Mittelgesicht gegen die Schwerkraft. Kein Zug in eine Bewegung."
+    },
+    "2": {
+      "name": "Aktivierung",
+      "short": "Die ersten Signale kommen an. Wir helfen dem Gehirn, sie zu finden.",
+      "window": "Meist Woche 2–6, sobald sich eine erste Regung zeigt",
+      "body": "Eine kleine Regung reicht, um damit zu arbeiten. Ziel ist jetzt, die kleinste Bewegung zu finden, die Sie tatsächlich ausführen können, und sie genau zu wiederholen – statt eine große Bewegung schlecht auszuführen. Klein und korrekt schlägt groß und mit Mitbewegungen.",
+      "focus": {
+        "f1": "Die kleinste willkürliche Bewegung finden",
+        "f2": "Wiederholungen mit wenig Kraft und hoher Genauigkeit",
+        "f3": "Spiegel-Feedback für die Richtung",
+        "f4": "Die nicht betroffene Seite ruhig halten"
+      },
+      "avoid": {
+        "a1": "Angestrengtes Pressen, das die falschen Muskeln aktiviert",
+        "a2": "Lange Serien – Ermüdung verschlechtert das Muster",
+        "a3": "Beide Seiten während der Übung vergleichen"
+      },
+      "tapeMode": "Unterstützung – das Tape hilft bei der Bewegung, die Sie ausführen möchten, sodass weniger Kraft nötig ist."
+    },
+    "3": {
+      "name": "Koordination",
+      "short": "Bewegung ist da. Jetzt muss sie dorthin gehen, wohin Sie sie schicken.",
+      "window": "Meist Woche 6–16",
+      "body": "In dieser Phase können die meisten Menschen Bewegungen ausführen, aber nicht isolieren – das Auge wird beim Lächeln schmaler, oder der Mundwinkel zieht mit, wenn Sie das Auge schließen. Koordinationsarbeit trainiert die Trennung. Sie ist langsamer und weniger befriedigend als Krafttraining, und sie ist wichtiger.",
+      "focus": {
+        "f1": "Augen- und Mundbewegung voneinander trennen",
+        "f2": "Langsamer, kontrollierter Bewegungsumfang im mittleren Bereich",
+        "f3": "Eine Position halten, statt hineinzuschnellen",
+        "f4": "Entspannung zwischen den Wiederholungen"
+      },
+      "avoid": {
+        "a1": "Schnelle Wiederholungen",
+        "a2": "Das gekoppelte Muster üben, das Sie verlernen wollen",
+        "a3": "Über die Ermüdung hinaus weiterarbeiten"
+      },
+      "tapeMode": "Führung – das Tape gibt einen Richtungsreiz und bremst die gekoppelte Bewegung."
+    },
+    "4": {
+      "name": "Verfeinerung",
+      "short": "Das Gesicht funktioniert. Jetzt geht es um Kontrolle bei wenig Kraft.",
+      "window": "Meist Monat 4–9",
+      "body": "Bei der Verfeinerung geht es um die Bewegungen, die Sie ohne nachzudenken nutzen: Sprechen, Essen, Mimik im Gespräch. Die Übungen rücken näher an den Alltag und weiter weg vom Spiegel, und der Umgang mit Verspannung wird so wichtig wie die Aktivierung.",
+      "focus": {
+        "f1": "Mimik beim Sprechen",
+        "f2": "Symmetrie bei normaler Gesprächsmimik, nicht bei maximaler Kraft",
+        "f3": "Verspannung und übermäßige Mitaktivierung lösen",
+        "f4": "Ausdauer über den Tag"
+      },
+      "avoid": {
+        "a1": "Halten mit maximaler Kraft",
+        "a2": "Verspannung ignorieren, weil Bewegung da ist"
+      },
+      "tapeMode": "Gelegentlich – für bestimmte Situationen oder bei Müdigkeit, nicht täglich."
+    },
+    "5": {
+      "name": "Erhaltung",
+      "short": "Das Erreichte halten – und nutzen.",
+      "window": "Ab etwa Monat 9",
+      "body": "Die Genesung flacht ab, bildet sich aber in der Regel nicht zurück. Eine kürzere Erhaltungsroutine schützt den Bewegungsumfang und verhindert, dass sich Verspannung wieder einschleicht. Regelmäßige Scans sorgen dafür, dass Veränderungen früh erkannt und nicht erst spät entdeckt werden.",
+      "focus": {
+        "f1": "Kurze tägliche Erhaltungsroutine",
+        "f2": "Dehnen und Lösen",
+        "f3": "Regelmäßige Scans zur Bestätigung der Stabilität",
+        "f4": "Rückkehr zu allen Aktivitäten"
+      },
+      "avoid": {
+        "a1": "Ganz aufhören und unbemerkt Bewegungsumfang verlieren"
+      },
+      "tapeMode": "Nicht routinemäßig. Verfügbar für anstrengende Tage oder besondere Anlässe."
+    }
+  },
+  "taping": {
+    "restingSupport": "Ruhestütze",
+    "movementAssist": "Bewegungshilfe",
+    "directionalGuide": "Richtungsführung"
+  }
+}

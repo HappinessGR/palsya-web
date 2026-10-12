@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "meta": {
+      "title": "Página no encontrada — Palsya",
+      "description": "Esta página no existe o se ha movido."
+    },
+    "code": "404",
+    "title": "No hemos encontrado esa página",
+    "body": "Puede que el enlace esté desactualizado o que la página aún se esté escribiendo. Todo lo demás sigue donde lo dejó.",
+    "home": "Volver a la página de inicio",
+    "guides": "Ver las guías"
+  },
+  "error": {
+    "title": "Algo ha fallado",
+    "body": "El problema es nuestro, no suyo. Vuelva a intentarlo y, si sigue ocurriendo, contacte con soporte.",
+    "retry": "Reintentar",
+    "home": "Volver a la página de inicio",
+    "reference": "Referencia: {digest}"
+  },
+  "loading": "Cargando…"
+}

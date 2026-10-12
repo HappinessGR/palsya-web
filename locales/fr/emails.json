@@ -1,0 +1,26 @@
+{
+  "footer": "Vous recevez cet e-mail en raison d'une activité sur votre compte Palsya. Des questions ? Contactez {support}.",
+  "reset": {
+    "subject": "Réinitialisez votre mot de passe Palsya",
+    "preheader": "Ce lien est valable {minutes} minutes.",
+    "heading": "Réinitialisez votre mot de passe",
+    "body": "Nous avons reçu une demande de réinitialisation du mot de passe de votre compte Palsya. Choisissez un nouveau mot de passe à l'aide du bouton ci-dessous. Le lien ne fonctionne qu'une fois et expire dans {minutes} minutes.",
+    "button": "Choisir un nouveau mot de passe",
+    "ignore": "Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer cet e-mail — votre mot de passe ne changera pas."
+  },
+  "changed": {
+    "subject": "Votre mot de passe Palsya a été modifié",
+    "preheader": "Si ce n'était pas vous, contactez l'assistance.",
+    "heading": "Votre mot de passe a été modifié",
+    "body": "Le mot de passe de votre compte Palsya a été modifié le {when, date, long} à {when, time, short}. Vous avez été déconnecté de vos autres appareils.",
+    "notYou": "Si ce n'était pas vous, contactez immédiatement l'assistance à l'adresse {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {Vous êtes invité à administrer Palsya} other {Vous êtes invité à rejoindre Palsya en tant que clinicien}}",
+    "preheader": "Acceptez l'invitation et définissez votre mot de passe.",
+    "heading": "{role, select, admin {Rejoignez Palsya en tant qu'administrateur} other {Rejoignez Palsya en tant que clinicien}}",
+    "body": "{inviter} vous a invité à rejoindre Palsya {role, select, admin {en tant qu'administrateur} other {en tant que clinicien}}. Acceptez l'invitation pour définir votre nom et votre mot de passe.",
+    "button": "Accepter l'invitation",
+    "ignore": "Si vous n'attendiez pas cette invitation, vous pouvez ignorer cet e-mail."
+  }
+}

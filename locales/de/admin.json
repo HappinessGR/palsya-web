@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Verwaltung — Palsya",
+    "description": "Palsya-Backoffice."
+  },
+  "heading": "Verwaltung",
+  "headingNamed": "Verwaltung — {name}",
+  "subtitle": "Backoffice",
+  "nav": {
+    "label": "Verwaltungsbereiche",
+    "overview": "Übersicht",
+    "users": "Nutzer",
+    "invite": "Einladen",
+    "audit": "Audit-Log"
+  },
+  "roles": {
+    "patient": "Patient/in",
+    "clinician": "Fachkraft",
+    "admin": "Admin"
+  },
+  "statuses": {
+    "active": "Aktiv",
+    "suspended": "Deaktiviert",
+    "pending_verification": "Bestätigung ausstehend"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Patienten",
+      "clinicians": "Fachkräfte",
+      "admins": "Admins",
+      "unassigned": "Nicht zugewiesene Patienten",
+      "pendingInvitations": "Offene Einladungen"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Verwalten",
+      "users": "Nutzer",
+      "usersBody": "Rollen ändern, Konten deaktivieren und Patienten Fachkräften zuweisen.",
+      "invite": "Team einladen",
+      "inviteBody": "Fachkräfte oder Admins per E-Mail einladen und offene Einladungen verwalten.",
+      "audit": "Audit-Log",
+      "auditBody": "Sehen Sie, wer wann was getan hat."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Nutzer — Palsya-Verwaltung",
+      "description": "Palsya-Konten, Rollen und Zuweisungen zu Fachkräften verwalten."
+    },
+    "heading": "Nutzer",
+    "subtitle": "Rollen, Kontostatus und Zuweisungen zu Fachkräften.",
+    "filter": {
+      "label": "Nach Rolle filtern",
+      "all": "Alle"
+    },
+    "columns": {
+      "name": "Name",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "status": "Status",
+      "created": "Erstellt",
+      "clinician": "Zugewiesene Fachkraft",
+      "actions": "Aktionen"
+    },
+    "you": "Sie",
+    "empty": "Keine Nutzer entsprechen diesem Filter.",
+    "notApplicable": "—",
+    "roleSelect": "Rolle für {name}",
+    "saveRole": "Rolle ändern",
+    "deactivate": "Deaktivieren",
+    "reactivate": "Reaktivieren",
+    "clinicianSelect": "Fachkraft für {name}",
+    "unassigned": "Nicht zugewiesen",
+    "assign": "Zuweisen",
+    "result": {
+      "role_changed": "Rolle aktualisiert.",
+      "status_changed": "Kontostatus aktualisiert.",
+      "assigned": "Zuweisung zur Fachkraft aktualisiert."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Team einladen — Palsya-Verwaltung",
+      "description": "Fachkräfte und Admins zu Palsya einladen."
+    },
+    "heading": "Team einladen",
+    "subtitle": "Fachkräfte und Admins kommen nur per Einladung dazu. Patienten registrieren sich selbst.",
+    "form": {
+      "title": "Neue Einladung",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.de",
+      "role": "Rolle",
+      "language": "Sprache der E-Mail",
+      "languageHint": "Die Einladungs-E-Mail wird in dieser Sprache gesendet.",
+      "submit": "Einladung senden"
+    },
+    "pending": {
+      "title": "Offene Einladungen",
+      "empty": "Keine offenen Einladungen.",
+      "unavailable": "Offene Einladungen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "sent": "Gesendet",
+      "revoke": "Widerrufen",
+      "revokeLabel": "Einladung für {email} widerrufen"
+    },
+    "result": {
+      "invited": "Einladung gesendet.",
+      "revoked": "Einladung widerrufen."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Audit-Log — Palsya-Verwaltung",
+      "description": "Aktuelle Verwaltungs- und Sicherheitsereignisse."
+    },
+    "heading": "Audit-Log",
+    "subtitle": "Die letzten {count} Ereignisse, neueste zuerst.",
+    "empty": "Bisher wurde nichts protokolliert.",
+    "columns": {
+      "when": "Wann",
+      "who": "Wer",
+      "action": "Aktion",
+      "target": "Ziel",
+      "details": "Details"
+    },
+    "system": "System / anonym",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Nutzer",
+      "patient": "Patient/in",
+      "invitation": "Einladung"
+    },
+    "actions": {
+      "role_changed": "Rolle geändert",
+      "user_invited": "Nutzer eingeladen",
+      "invitation_revoked": "Einladung widerrufen",
+      "patient_assigned": "Patient/in zugewiesen",
+      "user_deactivated": "Nutzer deaktiviert",
+      "user_reactivated": "Nutzer reaktiviert",
+      "patient_stage_changed": "Phase der Patientin/des Patienten geändert",
+      "clinician_note_added": "Notiz einer Fachkraft hinzugefügt",
+      "password_reset_requested": "Passwort-Zurücksetzung angefordert",
+      "password_reset_completed": "Passwort zurückgesetzt",
+      "user_demoted_self_registered": "Selbst registrierte Fachkraft herabgestuft"
+    }
+  },
+  "errors": {
+    "not_signed_in": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+    "forbidden": "Dafür haben Sie keine Berechtigung.",
+    "invalid_input": "Diese Anfrage war ungültig. Bitte versuchen Sie es erneut.",
+    "not_found": "Dieser Nutzer oder diese Einladung existiert nicht mehr.",
+    "invalid_role": "Diese Rolle ist hier nicht zulässig.",
+    "invalid_locale": "Wählen Sie eine der aufgeführten Sprachen.",
+    "last_admin": "Der letzte Admin kann nicht entfernt werden.",
+    "cannot_change_self_status": "Sie können Ihr eigenes Konto nicht deaktivieren oder reaktivieren.",
+    "not_a_patient": "Dieses Konto gehört keiner Patientin und keinem Patienten.",
+    "not_a_clinician": "Wählen Sie eine aktive Fachkraft.",
+    "invalid_email": "Geben Sie eine gültige E-Mail-Adresse ein.",
+    "already_exists": "Für diese E-Mail-Adresse gibt es bereits ein Konto oder eine Einladung.",
+    "invite_failed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+  }
+}

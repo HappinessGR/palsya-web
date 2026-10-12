@@ -1,0 +1,115 @@
+/* ============================================================
+   Palsya — design tokens
+   Light, white, warm-clinical. Calm not cold, friendly not cute.
+   ============================================================ */
+
+:root {
+  /* ---- Canvas & surfaces ---- */
+  --canvas:        #ffffff;
+  --surface:       #f7faf9;
+  --surface-2:     #eef4f3;
+  --surface-warm:  #fdf6ef;
+  --surface-sink:  #f2f6f5;
+
+  /* ---- Lines ---- */
+  --line:          #e3ebe9;
+  --line-strong:   #cfdcd9;
+  --line-soft:     #eef3f2;
+
+  /* ---- Ink ---- */
+  --ink:           #142623;
+  --ink-2:         #3c514d;
+  --ink-3:         #6b807c;
+  --ink-4:         #93a5a1;
+  --ink-inverse:   #ffffff;
+
+  /* ---- Primary: deep calm teal ---- */
+  --brand:         #0f9488;
+  --brand-hover:   #0b7c72;
+  --brand-press:   #096a61;
+  --brand-ink:     #06534c;
+  --brand-tint:    #e6f5f3;
+  --brand-tint-2:  #cfeae6;
+
+  /* ---- Warm accent: apricot. Used sparingly, for humanity ---- */
+  --warm:          #e2833c;
+  --warm-ink:      #8a4a13;
+  --warm-tint:     #fdf1e4;
+  --warm-line:     #f5dcc2;
+
+  /* ---- Semantic ---- */
+  --ok:            #2f9e6b;
+  --ok-tint:       #e6f6ee;
+  --ok-ink:        #14603f;
+  --warn:          #d3891f;
+  --warn-tint:     #fdf3e0;
+  --warn-ink:      #7d4d05;
+  --alert:         #c9564c;
+  --alert-tint:    #fdeceb;
+  --alert-ink:     #8a2f27;
+  --info:          #3c7ea8;
+  --info-tint:     #e9f2f8;
+  --info-ink:      #1f4e6b;
+
+  /* ---- Recovery phase colours (spec 6.2): stillness → activity → confidence ---- */
+  --p1:            #8199a8;   --p1-tint: #eef2f5;   --p1-ink: #435463;
+  --p2:            #14a89a;   --p2-tint: #e5f6f4;   --p2-ink: #08615a;
+  --p3:            #2f9e6b;   --p3-tint: #e7f6ef;   --p3-ink: #175c3e;
+  --p4:            #57b947;   --p4-tint: #edf8e9;   --p4-ink: #2c6522;
+  --p5:            #dd8b2c;   --p5-tint: #fdf2e3;   --p5-ink: #834d0c;
+
+  /* ---- Type ---- */
+  --font-display: "Newsreader", ui-serif, Georgia, "Times New Roman", serif;
+  --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+             "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  --t-xs:   0.75rem;    /* 12 */
+  --t-sm:   0.8125rem;  /* 13 */
+  --t-base: 0.9375rem;  /* 15 */
+  --t-md:   1rem;       /* 16 */
+  --t-lg:   1.125rem;   /* 18 */
+  --t-xl:   1.3125rem;  /* 21 */
+  --t-2xl:  1.625rem;   /* 26 */
+  --t-3xl:  2.125rem;   /* 34 */
+  --t-4xl:  2.75rem;    /* 44 */
+  --t-5xl:  3.5rem;     /* 56 */
+
+  /* ---- Space ---- */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px; --s-5: 20px;
+  --s-6: 24px; --s-7: 32px; --s-8: 40px; --s-9: 56px; --s-10: 72px;
+  --s-11: 96px; --s-12: 128px;
+
+  /* ---- Radii ---- */
+  --r-sm: 8px; --r-md: 12px; --r-lg: 18px; --r-xl: 26px; --r-full: 999px;
+
+  /* ---- Elevation: soft, low-contrast, never harsh ---- */
+  --sh-1: 0 1px 2px rgba(20, 38, 35, .04), 0 1px 3px rgba(20, 38, 35, .04);
+  --sh-2: 0 2px 4px rgba(20, 38, 35, .04), 0 6px 16px rgba(20, 38, 35, .05);
+  --sh-3: 0 4px 8px rgba(20, 38, 35, .05), 0 14px 32px rgba(20, 38, 35, .07);
+  --sh-4: 0 10px 20px rgba(20, 38, 35, .07), 0 24px 56px rgba(20, 38, 35, .10);
+  --ring: 0 0 0 3px rgba(15, 148, 136, .22);
+
+  /* ---- Layout ---- */
+  --wide: 1200px;
+  --mid: 960px;
+  --read: 720px;
+  --nav-h: 68px;
+  --ease: cubic-bezier(.22, .61, .36, 1);
+}
+
+/* Accessible focus, everywhere, always visible for keyboard users */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "footer": "U ontvangt deze e-mail vanwege activiteit op uw Palsya-account. Vragen? Neem contact op met {support}.",
+  "reset": {
+    "subject": "Uw Palsya-wachtwoord opnieuw instellen",
+    "preheader": "Deze link werkt {minutes} minuten.",
+    "heading": "Uw wachtwoord opnieuw instellen",
+    "body": "We hebben een verzoek ontvangen om het wachtwoord van uw Palsya-account opnieuw in te stellen. Kies een nieuw wachtwoord via de knop hieronder. De link werkt één keer en verloopt over {minutes} minuten.",
+    "button": "Nieuw wachtwoord kiezen",
+    "ignore": "Hebt u hier niet om gevraagd? Dan kunt u deze e-mail negeren — uw wachtwoord verandert niet."
+  },
+  "changed": {
+    "subject": "Uw Palsya-wachtwoord is gewijzigd",
+    "preheader": "Was u dit niet? Neem dan contact op met de ondersteuning.",
+    "heading": "Uw wachtwoord is gewijzigd",
+    "body": "Het wachtwoord van uw Palsya-account is gewijzigd op {when, date, long} om {when, time, short}. U bent uitgelogd op uw andere apparaten.",
+    "notYou": "Was u dit niet? Neem dan direct contact op met de ondersteuning via {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {U bent uitgenodigd als beheerder van Palsya} other {U bent uitgenodigd voor Palsya als behandelaar}}",
+    "preheader": "Accepteer de uitnodiging en stel uw wachtwoord in.",
+    "heading": "{role, select, admin {Word beheerder bij Palsya} other {Word behandelaar bij Palsya}}",
+    "body": "{inviter} heeft u uitgenodigd voor Palsya {role, select, admin {als beheerder} other {als behandelaar}}. Accepteer de uitnodiging om uw naam en wachtwoord in te stellen.",
+    "button": "Uitnodiging accepteren",
+    "ignore": "Verwachtte u deze uitnodiging niet? Dan kunt u deze e-mail negeren."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Over Palsya",
+    "description": "Waarom Palsya bestaat, wat het wel en niet is, hoe het wordt gefinancierd en wat we weigeren te bouwen."
+  },
+  "hero": {
+    "eyebrow": "Over ons",
+    "title": "We zijn begonnen omdat een folder geen programma is"
+  },
+  "story": {
+    "p1": "In 2019 werd ons hoofd product wakker en kon hij zijn linkeroog niet meer sluiten. Dezelfde dag kreeg hij de diagnose Bell's parese, corticosteroïden en een gekopieerd velletje met negen gezichtsoefeningen mee naar huis. Vier maanden lang volgde er geen controle.",
+    "p2": "Hij deed de oefeningen. Hard, twee keer per dag, met maximale kracht, elf weken lang — zo ongeveer het slechtste wat hij kon doen, en niemand vertelde hem anders tot hij in de vierde maand op eigen kosten een gespecialiseerde fysiotherapeut vond. Toen was de synkinesie al ontstaan, en het kostte nog zes maanden coördinatietraining om die te verminderen.",
+    "p3": "De informatie die zijn herstel had kunnen veranderen, bestond al. In de opleiding fysiotherapie, in gespecialiseerde klinieken, in vakbladen. Alleen niet in zijn handen, in zijn taal, op de dag dat hij die nodig had."
+  },
+  "whatWeAre": {
+    "title": "Wat we zijn",
+    "body": "Een revalidatieprogramma voor perifere aangezichtsverlamming, in de browser, ontwikkeld en begeleid door behandelaars die dit werk ook in de praktijk doen. Opgericht in 2023, gevestigd in Lissabon en Amsterdam, en op dit moment gebruikt door zo'n veertienduizend mensen in tweeëntwintig landen."
+  },
+  "whatWeAreNot": {
+    "title": "Wat we niet zijn",
+    "body": "We zijn geen diagnostische dienst, we vervangen geen medische zorg en we zijn geen wellnessproduct. We behandelen aangezichtsverlamming niet als een kwestie van mindset. We zullen u niet vertellen dat uw herstel afhangt van uw houding."
+  },
+  "funding": {
+    "title": "Hoe we worden gefinancierd",
+    "body": "Volledig uit abonnementen. Geen advertenties, geen verkoop van gegevens, geen samenwerkingen met verzekeraars die een ander belang zouden geven bij wat uw gezicht doet. We hebben één startinvestering (seedronde) opgehaald, en onze investeerders hebben geen toegang tot patiëntgegevens."
+  },
+  "refuse": {
+    "title": "Wat we weigeren te bouwen",
+    "body": "Voorspellingen van herstel. Reeksen die u niet mag onderbreken. Ranglijsten van patiënten. Pushmeldingen die suggereren dat u iemand hebt teleurgesteld. Afteltimers bij de prijzen. Een opzegproces met meer dan twee klikken. Dit komt in productoverleggen ter sprake, en het antwoord is elke keer nee geweest."
+  },
+  "stats": {
+    "people": {
+      "value": "{n, number}+",
+      "label": "Mensen in herstel",
+      "detail": "In {count, number} landen"
+    },
+    "founded": {
+      "label": "Opgericht",
+      "detail": "Lissabon en Amsterdam"
+    },
+    "languages": {
+      "label": "Talen",
+      "detail": "Volledige app en kennisbank"
+    },
+    "dataSold": {
+      "label": "Verkochte gegevensregels",
+      "detail": "Aan niemand, nooit"
+    }
+  },
+  "team": {
+    "title": "De mensen erachter",
+    "lead": "Inclusief registratienummers, want u moet het kunnen controleren.",
+    "cta": "Ons klinische team"
+  }
+}

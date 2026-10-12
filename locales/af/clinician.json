@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Klinikus — Palsya",
+    "description": "Die Palsya-portaal vir klinici."
+  },
+  "welcome": "Welkom",
+  "welcomeNamed": "Welkom, {name}",
+  "subtitle": "Klinikusportaal",
+  "patients": {
+    "title": "U pasiënte",
+    "count": "{count, plural, one {# pasiënt aan u toegewys} other {# pasiënte aan u toegewys}}",
+    "emptyTitle": "Nog geen pasiënte nie",
+    "emptyBody": "'n Administrateur ken pasiënte aan u toe. Hulle sal hier verskyn sodra hulle toegewys is.",
+    "columns": {
+      "name": "Naam",
+      "email": "E-pos",
+      "stage": "Fase",
+      "onset": "Aanvangsdatum",
+      "lastSession": "Laaste sessie"
+    },
+    "noStage": "Nie geassesseer nie",
+    "none": "—",
+    "open": "Maak {name} oop"
+  },
+  "patient": {
+    "meta": {
+      "title": "Pasiënt — Palsya",
+      "description": "Vordering, fasegeskiedenis en notas vir een van u pasiënte."
+    },
+    "back": "Terug na u pasiënte",
+    "stageBadge": "Fase {stage} · {name}",
+    "noStage": "Nog nie geassesseer nie",
+    "onset": "Aanvang: {date}",
+    "noOnset": "Aanvangsdatum nie verskaf nie",
+    "sessions": {
+      "title": "Sessiegeskiedenis",
+      "empty": "Nog geen sessies aangeteken nie.",
+      "columns": {
+        "date": "Datum",
+        "status": "Status",
+        "note": "Pasiënt se nota"
+      },
+      "status": {
+        "full": "Voltooi",
+        "part": "Gedeeltelik",
+        "none": "Nie gedoen nie"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Fasegeskiedenis",
+      "empty": "Nog geen fase toegeken nie.",
+      "override": "Deur 'n klinikus verander",
+      "overrideReason": "Rede: {reason}",
+      "assessment": "Uit die assessering",
+      "needsReview": "Moet hersien word"
+    },
+    "notes": {
+      "title": "Notas",
+      "empty": "Nog geen notas nie.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Voormalige personeellid",
+      "label": "Voeg 'n nota by",
+      "hint": "Notas vorm deel van die pasiënt se rekord en kan nie gewysig of uitgevee word nie. Hoogstens {max} karakters.",
+      "placeholder": "Wat het u waargeneem of aanbeveel?",
+      "submit": "Stoor nota",
+      "saving": "Stoor tans…",
+      "saved": "Nota gestoor."
+    },
+    "stage": {
+      "title": "Verander fase",
+      "intro": "Stel die pasiënt se fase in wanneer u assessering van die program s'n verskil. Die verandering word in die fasegeskiedenis aangeteken.",
+      "label": "Nuwe fase",
+      "option": "Fase {stage} · {name}",
+      "reasonLabel": "Rede (opsioneel)",
+      "reasonHint": "Word in die fasegeskiedenis gewys. Hoogstens {max} karakters.",
+      "submit": "Verander fase",
+      "saving": "Stoor tans…",
+      "saved": "Fase verander na {stage}."
+    },
+    "errors": {
+      "forbidden": "U kan nie veranderinge aan hierdie pasiënt maak nie.",
+      "not_signed_in": "U sessie het verstryk. Meld asseblief weer aan.",
+      "invalid_note": "Skryf 'n nota van 1 tot 5000 karakters.",
+      "invalid_stage": "Kies 'n fase van 1 tot 5.",
+      "invalid_reason": "Die rede kan hoogstens 500 karakters lank wees.",
+      "failed": "Iets het skeefgeloop. Probeer asseblief weer."
+    }
+  }
+}

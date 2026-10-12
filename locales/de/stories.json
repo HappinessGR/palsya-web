@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Genesungsberichte — Palsya",
+    "description": "Echte Genesungsverläufe von Palsya-Nutzern, einschließlich Stillstand und Rückschlägen, dazu Bewertungen, Stimmen von Fachkräften und Presse."
+  },
+  "hero": {
+    "eyebrow": "Erfahrungsberichte, ehrlich gekennzeichnet",
+    "title": "Echte Genesungsverläufe – auch die schwierigen Teile",
+    "lead": "Jeder Bericht hier stammt von einer echten Person, die zugestimmt hat; die Namen sind auf ihren Wunsch gekürzt. Wir haben die Phasen des Stillstands, die Rückschläge und die Verläufe ohne vollständige Genesung nicht entfernt – genau die brauchen Menschen wirklich zu lesen."
+  },
+  "quoted": "„{text}“",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · Start in Woche {week, number} · seit {months, plural, one {# Monat} other {# Monaten}}"
+  },
+  "reviews": {
+    "title": "Bewertungen",
+    "lead": "In der App gesammelt von Nutzern, die mindestens vier Wochen abgeschlossen haben. Wir veröffentlichen auch die schlechten.",
+    "stars": "{n, number} von {max, number} Sternen",
+    "verified": "Geprüfte Nutzerin/geprüfter Nutzer"
+  },
+  "clinicians": {
+    "title": "Von Fachkräften",
+    "lead": "Unabhängige Fachkräfte, die Patienten an uns überweisen. Keine von ihnen wird dafür bezahlt.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Presse und Publikationen",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Warschau",
+      "dx": "Idiopathische Fazialisparese",
+      "summary": "Von einer vollständigen rechtsseitigen Lähmung bis zu normalem Essen und Sprechen, mit leichten verbleibenden Synkinesien.",
+      "body": "Marta wachte an einem Dienstag auf und konnte ihr rechtes Auge nicht schließen. Innerhalb von 48 Stunden begann die Kortisonbehandlung. In Woche zwei startete sie mit Palsya in Phase 1 und tat elf Tage lang fast nichts außer Augenschutz und leichter Massage – was sie als den schwierigsten Teil des ganzen Programms beschreibt. Die erste Regung in ihrer Wange kam an Tag 19. Um Woche sieben traten Synkinesien auf, die sie belastender fand als die ursprüngliche Lähmung. Die Koordinationsarbeit in den Phasen 3 und 4 verringerte sie deutlich, aber nicht vollständig. Nach fünf Monaten verengt sich ihr Auge leicht, wenn sie breit lächelt; ansonsten ist die Funktion vollständig.",
+      "quote": "Die Ruhe am Anfang fühlte sich an wie Aufgeben. Das war sie nicht. Heute verstehe ich das, damals nicht."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Idiopathische Fazialisparese",
+      "summary": "Ein langsamer Start, neun Wochen Stillstand und danach stetige Veränderung.",
+      "body": "Tomás kam spät zu Palsya, in Woche sechs, ohne jede Bewegung und mit dem Rat, abzuwarten. Seine ersten acht Scans veränderten sich um weniger als vier Punkte – innerhalb der Messungenauigkeit, also eigentlich gar keine Veränderung. Die Wochen sieben bis fünfzehn beschreibt er als die Zeit, in der er nicht mehr glaubte, dass sich etwas ändern würde. Seine Fachkraft ließ ihn die ganze Zeit in Phase 2, statt ihn weiterzustufen – mit der Begründung, dass sich Ausweichbewegungen genau dann festsetzen, wenn das Programm der Funktion vorauseilt. In Woche sechzehn wurde die Bewegung eindeutig willkürlich. Nach sieben Monaten war sein Symmetriewert um zweiundzwanzig Punkte über den Ausgangswert gestiegen.",
+      "quote": "Neun Wochen flache Linien. Meine Physiotherapeutin wollte mich nicht weiterstufen, und sie hatte recht – aber ungefähr einen Monat lang war ich ihr böse."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Nach Operation",
+      "summary": "Verletzung des Gesichtsnervs nach einer Akustikusneurinom-Operation, mit teilweiser und ungleichmäßiger Genesung.",
+      "body": "Sannes Lähmung trat nach einer Operation auf, was sie in eine andere Kategorie als die idiopathische Fazialisparese einordnet: Der Verlauf war weniger vorhersehbar und der Zeitrahmen länger. Sie nutzte durchgehend das Paket mit sechs Sprechstunden und blieb neun Monate bei derselben Fachkraft. Ihr Mund erholte sich deutlich, ihr Auge teilweise und ihre Stirn kaum – ein ungleichmäßiges Muster, das sie nach eigenen Worten leichter annehmen konnte, als ihr jemand erklärte, warum es so kommt, statt es als Defizit zu behandeln. Sie ist weiter in Phase 5, mit einer kurzen Erhaltungsroutine und einem Scan alle sechs Wochen.",
+      "quote": "Ich habe aufgehört, mich an dem Gesicht zu messen, das ich früher hatte. Das war keine Niederlage. Es hat mir erlaubt, weiterzumachen."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "Am meisten hat mir geholfen, dass man mir sagte, ich solle weniger tun. Ich hatte fünf Wochen lang zweimal täglich so stark gelächelt, wie ich konnte. Meine Physiotherapeutin hat das im zweiten Gespräch in etwa einer Minute erkannt.",
+      "ctx": "Idiopathische Fazialisparese · Krakau · Start in Woche 3"
+    },
+    "aisling": {
+      "quote": "Ich konnte die Veränderung in der Fotochronik sehen, bevor ich sie im Spiegel sah. In den Wochen, in denen scheinbar nichts passierte, war das wichtiger, als ich erwartet hatte.",
+      "ctx": "Idiopathische Fazialisparese · Cork · Start in Woche 2"
+    },
+    "dieter": {
+      "quote": "Ramsay-Hunt, also ein langsamerer Weg als bei den meisten. Ich habe geschätzt, dass niemand etwas anderes vorgab oder mir einen Zeitplan versprach, den niemand kennen kann.",
+      "ctx": "Ramsay-Hunt-Syndrom · Leipzig · Start in Woche 6"
+    },
+    "rosa": {
+      "quote": "Ich bin 71 und nicht gut mit Apps. Es ist ein Bildschirm mit einem Knopf. Meine Tochter hat es eingerichtet, und seit dem zweiten Tag nutze ich es allein.",
+      "ctx": "Idiopathische Fazialisparese · Valencia · Start in Woche 4"
+    },
+    "youssef": {
+      "quote": "Nach sechs Monaten ist mein Gesicht nicht mehr das Gesicht, das ich hatte. Aber ich kann aus einem Glas trinken, im Restaurant essen, und ich meide keine Fotos mehr. Das war das eigentliche Ziel.",
+      "ctx": "Verletzung des Gesichtsnervs nach Operation · Lyon"
+    },
+    "lena": {
+      "quote": "Die Anleitung zur Augenpflege war hilfreicher als alles, was ich im Krankenhaus bekam – dort drückte man mir ein Merkblatt in die Hand und schickte mich nach Hause. Meiner Hornhaut geht es gut, und ich glaube, das ist der Grund.",
+      "ctx": "Idiopathische Fazialisparese · Malmö · Start in Woche 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "Fachärztin/Facharzt für HNO-Heilkunde",
+      "where": "Wien",
+      "quote": "Ungewöhnlich ist hier die Zurückhaltung. Das Programm verspricht keine Genesung, stellt Patienten nicht in eine Rangfolge und sagt offen, wo die Studienlage dünn ist. Ich überweise Patienten dorthin und lese die Fortschrittsberichte, die sie mir schicken."
+    },
+    "aubert": {
+      "role": "Neurorehabilitation, Universitätsklinikum",
+      "where": "Lille",
+      "quote": "Die Anpassung an die Phase ist klinisch der entscheidende Teil. Allen Patienten dasselbe Übungsblatt zu geben, egal ob sie Synkinesien haben oder nicht, ist gängige Praxis – aber keine gute. Das hier macht es besser."
+    },
+    "solberg": {
+      "role": "Spezialisierte Physiotherapie für das Gesicht",
+      "where": "Oslo",
+      "quote": "Ich nutze den Scan-Verlauf in meinen eigenen Praxisterminen. Einem Patienten während neun Wochen Stillstand eine objektive Veränderung zeigen zu können, bewirkt bei ihm etwas, das meine Beruhigung allein nicht schafft."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "Die Reha-Apps, die Genesung nicht zum Spiel machen wollen",
+      "kind": "Reportage"
+    },
+    "jdr": {
+      "headline": "Neuromuskuläres Training des Gesichts aus der Ferne: eine Beobachtungskohorte mit 1.204 Nutzern",
+      "kind": "Peer-Review"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Interview"
+    },
+    "bpa": {
+      "headline": "Geprüfte Ressource: Palsya",
+      "kind": "Patientenorganisation"
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Stirnheben",
+      "instructions": "Setzen Sie sich vor einen Spiegel, Schultern locker nach unten, Kiefer entspannt. Legen Sie zwei Finger flach auf die <b>nicht betroffene</b> Augenbraue und halten Sie sie fest. So übernimmt die gesunde Seite nicht die Arbeit. Heben Sie die betroffene Augenbraue, als wären Sie leicht überrascht. Ziel ist eine kleine Bewegung, die Sie kontrollieren können, nicht die größtmögliche. Drei Sekunden halten, dann von selbst sinken lassen. Nicht nach unten drücken. Zwischen den Wiederholungen fünf Sekunden warten.",
+      "why": "Die Stirn erholt sich oft als letzter Bereich. Wenn Sie sie trainieren, bleibt die Nervenbahn aktiv, und die Stirn wird auf der betroffenen Seite nicht steif.",
+      "steps": {
+        "s1": "Setzen Sie sich vor einen Spiegel, Schultern locker nach unten, Kiefer entspannt.",
+        "s2": "Legen Sie zwei Finger flach auf die <b>nicht betroffene</b> Augenbraue und halten Sie sie fest. So übernimmt die gesunde Seite nicht die Arbeit.",
+        "s3": "Heben Sie die betroffene Augenbraue, als wären Sie leicht überrascht. Ziel ist eine kleine Bewegung, die Sie kontrollieren können, nicht die größtmögliche.",
+        "s4": "Drei Sekunden halten, dann von selbst sinken lassen. Nicht nach unten drücken.",
+        "s5": "Zwischen den Wiederholungen fünf Sekunden warten."
+      },
+      "watch": "Wenn sich beim Heben das Auge schließt oder der Mund mitzieht, nehmen Sie weniger Kraft. Diese Kopplung wird durch Üben stärker, deshalb üben wir unterhalb dieser Schwelle."
+    },
+    "eye": {
+      "name": "Sanfter Lidschluss",
+      "instructions": "Schauen Sie geradeaus. Lassen Sie das Gesicht zuerst ruhen. Schließen Sie beide Augen sanft, wie beim Einschlafen – nicht zukneifen. Zwei Sekunden halten und darauf achten, ob das betroffene Oberlid das Unterlid erreicht. Langsam und vollständig öffnen. Wenn sich das Lid nicht ganz schließt, nicht erzwingen. So weit schließen, wie es geht, und das Lid mit einer sauberen Fingerspitze sanft unterstützen.",
+      "why": "Der Lidschluss schützt die Hornhaut. Sanftes, wiederholtes Schließen stellt außerdem das Blinzelmuster wieder her, das sich unabhängig vom kräftigen Zukneifen erholt.",
+      "steps": {
+        "s1": "Schauen Sie geradeaus. Lassen Sie das Gesicht zuerst ruhen.",
+        "s2": "Schließen Sie beide Augen sanft, wie beim Einschlafen – nicht zukneifen.",
+        "s3": "Zwei Sekunden halten und darauf achten, ob das betroffene Oberlid das Unterlid erreicht.",
+        "s4": "Langsam und vollständig öffnen.",
+        "s5": "Wenn sich das Lid nicht ganz schließt, nicht erzwingen. So weit schließen, wie es geht, und das Lid mit einer sauberen Fingerspitze sanft unterstützen."
+      },
+      "watch": "Kräftiges Zukneifen aktiviert Mund und Hals mit. Wenn Sie spüren, dass sich Ihr Mundwinkel bewegt, kneifen Sie zu."
+    },
+    "nose": {
+      "name": "Nasenflügel weiten",
+      "instructions": "Atmen Sie durch die Nase ein und lassen Sie dabei die Nasenflügel weit werden. Versuchen Sie, den Nasenflügel auf der betroffenen Seite etwas stärker zu weiten. Zwei Sekunden halten, vollständig lösen. Die Oberlippe bleibt ruhig – das ist eine Nasenbewegung, kein Naserümpfen.",
+      "why": "Das Mittelgesicht hebt die Nasolabialfalte und stützt die Oberlippe. Es spricht gut auf kleine, isolierte Übungen an und wird leicht vergessen.",
+      "steps": {
+        "s1": "Atmen Sie durch die Nase ein und lassen Sie dabei die Nasenflügel weit werden.",
+        "s2": "Versuchen Sie, den Nasenflügel auf der betroffenen Seite etwas stärker zu weiten.",
+        "s3": "Zwei Sekunden halten, vollständig lösen.",
+        "s4": "Die Oberlippe bleibt ruhig – das ist eine Nasenbewegung, kein Naserümpfen."
+      },
+      "watch": "Die oberen Zähne bleiben bedeckt. Hebt sich die Lippe und zeigt die Zähne, hat der falsche Muskel übernommen."
+    },
+    "smile": {
+      "name": "Sanftes Lächeln",
+      "instructions": "Lippen locker aufeinander, Zähne leicht auseinander. Ziehen Sie beide Mundwinkel nach oben und etwas nach außen – ein Lächeln mit geschlossenen Lippen, etwa ein Drittel Ihres Maximums. Schauen Sie in den Spiegel: Bewegen sich beide Mundwinkel gleich weit? Wenn nicht, nehmen Sie weniger Kraft, bis sie es tun. Drei Sekunden halten, über zwei Sekunden langsam lösen. Zwischen den Wiederholungen das Gesicht völlig entspannen.",
+      "why": "Funktionell am wichtigsten und am häufigsten übertrieben. Ein kontrolliertes kleines Lächeln trainiert das richtige Muster, ein erzwungenes breites Lächeln trainiert die Ausweichbewegung.",
+      "steps": {
+        "s1": "Lippen locker aufeinander, Zähne leicht auseinander.",
+        "s2": "Ziehen Sie beide Mundwinkel nach oben und etwas nach außen – ein Lächeln mit geschlossenen Lippen, etwa ein Drittel Ihres Maximums.",
+        "s3": "Schauen Sie in den Spiegel: Bewegen sich beide Mundwinkel gleich weit? Wenn nicht, nehmen Sie weniger Kraft, bis sie es tun.",
+        "s4": "Drei Sekunden halten, über zwei Sekunden langsam lösen.",
+        "s5": "Zwischen den Wiederholungen das Gesicht völlig entspannen."
+      },
+      "watch": "Wenn das Auge beim Lächeln schmaler wird, ist das die Kopplung, gegen die wir arbeiten. Weniger Kraft, nicht mehr Wiederholungen."
+    },
+    "pucker": {
+      "name": "Lippen spitzen und schließen",
+      "instructions": "Führen Sie die Lippen zusammen und nach vorn, als wollten Sie „u“ sagen. Halten Sie den Kussmund mittig – lassen Sie ihn nicht zur stärkeren Seite wandern. Drei Sekunden halten. Die Lippen leicht aufeinanderdrücken, nicht verkrampfen. Lösen und die Lippen sich öffnen lassen.",
+      "why": "Der Lippenschluss ermöglicht Trinken, Essen und das Sprechen von Verschlusslauten. Oft ist er die erste Veränderung, die Patienten im Alltag bemerken.",
+      "steps": {
+        "s1": "Führen Sie die Lippen zusammen und nach vorn, als wollten Sie „u“ sagen.",
+        "s2": "Halten Sie den Kussmund mittig – lassen Sie ihn nicht zur stärkeren Seite wandern.",
+        "s3": "Drei Sekunden halten. Die Lippen leicht aufeinanderdrücken, nicht verkrampfen.",
+        "s4": "Lösen und die Lippen sich öffnen lassen."
+      },
+      "watch": "Zieht der Kussmund zur Seite, legen Sie eine Fingerspitze leicht an den starken Mundwinkel, damit er ehrlich bleibt."
+    },
+    "cheek": {
+      "name": "Wangen aufblasen und halten",
+      "instructions": "Atmen Sie normal ein und blasen Sie bei geschlossenen Lippen beide Wangen auf. Fünf Sekunden halten, ohne Luft entweichen zu lassen. Entweicht auf der betroffenen Seite Luft, halten Sie diese Wange mit einer sauberen Hand leicht fest und versuchen Sie es erneut. Langsam durch die Nase ausatmen, nicht mit einem Plopp.",
+      "why": "Luft halten prüft den Lippenschluss unter Belastung und baut die Ausdauer auf, die Sie zum Sprechen und Essen brauchen – nicht nur für die Übungen.",
+      "steps": {
+        "s1": "Atmen Sie normal ein und blasen Sie bei geschlossenen Lippen beide Wangen auf.",
+        "s2": "Fünf Sekunden halten, ohne Luft entweichen zu lassen.",
+        "s3": "Entweicht auf der betroffenen Seite Luft, halten Sie diese Wange mit einer sauberen Hand leicht fest und versuchen Sie es erneut.",
+        "s4": "Langsam durch die Nase ausatmen, nicht mit einem Plopp."
+      },
+      "watch": "Machen Sie diese Übung nicht, wenn Sie kürzlich am Ohr operiert wurden oder Ihre Fachkraft Ihnen geraten hat, Druckveränderungen zu vermeiden."
+    },
+    "separate": {
+      "name": "Auge und Mund trennen",
+      "instructions": "Schauen Sie in den Spiegel. Lächeln Sie sanft – ein Drittel des Maximums – und halten Sie dabei bewusst beide Augen weit offen. Wird das Auge auch nur etwas schmaler, verkleinern Sie das Lächeln, bis es das nicht mehr tut. Vier Sekunden mit offenem Auge halten, dann lösen. Jetzt umgekehrt: Schließen Sie die Augen sanft und halten Sie dabei den Mund völlig ruhig. Zwischen den Wiederholungen acht Sekunden Pause. Diese Übung ermüdet schnell.",
+      "why": "Das ist die zentrale Übung gegen Synkinesien – die gekoppelte Bewegung, bei der ein Bereich mitreagiert, wenn Sie einen anderen bewegen wollen. Trennung wird langsam und mit wenig Kraft trainiert.",
+      "steps": {
+        "s1": "Schauen Sie in den Spiegel. Lächeln Sie sanft – ein Drittel des Maximums – und halten Sie dabei bewusst beide Augen weit offen.",
+        "s2": "Wird das Auge auch nur etwas schmaler, verkleinern Sie das Lächeln, bis es das nicht mehr tut.",
+        "s3": "Vier Sekunden mit offenem Auge halten, dann lösen.",
+        "s4": "Jetzt umgekehrt: Schließen Sie die Augen sanft und halten Sie dabei den Mund völlig ruhig.",
+        "s5": "Zwischen den Wiederholungen acht Sekunden Pause. Diese Übung ermüdet schnell."
+      },
+      "watch": "Bei dieser Übung ist weniger wirklich mehr. Fünf genaue Wiederholungen sind besser als zwanzig gekoppelte."
+    },
+    "release": {
+      "name": "Verspannung lösen",
+      "instructions": "Legen Sie saubere Fingerspitzen auf den verspannten Bereich – meist die Wange oder die Seite des Kinns. Üben Sie leichten, gleichmäßigen Druck aus und dehnen Sie die Haut langsam entgegen der Zugrichtung der Verspannung. Fünfzehn Sekunden halten und normal atmen. Es soll sich wie eine Dehnung anfühlen, nie wie ein stechender Schmerz. Langsam lösen und das Gewebe zur Ruhe kommen lassen, bevor Sie wiederholen.",
+      "why": "Später in der Genesung schränkt Verspannung die Bewegung stärker ein als Schwäche. Lösende Übungen stellen Bewegungsumfang wieder her, den Aktivierungsübungen nicht erreichen.",
+      "steps": {
+        "s1": "Legen Sie saubere Fingerspitzen auf den verspannten Bereich – meist die Wange oder die Seite des Kinns.",
+        "s2": "Üben Sie leichten, gleichmäßigen Druck aus und dehnen Sie die Haut langsam entgegen der Zugrichtung der Verspannung.",
+        "s3": "Fünfzehn Sekunden halten und normal atmen. Es soll sich wie eine Dehnung anfühlen, nie wie ein stechender Schmerz.",
+        "s4": "Langsam lösen und das Gewebe zur Ruhe kommen lassen, bevor Sie wiederholen."
+      },
+      "watch": "Hören Sie auf, wenn Sie danach einen stechenden Schmerz, Kribbeln oder verstärktes Zucken spüren."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Ruhestütze",
+      "instructions": "Wange: Knapp oberhalb der Kieferlinie, unterhalb des betroffenen Mundwinkels -> Nach oben und außen Richtung Wangenknochen. Anfang ohne Zug aufkleben, Mitte mit leichtem Zug, die letzten 2 cm ohne Zug. Mundwinkel: 1 cm außerhalb des betroffenen Mundwinkels -> Schräg nach oben Richtung Ohr. Dieser Streifen ist sehr leicht. Er soll einen Reiz geben, nicht anheben.",
+      "goal": "Das Mittelgesicht gegen die Schwerkraft halten, solange der Nerv ruht, damit das Gewebe nicht gedehnt wird und in einer abgesunkenen Position bleibt.",
+      "tension": "Sehr leicht – etwa 10 % Zug. Sie sollten eine Fingerspitze darunterschieben können.",
+      "wear": "4–6 Stunden tagsüber. Nie über Nacht.",
+      "strips": {
+        "s1": {
+          "where": "Wange",
+          "from": "Knapp oberhalb der Kieferlinie, unterhalb des betroffenen Mundwinkels",
+          "to": "Nach oben und außen Richtung Wangenknochen",
+          "note": "Anfang ohne Zug aufkleben, Mitte mit leichtem Zug, die letzten 2 cm ohne Zug."
+        },
+        "s2": {
+          "where": "Mundwinkel",
+          "from": "1 cm außerhalb des betroffenen Mundwinkels",
+          "to": "Schräg nach oben Richtung Ohr",
+          "note": "Dieser Streifen ist sehr leicht. Er soll einen Reiz geben, nicht anheben."
+        }
+      }
+    },
+    "assist": {
+      "name": "Bewegungshilfe",
+      "instructions": "Jochbeinlinie: Der betroffene Mundwinkel -> Entlang der natürlichen Lächellinie bis kurz vor das Ohr. Bei entspanntem Gesicht aufkleben, nicht beim Lächeln. Stirn: Knapp oberhalb der betroffenen Augenbraue, im äußeren Drittel -> Nach oben Richtung Haaransatz. Deutlichen Abstand zum Auge halten. Zieht es am Lid, abnehmen und tiefer neu aufkleben.",
+      "goal": "Den Kraftaufwand einer Bewegung verringern, damit Sie das richtige Muster mit wenig Kraft üben können, statt sich in ein falsches hineinzupressen.",
+      "tension": "Leicht bis mittel – etwa 25 % Zug im mittleren Teil des Streifens.",
+      "wear": "Während der Übungseinheiten und bis zu 4 Stunden danach.",
+      "strips": {
+        "s1": {
+          "where": "Jochbeinlinie",
+          "from": "Der betroffene Mundwinkel",
+          "to": "Entlang der natürlichen Lächellinie bis kurz vor das Ohr",
+          "note": "Bei entspanntem Gesicht aufkleben, nicht beim Lächeln."
+        },
+        "s2": {
+          "where": "Stirn",
+          "from": "Knapp oberhalb der betroffenen Augenbraue, im äußeren Drittel",
+          "to": "Nach oben Richtung Haaransatz",
+          "note": "Deutlichen Abstand zum Auge halten. Zieht es am Lid, abnehmen und tiefer neu aufkleben."
+        }
+      }
+    },
+    "guide": {
+      "name": "Richtungsführung",
+      "instructions": "Unterlid-Stütze: Der äußere Augenwinkel -> Nach außen und leicht nach unten, Richtung Schläfe. Nie über das Lid selbst. Nur unterhalb des Augenhöhlenrands. Wangen-Gegenreiz: Wangenmitte -> Nach unten und außen. Das wirkt dem Zug nach oben entgegen, der mit Synkinesien einhergeht.",
+      "goal": "Der Haut während der Koordinationsarbeit einen Richtungsreiz geben und die gekoppelte Bewegung, die Sie trennen wollen, leicht bremsen.",
+      "tension": "Leicht – etwa 15 %. Der Reiz ist sensorisch, nicht mechanisch.",
+      "wear": "Nur während der Koordinationsübungen. 20–30 Minuten.",
+      "strips": {
+        "s1": {
+          "where": "Unterlid-Stütze",
+          "from": "Der äußere Augenwinkel",
+          "to": "Nach außen und leicht nach unten, Richtung Schläfe",
+          "note": "Nie über das Lid selbst. Nur unterhalb des Augenhöhlenrands."
+        },
+        "s2": {
+          "where": "Wangen-Gegenreiz",
+          "from": "Wangenmitte",
+          "to": "Nach unten und außen",
+          "note": "Das wirkt dem Zug nach oben entgegen, der mit Synkinesien einhergeht."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Augenpflege",
+      "instructions": "Befeuchtende Tropfen nach dem Aufwachen Tropfen alle 2–3 Stunden im Wachzustand Nachts Salbe und Lid mit Tape verschließen oder Uhrglasverband Sonnenbrille im Freien, auch bei bewölktem Himmel",
+      "when": "Morgens, über den Tag und vor dem Schlafen",
+      "body": "Wenn sich Ihr Auge nicht vollständig schließt, ist der Schutz der Hornhaut das Wichtigste an Ihrem Tag – wichtiger als jede Übung. Tagsüber konservierungsmittelfreie befeuchtende Tropfen, nachts Salbe, und eine Rücksprache mit Ihrer Fachkraft, wenn das Auge rot wird, schmerzt oder sich Ihr Sehen verändert.",
+      "items": {
+        "i1": "Befeuchtende Tropfen nach dem Aufwachen",
+        "i2": "Tropfen alle 2–3 Stunden im Wachzustand",
+        "i3": "Nachts Salbe und Lid mit Tape verschließen oder Uhrglasverband",
+        "i4": "Sonnenbrille im Freien, auch bei bewölktem Himmel"
+      }
+    },
+    "eat": {
+      "name": "Essen und Trinken",
+      "instructions": "Kleinere Bissen, langsameres Tempo Speisen zur nicht betroffenen Seite hin platzieren Nach dem Essen ausspülen und die betroffene Wange prüfen Beim Trinken aufrecht sitzen",
+      "when": "Bei jeder Mahlzeit",
+      "body": "Speisen, die sich in der betroffenen Wange sammeln, und Getränke, die am Lippenschluss vorbeilaufen, sind mechanische Probleme mit mechanischen Lösungen. Kleinere Bissen, Speisen zur stärkeren Seite, ein Blick in den Spiegel nach dem Essen – und ein Strohhalm nur, wenn er den Lippenschluss nicht erschwert.",
+      "items": {
+        "i1": "Kleinere Bissen, langsameres Tempo",
+        "i2": "Speisen zur nicht betroffenen Seite hin platzieren",
+        "i3": "Nach dem Essen ausspülen und die betroffene Wange prüfen",
+        "i4": "Beim Trinken aufrecht sitzen"
+      }
+    },
+    "massage": {
+      "name": "Massage",
+      "instructions": "Saubere, trockene Hände Kleine Kreise, leichter Druck, nach oben gerichtet Beide Seiten, nicht nur die betroffene Aufhören, wenn es Zucken auslöst",
+      "when": "Ein- bis zweimal täglich, 3–4 Minuten",
+      "body": "Langsamer kreisender Druck mit sauberen Fingerspitzen über Wange, Kiefer und rund um den Mund. Das erhält Durchblutung und Beweglichkeit des Gewebes. Es ist kein Training – wenn es sich kräftig anfühlt, lassen Sie nach.",
+      "items": {
+        "i1": "Saubere, trockene Hände",
+        "i2": "Kleine Kreise, leichter Druck, nach oben gerichtet",
+        "i3": "Beide Seiten, nicht nur die betroffene",
+        "i4": "Aufhören, wenn es Zucken auslöst"
+      }
+    },
+    "sleep": {
+      "name": "Schlaf und Ruhe",
+      "instructions": "Auf dem Rücken oder der nicht betroffenen Seite, nicht auf dem Bauch Augenschutz vor dem Schlafengehen Morgens üben, wenn die Abende anstrengend sind Ruhetage gehören zum Programm",
+      "when": "Jede Nacht",
+      "body": "Ermüdung im Gesicht ist real und verschlechtert die Qualität Ihrer Bewegungen. Schlafen Sie auf dem Rücken oder auf der nicht betroffenen Seite, damit das Gesicht nicht ins Kissen gedrückt wird, und nehmen Sie das Nachmittagstief ernst – üben Sie, wenn Sie frisch sind.",
+      "items": {
+        "i1": "Auf dem Rücken oder der nicht betroffenen Seite, nicht auf dem Bauch",
+        "i2": "Augenschutz vor dem Schlafengehen",
+        "i3": "Morgens üben, wenn die Abende anstrengend sind",
+        "i4": "Ruhetage gehören zum Programm"
+      }
+    },
+    "speech": {
+      "name": "Sprechübungen",
+      "instructions": "Täglich 3 Minuten laut vorlesen p, b, m, f, w betonen Langsam genug, um den Lippenschluss zu halten Nehmen Sie sich wöchentlich auf, wenn es Ihnen hilft",
+      "when": "Einmal täglich, 3 Minuten",
+      "body": "Verschluss- und Lippenlaute brauchen den Lippenschluss und sind damit zugleich eine Übung, die Sie ohne Spiegel machen können. Lesen Sie langsam laut vor und übertreiben Sie leicht.",
+      "items": {
+        "i1": "Täglich 3 Minuten laut vorlesen",
+        "i2": "p, b, m, f, w betonen",
+        "i3": "Langsam genug, um den Lippenschluss zu halten",
+        "i4": "Nehmen Sie sich wöchentlich auf, wenn es Ihnen hilft"
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Hoy — Palsya",
+    "description": "Su sesión diaria, en qué punto de la recuperación está y qué merece la pena leer en esta fase."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Buenos días",
+        "afternoon": "Buenas tardes",
+        "evening": "Buenas tardes",
+        "night": "Buenas noches"
+      },
+      "named": {
+        "morning": "Buenos días, {name}",
+        "afternoon": "Buenas tardes, {name}",
+        "evening": "Buenas tardes, {name}",
+        "night": "Buenas noches, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# día} other {# días}} en la fase {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Fase {stage} · {name}",
+    "title": "Sesión de hoy",
+    "allDone": "Las tres partes de hoy están registradas.",
+    "about": "Unos {minutes} minutos. Puede repartirla a lo largo del día.",
+    "partMinutes": "{minutes} min",
+    "exercisesCount": "{count, plural, one {# ejercicio} other {# ejercicios}}",
+    "dailyRoutine": "Rutina diaria",
+    "review": "Revisar la sesión de hoy",
+    "continue": "Continuar sesión",
+    "start": "Empezar sesión",
+    "order": "Vendaje, ejercicios y después la rutina diaria"
+  },
+  "phaseBand": {
+    "title": "Dónde está",
+    "fullProgress": "Progreso completo",
+    "summary": "{short} {days, plural, one {# día} other {# días}} en esta fase.",
+    "patternTitle": "Sesiones de las últimas tres semanas",
+    "patternLabel": "Sesiones de los últimos {days} días",
+    "state": {
+      "full": "Completa",
+      "part": "Hecha en parte",
+      "none": "Sin registrar"
+    },
+    "legend": "Relleno significa completa, claro significa hecha en parte y vacío significa sin registrar. Aquí no hay rachas y nada se reinicia."
+  },
+  "score": {
+    "title": "Puntuación de simetría",
+    "emptyTitle": "Aún no hay punto de partida",
+    "emptyBody": "Dos minutos ahora le ahorran hacer suposiciones más adelante.",
+    "cta": "Haga su escaneo inicial"
+  },
+  "clinician": {
+    "title": "Su clínico",
+    "allConsultations": "Todas las consultas",
+    "available": "Tiene {count, plural, one {# consulta disponible} other {# consultas disponibles}} en su plan.",
+    "add": "Añadir una consulta"
+  },
+  "library": {
+    "title": "Merece la pena leer en esta fase",
+    "link": "Biblioteca",
+    "readTime": "{minutes} min de lectura",
+    "logNote": "Anote algo que haya notado",
+    "logHint": "La función suele cambiar antes que la geometría. Lo que usted nota también son datos."
+  },
+  "backToDashboard": "Volver al panel",
+  "progress": {
+    "meta": {
+      "title": "Su progreso — Palsya",
+      "description": "Un registro de sus sesiones y de cómo ha cambiado su fase con el tiempo."
+    },
+    "title": "Su progreso",
+    "intro": "Un registro de sus sesiones y de cómo ha cambiado su fase con el tiempo.",
+    "stageHistory": "Historial de fases",
+    "noPhase": "Todavía no se le ha asignado ninguna fase.",
+    "stageBadge": "Fase {stage} · {name}",
+    "sessionLog": "Registro de sesiones",
+    "noSessions": "Todavía no hay nada registrado: su primera sesión aparecerá aquí.",
+    "columns": {
+      "date": "Fecha",
+      "status": "Estado",
+      "note": "Nota"
+    },
+    "status": {
+      "full": "Completa",
+      "part": "Hecha en parte",
+      "none": "Sin registrar"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Sesión de hoy — Palsya",
+      "description": "Vendaje, ejercicios y después la rutina diaria de su fase actual."
+    },
+    "title": "Sesión de hoy — Fase {stage} · {name}",
+    "intro": "Vendaje, ejercicios y después la rutina diaria. Hágalos de una vez o repártalos a lo largo del día.",
+    "doneToday": "Hecho hoy",
+    "markNotDone": "Marcar como no hecho",
+    "taping": {
+      "title": "Vendaje",
+      "none": "No hay ninguna técnica asignada para esta fase",
+      "goal": "Objetivo",
+      "tension": "Tensión",
+      "wear": "Duración",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Marcar vendaje como hecho"
+    },
+    "exercises": {
+      "title": "Ejercicios",
+      "progress": "{done} de {total} hechos hoy",
+      "dose": "{reps} × mantener {hold} s"
+    },
+    "routine": {
+      "title": "Rutina diaria",
+      "count": "{count, plural, one {# elemento} other {# elementos}} para esta fase",
+      "markDone": "Marcar rutina como hecha"
+    },
+    "note": {
+      "title": "¿Ha notado algo?",
+      "hint": "Opcional. Se registra en el día de hoy y su clínico puede verlo si lo comparte.",
+      "placeholder": "p. ej., He bebido de un vaso sin sujetarme la comisura de la boca."
+    }
+  }
+}

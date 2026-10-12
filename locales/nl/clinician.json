@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Behandelaar — Palsya",
+    "description": "Het Palsya-portaal voor behandelaars."
+  },
+  "welcome": "Welkom",
+  "welcomeNamed": "Welkom, {name}",
+  "subtitle": "Portaal voor behandelaars",
+  "patients": {
+    "title": "Uw patiënten",
+    "count": "{count, plural, one {# patiënt aan u toegewezen} other {# patiënten aan u toegewezen}}",
+    "emptyTitle": "Nog geen patiënten",
+    "emptyBody": "Een beheerder wijst patiënten aan u toe. Ze verschijnen hier zodra ze zijn toegewezen.",
+    "columns": {
+      "name": "Naam",
+      "email": "E-mail",
+      "stage": "Fase",
+      "onset": "Begindatum",
+      "lastSession": "Laatste sessie"
+    },
+    "noStage": "Niet beoordeeld",
+    "none": "—",
+    "open": "{name} openen"
+  },
+  "patient": {
+    "meta": {
+      "title": "Patiënt — Palsya",
+      "description": "Voortgang, fasegeschiedenis en notities van een van uw patiënten."
+    },
+    "back": "Terug naar uw patiënten",
+    "stageBadge": "Fase {stage} · {name}",
+    "noStage": "Nog niet beoordeeld",
+    "onset": "Begin: {date}",
+    "noOnset": "Begindatum niet opgegeven",
+    "sessions": {
+      "title": "Sessiegeschiedenis",
+      "empty": "Nog geen sessies vastgelegd.",
+      "columns": {
+        "date": "Datum",
+        "status": "Status",
+        "note": "Notitie van patiënt"
+      },
+      "status": {
+        "full": "Voltooid",
+        "part": "Gedeeltelijk",
+        "none": "Niet gedaan"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Fasegeschiedenis",
+      "empty": "Nog geen fase toegekend.",
+      "override": "Gewijzigd door een behandelaar",
+      "overrideReason": "Reden: {reason}",
+      "assessment": "Uit de intake",
+      "needsReview": "Beoordeling nodig"
+    },
+    "notes": {
+      "title": "Notities",
+      "empty": "Nog geen notities.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Voormalig medewerker",
+      "label": "Notitie toevoegen",
+      "hint": "Notities maken deel uit van het dossier van de patiënt en kunnen niet worden bewerkt of verwijderd. Maximaal {max} tekens.",
+      "placeholder": "Wat hebt u waargenomen of geadviseerd?",
+      "submit": "Notitie opslaan",
+      "saving": "Opslaan…",
+      "saved": "Notitie opgeslagen."
+    },
+    "stage": {
+      "title": "Fase wijzigen",
+      "intro": "Stel de fase van de patiënt in als uw beoordeling afwijkt van die van het programma. De wijziging wordt vastgelegd in de fasegeschiedenis.",
+      "label": "Nieuwe fase",
+      "option": "Fase {stage} · {name}",
+      "reasonLabel": "Reden (optioneel)",
+      "reasonHint": "Wordt getoond in de fasegeschiedenis. Maximaal {max} tekens.",
+      "submit": "Fase wijzigen",
+      "saving": "Opslaan…",
+      "saved": "Fase gewijzigd naar {stage}."
+    },
+    "errors": {
+      "forbidden": "U kunt geen wijzigingen aanbrengen bij deze patiënt.",
+      "not_signed_in": "Uw sessie is beëindigd. Log opnieuw in.",
+      "invalid_note": "Schrijf een notitie van 1 tot 5000 tekens.",
+      "invalid_stage": "Kies een fase van 1 tot en met 5.",
+      "invalid_reason": "De reden mag maximaal 500 tekens bevatten.",
+      "failed": "Er ging iets mis. Probeer het opnieuw."
+    }
+  }
+}

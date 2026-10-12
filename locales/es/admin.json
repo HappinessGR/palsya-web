@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Administración — Palsya",
+    "description": "Panel de administración de Palsya."
+  },
+  "heading": "Administración",
+  "headingNamed": "Administración — {name}",
+  "subtitle": "Panel interno",
+  "nav": {
+    "label": "Secciones de administración",
+    "overview": "Resumen",
+    "users": "Usuarios",
+    "invite": "Invitar",
+    "audit": "Registro de auditoría"
+  },
+  "roles": {
+    "patient": "Paciente",
+    "clinician": "Clínico",
+    "admin": "Administrador"
+  },
+  "statuses": {
+    "active": "Activa",
+    "suspended": "Desactivada",
+    "pending_verification": "Pendiente de verificación"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Pacientes",
+      "clinicians": "Clínicos",
+      "admins": "Administradores",
+      "unassigned": "Pacientes sin asignar",
+      "pendingInvitations": "Invitaciones pendientes"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Gestionar",
+      "users": "Usuarios",
+      "usersBody": "Cambie roles, desactive cuentas y asigne pacientes a clínicos.",
+      "invite": "Invitar al equipo",
+      "inviteBody": "Invite a un clínico o administrador por correo electrónico y gestione las invitaciones pendientes.",
+      "audit": "Registro de auditoría",
+      "auditBody": "Vea quién hizo qué y cuándo."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Usuarios — Administración de Palsya",
+      "description": "Gestione las cuentas, los roles y las asignaciones de clínicos de Palsya."
+    },
+    "heading": "Usuarios",
+    "subtitle": "Roles, estado de las cuentas y asignaciones de clínicos.",
+    "filter": {
+      "label": "Filtrar por rol",
+      "all": "Todos"
+    },
+    "columns": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "role": "Rol",
+      "status": "Estado",
+      "created": "Creado",
+      "clinician": "Clínico asignado",
+      "actions": "Acciones"
+    },
+    "you": "Usted",
+    "empty": "Ningún usuario coincide con este filtro.",
+    "notApplicable": "—",
+    "roleSelect": "Rol de {name}",
+    "saveRole": "Cambiar rol",
+    "deactivate": "Desactivar",
+    "reactivate": "Reactivar",
+    "clinicianSelect": "Clínico de {name}",
+    "unassigned": "Sin asignar",
+    "assign": "Asignar",
+    "result": {
+      "role_changed": "Rol actualizado.",
+      "status_changed": "Estado de la cuenta actualizado.",
+      "assigned": "Asignación de clínico actualizada."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Invitar al equipo — Administración de Palsya",
+      "description": "Invite a clínicos y administradores a Palsya."
+    },
+    "heading": "Invitar al equipo",
+    "subtitle": "Los clínicos y administradores solo se incorporan por invitación. Los pacientes se registran por su cuenta.",
+    "form": {
+      "title": "Nueva invitación",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "nombre@ejemplo.com",
+      "role": "Rol",
+      "language": "Idioma del correo",
+      "languageHint": "El correo de invitación se envía en este idioma.",
+      "submit": "Enviar invitación"
+    },
+    "pending": {
+      "title": "Invitaciones pendientes",
+      "empty": "No hay invitaciones pendientes.",
+      "unavailable": "No se han podido cargar las invitaciones pendientes. Vuelva a intentarlo más tarde.",
+      "email": "Correo electrónico",
+      "role": "Rol",
+      "sent": "Enviada",
+      "revoke": "Revocar",
+      "revokeLabel": "Revocar la invitación de {email}"
+    },
+    "result": {
+      "invited": "Invitación enviada.",
+      "revoked": "Invitación revocada."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Registro de auditoría — Administración de Palsya",
+      "description": "Eventos administrativos y de seguridad recientes."
+    },
+    "heading": "Registro de auditoría",
+    "subtitle": "Los últimos {count} eventos, del más reciente al más antiguo.",
+    "empty": "Todavía no se ha registrado nada.",
+    "columns": {
+      "when": "Cuándo",
+      "who": "Quién",
+      "action": "Acción",
+      "target": "Objeto",
+      "details": "Detalles"
+    },
+    "system": "Sistema / anónimo",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Usuario",
+      "patient": "Paciente",
+      "invitation": "Invitación"
+    },
+    "actions": {
+      "role_changed": "Rol cambiado",
+      "user_invited": "Usuario invitado",
+      "invitation_revoked": "Invitación revocada",
+      "patient_assigned": "Paciente asignado",
+      "user_deactivated": "Usuario desactivado",
+      "user_reactivated": "Usuario reactivado",
+      "patient_stage_changed": "Fase del paciente cambiada",
+      "clinician_note_added": "Nota clínica añadida",
+      "password_reset_requested": "Restablecimiento de contraseña solicitado",
+      "password_reset_completed": "Restablecimiento de contraseña completado",
+      "user_demoted_self_registered": "Clínico autorregistrado degradado"
+    }
+  },
+  "errors": {
+    "not_signed_in": "Su sesión ha finalizado. Vuelva a iniciar sesión.",
+    "forbidden": "No tiene permiso para hacer eso.",
+    "invalid_input": "La solicitud no es válida. Vuelva a intentarlo.",
+    "not_found": "Ese usuario o esa invitación ya no existe.",
+    "invalid_role": "Ese rol no está permitido aquí.",
+    "invalid_locale": "Elija uno de los idiomas de la lista.",
+    "last_admin": "No puede quitar al último administrador.",
+    "cannot_change_self_status": "No puede desactivar ni reactivar su propia cuenta.",
+    "not_a_patient": "Esa cuenta no es de un paciente.",
+    "not_a_clinician": "Elija un clínico activo.",
+    "invalid_email": "Introduzca un correo electrónico válido.",
+    "already_exists": "Ya existe una cuenta o una invitación para ese correo electrónico.",
+    "invite_failed": "No se ha podido enviar la invitación. Vuelva a intentarlo."
+  }
+}

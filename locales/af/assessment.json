@@ -1,0 +1,392 @@
+{
+  "sections": {
+    "about": "Oor u verlamming",
+    "medical": "Mediese sorg",
+    "eye": "U oog",
+    "moves": "Wat beweeg",
+    "linked": "Gekoppelde beweging",
+    "other": "Ander simptome",
+    "daily": "Daaglikse lewe"
+  },
+  "optionSets": {
+    "move": {
+      "none": {
+        "t": "Glad geen beweging nie",
+        "d": "Niks gebeur wanneer ek probeer nie."
+      },
+      "flicker": {
+        "t": "'n Flikkering",
+        "d": "Iets beweeg, maar skaars — ek is dalk die enigste een wat dit kan sien."
+      },
+      "partial": {
+        "t": "Gedeeltelike beweging",
+        "d": "Dit beweeg, duidelik minder as die ander kant."
+      },
+      "near": {
+        "t": "Byna normaal",
+        "d": "Naby aan die ander kant, of dieselfde."
+      }
+    }
+  },
+  "questions": {
+    "onsetDate": {
+      "q": "Wanneer het die swakheid in u gesig begin?",
+      "help": "U beste skatting is goed genoeg. As dit oornag gekom het, gebruik die oggend toe u dit opgemerk het."
+    },
+    "diagnosis": {
+      "q": "Watter diagnose het u gekry?",
+      "help": "As u nie seker is van die presiese naam nie, kies die naaste opsie.",
+      "options": {
+        "bells": {
+          "t": "Bell se verlamming",
+          "d": "Idiopatiese gesigsverlamming — geen spesifieke oorsaak geïdentifiseer nie."
+        },
+        "ramsay": {
+          "t": "Ramsay Hunt-sindroom",
+          "d": "Veroorsaak deur die varicella-zoster-virus, gewoonlik met 'n uitslag."
+        },
+        "surgical": {
+          "t": "Ná 'n operasie",
+          "d": "Gesigsenuwee tydens 'n operasie aangetas."
+        },
+        "trauma": {
+          "t": "Ná 'n besering",
+          "d": "Ná trauma of 'n fraktuur."
+        },
+        "lyme": {
+          "t": "Lyme-siekte"
+        },
+        "other": {
+          "t": "Iets anders",
+          "d": "'n Ander gediagnoseerde oorsaak."
+        },
+        "none": {
+          "t": "Ek het nog nie 'n dokter gesien nie"
+        }
+      }
+    },
+    "side": {
+      "q": "Watter kant van u gesig is aangetas?",
+      "options": {
+        "left": {
+          "t": "Linkerkant"
+        },
+        "right": {
+          "t": "Regterkant"
+        },
+        "both": {
+          "t": "Albei kante"
+        }
+      }
+    },
+    "progression": {
+      "q": "Hoe het die swakheid begin?",
+      "help": "Dit help ons verstaan of die patroon tipies is.",
+      "options": {
+        "sudden": {
+          "t": "Skielik",
+          "d": "Oor 'n paar uur, of ek het daarmee wakker geword."
+        },
+        "days": {
+          "t": "Oor 'n paar dae",
+          "d": "Dit het oor twee of drie dae erger geword en toe opgehou."
+        },
+        "gradual": {
+          "t": "Geleidelik, en dit word steeds erger",
+          "d": "Word oor weke stadig erger."
+        },
+        "recurring": {
+          "t": "Dit het al voorheen gebeur",
+          "d": "'n Vorige episode aan dieselfde of die ander kant."
+        }
+      }
+    },
+    "medical": {
+      "q": "Is u deur 'n dokter ondersoek?",
+      "options": {
+        "steroids": {
+          "t": "Ja, en steroïede is aan my voorgeskryf"
+        },
+        "noSteroids": {
+          "t": "Ja, maar geen steroïede is voorgeskryf nie"
+        },
+        "waiting": {
+          "t": "Ek het 'n afspraak bespreek"
+        },
+        "no": {
+          "t": "Nog nie"
+        }
+      }
+    },
+    "eyeClosure": {
+      "q": "Kan u die aangetaste oog toemaak?",
+      "help": "Kyk in 'n spieël en maak albei oë saggies toe, sonder om te forseer.",
+      "options": {
+        "full": {
+          "t": "Ja, heeltemal"
+        },
+        "almost": {
+          "t": "Amper — 'n klein gaping bly oor"
+        },
+        "partial": {
+          "t": "Gedeeltelik — die ooglid beweeg, maar 'n duidelike gaping bly oor"
+        },
+        "none": {
+          "t": "Nee, die ooglid beweeg nie"
+        }
+      }
+    },
+    "eyeSymptoms": {
+      "q": "Het u op die oomblik enige van hierdie oogsimptome?",
+      "help": "Kies alles wat van toepassing is. Dit is die belangrikste vraag op hierdie bladsy.",
+      "options": {
+        "pain": {
+          "t": "Pyn in die oog"
+        },
+        "redness": {
+          "t": "Rooiheid wat nie bedaar nie"
+        },
+        "vision": {
+          "t": "Dowwe of veranderde sig"
+        },
+        "dryness": {
+          "t": "Droogheid of 'n sanderige gevoel"
+        },
+        "watering": {
+          "t": "Oormatige traanvloei"
+        },
+        "none": {
+          "t": "Geen hiervan nie"
+        }
+      }
+    },
+    "eyeCare": {
+      "q": "Wat gebruik u tans om die oog te beskerm?",
+      "options": {
+        "drops": {
+          "t": "Bevogtigende oogdruppels gedurende die dag"
+        },
+        "ointment": {
+          "t": "Oogsalf in die nag"
+        },
+        "tape": {
+          "t": "Die ooglid in die nag met kleefband toeplak"
+        },
+        "chamber": {
+          "t": "'n Vogkamer of oogskerm"
+        },
+        "glasses": {
+          "t": "Sonbril buite"
+        },
+        "nothing": {
+          "t": "Nog niks nie"
+        }
+      }
+    },
+    "moveBrow": {
+      "q": "Probeer u wenkbroue lig. Wat gebeur aan die aangetaste kant?",
+      "help": "Hou die onaangetaste wenkbrou met twee vingers stil sodat dit nie die werk kan doen nie."
+    },
+    "moveEye": {
+      "q": "Probeer die aangetaste oog styf toeknyp. Hoeveel beweeg dit?"
+    },
+    "moveMouth": {
+      "q": "Probeer 'n klein glimlag met u lippe op mekaar. Wat gebeur aan die aangetaste kant?"
+    },
+    "synkinesis": {
+      "q": "Wanneer u glimlag, vernou of sluit die aangetaste oog vanself?",
+      "help": "Of andersom: wanneer u die oog toemaak, trek die mondhoek? Albei tel.",
+      "options": {
+        "none": {
+          "t": "Nee, hulle beweeg afsonderlik"
+        },
+        "occasional": {
+          "t": "Soms, met groter bewegings"
+        },
+        "frequent": {
+          "t": "Dikwels, met die meeste bewegings"
+        },
+        "always": {
+          "t": "Altyd — ek kan hulle nie skei nie"
+        },
+        "unsure": {
+          "t": "Ek is nie seker nie"
+        }
+      }
+    },
+    "tightness": {
+      "q": "Voel die aangetaste kant van u gesig styf of stram?",
+      "options": {
+        "none": {
+          "t": "Nee, dit voel los of normaal"
+        },
+        "mild": {
+          "t": "Effens styf, meestal teen die einde van die dag"
+        },
+        "moderate": {
+          "t": "Merkbaar styf die meeste van die tyd"
+        },
+        "severe": {
+          "t": "Baie styf — dit beperk hoeveel ek kan beweeg"
+        }
+      }
+    },
+    "otherSymptoms": {
+      "q": "Het u enige hiervan?",
+      "options": {
+        "rash": {
+          "t": "'n Uitslag of blasies naby die oor, in die oor of op die kopvel"
+        },
+        "hearing": {
+          "t": "Gehoorverlies of nuwe sensitiwiteit vir klank"
+        },
+        "earPain": {
+          "t": "Oorpyn"
+        },
+        "taste": {
+          "t": "Veranderde smaak"
+        },
+        "tinnitus": {
+          "t": "Gesuis in die oor"
+        },
+        "limb": {
+          "t": "Swakheid of gevoelloosheid in 'n arm of been"
+        },
+        "none": {
+          "t": "Geen hiervan nie"
+        }
+      }
+    },
+    "impact": {
+      "q": "Watter hiervan is op die oomblik moeilik?",
+      "help": "Dit bepaal watter dele van die daaglikse roetine ons eerste aan u voorlê.",
+      "options": {
+        "drinking": {
+          "t": "Drink sonder om te mors"
+        },
+        "eating": {
+          "t": "Eet — kos versamel in die wang"
+        },
+        "speaking": {
+          "t": "Verstaan word wanneer ek praat"
+        },
+        "eye": {
+          "t": "Die oog hanteer"
+        },
+        "sleep": {
+          "t": "Slaap"
+        },
+        "social": {
+          "t": "Tussen ander mense wees"
+        },
+        "none": {
+          "t": "Geen hiervan is moeilik nie"
+        }
+      }
+    },
+    "treatment": {
+      "q": "Doen u reeds enige hiervan?",
+      "options": {
+        "physio": {
+          "t": "Persoonlike fisioterapie"
+        },
+        "exercises": {
+          "t": "Gesigsoefeninge op my eie"
+        },
+        "taping": {
+          "t": "Kleefband op die gesig"
+        },
+        "estim": {
+          "t": "Elektriese stimulasie"
+        },
+        "gum": {
+          "t": "Kougom as oefening"
+        },
+        "none": {
+          "t": "Nog niks nie"
+        }
+      }
+    },
+    "perDay": {
+      "q": "Hoeveel sessies per dag pas by u lewe?",
+      "help": "Twee korter sessies werk beter as een lang een, maar een wat u konsekwent doen, is beter as twee wat u laat vaar.",
+      "options": {
+        "1": {
+          "t": "Een sessie",
+          "d": "Sowat 10–20 minute."
+        },
+        "2": {
+          "t": "Twee sessies",
+          "d": "Sowat 8–10 minute elk. Aanbeveel."
+        }
+      }
+    }
+  },
+  "flags": {
+    "limb": {
+      "title": "Bel nou die nooddienste",
+      "body": "Swakheid in die gesig saam met swakheid of gevoelloosheid in 'n arm of been kan 'n beroerte wees. Dit het 'n noodondersoek nodig, nie 'n rehabilitasieprogram nie. Hou asseblief hier op en bel u plaaslike noodnommer."
+    },
+    "eye": {
+      "title": "Gaan vandag na 'n dokter oor u oog",
+      "body": "Oogpyn, aanhoudende rooiheid of veranderde sig saam met gesigsverlamming kan beteken dat die kornea deur blootstelling beskadig word. Dit is die een komplikasie wat blywende skade kan veroorsaak, en dit is behandelbaar. Laat dit asseblief vandag ondersoek — deur 'n optometris, 'n huisdokter of 'n oognoodafdeling."
+    },
+    "rash": {
+      "title": "Die uitslag moet ondersoek word",
+      "body": "'n Uitslag of blasies naby die oor saam met gesigsverlamming dui op Ramsay Hunt-sindroom, wat met antivirale middels behandel word en 'n ander verloop as Bell se verlamming het. Die regte diagnose verander die behandeling, so gaan asseblief na 'n dokter."
+    },
+    "undiagnosed": {
+      "title": "U het 'n diagnose nodig voordat u begin",
+      "body": "Palsya is 'n rehabilitasieprogram, nie 'n diagnostiese diens nie. Swakheid in die gesig het verskeie oorsake, sommige daarvan dringend, en sommige word behandel met medikasie wat die beste in die eerste paar dae werk. Gaan asseblief eers na 'n dokter."
+    },
+    "progressive": {
+      "title": "Geleidelike, voortdurende verergering moet ondersoek word",
+      "body": "Bell se verlamming ontstaan oor 'n paar uur tot 'n paar dae en word dan nie verder erger nie. Swakheid wat oor weke steeds vorder, kan dui op 'n ander oorsaak wat beelding nodig het. Sê asseblief spesifiek vir u dokter dat dit steeds erger word."
+    },
+    "bilateral": {
+      "title": "Swakheid aan albei kante het 'n spesialisondersoek nodig",
+      "body": "Swakheid aan albei kante van die gesig is ongewoon en hou meer dikwels verband met 'n sistemiese oorsaak — onder andere Lyme-siekte, Guillain-Barré-sindroom of sarkoïdose. Dit moet ondersoek word voordat u met 'n rehabilitasieprogram begin."
+    },
+    "tooEarly": {
+      "title": "Dit is baie vroeg — mediese behandeling kom eerste",
+      "body": "Dit is {days, plural, one {# dag} other {# dae}} sedert aanvang. Kortikosteroïede wat binne die eerste 72 uur begin word, verbeter die uitkomste by Bell se verlamming meetbaar, en daardie tydsvenster is nou belangriker as om met oefeninge te begin. Niks wat u in die eerste week met die spier doen, verander die senuwee nie.\n\nKom terug vanaf dag 5. Ons sal u antwoorde bewaar."
+    },
+    "late": {
+      "title": "Buite ons gewone tydperk — 'n klinikus sal dit hersien",
+      "body": "U aanvang was {days, number} dae gelede, buite die tydperk van 5–90 dae waarvoor ons program ontwerp is. Gestruktureerde rehabilitasie help steeds op hierdie stadium, veral vir sinkinese en styfheid, maar 'n mens moet die beginpunt bepaal. 'n Klinikus sal u assessering binne een werksdag hersien voordat u program begin."
+    },
+    "noEyeCare": {
+      "title": "Begin vandag met oogbeskerming",
+      "body": "U oog maak nie heeltemal toe nie en u gebruik niks om dit te beskerm nie. Bevogtigende oogdruppels sonder preserveermiddels is sonder voorskrif beskikbaar en moet vandag begin word, met oogsalf in die nag. Dit is belangriker as enige oefening in u program."
+    },
+    "estim": {
+      "title": "Oor die elektriese stimulasie",
+      "body": "Ons sluit nie elektriese stimulasie in nie. Die bewyse is teenstrydig en daar is 'n teoretiese kommer dat stimulasie tydens herinnervasie sinkinese kan vererger. As 'n klinikus dit spesifiek vir u voorgeskryf het, volg hul advies — maar bring dit asseblief tydens u eerste konsultasie ter sprake."
+    },
+    "gum": {
+      "title": "Hou asseblief op met die kougom",
+      "body": "Kougom as gesigsoefening oefen die kakebeenspiere eerder as die gesigspiere, en dit verhoog betroubaar styfheid en sinkinese. Dit is een van die min dinge wat ons u sou vra om heeltemal te staak."
+    }
+  },
+  "reasons": {
+    "noMovement": "Geen willekeurige beweging in enige area nie, dus begin die program met beskerming eerder as aktivering.",
+    "minimalMovement": "Vroeë willekeurige beweging is teenwoordig, maar minimaal, dus is die werk om die kleinste akkurate beweging te vind en te herhaal.",
+    "notIsolated": "Daar is beweging oor die grootste deel van die gesig, maar dit is nog nie geïsoleer nie, wat koördinasie in die middel van u program plaas.",
+    "nearNormal": "Beweging is in die meeste areas naby aan normaal, dus skuif die werk na beheer by alledaagse inspanningsvlakke.",
+    "synkinesisRaised": "U het dikwels gekoppelde beweging beskryf. Koördinasiewerk is die prioriteit wanneer sinkinese gevestig is, selfs waar beweging nog beperk is.",
+    "synkinesisHeldBack": "Die gehalte van beweging sou 'n latere fase aandui, maar gereelde sinkinese word die beste eers met koördinasiewerk aangepak.",
+    "severeTightness": "Erge styfheid beperk die omvang meer as swakheid, dus kry loslaat- en koördinasiewerk voorrang.",
+    "eyeProtection": "Omdat die ooglid nie beweeg nie, bly oogbeskerming voorop in u daaglikse roetine, ongeag die fase.",
+    "maintenance": "Meer as nege maande sedert aanvang, met byna normale beweging en min gekoppelde beweging — die werk is nou om omvang te behou eerder as om dit op te bou.",
+    "slowRecovery": "Herstel ná {cause, select, ramsay {Ramsay Hunt-sindroom} surgical {'n operasie} other {'n besering}} is gewoonlik stadiger en minder egalig as ná Bell se verlamming, dus sal ons 'n stadige begin nie as 'n slegte teken beskou nie.",
+    "timeHoldBack": "U antwoorde alleen sou fase {suggested} aandui, maar op {days, plural, one {# dag} other {# dae}} sedert aanvang hou ons een fase terug. Om die senuwee vooruit te loop, is hoe kompensasies gevestig raak.",
+    "timeEarliest": "Op {days, plural, one {# dag} other {# dae}} sedert aanvang is fase {stage} die vroegste indeling wat klinies sin maak.",
+    "clinicianOverride": "U klinikus het u fase bygewerk nadat hy of sy u vordering hersien het."
+  },
+  "reviewWhy": {
+    "lowConfidence": "sommige van u antwoorde nie in die gewone patroon saampas nie",
+    "lateOnset": "u aanvang buite ons gewone tydperk val",
+    "surgeryOrInjury": "herstel ná 'n operasie of besering 'n individuele beginpunt nodig het",
+    "otherDiagnosis": "u diagnose buite dié val wat ons outomaties indeel"
+  }
+}

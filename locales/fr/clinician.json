@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Clinicien — Palsya",
+    "description": "Le portail clinicien de Palsya."
+  },
+  "welcome": "Bienvenue",
+  "welcomeNamed": "Bienvenue, {name}",
+  "subtitle": "Portail clinicien",
+  "patients": {
+    "title": "Vos patients",
+    "count": "{count, plural, one {# patient vous est attribué} other {# patients vous sont attribués}}",
+    "emptyTitle": "Aucun patient pour l'instant",
+    "emptyBody": "Un administrateur vous attribue des patients. Ils apparaîtront ici une fois attribués.",
+    "columns": {
+      "name": "Nom",
+      "email": "E-mail",
+      "stage": "Étape",
+      "onset": "Date d'apparition",
+      "lastSession": "Dernière séance"
+    },
+    "noStage": "Non évalué",
+    "none": "—",
+    "open": "Ouvrir le dossier de {name}"
+  },
+  "patient": {
+    "meta": {
+      "title": "Patient — Palsya",
+      "description": "Progrès, historique des étapes et notes de l'un de vos patients."
+    },
+    "back": "Retour à vos patients",
+    "stageBadge": "Étape {stage} · {name}",
+    "noStage": "Pas encore évalué",
+    "onset": "Apparition : {date}",
+    "noOnset": "Date d'apparition non renseignée",
+    "sessions": {
+      "title": "Historique des séances",
+      "empty": "Aucune séance enregistrée pour l'instant.",
+      "columns": {
+        "date": "Date",
+        "status": "Statut",
+        "note": "Note du patient"
+      },
+      "status": {
+        "full": "Complète",
+        "part": "Partielle",
+        "none": "Non faite"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Historique des étapes",
+      "empty": "Aucune étape attribuée pour l'instant.",
+      "override": "Modifiée par un clinicien",
+      "overrideReason": "Motif : {reason}",
+      "assessment": "Issue du bilan",
+      "needsReview": "À revoir"
+    },
+    "notes": {
+      "title": "Notes",
+      "empty": "Aucune note pour l'instant.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Ancien membre du personnel",
+      "label": "Ajouter une note",
+      "hint": "Les notes font partie du dossier du patient et ne peuvent être ni modifiées ni supprimées. {max} caractères maximum.",
+      "placeholder": "Qu'avez-vous observé ou conseillé ?",
+      "submit": "Enregistrer la note",
+      "saving": "Enregistrement…",
+      "saved": "Note enregistrée."
+    },
+    "stage": {
+      "title": "Changer d'étape",
+      "intro": "Définissez l'étape du patient lorsque votre évaluation diffère de celle du programme. La modification est consignée dans l'historique des étapes.",
+      "label": "Nouvelle étape",
+      "option": "Étape {stage} · {name}",
+      "reasonLabel": "Motif (facultatif)",
+      "reasonHint": "Affiché dans l'historique des étapes. {max} caractères maximum.",
+      "submit": "Changer d'étape",
+      "saving": "Enregistrement…",
+      "saved": "Étape modifiée : {stage}."
+    },
+    "errors": {
+      "forbidden": "Vous ne pouvez pas modifier ce patient.",
+      "not_signed_in": "Votre session a expiré. Veuillez vous reconnecter.",
+      "invalid_note": "Rédigez une note de 1 à 5000 caractères.",
+      "invalid_stage": "Choisissez une étape de 1 à 5.",
+      "invalid_reason": "Le motif ne peut pas dépasser 500 caractères.",
+      "failed": "Un problème est survenu. Veuillez réessayer."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Como funciona a Palsya",
+    "description": "Da avaliação à sua primeira análise: atribuição de fase, a sessão diária, as análises semanais, o progresso ao longo do tempo e o clínico — sem verniz de marketing."
+  },
+  "hero": {
+    "eyebrow": "Como funciona",
+    "title": "Da avaliação à sua primeira análise",
+    "lead": "Tudo, sem verniz de marketing."
+  },
+  "stepLabel": "Passo {n}",
+  "steps": {
+    "assessment": {
+      "title": "A avaliação",
+      "p1": "Dezasseis perguntas, cerca de oito minutos. Não é um teste para passar — as respostas definem o seu ponto de partida, por isso responder o que parece melhor torna o seu programa pior.",
+      "p2": "Pergunta quando começou a fraqueza, qual é o seu diagnóstico, o que se mexe e o que não se mexe em três zonas do rosto, se há movimentos ligados entre si e como está a correr o dia a dia. Também pergunta em pormenor pelo seu olho, porque é a parte que pode sofrer danos permanentes.",
+      "p3": "Se as suas respostas mostrarem algo que precisa de um médico e não de uma aplicação — dor no olho, fraqueza num braço ou numa perna, fraqueza que continua a piorar ao fim de semanas, ambos os lados afetados, ou ainda sem diagnóstico — paramos e dizemos-lho. Preferimos perder o registo."
+    },
+    "stage": {
+      "title": "A sua fase, e porquê",
+      "p1": "As suas respostas passam por um processo de atribuição criado pela nossa equipa clínica: o tempo desde o início define um limite máximo, o que realmente se mexe faz o trabalho principal, depois há ajustes para movimentos ligados e rigidez e, por fim, uma verificação de confiança.",
+      "p2": "Vê o raciocínio, em linguagem simples. Não apenas \"Fase 3\", mas porquê a Fase 3 e o que isso muda concretamente no seu dia.",
+      "p3": "Quando as respostas não encaixam num padrão habitual, quando o início foi há mais de 90 dias, ou quando a paralisia surgiu após uma cirurgia ou uma lesão, um clínico revê a atribuição antes de o seu programa começar. Essa revisão é feita no prazo de um dia útil e está incluída."
+    },
+    "session": {
+      "title": "A sessão diária",
+      "p1": "Um ecrã, um botão. Três partes: fita adesiva, exercícios, rotina diária. Dez a vinte minutos, consoante a sua fase, e pode dividi-la em duas.",
+      "p2": "Cada exercício é guiado por um temporizador com indicações em tom falado, um diagrama, o número de repetições para a sua fase e o erro mais comum nesse movimento em particular. A parte da fita adesiva mostra-lhe onde vai cada tira e com quanta tensão — o erro que quase toda a gente comete, sempre por excesso.",
+      "p3": "Marque como feita e fica registada. Se falhar um dia, não acontece nada."
+    },
+    "scan": {
+      "title": "A análise semanal",
+      "p1": "Posiciona o rosto dentro de um contorno e segue quatro indicações: repouso, elevar as sobrancelhas, sorriso suave, fechar os olhos. Cerca de noventa segundos.",
+      "p2": "Antes de qualquer medição, a imagem é verificada quanto ao que gera resultados falsos — luz vinda de um só lado, demasiado escura, desfocada, movimento. Se a imagem não for suficientemente boa, dizemos-lhe e repete-a. Uma má análise é pior do que nenhuma.",
+      "p3": "Os pontos de referência são detetados no seu dispositivo. O lado afetado é comparado com a imagem espelhada do lado não afetado, zona a zona, e combinado numa pontuação de 0 a 100 relativa à sua própria linha de base.",
+      "p4": "A pontuação é uma medição geométrica. Não é um grau de gravidade, não se converte em House-Brackmann e não é uma percentagem de recuperação. Serve apenas para comparar o seu estado de hoje com o do mês passado."
+    },
+    "timeline": {
+      "title": "O que vê ao longo do tempo",
+      "p1": "Uma cronologia da pontuação com a margem de medição desenhada, para ver que mudanças são reais e quais são ruído. Uma comparação lado a lado com qualquer análise anterior. Uma cronologia de fotografias que controla e pode apagar a qualquer momento.",
+      "p2": "Relatórios de progresso escritos a partir dos seus próprios dados, num modelo que não prevê o seu resultado nem o elogia pelo esforço. Marcos que são observações factuais — \"lábios fechados ao beber\" — e não medalhas."
+    },
+    "clinician": {
+      "title": "O clínico",
+      "p1": "Nos planos que incluem consultas, marca uma videochamada de 30 minutos com um especialista em reabilitação facial e escolhe com quem fala. Pode partilhar antes as suas análises e relatórios, para que a chamada não seja gasta a pôr a conversa em dia.",
+      "p2": "Depois recebe notas escritas e um plano concreto. Se o seu programa tiver de mudar, o clínico muda-o — um clínico pode sobrepor-se ao algoritmo, e fá-lo muitas vezes."
+    }
+  },
+  "notRight": {
+    "title": "E se não for para si?",
+    "lead": "Cancele durante os sete dias grátis e não paga nada. Cancele mais tarde e bastam dois cliques — sem telefonemas, sem ofertas para ficar, sem truques. Leve uma exportação dos seus dados ao sair.",
+    "cta": "Comece os 7 dias grátis"
+  }
+}

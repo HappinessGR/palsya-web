@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Aujourd'hui — Palsya",
+    "description": "Votre séance du jour, où vous en êtes dans votre récupération, et ce qui vaut la peine d'être lu à cette étape."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Bonjour",
+        "afternoon": "Bonjour",
+        "evening": "Bonsoir",
+        "night": "Bonsoir"
+      },
+      "named": {
+        "morning": "Bonjour, {name}",
+        "afternoon": "Bonjour, {name}",
+        "evening": "Bonsoir, {name}",
+        "night": "Bonsoir, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# jour} other {# jours}} en étape {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Étape {stage} · {name}",
+    "title": "Séance du jour",
+    "allDone": "Les trois parties sont enregistrées pour aujourd'hui.",
+    "about": "Environ {minutes} minutes. Vous pouvez la répartir sur la journée.",
+    "partMinutes": "{minutes} min",
+    "exercisesCount": "{count, plural, one {# exercice} other {# exercices}}",
+    "dailyRoutine": "Routine quotidienne",
+    "review": "Revoir la séance du jour",
+    "continue": "Reprendre la séance",
+    "start": "Commencer la séance",
+    "order": "Taping, exercices, puis routine quotidienne"
+  },
+  "phaseBand": {
+    "title": "Où vous en êtes",
+    "fullProgress": "Évolution complète",
+    "summary": "{short} {days, plural, one {# jour} other {# jours}} à cette étape.",
+    "patternTitle": "Séances des trois dernières semaines",
+    "patternLabel": "Séances des {days} derniers jours",
+    "state": {
+      "full": "Terminée",
+      "part": "Partiellement faite",
+      "none": "Non enregistrée"
+    },
+    "legend": "Plein : terminée ; pâle : partiellement faite ; vide : non enregistrée. Pas de série à maintenir ici, et rien ne se remet à zéro."
+  },
+  "score": {
+    "title": "Score de symétrie",
+    "emptyTitle": "Pas encore de référence",
+    "emptyBody": "Deux minutes maintenant vous évitent de deviner plus tard.",
+    "cta": "Faire votre scan de référence"
+  },
+  "clinician": {
+    "title": "Votre clinicien",
+    "allConsultations": "Toutes les consultations",
+    "available": "Il vous reste {count, plural, one {# consultation disponible} other {# consultations disponibles}} dans votre formule.",
+    "add": "Ajouter une consultation"
+  },
+  "library": {
+    "title": "À lire à cette étape",
+    "link": "Bibliothèque",
+    "readTime": "{minutes} min de lecture",
+    "logNote": "Noter une observation",
+    "logHint": "La fonction change souvent avant la géométrie. Ce que vous remarquez est aussi une donnée."
+  },
+  "backToDashboard": "Retour au tableau de bord",
+  "progress": {
+    "meta": {
+      "title": "Votre évolution — Palsya",
+      "description": "L'historique de vos séances enregistrées et de l'évolution de votre étape au fil du temps."
+    },
+    "title": "Votre évolution",
+    "intro": "L'historique de vos séances enregistrées et de l'évolution de votre étape au fil du temps.",
+    "stageHistory": "Historique des étapes",
+    "noPhase": "Aucune étape n'a encore été attribuée.",
+    "stageBadge": "Étape {stage} · {name}",
+    "sessionLog": "Journal des séances",
+    "noSessions": "Rien d'enregistré pour l'instant — votre première séance apparaîtra ici.",
+    "columns": {
+      "date": "Date",
+      "status": "Statut",
+      "note": "Note"
+    },
+    "status": {
+      "full": "Terminée",
+      "part": "Partiellement faite",
+      "none": "Non enregistrée"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Séance du jour — Palsya",
+      "description": "Taping, exercices, puis routine quotidienne pour votre étape actuelle."
+    },
+    "title": "Séance du jour — Étape {stage} · {name}",
+    "intro": "Taping, exercices, puis routine quotidienne. Faites-les d'un coup ou répartissez-les sur la journée.",
+    "doneToday": "Fait aujourd'hui",
+    "markNotDone": "Marquer comme non fait",
+    "taping": {
+      "title": "Taping",
+      "none": "Aucune technique prévue pour cette étape",
+      "goal": "Objectif",
+      "tension": "Tension",
+      "wear": "Durée de port",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Marquer le taping comme fait"
+    },
+    "exercises": {
+      "title": "Exercices",
+      "progress": "{done} sur {total} faits aujourd'hui",
+      "dose": "{reps} × maintien {hold} s"
+    },
+    "routine": {
+      "title": "Routine quotidienne",
+      "count": "{count, plural, one {# élément} other {# éléments}} pour cette étape",
+      "markDone": "Marquer la routine comme faite"
+    },
+    "note": {
+      "title": "Avez-vous remarqué quelque chose ?",
+      "hint": "Facultatif. Enregistré pour aujourd'hui, visible par votre clinicien si vous le partagez.",
+      "placeholder": "Ex. : j'ai bu dans un verre sans tenir le coin de ma bouche."
+    }
+  }
+}

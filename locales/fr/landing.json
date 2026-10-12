@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Un programme quotidien structuré, conçu par des spécialistes de la rééducation faciale — taping, exercices et soins des yeux adaptés à l'étape où en est réellement votre récupération."
+  },
+  "stars": "{n, number} sur 5",
+  "startFree": "Essai gratuit de 7 jours",
+  "hero": {
+    "eyebrow": "Pour la paralysie faciale périphérique",
+    "title": "Un côté de votre visage ne bouge plus. <em>Voici ce qu'il faut faire maintenant.</em>",
+    "lead": "Un programme quotidien structuré, conçu par des spécialistes de la rééducation faciale — taping, exercices et soins des yeux adaptés à l'étape où en est réellement votre récupération. Avec des scans qui vous montrent des changements invisibles dans le miroir.",
+    "howItWorks": "Voir le fonctionnement",
+    "reassure": {
+      "noCard": "Aucune carte pendant 7 jours",
+      "noInstall": "Rien à installer",
+      "cancel": "Résiliation en deux clics",
+      "languages": "{count, number} langues"
+    },
+    "art": {
+      "stage": "Étape {n} · {name}",
+      "week": "Semaine {n}",
+      "baseline": "Référence · {date}",
+      "latest": "Dernier · {date}",
+      "baselineAlt": "Scan facial de référence montrant une asymétrie du visage",
+      "latestAlt": "Dernier scan facial montrant une symétrie améliorée",
+      "score": "Score de symétrie <b>{from} → {to}</b>",
+      "change": "{delta} en {weeks, plural, one {# semaine} other {# semaines}}"
+    }
+  },
+  "cred": {
+    "people": "<b>Plus de {count, number}</b>personnes en rééducation",
+    "clinician": "<b>Menés par des cliniciens</b>protocoles et consultations",
+    "gdpr": "<b>RGPD</b>serveurs dans l'UE, analyse des scans sur l'appareil",
+    "languages": "<b>{count, number}</b>langues",
+    "reviews": "sur {count, number} avis"
+  },
+  "problem": {
+    "eyebrow": "Pourquoi nous l'avons créé",
+    "title": "La plupart des gens rentrent chez eux avec une brochure",
+    "lead": "Une photocopie d'exercices, aucune idée de ceux qui vous concernent cette semaine, aucun moyen de savoir si quelque chose fonctionne, et quatre mois d'attente avant le prochain rendez-vous. C'est ce vide que Palsya vient combler.",
+    "rightWork": {
+      "title": "Le bon travail pour cette semaine",
+      "body": "Forcer un grand sourire aide à la sixième semaine et vous freine à la deuxième. Votre programme est adapté à l'étape de votre récupération et évolue avec elle."
+    },
+    "proof": {
+      "title": "La preuve que vous ne l'imaginez pas",
+      "body": "Un scan hebdomadaire mesure la géométrie de votre visage par rapport à votre propre référence initiale. Pendant les semaines de plateau — et il y en a — c'est lui qui vous dit la vérité."
+    },
+    "person": {
+      "title": "Quelqu'un qui a déjà vu cela",
+      "body": "Des consultations vidéo avec des spécialistes de la rééducation faciale. La plupart des gens font une ou deux choses de travers ; un clinicien le repère généralement dans les dix premières minutes."
+    }
+  },
+  "stages": {
+    "eyebrow": "Le programme",
+    "title": "Cinq étapes, parce que la deuxième semaine et le cinquième mois ne posent pas le même problème",
+    "readGuide": "Lire le guide complet",
+    "stage": "Étape {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Pour commencer",
+    "title": "Quinze minutes pour démarrer",
+    "assessment": {
+      "title": "Répondez au bilan",
+      "body": "Seize questions sur ce qui bouge, ce qui ne bouge pas et votre quotidien en ce moment. Le bilan vérifie aussi que Palsya vous convient — et vous dit clairement si ce n'est pas le cas."
+    },
+    "plan": {
+      "title": "Recevez votre étape et votre plan",
+      "body": "Vous êtes orienté vers l'une des cinq étapes, avec le raisonnement affiché. Si vos réponses sortent de l'ordinaire, un clinicien vérifie l'orientation avant que vous ne commenciez."
+    },
+    "daily": {
+      "title": "Dix à vingt minutes par jour",
+      "body": "Taping, exercices et routine quotidienne, guidés pas à pas. Un scan par semaine. C'est tout l'engagement demandé."
+    }
+  },
+  "ethics": {
+    "eyebrow": "Ce que nous ne ferons pas",
+    "title": "Une liste courte, et nous nous y tenons",
+    "predictions": {
+      "title": "Aucune prédiction",
+      "body": "Nous ne vous dirons jamais quand votre visage récupérera ni dans quelle mesure. Personne ne peut le savoir à partir de vos données, et s'entendre annoncer un chiffre que l'on n'atteint pas fait réellement du mal."
+    },
+    "guilt": {
+      "title": "Aucune culpabilité pour les jours manqués",
+      "body": "Si vous manquez une semaine, rien n'est remis à zéro, rien n'est perdu, et aucune notification ne vous dit que vous avez tout gâché. Vous ouvrez l'application et vous faites la séance du jour."
+    },
+    "badges": {
+      "title": "Ni badges, ni points, ni séries",
+      "body": "Vous vous remettez d'une lésion nerveuse, vous ne jouez pas à un jeu. L'évolution est présentée sous forme de mesures et de choses que vous pouvez de nouveau faire."
+    },
+    "comparing": {
+      "title": "Aucune comparaison avec d'autres patients",
+      "body": "Vos scans sont comparés à votre propre référence initiale, et à rien d'autre. Un classement de visages serait grotesque."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Ce qu'en disent les utilisateurs",
+    "title": "Avis vérifiés",
+    "quote": "« {quote} »",
+    "verified": "Utilisateur vérifié",
+    "readStories": "Lire les témoignages complets"
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Trois mois, parce que c'est le temps qu'il faut pour que les choses changent",
+    "lead": "Sept jours gratuits. Aucun prélèvement avant le 8e jour, et rien n'est présélectionné pour vous.",
+    "mostChosen": "La plus choisie",
+    "period": "/ {months, plural, one {# mois} other {# mois}}",
+    "perDay": "{price} par jour",
+    "cta": "7 jours gratuits",
+    "after": "Après vos trois premiers mois : {extension} par mois, ou vous arrêtez. Consultations supplémentaires : {consult}. Orienté par un clinicien ? Vous bénéficiez de {discount, number, percent} de réduction — saisissez son code lors du paiement."
+  },
+  "guides": {
+    "eyebrow": "En accès libre, sans compte",
+    "title": "Les guides que nous aurions aimé recevoir",
+    "all": "Les sept guides",
+    "read": "{minutes, plural, other {# min de lecture}} · relu le {date}"
+  },
+  "finalCta": {
+    "title": "Commencez aujourd'hui, décidez le septième jour",
+    "lead": "Pas de carte, aucun prélèvement avant le 8e jour, et vous pouvez emporter vos données si vous partez."
+  },
+  "face": {
+    "defaultLabel": "Schéma de visage"
+  }
+}

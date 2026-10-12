@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Welkom",
+    "assessment": "Intake",
+    "stage": "Uw fase",
+    "preferences": "Voorkeuren",
+    "consent": "Toestemming",
+    "ready": "Klaar"
+  },
+  "stepIndicator": "Stap {current} van {total} · {label}",
+  "nav": {
+    "back": "Terug",
+    "continue": "Doorgaan"
+  },
+  "welcome": {
+    "eyebrow": "Voordat we beginnen",
+    "heading": "Zestien vragen, ongeveer acht minuten",
+    "lead": "Uw antwoorden bepalen waar uw programma begint. Er is geen goed antwoord en u hoeft nergens voor te slagen — een te optimistisch antwoord levert alleen een programma op dat niet bij u past.",
+    "mirrorTitle": "Houd een spiegel bij de hand",
+    "mirrorBody": "Bij drie vragen vragen we u een beweging te proberen en te kijken wat er gebeurt. Een badkamerspiegel met gelijkmatig licht is ideaal.",
+    "safetyTitle": "We zeggen het als we niet bij u passen",
+    "safetyBody": "Sommige antwoorden betekenen dat u een arts nodig hebt in plaats van een app. Als dat zo is, stoppen we en zeggen we dat duidelijk.",
+    "clinicalNote": "<b>Deze vragen zijn geschreven door ons klinische team.</b> De indeling die eruit volgt, gebruikt dezelfde redenering als een fysiotherapeut bij een eerste afspraak: eerst de tijd sinds het begin, dan wat er werkelijk beweegt, en dan of bewegingen aan elkaar gekoppeld zijn.",
+    "start": "Start de intake",
+    "learnMore": "Eerst over de fases lezen"
+  },
+  "assessment": {
+    "sectionIndicator": "Onderdeel {current} van {total}",
+    "previous": "Vorige",
+    "seeMyStage": "Bekijk mijn fase",
+    "errRequired": "Beantwoord deze vraag alstublieft — uw programma hangt ervan af.",
+    "errFutureDate": "Die datum ligt in de toekomst. Controleer hem alstublieft.",
+    "meta": {
+      "title": "Intake — Palsya",
+      "description": "Beantwoord een korte vragenlijst, zodat we u in de juiste fase van uw programma voor aangezichtsverlamming kunnen indelen."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Stop hier voorlopig",
+    "blockedLead": "Iets in uw antwoorden vraagt om een arts in plaats van een revalidatieprogramma. We verliezen uw aanmelding liever dan dat u toch begint.",
+    "blockedSavedTitle": "Uw antwoorden zijn bewaard",
+    "blockedSavedBody": "Er gaat niets verloren. Als u bent onderzocht — of als er genoeg tijd is verstreken — logt u weer in en staat uw intake nog waar u die liet. In de tussentijd kunt u alle gidsen in de kennisbank lezen, gratis en zonder account.",
+    "readGuides": "Lees de gidsen",
+    "continueAnyway": "Ik ben onderzocht — doorgaan",
+    "eyebrow": "Uw indeling",
+    "stageHeading": "U begint in fase {stage}",
+    "stageBandLabel": "Fase {n}",
+    "whyStageHeading": "Waarom fase {stage}",
+    "daysSinceOnset": "Dagen sinds het begin",
+    "confidenceLabel": "Zekerheid",
+    "confidenceHigh": "Hoog — uw antwoorden passen in een duidelijk patroon",
+    "confidenceMedium": "Gemiddeld — één antwoord past er niet goed bij",
+    "confidenceLow": "Laag — een behandelaar kijkt hiernaar",
+    "typicalWindow": "Gebruikelijke periode",
+    "dailyMeaning": "Wat dit betekent voor uw dag",
+    "yourFocus": "Uw aandachtspunten",
+    "whatToAvoid": "Wat u beter vermijdt",
+    "tapingLabel": "Tapen in deze fase:",
+    "reviewNotice": "<b>Een behandelaar beoordeelt deze indeling.</b> Dat komt doordat {why}. U kunt vandaag beginnen — als de beoordeling iets verandert, hoort u binnen één werkdag wat er is veranderd en waarom.",
+    "reasonJoiner": " en ",
+    "stageNotFixedNote": "Uw fase ligt niet vast. Die verandert als uw scans en uw eigen meldingen daar aanleiding toe geven — vooruit, en soms terug na ziekte of een zware periode van vermoeidheid. Terug is een bijstelling, geen verloren terrein.",
+    "changeAnswer": "Antwoord wijzigen",
+    "setupSessions": "Mijn sessies instellen",
+    "confirmTitle": "Toch doorgaan?",
+    "confirmText": "Doe dit alleen als een arts u heeft onderzocht en heeft gezegd dat u met revalidatie kunt beginnen. We noteren in uw dossier dat u bent doorgegaan ondanks een veiligheidswaarschuwing.",
+    "confirmOk": "Ik ben onderzocht",
+    "confirmCancel": "Terug",
+    "meta": {
+      "title": "Uw fase — Palsya",
+      "description": "Uw indeling in het programma, en waarom we u daar hebben ingedeeld."
+    },
+    "stageHeadingNamed": "U begint in fase {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Voorkeuren",
+    "heading": "Hoe passen we in uw dag?",
+    "lead": "U kunt dit later allemaal wijzigen, en niets hiervan gebruiken we om u lastig te vallen.",
+    "remindersTitle": "Herinneringen",
+    "remindersBody": "Eén herinnering, op een tijdstip dat u zelf kiest. Mist u die, dan blijft het daarbij — er komt geen tweede herinnering die naar de eerste verwijst, en niets dat zegt dat u iets hebt verpest.",
+    "remindMeLabel": "Herinner mij aan mijn sessie",
+    "firstSession": "Eerste sessie",
+    "secondSession": "Tweede sessie (optioneel)",
+    "languageTitle": "Taal",
+    "languageBody": "De hele app en alle gidsen, in {count, number} talen. Consulten zijn waar mogelijk met een behandelaar die uw taal spreekt.",
+    "interfaceLanguage": "Taal van de app",
+    "displayTitle": "Lezen en weergave",
+    "textSize": "Tekstgrootte",
+    "sizeNormal": "Normaal",
+    "sizeLarge": "Groot",
+    "sizeXl": "Extra groot",
+    "sizeHint": "Veel van onze gebruikers zijn ouder dan 60. Daarom staat dit niet diep weggestopt in een instellingenmenu.",
+    "mirrorLabel": "Camerabeeld spiegelen (de meeste mensen vinden dat makkelijker)",
+    "emailTitle": "E-mail",
+    "weeklySummary": "Een wekelijks overzicht van wat er is gemeten en vastgelegd",
+    "clinicianUpdates": "Laat het me weten als een behandelaar een notitie toevoegt of mijn programma wijzigt",
+    "meta": {
+      "title": "Voorkeuren — Palsya",
+      "description": "Kies herinneringen, tekstgrootte en e-mails voor uw programma."
+    },
+    "languageHint": "U kunt dit altijd wijzigen via het taalmenu bovenaan elke pagina. Verder verandert het niets aan uw programma."
+  },
+  "consent": {
+    "eyebrow": "Toestemming en privacy",
+    "heading": "Waar u mee instemt, in gewone taal",
+    "lead": "Twee hiervan zijn verplicht, omdat het programma zonder deze niet kan werken. De rest verandert echt niets aan uw programma of uw prijs als u ze weigert.",
+    "required": "Verplicht",
+    "optional": "Optioneel",
+    "dataProcessing": {
+      "title": "Verwerking van mijn gezondheidsgegevens",
+      "body": "Uw antwoorden op de intake, uw fase, sessielogboeken en notities. Dit zijn bijzondere persoonsgegevens volgens artikel 9 van de AVG, en we verwerken ze op basis van uw uitdrukkelijke toestemming. Zonder deze gegevens is er geen programma."
+    },
+    "photoStorage": {
+      "title": "Analyse van scans van mijn gezicht",
+      "body": "De herkenningspunten worden op uw eigen apparaat gedetecteerd. Het <b>bewaren</b> van de beelden is het volgende punt en staat hier los van — weigert u dat, dan krijgt u nog steeds scores, alleen geen fototijdlijn."
+    },
+    "photoKeep": {
+      "title": "Bewaren van mijn scanfoto's, zodat ik mijn tijdlijn kan zien",
+      "body": "Versleuteld bewaard, alleen zichtbaar voor u en voor behandelaars met wie u ze deelt. U kunt elke foto afzonderlijk, of alle foto's, op elk moment verwijderen, en dan zijn ze ook echt weg."
+    },
+    "clinicianShare": {
+      "title": "Delen van mijn voortgang met een behandelaar die ik kies",
+      "body": "Alleen met iemand die u zelf aanwijst, alleen wat u verstuurt, en altijd in te trekken. Hebt u een verwijscode van uw eigen fysiotherapeut, dan is dit de toestemming waarmee die uw rapporten kan zien."
+    },
+    "researchOptIn": {
+      "title": "Gebruik van mijn geanonimiseerde gegevens voor onderzoek",
+      "body": "Samengevoegd en ontdaan van alles wat naar u herleidbaar is, gebruikt om te begrijpen wat helpt. Nooit verkocht. Weigeren verandert niets aan uw programma, uw prijs of uw behandelaar."
+    },
+    "marketing": {
+      "title": "Af en toe e-mails over nieuwe gidsen en functies",
+      "body": "Geen eindeloze nieuwsbrieven. Ongeveer eens per maand, en afmelden kost één klik."
+    },
+    "laterNote": "<b>U kunt al deze keuzes later wijzigen</b>, via Instellingen → Privacy en gegevens. Trekt u de toestemming voor het bewaren van foto's in, dan worden de bewaarde beelden verwijderd; uw scores blijven bestaan, tenzij u die apart verwijdert.",
+    "submit": "Akkoord en doorgaan",
+    "errRequired": "De twee verplichte toestemmingen zijn nodig om het programma te laten werken.",
+    "meta": {
+      "title": "Toestemming en privacy — Palsya",
+      "description": "Waar u mee instemt, in gewone taal."
+    },
+    "gdprNote": "Uw gezondheidsgegevens zijn bijzondere persoonsgegevens volgens de AVG. Ze worden alleen verwerkt met uw uitdrukkelijke toestemming, versleuteld bij opslag en tijdens verzending, en nooit verkocht of gebruikt voor advertenties.",
+    "termsAgreement": "Door verder te gaan, gaat u akkoord met de <link>Servicevoorwaarden en het Privacybeleid</link> van Palsya."
+  },
+  "ready": {
+    "title": "Alles staat klaar voor {name}",
+    "summary": "Fase {stage} — {name}, ongeveer {minutes} minuten per dag, verdeeld over {sessions}.",
+    "tapingTitle": "Tapen",
+    "tapingSummary": "{name} — {minutes} minuten.",
+    "tapingHint": "U hebt elastische therapeutische tape (kinesiotape) nodig. Elk merk is goed. Test hem eerst op een stukje huid van uw onderarm.",
+    "exercisesTitle": "Oefeningen",
+    "exercisesSummary": "{count} oefeningen, {minutes} minuten, begeleid met een timer.",
+    "exercisesHint": "Een spiegel met gelijkmatig licht helpt in de eerste fases enorm.",
+    "routineTitle": "Dagelijkse routine",
+    "routineSummary": "{count} onderdelen, {minutes} minuten, inclusief oogzorg.",
+    "routineHint": "Oogbescherming komt eerst, vóór elke oefening.",
+    "trialTitle": "Uw 7 gratis dagen beginnen nu",
+    "trialSummary": "{price} voor drie maanden, af te schrijven op {date}, tenzij u vóór die datum opzegt. We sturen u op dag 5 een herinnering per e-mail — precies het omgekeerde van hoe het meestal gaat.",
+    "changePlan": "Wijzigen",
+    "goToSession": "Naar de sessie van vandaag",
+    "meta": {
+      "title": "Alles staat klaar — Palsya",
+      "description": "Uw programma staat klaar: tapen, oefeningen en uw dagelijkse routine."
+    },
+    "titleNoName": "Alles staat klaar",
+    "sessionsFallback": "uw dagelijkse sessie",
+    "priceFallback": "uw gekozen abonnement"
+  },
+  "meta": {
+    "title": "Welkom — Palsya",
+    "description": "Zestien vragen, ongeveer acht minuten. Uw antwoorden bepalen waar uw herstelprogramma begint."
+  }
+}

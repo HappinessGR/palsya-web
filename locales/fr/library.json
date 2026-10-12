@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Élévation des sourcils",
+      "instructions": "Asseyez-vous face à un miroir, épaules basses, mâchoire relâchée. Posez deux doigts à plat sur le sourcil du côté <b>sain</b> et maintenez-le immobile. Cela empêche le bon côté de faire le travail. Levez le sourcil du côté atteint comme si vous étiez légèrement surpris. Visez un petit mouvement que vous contrôlez, pas le plus grand possible. Tenez trois secondes, puis laissez-le redescendre tout seul. Ne le poussez pas vers le bas. Attendez cinq secondes entre les répétitions.",
+      "why": "Le sourcil est souvent la dernière zone à récupérer. Le travailler maintient la voie nerveuse active et évite que le front ne se raidisse du côté atteint.",
+      "steps": {
+        "s1": "Asseyez-vous face à un miroir, épaules basses, mâchoire relâchée.",
+        "s2": "Posez deux doigts à plat sur le sourcil du côté <b>sain</b> et maintenez-le immobile. Cela empêche le bon côté de faire le travail.",
+        "s3": "Levez le sourcil du côté atteint comme si vous étiez légèrement surpris. Visez un petit mouvement que vous contrôlez, pas le plus grand possible.",
+        "s4": "Tenez trois secondes, puis laissez-le redescendre tout seul. Ne le poussez pas vers le bas.",
+        "s5": "Attendez cinq secondes entre les répétitions."
+      },
+      "watch": "Si l'œil se ferme ou si la bouche tire quand vous levez le sourcil, faites moins d'effort. Ce lien se renforce avec la pratique : nous travaillons donc en dessous du seuil où il apparaît."
+    },
+    "eye": {
+      "name": "Fermeture douce des yeux",
+      "instructions": "Regardez droit devant vous. Laissez d'abord le visage au repos. Fermez doucement les deux yeux, comme si vous vous endormiez — sans les serrer. Tenez deux secondes et observez si la paupière du côté atteint rejoint la paupière inférieure. Rouvrez lentement et complètement. Si la paupière ne se ferme pas entièrement, ne forcez pas. Fermez aussi loin que possible et soutenez doucement la paupière du bout d'un doigt propre.",
+      "why": "La fermeture protège la cornée. Une fermeture douce et répétée rétablit aussi le clignement, qui récupère indépendamment de la fermeture forcée.",
+      "steps": {
+        "s1": "Regardez droit devant vous. Laissez d'abord le visage au repos.",
+        "s2": "Fermez doucement les deux yeux, comme si vous vous endormiez — sans les serrer.",
+        "s3": "Tenez deux secondes et observez si la paupière du côté atteint rejoint la paupière inférieure.",
+        "s4": "Rouvrez lentement et complètement.",
+        "s5": "Si la paupière ne se ferme pas entièrement, ne forcez pas. Fermez aussi loin que possible et soutenez doucement la paupière du bout d'un doigt propre."
+      },
+      "watch": "Serrer fort les yeux sollicite la bouche et le cou. Si vous sentez le coin de la bouche bouger, c'est que vous serrez."
+    },
+    "nose": {
+      "name": "Ouverture des narines",
+      "instructions": "Inspirez par le nez en laissant les narines s'écarter. Essayez d'écarter un peu plus la narine du côté atteint. Tenez deux secondes, relâchez complètement. Gardez la lèvre supérieure immobile — c'est un mouvement du nez, pas une grimace.",
+      "why": "Le milieu du visage soulève le sillon nasogénien et soutient la lèvre supérieure. Il répond bien à un travail fin et isolé, et on l'oublie facilement.",
+      "steps": {
+        "s1": "Inspirez par le nez en laissant les narines s'écarter.",
+        "s2": "Essayez d'écarter un peu plus la narine du côté atteint.",
+        "s3": "Tenez deux secondes, relâchez complètement.",
+        "s4": "Gardez la lèvre supérieure immobile — c'est un mouvement du nez, pas une grimace."
+      },
+      "watch": "Gardez les dents du haut couvertes. Si la lèvre se soulève et découvre les dents, c'est le mauvais muscle qui a pris le relais."
+    },
+    "smile": {
+      "name": "Sourire léger",
+      "instructions": "Lèvres jointes, dents desserrées. Tirez les deux coins de la bouche vers le haut et légèrement vers l'extérieur — un sourire bouche fermée, à environ un tiers de votre maximum. Regardez dans le miroir : les coins bougent-ils de la même distance ? Sinon, faites moins d'effort jusqu'à ce que ce soit le cas. Tenez trois secondes, relâchez lentement sur deux secondes. Laissez le visage totalement neutre entre les répétitions.",
+      "why": "C'est le plus important sur le plan fonctionnel, et celui que l'on force le plus souvent. Un petit sourire contrôlé entraîne le bon schéma ; un grand sourire forcé entraîne la compensation.",
+      "steps": {
+        "s1": "Lèvres jointes, dents desserrées.",
+        "s2": "Tirez les deux coins de la bouche vers le haut et légèrement vers l'extérieur — un sourire bouche fermée, à environ un tiers de votre maximum.",
+        "s3": "Regardez dans le miroir : les coins bougent-ils de la même distance ? Sinon, faites moins d'effort jusqu'à ce que ce soit le cas.",
+        "s4": "Tenez trois secondes, relâchez lentement sur deux secondes.",
+        "s5": "Laissez le visage totalement neutre entre les répétitions."
+      },
+      "watch": "L'œil qui se plisse quand vous souriez, c'est justement le lien contre lequel nous travaillons. Moins d'effort, pas plus de répétitions."
+    },
+    "pucker": {
+      "name": "Moue et fermeture des lèvres",
+      "instructions": "Rapprochez les lèvres et avancez-les, comme pour dire « ou ». Gardez la moue bien centrée — ne la laissez pas dériver vers le côté le plus fort. Tenez trois secondes. Pressez légèrement les lèvres l'une contre l'autre, sans serrer. Relâchez et laissez les lèvres s'entrouvrir.",
+      "why": "La fermeture des lèvres permet de boire, de manger et de prononcer les consonnes occlusives. C'est souvent le premier changement que les patients remarquent au quotidien.",
+      "steps": {
+        "s1": "Rapprochez les lèvres et avancez-les, comme pour dire « ou ».",
+        "s2": "Gardez la moue bien centrée — ne la laissez pas dériver vers le côté le plus fort.",
+        "s3": "Tenez trois secondes. Pressez légèrement les lèvres l'une contre l'autre, sans serrer.",
+        "s4": "Relâchez et laissez les lèvres s'entrouvrir."
+      },
+      "watch": "Si la moue part sur le côté, posez légèrement le bout d'un doigt sur le coin du côté fort pour la garder honnête."
+    },
+    "cheek": {
+      "name": "Joues gonflées, maintenues",
+      "instructions": "Prenez une inspiration normale et gonflez les deux joues, lèvres fermées. Tenez cinq secondes sans laisser l'air s'échapper. Si l'air s'échappe du côté atteint, maintenez légèrement cette joue avec une main propre et recommencez. Relâchez lentement par le nez, sans « pop ».",
+      "why": "Retenir l'air teste la fermeture des lèvres sous contrainte et développe l'endurance nécessaire pour parler et manger, et pas seulement pour les exercices.",
+      "steps": {
+        "s1": "Prenez une inspiration normale et gonflez les deux joues, lèvres fermées.",
+        "s2": "Tenez cinq secondes sans laisser l'air s'échapper.",
+        "s3": "Si l'air s'échappe du côté atteint, maintenez légèrement cette joue avec une main propre et recommencez.",
+        "s4": "Relâchez lentement par le nez, sans « pop »."
+      },
+      "watch": "Ne faites pas cet exercice si vous avez récemment subi une chirurgie de l'oreille ou si votre clinicien vous a conseillé d'éviter les variations de pression."
+    },
+    "separate": {
+      "name": "Dissociation œil–bouche",
+      "instructions": "Regardez dans le miroir. Souriez doucement — à un tiers de votre maximum — en gardant consciemment les deux yeux grands ouverts. Si l'œil se plisse, même un peu, réduisez le sourire jusqu'à ce que ce ne soit plus le cas. Tenez quatre secondes avec l'œil ouvert, puis relâchez. Faites maintenant l'inverse : fermez doucement les yeux en gardant la bouche parfaitement immobile. Reposez-vous huit secondes entre les répétitions. Cet exercice fatigue vite.",
+      "why": "C'est l'exercice de base contre la syncinésie — le mouvement associé où une zone se contracte quand vous en sollicitez une autre. La dissociation s'entraîne lentement et avec peu d'effort.",
+      "steps": {
+        "s1": "Regardez dans le miroir. Souriez doucement — à un tiers de votre maximum — en gardant consciemment les deux yeux grands ouverts.",
+        "s2": "Si l'œil se plisse, même un peu, réduisez le sourire jusqu'à ce que ce ne soit plus le cas.",
+        "s3": "Tenez quatre secondes avec l'œil ouvert, puis relâchez.",
+        "s4": "Faites maintenant l'inverse : fermez doucement les yeux en gardant la bouche parfaitement immobile.",
+        "s5": "Reposez-vous huit secondes entre les répétitions. Cet exercice fatigue vite."
+      },
+      "watch": "C'est l'exercice où moins, c'est vraiment mieux. Cinq répétitions précises valent mieux que vingt répétitions avec mouvement associé."
+    },
+    "release": {
+      "name": "Relâchement des raideurs",
+      "instructions": "Posez le bout de vos doigts propres sur la zone tendue — souvent la joue ou le côté du menton. Appliquez une pression légère et régulière et étirez lentement la peau dans le sens opposé à la tension. Tenez quinze secondes en respirant normalement. Vous devez ressentir un étirement, jamais une douleur vive. Relâchez lentement et laissez les tissus se détendre avant de recommencer.",
+      "why": "Plus tard dans la récupération, les raideurs limitent davantage le mouvement que la faiblesse. Le travail de relâchement restaure une amplitude que le travail d'activation ne peut pas atteindre.",
+      "steps": {
+        "s1": "Posez le bout de vos doigts propres sur la zone tendue — souvent la joue ou le côté du menton.",
+        "s2": "Appliquez une pression légère et régulière et étirez lentement la peau dans le sens opposé à la tension.",
+        "s3": "Tenez quinze secondes en respirant normalement. Vous devez ressentir un étirement, jamais une douleur vive.",
+        "s4": "Relâchez lentement et laissez les tissus se détendre avant de recommencer."
+      },
+      "watch": "Arrêtez si vous ressentez une douleur vive, des fourmillements, ou davantage de contractions involontaires ensuite."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Soutien au repos",
+      "instructions": "Joue : juste au-dessus de la ligne de la mâchoire, sous le coin de la bouche du côté atteint -> vers le haut et l'extérieur, en direction de la pommette. Posez l'ancrage sans tension, le milieu avec une légère tension, et les 2 derniers cm sans tension. Coin de la bouche : à 1 cm du coin de la lèvre du côté atteint -> en diagonale vers le haut, en direction de l'oreille. Celle-ci est très légère. Elle sert de repère, pas à soulever.",
+      "goal": "Soutenir le milieu du visage contre la pesanteur tant que le nerf est silencieux, pour que les tissus ne s'étirent pas et ne se figent pas en position affaissée.",
+      "tension": "Très légère — environ 10 % d'étirement. Vous devez pouvoir glisser le bout d'un doigt dessous.",
+      "wear": "4 à 6 heures pendant la journée. Jamais la nuit.",
+      "strips": {
+        "s1": {
+          "where": "Joue",
+          "from": "Juste au-dessus de la ligne de la mâchoire, sous le coin de la bouche du côté atteint",
+          "to": "Vers le haut et l'extérieur, en direction de la pommette",
+          "note": "Posez l'ancrage sans tension, le milieu avec une légère tension, et les 2 derniers cm sans tension."
+        },
+        "s2": {
+          "where": "Coin de la bouche",
+          "from": "À 1 cm du coin de la lèvre du côté atteint",
+          "to": "En diagonale vers le haut, en direction de l'oreille",
+          "note": "Celle-ci est très légère. Elle sert de repère, pas à soulever."
+        }
+      }
+    },
+    "assist": {
+      "name": "Aide au mouvement",
+      "instructions": "Ligne zygomatique : coin de la bouche du côté atteint -> le long de la ligne naturelle du sourire, jusque juste devant l'oreille. Posez-la visage au repos, pas en souriant. Sourcil : juste au-dessus du sourcil du côté atteint, au niveau du tiers externe -> vers le haut, en direction de la naissance des cheveux. Restez bien à distance de l'œil. Si elle tire sur la paupière, retirez-la et replacez-la plus bas.",
+      "goal": "Réduire l'effort qu'exige un mouvement, pour pouvoir travailler le bon schéma avec peu d'effort au lieu de forcer dans un mauvais.",
+      "tension": "Légère à modérée — environ 25 % d'étirement sur la partie centrale de la bande.",
+      "wear": "Pendant les séances d'exercices, et jusqu'à 4 heures après.",
+      "strips": {
+        "s1": {
+          "where": "Ligne zygomatique",
+          "from": "Coin de la bouche du côté atteint",
+          "to": "Le long de la ligne naturelle du sourire, jusque juste devant l'oreille",
+          "note": "Posez-la visage au repos, pas en souriant."
+        },
+        "s2": {
+          "where": "Sourcil",
+          "from": "Juste au-dessus du sourcil du côté atteint, au niveau du tiers externe",
+          "to": "Vers le haut, en direction de la naissance des cheveux",
+          "note": "Restez bien à distance de l'œil. Si elle tire sur la paupière, retirez-la et replacez-la plus bas."
+        }
+      }
+    },
+    "guide": {
+      "name": "Guidage directionnel",
+      "instructions": "Soutien de la paupière inférieure : coin externe de l'œil -> vers l'extérieur et légèrement vers le bas, en direction de la tempe. Jamais sur la paupière elle-même. Uniquement sous le rebord de l'orbite. Contre-repère de la joue : milieu de la joue -> vers le bas et l'extérieur. Cela s'oppose à la traction vers le haut qui accompagne la syncinésie.",
+      "goal": "Donner à la peau un repère de direction pendant le travail de coordination et freiner légèrement le mouvement associé que vous cherchez à dissocier.",
+      "tension": "Légère — environ 15 %. Le repère est sensoriel, pas mécanique.",
+      "wear": "Uniquement pendant les exercices de coordination. 20 à 30 minutes.",
+      "strips": {
+        "s1": {
+          "where": "Soutien de la paupière inférieure",
+          "from": "Coin externe de l'œil",
+          "to": "Vers l'extérieur et légèrement vers le bas, en direction de la tempe",
+          "note": "Jamais sur la paupière elle-même. Uniquement sous le rebord de l'orbite."
+        },
+        "s2": {
+          "where": "Contre-repère de la joue",
+          "from": "Milieu de la joue",
+          "to": "Vers le bas et l'extérieur",
+          "note": "Cela s'oppose à la traction vers le haut qui accompagne la syncinésie."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Soins des yeux",
+      "instructions": "Collyre lubrifiant au réveil Collyre toutes les 2 à 3 heures pendant la journée Pommade et paupière fermée par un adhésif ou lunettes à chambre humide la nuit Lunettes de soleil à l'extérieur, même par temps nuageux",
+      "when": "Le matin, au fil de la journée et avant de dormir",
+      "body": "Si votre œil ne se ferme pas complètement, protéger la cornée est la chose la plus importante de votre journée — plus importante que n'importe quel exercice. Un collyre lubrifiant sans conservateur pendant la journée, une pommade ophtalmique la nuit, et un avis de votre clinicien si l'œil devient rouge, douloureux ou si votre vue change.",
+      "items": {
+        "i1": "Collyre lubrifiant au réveil",
+        "i2": "Collyre toutes les 2 à 3 heures pendant la journée",
+        "i3": "Pommade et paupière fermée par un adhésif ou lunettes à chambre humide la nuit",
+        "i4": "Lunettes de soleil à l'extérieur, même par temps nuageux"
+      }
+    },
+    "eat": {
+      "name": "Manger et boire",
+      "instructions": "Petites bouchées, rythme plus lent Placer les aliments du côté sain Rincer et vérifier la joue du côté atteint après le repas Rester assis bien droit pour boire",
+      "when": "À chaque repas",
+      "body": "Les aliments qui s'accumulent dans la joue du côté atteint et les boissons qui s'échappent des lèvres sont des problèmes mécaniques, avec des solutions mécaniques. De petites bouchées, les aliments du côté le plus fort, une vérification dans le miroir après le repas, et une paille seulement si elle ne rend pas la fermeture des lèvres plus difficile.",
+      "items": {
+        "i1": "Petites bouchées, rythme plus lent",
+        "i2": "Placer les aliments du côté sain",
+        "i3": "Rincer et vérifier la joue du côté atteint après le repas",
+        "i4": "Rester assis bien droit pour boire"
+      }
+    },
+    "massage": {
+      "name": "Massage",
+      "instructions": "Mains propres et sèches Petits cercles, pression légère, vers le haut Des deux côtés, pas seulement du côté atteint Arrêter si cela provoque des contractions involontaires",
+      "when": "Une ou deux fois par jour, 3 à 4 minutes",
+      "body": "Une pression circulaire lente, du bout des doigts propres, sur la joue, la mâchoire et autour de la bouche. Cela entretient la circulation et la mobilité des tissus. Ce n'est pas un entraînement — si c'est trop vigoureux, allégez.",
+      "items": {
+        "i1": "Mains propres et sèches",
+        "i2": "Petits cercles, pression légère, vers le haut",
+        "i3": "Des deux côtés, pas seulement du côté atteint",
+        "i4": "Arrêter si cela provoque des contractions involontaires"
+      }
+    },
+    "sleep": {
+      "name": "Sommeil et repos",
+      "instructions": "Sur le dos ou sur le côté sain, pas sur le ventre Protection de l'œil avant d'éteindre Faire les exercices le matin si les soirées sont difficiles Les jours de repos font partie du programme",
+      "when": "Chaque nuit",
+      "body": "La fatigue du visage est bien réelle et elle dégrade la qualité de vos mouvements. Dormez sur le dos ou sur le côté sain pour que le visage ne soit pas écrasé contre l'oreiller, et prenez au sérieux le coup de fatigue de l'après-midi — faites vos exercices quand vous êtes reposé.",
+      "items": {
+        "i1": "Sur le dos ou sur le côté sain, pas sur le ventre",
+        "i2": "Protection de l'œil avant d'éteindre",
+        "i3": "Faire les exercices le matin si les soirées sont difficiles",
+        "i4": "Les jours de repos font partie du programme"
+      }
+    },
+    "speech": {
+      "name": "Exercices de parole",
+      "instructions": "Lire à voix haute 3 minutes par jour Insister sur p, b, m, f, v et le son « ou » Assez lentement pour garder les lèvres fermées S'enregistrer une fois par semaine si cela vous aide",
+      "when": "Une fois par jour, 3 minutes",
+      "body": "Les consonnes occlusives et labiales nécessitent une bonne fermeture des lèvres : elles constituent donc un exercice que vous pouvez faire sans miroir. Lisez lentement à voix haute, en articulant un peu plus que d'habitude.",
+      "items": {
+        "i1": "Lire à voix haute 3 minutes par jour",
+        "i2": "Insister sur p, b, m, f, v et le son « ou »",
+        "i3": "Assez lentement pour garder les lèvres fermées",
+        "i4": "S'enregistrer une fois par semaine si cela vous aide"
+      }
+    }
+  }
+}

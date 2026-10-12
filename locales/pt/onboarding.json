@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Boas-vindas",
+    "assessment": "Avaliação",
+    "stage": "A sua fase",
+    "preferences": "Preferências",
+    "consent": "Consentimento",
+    "ready": "Pronto"
+  },
+  "stepIndicator": "Passo {current} de {total} · {label}",
+  "nav": {
+    "back": "Voltar",
+    "continue": "Continuar"
+  },
+  "welcome": {
+    "eyebrow": "Antes de começar",
+    "heading": "Dezasseis perguntas, cerca de oito minutos",
+    "lead": "As suas respostas decidem onde começa o seu programa. Não há respostas certas nem nada para passar — uma resposta otimista só lhe dá um programa que não se ajusta a si.",
+    "mirrorTitle": "Tenha um espelho por perto",
+    "mirrorBody": "Três perguntas pedem-lhe que experimente um movimento e observe o que acontece. O ideal é um espelho de casa de banho com luz uniforme.",
+    "safetyTitle": "Dizemos-lhe se não formos adequados para si",
+    "safetyBody": "Algumas respostas significam que precisa de um médico e não de uma aplicação. Se isso acontecer, paramos e dizemo-lo, com clareza.",
+    "clinicalNote": "<b>Estas perguntas foram escritas pela nossa equipa clínica.</b> A atribuição que resulta delas segue o mesmo raciocínio que um fisioterapeuta usa numa primeira consulta: tempo desde o início, depois o que realmente se mexe e depois se há movimentos ligados.",
+    "start": "Iniciar a avaliação",
+    "learnMore": "Ler primeiro sobre as fases"
+  },
+  "assessment": {
+    "sectionIndicator": "Secção {current} de {total}",
+    "previous": "Anterior",
+    "seeMyStage": "Ver a minha fase",
+    "errRequired": "Responda a esta pergunta — o seu programa depende dela.",
+    "errFutureDate": "Essa data está no futuro. Verifique-a, por favor.",
+    "meta": {
+      "title": "Avaliação — Palsya",
+      "description": "Responda a um breve questionário para o colocarmos na fase certa do seu programa para a paralisia facial."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Por agora, fique por aqui",
+    "blockedLead": "Há algo nas suas respostas que precisa de um médico e não de um programa de reabilitação. Preferimos perder o seu registo a vê-lo começar mesmo assim.",
+    "blockedSavedTitle": "As suas respostas estão guardadas",
+    "blockedSavedBody": "Nada se perde. Depois de ser observado — ou quando tiver passado tempo suficiente — volte a entrar e a sua avaliação estará onde a deixou. Entretanto, pode ler todos os guias da base de conhecimento, gratuitamente e sem conta.",
+    "readGuides": "Ler os guias",
+    "continueAnyway": "Já fui avaliado — continuar",
+    "eyebrow": "A sua atribuição",
+    "stageHeading": "Vai começar na Fase {stage}",
+    "stageBandLabel": "Fase {n}",
+    "whyStageHeading": "Porquê a Fase {stage}",
+    "daysSinceOnset": "Dias desde o início",
+    "confidenceLabel": "Confiança",
+    "confidenceHigh": "Alta — as suas respostas encaixam num padrão claro",
+    "confidenceMedium": "Média — uma resposta não encaixa bem",
+    "confidenceLow": "Baixa — um clínico vai rever isto",
+    "typicalWindow": "Período habitual",
+    "dailyMeaning": "O que isto significa no seu dia",
+    "yourFocus": "O seu foco",
+    "whatToAvoid": "O que evitar",
+    "tapingLabel": "Fita adesiva nesta fase:",
+    "reviewNotice": "<b>Um clínico vai rever esta atribuição.</b> Isto porque {why}. Pode começar hoje — se a revisão mudar alguma coisa, será informado do que mudou e porquê, no prazo de um dia útil.",
+    "reasonJoiner": " e ",
+    "stageNotFixedNote": "A sua fase não é fixa. Muda quando as suas análises e os seus próprios registos o indicam — para a frente e, por vezes, para trás, depois de uma doença ou de um período de grande cansaço. Recuar é um ajuste, não terreno perdido.",
+    "changeAnswer": "Alterar uma resposta",
+    "setupSessions": "Configurar as minhas sessões",
+    "confirmTitle": "Continuar mesmo assim?",
+    "confirmText": "Faça isto apenas se um médico o tiver avaliado e lhe tiver dito que é adequado começar a reabilitação. Vamos registar no seu processo que continuou apesar de um alerta de segurança.",
+    "confirmOk": "Já fui avaliado",
+    "confirmCancel": "Voltar",
+    "meta": {
+      "title": "A sua fase — Palsya",
+      "description": "A fase atribuída ao seu programa, e porque a atribuímos."
+    },
+    "stageHeadingNamed": "Vai começar na Fase {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Preferências",
+    "heading": "Como devemos encaixar no seu dia?",
+    "lead": "Tudo isto pode ser alterado mais tarde, e nada é usado para o importunar.",
+    "remindersTitle": "Lembretes",
+    "remindersBody": "Um lembrete à hora que escolher. Se não o vir, fica por aí — não há um segundo lembrete a falar do primeiro, nem nada que diga que estragou alguma coisa.",
+    "remindMeLabel": "Lembrar-me da minha sessão",
+    "firstSession": "Primeira sessão",
+    "secondSession": "Segunda sessão (opcional)",
+    "languageTitle": "Idioma",
+    "languageBody": "Toda a aplicação e todos os guias, em {count, number} idiomas. As consultas são, sempre que possível, com um clínico que fala o seu idioma.",
+    "interfaceLanguage": "Idioma da interface",
+    "displayTitle": "Leitura e apresentação",
+    "textSize": "Tamanho do texto",
+    "sizeNormal": "Normal",
+    "sizeLarge": "Grande",
+    "sizeXl": "Muito grande",
+    "sizeHint": "Muitos dos nossos utilizadores têm mais de 60 anos. Não é por acaso que isto não está escondido num menu de definições.",
+    "mirrorLabel": "Espelhar a pré-visualização da câmara (a maioria das pessoas acha mais fácil)",
+    "emailTitle": "Email",
+    "weeklySummary": "Um resumo semanal do que foi medido e registado",
+    "clinicianUpdates": "Avisar-me quando um clínico acrescentar uma nota ou alterar o meu programa",
+    "meta": {
+      "title": "Preferências — Palsya",
+      "description": "Escolha os lembretes, o tamanho do texto e os emails do seu programa."
+    },
+    "languageHint": "Pode mudar isto a qualquer momento no menu de idioma no topo de cada página. Não altera mais nada no seu programa."
+  },
+  "consent": {
+    "eyebrow": "Consentimento e privacidade",
+    "heading": "Aquilo com que está a concordar, em palavras simples",
+    "lead": "Dois destes são obrigatórios porque o programa não funciona sem eles. Os restantes não mudam mesmo nada no seu programa nem no preço se os recusar.",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "dataProcessing": {
+      "title": "Tratamento dos meus dados de saúde",
+      "body": "As respostas da avaliação, a fase, os registos das sessões e as notas. São dados de categoria especial ao abrigo do artigo 9.º do RGPD e tratamo-los com o seu consentimento explícito. Sem isso, não há programa."
+    },
+    "photoStorage": {
+      "title": "Análise das imagens do meu rosto",
+      "body": "A deteção dos pontos de referência é feita no seu dispositivo. <b>Guardar</b> as imagens é o ponto seguinte e é separado — se o recusar, continua a ter pontuações, só não tem cronologia de fotografias."
+    },
+    "photoKeep": {
+      "title": "Guardar as fotografias das análises para ver a minha cronologia",
+      "body": "Guardadas de forma encriptada, visíveis apenas para si e para os clínicos com quem as partilhar. Pode apagar qualquer fotografia, ou todas, a qualquer momento, e a eliminação é real."
+    },
+    "clinicianShare": {
+      "title": "Partilhar o meu progresso com um clínico à minha escolha",
+      "body": "Só com quem indicar, só o que enviar, e pode revogar. Se tiver um código de referência do seu próprio fisioterapeuta, é esta opção que lhe permite ver os seus relatórios."
+    },
+    "researchOptIn": {
+      "title": "Utilizar os meus dados anonimizados para investigação",
+      "body": "Agregados e sem identificadores, usados para perceber o que ajuda. Nunca vendidos. Recusar não muda nada no seu programa, no preço nem no seu clínico."
+    },
+    "marketing": {
+      "title": "Emails ocasionais sobre novos guias e funcionalidades",
+      "body": "Não é uma avalanche de newsletters. Cerca de uma vez por mês, e cancelar a subscrição leva um clique."
+    },
+    "laterNote": "<b>Pode alterar qualquer uma destas opções mais tarde</b>, em Definições → Privacidade e dados. Retirar o consentimento para guardar fotografias apaga as imagens guardadas; as suas pontuações mantêm-se, a menos que as apague em separado.",
+    "submit": "Concordar e continuar",
+    "errRequired": "Os dois consentimentos obrigatórios são necessários para o programa funcionar.",
+    "meta": {
+      "title": "Consentimento e privacidade — Palsya",
+      "description": "Aquilo com que está a concordar, em palavras simples."
+    },
+    "gdprNote": "Os seus dados de saúde são dados de categoria especial ao abrigo do RGPD e só são tratados com o seu consentimento explícito, encriptados em repouso e em trânsito, e nunca vendidos nem usados para publicidade.",
+    "termsAgreement": "Ao continuar, aceita os <link>Termos de Serviço e a Política de Privacidade</link> da Palsya."
+  },
+  "ready": {
+    "title": "Está tudo pronto, {name}",
+    "summary": "Fase {stage} — {name}, cerca de {minutes} minutos por dia, repartidos por {sessions}.",
+    "tapingTitle": "Fita adesiva",
+    "tapingSummary": "{name} — {minutes} minutos.",
+    "tapingHint": "Vai precisar de fita terapêutica elástica. De qualquer marca. Teste-a primeiro no antebraço.",
+    "exercisesTitle": "Exercícios",
+    "exercisesSummary": "{count} exercícios, {minutes} minutos, guiados com um temporizador.",
+    "exercisesHint": "Um espelho com luz uniforme ajuda muito nas primeiras fases.",
+    "routineTitle": "Rotina diária",
+    "routineSummary": "{count} itens, {minutes} minutos, incluindo os cuidados com o olho.",
+    "routineHint": "A proteção do olho vem primeiro, antes de qualquer exercício.",
+    "trialTitle": "Os seus 7 dias grátis começam agora",
+    "trialSummary": "{price} durante três meses, cobrado a {date}, a menos que cancele antes. Vamos enviar-lhe um email no dia 5 a lembrar, o que é o contrário do que costuma acontecer.",
+    "changePlan": "Mudar de plano",
+    "goToSession": "Ir para a sessão de hoje",
+    "meta": {
+      "title": "Está tudo pronto — Palsya",
+      "description": "O seu programa está pronto: fita adesiva, exercícios e a sua rotina diária."
+    },
+    "titleNoName": "Está tudo pronto",
+    "sessionsFallback": "uma sessão diária",
+    "priceFallback": "O valor do plano escolhido"
+  },
+  "meta": {
+    "title": "Boas-vindas — Palsya",
+    "description": "Dezasseis perguntas, cerca de oito minutos. As suas respostas decidem onde começa o seu programa de recuperação."
+  }
+}

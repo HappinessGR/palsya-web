@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Een gestructureerd dagelijks programma, ontwikkeld door specialisten in revalidatie van het gezicht — tapen, oefeningen en oogzorg afgestemd op de fase waarin uw herstel werkelijk zit."
+  },
+  "stars": "{n, number} van de 5",
+  "startFree": "Probeer 7 dagen gratis",
+  "hero": {
+    "eyebrow": "Bij perifere aangezichtsverlamming",
+    "title": "Eén kant van uw gezicht beweegt niet meer. <em>Dit kunt u nu doen.</em>",
+    "lead": "Een gestructureerd dagelijks programma, ontwikkeld door specialisten in revalidatie van het gezicht — tapen, oefeningen en oogzorg afgestemd op de fase waarin uw herstel werkelijk zit. Met scans die verandering laten zien die u in de spiegel niet ziet.",
+    "howItWorks": "Zo werkt het",
+    "reassure": {
+      "noCard": "7 dagen geen betaalkaart nodig",
+      "noInstall": "Niets te installeren",
+      "cancel": "Opzeggen in twee klikken",
+      "languages": "{count, number} talen"
+    },
+    "art": {
+      "stage": "Fase {n} · {name}",
+      "week": "Week {n}",
+      "baseline": "Nulmeting · {date}",
+      "latest": "Laatste · {date}",
+      "baselineAlt": "Gezichtsscan bij de nulmeting met asymmetrie van het gezicht",
+      "latestAlt": "Laatste gezichtsscan met verbeterde symmetrie",
+      "score": "Symmetriescore <b>{from} → {to}</b>",
+      "change": "{delta} in {weeks, plural, one {# week} other {# weken}}"
+    }
+  },
+  "cred": {
+    "people": "<b>{count, number}+</b>mensen in herstel",
+    "clinician": "<b>Onder leiding van behandelaars</b>protocollen en consulten",
+    "gdpr": "<b>AVG</b>servers in de EU, scananalyse op uw apparaat",
+    "languages": "<b>{count, number}</b>talen",
+    "reviews": "uit {count, number} beoordelingen"
+  },
+  "problem": {
+    "eyebrow": "Waarom we dit hebben gemaakt",
+    "title": "De meeste mensen gaan naar huis met een folder",
+    "lead": "Een gekopieerd velletje oefeningen, geen idee welke deze week voor u gelden, geen manier om te zien of iets werkt, en vier maanden wachten tot de volgende afspraak. In dat gat zit Palsya.",
+    "rightWork": {
+      "title": "Het juiste werk voor deze week",
+      "body": "Een grote glimlach forceren helpt in week zes en remt u af in week twee. Uw programma is afgestemd op de fase waarin uw herstel zit, en verandert mee als die verandert."
+    },
+    "proof": {
+      "title": "Bewijs dat u het zich niet inbeeldt",
+      "body": "Een wekelijkse scan meet de vorm van uw gezicht ten opzichte van uw eigen nulmeting. In de weken waarin het stilstaat — en die komen er — laat dit u zien hoe het echt zit."
+    },
+    "person": {
+      "title": "Iemand die dit eerder heeft gezien",
+      "body": "Videoconsulten met specialisten in revalidatie van het gezicht. De meeste mensen doen een of twee dingen verkeerd; een behandelaar ziet dat meestal in de eerste tien minuten."
+    }
+  },
+  "stages": {
+    "eyebrow": "Het programma",
+    "title": "Vijf fases, want week twee en maand vijf zijn niet hetzelfde probleem",
+    "readGuide": "Lees de volledige gids",
+    "stage": "Fase {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Aan de slag",
+    "title": "In een kwartier ingesteld",
+    "assessment": {
+      "title": "Vul de intake in",
+      "body": "Zestien vragen over wat beweegt, wat niet, en hoe het dagelijks leven nu gaat. We controleren ook of we bij u passen — en zeggen het u eerlijk als dat niet zo is."
+    },
+    "plan": {
+      "title": "Krijg uw fase en uw plan",
+      "body": "U wordt ingedeeld in een van vijf fases, met de redenering erbij. Zijn uw antwoorden ongebruikelijk, dan beoordeelt een behandelaar de indeling voordat u begint."
+    },
+    "daily": {
+      "title": "Tien tot twintig minuten per dag",
+      "body": "Tapen, oefeningen en de dagelijkse routine, stap voor stap begeleid. Eén scan per week. Meer vragen we niet."
+    }
+  },
+  "ethics": {
+    "eyebrow": "Wat we niet doen",
+    "title": "Een korte lijst, en we menen het",
+    "predictions": {
+      "title": "Geen voorspellingen",
+      "body": "We zullen u nooit vertellen wanneer uw gezicht herstelt of hoeveel er terugkomt. Niemand kan dat uit uw gegevens afleiden, en een getal horen dat u vervolgens niet haalt, doet echt kwaad."
+    },
+    "guilt": {
+      "title": "Geen schuldgevoel over gemiste dagen",
+      "body": "Mist u een week, dan wordt er niets teruggezet, gaat er niets verloren en vertelt geen enkele melding u dat u iets hebt verpest. U opent de app en doet de sessie van vandaag."
+    },
+    "badges": {
+      "title": "Geen badges, punten of reeksen",
+      "body": "U herstelt van zenuwletsel, u speelt geen spel. Voortgang ziet u als metingen en als dingen die u weer kunt."
+    },
+    "comparing": {
+      "title": "Geen vergelijking met andere patiënten",
+      "body": "Uw scans worden vergeleken met uw eigen nulmeting en met niets anders. Een ranglijst van gezichten zou grotesk zijn."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Van mensen die het gebruiken",
+    "title": "Geverifieerde beoordelingen",
+    "quote": "‘{quote}’",
+    "verified": "Geverifieerde gebruiker",
+    "readStories": "Lees de volledige herstelverhalen"
+  },
+  "pricing": {
+    "eyebrow": "Prijzen",
+    "title": "Drie maanden, want zo lang duurt verandering",
+    "lead": "Zeven dagen gratis. Er wordt pas op dag 8 iets afgeschreven, en er is niets vooraf voor u aangevinkt.",
+    "mostChosen": "Meest gekozen",
+    "period": "/ {months, plural, one {# maand} other {# maanden}}",
+    "perDay": "{price} per dag",
+    "cta": "Probeer 7 dagen gratis",
+    "after": "Na uw eerste drie maanden: {extension} per maand, of stoppen. Extra consulten {consult}. Doorverwezen door een behandelaar? Dan krijgt u {discount, number, percent} korting — vul bij het afrekenen diens code in."
+  },
+  "guides": {
+    "eyebrow": "Gratis te lezen, zonder account",
+    "title": "De gidsen die we zelf graag hadden gekregen",
+    "all": "Alle zeven gidsen",
+    "read": "{minutes, plural, one {# min lezen} other {# min lezen}} · gecontroleerd {date}"
+  },
+  "finalCta": {
+    "title": "Begin vandaag, beslis op dag zeven",
+    "lead": "Geen betaalkaart, niets afgeschreven vóór dag 8, en als u stopt, neemt u uw gegevens mee."
+  },
+  "face": {
+    "defaultLabel": "Schematische tekening van een gezicht"
+  }
+}

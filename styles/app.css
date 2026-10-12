@@ -1,0 +1,85 @@
+/* ============================================================
+   Palsya — in-app dashboard ("Today")
+   Ported from ../../assets/css/app.css and ../../assets/css/viz.css
+   ============================================================ */
+
+.page { padding: var(--s-7); max-width: 1180px; width: 100%; }
+@media (max-width: 1000px) {
+  .page { padding: var(--s-5); }
+}
+
+/* ---------------- Dashboard greeting ---------------- */
+.greet { margin-bottom: var(--s-6); }
+.greet h2 {
+  font-family: var(--font-display); font-weight: 500;
+  font-size: var(--t-3xl); letter-spacing: -.02em;
+}
+.greet p { font-size: var(--t-base); color: var(--ink-2); margin-top: 6px; }
+
+/* ---------------- Today's session card ---------------- */
+.session-card {
+  background: var(--canvas);
+  border: 1.5px solid var(--brand-tint-2);
+  border-radius: var(--r-xl);
+  box-shadow: var(--sh-2);
+  overflow: hidden;
+}
+.session-card.is-done { border-color: var(--ok-tint); }
+.session-top {
+  padding: var(--s-6) var(--s-6) var(--s-5);
+  background: linear-gradient(180deg, var(--brand-tint) 0%, rgba(230, 245, 243, 0) 100%);
+}
+.session-card.is-done .session-top { background: linear-gradient(180deg, var(--ok-tint) 0%, rgba(230, 246, 238, 0) 100%); }
+.session-title { font-family: var(--font-display); font-weight: 500; font-size: var(--t-2xl); letter-spacing: -.018em; }
+.session-parts { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-4); }
+.spart {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 6px 12px; background: var(--canvas); border: 1px solid var(--line);
+  border-radius: var(--r-full); font-size: var(--t-sm); color: var(--ink-2);
+}
+.spart svg { color: var(--brand); flex: none; }
+.spart b { color: var(--ink); font-weight: 600; }
+.spart.done { background: var(--ok-tint); border-color: #cbe9d9; color: var(--ok-ink); }
+.spart.done svg { color: var(--ok); }
+.session-bot { padding: var(--s-5) var(--s-6); border-top: 1px solid var(--line-soft); display: flex; align-items: center; gap: var(--s-4); flex-wrap: wrap; }
+
+/* ---------------- Phase band ---------------- */
+.phase-band { display: flex; gap: 4px; }
+.pb-seg {
+  flex: 1; padding: 10px 8px 9px; border-radius: var(--r-sm);
+  background: var(--surface-2); text-align: center;
+  border: 1px solid transparent;
+  transition: all .25s var(--ease);
+  min-width: 0;
+}
+.pb-seg .pb-n { font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-4); }
+.pb-seg .pb-l { font-size: var(--t-xs); color: var(--ink-4); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pb-seg.past { background: color-mix(in srgb, var(--pc) 14%, #fff); }
+.pb-seg.past .pb-n, .pb-seg.past .pb-l { color: color-mix(in srgb, var(--pc) 70%, #4a5a56); }
+.pb-seg.now {
+  background: color-mix(in srgb, var(--pc) 16%, #fff);
+  border-color: var(--pc); flex: 1.7;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--pc) 22%, transparent);
+}
+.pb-seg.now .pb-n { color: var(--pc); font-size: 11px; }
+.pb-seg.now .pb-l { color: var(--ink); font-weight: 600; font-size: var(--t-sm); }
+@supports not (background: color-mix(in srgb, red 10%, white)) {
+  .pb-seg.past, .pb-seg.now { background: var(--surface-2); }
+}
+
+/* ---------------- Symmetry score ---------------- */
+.score-n {
+  font-family: var(--font-display); font-size: 5rem; font-weight: 600;
+  color: var(--ink); line-height: 1; letter-spacing: -.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- 21-day activity strip ---------------- */
+.pat { display: flex; gap: 4px; flex-wrap: wrap; }
+.pat-d {
+  width: 13px; height: 13px; border-radius: 4px; flex: none;
+  background: var(--surface-2); border: 1px solid var(--line);
+}
+.pat-d.pat-full { background: var(--brand); border-color: var(--brand); }
+.pat-d.pat-part { background: var(--brand-tint-2); border-color: var(--brand-tint-2); }
+.pat-d.pat-none { background: var(--surface); }

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Vandag — Palsya",
+    "description": "U daaglikse sessie, waar u in u herstel is, en wat die moeite werd is om in hierdie fase te lees."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Goeiemôre",
+        "afternoon": "Goeiemiddag",
+        "evening": "Goeienaand",
+        "night": "Goeienag"
+      },
+      "named": {
+        "morning": "Goeiemôre, {name}",
+        "afternoon": "Goeiemiddag, {name}",
+        "evening": "Goeienaand, {name}",
+        "night": "Goeienag, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# dag} other {# dae}} in fase {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Fase {stage} · {name}",
+    "title": "Vandag se sessie",
+    "allDone": "Al drie dele is vir vandag aangeteken.",
+    "about": "Sowat {minutes} minute. U kan dit oor die dag versprei.",
+    "partMinutes": "{minutes} min.",
+    "exercisesCount": "{count, plural, one {# oefening} other {# oefeninge}}",
+    "dailyRoutine": "Daaglikse roetine",
+    "review": "Hersien vandag se sessie",
+    "continue": "Gaan voort met sessie",
+    "start": "Begin sessie",
+    "order": "Kleefband, oefeninge, dan die daaglikse roetine"
+  },
+  "phaseBand": {
+    "title": "Waar u is",
+    "fullProgress": "Volle vordering",
+    "summary": "{short} {days, plural, one {# dag} other {# dae}} in hierdie fase.",
+    "patternTitle": "Sessies oor die afgelope drie weke",
+    "patternLabel": "Sessies oor die afgelope {days} dae",
+    "state": {
+      "full": "Voltooi",
+      "part": "Gedeeltelik gedoen",
+      "none": "Nie aangeteken nie"
+    },
+    "legend": "Gevul beteken voltooi, lig beteken gedeeltelik gedoen, leeg beteken nie aangeteken nie. Hier is geen reeks nie en niks word teruggestel nie."
+  },
+  "score": {
+    "title": "Simmetrietelling",
+    "emptyTitle": "Nog geen basislyn nie",
+    "emptyBody": "Twee minute nou spaar u later raaiwerk.",
+    "cta": "Doen u basislynskandering"
+  },
+  "clinician": {
+    "title": "U klinikus",
+    "allConsultations": "Alle konsultasies",
+    "available": "U het {count, plural, one {# konsultasie} other {# konsultasies}} beskikbaar op u plan.",
+    "add": "Voeg 'n konsultasie by"
+  },
+  "library": {
+    "title": "Die moeite werd om nou te lees",
+    "link": "Biblioteek",
+    "readTime": "{minutes} min. leestyd",
+    "logNote": "Teken iets aan wat u opgemerk het",
+    "logHint": "Funksie verander dikwels voordat die geometrie verander. Wat u opmerk, is ook data."
+  },
+  "backToDashboard": "Terug na paneelbord",
+  "progress": {
+    "meta": {
+      "title": "U vordering — Palsya",
+      "description": "'n Rekord van u aangetekende sessies en hoe u fase mettertyd verander het."
+    },
+    "title": "U vordering",
+    "intro": "'n Rekord van u aangetekende sessies en hoe u fase mettertyd verander het.",
+    "stageHistory": "Fasegeskiedenis",
+    "noPhase": "Nog geen fase is toegeken nie.",
+    "stageBadge": "Fase {stage} · {name}",
+    "sessionLog": "Sessielogboek",
+    "noSessions": "Nog niks aangeteken nie — u eerste sessie sal hier verskyn.",
+    "columns": {
+      "date": "Datum",
+      "status": "Stand",
+      "note": "Nota"
+    },
+    "status": {
+      "full": "Voltooi",
+      "part": "Gedeeltelik gedoen",
+      "none": "Nie aangeteken nie"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Vandag se sessie — Palsya",
+      "description": "Kleefband, oefeninge, dan die daaglikse roetine vir u huidige fase."
+    },
+    "title": "Vandag se sessie — Fase {stage} · {name}",
+    "intro": "Kleefband, oefeninge, dan die daaglikse roetine. Doen dit in een sitting of versprei dit oor die dag.",
+    "doneToday": "Vandag gedoen",
+    "markNotDone": "Merk as nie gedoen nie",
+    "taping": {
+      "title": "Kleefband",
+      "none": "Geen tegniek vir hierdie fase toegeken nie",
+      "goal": "Doel",
+      "tension": "Spanning",
+      "wear": "Dra",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Merk kleefband as gedoen"
+    },
+    "exercises": {
+      "title": "Oefeninge",
+      "progress": "{done} van {total} vandag gedoen",
+      "dose": "{reps} × {hold} s hou"
+    },
+    "routine": {
+      "title": "Daaglikse roetine",
+      "count": "{count, plural, one {# item} other {# items}} vir hierdie fase",
+      "markDone": "Merk roetine as gedoen"
+    },
+    "note": {
+      "title": "Het u iets opgemerk?",
+      "hint": "Opsioneel. Aangeteken teen vandag, sigbaar vir u klinikus as u dit deel.",
+      "placeholder": "bv. Uit 'n glas gedrink sonder om my mondhoek vas te hou."
+    }
+  }
+}

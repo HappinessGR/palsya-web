@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Begeleid herstel bij aangezichtsverlamming."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Taal",
+    "change": "Taal: {language}. Taal wijzigen"
+  },
+  "nav": {
+    "main": "Hoofdmenu",
+    "menu": "Menu",
+    "closeMenu": "Menu sluiten",
+    "home": "Palsya-startpagina",
+    "howItWorks": "Hoe het werkt",
+    "guides": "Gidsen",
+    "stories": "Verhalen",
+    "pricing": "Prijzen",
+    "about": "Over ons",
+    "logIn": "Inloggen",
+    "startTrial": "Probeer 7 dagen gratis",
+    "myDashboard": "Mijn dashboard",
+    "logOut": "Uitloggen",
+    "signedInAs": "Ingelogd als {name}"
+  },
+  "footer": {
+    "tagline": "Begeleide revalidatie bij perifere aangezichtsverlamming. Ontwikkeld en begeleid door behandelaars die dit werk ook in de praktijk doen.",
+    "location": "Lissabon en Amsterdam · Opgericht in {year}",
+    "product": "Product",
+    "guides": "Gidsen",
+    "company": "Bedrijf",
+    "links": {
+      "howItWorks": "Hoe het werkt",
+      "pricing": "Prijzen",
+      "stories": "Herstelverhalen",
+      "startFree": "Gratis beginnen",
+      "signIn": "Inloggen",
+      "about": "Over ons",
+      "team": "Klinisch team",
+      "contact": "Contact en ondersteuning",
+      "privacy": "Privacyverklaring",
+      "terms": "Voorwaarden",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Medische disclaimer.",
+    "copyright": "© {year} Palsya Health, Lda. Alle rechten voorbehouden.",
+    "trust": {
+      "gdpr": "AVG-conform",
+      "eu": "Servers in de EU",
+      "languages": "{count} talen",
+      "stripe": "Betalingen via Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya is een programma ter ondersteuning van revalidatie. Het stelt geen diagnose en vervangt geen medische zorg. Laat altijd eerst een arts een diagnose stellen voordat u begint, en neem bij oogpijn, roodheid of veranderingen in uw zicht dezelfde dag contact op met een arts.",
+  "actions": {
+    "back": "Terug",
+    "continue": "Doorgaan",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "save": "Opslaan",
+    "retry": "Opnieuw proberen",
+    "signOut": "Uitloggen",
+    "loading": "Laden…"
+  }
+}

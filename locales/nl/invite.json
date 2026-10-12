@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Uw uitnodiging accepteren — Palsya",
+    "description": "Stel uw naam en wachtwoord in om lid te worden van Palsya."
+  },
+  "loading": "Laden…",
+  "title": "Uw uitnodiging accepteren",
+  "lead": "Uw e-mailadres en rol zijn ingesteld door degene die u heeft uitgenodigd. Kies uw naam en een wachtwoord om af te ronden.",
+  "submit": "Mijn account aanmaken",
+  "side": {
+    "title": "Welkom bij het Palsya-team",
+    "points": {
+      "role": "Uw toegang wordt ingesteld door een beheerder — u hoeft niets te kiezen",
+      "password": "Gebruik een sterk wachtwoord: u gaat werken met patiëntgegevens"
+    }
+  },
+  "missing": {
+    "title": "Deze uitnodigingslink is onvolledig",
+    "body": "Open de link uit uw uitnodigingsmail opnieuw, of vraag de beheerder die u heeft uitgenodigd om een nieuwe te sturen.",
+    "signIn": "Naar inloggen"
+  }
+}

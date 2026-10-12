@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Herstelverhalen — Palsya",
+    "description": "Echte herstelverhalen van Palsya-gebruikers, inclusief de periodes van stilstand en de tegenslagen, plus beoordelingen, aanbevelingen van behandelaars en pers."
+  },
+  "hero": {
+    "eyebrow": "Ervaringen, eerlijk gelabeld",
+    "title": "Echt herstel, inclusief de moeilijke delen",
+    "lead": "Elk verhaal hier komt van een echte gebruiker die daar toestemming voor gaf, met op hun verzoek ingekorte namen. We hebben de periodes van stilstand, de tegenslagen en de uitkomsten die niet tot volledig herstel leidden, er niet uit gehaald — juist die verhalen hebben mensen nodig."
+  },
+  "quoted": "‘{text}’",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · begonnen in week {week, number} · {months, plural, one {# maand bezig} other {# maanden bezig}}"
+  },
+  "reviews": {
+    "title": "Beoordelingen",
+    "lead": "Verzameld in de app bij gebruikers die minstens vier weken hebben afgerond. We publiceren ook de lage.",
+    "stars": "{n, number} van de {max, number} sterren",
+    "verified": "Geverifieerde gebruiker"
+  },
+  "clinicians": {
+    "title": "Van behandelaars",
+    "lead": "Onafhankelijke behandelaars die patiënten naar ons doorverwijzen. Geen van hen wordt hiervoor betaald.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Pers en publicaties",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Warschau",
+      "dx": "Bell's parese",
+      "summary": "Van een volledige verlamming rechts tot normaal eten en praten, met nog lichte synkinesie.",
+      "body": "Marta werd op een dinsdag wakker en kon haar rechteroog niet sluiten. Binnen 48 uur begon ze met corticosteroïden. In week twee startte ze met Palsya, in fase 1, en elf dagen lang deed ze bijna niets anders dan haar oog beschermen en licht masseren — volgens haar het zwaarste deel van het hele programma. De eerste trilling in haar wang kwam op dag 19. Rond week zeven ontstond synkinesie, wat ze erger vond dan de oorspronkelijke verlamming. Coördinatietraining in fase 3 en 4 verminderde die flink, maar niet helemaal. Na vijf maanden wordt haar oog iets kleiner als ze breed lacht, en verder functioneert alles volledig.",
+      "quote": "De stilte in het begin voelde als opgeven. Dat was het niet. Nu begrijp ik dat, toen niet."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Bell's parese",
+      "summary": "Een trage start, negen weken stilstand, en daarna gestage verandering.",
+      "body": "Tomás kwam laat bij Palsya, in week zes, zonder enige beweging en met het advies om af te wachten. Zijn eerste acht scans veranderden minder dan vier punten, wat binnen de meetmarge valt en dus eigenlijk helemaal geen verandering is. Week zeven tot en met vijftien beschrijft hij als het moment waarop hij niet meer geloofde dat er iets zou veranderen. Zijn behandelaar hield hem die hele periode in fase 2 in plaats van hem door te laten gaan, omdat een programma dat vooruitloopt op de functie precies de manier is waarop compensaties ontstaan. In week zestien werd de beweging duidelijk bewust. In maand zeven was zijn symmetriescore tweeëntwintig punten gestegen ten opzichte van de nulmeting.",
+      "quote": "Negen weken vlakke lijnen. Mijn fysiotherapeut wilde me niet laten doorgaan en ze had gelijk, maar ik heb het haar een maand lang kwalijk genomen."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Na een operatie",
+      "summary": "Letsel van de aangezichtszenuw na een operatie aan een brughoektumor (akoestisch neurinoom), met gedeeltelijk en ongelijk herstel.",
+      "body": "Sannes verlamming ontstond na een operatie, waardoor ze in een andere categorie valt dan Bell's parese: het herstelpatroon was minder voorspelbaar en het traject langer. Ze gebruikte het hele traject het pakket met zes consulten en bleef negen maanden bij dezelfde behandelaar. Haar mond herstelde grotendeels, haar oog gedeeltelijk en haar voorhoofd nauwelijks — een ongelijk patroon dat ze naar eigen zeggen makkelijker kon accepteren toen iemand uitlegde waarom dat gebeurt, in plaats van het als een tekortkoming te behandelen. Ze gaat door in fase 5 met een korte onderhoudsroutine en een scan om de zes weken.",
+      "quote": "Ik ben opgehouden mezelf te meten aan het gezicht dat ik vroeger had. Dat was geen nederlaag. Daardoor kon ik juist verder."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "Wat het meest hielp, was dat ik minder moest doen. Ik had vijf weken lang twee keer per dag mijn glimlach zo hard mogelijk geforceerd. Mijn fysiotherapeut zag het bij het tweede gesprek binnen een minuut.",
+      "ctx": "Bell's parese · Krakau · begonnen in week 3"
+    },
+    "aisling": {
+      "quote": "Ik zag de verandering in de fototijdlijn eerder dan in de spiegel. Dat betekende meer dan ik had verwacht, in de weken waarin er niets leek te gebeuren.",
+      "ctx": "Bell's parese · Cork · begonnen in week 2"
+    },
+    "dieter": {
+      "quote": "Ramsay Hunt, dus een langzamere weg dan bij de meesten. Wat ik waardeerde, was dat niemand deed alsof het anders was of me een tijdlijn beloofde die ze niet konden weten.",
+      "ctx": "Syndroom van Ramsay Hunt · Leipzig · begonnen in week 6"
+    },
+    "rosa": {
+      "quote": "Ik ben 71 en niet handig met apps. Het is één scherm met één knop. Mijn dochter heeft het ingesteld en sinds de tweede dag gebruik ik het zelf.",
+      "ctx": "Bell's parese · Valencia · begonnen in week 4"
+    },
+    "youssef": {
+      "quote": "Na zes maanden is mijn gezicht niet meer het gezicht dat ik had. Maar ik kan uit een glas drinken, ik kan in een restaurant eten en ik ga foto's niet meer uit de weg. Dat was het eigenlijke doel.",
+      "ctx": "Letsel van de aangezichtszenuw na een operatie · Lyon"
+    },
+    "lena": {
+      "quote": "De instructies voor oogzorg waren nuttiger dan alles wat ik in het ziekenhuis kreeg, waar ik een folder meekreeg en naar huis werd gestuurd. Mijn hoornvlies is in orde, en ik denk dat het daardoor komt.",
+      "ctx": "Bell's parese · Malmö · begonnen in week 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "KNO-arts",
+      "where": "Wenen",
+      "quote": "Wat hier bijzonder is, is de terughoudendheid. Het programma belooft geen herstel, zet patiënten niet tegen elkaar af en is duidelijk over waar het bewijs mager is. Ik verwijs patiënten ernaar door en ik lees de voortgangsrapporten die ze me sturen."
+    },
+    "aubert": {
+      "role": "Neurorevalidatie, academisch ziekenhuis",
+      "where": "Lille",
+      "quote": "Het afstemmen op de fase is klinisch het belangrijkste onderdeel. Elke patiënt hetzelfde oefenblad geven, ongeacht of er synkinesie is, is gangbaar maar geen goede praktijk. Dit doet het beter."
+    },
+    "solberg": {
+      "role": "Gespecialiseerd fysiotherapeut aangezicht",
+      "where": "Oslo",
+      "quote": "Ik gebruik de scantijdlijn in mijn eigen behandelsessies. Een patiënt objectieve verandering kunnen laten zien tijdens negen weken stilstand, doet iets wat mijn geruststelling alleen niet doet."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "De revalidatie-apps die herstel weigeren tot een spel te maken",
+      "kind": "Achtergrondartikel"
+    },
+    "jdr": {
+      "headline": "Neuromusculaire hertraining van het gezicht op afstand: een observationeel cohortonderzoek bij 1.204 gebruikers",
+      "kind": "Wetenschappelijk getoetst"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Interview"
+    },
+    "bpa": {
+      "headline": "Beoordeelde bron: Palsya",
+      "kind": "Patiëntenorganisatie"
+    }
+  }
+}

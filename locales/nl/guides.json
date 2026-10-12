@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Gidsen — Palsya",
+    "description": "Zeven gratis gidsen over perifere aangezichtsverlamming, geschreven door ons klinische team, gecontroleerd door een tweede behandelaar en voorzien van een datum."
+  },
+  "hero": {
+    "eyebrow": "Kennisbank",
+    "title": "Zeven gidsen, gratis, zonder account",
+    "lead": "Geschreven door ons klinische team, gecontroleerd door een tweede behandelaar en voorzien van een datum, zodat u weet hoe actueel ze zijn. Waar het bewijs mager is, zeggen we dat."
+  },
+  "byline": "{minutes, plural, one {# min lezen} other {# min lezen}} · {author} · gecontroleerd {date}",
+  "safety": "<b>Is uw oog pijnlijk of rood, of is uw zicht veranderd? Ga dan vandaag nog naar een arts.</b> Schade aan het hoornvlies doordat het oog niet sluit, is de enige complicatie van aangezichtsverlamming die blijvende schade kan veroorzaken, en ze is te behandelen. Dat is dringender dan alles op deze pagina.",
+  "articles": {
+    "what-is-pfp": {
+      "title": "Wat is perifere aangezichtsverlamming?",
+      "blurb": "Wat er met de zenuw is gebeurd, waarom één kant van het gezicht niet meer beweegt, en wat dat wel en niet betekent."
+    },
+    "stages-of-recovery": {
+      "title": "De fases van herstel",
+      "blurb": "Vijf fases, wat het lichaam in elke fase doet, en waarom het programma verandert naarmate u verder komt."
+    },
+    "facial-taping-guide": {
+      "title": "Tapen van het gezicht: een praktische gids",
+      "blurb": "Wat de tape wel en niet doet, hoe u die veilig aanbrengt en wanneer u die weer verwijdert."
+    },
+    "facial-exercises-guide": {
+      "title": "Gezichtsoefeningen: hoe u ze goed doet",
+      "blurb": "Waarom klein en nauwkeurig beter is dan groot en krachtig, en welke fouten het herstel moeilijker maken."
+    },
+    "daily-routine": {
+      "title": "Een dagelijkse routine die u volhoudt",
+      "blurb": "Oogzorg, eten, slapen, en een programma inpassen in een leven dat al bestaat."
+    },
+    "research-evidence": {
+      "title": "Onderzoek en bewijs",
+      "blurb": "Wat de literatuur ondersteunt, wat onzeker is, en waar onze eigen cijfers vandaan komen."
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "blurb": "Wie in aanmerking komt, tijdlijnen, kosten, gegevens en de vragen die mensen stellen voordat ze zich aanmelden."
+    }
+  },
+  "faq": {
+    "gettingStarted": {
+      "title": "Aan de slag",
+      "items": {
+        "rightForMe": {
+          "q": "Is Palsya iets voor mij?",
+          "a": "Palsya is gemaakt voor mensen met een perifere aangezichtsverlamming — Bell's parese, het syndroom van Ramsay Hunt, en zenuwletsel van het aangezicht na een operatie of ongeval — bij wie de klachten 5 tot 90 dagen geleden begonnen. Begonnen de klachten minder dan 5 dagen geleden, dan hoort u eerst medisch te worden beoordeeld: corticosteroïden die vroeg worden gegeven, maken een meetbaar verschil, en dat tijdvenster is belangrijker dan beginnen met revalidatie. Is het langer dan 90 dagen geleden, dan kan een gestructureerd programma nog steeds helpen, maar bespreek het juiste startpunt met een behandelaar. Onze intake vertelt u eerlijk als we niet bij u passen."
+        },
+        "diagnosis": {
+          "q": "Heb ik eerst een diagnose nodig?",
+          "a": "Ja. Palsya is een revalidatieprogramma, geen diagnostische dienst. Zwakte in het gezicht kan oorzaken hebben die medisch onderzoek vragen, en sommige zijn urgent. Ga eerst naar een arts en kom met een diagnose bij ons."
+        },
+        "install": {
+          "q": "Moet ik iets installeren?",
+          "a": "Nee. Palsya werkt in uw browser op een telefoon, tablet of computer. Voor de scans moet u toegang tot de camera toestaan, en u hebt een redelijk stabiele internetverbinding nodig."
+        },
+        "technology": {
+          "q": "Wat als ik niet zo handig ben met technologie?",
+          "a": "De dagelijkse sessie is één scherm met één knop. De scans worden stap voor stap begeleid met eenvoudige instructies. Komt u er niet uit, dan helpt support u in uw eigen taal en kan u er ook telefonisch doorheen loodsen."
+        }
+      }
+    },
+    "programme": {
+      "title": "Het programma",
+      "items": {
+        "timePerDay": {
+          "q": "Hoeveel tijd kost het per dag?",
+          "a": "Tussen de 10 en 20 minuten, afhankelijk van uw fase, meestal verdeeld over twee kortere sessies. Fase 1 is het kortst, omdat die vooral uit bescherming bestaat. Fase 3 is het langst, omdat coördinatietraining rust tussen de herhalingen nodig heeft."
+        },
+        "missDays": {
+          "q": "Wat als ik dagen oversla?",
+          "a": "Dan gebeurt er niets. Uw programma begint niet opnieuw, er gaat niets verloren en we gaan u geen schuldgevoel aanpraten. Open de app en doe de sessie van vandaag. Als u vaker dagen overslaat, kan uw behandelaar ernaar vragen — meestal omdat het programma moet worden aangepast, niet u."
+        },
+        "physio": {
+          "q": "Kan ik dit combineren met fysiotherapie in de praktijk?",
+          "a": "Ja, en veel mensen doen dat. Vertel uw therapeut dat u Palsya gebruikt en deel uw voortgangsrapporten. Als hun advies afwijkt van het onze, volg dan het hunne — zij kunnen u zien."
+        },
+        "recovery": {
+          "q": "Herstel ik zeker?",
+          "a": "Die vraag beantwoorden we niet, omdat niemand dat eerlijk kan. De meeste mensen met Bell's parese herstellen goed. Een minderheid houdt blijvende asymmetrie. We voorspellen niet bij welke groep u hoort, en wees op uw hoede voor iedereen die dat wel doet."
+        }
+      }
+    },
+    "scans": {
+      "title": "Scans en metingen",
+      "items": {
+        "howScan": {
+          "q": "Hoe werkt de scan?",
+          "a": "U plaatst uw gezicht in een omlijning en volgt vier aanwijzingen: in rust, wenkbrauwen optrekken, zachte glimlach, oog sluiten. Er worden herkenningspunten in uw gezicht gedetecteerd, en de vorm van uw aangedane kant wordt vergeleken met het spiegelbeeld van de gezonde kant. Het resultaat is een symmetriescore van 0 tot 100, ten opzichte van uw eigen nulmeting."
+        },
+        "photos": {
+          "q": "Verlaten mijn foto's mijn apparaat?",
+          "a": "De herkenningspunten worden op uw eigen apparaat gedetecteerd — de beelden zelf worden nergens heen gestuurd voor verwerking. Uw foto's worden alleen bewaard als u daar toestemming voor geeft, en alleen zodat u uw eigen tijdlijn kunt zien. U kunt elke foto, of alle foto's, op elk moment verwijderen."
+        },
+        "scoreMeaning": {
+          "q": "Wat betekent de score eigenlijk?",
+          "a": "Hij meet geometrische symmetrie, en verder niets. Het is geen klinische ernstgraad, hij is niet om te rekenen naar een House-Brackmann-score en het is geen herstelpercentage. Zijn enige echte taak is u vandaag vergelijken met u vorige maand. De meetvariatie is ongeveer ±2,5 punten, dus kleinere veranderingen beschouwen we als ruis."
+        },
+        "scoreDown": {
+          "q": "Mijn score is gedaald. Wat betekent dat?",
+          "a": "Meestal: het licht, de hoek van uw hoofd, het tijdstip of vermoeidheid. Soms: een echt zwaardere week na ziekte of slecht slapen. Af en toe: iets waar een behandelaar naar moet kijken. Eén lagere scan is geen bewijs van achteruitgang. Twee of drie op rij zijn een gesprek waard, en dat stellen we dan ook voor."
+        }
+      }
+    },
+    "cost": {
+      "title": "Kosten en consulten",
+      "items": {
+        "pricing": {
+          "q": "Hoe werken de prijzen?",
+          "a": "Pakketten van drie maanden: {app} voor alleen de app, {guided} met twee videoconsulten, {supported} met zes. Er is een gratis proefperiode van {trialDays} dagen en er wordt pas op dag {chargeDay} iets afgeschreven. Na drie maanden kunt u per maand verlengen voor {extension}, of stoppen. Extra consulten kosten {consult} per stuk."
+        },
+        "whyThreeMonths": {
+          "q": "Waarom drie maanden en niet per maand?",
+          "a": "Omdat betekenisvolle verandering bij revalidatie van het gezicht zich over maanden voltrekt. Met een abonnement van één maand zou u waarschijnlijk concluderen dat het niet werkt, net voordat het wel gaat werken. Drie maanden is ongeveer de kortste eerlijke verbintenis."
+        },
+        "cancel": {
+          "q": "Kan ik opzeggen?",
+          "a": "Ja, altijd, via uw accountinstellingen, in twee klikken. Geen telefoontje, geen aanbod om u te laten blijven. Zegt u op tijdens de gratis proefperiode, dan betaalt u helemaal niets."
+        },
+        "clinicians": {
+          "q": "Wie zijn de behandelaars in de gesprekken?",
+          "a": "Geregistreerde fysiotherapeuten en artsen met een specifieke opleiding in revalidatie van het gezicht. Hun namen, registraties en talen staan op de pagina van ons klinische team. U kunt zelf kiezen met wie u spreekt."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy",
+      "items": {
+        "dataStored": {
+          "q": "Waar worden mijn gegevens opgeslagen?",
+          "a": "Op servers in de Europese Unie, versleuteld bij opslag en tijdens verzending. We voldoen aan de AVG. Gezichtsbeelden behandelen we als biometrische gegevens uit de bijzondere categorie van artikel 9, en we gaan er ook zo mee om."
+        },
+        "sellData": {
+          "q": "Verkopen jullie mijn gegevens?",
+          "a": "Nee. Niet aan adverteerders, niet aan verzekeraars, niet aan onderzoekers. Gebruik voor onderzoek gebeurt alleen als u daar apart voor kiest, geanonimiseerd en samengevoegd, en weigeren verandert niets aan uw programma."
+        },
+        "exportDelete": {
+          "q": "Kan ik mijn gegevens downloaden of verwijderen?",
+          "a": "Allebei, via uw accountinstellingen. Met exporteren krijgt u uw scans, sessies en rapporten in een overdraagbaar formaat. Verwijderen is definitief en wist uw beelden binnen 30 dagen."
+        }
+      }
+    }
+  },
+  "authorTeam": "Klinisch team van Palsya"
+}

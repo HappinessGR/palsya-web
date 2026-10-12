@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Clinician — Palsya",
+    "description": "The Palsya clinician portal."
+  },
+  "welcome": "Welcome",
+  "welcomeNamed": "Welcome, {name}",
+  "subtitle": "Clinician portal",
+  "patients": {
+    "title": "Your patients",
+    "count": "{count, plural, one {# patient assigned to you} other {# patients assigned to you}}",
+    "emptyTitle": "No patients yet",
+    "emptyBody": "An admin assigns patients to you. They'll appear here once they have been assigned.",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "stage": "Stage",
+      "onset": "Onset date",
+      "lastSession": "Last session"
+    },
+    "noStage": "Not assessed",
+    "none": "—",
+    "open": "Open {name}"
+  },
+  "patient": {
+    "meta": {
+      "title": "Patient — Palsya",
+      "description": "Progress, stage history and notes for one of your patients."
+    },
+    "back": "Back to your patients",
+    "stageBadge": "Stage {stage} · {name}",
+    "noStage": "Not assessed yet",
+    "onset": "Onset: {date}",
+    "noOnset": "Onset date not given",
+    "sessions": {
+      "title": "Session history",
+      "empty": "No sessions logged yet.",
+      "columns": {
+        "date": "Date",
+        "status": "Status",
+        "note": "Patient's note"
+      },
+      "status": {
+        "full": "Complete",
+        "part": "Partial",
+        "none": "Not done"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Stage history",
+      "empty": "No stage assigned yet.",
+      "override": "Changed by a clinician",
+      "overrideReason": "Reason: {reason}",
+      "assessment": "From the assessment",
+      "needsReview": "Needs review"
+    },
+    "notes": {
+      "title": "Notes",
+      "empty": "No notes yet.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Former staff member",
+      "label": "Add a note",
+      "hint": "Notes are part of the patient's record and can't be edited or deleted. Up to {max} characters.",
+      "placeholder": "What did you observe or advise?",
+      "submit": "Save note",
+      "saving": "Saving…",
+      "saved": "Note saved."
+    },
+    "stage": {
+      "title": "Change stage",
+      "intro": "Set the patient's stage when your assessment differs from the programme's. The change is recorded in the stage history.",
+      "label": "New stage",
+      "option": "Stage {stage} · {name}",
+      "reasonLabel": "Reason (optional)",
+      "reasonHint": "Shown in the stage history. Up to {max} characters.",
+      "submit": "Change stage",
+      "saving": "Saving…",
+      "saved": "Stage changed to {stage}."
+    },
+    "errors": {
+      "forbidden": "You can't make changes to this patient.",
+      "not_signed_in": "Your session has ended. Please log in again.",
+      "invalid_note": "Write a note of 1 to 5000 characters.",
+      "invalid_stage": "Choose a stage from 1 to 5.",
+      "invalid_reason": "The reason can be up to 500 characters.",
+      "failed": "Something went wrong. Please try again."
+    }
+  }
+}

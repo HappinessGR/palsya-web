@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Beskerm",
+      "short": "Die senuwee is ontsteek. Die werk is beskerming, nie inspanning nie.",
+      "window": "Gewoonlik dag 1–14 ná aanvang",
+      "body": "Niks wat u in hierdie fase met die spier doen, sal die senuwee vinniger laat herstel nie, en hard druk kan dinge later moeiliker maak. Die program is dus doelbewus rustig: beskerm die oog, hou die weefsel soepel, ondersteun die rusposisie van die gesig, en laat die ontsteking bedaar.",
+      "focus": {
+        "f1": "Oogbeskerming en -bevogtiging",
+        "f2": "Passiewe ondersteuning, geen geforseerde beweging nie",
+        "f3": "Sagte masseer vir bloedsomloop",
+        "f4": "Slaap en rus"
+      },
+      "avoid": {
+        "a1": "Geforseerde bewegings of bewegings met maksimum inspanning",
+        "a2": "Elektriese stimulasie",
+        "a3": "Kougom as \"oefening\"",
+        "a4": "Deur pyn heen druk"
+      },
+      "tapeMode": "Rusondersteuning — lig die middelgesig teen swaartekrag. Geen trek na beweging nie."
+    },
+    "2": {
+      "name": "Aktiveer",
+      "short": "Die eerste seine kom deur. Ons help die brein om hulle te vind.",
+      "window": "Gewoonlik weke 2–6, sodra enige flikkering van beweging verskyn",
+      "body": "'n Flikkering is genoeg om mee te werk. Die doel is nou om die kleinste beweging te vind wat u werklik kan maak en dit akkuraat te herhaal, eerder as om 'n groot beweging swak te maak. Klein en korrek is beter as groot met die verkeerde spiere.",
+      "focus": {
+        "f1": "Die kleinste willekeurige beweging vind",
+        "f2": "Herhalings met min inspanning en groot akkuraatheid",
+        "f3": "Spieëlterugvoer vir rigting",
+        "f4": "Die onaangetaste kant rustig hou"
+      },
+      "avoid": {
+        "a1": "Inspannende forsering, wat die verkeerde spiere inspan",
+        "a2": "Lang stelle — moegheid maak die patroon erger",
+        "a3": "Die twee kante tydens die oefening vergelyk"
+      },
+      "tapeMode": "Help — die kleefband help met die beweging wat u probeer maak, sodat minder inspanning nodig is."
+    },
+    "3": {
+      "name": "Koördinasie",
+      "short": "Daar is beweging. Nou moet dit gaan waarheen u dit stuur.",
+      "window": "Gewoonlik weke 6–16",
+      "body": "In hierdie fase kan die meeste mense beweging maak, maar dit nie isoleer nie — die oog vernou wanneer u glimlag, of die mondhoek trek wanneer u die oog toemaak. Koördinasiewerk leer skeiding. Dit is stadiger en minder bevredigend as kragwerk, en dit is belangriker.",
+      "focus": {
+        "f1": "Oogbeweging van mondbeweging skei",
+        "f2": "Stadige, beheerde omvang deur die middel van die beweging",
+        "f3": "'n Posisie hou eerder as om daarna te ruk",
+        "f4": "Ontspanning tussen herhalings"
+      },
+      "avoid": {
+        "a1": "Vinnige herhalings",
+        "a2": "Die gekoppelde patroon oefen wat u probeer afleer",
+        "a3": "Verby die punt van moegheid werk"
+      },
+      "tapeMode": "Lei — die kleefband gee 'n rigtingwyser en ontmoedig die gekoppelde beweging."
+    },
+    "4": {
+      "name": "Verfyn",
+      "short": "Die gesig werk. Ons is ná beheer met min inspanning.",
+      "window": "Gewoonlik maande 4–9",
+      "body": "Verfyning gaan oor die bewegings wat u gebruik sonder om te dink: praat, eet, gesigsuitdrukkings in 'n gesprek. Die oefeninge kom nader aan die werklike lewe en verder van die spieël af, en die hantering van spanning word net so belangrik soos aktivering.",
+      "focus": {
+        "f1": "Gesigsuitdrukking tydens praat",
+        "f2": "Simmetrie by gespreksinspanning, nie maksimum inspanning nie",
+        "f3": "Styfheid en oormatige spieraktivering losmaak",
+        "f4": "Uithouvermoë deur die dag"
+      },
+      "avoid": {
+        "a1": "Houe met maksimum inspanning",
+        "a2": "Styfheid ignoreer omdat daar beweging is"
+      },
+      "tapeMode": "Af en toe — gebruik vir spesifieke take of moegheid, nie daagliks nie."
+    },
+    "5": {
+      "name": "Onderhou",
+      "short": "Behou wat u opgebou het, en gebruik dit.",
+      "window": "Vanaf ongeveer maand 9",
+      "body": "Herstel plat af, maar keer gewoonlik nie om nie. 'n Korter onderhoudsroetine beskerm omvang en keer dat styfheid terugsluip, met periodieke skanderings sodat enige afwyking vroeg opgemerk word eerder as laat ontdek.",
+      "focus": {
+        "f1": "Kort daaglikse onderhoudsroetine",
+        "f2": "Strek- en loslaatwerk",
+        "f3": "Periodieke skanderings om stabiliteit te bevestig",
+        "f4": "Terugkeer na volle aktiwiteit"
+      },
+      "avoid": {
+        "a1": "Heeltemal ophou en ongemerk omvang verloor"
+      },
+      "tapeMode": "Nie roetine nie. Beskikbaar vir uitputtende dae of spesifieke geleenthede."
+    }
+  },
+  "taping": {
+    "restingSupport": "Rusondersteuning",
+    "movementAssist": "Bewegingshulp",
+    "directionalGuide": "Rigtinggeleiding"
+  }
+}

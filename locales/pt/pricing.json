@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Preços — Palsya",
+    "description": "Sete dias grátis e depois planos de três meses: só a aplicação, ou com duas ou seis consultas por vídeo. Sem contagens decrescentes, cancele em dois cliques."
+  },
+  "hero": {
+    "eyebrow": "Preços",
+    "title": "Sete dias grátis, depois três meses",
+    "lead": "Nada vem pré-selecionado, não há contagem decrescente, e a opção do meio está marcada como a mais escolhida porque é, não para o orientar."
+  },
+  "card": {
+    "mostChosen": "A mais escolhida",
+    "period": "/ {months, plural, one {# mês} other {# meses}}",
+    "perDay": "{price} por dia",
+    "goToDashboard": "Ir para o painel",
+    "subscribe": "Subscrever",
+    "startTrial": "Comece {days, plural, one {# dia} other {# dias}} grátis"
+  },
+  "plans": {
+    "app": {
+      "name": "Só a aplicação",
+      "forWho": "Para quem quer a estrutura e já é acompanhado por um clínico a quem pode fazer perguntas.",
+      "features": {
+        "programme": "Programa guiado completo, todas as cinco fases",
+        "sessions": "Sessões diárias com orientação para a fita adesiva e os exercícios",
+        "scans": "Análises com a câmara e acompanhamento da simetria",
+        "timeline": "Cronologia de fotografias e relatórios de progresso",
+        "knowledge": "Base de conhecimento completa em 7 idiomas",
+        "support": "Apoio por email no prazo de um dia útil"
+      }
+    },
+    "guided": {
+      "name": "Aplicação + 2 consultas",
+      "forWho": "O que a maioria das pessoas escolhe. Duas chamadas costumam chegar para apanhar os erros que importam — tensão da fita, nível de esforço e aparecimento de sincinesia.",
+      "features": {
+        "everything": "Tudo o que inclui Só a aplicação",
+        "consults": "<b>Duas consultas por vídeo de 30 minutos</b> com um especialista em reabilitação facial",
+        "notes": "Notas escritas e um plano após cada chamada",
+        "adjusted": "O seu programa ajustado por um clínico, não só pelo algoritmo",
+        "priority": "Apoio prioritário no prazo de quatro horas úteis"
+      }
+    },
+    "supported": {
+      "name": "Aplicação + 6 consultas",
+      "forWho": "Para casos mais complexos: sincinesia significativa, recuperação após cirurgia, progresso inicial lento, ou quem simplesmente quer contacto regular com uma pessoa.",
+      "features": {
+        "everything": "Tudo o que inclui Aplicação + 2 consultas",
+        "consults": "<b>Seis consultas por vídeo de 30 minutos</b> — aproximadamente de duas em duas semanas",
+        "continuity": "Sempre com o mesmo clínico",
+        "messages": "Conversa por mensagens diretamente com o seu clínico",
+        "scanReviews": "Revisão das análises entre chamadas"
+      }
+    }
+  },
+  "table": {
+    "title": "O que inclui cada plano",
+    "feature": "Funcionalidade",
+    "consultsHeader": "+{count, plural, one {# consulta} other {# consultas}}",
+    "days": "{count, plural, one {# dia} other {# dias}}",
+    "hours": "{count, plural, one {# hora} other {# horas}}",
+    "rows": {
+      "programme": "Programa guiado completo, cinco fases",
+      "guidance": "Orientação diária para fita adesiva e exercícios",
+      "scans": "Análises com a câmara e acompanhamento da simetria",
+      "timeline": "Cronologia de fotografias e comparação",
+      "reports": "Relatórios de progresso com IA",
+      "knowledge": "Base de conhecimento, {count} idiomas",
+      "share": "Partilhe relatórios com o seu próprio clínico",
+      "consults": "Consultas por vídeo",
+      "notes": "Notas escritas após cada chamada",
+      "sameClinician": "Sempre o mesmo clínico",
+      "messages": "Conversa por mensagens com o seu clínico",
+      "scanReviews": "Revisão das análises entre chamadas",
+      "support": "Tempo de resposta do apoio"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "Depois dos primeiros três meses",
+      "body": "Prolongue mês a mês por {price}, ou pare. A maioria das pessoas na Fase 4 ou 5 prolonga dois ou três meses e depois passa para uma rotina curta de manutenção por conta própria."
+    },
+    "consult": {
+      "title": "Consultas adicionais",
+      "body": "{price} cada, em qualquer plano. Marcadas a partir da sua conta, normalmente com disponibilidade em três dias."
+    },
+    "referral": {
+      "title": "Foi encaminhado por um clínico?",
+      "body": "{discount, number, percent} de desconto nos primeiros três meses. Introduza o código de referência dele no pagamento — também lhe permite ver os seus relatórios de progresso, se concordar com isso em separado."
+    },
+    "reducedCost": {
+      "title": "Se o custo for o problema",
+      "body": "Escreva-nos. Reservamos todos os meses algumas vagas a custo reduzido para quem não pode pagar, e não lhe vamos pedir que prove nada além de uma frase sobre a sua situação."
+    }
+  },
+  "faq": {
+    "title": "Perguntas sobre pagamentos",
+    "all": "Todas as perguntas frequentes"
+  }
+}

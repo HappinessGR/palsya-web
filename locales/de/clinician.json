@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Fachkräfte — Palsya",
+    "description": "Das Palsya-Portal für Fachkräfte."
+  },
+  "welcome": "Willkommen",
+  "welcomeNamed": "Willkommen, {name}",
+  "subtitle": "Portal für Fachkräfte",
+  "patients": {
+    "title": "Ihre Patienten",
+    "count": "{count, plural, one {# Patient/in zugewiesen} other {# Patienten zugewiesen}}",
+    "emptyTitle": "Noch keine Patienten",
+    "emptyBody": "Patienten werden Ihnen von einem Admin zugewiesen. Sie erscheinen hier, sobald die Zuweisung erfolgt ist.",
+    "columns": {
+      "name": "Name",
+      "email": "E-Mail",
+      "stage": "Phase",
+      "onset": "Beginn",
+      "lastSession": "Letzte Einheit"
+    },
+    "noStage": "Nicht eingestuft",
+    "none": "—",
+    "open": "{name} öffnen"
+  },
+  "patient": {
+    "meta": {
+      "title": "Patient/in — Palsya",
+      "description": "Fortschritt, Phasenverlauf und Notizen zu einer Ihrer Patientinnen oder einem Ihrer Patienten."
+    },
+    "back": "Zurück zu Ihren Patienten",
+    "stageBadge": "Phase {stage} · {name}",
+    "noStage": "Noch nicht eingestuft",
+    "onset": "Beginn: {date}",
+    "noOnset": "Beginn nicht angegeben",
+    "sessions": {
+      "title": "Verlauf der Einheiten",
+      "empty": "Noch keine Einheiten eingetragen.",
+      "columns": {
+        "date": "Datum",
+        "status": "Status",
+        "note": "Notiz der Patientin/des Patienten"
+      },
+      "status": {
+        "full": "Vollständig",
+        "part": "Teilweise",
+        "none": "Nicht gemacht"
+      },
+      "noNote": "—"
+    },
+    "stageHistory": {
+      "title": "Phasenverlauf",
+      "empty": "Noch keine Phase zugewiesen.",
+      "override": "Von einer Fachkraft geändert",
+      "overrideReason": "Grund: {reason}",
+      "assessment": "Aus der Einstufung",
+      "needsReview": "Prüfung nötig"
+    },
+    "notes": {
+      "title": "Notizen",
+      "empty": "Noch keine Notizen.",
+      "by": "{name} · {date}",
+      "unknownAuthor": "Ehemaliges Teammitglied",
+      "label": "Notiz hinzufügen",
+      "hint": "Notizen sind Teil der Patientenakte und können nicht bearbeitet oder gelöscht werden. Bis zu {max} Zeichen.",
+      "placeholder": "Was haben Sie beobachtet oder empfohlen?",
+      "submit": "Notiz speichern",
+      "saving": "Wird gespeichert …",
+      "saved": "Notiz gespeichert."
+    },
+    "stage": {
+      "title": "Phase ändern",
+      "intro": "Legen Sie die Phase fest, wenn Ihre Einschätzung von der des Programms abweicht. Die Änderung wird im Phasenverlauf festgehalten.",
+      "label": "Neue Phase",
+      "option": "Phase {stage} · {name}",
+      "reasonLabel": "Grund (optional)",
+      "reasonHint": "Wird im Phasenverlauf angezeigt. Bis zu {max} Zeichen.",
+      "submit": "Phase ändern",
+      "saving": "Wird gespeichert …",
+      "saved": "Phase geändert auf {stage}."
+    },
+    "errors": {
+      "forbidden": "Sie können bei dieser Patientin oder diesem Patienten keine Änderungen vornehmen.",
+      "not_signed_in": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+      "invalid_note": "Schreiben Sie eine Notiz mit 1 bis 5000 Zeichen.",
+      "invalid_stage": "Wählen Sie eine Phase von 1 bis 5.",
+      "invalid_reason": "Der Grund darf höchstens 500 Zeichen lang sein.",
+      "failed": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    }
+  }
+}

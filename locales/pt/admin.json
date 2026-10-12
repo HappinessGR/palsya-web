@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Administração — Palsya",
+    "description": "Área de gestão interna da Palsya."
+  },
+  "heading": "Administração",
+  "headingNamed": "Administração — {name}",
+  "subtitle": "Gestão interna",
+  "nav": {
+    "label": "Secções de administração",
+    "overview": "Resumo",
+    "users": "Utilizadores",
+    "invite": "Convidar",
+    "audit": "Registo de auditoria"
+  },
+  "roles": {
+    "patient": "Doente",
+    "clinician": "Clínico",
+    "admin": "Administrador"
+  },
+  "statuses": {
+    "active": "Ativa",
+    "suspended": "Desativada",
+    "pending_verification": "Verificação pendente"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Doentes",
+      "clinicians": "Clínicos",
+      "admins": "Administradores",
+      "unassigned": "Doentes sem clínico",
+      "pendingInvitations": "Convites pendentes"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Gerir",
+      "users": "Utilizadores",
+      "usersBody": "Altere funções, desative contas e atribua doentes a clínicos.",
+      "invite": "Convidar equipa",
+      "inviteBody": "Convide um clínico ou administrador por email e faça a gestão dos convites pendentes.",
+      "audit": "Registo de auditoria",
+      "auditBody": "Veja quem fez o quê, e quando."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Utilizadores — Administração Palsya",
+      "description": "Gerir contas, funções e atribuições de clínicos da Palsya."
+    },
+    "heading": "Utilizadores",
+    "subtitle": "Funções, estado das contas e atribuições de clínicos.",
+    "filter": {
+      "label": "Filtrar por função",
+      "all": "Todos"
+    },
+    "columns": {
+      "name": "Nome",
+      "email": "Email",
+      "role": "Função",
+      "status": "Estado",
+      "created": "Criada em",
+      "clinician": "Clínico atribuído",
+      "actions": "Ações"
+    },
+    "you": "Você",
+    "empty": "Nenhum utilizador corresponde a este filtro.",
+    "notApplicable": "—",
+    "roleSelect": "Função de {name}",
+    "saveRole": "Alterar função",
+    "deactivate": "Desativar",
+    "reactivate": "Reativar",
+    "clinicianSelect": "Clínico de {name}",
+    "unassigned": "Sem clínico",
+    "assign": "Atribuir",
+    "result": {
+      "role_changed": "Função atualizada.",
+      "status_changed": "Estado da conta atualizado.",
+      "assigned": "Atribuição de clínico atualizada."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Convidar equipa — Administração Palsya",
+      "description": "Convide clínicos e administradores para a Palsya."
+    },
+    "heading": "Convidar equipa",
+    "subtitle": "Clínicos e administradores só entram por convite. Os doentes registam-se sozinhos.",
+    "form": {
+      "title": "Novo convite",
+      "email": "Endereço de email",
+      "emailPlaceholder": "nome@exemplo.com",
+      "role": "Função",
+      "language": "Idioma do email",
+      "languageHint": "O email de convite é enviado neste idioma.",
+      "submit": "Enviar convite"
+    },
+    "pending": {
+      "title": "Convites pendentes",
+      "empty": "Não há convites pendentes.",
+      "unavailable": "Não foi possível carregar os convites pendentes. Tente novamente mais tarde.",
+      "email": "Email",
+      "role": "Função",
+      "sent": "Enviado",
+      "revoke": "Revogar",
+      "revokeLabel": "Revogar o convite para {email}"
+    },
+    "result": {
+      "invited": "Convite enviado.",
+      "revoked": "Convite revogado."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Registo de auditoria — Administração Palsya",
+      "description": "Eventos administrativos e de segurança recentes."
+    },
+    "heading": "Registo de auditoria",
+    "subtitle": "Os últimos {count} eventos, dos mais recentes para os mais antigos.",
+    "empty": "Ainda não há nada registado.",
+    "columns": {
+      "when": "Quando",
+      "who": "Quem",
+      "action": "Ação",
+      "target": "Alvo",
+      "details": "Detalhes"
+    },
+    "system": "Sistema / anónimo",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Utilizador",
+      "patient": "Doente",
+      "invitation": "Convite"
+    },
+    "actions": {
+      "role_changed": "Função alterada",
+      "user_invited": "Utilizador convidado",
+      "invitation_revoked": "Convite revogado",
+      "patient_assigned": "Doente atribuído",
+      "user_deactivated": "Utilizador desativado",
+      "user_reactivated": "Utilizador reativado",
+      "patient_stage_changed": "Fase do doente alterada",
+      "clinician_note_added": "Nota do clínico adicionada",
+      "password_reset_requested": "Reposição de palavra-passe pedida",
+      "password_reset_completed": "Reposição de palavra-passe concluída",
+      "user_demoted_self_registered": "Clínico autorregistado despromovido"
+    }
+  },
+  "errors": {
+    "not_signed_in": "A sua sessão terminou. Entre novamente.",
+    "forbidden": "Não tem permissão para fazer isso.",
+    "invalid_input": "O pedido não era válido. Tente novamente.",
+    "not_found": "Esse utilizador ou convite já não existe.",
+    "invalid_role": "Essa função não é permitida aqui.",
+    "invalid_locale": "Escolha um dos idiomas da lista.",
+    "last_admin": "Não pode remover o último administrador.",
+    "cannot_change_self_status": "Não pode desativar nem reativar a sua própria conta.",
+    "not_a_patient": "Essa conta não é de um doente.",
+    "not_a_clinician": "Escolha um clínico ativo.",
+    "invalid_email": "Introduza um endereço de email válido.",
+    "already_exists": "Já existe uma conta ou um convite para esse email.",
+    "invite_failed": "Não foi possível enviar o convite. Tente novamente."
+  }
+}

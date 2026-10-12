@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Beheer — Palsya",
+    "description": "Palsya-backoffice."
+  },
+  "heading": "Beheer",
+  "headingNamed": "Beheer — {name}",
+  "subtitle": "Backoffice",
+  "nav": {
+    "label": "Beheeronderdelen",
+    "overview": "Overzicht",
+    "users": "Gebruikers",
+    "invite": "Uitnodigen",
+    "audit": "Auditlog"
+  },
+  "roles": {
+    "patient": "Patiënt",
+    "clinician": "Behandelaar",
+    "admin": "Beheerder"
+  },
+  "statuses": {
+    "active": "Actief",
+    "suspended": "Gedeactiveerd",
+    "pending_verification": "Wacht op verificatie"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Patiënten",
+      "clinicians": "Behandelaars",
+      "admins": "Beheerders",
+      "unassigned": "Niet-toegewezen patiënten",
+      "pendingInvitations": "Openstaande uitnodigingen"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Beheren",
+      "users": "Gebruikers",
+      "usersBody": "Wijzig rollen, deactiveer accounts en wijs patiënten toe aan behandelaars.",
+      "invite": "Medewerkers uitnodigen",
+      "inviteBody": "Nodig een behandelaar of beheerder uit per e-mail en beheer openstaande uitnodigingen.",
+      "audit": "Auditlog",
+      "auditBody": "Zie wie wat heeft gedaan, en wanneer."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Gebruikers — Palsya-beheer",
+      "description": "Beheer Palsya-accounts, rollen en toewijzingen aan behandelaars."
+    },
+    "heading": "Gebruikers",
+    "subtitle": "Rollen, accountstatus en toewijzingen aan behandelaars.",
+    "filter": {
+      "label": "Filteren op rol",
+      "all": "Alle"
+    },
+    "columns": {
+      "name": "Naam",
+      "email": "E-mail",
+      "role": "Rol",
+      "status": "Status",
+      "created": "Aangemaakt",
+      "clinician": "Toegewezen behandelaar",
+      "actions": "Acties"
+    },
+    "you": "U",
+    "empty": "Geen gebruikers die aan dit filter voldoen.",
+    "notApplicable": "—",
+    "roleSelect": "Rol voor {name}",
+    "saveRole": "Rol wijzigen",
+    "deactivate": "Deactiveren",
+    "reactivate": "Heractiveren",
+    "clinicianSelect": "Behandelaar voor {name}",
+    "unassigned": "Niet toegewezen",
+    "assign": "Toewijzen",
+    "result": {
+      "role_changed": "Rol bijgewerkt.",
+      "status_changed": "Accountstatus bijgewerkt.",
+      "assigned": "Toewijzing aan behandelaar bijgewerkt."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Medewerkers uitnodigen — Palsya-beheer",
+      "description": "Nodig behandelaars en beheerders uit voor Palsya."
+    },
+    "heading": "Medewerkers uitnodigen",
+    "subtitle": "Behandelaars en beheerders komen alleen binnen via een uitnodiging. Patiënten registreren zich zelf.",
+    "form": {
+      "title": "Nieuwe uitnodiging",
+      "email": "E-mailadres",
+      "emailPlaceholder": "naam@voorbeeld.nl",
+      "role": "Rol",
+      "language": "Taal van de e-mail",
+      "languageHint": "De uitnodiging wordt in deze taal verstuurd.",
+      "submit": "Uitnodiging versturen"
+    },
+    "pending": {
+      "title": "Openstaande uitnodigingen",
+      "empty": "Geen openstaande uitnodigingen.",
+      "unavailable": "De openstaande uitnodigingen konden niet worden geladen. Probeer het later opnieuw.",
+      "email": "E-mail",
+      "role": "Rol",
+      "sent": "Verstuurd",
+      "revoke": "Intrekken",
+      "revokeLabel": "Uitnodiging voor {email} intrekken"
+    },
+    "result": {
+      "invited": "Uitnodiging verstuurd.",
+      "revoked": "Uitnodiging ingetrokken."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Auditlog — Palsya-beheer",
+      "description": "Recente beheer- en beveiligingsgebeurtenissen."
+    },
+    "heading": "Auditlog",
+    "subtitle": "De laatste {count} gebeurtenissen, nieuwste eerst.",
+    "empty": "Er is nog niets vastgelegd.",
+    "columns": {
+      "when": "Wanneer",
+      "who": "Wie",
+      "action": "Actie",
+      "target": "Doel",
+      "details": "Details"
+    },
+    "system": "Systeem / anoniem",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Gebruiker",
+      "patient": "Patiënt",
+      "invitation": "Uitnodiging"
+    },
+    "actions": {
+      "role_changed": "Rol gewijzigd",
+      "user_invited": "Gebruiker uitgenodigd",
+      "invitation_revoked": "Uitnodiging ingetrokken",
+      "patient_assigned": "Patiënt toegewezen",
+      "user_deactivated": "Gebruiker gedeactiveerd",
+      "user_reactivated": "Gebruiker geheractiveerd",
+      "patient_stage_changed": "Fase van patiënt gewijzigd",
+      "clinician_note_added": "Notitie van behandelaar toegevoegd",
+      "password_reset_requested": "Wachtwoordherstel aangevraagd",
+      "password_reset_completed": "Wachtwoordherstel voltooid",
+      "user_demoted_self_registered": "Zelf geregistreerde behandelaar teruggezet"
+    }
+  },
+  "errors": {
+    "not_signed_in": "Uw sessie is beëindigd. Log opnieuw in.",
+    "forbidden": "U hebt geen toestemming om dat te doen.",
+    "invalid_input": "Dat verzoek was niet geldig. Probeer het opnieuw.",
+    "not_found": "Die gebruiker of uitnodiging bestaat niet meer.",
+    "invalid_role": "Die rol is hier niet toegestaan.",
+    "invalid_locale": "Kies een van de vermelde talen.",
+    "last_admin": "U kunt de laatste beheerder niet verwijderen.",
+    "cannot_change_self_status": "U kunt uw eigen account niet deactiveren of heractiveren.",
+    "not_a_patient": "Dat account is geen patiënt.",
+    "not_a_clinician": "Kies een actieve behandelaar.",
+    "invalid_email": "Voer een geldig e-mailadres in.",
+    "already_exists": "Er bestaat al een account of uitnodiging voor dat e-mailadres.",
+    "invite_failed": "De uitnodiging kon niet worden verstuurd. Probeer het opnieuw."
+  }
+}

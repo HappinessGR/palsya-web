@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Sobre Palsya",
+    "description": "Por qué existe Palsya, qué es y qué no es, cómo se financia y lo que nos negamos a crear."
+  },
+  "hero": {
+    "eyebrow": "Quiénes somos",
+    "title": "Empezamos porque un folleto no es un programa"
+  },
+  "story": {
+    "p1": "En 2019, nuestro responsable de producto se despertó sin poder cerrar el ojo izquierdo. Ese mismo día le diagnosticaron parálisis de Bell, le recetaron corticoides y lo enviaron a casa con una fotocopia de nueve ejercicios faciales y sin ningún seguimiento durante cuatro meses.",
+    "p2": "Hizo los ejercicios. Con fuerza, dos veces al día, al máximo esfuerzo, durante once semanas; casi lo peor que podía haber hecho, y nadie le dijo lo contrario hasta que, en el cuarto mes, encontró por su cuenta a un fisioterapeuta especializado. Para entonces la sincinesia ya estaba instaurada, y hicieron falta otros seis meses de trabajo de coordinación para reducirla.",
+    "p3": "La información que habría cambiado su recuperación existía. Estaba en la formación de fisioterapia, en las consultas especializadas, en las revistas científicas. No estaba en sus manos, en su idioma, el día que la necesitaba."
+  },
+  "whatWeAre": {
+    "title": "Lo que somos",
+    "body": "Un programa de rehabilitación para la parálisis facial periférica, que se usa desde el navegador, creado y supervisado por clínicos que hacen este trabajo en persona. Fundado en 2023, con sede en Lisboa y Ámsterdam, y utilizado actualmente por unas catorce mil personas en veintidós países."
+  },
+  "whatWeAreNot": {
+    "title": "Lo que no somos",
+    "body": "No somos un servicio de diagnóstico, no sustituimos a la atención médica y no somos un producto de bienestar. No tratamos la parálisis facial como un problema de actitud mental. No le diremos que su recuperación depende de su actitud."
+  },
+  "funding": {
+    "title": "Cómo nos financiamos",
+    "body": "Exclusivamente con suscripciones. Sin publicidad, sin venta de datos y sin acuerdos con aseguradoras que den a otros un interés en lo que hace su cara. Hemos cerrado una única ronda de inversión semilla y nuestros inversores no tienen acceso a los datos de los pacientes."
+  },
+  "refuse": {
+    "title": "Lo que nos negamos a crear",
+    "body": "Predicciones de recuperación. Mecánicas de rachas. Clasificaciones de pacientes. Notificaciones que den a entender que ha defraudado a alguien. Cuentas atrás en los precios. Un proceso de cancelación de más de dos clics. Estas ideas surgen en las reuniones de producto y la respuesta siempre ha sido no."
+  },
+  "stats": {
+    "people": {
+      "value": "{n, number}+",
+      "label": "Personas en recuperación",
+      "detail": "En {count, number} países"
+    },
+    "founded": {
+      "label": "Fundación",
+      "detail": "Lisboa y Ámsterdam"
+    },
+    "languages": {
+      "label": "Idiomas",
+      "detail": "Aplicación y base de conocimiento completas"
+    },
+    "dataSold": {
+      "label": "Filas de datos vendidas",
+      "detail": "A nadie, nunca"
+    }
+  },
+  "team": {
+    "title": "Las personas que hay detrás",
+    "lead": "Con números de colegiación incluidos, porque debe poder comprobarlos.",
+    "cta": "Conozca al equipo clínico"
+  }
+}

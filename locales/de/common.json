@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Begleitete Genesung bei Gesichtslähmung."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Sprache",
+    "change": "Sprache: {language}. Sprache ändern"
+  },
+  "nav": {
+    "main": "Hauptmenü",
+    "menu": "Menü",
+    "closeMenu": "Menü schließen",
+    "home": "Palsya Startseite",
+    "howItWorks": "So funktioniert’s",
+    "guides": "Ratgeber",
+    "stories": "Erfahrungen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "logIn": "Anmelden",
+    "startTrial": "7 Tage kostenlos testen",
+    "myDashboard": "Mein Dashboard",
+    "logOut": "Abmelden",
+    "signedInAs": "Angemeldet als {name}"
+  },
+  "footer": {
+    "tagline": "Begleitete Rehabilitation bei peripherer Fazialisparese. Entwickelt und betreut von Fachkräften, die diese Arbeit auch persönlich mit Patienten machen.",
+    "location": "Lissabon und Amsterdam · Gegründet {year}",
+    "product": "Produkt",
+    "guides": "Ratgeber",
+    "company": "Unternehmen",
+    "links": {
+      "howItWorks": "So funktioniert’s",
+      "pricing": "Preise",
+      "stories": "Genesungsberichte",
+      "startFree": "Kostenlos starten",
+      "signIn": "Anmelden",
+      "about": "Über uns",
+      "team": "Klinisches Team",
+      "contact": "Kontakt und Hilfe",
+      "privacy": "Datenschutzhinweis",
+      "terms": "AGB",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Medizinischer Hinweis.",
+    "copyright": "© {year} Palsya Health, Lda. Alle Rechte vorbehalten.",
+    "trust": {
+      "gdpr": "DSGVO-konform",
+      "eu": "Server in der EU",
+      "languages": "{count} Sprachen",
+      "stripe": "Zahlung über Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya ist ein Programm zur Unterstützung der Rehabilitation. Es stellt keine Diagnosen und ersetzt keine ärztliche Behandlung. Lassen Sie sich vor dem Start immer ärztlich untersuchen und wenden Sie sich bei Augenschmerzen, Rötung oder Sehveränderungen noch am selben Tag an eine Ärztin oder einen Arzt.",
+  "actions": {
+    "back": "Zurück",
+    "continue": "Weiter",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "retry": "Erneut versuchen",
+    "signOut": "Abmelden",
+    "loading": "Wird geladen …"
+  }
+}

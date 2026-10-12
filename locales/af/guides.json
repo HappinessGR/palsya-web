@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Gidse — Palsya",
+    "description": "Sewe gratis gidse oor perifere gesigsverlamming, geskryf deur ons kliniese span, hersien deur 'n tweede klinikus, en gedateer."
+  },
+  "hero": {
+    "eyebrow": "Kennisbasis",
+    "title": "Sewe gidse, gratis, geen rekening nie",
+    "lead": "Geskryf deur ons kliniese span, hersien deur 'n tweede klinikus, en gedateer sodat u weet hoe onlangs hulle is. Waar die bewyse dun is, sê ons so."
+  },
+  "byline": "{minutes, plural, one {# min. leestyd} other {# min. leestyd}} · {author} · hersien {date}",
+  "safety": "<b>As u oog pynlik of rooi is, of u sig verander het, gaan vandag na 'n dokter.</b> Skade aan die kornea van 'n oog wat nie kan toemaak nie, is die een komplikasie van gesigsverlamming wat blywende skade kan veroorsaak, en dit is behandelbaar. Dit is dringender as enigiets op hierdie bladsy.",
+  "articles": {
+    "what-is-pfp": {
+      "title": "Wat is perifere gesigsverlamming?",
+      "blurb": "Wat met die senuwee gebeur het, waarom een kant van die gesig opgehou het beweeg, en wat dit beteken en nie beteken nie."
+    },
+    "stages-of-recovery": {
+      "title": "Die fases van herstel",
+      "blurb": "Vyf fases, wat die liggaam in elkeen doen, en waarom die program van vorm verander soos u daardeur beweeg."
+    },
+    "facial-taping-guide": {
+      "title": "Kleefband op die gesig: 'n praktiese gids",
+      "blurb": "Wat die kleefband doen, wat dit nie doen nie, hoe om dit veilig aan te bring, en wanneer om dit af te haal."
+    },
+    "facial-exercises-guide": {
+      "title": "Gesigsoefeninge: hoe om dit reg te doen",
+      "blurb": "Waarom klein en akkuraat beter is as groot en kragtig, en die foute wat herstel moeiliker maak."
+    },
+    "daily-routine": {
+      "title": "'n Daaglikse roetine wat volhou",
+      "blurb": "Oogsorg, eet, slaap, en 'n program inpas in 'n lewe wat reeds bestaan."
+    },
+    "research-evidence": {
+      "title": "Navorsing en bewyse",
+      "blurb": "Wat die literatuur ondersteun, wat onseker is, en waar ons eie syfers vandaan kom."
+    },
+    "faq": {
+      "title": "Algemene vrae",
+      "blurb": "Geskiktheid, tydlyne, koste, data, en die vrae wat mense vra voordat hulle registreer."
+    }
+  },
+  "faq": {
+    "gettingStarted": {
+      "title": "Aan die gang kom",
+      "items": {
+        "rightForMe": {
+          "q": "Is Palsya geskik vir my?",
+          "a": "Palsya is gebou vir mense met perifere gesigsverlamming — Bell se verlamming, Ramsay Hunt, en gesigsenuweebesering ná 'n operasie of trauma — wie se aanvang tussen 5 en 90 dae gelede was. As u aanvang minder as 5 dae gelede was, moet u eers medies ondersoek word; steroïede wat vroeg gegee word, maak 'n meetbare verskil, en daardie tydsvenster is belangriker as om met rehabilitasie te begin. As dit meer as 90 dae gelede was, kan 'n gestruktureerde program steeds help, maar u moet met 'n klinikus praat oor die regte beginpunt. Ons assessering sal u eerlik sê as ons nie by u pas nie."
+        },
+        "diagnosis": {
+          "q": "Het ek eers 'n diagnose nodig?",
+          "a": "Ja. Palsya is 'n rehabilitasieprogram, nie 'n diagnostiese diens nie. Swakheid in die gesig het oorsake wat mediese ondersoek nodig het, en sommige daarvan is dringend. Gaan eers na 'n dokter en kom na ons met 'n diagnose."
+        },
+        "install": {
+          "q": "Moet ek iets installeer?",
+          "a": "Nee. Palsya werk in u blaaier op 'n foon, tablet of rekenaar. U sal kameratoegang vir skanderings moet toelaat, en u het 'n redelik stabiele internetverbinding nodig."
+        },
+        "technology": {
+          "q": "Wat as ek nie selfversekerd met tegnologie is nie?",
+          "a": "Die daaglikse sessie is een skerm met een knoppie. Skanderings word stap vir stap met eenvoudige instruksies begelei. As u vasval, antwoord ondersteuning in u taal en kan hulle u tydens 'n oproep daardeur lei."
+        }
+      }
+    },
+    "programme": {
+      "title": "Die program",
+      "items": {
+        "timePerDay": {
+          "q": "Hoeveel tyd neem dit elke dag?",
+          "a": "Tussen 10 en 20 minute, afhangende van u fase, gewoonlik verdeel in twee korter sessies. Fase 1 is die kortste omdat dit meestal beskerming is. Fase 3 is die langste omdat koördinasiewerk rus tussen herhalings nodig het."
+        },
+        "missDays": {
+          "q": "Wat as ek dae mis?",
+          "a": "Niks gebeur nie. U program word nie teruggestel nie, niks gaan verlore nie, en ons sal u nie skuldig laat voel nie. Maak die toep oop en doen vandag se sessie. As 'n patroon van gemiste dae verskyn, kan u klinikus daaroor vra — gewoonlik omdat die program aangepas moet word, nie u nie."
+        },
+        "physio": {
+          "q": "Kan ek dit saam met persoonlike fisioterapie gebruik?",
+          "a": "Ja, en baie mense doen dit. Sê vir u terapeut dat u Palsya gebruik en deel u vorderingsverslae met hulle. As hul leiding met ons s'n bots, volg hulle s'n — hulle kan u sien."
+        },
+        "recovery": {
+          "q": "Sal ek beslis herstel?",
+          "a": "Ons sal dit nie beantwoord nie, want niemand kan dit eerlik doen nie. Die meeste mense met Bell se verlamming herstel goed. 'n Minderheid behou blywende asimmetrie. Ons sal nie voorspel in watter groep u is nie, en u moet versigtig wees vir enigiemand wat dit doen."
+        }
+      }
+    },
+    "scans": {
+      "title": "Skanderings en meting",
+      "items": {
+        "howScan": {
+          "q": "Hoe werk die skandering?",
+          "a": "U plaas u gesig binne 'n buitelyn en volg vier opdragte — rus, wenkbroue lig, sagte glimlag, oë toemaak. Gesigslandmerke word bepaal en die geometrie van u aangetaste kant word vergelyk met die gespieëlde onaangetaste kant. Die resultaat is 'n simmetrietelling uit 100 relatief tot u eie basislyn."
+        },
+        "photos": {
+          "q": "Verlaat my foto's my toestel?",
+          "a": "Landmerkbepaling gebeur op u toestel — die beelde self word nêrens heen gestuur vir verwerking nie. U foto's word slegs gestoor as u daartoe instem, en slegs sodat u u eie tydlyn kan sien. U kan enige foto, of almal, op enige tyd uitvee."
+        },
+        "scoreMeaning": {
+          "q": "Wat beteken die telling eintlik?",
+          "a": "Dit meet geometriese simmetrie, en niks meer nie. Dit is nie 'n kliniese graad van erns nie, dit kan nie na 'n House-Brackmann-getal omgeskakel word nie, en dit is nie 'n persentasie van herstel nie. Sy enigste werklike taak is om u vandag met u verlede maand te vergelyk. Die meetvariasie is sowat ±2,5 punte, so ons beskou kleiner veranderinge as ruis."
+        },
+        "scoreDown": {
+          "q": "My telling het gedaal. Wat beteken dit?",
+          "a": "Meestal: beligting, hoek van die kop, tyd van die dag, of moegheid. Soms: 'n werklik moeiliker week ná siekte of swak slaap. Af en toe: iets waarna 'n klinikus moet kyk. 'n Enkele laer skandering is nie 'n bewys van agteruitgang nie. Twee of drie agtereenvolgens is 'n gesprek werd, en ons sal een voorstel."
+        }
+      }
+    },
+    "cost": {
+      "title": "Koste en konsultasies",
+      "items": {
+        "pricing": {
+          "q": "Hoe werk die pryse?",
+          "a": "Pakkette van drie maande: {app} vir slegs die toep, {guided} met twee videokonsultasies, {supported} met ses. Daar is 'n gratis proeftydperk van {trialDays} dae en u word nie voor dag {chargeDay} gehef nie. Ná drie maande kan u maand vir maand verleng teen {extension}, of ophou. Ekstra konsultasies kos {consult} elk."
+        },
+        "whyThreeMonths": {
+          "q": "Waarom drie maande en nie maandeliks nie?",
+          "a": "Omdat betekenisvolle verandering in gesigsrehabilitasie oor maande gebeur, en 'n intekening van een maand u sou laat aflei dat dit nie werk nie, net voordat dit wel begin werk. Drie maande is ongeveer die kortste eerlike verbintenis."
+        },
+        "cancel": {
+          "q": "Kan ek kanselleer?",
+          "a": "Ja, enige tyd, vanuit u rekeninginstellings, in twee klikke. Geen oproep nie, geen aanbod om u te hou nie. As u tydens die gratis proeftydperk kanselleer, word u glad nie gehef nie."
+        },
+        "clinicians": {
+          "q": "Wie is die klinici tydens die oproepe?",
+          "a": "Gelisensieerde fisioterapeute en dokters met spesifieke opleiding in gesigsrehabilitasie. Hul name, registrasies en tale word op ons bladsy oor die kliniese span gelys. U kan kies met wie u praat."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privaatheid",
+      "items": {
+        "dataStored": {
+          "q": "Waar word my data gestoor?",
+          "a": "Op bedieners in die Europese Unie, geënkripteer in rus en tydens oordrag. Ons voldoen aan die GDPR. Gesigsbeelde word ingevolge artikel 9 as biometriese data van 'n spesiale kategorie beskou en dienooreenkomstig hanteer."
+        },
+        "sellData": {
+          "q": "Verkoop julle my data?",
+          "a": "Nee. Nie aan adverteerders nie, nie aan versekeraars nie, nie aan navorsers nie. Gebruik vir navorsing is slegs met u toestemming, afsonderlik en saamgevoeg, en as u weier, verander dit niks aan u program nie."
+        },
+        "exportDelete": {
+          "q": "Kan ek my data uitkry, of dit uitvee?",
+          "a": "Albei, vanuit u rekeninginstellings. 'n Uitvoer gee u u skanderings, sessies en verslae in 'n draagbare formaat. Uitvee is permanent en verwyder u beelde binne 30 dae."
+        }
+      }
+    }
+  },
+  "authorTeam": "Palsya se kliniese span"
+}

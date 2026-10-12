@@ -1,0 +1,837 @@
+[
+  {
+    "key": "common.medicalDisclaimer",
+    "reason": "legal",
+    "note": "Medical disclaimer; 'contacte um médico no próprio dia' for same-day eye symptoms."
+  },
+  {
+    "key": "common.footer.disclaimerTitle",
+    "reason": "legal",
+    "note": "'Aviso médico.'"
+  },
+  {
+    "key": "common.footer.trust.gdpr",
+    "reason": "legal",
+    "note": "GDPR rendered as RGPD."
+  },
+  {
+    "key": "clinician.awaitingVerification.body",
+    "reason": "terminology",
+    "note": "'practice / registration number' rendered as 'número de cédula profissional / registo' (Ordem dos Médicos / Ordem dos Fisioterapeutas)."
+  },
+  {
+    "key": "auth.login.registration.label",
+    "reason": "terminology",
+    "note": "'N.º de cédula profissional / registo' — confirm this is what PT clinicians expect."
+  },
+  {
+    "key": "auth.continue.errors.registrationRequired",
+    "reason": "terminology",
+    "note": "Cédula profissional wording."
+  },
+  {
+    "key": "about.story.p1",
+    "reason": "clinical",
+    "note": "Diagnosis and steroids ('corticoides')."
+  },
+  {
+    "key": "about.story.p2",
+    "reason": "clinical",
+    "note": "Over-exercising leading to established synkinesis ('sincinesia já estava instalada')."
+  },
+  {
+    "key": "about.whatWeAreNot.body",
+    "reason": "clinical",
+    "note": "Not a diagnostic service / not a replacement for medical care."
+  },
+  {
+    "key": "howItWorks.steps.assessment.p2",
+    "reason": "clinical",
+    "note": "Eye can suffer lasting harm ('danos permanentes')."
+  },
+  {
+    "key": "howItWorks.steps.assessment.p3",
+    "reason": "clinical",
+    "note": "Red flags: eye pain, limb weakness ('fraqueza num braço ou numa perna'), progressive weakness, bilateral, undiagnosed."
+  },
+  {
+    "key": "howItWorks.steps.stage.p1",
+    "reason": "clinical",
+    "note": "Placement logic: onset, movement, linked movement, tightness ('rigidez')."
+  },
+  {
+    "key": "howItWorks.steps.stage.p3",
+    "reason": "clinical",
+    "note": "Clinician review criteria (>90 days, post-surgical, injury)."
+  },
+  {
+    "key": "howItWorks.steps.session.p2",
+    "reason": "terminology",
+    "note": "'Taping' rendered throughout as 'fita adesiva' (kinesio-type tape). Consider whether PT physios prefer 'ligadura funcional' / 'kinesio taping'."
+  },
+  {
+    "key": "howItWorks.steps.scan.p3",
+    "reason": "clinical",
+    "note": "Landmarks ('pontos de referência'), mirrored comparison, 'linha de base' for baseline."
+  },
+  {
+    "key": "howItWorks.steps.scan.p4",
+    "reason": "clinical",
+    "note": "Score is not severity grade / not House-Brackmann / not % recovery."
+  },
+  {
+    "key": "howItWorks.steps.clinician.p2",
+    "reason": "clinical",
+    "note": "Clinician overrides algorithm."
+  },
+  {
+    "key": "dashboard.session.taping.title",
+    "reason": "terminology",
+    "note": "'Fita adesiva' as the taping step name."
+  },
+  {
+    "key": "dashboard.session.taping.wear",
+    "reason": "terminology",
+    "note": "'Wear' (duration tape is worn) rendered 'Tempo de uso'."
+  },
+  {
+    "key": "dashboard.session.exercises.dose",
+    "reason": "terminology",
+    "note": "'{reps} × {hold} s de manutenção' — 'hold' as 'manutenção'; check clarity."
+  },
+  {
+    "key": "dashboard.score.title",
+    "reason": "terminology",
+    "note": "'Symmetry score' = 'Pontuação de simetria' used everywhere."
+  },
+  {
+    "key": "dashboard.library.logHint",
+    "reason": "clinical",
+    "note": "Function changes before geometry."
+  },
+  {
+    "key": "pricing.plans.guided.forWho",
+    "reason": "clinical",
+    "note": "Mistakes: tape tension, effort level, synkinesis appearing."
+  },
+  {
+    "key": "pricing.plans.supported.forWho",
+    "reason": "clinical",
+    "note": "Complex cases: significant synkinesis, post-surgical recovery."
+  },
+  {
+    "key": "pricing.extras.referral.body",
+    "reason": "legal",
+    "note": "Referral code grants clinician access to reports with separate consent."
+  },
+  {
+    "key": "programme.stages.1.name",
+    "reason": "terminology",
+    "note": "Stage names chosen: Proteger, Ativar, Coordenação, Refinar, Manter (mix of verbs and one noun mirrors English)."
+  },
+  {
+    "key": "programme.stages.1.body",
+    "reason": "clinical",
+    "note": "Stage 1 protection guidance; forcing may make things harder later."
+  },
+  {
+    "key": "programme.stages.1.focus.f1",
+    "reason": "clinical",
+    "note": "Eye protection and lubrication."
+  },
+  {
+    "key": "programme.stages.1.avoid.a1",
+    "reason": "clinical",
+    "note": "Avoid forced/maximum-effort movements."
+  },
+  {
+    "key": "programme.stages.1.avoid.a2",
+    "reason": "clinical",
+    "note": "Avoid electrical stimulation."
+  },
+  {
+    "key": "programme.stages.1.avoid.a3",
+    "reason": "clinical",
+    "note": "Chewing gum ('pastilha elástica')."
+  },
+  {
+    "key": "programme.stages.1.avoid.a4",
+    "reason": "clinical",
+    "note": "'Pushing through pain' = 'Continuar apesar da dor'."
+  },
+  {
+    "key": "programme.stages.1.tapeMode",
+    "reason": "clinical",
+    "note": "Resting support tape mode."
+  },
+  {
+    "key": "programme.stages.2.body",
+    "reason": "clinical",
+    "note": "'Flicker' of movement rendered 'esboço de movimento'; 'recruited' rendered 'com recrutamento de outros músculos'."
+  },
+  {
+    "key": "programme.stages.2.focus.f3",
+    "reason": "terminology",
+    "note": "'Mirror feedback' = 'Feedback do espelho'."
+  },
+  {
+    "key": "programme.stages.2.avoid.a1",
+    "reason": "clinical",
+    "note": "Effortful straining recruits wrong muscles."
+  },
+  {
+    "key": "programme.stages.2.tapeMode",
+    "reason": "clinical",
+    "note": "Assist tape mode."
+  },
+  {
+    "key": "programme.stages.3.body",
+    "reason": "clinical",
+    "note": "Synkinesis description (eye narrows on smiling)."
+  },
+  {
+    "key": "programme.stages.3.tapeMode",
+    "reason": "clinical",
+    "note": "Guide tape mode."
+  },
+  {
+    "key": "programme.stages.4.focus.f3",
+    "reason": "terminology",
+    "note": "'Over-recruitment' = 'recrutamento excessivo'."
+  },
+  {
+    "key": "programme.stages.5.body",
+    "reason": "clinical",
+    "note": "Recovery plateaus but does not usually reverse."
+  },
+  {
+    "key": "programme.taping.movementAssist",
+    "reason": "terminology",
+    "note": "Taping technique names: Apoio em repouso / Assistência ao movimento / Orientação direcional."
+  },
+  {
+    "key": "landing.meta.description",
+    "reason": "clinical",
+    "note": "Eye care ('cuidados com o olho')."
+  },
+  {
+    "key": "landing.cred.gdpr",
+    "reason": "legal",
+    "note": "RGPD, on-device analysis."
+  },
+  {
+    "key": "landing.problem.rightWork.body",
+    "reason": "clinical",
+    "note": "Forcing a big smile helps in week 6, holds back in week 2."
+  },
+  {
+    "key": "landing.ethics.predictions.body",
+    "reason": "clinical",
+    "note": "No recovery predictions."
+  },
+  {
+    "key": "landing.ethics.badges.body",
+    "reason": "clinical",
+    "note": "'nerve injury' = 'lesão de um nervo'."
+  },
+  {
+    "key": "guides.safety",
+    "reason": "clinical",
+    "note": "Eye safety warning: corneal damage ('lesão da córnea'), see a doctor today."
+  },
+  {
+    "key": "guides.faq.gettingStarted.items.rightForMe.a",
+    "reason": "clinical",
+    "note": "Eligibility 5–90 days; early steroids; Ramsay Hunt; post-surgical/post-traumatic nerve injury."
+  },
+  {
+    "key": "guides.faq.gettingStarted.items.diagnosis.a",
+    "reason": "clinical",
+    "note": "Diagnosis required first."
+  },
+  {
+    "key": "guides.faq.programme.items.physio.a",
+    "reason": "clinical",
+    "note": "Follow in-person therapist if guidance conflicts."
+  },
+  {
+    "key": "guides.faq.programme.items.recovery.a",
+    "reason": "clinical",
+    "note": "Outcome statement: most recover well, minority lasting asymmetry."
+  },
+  {
+    "key": "guides.faq.scans.items.howScan.a",
+    "reason": "clinical",
+    "note": "Scan method description."
+  },
+  {
+    "key": "guides.faq.scans.items.photos.a",
+    "reason": "legal",
+    "note": "On-device processing and photo consent."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreMeaning.a",
+    "reason": "clinical",
+    "note": "Score meaning, ±2,5 points variability, House-Brackmann."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreDown.a",
+    "reason": "clinical",
+    "note": "Score decline interpretation; 'prova de regressão' for 'evidence of decline'."
+  },
+  {
+    "key": "guides.faq.cost.items.clinicians.a",
+    "reason": "terminology",
+    "note": "'Licensed physiotherapists and physicians' = 'Fisioterapeutas e médicos habilitados'; registrations = 'números de cédula profissional'."
+  },
+  {
+    "key": "guides.faq.privacy.items.dataStored.a",
+    "reason": "legal",
+    "note": "RGPD artigo 9.º, special category biometric data."
+  },
+  {
+    "key": "guides.faq.privacy.items.sellData.a",
+    "reason": "legal",
+    "note": "Research opt-in."
+  },
+  {
+    "key": "guides.faq.privacy.items.exportDelete.a",
+    "reason": "legal",
+    "note": "Deletion within 30 days."
+  },
+  {
+    "key": "stories.items.marta.body",
+    "reason": "clinical",
+    "note": "Clinical course narrative; synkinesis; steroids within 48 h."
+  },
+  {
+    "key": "stories.items.tomas.body",
+    "reason": "clinical",
+    "note": "Plateau, measurement margin, compensations ('compensações se instalam')."
+  },
+  {
+    "key": "stories.items.sanne.summary",
+    "reason": "terminology",
+    "note": "'Acoustic neuroma' = 'neurinoma do acústico' (alternatively 'schwannoma vestibular')."
+  },
+  {
+    "key": "stories.items.sanne.body",
+    "reason": "clinical",
+    "note": "Post-surgical recovery pattern."
+  },
+  {
+    "key": "stories.testimonials.lena.quote",
+    "reason": "clinical",
+    "note": "Cornea / eye care claim in testimonial."
+  },
+  {
+    "key": "stories.endorsements.rahn.role",
+    "reason": "terminology",
+    "note": "'Consultant Otolaryngologist' = 'Especialista em Otorrinolaringologia' (gender-neutral; adjust if gender is known)."
+  },
+  {
+    "key": "stories.endorsements.aubert.quote",
+    "reason": "clinical",
+    "note": "Clinical claim about stage-matching."
+  },
+  {
+    "key": "stories.endorsements.solberg.role",
+    "reason": "terminology",
+    "note": "'Specialist facial physiotherapist'."
+  },
+  {
+    "key": "stories.press.jdr.headline",
+    "reason": "terminology",
+    "note": "Paper title translated ('Reeducação neuromuscular facial à distância'); may prefer the original English title."
+  },
+  {
+    "key": "stories.press.derStandard.headline",
+    "reason": "terminology",
+    "note": "Left in original German (real headline of a German-language publication)."
+  },
+  {
+    "key": "onboarding.welcome.clinicalNote",
+    "reason": "clinical",
+    "note": "Placement reasoning mirrors physiotherapist first appointment."
+  },
+  {
+    "key": "onboarding.phase.blockedLead",
+    "reason": "clinical",
+    "note": "Safety stop wording."
+  },
+  {
+    "key": "onboarding.phase.continueAnyway",
+    "reason": "clinical",
+    "note": "'Já fui avaliado — continuar' (masculine form; generic)."
+  },
+  {
+    "key": "onboarding.phase.confirmText",
+    "reason": "clinical",
+    "note": "Continue past safety flag; noted on record ('processo')."
+  },
+  {
+    "key": "onboarding.phase.reviewNotice",
+    "reason": "clinical",
+    "note": "Clinician review within one working day; {why} inserted as lowercase clause joined by ' e '."
+  },
+  {
+    "key": "onboarding.phase.stageNotFixedNote",
+    "reason": "clinical",
+    "note": "Stage can move backwards after illness/fatigue."
+  },
+  {
+    "key": "onboarding.consent.dataProcessing.body",
+    "reason": "legal",
+    "note": "RGPD Art. 9 explicit consent; 'tratamento' for processing."
+  },
+  {
+    "key": "onboarding.consent.photoStorage.body",
+    "reason": "legal",
+    "note": "Consent: analysis vs storage."
+  },
+  {
+    "key": "onboarding.consent.photoKeep.body",
+    "reason": "legal",
+    "note": "Consent: photo storage and deletion."
+  },
+  {
+    "key": "onboarding.consent.clinicianShare.body",
+    "reason": "legal",
+    "note": "Consent: sharing with clinician, revocable."
+  },
+  {
+    "key": "onboarding.consent.researchOptIn.body",
+    "reason": "legal",
+    "note": "Consent: anonymised research."
+  },
+  {
+    "key": "onboarding.consent.laterNote",
+    "reason": "legal",
+    "note": "Withdrawing consent."
+  },
+  {
+    "key": "onboarding.consent.gdprNote",
+    "reason": "legal",
+    "note": "RGPD special category data."
+  },
+  {
+    "key": "onboarding.consent.termsAgreement",
+    "reason": "legal",
+    "note": "Terms of Service and Privacy Policy."
+  },
+  {
+    "key": "onboarding.ready.tapingHint",
+    "reason": "clinical",
+    "note": "Elastic therapeutic tape; patch-test on forearm."
+  },
+  {
+    "key": "onboarding.ready.routineHint",
+    "reason": "clinical",
+    "note": "Eye protection first."
+  },
+  {
+    "key": "onboarding.ready.trialSummary",
+    "reason": "legal",
+    "note": "Billing notice. priceFallback is 'O valor do plano escolhido' so the sentence starts with a capitalised fallback."
+  },
+  {
+    "key": "onboarding.ready.nameFallback",
+    "reason": "tone",
+    "note": "English 'there' has no pt equivalent; used 'então' → 'Está tudo pronto, então'."
+  },
+  {
+    "key": "onboarding.ready.sessionsFallback",
+    "reason": "tone",
+    "note": "'uma sessão diária', used in 'repartidos por {sessions}'."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.bells.d",
+    "reason": "clinical",
+    "note": "'Paralisia facial idiopática'."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.ramsay.d",
+    "reason": "clinical",
+    "note": "'vírus varicela-zóster', 'erupção cutânea'."
+  },
+  {
+    "key": "assessment.questions.progression.options.gradual.t",
+    "reason": "clinical",
+    "note": "Progressive weakness (red flag option)."
+  },
+  {
+    "key": "assessment.questions.medical.options.steroids.t",
+    "reason": "clinical",
+    "note": "'receitaram-me corticoides'."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.q",
+    "reason": "clinical",
+    "note": "Eye closure question and options (lagophthalmos)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.options.partial.t",
+    "reason": "clinical",
+    "note": "Partial lid closure wording."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.dryness.t",
+    "reason": "clinical",
+    "note": "'Grittiness' = 'sensação de areia no olho'."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.watering.t",
+    "reason": "clinical",
+    "note": "'Lacrimejo excessivo'."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.vision.t",
+    "reason": "clinical",
+    "note": "Blurred/changed vision."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.ointment.t",
+    "reason": "clinical",
+    "note": "'Pomada oftálmica'."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.tape.t",
+    "reason": "clinical",
+    "note": "Taping the lid closed at night."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.chamber.t",
+    "reason": "terminology",
+    "note": "'Moisture chamber' = 'câmara de humidade'; confirm term used in PT ophthalmology."
+  },
+  {
+    "key": "assessment.questions.synkinesis.q",
+    "reason": "clinical",
+    "note": "Synkinesis screening question."
+  },
+  {
+    "key": "assessment.questions.tightness.q",
+    "reason": "clinical",
+    "note": "Tightness/stiffness question and severity options."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.rash.t",
+    "reason": "clinical",
+    "note": "Rash/blisters near ear (Ramsay Hunt)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.hearing.t",
+    "reason": "clinical",
+    "note": "'sensibilidade nova aos sons' for hyperacusis."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.tinnitus.t",
+    "reason": "clinical",
+    "note": "'Zumbido no ouvido'."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.limb.t",
+    "reason": "clinical",
+    "note": "Limb weakness/numbness (stroke red flag)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.estim.t",
+    "reason": "clinical",
+    "note": "Electrical stimulation."
+  },
+  {
+    "key": "assessment.flags.limb.title",
+    "reason": "clinical",
+    "note": "Emergency instruction. Kept generic 'número de emergência'; consider adding '(112)'."
+  },
+  {
+    "key": "assessment.flags.limb.body",
+    "reason": "clinical",
+    "note": "Possible stroke ('AVC'); emergency assessment."
+  },
+  {
+    "key": "assessment.flags.eye.title",
+    "reason": "clinical",
+    "note": "See a doctor about the eye today."
+  },
+  {
+    "key": "assessment.flags.eye.body",
+    "reason": "clinical",
+    "note": "Corneal exposure damage; 'optometrista, médico de família ou urgência de oftalmologia' for 'optometrist, GP, or eye casualty'."
+  },
+  {
+    "key": "assessment.flags.rash.body",
+    "reason": "clinical",
+    "note": "Ramsay Hunt, antivirals."
+  },
+  {
+    "key": "assessment.flags.undiagnosed.body",
+    "reason": "clinical",
+    "note": "Diagnosis required."
+  },
+  {
+    "key": "assessment.flags.progressive.body",
+    "reason": "clinical",
+    "note": "Progressive weakness needs imaging ('exames de imagem')."
+  },
+  {
+    "key": "assessment.flags.bilateral.body",
+    "reason": "clinical",
+    "note": "Bilateral causes: Lyme, Guillain-Barré, sarcoidose."
+  },
+  {
+    "key": "assessment.flags.tooEarly.body",
+    "reason": "clinical",
+    "note": "Corticosteroids within 72 h; come back from day 5."
+  },
+  {
+    "key": "assessment.flags.late.body",
+    "reason": "clinical",
+    "note": "Outside 5–90 day window; clinician review."
+  },
+  {
+    "key": "assessment.flags.noEyeCare.body",
+    "reason": "clinical",
+    "note": "Preservative-free drops without prescription ('sem receita médica'), ointment at night."
+  },
+  {
+    "key": "assessment.flags.estim.body",
+    "reason": "clinical",
+    "note": "E-stim during reinnervation ('reinervação') may worsen synkinesis."
+  },
+  {
+    "key": "assessment.flags.gum.body",
+    "reason": "clinical",
+    "note": "Chewing gum trains jaw muscles, increases tightness/synkinesis."
+  },
+  {
+    "key": "assessment.reasons.noMovement",
+    "reason": "clinical",
+    "note": "Placement reasoning text (all assessment.reasons.* keys)."
+  },
+  {
+    "key": "assessment.reasons.synkinesisRaised",
+    "reason": "clinical",
+    "note": "Synkinesis prioritisation."
+  },
+  {
+    "key": "assessment.reasons.synkinesisHeldBack",
+    "reason": "clinical",
+    "note": "Synkinesis holds back stage."
+  },
+  {
+    "key": "assessment.reasons.severeTightness",
+    "reason": "clinical",
+    "note": "Tightness prioritisation."
+  },
+  {
+    "key": "assessment.reasons.eyeProtection",
+    "reason": "clinical",
+    "note": "Eye protection regardless of stage."
+  },
+  {
+    "key": "assessment.reasons.slowRecovery",
+    "reason": "clinical",
+    "note": "Slower recovery after Ramsay Hunt/surgery/injury. i18n-check reports a false-positive token mismatch here (English single-word select branches look like arguments)."
+  },
+  {
+    "key": "assessment.reasons.timeHoldBack",
+    "reason": "clinical",
+    "note": "Time-based hold-back; compensations."
+  },
+  {
+    "key": "assessment.reasons.timeEarliest",
+    "reason": "clinical",
+    "note": "Earliest clinically sensible stage."
+  },
+  {
+    "key": "library.exercises.brow.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions (all library.exercises.*.instructions / steps / watch / why keys are clinical)."
+  },
+  {
+    "key": "library.exercises.brow.watch",
+    "reason": "clinical",
+    "note": "Linkage warning; 'abaixo desse limiar'."
+  },
+  {
+    "key": "library.exercises.eye.instructions",
+    "reason": "clinical",
+    "note": "Eye closure exercise; supporting lid with fingertip."
+  },
+  {
+    "key": "library.exercises.eye.why",
+    "reason": "clinical",
+    "note": "Blink pattern ('padrão do pestanejar')."
+  },
+  {
+    "key": "library.exercises.nose.why",
+    "reason": "terminology",
+    "note": "'Nasolabial fold' = 'sulco nasogeniano'."
+  },
+  {
+    "key": "library.exercises.nose.instructions",
+    "reason": "clinical",
+    "note": "'Not a sneer' = 'não uma careta de desdém'."
+  },
+  {
+    "key": "library.exercises.smile.instructions",
+    "reason": "clinical",
+    "note": "Gentle smile, one third of maximum."
+  },
+  {
+    "key": "library.exercises.pucker.name",
+    "reason": "terminology",
+    "note": "'Lip pucker' = 'Biquinho'; 'ooh' sound = 'u'."
+  },
+  {
+    "key": "library.exercises.pucker.why",
+    "reason": "terminology",
+    "note": "'Plosive sounds' = 'sons explosivos' (or 'oclusivos')."
+  },
+  {
+    "key": "library.exercises.cheek.watch",
+    "reason": "clinical",
+    "note": "Contraindication: recent ear surgery / pressure changes."
+  },
+  {
+    "key": "library.exercises.separate.instructions",
+    "reason": "clinical",
+    "note": "Core synkinesis drill."
+  },
+  {
+    "key": "library.exercises.release.instructions",
+    "reason": "clinical",
+    "note": "Tightness release; stretch not sharp pain."
+  },
+  {
+    "key": "library.exercises.release.watch",
+    "reason": "clinical",
+    "note": "Stop if sharp pain, pins and needles ('formigueiro'), twitching ('contrações involuntárias')."
+  },
+  {
+    "key": "library.taping.rest.instructions",
+    "reason": "clinical",
+    "note": "Taping instructions (all library.taping.* keys); 'estiramento' for tape stretch %."
+  },
+  {
+    "key": "library.taping.rest.tension",
+    "reason": "clinical",
+    "note": "10% stretch."
+  },
+  {
+    "key": "library.taping.rest.wear",
+    "reason": "clinical",
+    "note": "4–6 h, never overnight."
+  },
+  {
+    "key": "library.taping.assist.instructions",
+    "reason": "clinical",
+    "note": "Zygomatic line and brow strips; keep clear of the eye."
+  },
+  {
+    "key": "library.taping.assist.tension",
+    "reason": "clinical",
+    "note": "25% stretch."
+  },
+  {
+    "key": "library.taping.assist.wear",
+    "reason": "clinical",
+    "note": "During exercise + up to 4 h after."
+  },
+  {
+    "key": "library.taping.guide.instructions",
+    "reason": "clinical",
+    "note": "Lower lid support: never across the lid, below orbital rim ('rebordo da órbita')."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.where",
+    "reason": "terminology",
+    "note": "'Cheek counter-cue' = 'Indicação contrária na bochecha' (avoided 'contra-indicação', which means contraindication)."
+  },
+  {
+    "key": "library.taping.guide.tension",
+    "reason": "clinical",
+    "note": "15% stretch."
+  },
+  {
+    "key": "library.taping.guide.wear",
+    "reason": "clinical",
+    "note": "20–30 min during coordination only."
+  },
+  {
+    "key": "library.routine.eye.instructions",
+    "reason": "clinical",
+    "note": "Eye care routine items (also library.routine.eye.items.*)."
+  },
+  {
+    "key": "library.routine.eye.body",
+    "reason": "clinical",
+    "note": "Cornea protection, preservative-free drops, ointment."
+  },
+  {
+    "key": "library.routine.eat.body",
+    "reason": "clinical",
+    "note": "Eating/drinking advice; straw."
+  },
+  {
+    "key": "library.routine.massage.body",
+    "reason": "clinical",
+    "note": "Massage guidance; stop if twitching."
+  },
+  {
+    "key": "library.routine.sleep.body",
+    "reason": "clinical",
+    "note": "Sleeping position."
+  },
+  {
+    "key": "library.routine.speech.items.i2",
+    "reason": "terminology",
+    "note": "English 'p, b, m, f, v, w' — dropped 'w' (not a Portuguese labial sound). Same in library.routine.speech.instructions."
+  },
+  {
+    "key": "library.routine.speech.body",
+    "reason": "terminology",
+    "note": "'Plosive and labial sounds' = 'sons explosivos e labiais'."
+  },
+  {
+    "key": "passwordReset.forgot.sent",
+    "reason": "legal",
+    "note": "Security wording kept non-committal: \"Se existir uma conta com este email, enviámos uma ligação de reposição.\""
+  },
+  {
+    "key": "admin.roles.admin",
+    "reason": "terminology",
+    "note": "Admin rendered \"Administrador\" everywhere (roles, counts, emails); no short \"Admin\" form used."
+  },
+  {
+    "key": "admin.audit.actions.user_demoted_self_registered",
+    "reason": "terminology",
+    "note": "\"Clínico autorregistado despromovido\" — confirm wording for demotion of self-registered clinicians."
+  },
+  {
+    "key": "admin.users.you",
+    "reason": "tone",
+    "note": "Badge for own row rendered \"Você\"; the rest of pt-PT avoids pronouns. Alternative: \"(a sua conta)\"."
+  },
+  {
+    "key": "clinician.patient.notes.hint",
+    "reason": "legal",
+    "note": "Patient's record rendered \"processo do doente\"; notes immutable (\"não podem ser editadas nem eliminadas\")."
+  },
+  {
+    "key": "clinician.patient.stage.intro",
+    "reason": "clinical",
+    "note": "Clinician stage override wording."
+  },
+  {
+    "key": "emails.changed.notYou",
+    "reason": "tone",
+    "note": "\"If this wasn't you\" rendered \"Se não reconhece esta alteração\" to avoid \"você\" (also in emails.changed.preheader)."
+  },
+  {
+    "key": "passwordReset.forgotLink",
+    "reason": "terminology",
+    "note": "Reset link = \"ligação de reposição\"; reset = \"repor\" (not \"redefinir\", which leans pt-BR)."
+  }
+]

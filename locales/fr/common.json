@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Une rééducation guidée pour la paralysie faciale."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Langue",
+    "change": "Langue : {language}. Changer de langue"
+  },
+  "nav": {
+    "main": "Principal",
+    "menu": "Menu",
+    "closeMenu": "Fermer le menu",
+    "home": "Accueil Palsya",
+    "howItWorks": "Fonctionnement",
+    "guides": "Guides",
+    "stories": "Témoignages",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "logIn": "Connexion",
+    "startTrial": "Essai gratuit de 7 jours",
+    "myDashboard": "Mon tableau de bord",
+    "logOut": "Se déconnecter",
+    "signedInAs": "Connecté en tant que {name}"
+  },
+  "footer": {
+    "tagline": "Rééducation guidée de la paralysie faciale périphérique. Conçue et supervisée par des cliniciens qui font ce travail en consultation.",
+    "location": "Lisbonne et Amsterdam · Fondée en {year}",
+    "product": "Produit",
+    "guides": "Guides",
+    "company": "Entreprise",
+    "links": {
+      "howItWorks": "Fonctionnement",
+      "pricing": "Tarifs",
+      "stories": "Témoignages de récupération",
+      "startFree": "Commencer gratuitement",
+      "signIn": "Se connecter",
+      "about": "À propos",
+      "team": "Équipe clinique",
+      "contact": "Contact et assistance",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Avertissement médical.",
+    "copyright": "© {year} Palsya Health, Lda. Tous droits réservés.",
+    "trust": {
+      "gdpr": "Conforme au RGPD",
+      "eu": "Serveurs dans l'UE",
+      "languages": "{count} langues",
+      "stripe": "Paiements via Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya est un programme d'accompagnement à la rééducation. Il ne pose pas de diagnostic et ne remplace pas les soins médicaux. Faites toujours établir un diagnostic par un médecin avant de commencer, et consultez un médecin le jour même en cas de douleur à l'œil, de rougeur ou de modification de la vue.",
+  "actions": {
+    "back": "Retour",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "retry": "Réessayer",
+    "signOut": "Se déconnecter",
+    "loading": "Chargement…"
+  }
+}

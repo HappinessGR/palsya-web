@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Welkom",
+    "assessment": "Assessering",
+    "stage": "U fase",
+    "preferences": "Voorkeure",
+    "consent": "Toestemming",
+    "ready": "Gereed"
+  },
+  "stepIndicator": "Stap {current} van {total} · {label}",
+  "nav": {
+    "back": "Terug",
+    "continue": "Gaan voort"
+  },
+  "welcome": {
+    "eyebrow": "Voordat ons begin",
+    "heading": "Sestien vrae, sowat agt minute",
+    "lead": "U antwoorde bepaal waar u program begin. Daar is geen regte antwoord nie en niks om te slaag nie — 'n optimistiese antwoord gee u net 'n program wat nie pas nie.",
+    "mirrorTitle": "Hou 'n spieël byderhand",
+    "mirrorBody": "Drie vrae vra dat u 'n beweging probeer en kyk wat gebeur. 'n Badkamerspieël in egalige lig is ideaal.",
+    "safetyTitle": "Ons sal u sê as ons nie vir u geskik is nie",
+    "safetyBody": "Sommige antwoorde beteken dat u 'n dokter eerder as 'n toep nodig het. As dit gebeur, hou ons op en sê dit reguit.",
+    "clinicalNote": "<b>Hierdie vrae is deur ons kliniese span geskryf.</b> Die indeling wat hulle oplewer, volg dieselfde redenasie wat 'n fisioterapeut in 'n eerste afspraak gebruik: die tyd sedert aanvang, dan wat werklik beweeg, dan of bewegings gekoppel is.",
+    "start": "Begin die assessering",
+    "learnMore": "Lees eers oor die fases"
+  },
+  "assessment": {
+    "sectionIndicator": "Afdeling {current} van {total}",
+    "previous": "Vorige",
+    "seeMyStage": "Sien my fase",
+    "errRequired": "Beantwoord asseblief hierdie een — u program hang daarvan af.",
+    "errFutureDate": "Daardie datum is in die toekoms. Gaan dit asseblief na.",
+    "meta": {
+      "title": "Assessering — Palsya",
+      "description": "Beantwoord 'n kort vraelys sodat ons u in die regte fase van u program vir gesigsverlamming kan plaas."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Hou asseblief vir eers hier op",
+    "blockedLead": "Iets in u antwoorde het 'n dokter nodig eerder as 'n rehabilitasieprogram. Ons verloor eerder u registrasie as dat u in elk geval begin.",
+    "blockedSavedTitle": "U antwoorde is gestoor",
+    "blockedSavedBody": "Niks gaan verlore nie. Wanneer u gesien is — of wanneer genoeg tyd verloop het — meld weer aan en u assessering sal wees waar u dit gelos het. U kan intussen ook elke gids in die kennisbasis lees, gratis en sonder 'n rekening.",
+    "readGuides": "Lees die gidse",
+    "continueAnyway": "Ek is ondersoek — gaan voort",
+    "eyebrow": "U indeling",
+    "stageHeading": "U begin in fase {stage}",
+    "stageBandLabel": "Fase {n}",
+    "whyStageHeading": "Waarom fase {stage}",
+    "daysSinceOnset": "Dae sedert aanvang",
+    "confidenceLabel": "Betroubaarheid",
+    "confidenceHigh": "Hoog — u antwoorde pas in 'n duidelike patroon",
+    "confidenceMedium": "Middelmatig — een antwoord pas nie heeltemal nie",
+    "confidenceLow": "Laag — 'n klinikus sal dit hersien",
+    "typicalWindow": "Tipiese tydperk",
+    "dailyMeaning": "Wat dit vir u dag beteken",
+    "yourFocus": "U fokus",
+    "whatToAvoid": "Wat om te vermy",
+    "tapingLabel": "Kleefband in hierdie fase:",
+    "reviewNotice": "<b>'n Klinikus sal hierdie indeling hersien.</b> Dit is omdat {why}. U kan vandag begin — as die hersiening iets verander, sal u binne een werksdag vertel word wat verander het en waarom.",
+    "reasonJoiner": ", en ",
+    "stageNotFixedNote": "U fase is nie vas nie. Dit skuif wanneer u skanderings en u eie verslae sê dit moet — vorentoe, en soms terug ná siekte of 'n lang tydperk van moegheid. Terug is 'n aanpassing, nie verlore grond nie.",
+    "changeAnswer": "Verander 'n antwoord",
+    "setupSessions": "Stel my sessies op",
+    "confirmTitle": "Gaan in elk geval voort?",
+    "confirmText": "Doen dit slegs as 'n dokter u ondersoek het en vir u gesê het dat dit gepas is om met rehabilitasie te begin. Ons sal op u rekord aanteken dat u ondanks 'n veiligheidswaarskuwing voortgegaan het.",
+    "confirmOk": "Ek is ondersoek",
+    "confirmCancel": "Gaan terug",
+    "meta": {
+      "title": "U fase — Palsya",
+      "description": "U indeling in die program, en waarom ons u daar geplaas het."
+    },
+    "stageHeadingNamed": "U begin in fase {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Voorkeure",
+    "heading": "Hoe moet ons in u dag inpas?",
+    "lead": "Alles hier kan later verander word, en niks daarvan word gebruik om u te karnuffel nie.",
+    "remindersTitle": "Herinneringe",
+    "remindersBody": "Een herinnering op 'n tyd wat u kies. As u dit mis, is dit die einde daarvan — daar is geen tweede herinnering wat na die eerste verwys nie, en niks wat sê dat u iets gebreek het nie.",
+    "remindMeLabel": "Herinner my aan my sessie",
+    "firstSession": "Eerste sessie",
+    "secondSession": "Tweede sessie (opsioneel)",
+    "languageTitle": "Taal",
+    "languageBody": "Die hele toep en elke gids, in {count, number} tale. Konsultasies is waar moontlik met 'n klinikus wat u taal praat.",
+    "interfaceLanguage": "Koppelvlaktaal",
+    "displayTitle": "Lees en vertoning",
+    "textSize": "Teksgrootte",
+    "sizeNormal": "Normaal",
+    "sizeLarge": "Groot",
+    "sizeXl": "Ekstra groot",
+    "sizeHint": "Baie van ons gebruikers is ouer as 60. Daar is 'n rede waarom dit nie in 'n instellingsmenu weggesteek is nie.",
+    "mirrorLabel": "Spieël die kameravoorskou (die meeste mense vind dit makliker)",
+    "emailTitle": "E-pos",
+    "weeklySummary": "'n Weeklikse opsomming van wat gemeet en aangeteken is",
+    "clinicianUpdates": "Laat my weet wanneer 'n klinikus 'n nota byvoeg of my program verander",
+    "meta": {
+      "title": "Voorkeure — Palsya",
+      "description": "Kies herinneringe, leesgrootte en e-posse vir u program."
+    },
+    "languageHint": "U kan dit enige tyd verander in die taalkieslys bo-aan elke bladsy. Dit verander niks anders aan u program nie."
+  },
+  "consent": {
+    "eyebrow": "Toestemming en privaatheid",
+    "heading": "Waartoe u instem, in gewone woorde",
+    "lead": "Twee hiervan is verpligtend omdat die program nie daarsonder kan werk nie. Die res verander werklik niks aan u program of u prys as u weier nie.",
+    "required": "Verpligtend",
+    "optional": "Opsioneel",
+    "dataProcessing": {
+      "title": "Verwerking van my gesondheidsdata",
+      "body": "U assesseringsantwoorde, fase, sessielogboeke en notas. Dit is data van 'n spesiale kategorie ingevolge artikel 9 van die GDPR, en ons verwerk dit met u uitdruklike toestemming. Daarsonder is daar geen program om te bedryf nie."
+    },
+    "photoStorage": {
+      "title": "Ontleding van skanderings van my gesig",
+      "body": "Landmerkbepaling gebeur op u toestel. Om die beelde te <b>stoor</b>, is die volgende item en is afsonderlik — as u dit weier, kry u steeds tellings, net geen fototydlyn nie."
+    },
+    "photoKeep": {
+      "title": "Stoor van my skanderingsfoto's sodat ek my tydlyn kan sien",
+      "body": "Geënkripteer bewaar, slegs sigbaar vir u en vir klinici met wie u dit deel. U kan enige enkele foto, of almal, op enige tyd uitvee, en daardie uitvee is werklik."
+    },
+    "clinicianShare": {
+      "title": "Deel van my vordering met 'n klinikus wat ek kies",
+      "body": "Slegs met iemand wat u noem, slegs wat u stuur, en herroepbaar. As u 'n verwysingskode van u eie fisioterapeut het, is dit dié een wat hulle u verslae laat sien."
+    },
+    "researchOptIn": {
+      "title": "Gebruik van my geanonimiseerde data vir navorsing",
+      "body": "Saamgevoeg en van identifiseerders gestroop, gebruik om te verstaan wat help. Nooit verkoop nie. As u weier, verander dit niks aan u program, u prys of u klinikus nie."
+    },
+    "marketing": {
+      "title": "Af en toe e-posse oor nuwe gidse en funksies",
+      "body": "Nie 'n eindelose nuusbrief nie. Ongeveer maandeliks, en om te kanselleer, neem een klik."
+    },
+    "laterNote": "<b>U kan enigeen hiervan later verander</b>, by Instellings → Privaatheid en data. As u toestemming vir die stoor van foto's terugtrek, word die gestoorde beelde uitgevee; u tellings bly behoue tensy u dit afsonderlik uitvee.",
+    "submit": "Stem in en gaan voort",
+    "errRequired": "Die twee verpligte toestemmings is nodig sodat die program kan werk.",
+    "meta": {
+      "title": "Toestemming en privaatheid — Palsya",
+      "description": "Waartoe u instem, in gewone woorde."
+    },
+    "gdprNote": "U gesondheidsdata is data van 'n spesiale kategorie ingevolge die GDPR en word slegs met u uitdruklike toestemming verwerk, geënkripteer in rus en tydens oordrag, en nooit verkoop of vir advertensies gebruik nie.",
+    "termsAgreement": "Deur voort te gaan, stem u in tot Palsya se <link>diensbepalings en privaatheidsbeleid</link>."
+  },
+  "ready": {
+    "title": "Alles is gereed, {name}",
+    "summary": "Fase {stage} — {name}, sowat {minutes} minute per dag, verdeel in {sessions}.",
+    "tapingTitle": "Kleefband",
+    "tapingSummary": "{name} — {minutes} minute.",
+    "tapingHint": "U sal elastiese terapeutiese kleefband nodig hê. Enige handelsmerk. Toets dit eers op u voorarm vir 'n velreaksie.",
+    "exercisesTitle": "Oefeninge",
+    "exercisesSummary": "{count} oefeninge, {minutes} minute, met 'n tydhouer begelei.",
+    "exercisesHint": "'n Spieël in egalige lig help baie in die vroeë fases.",
+    "routineTitle": "Daaglikse roetine",
+    "routineSummary": "{count} items, {minutes} minute, insluitend oogsorg.",
+    "routineHint": "Oogbeskerming kom eerste, voor elke oefening.",
+    "trialTitle": "U gratis 7 dae begin nou",
+    "trialSummary": "{price} vir drie maande, gehef op {date} tensy u voor dan kanselleer. Ons sal u op dag 5 'n e-pos stuur om u te herinner, wat die teenoorgestelde is van hoe dit gewoonlik werk.",
+    "changePlan": "Verander plan",
+    "goToSession": "Gaan na vandag se sessie",
+    "meta": {
+      "title": "Alles is gereed — Palsya",
+      "description": "U program is gereed: kleefband, oefeninge en u daaglikse roetine."
+    },
+    "titleNoName": "Alles is gereed",
+    "sessionsFallback": "u daaglikse sessie",
+    "priceFallback": "U gekose plan"
+  },
+  "meta": {
+    "title": "Welkom — Palsya",
+    "description": "Sestien vrae, sowat agt minute. U antwoorde bepaal waar u herstelprogram begin."
+  }
+}

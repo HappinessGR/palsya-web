@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Beschermen",
+      "short": "De zenuw is ontstoken. Het werk is beschermen, niet inspannen.",
+      "window": "Meestal dag 1–14 na het begin",
+      "body": "Niets wat u in deze fase met de spieren doet, versnelt het herstel van de zenuw, en hard duwen kan het later juist moeilijker maken. Daarom is het programma bewust rustig: het oog beschermen, het weefsel soepel houden, de rusthouding van het gezicht ondersteunen en de ontsteking laten afnemen.",
+      "focus": {
+        "f1": "Oogbescherming en bevochtiging",
+        "f2": "Passieve ondersteuning, geen geforceerde beweging",
+        "f3": "Zachte massage voor de doorbloeding",
+        "f4": "Slaap en rust"
+      },
+      "avoid": {
+        "a1": "Geforceerde bewegingen of bewegingen met maximale kracht",
+        "a2": "Elektrostimulatie",
+        "a3": "Kauwgom kauwen als \"oefening\"",
+        "a4": "Doorgaan ondanks pijn"
+      },
+      "tapeMode": "Ondersteuning in rust — tilt het middengezicht op tegen de zwaartekracht. Geen trek in een beweging."
+    },
+    "2": {
+      "name": "Activeren",
+      "short": "De eerste signalen komen aan. We helpen de hersenen ze te vinden.",
+      "window": "Meestal week 2–6, zodra er een eerste trilling van beweging is",
+      "body": "Een trilling is genoeg om mee te werken. Het doel is nu de kleinste beweging te vinden die u echt kunt maken en die nauwkeurig te herhalen, in plaats van een grote beweging slecht te maken. Klein en correct wint het van groot en met meebewegingen.",
+      "focus": {
+        "f1": "De kleinste bewuste beweging vinden",
+        "f2": "Herhalingen met weinig kracht en veel precisie",
+        "f3": "Feedback in de spiegel voor de richting",
+        "f4": "De gezonde kant stil houden"
+      },
+      "avoid": {
+        "a1": "Krampachtig persen, waardoor de verkeerde spieren meedoen",
+        "a2": "Lange series — vermoeidheid maakt het patroon slechter",
+        "a3": "Tijdens de oefening de twee kanten vergelijken"
+      },
+      "tapeMode": "Ondersteunend — de tape helpt bij de beweging die u probeert te maken, zodat er minder kracht nodig is."
+    },
+    "3": {
+      "name": "Coördinatie",
+      "short": "Er is beweging. Nu moet die gaan waar u haar naartoe stuurt.",
+      "window": "Meestal week 6–16",
+      "body": "In deze fase kunnen de meeste mensen bewegen, maar die beweging nog niet los van de rest maken — het oog wordt kleiner als u glimlacht, of de mondhoek trekt mee als u het oog sluit. Coördinatietraining leert u bewegingen los te koppelen. Dat gaat langzamer en voelt minder bevredigend dan krachttraining, en het is belangrijker.",
+      "focus": {
+        "f1": "Oogbeweging loskoppelen van mondbeweging",
+        "f2": "Langzaam en gecontroleerd door het middengebied van de beweging",
+        "f3": "Een positie vasthouden in plaats van er in één keer naartoe te schieten",
+        "f4": "Ontspanning tussen de herhalingen"
+      },
+      "avoid": {
+        "a1": "Snelle herhalingen",
+        "a2": "Het gekoppelde patroon oefenen dat u juist wilt afleren",
+        "a3": "Doorgaan als u al vermoeid bent"
+      },
+      "tapeMode": "Richtinggevend — de tape geeft een richtingsprikkel en ontmoedigt de meebeweging."
+    },
+    "4": {
+      "name": "Verfijnen",
+      "short": "Het gezicht werkt. We zoeken controle met weinig inspanning.",
+      "window": "Meestal maand 4–9",
+      "body": "Verfijnen gaat over de bewegingen die u maakt zonder erbij na te denken: praten, eten, gezichtsuitdrukkingen in een gesprek. De oefeningen komen dichter bij het echte leven en verder van de spiegel af, en omgaan met spanning wordt net zo belangrijk als activeren.",
+      "focus": {
+        "f1": "Mimiek tijdens het praten",
+        "f2": "Symmetrie bij de inspanning van een gesprek, niet bij maximale inspanning",
+        "f3": "Stijfheid en overmatig aanspannen loslaten",
+        "f4": "Uithoudingsvermogen over de hele dag"
+      },
+      "avoid": {
+        "a1": "Houdingen met maximale kracht vasthouden",
+        "a2": "Stijfheid negeren omdat er beweging is"
+      },
+      "tapeMode": "Af en toe — voor specifieke taken of bij vermoeidheid, niet dagelijks."
+    },
+    "5": {
+      "name": "Onderhouden",
+      "short": "Vasthouden wat u hebt opgebouwd, en het gebruiken.",
+      "window": "Vanaf ongeveer maand 9",
+      "body": "Het herstel vlakt af, maar gaat meestal niet achteruit. Een kortere onderhoudsroutine beschermt de bewegingsruimte en voorkomt dat stijfheid terugsluipt, met af en toe een scan zodat eventuele verschuiving vroeg wordt opgemerkt en niet pas laat wordt ontdekt.",
+      "focus": {
+        "f1": "Korte dagelijkse onderhoudsroutine",
+        "f2": "Rekken en losmaken",
+        "f3": "Af en toe een scan om stabiliteit te bevestigen",
+        "f4": "Weer volledig actief worden"
+      },
+      "avoid": {
+        "a1": "Helemaal stoppen en ongemerkt bewegingsruimte verliezen"
+      },
+      "tapeMode": "Niet standaard. Beschikbaar voor vermoeiende dagen of speciale gelegenheden."
+    }
+  },
+  "taping": {
+    "restingSupport": "Ondersteuning in rust",
+    "movementAssist": "Bewegingsondersteuning",
+    "directionalGuide": "Richtinggevende geleiding"
+  }
+}

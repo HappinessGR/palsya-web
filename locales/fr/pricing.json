@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Tarifs — Palsya",
+    "description": "Sept jours gratuits, puis des formules de trois mois : application seule, ou avec deux ou six consultations vidéo. Pas de compte à rebours, résiliation en deux clics."
+  },
+  "hero": {
+    "eyebrow": "Tarifs",
+    "title": "Sept jours gratuits, puis trois mois",
+    "lead": "Rien n'est présélectionné, il n'y a pas de compte à rebours, et l'option du milieu est indiquée comme la plus choisie parce qu'elle l'est, pas pour vous orienter."
+  },
+  "card": {
+    "mostChosen": "La plus choisie",
+    "period": "/ {months, plural, one {# mois} other {# mois}}",
+    "perDay": "{price} par jour",
+    "goToDashboard": "Aller au tableau de bord",
+    "subscribe": "S'abonner",
+    "startTrial": "{days, plural, one {# jour gratuit} other {# jours gratuits}}"
+  },
+  "plans": {
+    "app": {
+      "name": "Application seule",
+      "forWho": "Pour les personnes qui veulent un cadre structuré et sont déjà suivies par un clinicien à qui elles peuvent poser leurs questions.",
+      "features": {
+        "programme": "Programme guidé complet, les cinq étapes",
+        "sessions": "Séances quotidiennes avec consignes de taping et d'exercices",
+        "scans": "Scans par caméra et suivi de la symétrie",
+        "timeline": "Chronologie de photos et bilans d'évolution",
+        "knowledge": "Base de connaissances complète en 7 langues",
+        "support": "Assistance par e-mail sous un jour ouvré"
+      }
+    },
+    "guided": {
+      "name": "Application + 2 consultations",
+      "forWho": "Celle que la plupart des gens choisissent. Deux appels suffisent généralement à repérer les erreurs qui comptent — tension du taping, niveau d'effort et apparition d'une syncinésie.",
+      "features": {
+        "everything": "Tout le contenu de la formule Application seule",
+        "consults": "<b>Deux consultations vidéo de 30 minutes</b> avec un spécialiste de la rééducation faciale",
+        "notes": "Des notes écrites et un plan après chaque appel",
+        "adjusted": "Votre programme ajusté par un clinicien, pas seulement par l'algorithme",
+        "priority": "Assistance prioritaire sous quatre heures ouvrées"
+      }
+    },
+    "supported": {
+      "name": "Application + 6 consultations",
+      "forWho": "Pour les situations plus complexes : syncinésie importante, récupération après une chirurgie, progrès lents au début, ou toute personne qui souhaite simplement un contact régulier avec quelqu'un.",
+      "features": {
+        "everything": "Tout le contenu de la formule Application + 2 consultations",
+        "consults": "<b>Six consultations vidéo de 30 minutes</b> — environ toutes les deux semaines",
+        "continuity": "Le même clinicien du début à la fin",
+        "messages": "Messagerie directe avec votre clinicien",
+        "scanReviews": "Examen de vos scans entre les appels"
+      }
+    }
+  },
+  "table": {
+    "title": "Le contenu de chaque formule",
+    "feature": "Fonctionnalité",
+    "consultsHeader": "+{count, plural, one {# consultation} other {# consultations}}",
+    "days": "{count, plural, one {# jour} other {# jours}}",
+    "hours": "{count, plural, one {# heure} other {# heures}}",
+    "rows": {
+      "programme": "Programme guidé complet, cinq étapes",
+      "guidance": "Consignes quotidiennes de taping et d'exercices",
+      "scans": "Scans par caméra et suivi de la symétrie",
+      "timeline": "Chronologie de photos et comparaison",
+      "reports": "Bilans d'évolution générés par IA",
+      "knowledge": "Base de connaissances, {count} langues",
+      "share": "Partage des bilans avec votre propre clinicien",
+      "consults": "Consultations vidéo",
+      "notes": "Notes écrites après chaque appel",
+      "sameClinician": "Le même clinicien tout au long",
+      "messages": "Messagerie avec votre clinicien",
+      "scanReviews": "Examen des scans entre les appels",
+      "support": "Délai de réponse de l'assistance"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "Après les trois premiers mois",
+      "body": "Prolongez de mois en mois pour {price}, ou arrêtez. La plupart des personnes en étape 4 ou 5 prolongent de deux ou trois mois, puis passent seules à une courte routine d'entretien."
+    },
+    "consult": {
+      "title": "Consultations supplémentaires",
+      "body": "{price} l'unité, quelle que soit la formule. À réserver depuis votre compte, généralement disponibles sous trois jours."
+    },
+    "referral": {
+      "title": "Orienté par un clinicien ?",
+      "body": "{discount, number, percent} de réduction sur vos trois premiers mois. Saisissez son code de parrainage lors du paiement — il pourra aussi consulter vos bilans d'évolution, si vous l'acceptez séparément."
+    },
+    "reducedCost": {
+      "title": "Si le coût pose problème",
+      "body": "Écrivez-nous. Nous réservons chaque mois un certain nombre de places à tarif réduit pour les personnes qui n'en ont pas les moyens, et on ne vous demandera rien de plus qu'une phrase sur votre situation."
+    }
+  },
+  "faq": {
+    "title": "Questions sur le paiement",
+    "all": "Toutes les questions fréquentes"
+  }
+}

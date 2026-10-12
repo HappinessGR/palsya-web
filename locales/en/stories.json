@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Recovery stories — Palsya",
+    "description": "Real recoveries from Palsya users, including the plateaus and setbacks, plus reviews, clinician endorsements and press."
+  },
+  "hero": {
+    "eyebrow": "Social proof, honestly labelled",
+    "title": "Real recoveries, including the difficult parts",
+    "lead": "Every story here is from a real user who agreed to it, with names shortened at their request. We have not removed the plateaus, the setbacks, or the outcomes that stopped short of full recovery — those are the ones people actually need to read."
+  },
+  "quoted": "“{text}”",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · started at week {week, number} · {months, plural, one {# month in} other {# months in}}"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "lead": "Collected in-app from users who have completed at least four weeks. We publish the low ones too.",
+    "stars": "{n, number} out of {max, number} stars",
+    "verified": "Verified user"
+  },
+  "clinicians": {
+    "title": "From clinicians",
+    "lead": "Independent clinicians who refer patients to us. None of them are paid for this.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Press and publications",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Warsaw",
+      "dx": "Bell's palsy",
+      "summary": "From a complete right-sided palsy to eating and speaking normally, with mild synkinesis remaining.",
+      "body": "Marta woke on a Tuesday unable to close her right eye. Steroids started within 48 hours. She began Palsya at week two, in Stage 1, and spent eleven days doing almost nothing but eye protection and light massage — which she describes as the hardest part of the whole programme. The first flicker in her cheek came at day 19. Synkinesis appeared around week seven, which she found more distressing than the original paralysis. Coordination work through Stages 3 and 4 reduced it substantially but not completely. Five months in, she has mild eye narrowing when she smiles broadly and full function otherwise.",
+      "quote": "The stillness at the start felt like giving up. It was not. I understand that now and I did not then."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Bell's palsy",
+      "summary": "A slow start, a nine-week plateau, and steady change after it.",
+      "body": "Tomás came to Palsya late, at week six, with no movement at all and having been told to wait and see. His first eight scans moved by less than four points, which is inside the measurement margin and therefore not really movement at all. He describes weeks seven through fifteen as the point where he stopped believing anything would change. His clinician kept him in Stage 2 through that entire period rather than advancing him, on the reasoning that advancing a programme ahead of the function is how compensations get established. Movement became clearly voluntary at week sixteen. By month seven his symmetry score had risen twenty-two points from baseline.",
+      "quote": "Nine weeks of flat lines. My physio would not move me on and she was right, but I resented her for about a month."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Post-surgical",
+      "summary": "Facial nerve injury after acoustic neuroma surgery, with a partial and asymmetric recovery.",
+      "body": "Sanne's paralysis followed surgery, which puts her in a different category from Bell's palsy: the recovery pattern was less predictable and the timeline longer. She used the six-consultation package throughout and stayed with the same clinician for nine months. Her mouth recovered substantially, her eye partially, and her forehead barely at all — an uneven pattern that she says was easier to accept once someone explained why it happens rather than treating it as a shortfall. She continues in Stage 5 with a short maintenance routine and a scan every six weeks.",
+      "quote": "I stopped measuring myself against the face I used to have. That was not a defeat. It was the thing that let me get on with it."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "The bit that helped most was being told to do less. I had been forcing the smile as hard as I could, twice a day, for five weeks. My physio on the second call spotted it in about a minute.",
+      "ctx": "Bell's palsy · Kraków · started at week 3"
+    },
+    "aisling": {
+      "quote": "I could see the change in the photo timeline before I could see it in the mirror. That mattered more than I expected during the weeks where nothing seemed to be happening.",
+      "ctx": "Bell's palsy · Cork · started at week 2"
+    },
+    "dieter": {
+      "quote": "Ramsay Hunt, so a slower road than most. What I appreciated was that nobody pretended otherwise or promised me a timeline they could not know.",
+      "ctx": "Ramsay Hunt syndrome · Leipzig · started at week 6"
+    },
+    "rosa": {
+      "quote": "I am 71 and not good with apps. It is one screen with one button. My daughter set it up and I have used it on my own since the second day.",
+      "ctx": "Bell's palsy · Valencia · started at week 4"
+    },
+    "youssef": {
+      "quote": "Six months in, my face is not the face I had. But I can drink from a glass, I can eat in a restaurant, and I stopped avoiding photographs. That was the actual goal.",
+      "ctx": "Post-surgical facial nerve injury · Lyon"
+    },
+    "lena": {
+      "quote": "The eye care instructions were more useful than anything I got at the hospital, where I was handed a leaflet and sent home. My cornea is fine and I think that is why.",
+      "ctx": "Bell's palsy · Malmö · started at week 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "Consultant Otolaryngologist",
+      "where": "Vienna",
+      "quote": "What is unusual here is the restraint. The programme does not promise recovery, does not grade patients against each other, and is explicit about where the evidence is thin. I refer patients to it and I read the progress reports they send me."
+    },
+    "aubert": {
+      "role": "Neurorehabilitation, university hospital",
+      "where": "Lille",
+      "quote": "Stage-matching is the part that matters clinically. Handing every patient the same exercise sheet regardless of whether they have synkinesis is common practice and it is not good practice. This does better than that."
+    },
+    "solberg": {
+      "role": "Specialist facial physiotherapist",
+      "where": "Oslo",
+      "quote": "I use the scan timeline in my own clinic sessions. Being able to show a patient objective change during a nine-week plateau does something for them that my reassurance alone does not."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "The rehabilitation apps that refuse to gamify recovery",
+      "kind": "Feature"
+    },
+    "jdr": {
+      "headline": "Remote facial neuromuscular retraining: an observational cohort of 1,204 users",
+      "kind": "Peer-reviewed"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Interview"
+    },
+    "bpa": {
+      "headline": "Reviewed resource: Palsya",
+      "kind": "Patient organisation"
+    }
+  }
+}

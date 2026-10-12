@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Admin — Palsya",
+    "description": "Palsya back office."
+  },
+  "heading": "Admin",
+  "headingNamed": "Admin — {name}",
+  "subtitle": "Back office",
+  "nav": {
+    "label": "Admin sections",
+    "overview": "Overview",
+    "users": "Users",
+    "invite": "Invite",
+    "audit": "Audit log"
+  },
+  "roles": {
+    "patient": "Patient",
+    "clinician": "Clinician",
+    "admin": "Admin"
+  },
+  "statuses": {
+    "active": "Active",
+    "suspended": "Deactivated",
+    "pending_verification": "Pending verification"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Patients",
+      "clinicians": "Clinicians",
+      "admins": "Admins",
+      "unassigned": "Unassigned patients",
+      "pendingInvitations": "Pending invitations"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Manage",
+      "users": "Users",
+      "usersBody": "Change roles, deactivate accounts and assign patients to clinicians.",
+      "invite": "Invite staff",
+      "inviteBody": "Invite a clinician or admin by email and manage pending invitations.",
+      "audit": "Audit log",
+      "auditBody": "See who did what, and when."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Users — Palsya admin",
+      "description": "Manage Palsya accounts, roles and clinician assignments."
+    },
+    "heading": "Users",
+    "subtitle": "Roles, account status and clinician assignments.",
+    "filter": {
+      "label": "Filter by role",
+      "all": "All"
+    },
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "created": "Created",
+      "clinician": "Assigned clinician",
+      "actions": "Actions"
+    },
+    "you": "You",
+    "empty": "No users match this filter.",
+    "notApplicable": "—",
+    "roleSelect": "Role for {name}",
+    "saveRole": "Change role",
+    "deactivate": "Deactivate",
+    "reactivate": "Reactivate",
+    "clinicianSelect": "Clinician for {name}",
+    "unassigned": "Unassigned",
+    "assign": "Assign",
+    "result": {
+      "role_changed": "Role updated.",
+      "status_changed": "Account status updated.",
+      "assigned": "Clinician assignment updated."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Invite staff — Palsya admin",
+      "description": "Invite clinicians and admins to Palsya."
+    },
+    "heading": "Invite staff",
+    "subtitle": "Clinicians and admins join by invitation only. Patients sign up themselves.",
+    "form": {
+      "title": "New invitation",
+      "email": "Email address",
+      "emailPlaceholder": "name@example.com",
+      "role": "Role",
+      "language": "Email language",
+      "languageHint": "The invitation email is sent in this language.",
+      "submit": "Send invitation"
+    },
+    "pending": {
+      "title": "Pending invitations",
+      "empty": "No pending invitations.",
+      "unavailable": "Pending invitations couldn't be loaded. Try again later.",
+      "email": "Email",
+      "role": "Role",
+      "sent": "Sent",
+      "revoke": "Revoke",
+      "revokeLabel": "Revoke invitation for {email}"
+    },
+    "result": {
+      "invited": "Invitation sent.",
+      "revoked": "Invitation revoked."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Audit log — Palsya admin",
+      "description": "Recent administrative and security events."
+    },
+    "heading": "Audit log",
+    "subtitle": "The latest {count} events, newest first.",
+    "empty": "Nothing has been logged yet.",
+    "columns": {
+      "when": "When",
+      "who": "Who",
+      "action": "Action",
+      "target": "Target",
+      "details": "Details"
+    },
+    "system": "System / anonymous",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "User",
+      "patient": "Patient",
+      "invitation": "Invitation"
+    },
+    "actions": {
+      "role_changed": "Role changed",
+      "user_invited": "User invited",
+      "invitation_revoked": "Invitation revoked",
+      "patient_assigned": "Patient assigned",
+      "user_deactivated": "User deactivated",
+      "user_reactivated": "User reactivated",
+      "patient_stage_changed": "Patient stage changed",
+      "clinician_note_added": "Clinician note added",
+      "password_reset_requested": "Password reset requested",
+      "password_reset_completed": "Password reset completed",
+      "user_demoted_self_registered": "Self-registered clinician demoted"
+    }
+  },
+  "errors": {
+    "not_signed_in": "Your session has ended. Please sign in again.",
+    "forbidden": "You don't have permission to do that.",
+    "invalid_input": "That request wasn't valid. Please try again.",
+    "not_found": "That user or invitation no longer exists.",
+    "invalid_role": "That role isn't allowed here.",
+    "invalid_locale": "Choose one of the listed languages.",
+    "last_admin": "You can't remove the last admin.",
+    "cannot_change_self_status": "You can't deactivate or reactivate your own account.",
+    "not_a_patient": "That account isn't a patient.",
+    "not_a_clinician": "Choose an active clinician.",
+    "invalid_email": "Enter a valid email address.",
+    "already_exists": "An account or invitation already exists for that email.",
+    "invite_failed": "The invitation couldn't be sent. Please try again."
+  }
+}

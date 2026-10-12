@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "A structured daily programme built by facial rehabilitation specialists — taping, exercises, and eye care matched to the stage your recovery is actually in."
+  },
+  "stars": "{n, number} out of 5",
+  "startFree": "Start your free 7 days",
+  "hero": {
+    "eyebrow": "For peripheral facial paralysis",
+    "title": "One side of your face stopped moving. <em>Here is what to do next.</em>",
+    "lead": "A structured daily programme built by facial rehabilitation specialists — taping, exercises, and eye care matched to the stage your recovery is actually in. With scans that show you change you cannot see in the mirror.",
+    "howItWorks": "See how it works",
+    "reassure": {
+      "noCard": "No card needed for 7 days",
+      "noInstall": "Nothing to install",
+      "cancel": "Cancel in two clicks",
+      "languages": "{count, number} languages"
+    },
+    "art": {
+      "stage": "Stage {n} · {name}",
+      "week": "Week {n}",
+      "baseline": "Baseline · {date}",
+      "latest": "Latest · {date}",
+      "baselineAlt": "Baseline face scan showing facial asymmetry",
+      "latestAlt": "Latest face scan showing improved symmetry",
+      "score": "Symmetry score <b>{from} → {to}</b>",
+      "change": "{delta} in {weeks, plural, one {# week} other {# weeks}}"
+    }
+  },
+  "cred": {
+    "people": "<b>{count, number}+</b>people in recovery",
+    "clinician": "<b>Clinician-led</b>protocols and consultations",
+    "gdpr": "<b>GDPR</b>EU servers, on-device scan analysis",
+    "languages": "<b>{count, number}</b>languages",
+    "reviews": "from {count, number} reviews"
+  },
+  "problem": {
+    "eyebrow": "Why we built this",
+    "title": "Most people are sent home with a leaflet",
+    "lead": "A photocopied sheet of exercises, no idea which ones apply to you this week, no way to tell whether anything is working, and four months to wait before your next appointment. That gap is where Palsya lives.",
+    "rightWork": {
+      "title": "The right work for this week",
+      "body": "Forcing a big smile helps in week six and holds you back in week two. Your programme is matched to the stage your recovery is in and changes as that changes."
+    },
+    "proof": {
+      "title": "Proof you are not imagining it",
+      "body": "A weekly scan measures the geometry of your face against your own baseline. During the plateau weeks — and there are plateau weeks — this is what tells you the truth."
+    },
+    "person": {
+      "title": "A person who has seen this before",
+      "body": "Video consultations with facial rehabilitation specialists. Most people are doing one or two things wrong; a clinician usually spots it in the first ten minutes."
+    }
+  },
+  "stages": {
+    "eyebrow": "The programme",
+    "title": "Five stages, because week two and month five are not the same problem",
+    "readGuide": "Read the full guide",
+    "stage": "Stage {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Getting started",
+    "title": "Fifteen minutes to set up",
+    "assessment": {
+      "title": "Answer the assessment",
+      "body": "Sixteen questions about what moves, what does not, and what daily life is like right now. It also checks that we are the right fit — and tells you plainly if we are not."
+    },
+    "plan": {
+      "title": "Get your stage and your plan",
+      "body": "You are placed in one of five stages with the reasoning shown. If your answers are unusual, a clinician reviews the placement before you start."
+    },
+    "daily": {
+      "title": "Ten to twenty minutes a day",
+      "body": "Taping, exercises, and the daily routine, guided step by step. A scan once a week. That is the whole commitment."
+    }
+  },
+  "ethics": {
+    "eyebrow": "What we will not do",
+    "title": "A short list, and we mean it",
+    "predictions": {
+      "title": "No predictions",
+      "body": "We will never tell you when your face will recover or how much of it will come back. Nobody can know that from your data, and being told a number you then miss does real harm."
+    },
+    "guilt": {
+      "title": "No guilt for missed days",
+      "body": "Miss a week and nothing resets, nothing is lost, and no notification tells you that you have broken anything. You open the app and do today's session."
+    },
+    "badges": {
+      "title": "No badges, points, or streaks",
+      "body": "You are recovering from a nerve injury, not playing a game. Progress is shown as measurements and as things you can newly do."
+    },
+    "comparing": {
+      "title": "No comparing you with other patients",
+      "body": "Your scans are compared with your own baseline and nothing else. A leaderboard of faces would be grotesque."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "From people using it",
+    "title": "Verified reviews",
+    "quote": "“{quote}”",
+    "verified": "Verified user",
+    "readStories": "Read full recovery stories"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Three months, because that is how long change takes",
+    "lead": "Seven days free. You are not charged until day 8, and nothing is pre-selected for you.",
+    "mostChosen": "Most chosen",
+    "period": "/ {months, plural, one {# month} other {# months}}",
+    "perDay": "{price} a day",
+    "cta": "Start 7 days free",
+    "after": "After your first three months: {extension} a month, or stop. Extra consultations {consult}. Referred by a clinician? That is {discount, number, percent} off — enter their code at checkout."
+  },
+  "guides": {
+    "eyebrow": "Free to read, no account",
+    "title": "The guides we wish we had been handed",
+    "all": "All seven guides",
+    "read": "{minutes, plural, other {# min read}} · reviewed {date}"
+  },
+  "finalCta": {
+    "title": "Start today, decide on day seven",
+    "lead": "No card, no charge until day 8, and you can take your data with you if you leave."
+  },
+  "face": {
+    "defaultLabel": "Schematic face diagram"
+  }
+}

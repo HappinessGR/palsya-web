@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "À propos de Palsya",
+    "description": "Pourquoi Palsya existe, ce que c'est et ce que ce n'est pas, comment nous sommes financés, et ce que nous refusons de construire."
+  },
+  "hero": {
+    "eyebrow": "À propos",
+    "title": "Nous avons commencé parce qu'une brochure n'est pas un programme"
+  },
+  "story": {
+    "p1": "En 2019, notre responsable produit s'est réveillé sans pouvoir fermer l'œil gauche. On lui a diagnostiqué une paralysie de Bell le jour même, prescrit des corticoïdes, puis on l'a renvoyé chez lui avec une photocopie de neuf exercices faciaux, sans aucun suivi pendant quatre mois.",
+    "p2": "Il a fait les exercices. À fond, deux fois par jour, avec un effort maximal, pendant onze semaines — soit presque la pire chose qu'il pouvait faire, et personne ne lui a dit le contraire avant qu'il ne trouve, au quatrième mois, un kinésithérapeute spécialisé en consultation privée. À ce moment-là, la syncinésie était installée, et il a fallu six mois de plus de travail de coordination pour la réduire.",
+    "p3": "Les informations qui auraient changé sa récupération existaient. Elles figuraient dans la formation des kinésithérapeutes, dans les consultations spécialisées, dans les revues scientifiques. Elles n'étaient pas entre ses mains, dans sa langue, le jour où il en avait besoin."
+  },
+  "whatWeAre": {
+    "title": "Ce que nous sommes",
+    "body": "Un programme de rééducation de la paralysie faciale périphérique, accessible dans un navigateur, conçu et supervisé par des cliniciens qui font ce travail en consultation. Fondé en 2023, basé à Lisbonne et à Amsterdam, utilisé aujourd'hui par environ quatorze mille personnes dans vingt-deux pays."
+  },
+  "whatWeAreNot": {
+    "title": "Ce que nous ne sommes pas",
+    "body": "Nous ne sommes pas un service de diagnostic, nous ne remplaçons pas les soins médicaux et nous ne sommes pas un produit de bien-être. Nous ne traitons pas la paralysie faciale comme une question d'état d'esprit. Nous ne vous dirons pas que votre récupération dépend de votre attitude."
+  },
+  "funding": {
+    "title": "Comment nous sommes financés",
+    "body": "Uniquement par les abonnements. Pas de publicité, pas de vente de données, pas de partenariat avec des assureurs qui donnerait à quelqu'un d'autre un intérêt dans ce que fait votre visage. Nous avons réalisé une seule levée de fonds d'amorçage, et nos investisseurs n'ont aucun accès aux données des patients."
+  },
+  "refuse": {
+    "title": "Ce que nous refusons de construire",
+    "body": "Des prédictions de récupération. Des séries de jours consécutifs à entretenir. Des classements de patients. Des notifications qui laissent entendre que vous avez déçu quelqu'un. Des comptes à rebours sur les tarifs. Une procédure de résiliation de plus de deux clics. Ces idées reviennent en réunion produit, et la réponse a toujours été non."
+  },
+  "stats": {
+    "people": {
+      "value": "Plus de {n, number}",
+      "label": "Personnes en rééducation",
+      "detail": "Dans {count, number} pays"
+    },
+    "founded": {
+      "label": "Fondation",
+      "detail": "Lisbonne et Amsterdam"
+    },
+    "languages": {
+      "label": "Langues",
+      "detail": "Application et base de connaissances complètes"
+    },
+    "dataSold": {
+      "label": "Lignes de données vendues",
+      "detail": "À personne, jamais"
+    }
+  },
+  "team": {
+    "title": "Les personnes derrière Palsya",
+    "lead": "Numéros d'inscription professionnelle compris, parce que vous devez pouvoir vérifier.",
+    "cta": "Découvrir l'équipe clinique"
+  }
+}

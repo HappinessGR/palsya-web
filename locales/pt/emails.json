@@ -1,0 +1,26 @@
+{
+  "footer": "Recebe este email devido a atividade na sua conta Palsya. Tem dúvidas? Contacte {support}.",
+  "reset": {
+    "subject": "Reponha a sua palavra-passe da Palsya",
+    "preheader": "Esta ligação é válida durante {minutes} minutos.",
+    "heading": "Reponha a sua palavra-passe",
+    "body": "Recebemos um pedido para repor a palavra-passe da sua conta Palsya. Escolha uma nova palavra-passe com o botão abaixo. A ligação só funciona uma vez e expira dentro de {minutes} minutos.",
+    "button": "Escolher nova palavra-passe",
+    "ignore": "Se não fez este pedido, pode ignorar este email — a sua palavra-passe não será alterada."
+  },
+  "changed": {
+    "subject": "A sua palavra-passe da Palsya foi alterada",
+    "preheader": "Se não reconhece esta alteração, contacte o apoio.",
+    "heading": "A sua palavra-passe foi alterada",
+    "body": "A palavra-passe da sua conta Palsya foi alterada a {when, date, long} às {when, time, short}. A sessão foi terminada nos seus outros dispositivos.",
+    "notYou": "Se não reconhece esta alteração, contacte imediatamente o apoio através de {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {Foi convidado para administrar a Palsya} other {Foi convidado para a Palsya como clínico}}",
+    "preheader": "Aceite o convite e defina a sua palavra-passe.",
+    "heading": "{role, select, admin {Junte-se à Palsya como administrador} other {Junte-se à Palsya como clínico}}",
+    "body": "{inviter} convidou-o para a Palsya {role, select, admin {como administrador} other {como clínico}}. Aceite o convite para definir o seu nome e a sua palavra-passe.",
+    "button": "Aceitar convite",
+    "ignore": "Se não estava à espera deste convite, pode ignorar este email."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "stages": {
+    "1": {
+      "name": "Protection",
+      "short": "Le nerf est enflammé. Le travail consiste à protéger, pas à forcer.",
+      "window": "En général, du 1er au 14e jour après l'apparition",
+      "body": "À ce stade, rien de ce que vous faites avec le muscle n'accélérera le nerf, et forcer peut compliquer la suite. Le programme est donc volontairement calme : protéger l'œil, garder les tissus souples, soutenir la position de repos du visage et laisser l'inflammation se résorber.",
+      "focus": {
+        "f1": "Protection et lubrification de l'œil",
+        "f2": "Soutien passif, sans mouvement forcé",
+        "f3": "Massage doux pour la circulation",
+        "f4": "Sommeil et repos"
+      },
+      "avoid": {
+        "a1": "Les mouvements forcés ou à effort maximal",
+        "a2": "L'électrostimulation",
+        "a3": "Mâcher du chewing-gum en guise d'« exercice »",
+        "a4": "Continuer malgré la douleur"
+      },
+      "tapeMode": "Soutien au repos — remonte le milieu du visage contre la pesanteur. Aucune traction vers le mouvement."
+    },
+    "2": {
+      "name": "Activation",
+      "short": "Les premiers signaux arrivent. Nous aidons le cerveau à les trouver.",
+      "window": "En général, de la 2e à la 6e semaine, dès qu'une ébauche de mouvement apparaît",
+      "body": "Une ébauche de mouvement suffit pour travailler. L'objectif est maintenant de trouver le plus petit mouvement que vous pouvez réellement produire et de le répéter avec précision, plutôt que de produire un grand mouvement mal exécuté. Petit et juste vaut mieux que grand et compensé.",
+      "focus": {
+        "f1": "Trouver le mouvement volontaire minimal",
+        "f2": "Répétitions peu intenses, très précises",
+        "f3": "Retour visuel dans le miroir pour la direction",
+        "f4": "Garder le côté sain au repos"
+      },
+      "avoid": {
+        "a1": "Les efforts appuyés, qui sollicitent les mauvais muscles",
+        "a2": "Les longues séries — la fatigue aggrave le schéma",
+        "a3": "Comparer les deux côtés pendant l'exercice"
+      },
+      "tapeMode": "Assistance — le taping aide le mouvement que vous essayez de faire, pour que l'effort nécessaire soit moindre."
+    },
+    "3": {
+      "name": "Coordination",
+      "short": "Le mouvement est là. Il doit maintenant aller là où vous l'envoyez.",
+      "window": "En général, de la 6e à la 16e semaine",
+      "body": "À ce stade, la plupart des personnes peuvent produire un mouvement mais pas l'isoler — l'œil se ferme à moitié quand vous souriez, ou le coin de la bouche tire quand vous fermez l'œil. Le travail de coordination apprend à dissocier. C'est plus lent et moins gratifiant que le travail de force, et c'est plus important.",
+      "focus": {
+        "f1": "Dissocier le mouvement de l'œil de celui de la bouche",
+        "f2": "Amplitude lente et contrôlée dans la zone médiane du mouvement",
+        "f3": "Tenir une position plutôt que s'y jeter d'un coup",
+        "f4": "Relâchement entre les répétitions"
+      },
+      "avoid": {
+        "a1": "Les répétitions rapides",
+        "a2": "Pratiquer le schéma associé que vous cherchez à désapprendre",
+        "a3": "Travailler au-delà de la fatigue"
+      },
+      "tapeMode": "Guidage — le taping donne un repère de direction et freine le mouvement associé."
+    },
+    "4": {
+      "name": "Affinement",
+      "short": "Le visage fonctionne. Nous visons le contrôle avec peu d'effort.",
+      "window": "En général, du 4e au 9e mois",
+      "body": "L'affinement porte sur les mouvements que vous faites sans y penser : parler, manger, les expressions pendant une conversation. Les exercices se rapprochent de la vie réelle et s'éloignent du miroir, et la gestion des tensions devient aussi importante que l'activation.",
+      "focus": {
+        "f1": "L'expression pendant la parole",
+        "f2": "La symétrie à l'effort d'une conversation, pas à l'effort maximal",
+        "f3": "Relâcher les raideurs et la sur-sollicitation",
+        "f4": "L'endurance au fil de la journée"
+      },
+      "avoid": {
+        "a1": "Les maintiens à effort maximal",
+        "a2": "Ignorer les raideurs parce que le mouvement est présent"
+      },
+      "tapeMode": "Ponctuel — utilisé pour des tâches précises ou en cas de fatigue, pas au quotidien."
+    },
+    "5": {
+      "name": "Maintien",
+      "short": "Conserver ce que vous avez construit, et vous en servir.",
+      "window": "À partir du 9e mois environ",
+      "body": "La récupération atteint un plateau, mais en général elle ne régresse pas. Une routine d'entretien plus courte préserve l'amplitude et empêche les raideurs de revenir peu à peu, avec des scans réguliers pour qu'une éventuelle dérive soit repérée tôt plutôt que découverte tard.",
+      "focus": {
+        "f1": "Courte routine d'entretien quotidienne",
+        "f2": "Étirements et travail de relâchement",
+        "f3": "Scans réguliers pour confirmer la stabilité",
+        "f4": "Reprise de toutes vos activités"
+      },
+      "avoid": {
+        "a1": "Tout arrêter et perdre de l'amplitude sans s'en rendre compte"
+      },
+      "tapeMode": "Pas systématique. Disponible les jours de fatigue ou pour des événements particuliers."
+    }
+  },
+  "taping": {
+    "restingSupport": "Soutien au repos",
+    "movementAssist": "Aide au mouvement",
+    "directionalGuide": "Guidage directionnel"
+  }
+}

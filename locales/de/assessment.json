@@ -1,0 +1,392 @@
+{
+  "sections": {
+    "about": "Zu Ihrer Lähmung",
+    "medical": "Ärztliche Versorgung",
+    "eye": "Ihr Auge",
+    "moves": "Was sich bewegt",
+    "linked": "Gekoppelte Bewegungen",
+    "other": "Weitere Beschwerden",
+    "daily": "Alltag"
+  },
+  "optionSets": {
+    "move": {
+      "none": {
+        "t": "Gar keine Bewegung",
+        "d": "Nichts passiert, wenn ich es versuche."
+      },
+      "flicker": {
+        "t": "Eine kleine Regung",
+        "d": "Etwas bewegt sich, aber kaum – vielleicht sehe nur ich es."
+      },
+      "partial": {
+        "t": "Teilweise Bewegung",
+        "d": "Es bewegt sich, deutlich weniger als auf der anderen Seite."
+      },
+      "near": {
+        "t": "Fast normal",
+        "d": "Ähnlich wie die andere Seite oder gleich."
+      }
+    }
+  },
+  "questions": {
+    "onsetDate": {
+      "q": "Wann hat die Gesichtsschwäche begonnen?",
+      "help": "Eine möglichst gute Schätzung genügt. Wenn sie über Nacht kam, nehmen Sie den Morgen, an dem Sie es bemerkt haben."
+    },
+    "diagnosis": {
+      "q": "Welche Diagnose haben Sie erhalten?",
+      "help": "Wenn Sie den genauen Namen nicht kennen, wählen Sie die passendste Option.",
+      "options": {
+        "bells": {
+          "t": "Fazialisparese (Bell-Lähmung)",
+          "d": "Idiopathische Fazialisparese – keine bestimmte Ursache gefunden."
+        },
+        "ramsay": {
+          "t": "Ramsay-Hunt-Syndrom",
+          "d": "Verursacht durch das Varizella-Zoster-Virus, meist mit Hautausschlag."
+        },
+        "surgical": {
+          "t": "Nach einer Operation",
+          "d": "Der Gesichtsnerv wurde bei einer Operation beeinträchtigt."
+        },
+        "trauma": {
+          "t": "Nach einer Verletzung",
+          "d": "Nach einem Unfall oder einem Knochenbruch."
+        },
+        "lyme": {
+          "t": "Borreliose (Lyme-Krankheit)"
+        },
+        "other": {
+          "t": "Etwas anderes",
+          "d": "Eine andere diagnostizierte Ursache."
+        },
+        "none": {
+          "t": "Ich war noch nicht beim Arzt"
+        }
+      }
+    },
+    "side": {
+      "q": "Welche Gesichtshälfte ist betroffen?",
+      "options": {
+        "left": {
+          "t": "Links"
+        },
+        "right": {
+          "t": "Rechts"
+        },
+        "both": {
+          "t": "Beide Seiten"
+        }
+      }
+    },
+    "progression": {
+      "q": "Wie hat sich die Schwäche entwickelt?",
+      "help": "Das hilft uns zu verstehen, ob das Muster typisch ist.",
+      "options": {
+        "sudden": {
+          "t": "Plötzlich",
+          "d": "Innerhalb von Stunden, oder ich bin damit aufgewacht."
+        },
+        "days": {
+          "t": "Über einige Tage",
+          "d": "Es wurde über zwei oder drei Tage schlimmer und dann nicht mehr."
+        },
+        "gradual": {
+          "t": "Allmählich, und es wird noch schlimmer",
+          "d": "Langsame Verschlechterung über Wochen."
+        },
+        "recurring": {
+          "t": "Das ist schon einmal passiert",
+          "d": "Eine frühere Episode auf derselben oder der anderen Seite."
+        }
+      }
+    },
+    "medical": {
+      "q": "Wurden Sie ärztlich untersucht?",
+      "options": {
+        "steroids": {
+          "t": "Ja, und ich habe Kortison verschrieben bekommen"
+        },
+        "noSteroids": {
+          "t": "Ja, aber ohne Kortison"
+        },
+        "waiting": {
+          "t": "Ich habe einen Termin"
+        },
+        "no": {
+          "t": "Noch nicht"
+        }
+      }
+    },
+    "eyeClosure": {
+      "q": "Können Sie das betroffene Auge schließen?",
+      "help": "Schauen Sie in einen Spiegel und schließen Sie beide Augen sanft, ohne zu pressen.",
+      "options": {
+        "full": {
+          "t": "Ja, vollständig"
+        },
+        "almost": {
+          "t": "Fast – ein kleiner Spalt bleibt"
+        },
+        "partial": {
+          "t": "Teilweise – das Lid bewegt sich, aber ein deutlicher Spalt bleibt"
+        },
+        "none": {
+          "t": "Nein, das Lid bewegt sich nicht"
+        }
+      }
+    },
+    "eyeSymptoms": {
+      "q": "Haben Sie gerade eine dieser Beschwerden am Auge?",
+      "help": "Wählen Sie alles Zutreffende aus. Das ist die wichtigste Frage auf dieser Seite.",
+      "options": {
+        "pain": {
+          "t": "Schmerzen im Auge"
+        },
+        "redness": {
+          "t": "Rötung, die nicht zurückgeht"
+        },
+        "vision": {
+          "t": "Verschwommenes oder verändertes Sehen"
+        },
+        "dryness": {
+          "t": "Trockenheit oder Fremdkörpergefühl"
+        },
+        "watering": {
+          "t": "Starkes Tränen"
+        },
+        "none": {
+          "t": "Nichts davon"
+        }
+      }
+    },
+    "eyeCare": {
+      "q": "Womit schützen Sie das Auge derzeit?",
+      "options": {
+        "drops": {
+          "t": "Befeuchtende Tropfen tagsüber"
+        },
+        "ointment": {
+          "t": "Salbe in der Nacht"
+        },
+        "tape": {
+          "t": "Lid nachts mit Tape verschlossen"
+        },
+        "chamber": {
+          "t": "Uhrglasverband oder Augenschutz"
+        },
+        "glasses": {
+          "t": "Sonnenbrille im Freien"
+        },
+        "nothing": {
+          "t": "Noch nichts"
+        }
+      }
+    },
+    "moveBrow": {
+      "q": "Versuchen Sie, die Augenbrauen zu heben. Was passiert auf der betroffenen Seite?",
+      "help": "Halten Sie die nicht betroffene Augenbraue mit zwei Fingern fest, damit sie nicht die Arbeit übernimmt."
+    },
+    "moveEye": {
+      "q": "Versuchen Sie, das betroffene Auge fest zu schließen. Wie viel bewegt es sich?"
+    },
+    "moveMouth": {
+      "q": "Versuchen Sie ein kleines Lächeln mit geschlossenen Lippen. Was passiert auf der betroffenen Seite?"
+    },
+    "synkinesis": {
+      "q": "Wird das betroffene Auge beim Lächeln von selbst schmaler oder schließt sich?",
+      "help": "Oder umgekehrt: Zieht der Mundwinkel mit, wenn Sie das Auge schließen? Beides zählt.",
+      "options": {
+        "none": {
+          "t": "Nein, sie bewegen sich getrennt"
+        },
+        "occasional": {
+          "t": "Gelegentlich, bei größeren Bewegungen"
+        },
+        "frequent": {
+          "t": "Oft, bei den meisten Bewegungen"
+        },
+        "always": {
+          "t": "Immer – ich kann sie nicht trennen"
+        },
+        "unsure": {
+          "t": "Ich bin nicht sicher"
+        }
+      }
+    },
+    "tightness": {
+      "q": "Fühlt sich die betroffene Gesichtshälfte verspannt oder steif an?",
+      "options": {
+        "none": {
+          "t": "Nein, sie fühlt sich locker oder normal an"
+        },
+        "mild": {
+          "t": "Etwas verspannt, meist gegen Abend"
+        },
+        "moderate": {
+          "t": "Die meiste Zeit spürbar verspannt"
+        },
+        "severe": {
+          "t": "Sehr verspannt – es schränkt meine Beweglichkeit ein"
+        }
+      }
+    },
+    "otherSymptoms": {
+      "q": "Haben Sie eines davon?",
+      "options": {
+        "rash": {
+          "t": "Ausschlag oder Bläschen am Ohr, im Ohr oder auf der Kopfhaut"
+        },
+        "hearing": {
+          "t": "Hörverlust oder neue Geräuschempfindlichkeit"
+        },
+        "earPain": {
+          "t": "Ohrenschmerzen"
+        },
+        "taste": {
+          "t": "Veränderter Geschmack"
+        },
+        "tinnitus": {
+          "t": "Ohrgeräusche (Tinnitus)"
+        },
+        "limb": {
+          "t": "Schwäche oder Taubheit in Arm oder Bein"
+        },
+        "none": {
+          "t": "Nichts davon"
+        }
+      }
+    },
+    "impact": {
+      "q": "Was davon fällt Ihnen gerade schwer?",
+      "help": "Danach richten wir, welche Teile der Tagesroutine wir Ihnen zuerst zeigen.",
+      "options": {
+        "drinking": {
+          "t": "Trinken, ohne zu kleckern"
+        },
+        "eating": {
+          "t": "Essen – Speisen sammeln sich in der Wange"
+        },
+        "speaking": {
+          "t": "Beim Sprechen verstanden werden"
+        },
+        "eye": {
+          "t": "Der Umgang mit dem Auge"
+        },
+        "sleep": {
+          "t": "Schlafen"
+        },
+        "social": {
+          "t": "Unter Menschen sein"
+        },
+        "none": {
+          "t": "Nichts davon fällt mir schwer"
+        }
+      }
+    },
+    "treatment": {
+      "q": "Machen Sie davon bereits etwas?",
+      "options": {
+        "physio": {
+          "t": "Physiotherapie vor Ort"
+        },
+        "exercises": {
+          "t": "Gesichtsübungen auf eigene Faust"
+        },
+        "taping": {
+          "t": "Gesichtstaping"
+        },
+        "estim": {
+          "t": "Elektrostimulation"
+        },
+        "gum": {
+          "t": "Kaugummikauen als Übung"
+        },
+        "none": {
+          "t": "Noch nichts"
+        }
+      }
+    },
+    "perDay": {
+      "q": "Wie viele Einheiten pro Tag passen in Ihr Leben?",
+      "help": "Zwei kürzere Einheiten wirken besser als eine lange – aber eine, die Sie regelmäßig machen, ist besser als zwei, die Sie aufgeben.",
+      "options": {
+        "1": {
+          "t": "Eine Einheit",
+          "d": "Etwa 10–20 Minuten."
+        },
+        "2": {
+          "t": "Zwei Einheiten",
+          "d": "Je etwa 8–10 Minuten. Empfohlen."
+        }
+      }
+    }
+  },
+  "flags": {
+    "limb": {
+      "title": "Rufen Sie jetzt den Notruf",
+      "body": "Eine Gesichtsschwäche zusammen mit Schwäche oder Taubheit in einem Arm oder Bein kann ein Schlaganfall sein. Das muss sofort notfallmedizinisch abgeklärt werden, nicht mit einem Rehabilitationsprogramm. Bitte hören Sie hier auf und rufen Sie den Notruf (112)."
+    },
+    "eye": {
+      "title": "Lassen Sie Ihr Auge heute noch ärztlich ansehen",
+      "body": "Augenschmerzen, anhaltende Rötung oder verändertes Sehen bei einer Gesichtslähmung können bedeuten, dass die Hornhaut durch Austrocknung geschädigt wird. Das ist die einzige Komplikation, die bleibenden Schaden verursachen kann, und sie ist behandelbar. Bitte lassen Sie es heute untersuchen – in einer augenärztlichen Praxis, bei Ihrer Hausärztin oder Ihrem Hausarzt oder in der Notaufnahme einer Augenklinik."
+    },
+    "rash": {
+      "title": "Der Ausschlag sollte untersucht werden",
+      "body": "Ausschlag oder Bläschen am Ohr zusammen mit einer Gesichtslähmung sprechen für ein Ramsay-Hunt-Syndrom. Es wird mit antiviralen Medikamenten behandelt und verläuft anders als eine idiopathische Fazialisparese. Die richtige Diagnose verändert die Behandlung – bitte gehen Sie zu einer Ärztin oder einem Arzt."
+    },
+    "undiagnosed": {
+      "title": "Sie brauchen vor dem Start eine Diagnose",
+      "body": "Palsya ist ein Rehabilitationsprogramm, kein Diagnosedienst. Eine Gesichtsschwäche hat verschiedene Ursachen, manche davon dringend, und einige werden mit Medikamenten behandelt, die in den ersten Tagen am besten wirken. Bitte gehen Sie zuerst zu einer Ärztin oder einem Arzt."
+    },
+    "progressive": {
+      "title": "Eine allmähliche, anhaltende Verschlechterung muss abgeklärt werden",
+      "body": "Eine idiopathische Fazialisparese entwickelt sich innerhalb von Stunden bis wenigen Tagen und verschlechtert sich dann nicht weiter. Eine Schwäche, die über Wochen weiter zunimmt, kann auf eine andere Ursache hindeuten, die eine Bildgebung erfordert. Bitte sagen Sie Ihrer Ärztin oder Ihrem Arzt ausdrücklich, dass es sich weiter verschlechtert."
+    },
+    "bilateral": {
+      "title": "Eine beidseitige Schwäche muss fachärztlich abgeklärt werden",
+      "body": "Eine beidseitige Gesichtsschwäche ist selten und hängt häufiger mit einer systemischen Ursache zusammen – etwa Borreliose, Guillain-Barré-Syndrom oder Sarkoidose. Das sollte untersucht werden, bevor Sie ein Rehabilitationsprogramm beginnen."
+    },
+    "tooEarly": {
+      "title": "Es ist noch sehr früh – zuerst kommt die ärztliche Behandlung",
+      "body": "Der Beginn liegt {days, plural, one {# Tag} other {# Tage}} zurück. Kortikosteroide, die in den ersten 72 Stunden begonnen werden, verbessern die Ergebnisse bei idiopathischer Fazialisparese messbar, und dieses Zeitfenster ist jetzt wichtiger als der Beginn von Übungen. Nichts, was Sie in der ersten Woche mit dem Muskel tun, verändert den Nerv.\n\nKommen Sie ab Tag 5 wieder. Wir bewahren Ihre Antworten auf."
+    },
+    "late": {
+      "title": "Außerhalb unseres üblichen Zeitfensters – eine Fachkraft prüft das",
+      "body": "Ihr Beginn liegt {days, number} Tage zurück und damit außerhalb des Zeitfensters von 5–90 Tagen, für das unser Programm ausgelegt ist. Eine strukturierte Rehabilitation hilft auch jetzt noch, besonders bei Synkinesien und Verspannung, aber den Ausgangspunkt sollte ein Mensch festlegen. Eine Fachkraft prüft Ihre Einstufung innerhalb eines Werktags, bevor Ihr Programm beginnt."
+    },
+    "noEyeCare": {
+      "title": "Beginnen Sie heute mit dem Augenschutz",
+      "body": "Ihr Auge schließt sich nicht vollständig, und Sie schützen es noch mit nichts. Konservierungsmittelfreie befeuchtende Augentropfen gibt es rezeptfrei in der Apotheke; beginnen Sie heute damit und verwenden Sie nachts eine Augensalbe. Das ist wichtiger als jede Übung in Ihrem Programm."
+    },
+    "estim": {
+      "title": "Zur Elektrostimulation",
+      "body": "Elektrostimulation ist nicht Teil unseres Programms. Die Studienlage ist uneinheitlich, und es gibt die theoretische Sorge, dass Stimulation während der Reinnervation Synkinesien verstärken kann. Wenn eine Fachkraft sie Ihnen gezielt verordnet hat, folgen Sie deren Rat – sprechen Sie es aber bitte in Ihrer ersten Sprechstunde an."
+    },
+    "gum": {
+      "title": "Bitte hören Sie mit dem Kaugummi auf",
+      "body": "Kaugummikauen als Gesichtsübung trainiert die Kaumuskulatur statt der Gesichtsmuskeln und verstärkt zuverlässig Verspannung und Synkinesien. Es ist eines der wenigen Dinge, bei denen wir Sie bitten, sofort damit aufzuhören."
+    }
+  },
+  "reasons": {
+    "noMovement": "In keinem Bereich gibt es eine willkürliche Bewegung, deshalb beginnt das Programm mit Schutz statt mit Aktivierung.",
+    "minimalMovement": "Erste willkürliche Bewegungen sind da, aber minimal. Es geht darum, die kleinste genaue Bewegung zu finden und zu wiederholen.",
+    "notIsolated": "In den meisten Gesichtsbereichen ist Bewegung vorhanden, aber noch nicht isoliert. Deshalb steht die Koordination im Mittelpunkt Ihres Programms.",
+    "nearNormal": "In den meisten Bereichen ist die Bewegung fast normal, deshalb geht es jetzt um Kontrolle bei alltäglicher Anstrengung.",
+    "synkinesisRaised": "Sie haben häufige gekoppelte Bewegungen beschrieben. Wenn Synkinesien bereits bestehen, hat die Koordinationsarbeit Vorrang, auch wenn die Bewegung noch eingeschränkt ist.",
+    "synkinesisHeldBack": "Die Bewegungsqualität spräche für eine spätere Phase, aber häufige Synkinesien werden am besten zuerst mit Koordinationsarbeit angegangen.",
+    "severeTightness": "Starke Verspannung schränkt den Bewegungsumfang mehr ein als die Schwäche, deshalb haben Lösen und Koordination Vorrang.",
+    "eyeProtection": "Da sich das Augenlid nicht bewegt, bleibt der Augenschutz unabhängig von der Phase an erster Stelle Ihrer Tagesroutine.",
+    "maintenance": "Mehr als neun Monate seit Beginn, mit fast normaler Bewegung und wenig gekoppelten Bewegungen – jetzt geht es darum, den Bewegungsumfang zu erhalten, statt ihn aufzubauen.",
+    "slowRecovery": "Die Genesung nach {cause, select, ramsay {einem Ramsay-Hunt-Syndrom} surgical {einer Operation} other {einer Verletzung}} verläuft meist langsamer und ungleichmäßiger als bei einer idiopathischen Fazialisparese. Einen langsamen Start werten wir daher nicht als schlechtes Zeichen.",
+    "timeHoldBack": "Ihre Antworten allein sprächen für Phase {suggested}, aber {days, plural, one {# Tag} other {# Tage}} nach Beginn stufen wir eine Phase niedriger ein. Wer dem Nerv vorauseilt, riskiert, dass sich Ausweichbewegungen festsetzen.",
+    "timeEarliest": "{days, plural, one {# Tag} other {# Tage}} nach Beginn ist Phase {stage} die früheste Einordnung, die klinisch sinnvoll ist.",
+    "clinicianOverride": "Ihre Fachkraft hat Ihre Phase nach Prüfung Ihres Fortschritts angepasst."
+  },
+  "reviewWhy": {
+    "lowConfidence": "einige Ihrer Antworten nicht in das übliche Muster passen",
+    "lateOnset": "Ihr Beginn außerhalb unseres üblichen Zeitfensters liegt",
+    "surgeryOrInjury": "die Genesung nach einer Operation oder Verletzung einen individuellen Ausgangspunkt braucht",
+    "otherDiagnosis": "Ihre Diagnose nicht zu denen gehört, die wir automatisch einordnen"
+  }
+}

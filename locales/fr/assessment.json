@@ -1,0 +1,392 @@
+{
+  "sections": {
+    "about": "Votre paralysie",
+    "medical": "Prise en charge médicale",
+    "eye": "Votre œil",
+    "moves": "Ce qui bouge",
+    "linked": "Mouvements associés",
+    "other": "Autres symptômes",
+    "daily": "Vie quotidienne"
+  },
+  "optionSets": {
+    "move": {
+      "none": {
+        "t": "Aucun mouvement",
+        "d": "Rien ne se passe quand j'essaie."
+      },
+      "flicker": {
+        "t": "Une ébauche de mouvement",
+        "d": "Quelque chose bouge, mais à peine — je suis peut-être le seul à le voir."
+      },
+      "partial": {
+        "t": "Mouvement partiel",
+        "d": "Ça bouge, nettement moins que l'autre côté."
+      },
+      "near": {
+        "t": "Presque normal",
+        "d": "Proche de l'autre côté, ou identique."
+      }
+    }
+  },
+  "questions": {
+    "onsetDate": {
+      "q": "Quand la faiblesse du visage a-t-elle commencé ?",
+      "help": "Une estimation suffit. Si elle est apparue pendant la nuit, indiquez le matin où vous l'avez remarquée."
+    },
+    "diagnosis": {
+      "q": "Quel diagnostic vous a-t-on donné ?",
+      "help": "Si vous n'êtes pas sûr du nom exact, choisissez l'option la plus proche.",
+      "options": {
+        "bells": {
+          "t": "Paralysie de Bell",
+          "d": "Paralysie faciale idiopathique — aucune cause précise identifiée."
+        },
+        "ramsay": {
+          "t": "Syndrome de Ramsay Hunt",
+          "d": "Causé par le virus varicelle-zona, généralement avec une éruption cutanée."
+        },
+        "surgical": {
+          "t": "Après une chirurgie",
+          "d": "Nerf facial touché lors d'une opération."
+        },
+        "trauma": {
+          "t": "Après un traumatisme",
+          "d": "À la suite d'un accident ou d'une fracture."
+        },
+        "lyme": {
+          "t": "Maladie de Lyme"
+        },
+        "other": {
+          "t": "Autre chose",
+          "d": "Une autre cause diagnostiquée."
+        },
+        "none": {
+          "t": "Je n'ai pas encore vu de médecin"
+        }
+      }
+    },
+    "side": {
+      "q": "Quel côté de votre visage est atteint ?",
+      "options": {
+        "left": {
+          "t": "Côté gauche"
+        },
+        "right": {
+          "t": "Côté droit"
+        },
+        "both": {
+          "t": "Les deux côtés"
+        }
+      }
+    },
+    "progression": {
+      "q": "Comment la faiblesse s'est-elle installée ?",
+      "help": "Cela nous aide à savoir si l'évolution est typique.",
+      "options": {
+        "sudden": {
+          "t": "Brutalement",
+          "d": "En quelques heures, ou je me suis réveillé avec."
+        },
+        "days": {
+          "t": "En quelques jours",
+          "d": "Elle s'est aggravée sur deux ou trois jours, puis s'est stabilisée."
+        },
+        "gradual": {
+          "t": "Progressivement, et elle s'aggrave encore",
+          "d": "Aggravation lente sur plusieurs semaines."
+        },
+        "recurring": {
+          "t": "Cela m'est déjà arrivé",
+          "d": "Un épisode antérieur, du même côté ou de l'autre."
+        }
+      }
+    },
+    "medical": {
+      "q": "Avez-vous été examiné par un médecin ?",
+      "options": {
+        "steroids": {
+          "t": "Oui, et on m'a prescrit des corticoïdes"
+        },
+        "noSteroids": {
+          "t": "Oui, mais sans prescription de corticoïdes"
+        },
+        "waiting": {
+          "t": "J'ai un rendez-vous prévu"
+        },
+        "no": {
+          "t": "Pas encore"
+        }
+      }
+    },
+    "eyeClosure": {
+      "q": "Pouvez-vous fermer l'œil du côté atteint ?",
+      "help": "Regardez-vous dans un miroir et fermez doucement les deux yeux, sans forcer.",
+      "options": {
+        "full": {
+          "t": "Oui, complètement"
+        },
+        "almost": {
+          "t": "Presque — il reste une petite fente"
+        },
+        "partial": {
+          "t": "En partie — la paupière bouge, mais il reste une fente nette"
+        },
+        "none": {
+          "t": "Non, la paupière ne bouge pas"
+        }
+      }
+    },
+    "eyeSymptoms": {
+      "q": "Avez-vous actuellement l'un de ces symptômes oculaires ?",
+      "help": "Cochez tout ce qui s'applique. C'est la question la plus importante de cette page.",
+      "options": {
+        "pain": {
+          "t": "Douleur dans l'œil"
+        },
+        "redness": {
+          "t": "Rougeur qui ne disparaît pas"
+        },
+        "vision": {
+          "t": "Vision floue ou modifiée"
+        },
+        "dryness": {
+          "t": "Sécheresse ou sensation de sable dans l'œil"
+        },
+        "watering": {
+          "t": "Larmoiement excessif"
+        },
+        "none": {
+          "t": "Aucun de ces symptômes"
+        }
+      }
+    },
+    "eyeCare": {
+      "q": "Qu'utilisez-vous actuellement pour protéger l'œil ?",
+      "options": {
+        "drops": {
+          "t": "Un collyre lubrifiant pendant la journée"
+        },
+        "ointment": {
+          "t": "Une pommade ophtalmique la nuit"
+        },
+        "tape": {
+          "t": "Un adhésif pour maintenir la paupière fermée la nuit"
+        },
+        "chamber": {
+          "t": "Des lunettes à chambre humide ou une coque de protection"
+        },
+        "glasses": {
+          "t": "Des lunettes de soleil à l'extérieur"
+        },
+        "nothing": {
+          "t": "Rien pour l'instant"
+        }
+      }
+    },
+    "moveBrow": {
+      "q": "Essayez de lever les sourcils. Que se passe-t-il du côté atteint ?",
+      "help": "Maintenez le sourcil du côté sain avec deux doigts pour qu'il ne fasse pas le travail à la place de l'autre."
+    },
+    "moveEye": {
+      "q": "Essayez de fermer fort l'œil du côté atteint. Dans quelle mesure bouge-t-il ?"
+    },
+    "moveMouth": {
+      "q": "Essayez un petit sourire, lèvres serrées. Que se passe-t-il du côté atteint ?"
+    },
+    "synkinesis": {
+      "q": "Quand vous souriez, l'œil du côté atteint se plisse-t-il ou se ferme-t-il tout seul ?",
+      "help": "Ou l'inverse : quand vous fermez l'œil, le coin de la bouche tire-t-il ? Les deux cas comptent.",
+      "options": {
+        "none": {
+          "t": "Non, ils bougent séparément"
+        },
+        "occasional": {
+          "t": "Parfois, lors des mouvements amples"
+        },
+        "frequent": {
+          "t": "Souvent, lors de la plupart des mouvements"
+        },
+        "always": {
+          "t": "Toujours — je n'arrive pas à les dissocier"
+        },
+        "unsure": {
+          "t": "Je ne sais pas"
+        }
+      }
+    },
+    "tightness": {
+      "q": "Le côté atteint de votre visage vous semble-t-il tendu ou raide ?",
+      "options": {
+        "none": {
+          "t": "Non, il semble relâché ou normal"
+        },
+        "mild": {
+          "t": "Un peu tendu, surtout en fin de journée"
+        },
+        "moderate": {
+          "t": "Nettement tendu la plupart du temps"
+        },
+        "severe": {
+          "t": "Très tendu — cela limite mes mouvements"
+        }
+      }
+    },
+    "otherSymptoms": {
+      "q": "Présentez-vous l'un de ces symptômes ?",
+      "options": {
+        "rash": {
+          "t": "Une éruption ou des vésicules près de l'oreille, dans l'oreille ou sur le cuir chevelu"
+        },
+        "hearing": {
+          "t": "Une baisse de l'audition ou une sensibilité nouvelle aux bruits"
+        },
+        "earPain": {
+          "t": "Une douleur à l'oreille"
+        },
+        "taste": {
+          "t": "Un goût modifié"
+        },
+        "tinnitus": {
+          "t": "Des bourdonnements ou sifflements d'oreille"
+        },
+        "limb": {
+          "t": "Une faiblesse ou un engourdissement d'un bras ou d'une jambe"
+        },
+        "none": {
+          "t": "Aucun de ces symptômes"
+        }
+      }
+    },
+    "impact": {
+      "q": "Qu'est-ce qui est difficile en ce moment ?",
+      "help": "Cela détermine les parties de la routine quotidienne que nous vous proposons en premier.",
+      "options": {
+        "drinking": {
+          "t": "Boire sans renverser"
+        },
+        "eating": {
+          "t": "Manger — la nourriture s'accumule dans la joue"
+        },
+        "speaking": {
+          "t": "Me faire comprendre quand je parle"
+        },
+        "eye": {
+          "t": "Prendre soin de l'œil"
+        },
+        "sleep": {
+          "t": "Dormir"
+        },
+        "social": {
+          "t": "Être en présence d'autres personnes"
+        },
+        "none": {
+          "t": "Rien de tout cela n'est difficile"
+        }
+      }
+    },
+    "treatment": {
+      "q": "Faites-vous déjà l'une de ces choses ?",
+      "options": {
+        "physio": {
+          "t": "Kinésithérapie en cabinet"
+        },
+        "exercises": {
+          "t": "Exercices faciaux en autonomie"
+        },
+        "taping": {
+          "t": "Taping facial"
+        },
+        "estim": {
+          "t": "Électrostimulation"
+        },
+        "gum": {
+          "t": "Mâcher du chewing-gum en guise d'exercice"
+        },
+        "none": {
+          "t": "Rien pour l'instant"
+        }
+      }
+    },
+    "perDay": {
+      "q": "Combien de séances par jour conviennent à votre rythme de vie ?",
+      "help": "Deux séances courtes fonctionnent mieux qu'une longue, mais une séance faite régulièrement vaut mieux que deux abandonnées.",
+      "options": {
+        "1": {
+          "t": "Une séance",
+          "d": "Environ 10 à 20 minutes."
+        },
+        "2": {
+          "t": "Deux séances",
+          "d": "Environ 8 à 10 minutes chacune. Recommandé."
+        }
+      }
+    }
+  },
+  "flags": {
+    "limb": {
+      "title": "Appelez les urgences maintenant",
+      "body": "Une faiblesse du visage associée à une faiblesse ou à un engourdissement d'un bras ou d'une jambe peut être un AVC. Cela nécessite une prise en charge en urgence, pas un programme de rééducation. Arrêtez-vous ici et appelez le numéro d'urgence de votre pays."
+    },
+    "eye": {
+      "title": "Consultez un médecin pour votre œil aujourd'hui",
+      "body": "Une douleur oculaire, une rougeur persistante ou une modification de la vue associées à une paralysie faciale peuvent signifier que la cornée s'abîme parce qu'elle reste exposée. C'est la seule complication qui peut laisser des séquelles durables, et elle se soigne. Faites-vous examiner aujourd'hui — par un ophtalmologiste, votre médecin généraliste ou les urgences ophtalmologiques."
+    },
+    "rash": {
+      "title": "L'éruption doit être examinée",
+      "body": "Une éruption ou des vésicules près de l'oreille associées à une paralysie faciale évoquent un syndrome de Ramsay Hunt, qui se traite par antiviraux et évolue différemment de la paralysie de Bell. Le bon diagnostic change le traitement : consultez un médecin."
+    },
+    "undiagnosed": {
+      "title": "Il vous faut un diagnostic avant de commencer",
+      "body": "Palsya est un programme de rééducation, pas un service de diagnostic. Une faiblesse du visage a plusieurs causes possibles, dont certaines sont urgentes, et certaines se traitent par des médicaments qui agissent le mieux dans les tout premiers jours. Consultez d'abord un médecin."
+    },
+    "progressive": {
+      "title": "Une aggravation progressive et continue doit être explorée",
+      "body": "La paralysie de Bell s'installe en quelques heures à quelques jours, puis cesse de s'aggraver. Une faiblesse qui continue de progresser sur plusieurs semaines peut orienter vers une autre cause nécessitant une imagerie. Dites précisément à votre médecin qu'elle s'aggrave encore."
+    },
+    "bilateral": {
+      "title": "Une faiblesse des deux côtés nécessite un avis spécialisé",
+      "body": "Une faiblesse du visage des deux côtés est rare et plus souvent liée à une cause générale — maladie de Lyme, syndrome de Guillain-Barré, sarcoïdose, entre autres. Elle doit être explorée avant de commencer un programme de rééducation."
+    },
+    "tooEarly": {
+      "title": "C'est très tôt — le traitement médical passe en premier",
+      "body": "Les symptômes sont apparus il y a {days, plural, one {# jour} other {# jours}}. Les corticoïdes commencés dans les 72 premières heures améliorent de façon mesurable l'évolution de la paralysie de Bell, et cette fenêtre compte davantage en ce moment que le début des exercices. Rien de ce que vous faites avec le muscle pendant la première semaine ne change quoi que ce soit au nerf.\n\nRevenez à partir du 5e jour. Nous conservons vos réponses."
+    },
+    "late": {
+      "title": "En dehors de notre période habituelle — un clinicien va vérifier",
+      "body": "Vos symptômes sont apparus il y a {days, number} jours, au-delà de la fenêtre de 5 à 90 jours autour de laquelle notre programme est conçu. Une rééducation structurée reste utile à ce stade, en particulier pour la syncinésie et les raideurs, mais le point de départ doit être défini par une personne. Un clinicien examinera votre bilan sous un jour ouvré, avant le début de votre programme."
+    },
+    "noEyeCare": {
+      "title": "Commencez à protéger votre œil aujourd'hui",
+      "body": "Votre œil ne se ferme pas complètement et vous n'utilisez rien pour le protéger. Les collyres lubrifiants sans conservateur sont disponibles sans ordonnance et doivent être commencés dès aujourd'hui, avec une pommade ophtalmique la nuit. C'est plus important que n'importe quel exercice de votre programme."
+    },
+    "estim": {
+      "title": "À propos de l'électrostimulation",
+      "body": "Nous n'incluons pas l'électrostimulation. Les données sont contradictoires, et on craint, en théorie, qu'une stimulation pendant la réinnervation n'aggrave la syncinésie. Si un clinicien vous l'a prescrite spécifiquement, suivez ses conseils — mais parlez-en lors de votre première consultation."
+    },
+    "gum": {
+      "title": "Merci d'arrêter le chewing-gum",
+      "body": "Mâcher du chewing-gum en guise d'exercice facial fait travailler les muscles de la mâchoire plutôt que ceux du visage, et augmente de façon constante les raideurs et la syncinésie. C'est l'une des rares choses que nous vous demandons d'arrêter complètement."
+    }
+  },
+  "reasons": {
+    "noMovement": "Aucun mouvement volontaire dans aucune zone : le programme commence donc par la protection plutôt que par l'activation.",
+    "minimalMovement": "Un mouvement volontaire débutant est présent mais minime : le travail consiste donc à trouver et à répéter le plus petit mouvement précis.",
+    "notIsolated": "Le mouvement est présent sur la majeure partie du visage mais pas encore isolé, ce qui place la coordination au cœur de votre programme.",
+    "nearNormal": "Le mouvement est proche de la normale dans la plupart des zones : le travail porte donc désormais sur le contrôle à l'effort du quotidien.",
+    "synkinesisRaised": "Vous avez décrit des mouvements associés fréquents. Le travail de coordination est prioritaire lorsqu'une syncinésie est installée, même si le mouvement reste limité.",
+    "synkinesisHeldBack": "La qualité du mouvement suggérerait une étape plus avancée, mais une syncinésie fréquente se traite mieux d'abord par un travail de coordination.",
+    "severeTightness": "Des raideurs importantes limitent l'amplitude davantage que la faiblesse : le relâchement et la coordination sont donc prioritaires.",
+    "eyeProtection": "Comme la paupière ne bouge pas, la protection de l'œil reste en tête de votre routine quotidienne, quelle que soit l'étape.",
+    "maintenance": "Plus de neuf mois depuis l'apparition, avec un mouvement presque normal et peu de mouvements associés — le travail consiste désormais à maintenir l'amplitude plutôt qu'à la développer.",
+    "slowRecovery": "La récupération après {cause, select, ramsay {un syndrome de Ramsay Hunt} surgical {une chirurgie} other {un traumatisme}} est généralement plus lente et moins régulière qu'après une paralysie de Bell : nous n'interpréterons donc pas un démarrage lent comme un mauvais signe.",
+    "timeHoldBack": "Vos réponses seules suggéreraient l'étape {suggested}, mais à {days, plural, one {# jour} other {# jours}} de l'apparition, nous restons une étape en deçà. Avancer plus vite que le nerf, c'est ainsi que les compensations s'installent.",
+    "timeEarliest": "À {days, plural, one {# jour} other {# jours}} de l'apparition, l'étape {stage} est l'orientation la plus précoce qui ait un sens sur le plan clinique.",
+    "clinicianOverride": "Votre clinicien a mis à jour votre étape après avoir examiné vos progrès."
+  },
+  "reviewWhy": {
+    "lowConfidence": "certaines de vos réponses ne correspondent pas au schéma habituel",
+    "lateOnset": "l'apparition de vos symptômes se situe en dehors de notre période habituelle",
+    "surgeryOrInjury": "la récupération après une chirurgie ou un traumatisme nécessite un point de départ individualisé",
+    "otherDiagnosis": "votre diagnostic ne fait pas partie de ceux pour lesquels nous orientons automatiquement"
+  }
+}

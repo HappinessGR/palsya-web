@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Aceite o seu convite — Palsya",
+    "description": "Defina o seu nome e a sua palavra-passe para se juntar à Palsya."
+  },
+  "loading": "A carregar…",
+  "title": "Aceite o seu convite",
+  "lead": "O seu endereço de email e a sua função foram definidos pela pessoa que o convidou. Escolha o seu nome e uma palavra-passe para terminar.",
+  "submit": "Criar a minha conta",
+  "side": {
+    "title": "Bem-vindo à equipa Palsya",
+    "points": {
+      "role": "O seu acesso é definido por um administrador — não há nada a escolher",
+      "password": "Use uma palavra-passe forte: vai trabalhar com processos de doentes"
+    }
+  },
+  "missing": {
+    "title": "Esta ligação de convite está incompleta",
+    "body": "Abra novamente a ligação do seu email de convite ou peça ao administrador que o convidou para enviar uma nova.",
+    "signIn": "Ir para Entrar"
+  }
+}

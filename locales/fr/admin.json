@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Administration — Palsya",
+    "description": "Espace d'administration Palsya."
+  },
+  "heading": "Administration",
+  "headingNamed": "Administration — {name}",
+  "subtitle": "Espace d'administration",
+  "nav": {
+    "label": "Sections d'administration",
+    "overview": "Vue d'ensemble",
+    "users": "Utilisateurs",
+    "invite": "Inviter",
+    "audit": "Journal d'audit"
+  },
+  "roles": {
+    "patient": "Patient",
+    "clinician": "Clinicien",
+    "admin": "Administrateur"
+  },
+  "statuses": {
+    "active": "Actif",
+    "suspended": "Désactivé",
+    "pending_verification": "Vérification en attente"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Patients",
+      "clinicians": "Cliniciens",
+      "admins": "Administrateurs",
+      "unassigned": "Patients non attribués",
+      "pendingInvitations": "Invitations en attente"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Gérer",
+      "users": "Utilisateurs",
+      "usersBody": "Modifiez les rôles, désactivez des comptes et attribuez des patients aux cliniciens.",
+      "invite": "Inviter du personnel",
+      "inviteBody": "Invitez un clinicien ou un administrateur par e-mail et gérez les invitations en attente.",
+      "audit": "Journal d'audit",
+      "auditBody": "Voyez qui a fait quoi, et quand."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Utilisateurs — Administration Palsya",
+      "description": "Gérez les comptes Palsya, les rôles et les attributions aux cliniciens."
+    },
+    "heading": "Utilisateurs",
+    "subtitle": "Rôles, statut des comptes et attributions aux cliniciens.",
+    "filter": {
+      "label": "Filtrer par rôle",
+      "all": "Tous"
+    },
+    "columns": {
+      "name": "Nom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "status": "Statut",
+      "created": "Créé le",
+      "clinician": "Clinicien attribué",
+      "actions": "Actions"
+    },
+    "you": "Vous",
+    "empty": "Aucun utilisateur ne correspond à ce filtre.",
+    "notApplicable": "—",
+    "roleSelect": "Rôle de {name}",
+    "saveRole": "Changer le rôle",
+    "deactivate": "Désactiver",
+    "reactivate": "Réactiver",
+    "clinicianSelect": "Clinicien de {name}",
+    "unassigned": "Non attribué",
+    "assign": "Attribuer",
+    "result": {
+      "role_changed": "Rôle mis à jour.",
+      "status_changed": "Statut du compte mis à jour.",
+      "assigned": "Attribution au clinicien mise à jour."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Inviter du personnel — Administration Palsya",
+      "description": "Invitez des cliniciens et des administrateurs sur Palsya."
+    },
+    "heading": "Inviter du personnel",
+    "subtitle": "Les cliniciens et les administrateurs rejoignent Palsya uniquement sur invitation. Les patients s'inscrivent eux-mêmes.",
+    "form": {
+      "title": "Nouvelle invitation",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "nom@exemple.com",
+      "role": "Rôle",
+      "language": "Langue de l'e-mail",
+      "languageHint": "L'e-mail d'invitation est envoyé dans cette langue.",
+      "submit": "Envoyer l'invitation"
+    },
+    "pending": {
+      "title": "Invitations en attente",
+      "empty": "Aucune invitation en attente.",
+      "unavailable": "Impossible de charger les invitations en attente. Réessayez plus tard.",
+      "email": "E-mail",
+      "role": "Rôle",
+      "sent": "Envoyée le",
+      "revoke": "Révoquer",
+      "revokeLabel": "Révoquer l'invitation de {email}"
+    },
+    "result": {
+      "invited": "Invitation envoyée.",
+      "revoked": "Invitation révoquée."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Journal d'audit — Administration Palsya",
+      "description": "Événements administratifs et de sécurité récents."
+    },
+    "heading": "Journal d'audit",
+    "subtitle": "Les {count} derniers événements, du plus récent au plus ancien.",
+    "empty": "Rien n'a encore été enregistré.",
+    "columns": {
+      "when": "Quand",
+      "who": "Qui",
+      "action": "Action",
+      "target": "Cible",
+      "details": "Détails"
+    },
+    "system": "Système / anonyme",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Utilisateur",
+      "patient": "Patient",
+      "invitation": "Invitation"
+    },
+    "actions": {
+      "role_changed": "Rôle modifié",
+      "user_invited": "Utilisateur invité",
+      "invitation_revoked": "Invitation révoquée",
+      "patient_assigned": "Patient attribué",
+      "user_deactivated": "Utilisateur désactivé",
+      "user_reactivated": "Utilisateur réactivé",
+      "patient_stage_changed": "Étape du patient modifiée",
+      "clinician_note_added": "Note du clinicien ajoutée",
+      "password_reset_requested": "Réinitialisation du mot de passe demandée",
+      "password_reset_completed": "Réinitialisation du mot de passe effectuée",
+      "user_demoted_self_registered": "Clinicien auto-inscrit rétrogradé"
+    }
+  },
+  "errors": {
+    "not_signed_in": "Votre session a expiré. Veuillez vous reconnecter.",
+    "forbidden": "Vous n'avez pas l'autorisation d'effectuer cette action.",
+    "invalid_input": "Cette demande n'est pas valide. Veuillez réessayer.",
+    "not_found": "Cet utilisateur ou cette invitation n'existe plus.",
+    "invalid_role": "Ce rôle n'est pas autorisé ici.",
+    "invalid_locale": "Choisissez l'une des langues proposées.",
+    "last_admin": "Vous ne pouvez pas retirer le dernier administrateur.",
+    "cannot_change_self_status": "Vous ne pouvez pas désactiver ou réactiver votre propre compte.",
+    "not_a_patient": "Ce compte n'est pas un compte patient.",
+    "not_a_clinician": "Choisissez un clinicien actif.",
+    "invalid_email": "Saisissez une adresse e-mail valide.",
+    "already_exists": "Un compte ou une invitation existe déjà pour cette adresse e-mail.",
+    "invite_failed": "L'invitation n'a pas pu être envoyée. Veuillez réessayer."
+  }
+}

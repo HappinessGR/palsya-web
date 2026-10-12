@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "'n Gestruktureerde daaglikse program, gebou deur spesialiste in gesigsrehabilitasie — kleefband, oefeninge en oogsorg wat pas by die fase waarin u herstel werklik is."
+  },
+  "stars": "{n, number} uit 5",
+  "startFree": "Begin u gratis 7 dae",
+  "hero": {
+    "eyebrow": "Vir perifere gesigsverlamming",
+    "title": "Een kant van u gesig het opgehou beweeg. <em>Dit is wat u nou moet doen.</em>",
+    "lead": "'n Gestruktureerde daaglikse program, gebou deur spesialiste in gesigsrehabilitasie — kleefband, oefeninge en oogsorg wat pas by die fase waarin u herstel werklik is. Met skanderings wat u verandering wys wat u nie in die spieël kan sien nie.",
+    "howItWorks": "Sien hoe dit werk",
+    "reassure": {
+      "noCard": "Geen kaart nodig vir 7 dae nie",
+      "noInstall": "Niks om te installeer nie",
+      "cancel": "Kanselleer in twee klikke",
+      "languages": "{count, number} tale"
+    },
+    "art": {
+      "stage": "Fase {n} · {name}",
+      "week": "Week {n}",
+      "baseline": "Basislyn · {date}",
+      "latest": "Nuutste · {date}",
+      "baselineAlt": "Basislyn-gesigskandering wat gesigsasimmetrie toon",
+      "latestAlt": "Nuutste gesigskandering wat verbeterde simmetrie toon",
+      "score": "Simmetrietelling <b>{from} → {to}</b>",
+      "change": "{delta} in {weeks, plural, one {# week} other {# weke}}"
+    }
+  },
+  "cred": {
+    "people": "<b>{count, number}+</b>mense in herstel",
+    "clinician": "<b>Klinikus-gelei</b>protokolle en konsultasies",
+    "gdpr": "<b>GDPR</b>EU-bedieners, skanderingontleding op die toestel",
+    "languages": "<b>{count, number}</b>tale",
+    "reviews": "uit {count, number} resensies"
+  },
+  "problem": {
+    "eyebrow": "Waarom ons dit gebou het",
+    "title": "Die meeste mense word met 'n pamflet huis toe gestuur",
+    "lead": "'n Gefotostateerde blad met oefeninge, geen idee watter daarvan hierdie week op u van toepassing is nie, geen manier om te weet of iets werk nie, en vier maande se wag tot u volgende afspraak. Palsya bestaan in daardie gaping.",
+    "rightWork": {
+      "title": "Die regte werk vir hierdie week",
+      "body": "Om 'n groot glimlag te forseer, help in week ses en hou u terug in week twee. U program pas by die fase waarin u herstel is en verander soos dit verander."
+    },
+    "proof": {
+      "title": "Bewys dat u dit nie verbeel nie",
+      "body": "'n Weeklikse skandering meet die geometrie van u gesig teenoor u eie basislyn. In die plato-weke — en daar is plato-weke — is dit wat u die waarheid vertel."
+    },
+    "person": {
+      "title": "Iemand wat dit al voorheen gesien het",
+      "body": "Videokonsultasies met spesialiste in gesigsrehabilitasie. Die meeste mense doen een of twee dinge verkeerd; 'n klinikus sien dit gewoonlik in die eerste tien minute raak."
+    }
+  },
+  "stages": {
+    "eyebrow": "Die program",
+    "title": "Vyf fases, want week twee en maand vyf is nie dieselfde probleem nie",
+    "readGuide": "Lees die volledige gids",
+    "stage": "Fase {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Aan die gang kom",
+    "title": "Vyftien minute om op te stel",
+    "assessment": {
+      "title": "Beantwoord die assessering",
+      "body": "Sestien vrae oor wat beweeg, wat nie, en hoe die daaglikse lewe nou lyk. Dit gaan ook na of ons by u pas — en sê u reguit as ons nie pas nie."
+    },
+    "plan": {
+      "title": "Kry u fase en u plan",
+      "body": "U word in een van vyf fases ingedeel, met die redenasie gewys. As u antwoorde ongewoon is, hersien 'n klinikus die indeling voordat u begin."
+    },
+    "daily": {
+      "title": "Tien tot twintig minute per dag",
+      "body": "Kleefband, oefeninge en die daaglikse roetine, stap vir stap begelei. Een skandering per week. Dit is die hele verbintenis."
+    }
+  },
+  "ethics": {
+    "eyebrow": "Wat ons nie sal doen nie",
+    "title": "'n Kort lys, en ons bedoel dit",
+    "predictions": {
+      "title": "Geen voorspellings nie",
+      "body": "Ons sal u nooit sê wanneer u gesig sal herstel of hoeveel daarvan sal terugkom nie. Niemand kan dit uit u data weet nie, en om 'n getal te hoor wat u dan nie haal nie, doen werklike skade."
+    },
+    "guilt": {
+      "title": "Geen skuldgevoel oor dae wat u mis nie",
+      "body": "Mis 'n week en niks word teruggestel nie, niks gaan verlore nie, en geen kennisgewing sê vir u dat u iets gebreek het nie. U maak die toep oop en doen vandag se sessie."
+    },
+    "badges": {
+      "title": "Geen kentekens, punte of reekse nie",
+      "body": "U herstel van 'n senuweebesering, u speel nie 'n speletjie nie. Vordering word gewys as metings en as dinge wat u nuut kan doen."
+    },
+    "comparing": {
+      "title": "Geen vergelyking met ander pasiënte nie",
+      "body": "U skanderings word met u eie basislyn vergelyk en met niks anders nie. 'n Ranglys van gesigte sou grotesk wees."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Van mense wat dit gebruik",
+    "title": "Geverifieerde resensies",
+    "quote": "\"{quote}\"",
+    "verified": "Geverifieerde gebruiker",
+    "readStories": "Lees volledige herstelverhale"
+  },
+  "pricing": {
+    "eyebrow": "Pryse",
+    "title": "Drie maande, want so lank neem verandering",
+    "lead": "Sewe dae gratis. U word nie voor dag 8 gehef nie, en niks word vooraf vir u gekies nie.",
+    "mostChosen": "Gewildste",
+    "period": "/ {months, plural, one {# maand} other {# maande}}",
+    "perDay": "{price} per dag",
+    "cta": "Begin 7 dae gratis",
+    "after": "Ná u eerste drie maande: {extension} per maand, of hou op. Ekstra konsultasies {consult}. Deur 'n klinikus verwys? Dit is {discount, number, percent} afslag — voer hul kode by die betaalpunt in."
+  },
+  "guides": {
+    "eyebrow": "Gratis om te lees, geen rekening nie",
+    "title": "Die gidse wat ons graag sou wou ontvang het",
+    "all": "Al sewe gidse",
+    "read": "{minutes, plural, other {# min. leestyd}} · hersien {date}"
+  },
+  "finalCta": {
+    "title": "Begin vandag, besluit op dag sewe",
+    "lead": "Geen kaart nie, niks gehef voor dag 8 nie, en u kan u data saamneem as u vertrek."
+  },
+  "face": {
+    "defaultLabel": "Skematiese gesigdiagram"
+  }
+}

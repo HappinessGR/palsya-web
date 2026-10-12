@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Prijzen — Palsya",
+    "description": "Zeven dagen gratis, daarna abonnementen van drie maanden: alleen de app, of met twee of zes videoconsulten. Geen afteltimers, opzeggen in twee klikken."
+  },
+  "hero": {
+    "eyebrow": "Prijzen",
+    "title": "Zeven dagen gratis, daarna drie maanden",
+    "lead": "Er is niets vooraf aangevinkt, er loopt geen afteltimer, en de middelste optie staat als meest gekozen gemarkeerd omdat dat zo is, niet om u te sturen."
+  },
+  "card": {
+    "mostChosen": "Meest gekozen",
+    "period": "/ {months, plural, one {# maand} other {# maanden}}",
+    "perDay": "{price} per dag",
+    "goToDashboard": "Naar dashboard",
+    "subscribe": "Abonneren",
+    "startTrial": "{days, plural, one {# dag} other {# dagen}} gratis proberen"
+  },
+  "plans": {
+    "app": {
+      "name": "Alleen de app",
+      "forWho": "Voor mensen die de structuur willen en al onder behandeling zijn van een behandelaar bij wie ze met vragen terechtkunnen.",
+      "features": {
+        "programme": "Volledig begeleid programma, alle vijf fases",
+        "sessions": "Dagelijkse sessies met begeleiding bij tapen en oefeningen",
+        "scans": "Camerascans en het volgen van symmetrie",
+        "timeline": "Fototijdlijn en voortgangsrapporten",
+        "knowledge": "Volledige kennisbank in 7 talen",
+        "support": "Ondersteuning per e-mail binnen één werkdag"
+      }
+    },
+    "guided": {
+      "name": "App + 2 consulten",
+      "forWho": "De keuze van de meeste mensen. Twee gesprekken zijn meestal genoeg om de fouten te vinden die ertoe doen — de spanning van de tape, de mate van inspanning en synkinesie die ontstaat.",
+      "features": {
+        "everything": "Alles uit Alleen de app",
+        "consults": "<b>Twee videoconsulten van 30 minuten</b> met een specialist in revalidatie van het gezicht",
+        "notes": "Schriftelijke aantekeningen en een plan na elk gesprek",
+        "adjusted": "Uw programma aangepast door een behandelaar, niet alleen door het algoritme",
+        "priority": "Voorrang bij ondersteuning, binnen vier werkuren"
+      }
+    },
+    "supported": {
+      "name": "App + 6 consulten",
+      "forWho": "Voor complexere situaties: veel synkinesie, herstel na een operatie, trage vooruitgang in het begin, of iedereen die gewoon regelmatig contact met een mens wil.",
+      "features": {
+        "everything": "Alles uit App + 2 consulten",
+        "consults": "<b>Zes videoconsulten van 30 minuten</b> — ongeveer om de twee weken",
+        "continuity": "Steeds dezelfde behandelaar",
+        "messages": "Rechtstreeks berichten uitwisselen met uw behandelaar",
+        "scanReviews": "Beoordeling van scans tussen de gesprekken door"
+      }
+    }
+  },
+  "table": {
+    "title": "Wat zit er in elk abonnement",
+    "feature": "Functie",
+    "consultsHeader": "+{count, plural, one {# consult} other {# consulten}}",
+    "days": "{count, plural, one {# dag} other {# dagen}}",
+    "hours": "{count, plural, one {# uur} other {# uur}}",
+    "rows": {
+      "programme": "Volledig begeleid programma, vijf fases",
+      "guidance": "Dagelijkse begeleiding bij tapen en oefeningen",
+      "scans": "Camerascans en het volgen van symmetrie",
+      "timeline": "Fototijdlijn en vergelijking",
+      "reports": "AI-voortgangsrapporten",
+      "knowledge": "Kennisbank, {count} talen",
+      "share": "Rapporten delen met uw eigen behandelaar",
+      "consults": "Videoconsulten",
+      "notes": "Schriftelijke aantekeningen na elk gesprek",
+      "sameClinician": "Steeds dezelfde behandelaar",
+      "messages": "Berichten met uw behandelaar",
+      "scanReviews": "Beoordeling van scans tussen gesprekken",
+      "support": "Reactietijd ondersteuning"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "Na de eerste drie maanden",
+      "body": "Verleng per maand voor {price}, of stop. De meeste mensen in fase 4 of 5 verlengen twee of drie maanden en gaan daarna zelf verder met een korte onderhoudsroutine."
+    },
+    "consult": {
+      "title": "Extra consulten",
+      "body": "{price} per stuk, bij elk abonnement. Te boeken via uw account, meestal binnen drie dagen beschikbaar."
+    },
+    "referral": {
+      "title": "Doorverwezen door een behandelaar?",
+      "body": "{discount, number, percent} korting op uw eerste drie maanden. Vul bij het afrekenen de verwijscode van uw behandelaar in — daarmee kan die ook uw voortgangsrapporten zien, als u daar apart mee instemt."
+    },
+    "reducedCost": {
+      "title": "Als de kosten het probleem zijn",
+      "body": "Schrijf ons. Elke maand houden we een aantal plaatsen tegen verlaagd tarief vrij voor mensen die dit niet kunnen betalen, en u hoeft niets te bewijzen behalve een zin over uw situatie."
+    }
+  },
+  "faq": {
+    "title": "Vragen over betalen",
+    "all": "Alle veelgestelde vragen"
+  }
+}

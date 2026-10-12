@@ -1,0 +1,392 @@
+{
+  "sections": {
+    "about": "About your paralysis",
+    "medical": "Medical care",
+    "eye": "Your eye",
+    "moves": "What moves",
+    "linked": "Linked movement",
+    "other": "Other symptoms",
+    "daily": "Daily life"
+  },
+  "optionSets": {
+    "move": {
+      "none": {
+        "t": "No movement at all",
+        "d": "Nothing happens when I try."
+      },
+      "flicker": {
+        "t": "A flicker",
+        "d": "Something moves, but barely — I may be the only one who can see it."
+      },
+      "partial": {
+        "t": "Partial movement",
+        "d": "It moves, clearly less than the other side."
+      },
+      "near": {
+        "t": "Nearly normal",
+        "d": "Close to the other side, or the same."
+      }
+    }
+  },
+  "questions": {
+    "onsetDate": {
+      "q": "When did the facial weakness start?",
+      "help": "Your best estimate is fine. If it came on overnight, use the morning you noticed it."
+    },
+    "diagnosis": {
+      "q": "What diagnosis have you been given?",
+      "help": "If you are not sure of the exact name, choose the closest option.",
+      "options": {
+        "bells": {
+          "t": "Bell's palsy",
+          "d": "Idiopathic facial palsy — no specific cause identified."
+        },
+        "ramsay": {
+          "t": "Ramsay Hunt syndrome",
+          "d": "Caused by the varicella zoster virus, usually with a rash."
+        },
+        "surgical": {
+          "t": "After surgery",
+          "d": "Facial nerve affected during an operation."
+        },
+        "trauma": {
+          "t": "After an injury",
+          "d": "Following trauma or a fracture."
+        },
+        "lyme": {
+          "t": "Lyme disease"
+        },
+        "other": {
+          "t": "Something else",
+          "d": "A different diagnosed cause."
+        },
+        "none": {
+          "t": "I have not seen a doctor yet"
+        }
+      }
+    },
+    "side": {
+      "q": "Which side of your face is affected?",
+      "options": {
+        "left": {
+          "t": "Left side"
+        },
+        "right": {
+          "t": "Right side"
+        },
+        "both": {
+          "t": "Both sides"
+        }
+      }
+    },
+    "progression": {
+      "q": "How did the weakness come on?",
+      "help": "This helps us understand whether the pattern is typical.",
+      "options": {
+        "sudden": {
+          "t": "Suddenly",
+          "d": "Over hours, or I woke up with it."
+        },
+        "days": {
+          "t": "Over a few days",
+          "d": "It got worse across two or three days, then stopped."
+        },
+        "gradual": {
+          "t": "Gradually, and it is still getting worse",
+          "d": "Slowly worsening over weeks."
+        },
+        "recurring": {
+          "t": "This has happened before",
+          "d": "A previous episode on the same or the other side."
+        }
+      }
+    },
+    "medical": {
+      "q": "Have you been assessed by a doctor?",
+      "options": {
+        "steroids": {
+          "t": "Yes, and I was prescribed steroids"
+        },
+        "noSteroids": {
+          "t": "Yes, but no steroids were prescribed"
+        },
+        "waiting": {
+          "t": "I have an appointment booked"
+        },
+        "no": {
+          "t": "Not yet"
+        }
+      }
+    },
+    "eyeClosure": {
+      "q": "Can you close the affected eye?",
+      "help": "Look in a mirror and close both eyes gently, without forcing.",
+      "options": {
+        "full": {
+          "t": "Yes, fully"
+        },
+        "almost": {
+          "t": "Almost — a small gap remains"
+        },
+        "partial": {
+          "t": "Partly — the lid moves but a clear gap remains"
+        },
+        "none": {
+          "t": "No, the lid does not move"
+        }
+      }
+    },
+    "eyeSymptoms": {
+      "q": "Do you have any of these eye symptoms right now?",
+      "help": "Select everything that applies. This is the most important question on this page.",
+      "options": {
+        "pain": {
+          "t": "Pain in the eye"
+        },
+        "redness": {
+          "t": "Redness that does not settle"
+        },
+        "vision": {
+          "t": "Blurred or changed vision"
+        },
+        "dryness": {
+          "t": "Dryness or grittiness"
+        },
+        "watering": {
+          "t": "Excessive watering"
+        },
+        "none": {
+          "t": "None of these"
+        }
+      }
+    },
+    "eyeCare": {
+      "q": "What are you currently using to protect the eye?",
+      "options": {
+        "drops": {
+          "t": "Lubricating drops during the day"
+        },
+        "ointment": {
+          "t": "Ointment at night"
+        },
+        "tape": {
+          "t": "Taping the lid closed at night"
+        },
+        "chamber": {
+          "t": "A moisture chamber or eye shield"
+        },
+        "glasses": {
+          "t": "Sunglasses outdoors"
+        },
+        "nothing": {
+          "t": "Nothing yet"
+        }
+      }
+    },
+    "moveBrow": {
+      "q": "Try to raise your eyebrows. What happens on the affected side?",
+      "help": "Hold the unaffected eyebrow still with two fingers so it cannot do the work."
+    },
+    "moveEye": {
+      "q": "Try to close the affected eye tightly. How much does it move?"
+    },
+    "moveMouth": {
+      "q": "Try a small smile with your lips together. What happens on the affected side?"
+    },
+    "synkinesis": {
+      "q": "When you smile, does the affected eye narrow or close on its own?",
+      "help": "Or the reverse: when you close the eye, does the corner of the mouth pull? Either counts.",
+      "options": {
+        "none": {
+          "t": "No, they move separately"
+        },
+        "occasional": {
+          "t": "Occasionally, with bigger movements"
+        },
+        "frequent": {
+          "t": "Often, with most movements"
+        },
+        "always": {
+          "t": "Always — I cannot separate them"
+        },
+        "unsure": {
+          "t": "I am not sure"
+        }
+      }
+    },
+    "tightness": {
+      "q": "Does the affected side of your face feel tight or stiff?",
+      "options": {
+        "none": {
+          "t": "No, it feels loose or normal"
+        },
+        "mild": {
+          "t": "A little tight, mostly by the end of the day"
+        },
+        "moderate": {
+          "t": "Noticeably tight most of the time"
+        },
+        "severe": {
+          "t": "Very tight — it limits how much I can move"
+        }
+      }
+    },
+    "otherSymptoms": {
+      "q": "Do you have any of these?",
+      "options": {
+        "rash": {
+          "t": "A rash or blisters near the ear, in the ear, or on the scalp"
+        },
+        "hearing": {
+          "t": "Hearing loss or new sound sensitivity"
+        },
+        "earPain": {
+          "t": "Ear pain"
+        },
+        "taste": {
+          "t": "Altered taste"
+        },
+        "tinnitus": {
+          "t": "Ringing in the ear"
+        },
+        "limb": {
+          "t": "Weakness or numbness in an arm or leg"
+        },
+        "none": {
+          "t": "None of these"
+        }
+      }
+    },
+    "impact": {
+      "q": "Which of these are difficult right now?",
+      "help": "This shapes which parts of the daily routine we put in front of you first.",
+      "options": {
+        "drinking": {
+          "t": "Drinking without spilling"
+        },
+        "eating": {
+          "t": "Eating — food collects in the cheek"
+        },
+        "speaking": {
+          "t": "Being understood when I speak"
+        },
+        "eye": {
+          "t": "Managing the eye"
+        },
+        "sleep": {
+          "t": "Sleeping"
+        },
+        "social": {
+          "t": "Being around other people"
+        },
+        "none": {
+          "t": "None of these are difficult"
+        }
+      }
+    },
+    "treatment": {
+      "q": "Are you doing any of these already?",
+      "options": {
+        "physio": {
+          "t": "In-person physiotherapy"
+        },
+        "exercises": {
+          "t": "Facial exercises on my own"
+        },
+        "taping": {
+          "t": "Facial taping"
+        },
+        "estim": {
+          "t": "Electrical stimulation"
+        },
+        "gum": {
+          "t": "Chewing gum as exercise"
+        },
+        "none": {
+          "t": "Nothing yet"
+        }
+      }
+    },
+    "perDay": {
+      "q": "How many sessions a day suits your life?",
+      "help": "Two shorter sessions works better than one long one, but one done consistently beats two abandoned.",
+      "options": {
+        "1": {
+          "t": "One session",
+          "d": "Around 10–20 minutes."
+        },
+        "2": {
+          "t": "Two sessions",
+          "d": "Around 8–10 minutes each. Recommended."
+        }
+      }
+    }
+  },
+  "flags": {
+    "limb": {
+      "title": "Call emergency services now",
+      "body": "Facial weakness together with weakness or numbness in an arm or leg can be a stroke. This needs emergency assessment, not a rehabilitation programme. Please stop here and call your local emergency number."
+    },
+    "eye": {
+      "title": "See a doctor about your eye today",
+      "body": "Eye pain, persistent redness, or changed vision with facial paralysis can mean the cornea is being damaged by exposure. This is the one complication that can cause lasting harm and it is treatable. Please get it looked at today — an optometrist, GP, or eye casualty department."
+    },
+    "rash": {
+      "title": "The rash should be assessed",
+      "body": "A rash or blisters near the ear alongside facial paralysis suggests Ramsay Hunt syndrome, which is treated with antivirals and has a different course from Bell's palsy. Getting the right diagnosis changes the treatment, so please see a doctor."
+    },
+    "undiagnosed": {
+      "title": "You need a diagnosis before you start",
+      "body": "Palsya is a rehabilitation programme, not a diagnostic service. Facial weakness has several causes, some of them urgent, and some are treated with medication that works best in the first few days. Please see a doctor first."
+    },
+    "progressive": {
+      "title": "Gradual, ongoing worsening needs investigation",
+      "body": "Bell's palsy comes on over hours to a few days and then stops getting worse. Weakness that is still progressing over weeks can point to a different cause that needs imaging. Please tell your doctor specifically that it is still worsening."
+    },
+    "bilateral": {
+      "title": "Both-sided weakness needs specialist assessment",
+      "body": "Facial weakness on both sides is uncommon and is more often linked to a systemic cause — Lyme disease, Guillain-Barré syndrome, sarcoidosis, among others. This should be investigated before you begin a rehabilitation programme."
+    },
+    "tooEarly": {
+      "title": "It is very early — medical treatment comes first",
+      "body": "You are {days, plural, one {# day} other {# days}} from onset. Corticosteroids started within the first 72 hours measurably improve outcomes in Bell's palsy, and that window matters more right now than starting exercises. Nothing you do with the muscle in the first week changes the nerve.\n\nCome back from day 5. We will hold your answers."
+    },
+    "late": {
+      "title": "Outside our usual window — a clinician will review",
+      "body": "Your onset was {days, number} days ago, beyond the 5–90 day window our programme is designed around. Structured rehabilitation still helps at this point, particularly for synkinesis and tightness, but the starting point needs a person to set it. A clinician will review your assessment within one working day before your programme begins."
+    },
+    "noEyeCare": {
+      "title": "Start eye protection today",
+      "body": "Your eye does not close fully and you are not using anything to protect it. Preservative-free lubricating drops are available without prescription and should start today, with ointment at night. This matters more than any exercise in your programme."
+    },
+    "estim": {
+      "title": "About the electrical stimulation",
+      "body": "We do not include electrical stimulation. The evidence is inconsistent and there is a theoretical concern that stimulation during reinnervation may worsen synkinesis. If a clinician prescribed it for you specifically, follow their advice — but please raise it on your first consultation."
+    },
+    "gum": {
+      "title": "Please stop the chewing gum",
+      "body": "Chewing gum as facial exercise trains the jaw muscles rather than the facial muscles, and it reliably increases tightness and synkinesis. It is one of the few things we would ask you to stop outright."
+    }
+  },
+  "reasons": {
+    "noMovement": "No voluntary movement in any region, so the programme starts with protection rather than activation.",
+    "minimalMovement": "Early voluntary movement is present but minimal, so the work is finding and repeating the smallest accurate movement.",
+    "notIsolated": "Movement is present across most of the face but not yet isolated, which puts coordination at the centre of your programme.",
+    "nearNormal": "Movement is close to normal in most regions, so the work moves to control at everyday effort levels.",
+    "synkinesisRaised": "You described frequent linked movement. Coordination work is the priority when synkinesis is established, even where movement is still limited.",
+    "synkinesisHeldBack": "Movement quality would suggest a later stage, but frequent synkinesis is best addressed with coordination work first.",
+    "severeTightness": "Severe tightness limits range more than weakness does, so release and coordination work take priority.",
+    "eyeProtection": "Because the eyelid does not move, eye protection stays at the front of your daily routine regardless of stage.",
+    "maintenance": "More than nine months from onset with near-normal movement and little linked movement — the work now is maintaining range rather than building it.",
+    "slowRecovery": "Recovery after {cause, select, ramsay {Ramsay Hunt syndrome} surgical {surgery} other {injury}} is typically slower and less even than after Bell's palsy, so we will not read a slow start as a poor sign.",
+    "timeHoldBack": "Your answers alone would suggest Stage {suggested}, but at {days, plural, one {# day} other {# days}} from onset we hold back a stage. Advancing ahead of the nerve is how compensations get established.",
+    "timeEarliest": "At {days, plural, one {# day} other {# days}} from onset, Stage {stage} is the earliest placement that makes clinical sense.",
+    "clinicianOverride": "Your clinician updated your stage after reviewing your progress."
+  },
+  "reviewWhy": {
+    "lowConfidence": "some of your answers do not sit together in the usual pattern",
+    "lateOnset": "your onset is outside our usual window",
+    "surgeryOrInjury": "recovery after surgery or injury needs an individual starting point",
+    "otherDiagnosis": "your diagnosis is outside the ones we place automatically"
+  }
+}

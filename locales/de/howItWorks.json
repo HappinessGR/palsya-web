@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "So funktioniert Palsya",
+    "description": "Von der Einstufung bis zu Ihrem ersten Scan: Einordnung in eine Phase, die tägliche Einheit, wöchentliche Scans, Fortschritt über die Zeit und die Fachkraft – ohne Marketing-Glanz."
+  },
+  "hero": {
+    "eyebrow": "So funktioniert’s",
+    "title": "Von der Einstufung bis zu Ihrem ersten Scan",
+    "lead": "Der ganze Ablauf, ohne Marketing-Glanz."
+  },
+  "stepLabel": "Schritt {n}",
+  "steps": {
+    "assessment": {
+      "title": "Die Einstufung",
+      "p1": "Sechzehn Fragen, etwa acht Minuten. Kein Test, den man bestehen kann – die Antworten legen Ihren Ausgangspunkt fest. Wer rät, was besser klingt, macht sein Programm schlechter.",
+      "p2": "Gefragt wird, wann die Schwäche begann, wie Ihre Diagnose lautet, was sich in drei Bereichen Ihres Gesichts bewegt und was nicht, ob Bewegungen miteinander gekoppelt sind und wie der Alltag läuft. Außerdem wird Ihr Auge genau abgefragt, denn dort kann bleibender Schaden entstehen.",
+      "p3": "Wenn Ihre Antworten auf etwas hindeuten, das eine Ärztin oder einen Arzt statt einer App braucht – Augenschmerzen, Schwäche in Arm oder Bein, eine Schwäche, die sich nach Wochen noch verschlimmert, beide Gesichtshälften betroffen oder noch keine Diagnose –, halten wir an und sagen es Ihnen. Lieber verzichten wir auf die Anmeldung."
+    },
+    "stage": {
+      "title": "Ihre Phase – und warum",
+      "p1": "Ihre Antworten durchlaufen ein Einordnungsverfahren, das unser klinisches Team entwickelt hat: Die Zeit seit Beginn setzt eine äußere Grenze, die tatsächliche Beweglichkeit ist entscheidend, dann folgen Anpassungen für gekoppelte Bewegungen und Verspannung und schließlich eine Plausibilitätsprüfung.",
+      "p2": "Sie sehen die Begründung in verständlicher Sprache. Nicht einfach „Phase 3“, sondern warum Phase 3 und was genau sich dadurch an Ihrem Tag ändert.",
+      "p3": "Wenn die Antworten nicht in ein übliches Muster passen, der Beginn mehr als 90 Tage zurückliegt oder Ihre Lähmung nach einer Operation oder Verletzung aufgetreten ist, prüft eine Fachkraft die Einordnung, bevor Ihr Programm beginnt. Diese Prüfung erfolgt innerhalb eines Werktags und ist inklusive."
+    },
+    "session": {
+      "title": "Die tägliche Einheit",
+      "p1": "Ein Bildschirm, ein Knopf. Drei Teile: Taping, Übungen, Tagesroutine. Zehn bis zwanzig Minuten je nach Phase, und Sie können sie auf zwei Durchgänge aufteilen.",
+      "p2": "Jede Übung wird von einem Timer mit gesprochenen Hinweisen begleitet, dazu eine Abbildung, die Wiederholungszahl für Ihre Phase und der eine Fehler, den die meisten bei genau dieser Bewegung machen. Beim Taping sehen Sie, wo jeder Streifen hinkommt und mit wie viel Zug – hier irren sich fast alle, und zwar immer in Richtung zu viel.",
+      "p3": "Als erledigt markieren, und es ist gespeichert. Einen Tag auslassen, und nichts passiert."
+    },
+    "scan": {
+      "title": "Der wöchentliche Scan",
+      "p1": "Sie richten Ihr Gesicht in einem Umriss aus und folgen vier Anweisungen: Ruhe, Stirn heben, sanftes Lächeln, Augen schließen. Etwa neunzig Sekunden.",
+      "p2": "Bevor irgendetwas gemessen wird, prüfen wir das Bild auf alles, was falsche Ergebnisse erzeugt – Licht von einer Seite, zu dunkel, unscharf, Bewegung. Ist das Bild nicht gut genug, sagen wir es Ihnen und Sie nehmen es neu auf. Ein schlechter Scan ist schlimmer als gar keiner.",
+      "p3": "Die Gesichtsmerkmale werden auf Ihrem Gerät erkannt. Ihre betroffene Seite wird Bereich für Bereich mit dem Spiegelbild Ihrer nicht betroffenen Seite verglichen und zu einem Wert von 0 bis 100 zusammengefasst, bezogen auf Ihren eigenen Ausgangswert.",
+      "p4": "Der Wert ist eine geometrische Messung. Er ist kein Schweregrad, lässt sich nicht in House-Brackmann umrechnen und ist kein Prozentsatz der Genesung. Sein einziger Zweck ist, Sie heute mit Ihnen im letzten Monat zu vergleichen."
+    },
+    "timeline": {
+      "title": "Was Sie im Verlauf sehen",
+      "p1": "Einen Verlauf Ihres Symmetriewerts, in dem die Messungenauigkeit eingezeichnet ist, damit Sie sehen, welche Veränderungen echt sind und welche nur Rauschen. Einen direkten Vergleich mit jedem früheren Scan. Eine Fotochronik, über die Sie bestimmen und die Sie jederzeit löschen können.",
+      "p2": "Fortschrittsberichte aus Ihren eigenen Daten, nach einer Vorlage, die Ihr Ergebnis nicht vorhersagt und Sie nicht für Ihren Einsatz lobt. Meilensteine sind sachliche Beobachtungen – „Lippen blieben beim Trinken geschlossen“ – keine Abzeichen."
+    },
+    "clinician": {
+      "title": "Die Fachkraft",
+      "p1": "In den Tarifen mit Sprechstunden buchen Sie einen 30-minütigen Videotermin bei einer Fachkraft für Gesichtsrehabilitation und wählen selbst, mit wem Sie sprechen. Sie können vorab Ihre Scans und Berichte teilen, damit das Gespräch nicht mit Aufholen vergeht.",
+      "p2": "Danach erhalten Sie schriftliche Notizen und einen konkreten Plan. Sollte Ihr Programm angepasst werden, passt die Fachkraft es an – sie kann den Algorithmus übersteuern und tut das oft."
+    }
+  },
+  "notRight": {
+    "title": "Und wenn es nicht das Richtige für Sie ist?",
+    "lead": "Kündigen Sie innerhalb der sieben kostenlosen Tage, zahlen Sie nichts. Kündigen Sie später, sind es zwei Klicks – kein Anruf, kein Halteangebot, keine Tricks. Nehmen Sie beim Gehen einen Export Ihrer Daten mit.",
+    "cta": "7 Tage kostenlos testen"
+  }
+}

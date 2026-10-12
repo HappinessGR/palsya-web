@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Administrasie — Palsya",
+    "description": "Palsya se agterkantoor."
+  },
+  "heading": "Administrasie",
+  "headingNamed": "Administrasie — {name}",
+  "subtitle": "Agterkantoor",
+  "nav": {
+    "label": "Administrasie-afdelings",
+    "overview": "Oorsig",
+    "users": "Gebruikers",
+    "invite": "Nooi uit",
+    "audit": "Ouditlog"
+  },
+  "roles": {
+    "patient": "Pasiënt",
+    "clinician": "Klinikus",
+    "admin": "Administrateur"
+  },
+  "statuses": {
+    "active": "Aktief",
+    "suspended": "Gedeaktiveer",
+    "pending_verification": "Wag op verifikasie"
+  },
+  "overview": {
+    "counts": {
+      "patients": "Pasiënte",
+      "clinicians": "Klinici",
+      "admins": "Administrateurs",
+      "unassigned": "Pasiënte sonder klinikus",
+      "pendingInvitations": "Uitstaande uitnodigings"
+    },
+    "unavailable": "—",
+    "links": {
+      "title": "Bestuur",
+      "users": "Gebruikers",
+      "usersBody": "Verander rolle, deaktiveer rekenings en ken pasiënte aan klinici toe.",
+      "invite": "Nooi personeel uit",
+      "inviteBody": "Nooi 'n klinikus of administrateur per e-pos uit en bestuur uitstaande uitnodigings.",
+      "audit": "Ouditlog",
+      "auditBody": "Sien wie wat gedoen het, en wanneer."
+    }
+  },
+  "users": {
+    "meta": {
+      "title": "Gebruikers — Palsya-administrasie",
+      "description": "Bestuur Palsya-rekenings, rolle en klinikustoewysings."
+    },
+    "heading": "Gebruikers",
+    "subtitle": "Rolle, rekeningstatus en klinikustoewysings.",
+    "filter": {
+      "label": "Filtreer volgens rol",
+      "all": "Almal"
+    },
+    "columns": {
+      "name": "Naam",
+      "email": "E-pos",
+      "role": "Rol",
+      "status": "Status",
+      "created": "Geskep",
+      "clinician": "Toegewese klinikus",
+      "actions": "Aksies"
+    },
+    "you": "U",
+    "empty": "Geen gebruikers pas by hierdie filter nie.",
+    "notApplicable": "—",
+    "roleSelect": "Rol vir {name}",
+    "saveRole": "Verander rol",
+    "deactivate": "Deaktiveer",
+    "reactivate": "Heraktiveer",
+    "clinicianSelect": "Klinikus vir {name}",
+    "unassigned": "Nie toegewys nie",
+    "assign": "Ken toe",
+    "result": {
+      "role_changed": "Rol bygewerk.",
+      "status_changed": "Rekeningstatus bygewerk.",
+      "assigned": "Klinikustoewysing bygewerk."
+    }
+  },
+  "invite": {
+    "meta": {
+      "title": "Nooi personeel uit — Palsya-administrasie",
+      "description": "Nooi klinici en administrateurs na Palsya uit."
+    },
+    "heading": "Nooi personeel uit",
+    "subtitle": "Klinici en administrateurs sluit slegs op uitnodiging aan. Pasiënte registreer self.",
+    "form": {
+      "title": "Nuwe uitnodiging",
+      "email": "E-posadres",
+      "emailPlaceholder": "naam@voorbeeld.com",
+      "role": "Rol",
+      "language": "Taal van e-pos",
+      "languageHint": "Die uitnodiging word in hierdie taal per e-pos gestuur.",
+      "submit": "Stuur uitnodiging"
+    },
+    "pending": {
+      "title": "Uitstaande uitnodigings",
+      "empty": "Geen uitstaande uitnodigings nie.",
+      "unavailable": "Uitstaande uitnodigings kon nie gelaai word nie. Probeer later weer.",
+      "email": "E-pos",
+      "role": "Rol",
+      "sent": "Gestuur",
+      "revoke": "Trek terug",
+      "revokeLabel": "Trek uitnodiging vir {email} terug"
+    },
+    "result": {
+      "invited": "Uitnodiging gestuur.",
+      "revoked": "Uitnodiging teruggetrek."
+    }
+  },
+  "audit": {
+    "meta": {
+      "title": "Ouditlog — Palsya-administrasie",
+      "description": "Onlangse administratiewe en sekuriteitsgebeure."
+    },
+    "heading": "Ouditlog",
+    "subtitle": "Die jongste {count} gebeure, nuutste eerste.",
+    "empty": "Niks is nog aangeteken nie.",
+    "columns": {
+      "when": "Wanneer",
+      "who": "Wie",
+      "action": "Aksie",
+      "target": "Teiken",
+      "details": "Besonderhede"
+    },
+    "system": "Stelsel / anoniem",
+    "noTarget": "—",
+    "noDetails": "—",
+    "targets": {
+      "user": "Gebruiker",
+      "patient": "Pasiënt",
+      "invitation": "Uitnodiging"
+    },
+    "actions": {
+      "role_changed": "Rol verander",
+      "user_invited": "Gebruiker uitgenooi",
+      "invitation_revoked": "Uitnodiging teruggetrek",
+      "patient_assigned": "Pasiënt toegewys",
+      "user_deactivated": "Gebruiker gedeaktiveer",
+      "user_reactivated": "Gebruiker geheraktiveer",
+      "patient_stage_changed": "Pasiënt se fase verander",
+      "clinician_note_added": "Klinikusnota bygevoeg",
+      "password_reset_requested": "Wagwoordherstel aangevra",
+      "password_reset_completed": "Wagwoordherstel voltooi",
+      "user_demoted_self_registered": "Selfgeregistreerde klinikus afgegradeer"
+    }
+  },
+  "errors": {
+    "not_signed_in": "U sessie het verstryk. Meld asseblief weer aan.",
+    "forbidden": "U het nie toestemming om dit te doen nie.",
+    "invalid_input": "Daardie versoek was nie geldig nie. Probeer asseblief weer.",
+    "not_found": "Daardie gebruiker of uitnodiging bestaan nie meer nie.",
+    "invalid_role": "Daardie rol word nie hier toegelaat nie.",
+    "invalid_locale": "Kies een van die gelyste tale.",
+    "last_admin": "U kan nie die laaste administrateur verwyder nie.",
+    "cannot_change_self_status": "U kan nie u eie rekening deaktiveer of heraktiveer nie.",
+    "not_a_patient": "Daardie rekening is nie 'n pasiënt nie.",
+    "not_a_clinician": "Kies 'n aktiewe klinikus.",
+    "invalid_email": "Voer 'n geldige e-posadres in.",
+    "already_exists": "'n Rekening of uitnodiging bestaan reeds vir daardie e-posadres.",
+    "invite_failed": "Die uitnodiging kon nie gestuur word nie. Probeer asseblief weer."
+  }
+}

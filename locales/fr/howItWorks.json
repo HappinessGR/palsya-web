@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Comment fonctionne Palsya",
+    "description": "Du bilan à votre premier scan : le choix de l'étape, la séance quotidienne, les scans hebdomadaires, l'évolution dans le temps et le clinicien — sans vernis marketing."
+  },
+  "hero": {
+    "eyebrow": "Fonctionnement",
+    "title": "Du bilan à votre premier scan",
+    "lead": "Tout le parcours, sans vernis marketing."
+  },
+  "stepLabel": "Étape {n}",
+  "steps": {
+    "assessment": {
+      "title": "Le bilan",
+      "p1": "Seize questions, environ huit minutes. Ce n'est pas un test à réussir — vos réponses fixent votre point de départ, donc répondre ce qui semble « mieux » rend votre programme moins adapté.",
+      "p2": "Il vous demande quand la faiblesse a commencé, quel est votre diagnostic, ce qui bouge et ce qui ne bouge pas dans trois zones de votre visage, si certains mouvements sont liés entre eux et comment se passe votre quotidien. Il vous interroge aussi en détail sur votre œil, car c'est la partie qui peut subir des dommages durables.",
+      "p3": "Si vos réponses révèlent quelque chose qui relève d'un médecin plutôt que d'une application — douleur à l'œil, faiblesse d'un membre, faiblesse qui continue de s'aggraver après plusieurs semaines, atteinte des deux côtés, ou absence de diagnostic — nous nous arrêtons et nous vous le disons. Nous préférons perdre une inscription."
+    },
+    "stage": {
+      "title": "Votre étape, et pourquoi",
+      "p1": "Vos réponses passent par un processus d'orientation conçu par notre équipe clinique : le temps écoulé depuis l'apparition fixe une limite extérieure, ce qui bouge réellement fait l'essentiel du travail, puis viennent les ajustements pour les mouvements associés et les raideurs, et enfin une vérification du niveau de confiance.",
+      "p2": "Vous voyez le raisonnement, en langage clair. Pas seulement « Étape 3 », mais pourquoi l'étape 3 et ce que cela change concrètement dans votre journée.",
+      "p3": "Lorsque les réponses ne correspondent pas à un schéma habituel, que l'apparition remonte à plus de 90 jours, ou que votre paralysie fait suite à une chirurgie ou à un traumatisme, un clinicien vérifie l'orientation avant le début de votre programme. Cette vérification se fait sous un jour ouvré et elle est incluse."
+    },
+    "session": {
+      "title": "La séance quotidienne",
+      "p1": "Un écran, un bouton. Trois parties : taping, exercices, routine quotidienne. De dix à vingt minutes selon votre étape, et vous pouvez la faire en deux fois.",
+      "p2": "Chaque exercice est guidé par un minuteur avec des consignes formulées comme à l'oral, un schéma, le nombre de répétitions pour votre étape, et l'erreur la plus fréquente sur ce mouvement précis. Pour le taping, vous voyez où placer chaque bande et avec quelle tension — c'est l'erreur que presque tout le monde fait, toujours dans le sens d'une tension excessive.",
+      "p3": "Marquez-la comme faite et elle est enregistrée. Si vous sautez un jour, il ne se passe rien."
+    },
+    "scan": {
+      "title": "Le scan hebdomadaire",
+      "p1": "Vous placez votre visage dans un contour et suivez quatre consignes : repos, haussement des sourcils, sourire léger, fermeture des yeux. Environ quatre-vingt-dix secondes.",
+      "p2": "Avant toute mesure, l'image est contrôlée pour repérer ce qui fausse les résultats — lumière venant d'un seul côté, image trop sombre, flou, mouvement. Si l'image n'est pas assez bonne, nous vous le disons et vous la reprenez. Un mauvais scan est pire que pas de scan.",
+      "p3": "Les points de repère sont détectés sur votre appareil. Votre côté atteint est comparé à l'image en miroir de votre côté sain, zone par zone, puis le tout est combiné en un score sur 100 par rapport à votre propre référence initiale.",
+      "p4": "Ce score est une mesure géométrique. Ce n'est pas un grade de sévérité, il ne se convertit pas en grade de House-Brackmann et ce n'est pas un pourcentage de récupération. Il sert uniquement à comparer votre visage d'aujourd'hui à celui du mois dernier."
+    },
+    "timeline": {
+      "title": "Ce que vous voyez au fil du temps",
+      "p1": "Une courbe du score sur laquelle la marge de mesure est tracée, pour distinguer les changements réels du bruit. Une comparaison côte à côte avec n'importe quel scan précédent. Une chronologie de photos que vous gérez et pouvez supprimer à tout moment.",
+      "p2": "Des bilans d'évolution rédigés à partir de vos propres données, selon un modèle qui ne prédira pas votre résultat et ne vous félicitera pas de vos efforts. Des étapes franchies qui sont des constats factuels — « lèvres restées fermées en buvant » — et non des badges."
+    },
+    "clinician": {
+      "title": "Le clinicien",
+      "p1": "Avec les formules qui incluent des consultations, vous réservez un appel vidéo de 30 minutes avec un spécialiste de la rééducation faciale, et vous choisissez votre interlocuteur. Vous pouvez lui partager vos scans et vos bilans à l'avance, pour que l'appel ne serve pas à rattraper le retard.",
+      "p2": "Ensuite, vous recevez des notes écrites et un plan précis. Si votre programme doit changer, le clinicien le modifie — un clinicien peut passer outre l'algorithme, et le fait souvent."
+    }
+  },
+  "notRight": {
+    "title": "Et si cela ne vous convient pas ?",
+    "lead": "Résiliez pendant les sept jours gratuits et vous ne payez rien. Résiliez plus tard en deux clics — pas d'appel téléphonique, pas d'offre pour vous retenir, pas de manipulation. Exportez vos données en partant.",
+    "cta": "Essai gratuit de 7 jours"
+  }
+}

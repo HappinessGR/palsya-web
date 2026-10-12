@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Heute — Palsya",
+    "description": "Ihre tägliche Einheit, wo Sie in Ihrer Genesung stehen und was sich in dieser Phase zu lesen lohnt."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Guten Morgen",
+        "afternoon": "Guten Tag",
+        "evening": "Guten Abend",
+        "night": "Gute Nacht"
+      },
+      "named": {
+        "morning": "Guten Morgen, {name}",
+        "afternoon": "Guten Tag, {name}",
+        "evening": "Guten Abend, {name}",
+        "night": "Gute Nacht, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# Tag} other {# Tage}} in Phase {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Phase {stage} · {name}",
+    "title": "Heutige Einheit",
+    "allDone": "Alle drei Teile sind für heute eingetragen.",
+    "about": "Etwa {minutes} Minuten. Sie können sie über den Tag verteilen.",
+    "partMinutes": "{minutes} Min.",
+    "exercisesCount": "{count, plural, one {# Übung} other {# Übungen}}",
+    "dailyRoutine": "Tagesroutine",
+    "review": "Heutige Einheit ansehen",
+    "continue": "Einheit fortsetzen",
+    "start": "Einheit starten",
+    "order": "Taping, Übungen, dann die Tagesroutine"
+  },
+  "phaseBand": {
+    "title": "Wo Sie stehen",
+    "fullProgress": "Gesamter Verlauf",
+    "summary": "{short} {days, plural, one {# Tag} other {# Tage}} in dieser Phase.",
+    "patternTitle": "Einheiten der letzten drei Wochen",
+    "patternLabel": "Einheiten der letzten {days} Tage",
+    "state": {
+      "full": "Vollständig",
+      "part": "Teilweise",
+      "none": "Nicht eingetragen"
+    },
+    "legend": "Gefüllt heißt vollständig, blass heißt teilweise, leer heißt nicht eingetragen. Hier gibt es keine Serie, und nichts wird zurückgesetzt."
+  },
+  "score": {
+    "title": "Symmetriewert",
+    "emptyTitle": "Noch kein Ausgangswert",
+    "emptyBody": "Zwei Minuten jetzt ersparen Ihnen später das Rätselraten.",
+    "cta": "Ausgangsscan machen"
+  },
+  "clinician": {
+    "title": "Ihre Fachkraft",
+    "allConsultations": "Alle Sprechstunden",
+    "available": "In Ihrem Tarif stehen Ihnen {count, plural, one {# Sprechstunde} other {# Sprechstunden}} zur Verfügung.",
+    "add": "Sprechstunde hinzufügen"
+  },
+  "library": {
+    "title": "Lesenswert in dieser Phase",
+    "link": "Bibliothek",
+    "readTime": "{minutes} Min. Lesezeit",
+    "logNote": "Eine Beobachtung notieren",
+    "logHint": "Die Funktion verändert sich oft, bevor sich die Geometrie verändert. Was Sie bemerken, zählt auch."
+  },
+  "backToDashboard": "Zurück zur Übersicht",
+  "progress": {
+    "meta": {
+      "title": "Ihr Fortschritt — Palsya",
+      "description": "Eine Übersicht Ihrer eingetragenen Einheiten und wie sich Ihre Phase im Lauf der Zeit verändert hat."
+    },
+    "title": "Ihr Fortschritt",
+    "intro": "Eine Übersicht Ihrer eingetragenen Einheiten und wie sich Ihre Phase im Lauf der Zeit verändert hat.",
+    "stageHistory": "Phasenverlauf",
+    "noPhase": "Es wurde noch keine Phase zugewiesen.",
+    "stageBadge": "Phase {stage} · {name}",
+    "sessionLog": "Einheiten-Protokoll",
+    "noSessions": "Noch nichts eingetragen – Ihre erste Einheit erscheint hier.",
+    "columns": {
+      "date": "Datum",
+      "status": "Status",
+      "note": "Notiz"
+    },
+    "status": {
+      "full": "Vollständig",
+      "part": "Teilweise",
+      "none": "Nicht eingetragen"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Heutige Einheit — Palsya",
+      "description": "Taping, Übungen und dann die Tagesroutine für Ihre aktuelle Phase."
+    },
+    "title": "Heutige Einheit — Phase {stage} · {name}",
+    "intro": "Taping, Übungen, dann die Tagesroutine. Am Stück oder über den Tag verteilt.",
+    "doneToday": "Heute erledigt",
+    "markNotDone": "Als nicht erledigt markieren",
+    "taping": {
+      "title": "Taping",
+      "none": "Für diese Phase ist keine Technik vorgesehen",
+      "goal": "Ziel",
+      "tension": "Zug",
+      "wear": "Tragedauer",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Taping erledigt"
+    },
+    "exercises": {
+      "title": "Übungen",
+      "progress": "{done} von {total} heute erledigt",
+      "dose": "{reps} × {hold} s halten"
+    },
+    "routine": {
+      "title": "Tagesroutine",
+      "count": "{count, plural, one {# Punkt} other {# Punkte}} für diese Phase",
+      "markDone": "Routine erledigt"
+    },
+    "note": {
+      "title": "Ist Ihnen etwas aufgefallen?",
+      "hint": "Optional. Wird für heute gespeichert und ist für Ihre Fachkraft sichtbar, wenn Sie es teilen.",
+      "placeholder": "z. B. Aus einem Glas getrunken, ohne den Mundwinkel festzuhalten."
+    }
+  }
+}

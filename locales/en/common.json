@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Guided recovery for facial paralysis."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Language",
+    "change": "Language: {language}. Change language"
+  },
+  "nav": {
+    "main": "Main",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "home": "Palsya home",
+    "howItWorks": "How it works",
+    "guides": "Guides",
+    "stories": "Stories",
+    "pricing": "Pricing",
+    "about": "About",
+    "logIn": "Log in",
+    "startTrial": "Start your free 7 days",
+    "myDashboard": "My dashboard",
+    "logOut": "Log out",
+    "signedInAs": "Signed in as {name}"
+  },
+  "footer": {
+    "tagline": "Guided rehabilitation for peripheral facial paralysis. Built and supervised by clinicians who do this work in person.",
+    "location": "Lisbon and Amsterdam · Founded {year}",
+    "product": "Product",
+    "guides": "Guides",
+    "company": "Company",
+    "links": {
+      "howItWorks": "How it works",
+      "pricing": "Pricing",
+      "stories": "Recovery stories",
+      "startFree": "Start free",
+      "signIn": "Sign in",
+      "about": "About",
+      "team": "Clinical team",
+      "contact": "Contact and support",
+      "privacy": "Privacy notice",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Medical disclaimer.",
+    "copyright": "© {year} Palsya Health, Lda. All rights reserved.",
+    "trust": {
+      "gdpr": "GDPR compliant",
+      "eu": "EU servers",
+      "languages": "{count} languages",
+      "stripe": "Payments via Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya is a rehabilitation support programme. It does not diagnose, and it does not replace medical care. Always get a diagnosis from a doctor before starting, and contact a doctor about eye pain, redness, or changes in vision the same day.",
+  "actions": {
+    "back": "Back",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "retry": "Try again",
+    "signOut": "Sign out",
+    "loading": "Loading…"
+  }
+}

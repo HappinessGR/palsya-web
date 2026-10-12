@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Oor Palsya",
+    "description": "Waarom Palsya bestaan, wat dit is en nie is nie, hoe dit befonds word, en die dinge wat ons weier om te bou."
+  },
+  "hero": {
+    "eyebrow": "Oor ons",
+    "title": "Ons het begin omdat 'n pamflet nie 'n program is nie"
+  },
+  "story": {
+    "p1": "In 2019 het ons hoof van produk wakker geword en kon hy nie sy linkeroog toemaak nie. Hy is dieselfde dag met Bell se verlamming gediagnoseer, steroïede gegee en huis toe gestuur met 'n gefotostateerde blad met nege gesigsoefeninge en vier maande lank geen opvolg nie.",
+    "p2": "Hy het die oefeninge gedoen. Hard, twee keer per dag, met maksimum inspanning, elf weke lank — wat naastenby die ergste ding is wat hy kon doen, en niemand het hom anders vertel nie totdat hy in die vierde maand privaat 'n gespesialiseerde fisioterapeut gevind het. Teen daardie tyd was die sinkinese gevestig, en dit het nog ses maande se koördinasiewerk geverg om dit te verminder.",
+    "p3": "Die inligting wat sy herstel sou verander het, het bestaan. Dit was in fisioterapie-opleiding, in gespesialiseerde klinieke, in vaktydskrifte. Dit was nie in sy hande, in sy taal, op die dag toe hy dit nodig gehad het nie."
+  },
+  "whatWeAre": {
+    "title": "Wat ons is",
+    "body": "'n Rehabilitasieprogram vir perifere gesigsverlamming, wat in 'n blaaier aangebied word, gebou en onder toesig van klinici wat hierdie werk persoonlik doen. Gestig in 2023, gevestig in Lissabon en Amsterdam, en tans gebruik deur sowat veertienduisend mense in twee-en-twintig lande."
+  },
+  "whatWeAreNot": {
+    "title": "Wat ons nie is nie",
+    "body": "Ons is nie 'n diagnostiese diens nie, ons is nie 'n plaasvervanger vir mediese sorg nie, en ons is nie 'n welstandsproduk nie. Ons behandel gesigsverlamming nie as 'n kwessie van ingesteldheid nie. Ons sal u nie vertel dat u herstel van u houding afhang nie."
+  },
+  "funding": {
+    "title": "Hoe ons befonds word",
+    "body": "Uitsluitlik deur intekeninge. Geen advertensies, geen verkoop van data nie, geen vennootskappe met versekeraars wat iemand anders 'n belang sou gee in wat u gesig doen nie. Ons het een enkele saadbeleggingsrondte geneem en ons beleggers het geen toegang tot pasiëntdata nie."
+  },
+  "refuse": {
+    "title": "Die dinge wat ons weier om te bou",
+    "body": "Herstelvoorspellings. Reeks-meganika. Ranglyste vir pasiënte. Stootkennisgewings wat suggereer dat u iemand in die steek gelaat het. Afteltydhouers op pryse. 'n Kansellasieproses met meer as twee klikke. Hierdie dinge kom in produkvergaderings op, en die antwoord was elke keer nee."
+  },
+  "stats": {
+    "people": {
+      "value": "{n, number}+",
+      "label": "Mense in herstel",
+      "detail": "In {count, number} lande"
+    },
+    "founded": {
+      "label": "Gestig",
+      "detail": "Lissabon en Amsterdam"
+    },
+    "languages": {
+      "label": "Tale",
+      "detail": "Volledige toep en kennisbasis"
+    },
+    "dataSold": {
+      "label": "Rye data verkoop",
+      "detail": "Aan niemand, ooit nie"
+    }
+  },
+  "team": {
+    "title": "Die mense daaragter",
+    "lead": "Registrasienommers ingesluit, want u moet dit kan nagaan.",
+    "cta": "Ontmoet die kliniese span"
+  }
+}

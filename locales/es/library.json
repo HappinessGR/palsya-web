@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Elevación de cejas",
+      "instructions": "Siéntese frente a un espejo, con los hombros bajos y la mandíbula suelta. Apoye dos dedos planos sobre la ceja del lado <b>sano</b> y manténgala quieta. Así evita que el lado bueno haga el trabajo. Levante la ceja afectada como si estuviera ligeramente sorprendido. Busque un movimiento pequeño que pueda controlar, no el más grande que consiga. Mantenga tres segundos y después deje que baje sola. No la empuje hacia abajo. Espere cinco segundos entre repeticiones.",
+      "why": "La ceja suele ser la última zona en recuperarse. Trabajarla mantiene activa la vía nerviosa y evita que la frente se vuelva rígida en el lado afectado.",
+      "steps": {
+        "s1": "Siéntese frente a un espejo, con los hombros bajos y la mandíbula suelta.",
+        "s2": "Apoye dos dedos planos sobre la ceja del lado <b>sano</b> y manténgala quieta. Así evita que el lado bueno haga el trabajo.",
+        "s3": "Levante la ceja afectada como si estuviera ligeramente sorprendido. Busque un movimiento pequeño que pueda controlar, no el más grande que consiga.",
+        "s4": "Mantenga tres segundos y después deje que baje sola. No la empuje hacia abajo.",
+        "s5": "Espere cinco segundos entre repeticiones."
+      },
+      "watch": "Si el ojo se cierra o la boca tira al levantar la ceja, use menos esfuerzo. Esa asociación se refuerza con la práctica, así que practicamos por debajo de ella."
+    },
+    "eye": {
+      "name": "Cierre suave del ojo",
+      "instructions": "Mire al frente. Primero deje la cara en reposo. Cierre los dos ojos con suavidad, como si se estuviera quedando dormido, sin apretarlos. Mantenga dos segundos y observe si el párpado afectado ha llegado a tocar el párpado inferior. Abra despacio y por completo. Si el párpado no se cierra del todo, no lo fuerce. Ciérrelo hasta donde llegue y sujete el párpado con suavidad con la yema de un dedo limpio.",
+      "why": "El cierre protege la córnea. Cerrar con suavidad de forma repetida también recupera el patrón del parpadeo, que se recupera por separado del cierre con fuerza.",
+      "steps": {
+        "s1": "Mire al frente. Primero deje la cara en reposo.",
+        "s2": "Cierre los dos ojos con suavidad, como si se estuviera quedando dormido, sin apretarlos.",
+        "s3": "Mantenga dos segundos y observe si el párpado afectado ha llegado a tocar el párpado inferior.",
+        "s4": "Abra despacio y por completo.",
+        "s5": "Si el párpado no se cierra del todo, no lo fuerce. Ciérrelo hasta donde llegue y sujete el párpado con suavidad con la yema de un dedo limpio."
+      },
+      "watch": "Apretar con fuerza activa la boca y el cuello. Si nota que se mueve la comisura de la boca, está apretando."
+    },
+    "nose": {
+      "name": "Apertura de las fosas nasales",
+      "instructions": "Inspire por la nariz y deje que las fosas nasales se abran al hacerlo. Intente abrir un poco más la fosa nasal del lado afectado. Mantenga dos segundos y suelte por completo. Mantenga quieto el labio superior: es un movimiento de la nariz, no una mueca de desprecio.",
+      "why": "La zona media de la cara eleva el surco nasogeniano y sostiene el labio superior. Responde bien a un trabajo pequeño y aislado, y es fácil saltárselo.",
+      "steps": {
+        "s1": "Inspire por la nariz y deje que las fosas nasales se abran al hacerlo.",
+        "s2": "Intente abrir un poco más la fosa nasal del lado afectado.",
+        "s3": "Mantenga dos segundos y suelte por completo.",
+        "s4": "Mantenga quieto el labio superior: es un movimiento de la nariz, no una mueca de desprecio."
+      },
+      "watch": "Mantenga cubiertos los dientes superiores. Si el labio sube y enseña los dientes, se ha puesto a trabajar el músculo equivocado."
+    },
+    "smile": {
+      "name": "Sonrisa suave",
+      "instructions": "Junte los labios sin apretar, con los dientes separados. Lleve las dos comisuras hacia arriba y ligeramente hacia fuera: una sonrisa con los labios cerrados, aproximadamente a un tercio de su máximo. Mire el espejo: ¿se mueven las comisuras la misma distancia? Si no, use menos esfuerzo hasta que lo hagan. Mantenga tres segundos y suelte despacio en dos segundos. Deje la cara completamente relajada, sin expresión, entre repeticiones.",
+      "why": "Es el más importante para la función y el que más se hace en exceso. Una sonrisa pequeña y controlada entrena el patrón; una sonrisa grande y forzada entrena la compensación.",
+      "steps": {
+        "s1": "Junte los labios sin apretar, con los dientes separados.",
+        "s2": "Lleve las dos comisuras hacia arriba y ligeramente hacia fuera: una sonrisa con los labios cerrados, aproximadamente a un tercio de su máximo.",
+        "s3": "Mire el espejo: ¿se mueven las comisuras la misma distancia? Si no, use menos esfuerzo hasta que lo hagan.",
+        "s4": "Mantenga tres segundos y suelte despacio en dos segundos.",
+        "s5": "Deje la cara completamente relajada, sin expresión, entre repeticiones."
+      },
+      "watch": "Que el ojo se entrecierre al sonreír es la asociación contra la que trabajamos. Menos esfuerzo, no más repeticiones."
+    },
+    "pucker": {
+      "name": "Fruncir y sellar los labios",
+      "instructions": "Junte los labios y llévelos hacia delante, como si fuera a decir «u». Mantenga los labios fruncidos en el centro: no deje que se desvíen hacia el lado más fuerte. Mantenga tres segundos. Apriete los labios ligeramente, sin tensar. Suelte y deje que los labios se separen.",
+      "why": "El sellado de los labios es lo que le permite beber, comer y pronunciar los sonidos oclusivos. A menudo es el primer cambio que los pacientes notan en su día a día.",
+      "steps": {
+        "s1": "Junte los labios y llévelos hacia delante, como si fuera a decir «u».",
+        "s2": "Mantenga los labios fruncidos en el centro: no deje que se desvíen hacia el lado más fuerte.",
+        "s3": "Mantenga tres segundos. Apriete los labios ligeramente, sin tensar.",
+        "s4": "Suelte y deje que los labios se separen."
+      },
+      "watch": "Si los labios se desvían hacia un lado, apoye ligeramente la yema de un dedo en la comisura del lado fuerte para mantenerlos en su sitio."
+    },
+    "cheek": {
+      "name": "Inflar las mejillas y mantener",
+      "instructions": "Tome aire con normalidad e infle las dos mejillas con los labios cerrados. Mantenga cinco segundos sin dejar escapar el aire. Si se escapa aire por el lado afectado, sujete esa mejilla suavemente con una mano limpia y vuelva a intentarlo. Suelte el aire despacio por la nariz, no de golpe.",
+      "why": "Retener el aire pone a prueba el sellado bajo carga y desarrolla la resistencia que necesita para hablar y comer, no solo para los ejercicios.",
+      "steps": {
+        "s1": "Tome aire con normalidad e infle las dos mejillas con los labios cerrados.",
+        "s2": "Mantenga cinco segundos sin dejar escapar el aire.",
+        "s3": "Si se escapa aire por el lado afectado, sujete esa mejilla suavemente con una mano limpia y vuelva a intentarlo.",
+        "s4": "Suelte el aire despacio por la nariz, no de golpe."
+      },
+      "watch": "No haga este ejercicio si le han operado del oído recientemente o si su clínico le ha dicho que evite los cambios de presión."
+    },
+    "separate": {
+      "name": "Separación ojo–boca",
+      "instructions": "Mire el espejo. Sonría con suavidad, a un tercio de su máximo, mientras mantiene conscientemente los dos ojos bien abiertos. Si el ojo se entrecierra aunque sea un poco, reduzca la sonrisa hasta que deje de hacerlo. Mantenga cuatro segundos con el ojo abierto y después suelte. Ahora a la inversa: cierre los ojos con suavidad mientras mantiene la boca completamente quieta. Descanse ocho segundos entre repeticiones. Este ejercicio cansa rápido.",
+      "why": "Es el ejercicio central contra la sincinesia, el movimiento asociado en el que se activa una zona cuando usted intenta mover otra. La separación se entrena despacio y con poco esfuerzo.",
+      "steps": {
+        "s1": "Mire el espejo. Sonría con suavidad, a un tercio de su máximo, mientras mantiene conscientemente los dos ojos bien abiertos.",
+        "s2": "Si el ojo se entrecierra aunque sea un poco, reduzca la sonrisa hasta que deje de hacerlo.",
+        "s3": "Mantenga cuatro segundos con el ojo abierto y después suelte.",
+        "s4": "Ahora a la inversa: cierre los ojos con suavidad mientras mantiene la boca completamente quieta.",
+        "s5": "Descanse ocho segundos entre repeticiones. Este ejercicio cansa rápido."
+      },
+      "watch": "En este ejercicio, menos es realmente más. Cinco repeticiones precisas son mejores que veinte con movimiento asociado."
+    },
+    "release": {
+      "name": "Liberación de la tirantez",
+      "instructions": "Coloque las yemas de los dedos, limpias, sobre la zona tirante, normalmente la mejilla o el lateral del mentón. Aplique una presión ligera y constante y estire la piel despacio en la dirección contraria a la tirantez. Mantenga quince segundos respirando con normalidad. Debe sentirse como un estiramiento, nunca como un dolor agudo. Suelte despacio y deje que el tejido se asiente antes de repetir.",
+      "why": "En las fases avanzadas de la recuperación, la tirantez limita el movimiento más que la debilidad. El trabajo de liberación recupera una amplitud a la que el trabajo de activación no llega.",
+      "steps": {
+        "s1": "Coloque las yemas de los dedos, limpias, sobre la zona tirante, normalmente la mejilla o el lateral del mentón.",
+        "s2": "Aplique una presión ligera y constante y estire la piel despacio en la dirección contraria a la tirantez.",
+        "s3": "Mantenga quince segundos respirando con normalidad. Debe sentirse como un estiramiento, nunca como un dolor agudo.",
+        "s4": "Suelte despacio y deje que el tejido se asiente antes de repetir."
+      },
+      "watch": "Pare si nota un dolor agudo, hormigueo o más espasmos después."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Soporte en reposo",
+      "instructions": "Mejilla: Justo por encima de la línea de la mandíbula, por debajo de la comisura afectada -> Hacia arriba y hacia fuera, hacia el pómulo. Fije el anclaje sin estirar, aplique la parte central con un estiramiento ligero y termine los últimos 2 cm sin estirar. Comisura de la boca: 1 cm por fuera de la comisura afectada del labio -> En diagonal hacia arriba, hacia la oreja. Esta tira es muy ligera. Su función es dar una indicación, no elevar.",
+      "goal": "Sostener la zona media de la cara contra la gravedad mientras el nervio está inactivo, para que el tejido no se estire ni se quede fijado en una posición caída.",
+      "tension": "Muy ligera: alrededor de un 10 % de estiramiento. Debe poder deslizar la yema de un dedo por debajo.",
+      "wear": "De 4 a 6 horas durante el día. Nunca por la noche.",
+      "strips": {
+        "s1": {
+          "where": "Mejilla",
+          "from": "Justo por encima de la línea de la mandíbula, por debajo de la comisura afectada",
+          "to": "Hacia arriba y hacia fuera, hacia el pómulo",
+          "note": "Fije el anclaje sin estirar, aplique la parte central con un estiramiento ligero y termine los últimos 2 cm sin estirar."
+        },
+        "s2": {
+          "where": "Comisura de la boca",
+          "from": "1 cm por fuera de la comisura afectada del labio",
+          "to": "En diagonal hacia arriba, hacia la oreja",
+          "note": "Esta tira es muy ligera. Su función es dar una indicación, no elevar."
+        }
+      }
+    },
+    "assist": {
+      "name": "Asistencia al movimiento",
+      "instructions": "Línea cigomática: La comisura afectada de la boca -> A lo largo de la línea natural de la sonrisa hasta justo delante de la oreja. Aplíquela con la cara en reposo, no mientras sonríe. Ceja: Justo por encima de la ceja afectada, en el tercio externo -> Hacia arriba, hacia el nacimiento del pelo. Manténgala bien alejada del ojo. Si tira del párpado, quítela y colóquela más abajo.",
+      "goal": "Reducir el esfuerzo que requiere un movimiento, para que pueda practicar el patrón correcto con poco esfuerzo en lugar de forzar uno incorrecto.",
+      "tension": "Ligera a moderada: alrededor de un 25 % de estiramiento en la parte central de la tira.",
+      "wear": "Durante las sesiones de ejercicios y hasta 4 horas después.",
+      "strips": {
+        "s1": {
+          "where": "Línea cigomática",
+          "from": "La comisura afectada de la boca",
+          "to": "A lo largo de la línea natural de la sonrisa hasta justo delante de la oreja",
+          "note": "Aplíquela con la cara en reposo, no mientras sonríe."
+        },
+        "s2": {
+          "where": "Ceja",
+          "from": "Justo por encima de la ceja afectada, en el tercio externo",
+          "to": "Hacia arriba, hacia el nacimiento del pelo",
+          "note": "Manténgala bien alejada del ojo. Si tira del párpado, quítela y colóquela más abajo."
+        }
+      }
+    },
+    "guide": {
+      "name": "Guía direccional",
+      "instructions": "Soporte del párpado inferior: El ángulo externo del ojo -> Hacia fuera y ligeramente hacia abajo, hacia la sien. Nunca sobre el propio párpado. Solo por debajo del reborde orbitario. Indicación inversa en la mejilla: Centro de la mejilla -> Hacia abajo y hacia fuera. Contrarresta la tracción hacia arriba que acompaña a la sincinesia.",
+      "goal": "Dar a la piel una indicación de dirección durante el trabajo de coordinación y frenar ligeramente el movimiento asociado que intenta separar.",
+      "tension": "Ligera: alrededor de un 15 %. La indicación es sensitiva, no mecánica.",
+      "wear": "Solo durante los ejercicios de coordinación. De 20 a 30 minutos.",
+      "strips": {
+        "s1": {
+          "where": "Soporte del párpado inferior",
+          "from": "El ángulo externo del ojo",
+          "to": "Hacia fuera y ligeramente hacia abajo, hacia la sien",
+          "note": "Nunca sobre el propio párpado. Solo por debajo del reborde orbitario."
+        },
+        "s2": {
+          "where": "Indicación inversa en la mejilla",
+          "from": "Centro de la mejilla",
+          "to": "Hacia abajo y hacia fuera",
+          "note": "Contrarresta la tracción hacia arriba que acompaña a la sincinesia."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Cuidado del ojo",
+      "instructions": "Gotas lubricantes al despertar Gotas cada 2–3 horas mientras esté despierto Pomada y párpado cerrado con esparadrapo o cámara de humedad por la noche Gafas de sol al aire libre, también en días nublados",
+      "when": "Por la mañana, a lo largo del día y antes de dormir",
+      "body": "Si su ojo no se cierra del todo, proteger la córnea es lo más importante de su día, más que cualquier ejercicio. Gotas lubricantes sin conservantes durante el día, pomada por la noche y una consulta con su clínico si el ojo se enrojece, le duele o su visión cambia.",
+      "items": {
+        "i1": "Gotas lubricantes al despertar",
+        "i2": "Gotas cada 2–3 horas mientras esté despierto",
+        "i3": "Pomada y párpado cerrado con esparadrapo o cámara de humedad por la noche",
+        "i4": "Gafas de sol al aire libre, también en días nublados"
+      }
+    },
+    "eat": {
+      "name": "Comer y beber",
+      "instructions": "Bocados más pequeños, a un ritmo más lento Lleve la comida hacia el lado sano Enjuáguese y revise la mejilla afectada después de comer Siéntese erguido al beber",
+      "when": "En cada comida",
+      "body": "Que la comida se acumule en la mejilla afectada y que la bebida se escape por los labios son problemas mecánicos con soluciones mecánicas. Bocados más pequeños, la comida hacia el lado más fuerte, una revisión frente al espejo después de comer y una pajita solo si no le dificulta el sellado.",
+      "items": {
+        "i1": "Bocados más pequeños, a un ritmo más lento",
+        "i2": "Lleve la comida hacia el lado sano",
+        "i3": "Enjuáguese y revise la mejilla afectada después de comer",
+        "i4": "Siéntese erguido al beber"
+      }
+    },
+    "massage": {
+      "name": "Masaje",
+      "instructions": "Manos limpias y secas Pequeños círculos, presión ligera, en dirección ascendente Ambos lados, no solo el afectado Pare si le provoca espasmos",
+      "when": "Una o dos veces al día, 3–4 minutos",
+      "body": "Presión lenta y circular con las yemas de los dedos limpias sobre la mejilla, la mandíbula y alrededor de la boca. Mantiene la circulación y la movilidad de los tejidos. No es un entrenamiento: si resulta enérgico, suavícelo.",
+      "items": {
+        "i1": "Manos limpias y secas",
+        "i2": "Pequeños círculos, presión ligera, en dirección ascendente",
+        "i3": "Ambos lados, no solo el afectado",
+        "i4": "Pare si le provoca espasmos"
+      }
+    },
+    "sleep": {
+      "name": "Sueño y descanso",
+      "instructions": "Boca arriba o sobre el lado sano, no boca abajo Protección del ojo antes de apagar la luz Practique por la mañana si por la tarde está muy cansado Los días de descanso forman parte del programa",
+      "when": "Cada noche",
+      "body": "La fatiga facial es real y empeora la calidad del movimiento. Duerma boca arriba o sobre el lado sano para que la cara no quede presionada contra la almohada, y tenga en cuenta el bajón de la tarde: practique cuando esté descansado.",
+      "items": {
+        "i1": "Boca arriba o sobre el lado sano, no boca abajo",
+        "i2": "Protección del ojo antes de apagar la luz",
+        "i3": "Practique por la mañana si por la tarde está muy cansado",
+        "i4": "Los días de descanso forman parte del programa"
+      }
+    },
+    "speech": {
+      "name": "Práctica del habla",
+      "instructions": "Lea en voz alta 3 minutos al día Marque bien la p, b, m, f y v Lo bastante despacio para mantener el sellado Grábese una vez a la semana si le resulta útil",
+      "when": "Una vez al día, 3 minutos",
+      "body": "Los sonidos oclusivos y labiales necesitan el sellado de los labios, así que sirven también como ejercicio que puede hacer sin espejo. Lea en voz alta despacio y exagere un poco.",
+      "items": {
+        "i1": "Lea en voz alta 3 minutos al día",
+        "i2": "Marque bien la p, b, m, f y v",
+        "i3": "Lo bastante despacio para mantener el sellado",
+        "i4": "Grábese una vez a la semana si le resulta útil"
+      }
+    }
+  }
+}

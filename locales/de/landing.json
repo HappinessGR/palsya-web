@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Ein strukturiertes tägliches Programm, entwickelt von Fachkräften für Gesichtsrehabilitation – Taping, Übungen und Augenpflege passend zu der Phase, in der Ihre Genesung tatsächlich steht."
+  },
+  "stars": "{n, number} von 5",
+  "startFree": "7 Tage kostenlos testen",
+  "hero": {
+    "eyebrow": "Bei peripherer Fazialisparese",
+    "title": "Eine Gesichtshälfte bewegt sich nicht mehr. <em>So geht es jetzt weiter.</em>",
+    "lead": "Ein strukturiertes tägliches Programm, entwickelt von Fachkräften für Gesichtsrehabilitation – Taping, Übungen und Augenpflege passend zu der Phase, in der Ihre Genesung tatsächlich steht. Mit Scans, die Veränderungen zeigen, die Sie im Spiegel nicht sehen.",
+    "howItWorks": "So funktioniert’s",
+    "reassure": {
+      "noCard": "7 Tage ohne Karte",
+      "noInstall": "Keine Installation",
+      "cancel": "Kündigen mit zwei Klicks",
+      "languages": "{count, number} Sprachen"
+    },
+    "art": {
+      "stage": "Phase {n} · {name}",
+      "week": "Woche {n}",
+      "baseline": "Ausgangsscan · {date}",
+      "latest": "Neuester Scan · {date}",
+      "baselineAlt": "Ausgangsscan des Gesichts mit sichtbarer Asymmetrie",
+      "latestAlt": "Neuester Gesichtsscan mit verbesserter Symmetrie",
+      "score": "Symmetriewert <b>{from} → {to}</b>",
+      "change": "{delta} in {weeks, plural, one {# Woche} other {# Wochen}}"
+    }
+  },
+  "cred": {
+    "people": "<b>{count, number}+</b>Menschen in Genesung",
+    "clinician": "<b>Fachlich geleitet</b>Protokolle und Sprechstunden",
+    "gdpr": "<b>DSGVO</b>Server in der EU, Scan-Auswertung auf dem Gerät",
+    "languages": "<b>{count, number}</b>Sprachen",
+    "reviews": "aus {count, number} Bewertungen"
+  },
+  "problem": {
+    "eyebrow": "Warum es Palsya gibt",
+    "title": "Die meisten werden mit einem Merkblatt nach Hause geschickt",
+    "lead": "Ein kopiertes Übungsblatt, keine Ahnung, welche Übungen diese Woche für Sie gelten, keine Möglichkeit zu erkennen, ob etwas wirkt – und vier Monate Wartezeit bis zum nächsten Termin. Genau in dieser Lücke setzt Palsya an.",
+    "rightWork": {
+      "title": "Das Richtige für diese Woche",
+      "body": "Ein erzwungenes breites Lächeln hilft in Woche sechs und bremst Sie in Woche zwei. Ihr Programm passt zur Phase Ihrer Genesung und ändert sich mit ihr."
+    },
+    "proof": {
+      "title": "Der Beweis, dass Sie es sich nicht einbilden",
+      "body": "Ein wöchentlicher Scan misst die Geometrie Ihres Gesichts im Vergleich zu Ihrem eigenen Ausgangswert. In den Wochen ohne sichtbaren Fortschritt – und die gibt es – zeigt er Ihnen, wie es wirklich steht."
+    },
+    "person": {
+      "title": "Ein Mensch, der das schon kennt",
+      "body": "Videosprechstunden mit Fachkräften für Gesichtsrehabilitation. Die meisten machen ein oder zwei Dinge falsch; eine Fachkraft erkennt das meist in den ersten zehn Minuten."
+    }
+  },
+  "stages": {
+    "eyebrow": "Das Programm",
+    "title": "Fünf Phasen, denn Woche zwei und Monat fünf sind nicht dasselbe Problem",
+    "readGuide": "Ganzen Ratgeber lesen",
+    "stage": "Phase {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Der Einstieg",
+    "title": "Fünfzehn Minuten zum Einrichten",
+    "assessment": {
+      "title": "Einstufung beantworten",
+      "body": "Sechzehn Fragen dazu, was sich bewegt, was nicht und wie Ihr Alltag gerade aussieht. Außerdem prüfen wir, ob wir das Richtige für Sie sind – und sagen es Ihnen klar, wenn nicht."
+    },
+    "plan": {
+      "title": "Phase und Plan erhalten",
+      "body": "Sie werden einer von fünf Phasen zugeordnet, mit sichtbarer Begründung. Sind Ihre Antworten ungewöhnlich, prüft eine Fachkraft die Einordnung, bevor Sie beginnen."
+    },
+    "daily": {
+      "title": "Zehn bis zwanzig Minuten täglich",
+      "body": "Taping, Übungen und die Tagesroutine, Schritt für Schritt angeleitet. Einmal pro Woche ein Scan. Mehr Aufwand ist es nicht."
+    }
+  },
+  "ethics": {
+    "eyebrow": "Was wir nicht tun",
+    "title": "Eine kurze Liste, und wir meinen sie ernst",
+    "predictions": {
+      "title": "Keine Prognosen",
+      "body": "Wir werden Ihnen nie sagen, wann Ihr Gesicht sich erholt oder wie viel zurückkommt. Das kann niemand aus Ihren Daten wissen, und eine Zahl genannt zu bekommen, die man dann verfehlt, richtet echten Schaden an."
+    },
+    "guilt": {
+      "title": "Kein schlechtes Gewissen bei verpassten Tagen",
+      "body": "Verpassen Sie eine Woche, wird nichts zurückgesetzt, nichts geht verloren, und keine Benachrichtigung sagt Ihnen, Sie hätten etwas kaputt gemacht. Sie öffnen die App und machen die heutige Einheit."
+    },
+    "badges": {
+      "title": "Keine Abzeichen, Punkte oder Serien",
+      "body": "Sie erholen sich von einer Nervenverletzung, Sie spielen kein Spiel. Fortschritt zeigen wir als Messwerte und als Dinge, die Sie neu wieder können."
+    },
+    "comparing": {
+      "title": "Kein Vergleich mit anderen Patienten",
+      "body": "Ihre Scans werden mit Ihrem eigenen Ausgangswert verglichen und mit nichts anderem. Eine Rangliste von Gesichtern wäre grotesk."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Von Menschen, die es nutzen",
+    "title": "Geprüfte Bewertungen",
+    "quote": "„{quote}“",
+    "verified": "Geprüfte Nutzerin/geprüfter Nutzer",
+    "readStories": "Ganze Genesungsberichte lesen"
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "title": "Drei Monate, weil Veränderung so lange braucht",
+    "lead": "Sieben Tage kostenlos. Vor Tag 8 wird nichts abgebucht, und nichts ist für Sie vorausgewählt.",
+    "mostChosen": "Meistgewählt",
+    "period": "/ {months, plural, one {# Monat} other {# Monate}}",
+    "perDay": "{price} pro Tag",
+    "cta": "7 Tage kostenlos testen",
+    "after": "Nach den ersten drei Monaten: {extension} pro Monat oder aufhören. Zusätzliche Sprechstunden {consult}. Von einer Fachkraft empfohlen? Dann erhalten Sie {discount, number, percent} Rabatt – geben Sie den Code beim Bezahlen ein."
+  },
+  "guides": {
+    "eyebrow": "Frei lesbar, ohne Konto",
+    "title": "Die Ratgeber, die wir uns selbst gewünscht hätten",
+    "all": "Alle sieben Ratgeber",
+    "read": "{minutes, plural, other {# Min. Lesezeit}} · geprüft {date}"
+  },
+  "finalCta": {
+    "title": "Heute starten, an Tag sieben entscheiden",
+    "lead": "Keine Karte, keine Abbuchung vor Tag 8, und wenn Sie gehen, nehmen Sie Ihre Daten mit."
+  },
+  "face": {
+    "defaultLabel": "Schematische Gesichtsdarstellung"
+  }
+}

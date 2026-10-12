@@ -1,0 +1,60 @@
+/* ============================================================
+   Palsya — auth screens
+   Ported from ../../assets/css/public.css (nav brand + auth section)
+   ============================================================ */
+
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex: none; }
+.brand-mark { width: 32px; height: 32px; flex: none; }
+.brand-name {
+  font-family: var(--font-display); font-size: 1.375rem; font-weight: 600;
+  color: var(--ink); letter-spacing: -.02em;
+}
+
+.auth-wrap {
+  min-height: calc(100vh - var(--nav-h));
+  display: grid; grid-template-columns: 1fr 1fr;
+}
+.auth-side {
+  background:
+    radial-gradient(90% 70% at 20% 10%, var(--brand-tint) 0%, rgba(230,245,243,0) 60%),
+    var(--surface);
+  border-right: 1px solid var(--line);
+  padding: var(--s-10) var(--s-9);
+  display: flex; flex-direction: column; justify-content: center; gap: var(--s-6);
+}
+.auth-main { padding: var(--s-9) var(--s-6); display: grid; place-items: center; }
+.auth-card { width: 100%; max-width: 430px; }
+@media (max-width: 900px) {
+  .auth-wrap { grid-template-columns: 1fr; }
+  .auth-side { display: none; }
+}
+
+.sso-btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; padding: 12px 18px;
+  background: #fff; border: 1px solid var(--line-strong); border-radius: var(--r-full);
+  font-size: var(--t-base); font-weight: 600; color: var(--ink);
+  transition: background .14s, border-color .14s, box-shadow .14s;
+}
+.sso-btn:hover { background: var(--surface); border-color: var(--ink-4); box-shadow: var(--sh-1); }
+.sso-btn + .sso-btn { margin-top: var(--s-3); }
+
+/* /login — Sign in / Sign up tabs, role cards */
+.auth-tabs { display: flex; width: 100%; }
+.auth-tabs button { flex: 1; }
+.role-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-2);
+  border: 0; padding: 0; margin: var(--s-5) 0 var(--s-5);
+}
+.role-grid legend { grid-column: 1 / -1; margin-bottom: var(--s-2); }
+.role-grid .choice { flex-direction: column; gap: var(--s-2); padding: var(--s-3); }
+.role-grid .choice:disabled { opacity: .55; cursor: not-allowed; background: var(--surface); border-color: var(--line); }
+@media (max-width: 420px) {
+  .role-grid { grid-template-columns: 1fr; }
+  .role-grid .choice { flex-direction: row; }
+}
+.field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); }
+.link-btn {
+  padding: 0; border: 0; background: none; font: inherit;
+  color: var(--brand-ink); text-decoration: underline; cursor: pointer;
+}

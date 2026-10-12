@@ -1,0 +1,26 @@
+{
+  "footer": "U ontvang hierdie e-pos weens aktiwiteit op u Palsya-rekening. Vrae? Kontak {support}.",
+  "reset": {
+    "subject": "Stel u Palsya-wagwoord terug",
+    "preheader": "Hierdie skakel werk vir {minutes} minute.",
+    "heading": "Stel u wagwoord terug",
+    "body": "Ons het 'n versoek ontvang om die wagwoord vir u Palsya-rekening terug te stel. Kies 'n nuwe wagwoord met die knoppie hieronder. Die skakel werk een keer en verval oor {minutes} minute.",
+    "button": "Kies 'n nuwe wagwoord",
+    "ignore": "As u nie hierom gevra het nie, kan u hierdie e-pos ignoreer — u wagwoord sal nie verander nie."
+  },
+  "changed": {
+    "subject": "U Palsya-wagwoord is verander",
+    "preheader": "As dit nie u was nie, kontak ondersteuning.",
+    "heading": "U wagwoord is verander",
+    "body": "Die wagwoord vir u Palsya-rekening is op {when, date, long} om {when, time, short} verander. U is op u ander toestelle afgemeld.",
+    "notYou": "As dit nie u was nie, kontak dadelik ondersteuning by {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {U is uitgenooi om Palsya te administreer} other {U is as klinikus na Palsya uitgenooi}}",
+    "preheader": "Aanvaar die uitnodiging en stel u wagwoord in.",
+    "heading": "{role, select, admin {Sluit by Palsya aan as administrateur} other {Sluit by Palsya aan as klinikus}}",
+    "body": "{inviter} het u na Palsya uitgenooi {role, select, admin {as administrateur} other {as klinikus}}. Aanvaar die uitnodiging om u naam en wagwoord in te stel.",
+    "button": "Aanvaar uitnodiging",
+    "ignore": "As u nie hierdie uitnodiging verwag het nie, kan u hierdie e-pos ignoreer."
+  }
+}

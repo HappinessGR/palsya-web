@@ -1,0 +1,392 @@
+{
+  "sections": {
+    "about": "Sobre a sua paralisia",
+    "medical": "Cuidados médicos",
+    "eye": "O seu olho",
+    "moves": "O que se mexe",
+    "linked": "Movimentos ligados",
+    "other": "Outros sintomas",
+    "daily": "Dia a dia"
+  },
+  "optionSets": {
+    "move": {
+      "none": {
+        "t": "Nenhum movimento",
+        "d": "Não acontece nada quando tento."
+      },
+      "flicker": {
+        "t": "Um esboço de movimento",
+        "d": "Algo se mexe, mas muito pouco — talvez só eu consiga ver."
+      },
+      "partial": {
+        "t": "Movimento parcial",
+        "d": "Mexe-se, claramente menos do que o outro lado."
+      },
+      "near": {
+        "t": "Quase normal",
+        "d": "Próximo do outro lado, ou igual."
+      }
+    }
+  },
+  "questions": {
+    "onsetDate": {
+      "q": "Quando começou a fraqueza facial?",
+      "help": "Uma estimativa aproximada chega. Se surgiu durante a noite, indique a manhã em que reparou."
+    },
+    "diagnosis": {
+      "q": "Que diagnóstico lhe foi dado?",
+      "help": "Se não tiver a certeza do nome exato, escolha a opção mais próxima.",
+      "options": {
+        "bells": {
+          "t": "Paralisia de Bell",
+          "d": "Paralisia facial idiopática — sem causa específica identificada."
+        },
+        "ramsay": {
+          "t": "Síndrome de Ramsay Hunt",
+          "d": "Causada pelo vírus varicela-zóster, normalmente com erupção cutânea."
+        },
+        "surgical": {
+          "t": "Após cirurgia",
+          "d": "Nervo facial afetado durante uma operação."
+        },
+        "trauma": {
+          "t": "Após uma lesão",
+          "d": "Na sequência de um traumatismo ou de uma fratura."
+        },
+        "lyme": {
+          "t": "Doença de Lyme"
+        },
+        "other": {
+          "t": "Outra causa",
+          "d": "Uma causa diferente, diagnosticada."
+        },
+        "none": {
+          "t": "Ainda não fui a um médico"
+        }
+      }
+    },
+    "side": {
+      "q": "Que lado do rosto está afetado?",
+      "options": {
+        "left": {
+          "t": "Lado esquerdo"
+        },
+        "right": {
+          "t": "Lado direito"
+        },
+        "both": {
+          "t": "Ambos os lados"
+        }
+      }
+    },
+    "progression": {
+      "q": "Como surgiu a fraqueza?",
+      "help": "Isto ajuda-nos a perceber se o padrão é típico.",
+      "options": {
+        "sudden": {
+          "t": "De repente",
+          "d": "Em poucas horas, ou acordei assim."
+        },
+        "days": {
+          "t": "Ao longo de alguns dias",
+          "d": "Piorou durante dois ou três dias e depois estabilizou."
+        },
+        "gradual": {
+          "t": "Aos poucos, e continua a piorar",
+          "d": "Vai piorando lentamente ao longo de semanas."
+        },
+        "recurring": {
+          "t": "Já me aconteceu antes",
+          "d": "Um episódio anterior no mesmo lado ou no outro."
+        }
+      }
+    },
+    "medical": {
+      "q": "Já foi avaliado por um médico?",
+      "options": {
+        "steroids": {
+          "t": "Sim, e receitaram-me corticoides"
+        },
+        "noSteroids": {
+          "t": "Sim, mas não me receitaram corticoides"
+        },
+        "waiting": {
+          "t": "Tenho uma consulta marcada"
+        },
+        "no": {
+          "t": "Ainda não"
+        }
+      }
+    },
+    "eyeClosure": {
+      "q": "Consegue fechar o olho afetado?",
+      "help": "Olhe para um espelho e feche os dois olhos suavemente, sem forçar.",
+      "options": {
+        "full": {
+          "t": "Sim, completamente"
+        },
+        "almost": {
+          "t": "Quase — fica uma pequena abertura"
+        },
+        "partial": {
+          "t": "Em parte — a pálpebra mexe-se, mas fica uma abertura visível"
+        },
+        "none": {
+          "t": "Não, a pálpebra não se mexe"
+        }
+      }
+    },
+    "eyeSymptoms": {
+      "q": "Tem neste momento algum destes sintomas no olho?",
+      "help": "Selecione tudo o que se aplica. Esta é a pergunta mais importante desta página.",
+      "options": {
+        "pain": {
+          "t": "Dor no olho"
+        },
+        "redness": {
+          "t": "Vermelhidão que não passa"
+        },
+        "vision": {
+          "t": "Visão turva ou alterada"
+        },
+        "dryness": {
+          "t": "Secura ou sensação de areia no olho"
+        },
+        "watering": {
+          "t": "Lacrimejo excessivo"
+        },
+        "none": {
+          "t": "Nenhum destes"
+        }
+      }
+    },
+    "eyeCare": {
+      "q": "O que está a usar neste momento para proteger o olho?",
+      "options": {
+        "drops": {
+          "t": "Gotas lubrificantes durante o dia"
+        },
+        "ointment": {
+          "t": "Pomada oftálmica à noite"
+        },
+        "tape": {
+          "t": "Fita adesiva para manter a pálpebra fechada à noite"
+        },
+        "chamber": {
+          "t": "Câmara de humidade ou protetor ocular"
+        },
+        "glasses": {
+          "t": "Óculos de sol ao ar livre"
+        },
+        "nothing": {
+          "t": "Ainda nada"
+        }
+      }
+    },
+    "moveBrow": {
+      "q": "Tente levantar as sobrancelhas. O que acontece no lado afetado?",
+      "help": "Segure a sobrancelha do lado não afetado com dois dedos para que não seja ela a fazer o trabalho."
+    },
+    "moveEye": {
+      "q": "Tente fechar com força o olho afetado. Quanto se mexe?"
+    },
+    "moveMouth": {
+      "q": "Tente um pequeno sorriso com os lábios fechados. O que acontece no lado afetado?"
+    },
+    "synkinesis": {
+      "q": "Quando sorri, o olho afetado fecha-se um pouco ou fecha-se sozinho?",
+      "help": "Ou o contrário: quando fecha o olho, o canto da boca puxa? Qualquer uma das situações conta.",
+      "options": {
+        "none": {
+          "t": "Não, mexem-se separadamente"
+        },
+        "occasional": {
+          "t": "Às vezes, com movimentos maiores"
+        },
+        "frequent": {
+          "t": "Muitas vezes, com a maioria dos movimentos"
+        },
+        "always": {
+          "t": "Sempre — não os consigo separar"
+        },
+        "unsure": {
+          "t": "Não tenho a certeza"
+        }
+      }
+    },
+    "tightness": {
+      "q": "O lado afetado do rosto parece tenso ou rígido?",
+      "options": {
+        "none": {
+          "t": "Não, parece solto ou normal"
+        },
+        "mild": {
+          "t": "Um pouco tenso, sobretudo ao fim do dia"
+        },
+        "moderate": {
+          "t": "Claramente tenso a maior parte do tempo"
+        },
+        "severe": {
+          "t": "Muito tenso — limita o quanto me consigo mexer"
+        }
+      }
+    },
+    "otherSymptoms": {
+      "q": "Tem algum destes sintomas?",
+      "options": {
+        "rash": {
+          "t": "Erupção ou bolhas perto da orelha, dentro da orelha ou no couro cabeludo"
+        },
+        "hearing": {
+          "t": "Perda de audição ou sensibilidade nova aos sons"
+        },
+        "earPain": {
+          "t": "Dor de ouvido"
+        },
+        "taste": {
+          "t": "Alteração do paladar"
+        },
+        "tinnitus": {
+          "t": "Zumbido no ouvido"
+        },
+        "limb": {
+          "t": "Fraqueza ou dormência num braço ou numa perna"
+        },
+        "none": {
+          "t": "Nenhum destes"
+        }
+      }
+    },
+    "impact": {
+      "q": "Quais destas coisas são difíceis neste momento?",
+      "help": "Isto define que partes da rotina diária lhe mostramos primeiro.",
+      "options": {
+        "drinking": {
+          "t": "Beber sem entornar"
+        },
+        "eating": {
+          "t": "Comer — a comida acumula-se na bochecha"
+        },
+        "speaking": {
+          "t": "Fazer-me entender quando falo"
+        },
+        "eye": {
+          "t": "Cuidar do olho"
+        },
+        "sleep": {
+          "t": "Dormir"
+        },
+        "social": {
+          "t": "Estar com outras pessoas"
+        },
+        "none": {
+          "t": "Nenhuma destas é difícil"
+        }
+      }
+    },
+    "treatment": {
+      "q": "Já está a fazer alguma destas coisas?",
+      "options": {
+        "physio": {
+          "t": "Fisioterapia presencial"
+        },
+        "exercises": {
+          "t": "Exercícios faciais por conta própria"
+        },
+        "taping": {
+          "t": "Fita adesiva facial"
+        },
+        "estim": {
+          "t": "Estimulação elétrica"
+        },
+        "gum": {
+          "t": "Pastilha elástica como exercício"
+        },
+        "none": {
+          "t": "Ainda nada"
+        }
+      }
+    },
+    "perDay": {
+      "q": "Quantas sessões por dia se ajustam à sua vida?",
+      "help": "Duas sessões mais curtas funcionam melhor do que uma longa, mas uma feita com regularidade é melhor do que duas abandonadas.",
+      "options": {
+        "1": {
+          "t": "Uma sessão",
+          "d": "Cerca de 10–20 minutos."
+        },
+        "2": {
+          "t": "Duas sessões",
+          "d": "Cerca de 8–10 minutos cada. Recomendado."
+        }
+      }
+    }
+  },
+  "flags": {
+    "limb": {
+      "title": "Ligue já para o número de emergência",
+      "body": "Fraqueza facial acompanhada de fraqueza ou dormência num braço ou numa perna pode ser um AVC. Isto exige avaliação de urgência, não um programa de reabilitação. Pare aqui e ligue para o número de emergência local."
+    },
+    "eye": {
+      "title": "Consulte hoje um médico por causa do olho",
+      "body": "Dor no olho, vermelhidão persistente ou alterações da visão com paralisia facial podem significar que a córnea está a ser lesada por exposição. É a única complicação que pode causar danos permanentes, e tem tratamento. Peça que o vejam hoje — um optometrista, o seu médico de família ou uma urgência de oftalmologia."
+    },
+    "rash": {
+      "title": "A erupção deve ser avaliada",
+      "body": "Uma erupção ou bolhas perto da orelha juntamente com paralisia facial sugerem síndrome de Ramsay Hunt, que é tratada com antivirais e tem uma evolução diferente da paralisia de Bell. Ter o diagnóstico certo muda o tratamento, por isso consulte um médico."
+    },
+    "undiagnosed": {
+      "title": "Precisa de um diagnóstico antes de começar",
+      "body": "A Palsya é um programa de reabilitação, não um serviço de diagnóstico. A fraqueza facial tem várias causas, algumas delas urgentes, e algumas são tratadas com medicação que funciona melhor nos primeiros dias. Consulte primeiro um médico."
+    },
+    "progressive": {
+      "title": "Um agravamento gradual e contínuo tem de ser investigado",
+      "body": "A paralisia de Bell instala-se em algumas horas ou poucos dias e depois deixa de piorar. Uma fraqueza que continua a progredir ao longo de semanas pode indicar outra causa, que precisa de exames de imagem. Diga especificamente ao seu médico que continua a piorar."
+    },
+    "bilateral": {
+      "title": "A fraqueza dos dois lados precisa de avaliação especializada",
+      "body": "A fraqueza facial dos dois lados é rara e está mais frequentemente associada a uma causa sistémica — doença de Lyme, síndrome de Guillain-Barré ou sarcoidose, entre outras. Deve ser investigada antes de começar um programa de reabilitação."
+    },
+    "tooEarly": {
+      "title": "Ainda é muito cedo — o tratamento médico vem primeiro",
+      "body": "Passaram {days, plural, one {# dia} other {# dias}} desde o início. Os corticoides iniciados nas primeiras 72 horas melhoram de forma mensurável os resultados na paralisia de Bell, e essa janela importa mais neste momento do que começar os exercícios. Nada do que faça com o músculo na primeira semana altera o nervo.\n\nVolte a partir do dia 5. Guardamos as suas respostas."
+    },
+    "late": {
+      "title": "Fora do nosso período habitual — um clínico vai rever",
+      "body": "O início foi há {days, number} dias, para além do período de 5 a 90 dias para o qual o nosso programa foi pensado. A reabilitação estruturada continua a ajudar nesta altura, sobretudo na sincinesia e na rigidez, mas o ponto de partida tem de ser definido por uma pessoa. Um clínico vai rever a sua avaliação no prazo de um dia útil antes de o seu programa começar."
+    },
+    "noEyeCare": {
+      "title": "Comece hoje a proteger o olho",
+      "body": "O seu olho não fecha completamente e não está a usar nada para o proteger. As gotas lubrificantes sem conservantes vendem-se sem receita médica e devem começar hoje, com pomada à noite. Isto importa mais do que qualquer exercício do seu programa."
+    },
+    "estim": {
+      "title": "Sobre a estimulação elétrica",
+      "body": "Não incluímos estimulação elétrica. A evidência é inconsistente e existe a preocupação teórica de que a estimulação durante a reinervação possa agravar a sincinesia. Se um clínico lha receitou especificamente a si, siga o conselho dele — mas fale disso na sua primeira consulta."
+    },
+    "gum": {
+      "title": "Pare a pastilha elástica, por favor",
+      "body": "Mascar pastilha elástica como exercício facial treina os músculos da mandíbula e não os músculos faciais, e aumenta de forma consistente a rigidez e a sincinesia. É uma das poucas coisas que lhe pedimos que pare de imediato."
+    }
+  },
+  "reasons": {
+    "noMovement": "Não há movimento voluntário em nenhuma zona, por isso o programa começa pela proteção e não pela ativação.",
+    "minimalMovement": "Já há algum movimento voluntário, mas mínimo, por isso o trabalho é encontrar e repetir o movimento preciso mais pequeno.",
+    "notIsolated": "Há movimento na maior parte do rosto, mas ainda não isolado, o que coloca a coordenação no centro do seu programa.",
+    "nearNormal": "O movimento está próximo do normal na maioria das zonas, por isso o trabalho passa para o controlo com o esforço do dia a dia.",
+    "synkinesisRaised": "Descreveu movimentos ligados frequentes. Quando a sincinesia está instalada, o trabalho de coordenação é a prioridade, mesmo que o movimento ainda seja limitado.",
+    "synkinesisHeldBack": "A qualidade do movimento sugeriria uma fase mais avançada, mas a sincinesia frequente trata-se melhor primeiro com trabalho de coordenação.",
+    "severeTightness": "A rigidez intensa limita a amplitude mais do que a fraqueza, por isso o trabalho de relaxamento e de coordenação tem prioridade.",
+    "eyeProtection": "Como a pálpebra não se mexe, a proteção do olho mantém-se em primeiro lugar na sua rotina diária, seja qual for a fase.",
+    "maintenance": "Mais de nove meses desde o início, com movimento quase normal e poucos movimentos ligados — o trabalho agora é manter a amplitude, não construí-la.",
+    "slowRecovery": "A recuperação após {cause, select, ramsay {uma síndrome de Ramsay Hunt} surgical {uma cirurgia} other {uma lesão}} é normalmente mais lenta e menos uniforme do que após uma paralisia de Bell, por isso não vamos interpretar um início lento como mau sinal.",
+    "timeHoldBack": "Só pelas suas respostas, a fase sugerida seria a Fase {suggested}, mas com {days, plural, one {# dia} other {# dias}} desde o início recuamos uma fase. Avançar à frente do nervo é o que faz as compensações instalarem-se.",
+    "timeEarliest": "Com {days, plural, one {# dia} other {# dias}} desde o início, a Fase {stage} é a atribuição mais precoce que faz sentido clinicamente.",
+    "clinicianOverride": "O seu clínico atualizou a sua fase depois de rever o seu progresso."
+  },
+  "reviewWhy": {
+    "lowConfidence": "algumas das suas respostas não encaixam no padrão habitual",
+    "lateOnset": "o início está fora do nosso período habitual",
+    "surgeryOrInjury": "a recuperação após cirurgia ou lesão precisa de um ponto de partida individual",
+    "otherDiagnosis": "o seu diagnóstico não está entre os que atribuímos automaticamente"
+  }
+}

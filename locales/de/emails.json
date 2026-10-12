@@ -1,0 +1,26 @@
+{
+  "footer": "Sie erhalten diese E-Mail aufgrund einer Aktivität in Ihrem Palsya-Konto. Fragen? Wenden Sie sich an {support}.",
+  "reset": {
+    "subject": "Palsya-Passwort zurücksetzen",
+    "preheader": "Dieser Link ist {minutes} Minuten lang gültig.",
+    "heading": "Passwort zurücksetzen",
+    "body": "Wir haben eine Anfrage erhalten, das Passwort für Ihr Palsya-Konto zurückzusetzen. Wählen Sie über die Schaltfläche unten ein neues Passwort. Der Link funktioniert einmal und läuft in {minutes} Minuten ab.",
+    "button": "Neues Passwort wählen",
+    "ignore": "Wenn Sie das nicht angefordert haben, können Sie diese E-Mail ignorieren – Ihr Passwort bleibt unverändert."
+  },
+  "changed": {
+    "subject": "Ihr Palsya-Passwort wurde geändert",
+    "preheader": "Falls Sie das nicht waren, wenden Sie sich an den Support.",
+    "heading": "Ihr Passwort wurde geändert",
+    "body": "Das Passwort für Ihr Palsya-Konto wurde am {when, date, long} um {when, time, short} geändert. Sie wurden auf Ihren anderen Geräten abgemeldet.",
+    "notYou": "Falls Sie das nicht waren, wenden Sie sich bitte umgehend an den Support unter {support}."
+  },
+  "invite": {
+    "subject": "{role, select, admin {Sie wurden eingeladen, Palsya zu verwalten} other {Sie wurden als Fachkraft zu Palsya eingeladen}}",
+    "preheader": "Nehmen Sie die Einladung an und legen Sie Ihr Passwort fest.",
+    "heading": "{role, select, admin {Treten Sie Palsya als Administrator/in bei} other {Treten Sie Palsya als Fachkraft bei}}",
+    "body": "{inviter} hat Sie {role, select, admin {als Administrator/in} other {als Fachkraft}} zu Palsya eingeladen. Nehmen Sie die Einladung an, um Ihren Namen und Ihr Passwort festzulegen.",
+    "button": "Einladung annehmen",
+    "ignore": "Wenn Sie diese Einladung nicht erwartet haben, können Sie diese E-Mail ignorieren."
+  }
+}

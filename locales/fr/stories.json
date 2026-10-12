@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Témoignages de récupération — Palsya",
+    "description": "De vraies récupérations d'utilisateurs de Palsya, plateaux et rechutes compris, ainsi que des avis, des recommandations de cliniciens et des articles de presse."
+  },
+  "hero": {
+    "eyebrow": "Des témoignages, clairement présentés",
+    "title": "De vraies récupérations, y compris les moments difficiles",
+    "lead": "Chaque témoignage provient d'un véritable utilisateur qui a donné son accord, avec un nom abrégé à sa demande. Nous n'avons retiré ni les plateaux, ni les reculs, ni les récupérations restées incomplètes — ce sont justement ceux que les gens ont besoin de lire."
+  },
+  "quoted": "« {text} »",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · a commencé à la semaine {week, number} · {months, plural, one {# mois de programme} other {# mois de programme}}"
+  },
+  "reviews": {
+    "title": "Avis",
+    "lead": "Recueillis dans l'application auprès d'utilisateurs ayant suivi au moins quatre semaines. Nous publions aussi les notes basses.",
+    "stars": "{n, number} étoiles sur {max, number}",
+    "verified": "Utilisateur vérifié"
+  },
+  "clinicians": {
+    "title": "Des cliniciens",
+    "lead": "Des cliniciens indépendants qui nous adressent des patients. Aucun d'entre eux n'est rémunéré pour cela.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Presse et publications",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Varsovie",
+      "dx": "Paralysie de Bell",
+      "summary": "D'une paralysie complète du côté droit à une alimentation et une parole normales, avec une légère syncinésie résiduelle.",
+      "body": "Un mardi, Marta s'est réveillée sans pouvoir fermer l'œil droit. Les corticoïdes ont été commencés dans les 48 heures. Elle a démarré Palsya à la deuxième semaine, en étape 1, et a passé onze jours à ne faire presque rien d'autre que protéger son œil et masser légèrement son visage — ce qu'elle décrit comme la partie la plus difficile de tout le programme. La première ébauche de mouvement dans sa joue est apparue au 19e jour. Une syncinésie est apparue vers la septième semaine, ce qu'elle a trouvé plus éprouvant que la paralysie elle-même. Le travail de coordination pendant les étapes 3 et 4 l'a nettement réduite, mais pas complètement. Au bout de cinq mois, son œil se ferme légèrement quand elle sourit largement, et toutes ses autres fonctions sont récupérées.",
+      "quote": "L'immobilité du début me donnait l'impression d'abandonner. Ce n'était pas le cas. Je le comprends aujourd'hui, pas à l'époque."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Paralysie de Bell",
+      "summary": "Un démarrage lent, un plateau de neuf semaines, puis une évolution régulière.",
+      "body": "Tomás est arrivé tard sur Palsya, à la sixième semaine, sans aucun mouvement et après s'être entendu dire d'attendre pour voir. Ses huit premiers scans ont varié de moins de quatre points, ce qui reste dans la marge de mesure et ne correspond donc pas vraiment à un mouvement. Il décrit les semaines sept à quinze comme le moment où il a cessé de croire que quoi que ce soit changerait. Sa clinicienne l'a maintenu en étape 2 pendant toute cette période au lieu de le faire avancer, estimant que faire progresser un programme plus vite que la fonction, c'est ainsi que les compensations s'installent. Le mouvement est devenu clairement volontaire à la seizième semaine. Au septième mois, son score de symétrie avait gagné vingt-deux points par rapport à sa référence initiale.",
+      "quote": "Neuf semaines de courbes plates. Ma kiné refusait de me faire passer à l'étape suivante, et elle avait raison, mais je lui en ai voulu pendant environ un mois."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Post-chirurgicale",
+      "summary": "Lésion du nerf facial après une chirurgie de neurinome de l'acoustique, avec une récupération partielle et asymétrique.",
+      "body": "La paralysie de Sanne est survenue après une chirurgie, ce qui la place dans une autre catégorie que la paralysie de Bell : l'évolution de la récupération était moins prévisible et les délais plus longs. Elle a utilisé la formule à six consultations du début à la fin et a gardé le même clinicien pendant neuf mois. Sa bouche a nettement récupéré, son œil partiellement et son front à peine — un schéma inégal qu'elle dit avoir mieux accepté une fois qu'on lui a expliqué pourquoi il se produit, au lieu de le présenter comme un échec. Elle poursuit en étape 5 avec une courte routine d'entretien et un scan toutes les six semaines.",
+      "quote": "J'ai arrêté de me mesurer au visage que j'avais avant. Ce n'était pas une défaite. C'est ce qui m'a permis d'avancer."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "Ce qui m'a le plus aidé, c'est qu'on me dise d'en faire moins. Je forçais le sourire aussi fort que possible, deux fois par jour, depuis cinq semaines. Lors du deuxième appel, ma kiné l'a repéré en une minute environ.",
+      "ctx": "Paralysie de Bell · Cracovie · a commencé à la semaine 3"
+    },
+    "aisling": {
+      "quote": "J'ai vu le changement sur la chronologie de photos avant de le voir dans le miroir. Cela a compté plus que je ne l'aurais cru pendant les semaines où rien ne semblait se passer.",
+      "ctx": "Paralysie de Bell · Cork · a commencé à la semaine 2"
+    },
+    "dieter": {
+      "quote": "Un syndrome de Ramsay Hunt, donc un chemin plus lent que pour la plupart. Ce que j'ai apprécié, c'est que personne n'a prétendu le contraire ni ne m'a promis un délai impossible à connaître.",
+      "ctx": "Syndrome de Ramsay Hunt · Leipzig · a commencé à la semaine 6"
+    },
+    "rosa": {
+      "quote": "J'ai 71 ans et je ne suis pas à l'aise avec les applications. C'est un écran avec un bouton. Ma fille l'a installée et je l'utilise seule depuis le deuxième jour.",
+      "ctx": "Paralysie de Bell · Valence · a commencé à la semaine 4"
+    },
+    "youssef": {
+      "quote": "Au bout de six mois, mon visage n'est plus celui que j'avais. Mais je peux boire dans un verre, manger au restaurant, et je n'évite plus les photos. C'était ça, le vrai objectif.",
+      "ctx": "Lésion post-chirurgicale du nerf facial · Lyon"
+    },
+    "lena": {
+      "quote": "Les consignes de soins des yeux m'ont été plus utiles que tout ce que j'ai reçu à l'hôpital, où l'on m'a remis une brochure avant de me renvoyer chez moi. Ma cornée va bien et je pense que c'est grâce à ça.",
+      "ctx": "Paralysie de Bell · Malmö · a commencé à la semaine 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "Médecin ORL, praticien hospitalier",
+      "where": "Vienne",
+      "quote": "Ce qui est inhabituel ici, c'est la retenue. Le programme ne promet pas de récupération, ne classe pas les patients les uns par rapport aux autres et dit clairement où les preuves sont minces. Je l'indique à mes patients et je lis les bilans d'évolution qu'ils m'envoient."
+    },
+    "aubert": {
+      "role": "Neurorééducation, CHU",
+      "where": "Lille",
+      "quote": "L'adaptation à l'étape est ce qui compte sur le plan clinique. Remettre à chaque patient la même fiche d'exercices, qu'il ait une syncinésie ou non, est une pratique courante, et ce n'est pas une bonne pratique. Ce programme fait mieux que cela."
+    },
+    "solberg": {
+      "role": "Kinésithérapeute, spécialiste de la rééducation faciale",
+      "where": "Oslo",
+      "quote": "J'utilise la chronologie des scans dans mes propres séances au cabinet. Pouvoir montrer à un patient un changement objectif pendant un plateau de neuf semaines lui apporte quelque chose que mes seuls encouragements ne lui apportent pas."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "Les applications de rééducation qui refusent de transformer la récupération en jeu",
+      "kind": "Reportage"
+    },
+    "jdr": {
+      "headline": "Rééducation neuromusculaire faciale à distance : une cohorte observationnelle de 1 204 utilisateurs",
+      "kind": "Revue à comité de lecture"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Entretien"
+    },
+    "bpa": {
+      "headline": "Ressource évaluée : Palsya",
+      "kind": "Association de patients"
+    }
+  }
+}

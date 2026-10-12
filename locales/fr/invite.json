@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Acceptez votre invitation — Palsya",
+    "description": "Définissez votre nom et votre mot de passe pour rejoindre Palsya."
+  },
+  "loading": "Chargement…",
+  "title": "Acceptez votre invitation",
+  "lead": "Votre adresse e-mail et votre rôle ont été définis par la personne qui vous a invité. Choisissez votre nom et un mot de passe pour terminer.",
+  "submit": "Créer mon compte",
+  "side": {
+    "title": "Bienvenue dans l'équipe Palsya",
+    "points": {
+      "role": "Vos accès sont définis par un administrateur — vous n'avez rien à choisir",
+      "password": "Utilisez un mot de passe robuste : vous aurez accès à des dossiers de patients"
+    }
+  },
+  "missing": {
+    "title": "Ce lien d'invitation est incomplet",
+    "body": "Rouvrez le lien de votre e-mail d'invitation, ou demandez à l'administrateur qui vous a invité de vous en envoyer un nouveau.",
+    "signIn": "Aller à la connexion"
+  }
+}

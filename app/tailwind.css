@@ -1,0 +1,119 @@
+/* ============================================================
+   Palsya — Tailwind CSS (additive, new surfaces only)
+
+   Deliberately does NOT import Tailwind's Preflight reset:
+   `app/globals.css` already carries a full base reset (body/h1-h5/
+   p/a/button/input/select/textarea resets) and importing Preflight
+   on top of it would silently fight those rules the moment this
+   file is loaded. Only the theme + utilities layers are imported.
+
+   Every `--color-*` / `--radius-*` / `--shadow-*` / `--font-*` value
+   below aliases an existing token from styles/tokens.css rather than
+   inventing a parallel palette, so new Tailwind/shadcn markup shares
+   one source of truth with the existing hand-written CSS.
+   ============================================================ */
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --font-sans: var(--font-ui);
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-mono);
+
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-warm: var(--surface-warm);
+  --color-surface-sink: var(--surface-sink);
+
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-line-soft: var(--line-soft);
+
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-4: var(--ink-4);
+  --color-ink-inverse: var(--ink-inverse);
+
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-press: var(--brand-press);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-tint: var(--brand-tint);
+  --color-brand-tint-2: var(--brand-tint-2);
+
+  --color-warm: var(--warm);
+  --color-warm-ink: var(--warm-ink);
+  --color-warm-tint: var(--warm-tint);
+  --color-warm-line: var(--warm-line);
+
+  --color-ok: var(--ok);
+  --color-ok-tint: var(--ok-tint);
+  --color-ok-ink: var(--ok-ink);
+  --color-warn: var(--warn);
+  --color-warn-tint: var(--warn-tint);
+  --color-warn-ink: var(--warn-ink);
+  --color-alert: var(--alert);
+  --color-alert-tint: var(--alert-tint);
+  --color-alert-ink: var(--alert-ink);
+  --color-info: var(--info);
+  --color-info-tint: var(--info-tint);
+  --color-info-ink: var(--info-ink);
+
+  --color-p1: var(--p1); --color-p1-tint: var(--p1-tint); --color-p1-ink: var(--p1-ink);
+  --color-p2: var(--p2); --color-p2-tint: var(--p2-tint); --color-p2-ink: var(--p2-ink);
+  --color-p3: var(--p3); --color-p3-tint: var(--p3-tint); --color-p3-ink: var(--p3-ink);
+  --color-p4: var(--p4); --color-p4-tint: var(--p4-tint); --color-p4-ink: var(--p4-ink);
+  --color-p5: var(--p5); --color-p5-tint: var(--p5-tint); --color-p5-ink: var(--p5-ink);
+
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --radius-xl: var(--r-xl);
+  --radius-full: var(--r-full);
+
+  --shadow-token-1: var(--sh-1);
+  --shadow-token-2: var(--sh-2);
+  --shadow-token-3: var(--sh-3);
+  --shadow-token-4: var(--sh-4);
+}
+
+/* ---- shadcn/ui variable contract, aliased to the tokens above ----
+   shadcn primitives (Dialog, RadioGroup, Checkbox, Progress, Select,
+   Form, ...) read these `--background`/`--primary`/etc. variables
+   rather than Tailwind's own theme scale, so they must be aliased
+   here too or shadcn components would render with the library's
+   default palette instead of Palsya's brand tokens. */
+:root {
+  --background: var(--canvas);
+  --foreground: var(--ink);
+
+  --card: var(--canvas);
+  --card-foreground: var(--ink);
+
+  --popover: var(--canvas);
+  --popover-foreground: var(--ink);
+
+  --primary: var(--brand);
+  --primary-foreground: var(--ink-inverse);
+
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--ink);
+
+  --muted: var(--surface);
+  --muted-foreground: var(--ink-3);
+
+  --accent: var(--brand-tint);
+  --accent-foreground: var(--brand-ink);
+
+  --destructive: var(--alert);
+  --destructive-foreground: var(--ink-inverse);
+
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--brand);
+
+  --radius: var(--r-md);
+}

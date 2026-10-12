@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Recuperación guiada para la parálisis facial."
+  },
+  "brand": "Palsya",
+  "language": {
+    "label": "Idioma",
+    "change": "Idioma: {language}. Cambiar idioma"
+  },
+  "nav": {
+    "main": "Principal",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "home": "Inicio de Palsya",
+    "howItWorks": "Cómo funciona",
+    "guides": "Guías",
+    "stories": "Historias",
+    "pricing": "Precios",
+    "about": "Quiénes somos",
+    "logIn": "Iniciar sesión",
+    "startTrial": "Empiece sus 7 días gratis",
+    "myDashboard": "Mi panel",
+    "logOut": "Cerrar sesión",
+    "signedInAs": "Sesión iniciada como {name}"
+  },
+  "footer": {
+    "tagline": "Rehabilitación guiada para la parálisis facial periférica. Creada y supervisada por clínicos que hacen este trabajo en persona.",
+    "location": "Lisboa y Ámsterdam · Fundada en {year}",
+    "product": "Producto",
+    "guides": "Guías",
+    "company": "Empresa",
+    "links": {
+      "howItWorks": "Cómo funciona",
+      "pricing": "Precios",
+      "stories": "Historias de recuperación",
+      "startFree": "Empezar gratis",
+      "signIn": "Iniciar sesión",
+      "about": "Quiénes somos",
+      "team": "Equipo clínico",
+      "contact": "Contacto y soporte",
+      "privacy": "Aviso de privacidad",
+      "terms": "Condiciones",
+      "cookies": "Cookies"
+    },
+    "disclaimerTitle": "Aviso médico.",
+    "copyright": "© {year} Palsya Health, Lda. Todos los derechos reservados.",
+    "trust": {
+      "gdpr": "Conforme al RGPD",
+      "eu": "Servidores en la UE",
+      "languages": "{count} idiomas",
+      "stripe": "Pagos a través de Stripe"
+    }
+  },
+  "medicalDisclaimer": "Palsya es un programa de apoyo a la rehabilitación. No diagnostica ni sustituye a la atención médica. Obtenga siempre un diagnóstico de un médico antes de empezar y, si tiene dolor o enrojecimiento en el ojo o cambios en la visión, contacte con un médico ese mismo día.",
+  "actions": {
+    "back": "Atrás",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "retry": "Reintentar",
+    "signOut": "Cerrar sesión",
+    "loading": "Cargando…"
+  }
+}

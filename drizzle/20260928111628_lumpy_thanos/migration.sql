@@ -1,0 +1,1 @@
+ALTER TABLE "staff_profiles" ADD COLUMN "registration_number" text;

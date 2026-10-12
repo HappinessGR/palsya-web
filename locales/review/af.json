@@ -1,0 +1,2952 @@
+[
+  {
+    "key": "programme.stages.1.name",
+    "reason": "terminology",
+    "note": "Stage names chosen: Beskerm / Aktiveer / Koordinasie / Verfyn / Onderhou (imperative verbs, as in English). Used everywhere; UI says 'fase' for both stage and phase."
+  },
+  {
+    "key": "dashboard.score.title",
+    "reason": "terminology",
+    "note": "'symmetry score' = 'simmetrietelling' throughout."
+  },
+  {
+    "key": "dashboard.session.taping.title",
+    "reason": "terminology",
+    "note": "'taping' rendered as 'kleefband' / 'kleefband aanbring'. SA physios may say 'taping' or 'kinesiologiese kleefband'. Please confirm preferred term."
+  },
+  {
+    "key": "onboarding.ready.tapingHint",
+    "reason": "terminology",
+    "note": "'elastic therapeutic tape' = 'elastiese terapeutiese kleefband'; 'patch-test' rendered as testing on the forearm for a skin reaction."
+  },
+  {
+    "key": "about.story.p2",
+    "reason": "terminology",
+    "note": "'synkinesis' = 'sinkinese' throughout; confirm SA clinical form (vs 'sinkinesie')."
+  },
+  {
+    "key": "programme.stages.2.focus.f1",
+    "reason": "terminology",
+    "note": "'voluntary movement' = 'willekeurige beweging' (standard physiology term, but lay readers may read 'willekeurig' as 'random'). Consider 'doelbewuste beweging'."
+  },
+  {
+    "key": "assessment.reasons.noMovement",
+    "reason": "terminology",
+    "note": "'willekeurige beweging' for voluntary movement: same concern as programme.stages.2.focus.f1."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.bells.d",
+    "reason": "terminology",
+    "note": "'Idiopathic facial palsy' = 'idiopatiese gesigsverlamming'."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.ramsay.d",
+    "reason": "terminology",
+    "note": "'varicella-zoster-virus' spelling; 'rash' = 'uitslag'."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.lyme.t",
+    "reason": "terminology",
+    "note": "'Lyme-siekte': confirm form."
+  },
+  {
+    "key": "assessment.flags.bilateral.body",
+    "reason": "terminology",
+    "note": "'Guillain-Barre-sindroom', 'sarkoidose', 'sistemiese oorsaak': confirm spelling."
+  },
+  {
+    "key": "assessment.flags.eye.body",
+    "reason": "terminology",
+    "note": "'GP' = 'huisdokter'; 'eye casualty department' = 'oognoodafdeling' (no fixed SA equivalent)."
+  },
+  {
+    "key": "assessment.flags.limb.body",
+    "reason": "terminology",
+    "note": "'call your local emergency number' kept generic ('u plaaslike noodnommer')."
+  },
+  {
+    "key": "assessment.flags.estim.body",
+    "reason": "terminology",
+    "note": "'reinnervation' = 'herinnervasie'."
+  },
+  {
+    "key": "assessment.flags.tooEarly.body",
+    "reason": "terminology",
+    "note": "'Corticosteroids' = 'kortikosteroiede'."
+  },
+  {
+    "key": "assessment.flags.noEyeCare.body",
+    "reason": "terminology",
+    "note": "'Preservative-free lubricating drops' = 'bevogtigende oogdruppels sonder preserveermiddels'; 'ointment' = 'oogsalf'."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.chamber.t",
+    "reason": "terminology",
+    "note": "'moisture chamber' = 'vogkamer'; 'eye shield' = 'oogskerm'. Unsure of established SA term."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.dryness.t",
+    "reason": "terminology",
+    "note": "'grittiness' = 'sanderige gevoel'."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.watering.t",
+    "reason": "terminology",
+    "note": "'Excessive watering' = 'oormatige traanvloei'."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.tinnitus.t",
+    "reason": "terminology",
+    "note": "'Ringing in the ear' = 'gesuis in die oor' (lay term)."
+  },
+  {
+    "key": "assessment.questions.tightness.q",
+    "reason": "terminology",
+    "note": "'tight or stiff' = 'styf of stram'."
+  },
+  {
+    "key": "library.exercises.nose.why",
+    "reason": "terminology",
+    "note": "'nasolabial fold' = 'nasolabiale plooi'; 'mid-face' = 'middelgesig'."
+  },
+  {
+    "key": "library.exercises.nose.name",
+    "reason": "terminology",
+    "note": "'Nostril flare' = 'Neusvleuels sprei' (coined)."
+  },
+  {
+    "key": "library.taping.assist.strips.s1.where",
+    "reason": "terminology",
+    "note": "'Zygomatic line' = 'Zigomatiese lyn': may be too technical for patients."
+  },
+  {
+    "key": "library.taping.guide.strips.s1.note",
+    "reason": "terminology",
+    "note": "'orbital rim' = 'oogkasrand'."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.where",
+    "reason": "terminology",
+    "note": "'Cheek counter-cue' = 'Teenwenk op die wang': coined phrase, check clarity."
+  },
+  {
+    "key": "library.exercises.release.watch",
+    "reason": "terminology",
+    "note": "'pins and needles' = 'tinteling'; 'twitching' = 'spiertrekkings'."
+  },
+  {
+    "key": "library.routine.speech.items.i2",
+    "reason": "terminology",
+    "note": "Letter list p, b, m, f, v, w kept as in English; in Afrikaans 'v' is /f/ and 'w' is /v/, so the list may need adapting."
+  },
+  {
+    "key": "library.routine.speech.body",
+    "reason": "terminology",
+    "note": "'Plosive and labial sounds' = 'plofklanke en lipklanke'."
+  },
+  {
+    "key": "programme.stages.4.focus.f3",
+    "reason": "terminology",
+    "note": "'over-recruitment' = 'oormatige spieraktivering' (paraphrase)."
+  },
+  {
+    "key": "programme.stages.2.avoid.a1",
+    "reason": "terminology",
+    "note": "'recruits the wrong muscles' = 'die verkeerde spiere inspan'."
+  },
+  {
+    "key": "programme.stages.2.body",
+    "reason": "terminology",
+    "note": "'Small and correct beats large and recruited' paraphrased as 'groot met die verkeerde spiere'."
+  },
+  {
+    "key": "programme.taping.restingSupport",
+    "reason": "terminology",
+    "note": "Tape mode labels: Rusondersteuning / Bewegingshulp / Rigtinggeleiding."
+  },
+  {
+    "key": "howItWorks.steps.scan.p4",
+    "reason": "terminology",
+    "note": "'severity grade' = 'graad van erns'; House-Brackmann kept."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreMeaning.a",
+    "reason": "terminology",
+    "note": "'Measurement variability' = 'meetvariasie'; decimal comma in +-2,5."
+  },
+  {
+    "key": "stories.endorsements.rahn.role",
+    "reason": "terminology",
+    "note": "'Consultant Otolaryngologist' = 'Konsultant-otolaringoloog' (SA lay usage: 'oor-, neus- en keelspesialis')."
+  },
+  {
+    "key": "stories.items.sanne.summary",
+    "reason": "terminology",
+    "note": "'acoustic neuroma' = 'akoestiese neuroom'."
+  },
+  {
+    "key": "onboarding.phase.confidenceLabel",
+    "reason": "terminology",
+    "note": "Placement 'Confidence' = 'Betroubaarheid'."
+  },
+  {
+    "key": "onboarding.phase.typicalWindow",
+    "reason": "terminology",
+    "note": "Time 'window' = 'tydperk' (elsewhere 'tydsvenster')."
+  },
+  {
+    "key": "library.exercises.cheek.watch",
+    "reason": "terminology",
+    "note": "'ear surgery' = 'oorooperasie'."
+  },
+  {
+    "key": "pricing.card.subscribe",
+    "reason": "terminology",
+    "note": "'Subscribe' = 'Teken in'; sign-in is consistently 'Meld aan'. Consider 'Word intekenaar' if confusing."
+  },
+  {
+    "key": "stories.press.jdr.headline",
+    "reason": "terminology",
+    "note": "Published English article title translated per brief rule 6; consider keeping the original since it is a citation."
+  },
+  {
+    "key": "stories.press.derStandard.headline",
+    "reason": "terminology",
+    "note": "German headline kept in original German (published title), so identical to source."
+  },
+  {
+    "key": "common.medicalDisclaimer",
+    "reason": "clinical",
+    "note": "Medical disclaimer."
+  },
+  {
+    "key": "guides.safety",
+    "reason": "clinical",
+    "note": "Eye safety warning."
+  },
+  {
+    "key": "assessment.questions.onsetDate.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.onsetDate.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.bells.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.bells.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.ramsay.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.ramsay.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.surgical.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.surgical.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.trauma.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.trauma.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.lyme.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.other.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.other.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.diagnosis.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.side.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.side.options.left.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.side.options.right.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.side.options.both.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.sudden.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.sudden.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.days.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.days.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.gradual.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.gradual.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.recurring.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.progression.options.recurring.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.medical.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.medical.options.steroids.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.medical.options.noSteroids.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.medical.options.waiting.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.medical.options.no.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.options.full.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.options.almost.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.options.partial.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeClosure.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.pain.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.redness.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.vision.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.dryness.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.watering.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeSymptoms.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.drops.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.ointment.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.tape.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.chamber.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.glasses.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.eyeCare.options.nothing.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.moveBrow.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.moveBrow.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.moveEye.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.moveMouth.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.options.occasional.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.options.frequent.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.options.always.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.synkinesis.options.unsure.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.tightness.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.tightness.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.tightness.options.mild.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.tightness.options.moderate.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.tightness.options.severe.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.rash.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.hearing.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.earPain.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.taste.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.tinnitus.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.limb.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.otherSymptoms.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.drinking.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.eating.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.speaking.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.eye.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.sleep.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.social.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.impact.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.physio.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.exercises.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.taping.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.estim.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.gum.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.treatment.options.none.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.q",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.help",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.options.1.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.options.1.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.options.2.t",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.questions.perDay.options.2.d",
+    "reason": "clinical",
+    "note": "Assessment question/option (diagnosis, eye, symptoms, movement)."
+  },
+  {
+    "key": "assessment.optionSets.move.none.t",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.none.d",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.flicker.t",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.flicker.d",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.partial.t",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.partial.d",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.near.t",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.optionSets.move.near.d",
+    "reason": "clinical",
+    "note": "Movement grading options."
+  },
+  {
+    "key": "assessment.flags.limb.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.limb.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.eye.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.eye.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.rash.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.rash.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.undiagnosed.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.undiagnosed.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.progressive.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.progressive.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.bilateral.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.bilateral.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.tooEarly.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.tooEarly.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.late.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.late.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.noEyeCare.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.noEyeCare.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.estim.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.estim.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.gum.title",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.flags.gum.body",
+    "reason": "clinical",
+    "note": "Safety/red-flag message."
+  },
+  {
+    "key": "assessment.reasons.noMovement",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.minimalMovement",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.notIsolated",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.nearNormal",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.synkinesisRaised",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.synkinesisHeldBack",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.severeTightness",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.eyeProtection",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.maintenance",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.slowRecovery",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.timeHoldBack",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reasons.timeEarliest",
+    "reason": "clinical",
+    "note": "Stage placement reasoning."
+  },
+  {
+    "key": "assessment.reviewWhy.lowConfidence",
+    "reason": "clinical",
+    "note": "Clinician review reason (fills 'Dit is omdat {why}')."
+  },
+  {
+    "key": "assessment.reviewWhy.lateOnset",
+    "reason": "clinical",
+    "note": "Clinician review reason (fills 'Dit is omdat {why}')."
+  },
+  {
+    "key": "assessment.reviewWhy.surgeryOrInjury",
+    "reason": "clinical",
+    "note": "Clinician review reason (fills 'Dit is omdat {why}')."
+  },
+  {
+    "key": "assessment.reviewWhy.otherDiagnosis",
+    "reason": "clinical",
+    "note": "Clinician review reason (fills 'Dit is omdat {why}')."
+  },
+  {
+    "key": "library.exercises.brow.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.steps.s5",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.brow.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.steps.s5",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.eye.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.nose.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.steps.s5",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.smile.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.pucker.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.cheek.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.steps.s5",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.separate.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.name",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.instructions",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.why",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.steps.s1",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.steps.s2",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.steps.s3",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.steps.s4",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.exercises.release.watch",
+    "reason": "clinical",
+    "note": "Exercise instructions/cautions."
+  },
+  {
+    "key": "library.taping.rest.name",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.instructions",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.goal",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.tension",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.wear",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s1.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s1.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s1.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s1.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s2.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s2.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s2.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.rest.strips.s2.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.name",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.instructions",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.goal",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.tension",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.wear",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s1.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s1.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s1.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s1.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s2.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s2.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s2.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.assist.strips.s2.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.name",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.instructions",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.goal",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.tension",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.wear",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s1.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s1.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s1.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s1.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.where",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.from",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.to",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.taping.guide.strips.s2.note",
+    "reason": "clinical",
+    "note": "Taping instructions (placement, tension, wear time)."
+  },
+  {
+    "key": "library.routine.eye.name",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.instructions",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.when",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.body",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.items.i1",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.items.i2",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.items.i3",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eye.items.i4",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.name",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.instructions",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.when",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.body",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.items.i1",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.items.i2",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.items.i3",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.eat.items.i4",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.name",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.instructions",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.when",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.body",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.items.i1",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.items.i2",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.items.i3",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.massage.items.i4",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.name",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.instructions",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.when",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.body",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.items.i1",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.items.i2",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.items.i3",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.sleep.items.i4",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.name",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.instructions",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.when",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.body",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.items.i1",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.items.i2",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.items.i3",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "library.routine.speech.items.i4",
+    "reason": "clinical",
+    "note": "Daily routine: eye care, eating, massage, sleep, speech."
+  },
+  {
+    "key": "programme.stages.1.name",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.short",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.window",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.body",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.focus.f1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.focus.f2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.focus.f3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.focus.f4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.avoid.a1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.avoid.a2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.avoid.a3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.avoid.a4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.1.tapeMode",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.name",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.short",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.window",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.body",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.focus.f1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.focus.f2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.focus.f3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.focus.f4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.avoid.a1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.avoid.a2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.avoid.a3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.2.tapeMode",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.name",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.short",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.window",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.body",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.focus.f1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.focus.f2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.focus.f3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.focus.f4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.avoid.a1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.avoid.a2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.avoid.a3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.3.tapeMode",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.name",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.short",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.window",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.body",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.focus.f1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.focus.f2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.focus.f3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.focus.f4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.avoid.a1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.avoid.a2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.4.tapeMode",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.name",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.short",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.window",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.body",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.focus.f1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.focus.f2",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.focus.f3",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.focus.f4",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.avoid.a1",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.stages.5.tapeMode",
+    "reason": "clinical",
+    "note": "Stage description, timing, focus and things to avoid."
+  },
+  {
+    "key": "programme.taping.restingSupport",
+    "reason": "clinical",
+    "note": "Taping mode name."
+  },
+  {
+    "key": "programme.taping.movementAssist",
+    "reason": "clinical",
+    "note": "Taping mode name."
+  },
+  {
+    "key": "programme.taping.directionalGuide",
+    "reason": "clinical",
+    "note": "Taping mode name."
+  },
+  {
+    "key": "onboarding.welcome.clinicalNote",
+    "reason": "clinical",
+    "note": "Clinical reasoning claim."
+  },
+  {
+    "key": "onboarding.welcome.safetyBody",
+    "reason": "clinical",
+    "note": "Safety statement."
+  },
+  {
+    "key": "onboarding.welcome.mirrorBody",
+    "reason": "clinical",
+    "note": "Assessment instruction."
+  },
+  {
+    "key": "onboarding.phase.blockedTitle",
+    "reason": "clinical",
+    "note": "Blocked (safety) screen."
+  },
+  {
+    "key": "onboarding.phase.blockedLead",
+    "reason": "clinical",
+    "note": "Blocked (safety) screen."
+  },
+  {
+    "key": "onboarding.phase.blockedSavedTitle",
+    "reason": "clinical",
+    "note": "Blocked (safety) screen."
+  },
+  {
+    "key": "onboarding.phase.blockedSavedBody",
+    "reason": "clinical",
+    "note": "Blocked (safety) screen."
+  },
+  {
+    "key": "onboarding.phase.confirmTitle",
+    "reason": "clinical",
+    "note": "Continuing past a safety flag."
+  },
+  {
+    "key": "onboarding.phase.confirmText",
+    "reason": "clinical",
+    "note": "Continuing past a safety flag."
+  },
+  {
+    "key": "onboarding.phase.confirmOk",
+    "reason": "clinical",
+    "note": "Continuing past a safety flag."
+  },
+  {
+    "key": "onboarding.phase.confirmCancel",
+    "reason": "clinical",
+    "note": "Continuing past a safety flag."
+  },
+  {
+    "key": "onboarding.phase.continueAnyway",
+    "reason": "clinical",
+    "note": "Continuing past a safety flag."
+  },
+  {
+    "key": "onboarding.phase.reviewNotice",
+    "reason": "clinical",
+    "note": "Clinician review notice."
+  },
+  {
+    "key": "onboarding.phase.stageNotFixedNote",
+    "reason": "clinical",
+    "note": "Stage movement claim."
+  },
+  {
+    "key": "onboarding.phase.confidenceLabel",
+    "reason": "clinical",
+    "note": "Placement confidence."
+  },
+  {
+    "key": "onboarding.phase.confidenceHigh",
+    "reason": "clinical",
+    "note": "Placement confidence."
+  },
+  {
+    "key": "onboarding.phase.confidenceMedium",
+    "reason": "clinical",
+    "note": "Placement confidence."
+  },
+  {
+    "key": "onboarding.phase.confidenceLow",
+    "reason": "clinical",
+    "note": "Placement confidence."
+  },
+  {
+    "key": "onboarding.ready.tapingHint",
+    "reason": "clinical",
+    "note": "Tape and patch test."
+  },
+  {
+    "key": "onboarding.ready.exercisesHint",
+    "reason": "clinical",
+    "note": "Exercise advice."
+  },
+  {
+    "key": "onboarding.ready.routineHint",
+    "reason": "clinical",
+    "note": "Eye protection priority."
+  },
+  {
+    "key": "howItWorks.steps.assessment.title",
+    "reason": "clinical",
+    "note": "Eligibility and red flags."
+  },
+  {
+    "key": "howItWorks.steps.assessment.p1",
+    "reason": "clinical",
+    "note": "Eligibility and red flags."
+  },
+  {
+    "key": "howItWorks.steps.assessment.p2",
+    "reason": "clinical",
+    "note": "Eligibility and red flags."
+  },
+  {
+    "key": "howItWorks.steps.assessment.p3",
+    "reason": "clinical",
+    "note": "Eligibility and red flags."
+  },
+  {
+    "key": "howItWorks.steps.stage.title",
+    "reason": "clinical",
+    "note": "Placement process and clinician review."
+  },
+  {
+    "key": "howItWorks.steps.stage.p1",
+    "reason": "clinical",
+    "note": "Placement process and clinician review."
+  },
+  {
+    "key": "howItWorks.steps.stage.p2",
+    "reason": "clinical",
+    "note": "Placement process and clinician review."
+  },
+  {
+    "key": "howItWorks.steps.stage.p3",
+    "reason": "clinical",
+    "note": "Placement process and clinician review."
+  },
+  {
+    "key": "howItWorks.steps.session.p2",
+    "reason": "clinical",
+    "note": "Exercise/taping guidance claim."
+  },
+  {
+    "key": "howItWorks.steps.scan.title",
+    "reason": "clinical",
+    "note": "Scan measurement claims."
+  },
+  {
+    "key": "howItWorks.steps.scan.p1",
+    "reason": "clinical",
+    "note": "Scan measurement claims."
+  },
+  {
+    "key": "howItWorks.steps.scan.p2",
+    "reason": "clinical",
+    "note": "Scan measurement claims."
+  },
+  {
+    "key": "howItWorks.steps.scan.p3",
+    "reason": "clinical",
+    "note": "Scan measurement claims."
+  },
+  {
+    "key": "howItWorks.steps.scan.p4",
+    "reason": "clinical",
+    "note": "Scan measurement claims."
+  },
+  {
+    "key": "howItWorks.steps.clinician.title",
+    "reason": "clinical",
+    "note": "Clinician consultation claims."
+  },
+  {
+    "key": "howItWorks.steps.clinician.p1",
+    "reason": "clinical",
+    "note": "Clinician consultation claims."
+  },
+  {
+    "key": "howItWorks.steps.clinician.p2",
+    "reason": "clinical",
+    "note": "Clinician consultation claims."
+  },
+  {
+    "key": "guides.faq.gettingStarted.items.rightForMe.a",
+    "reason": "clinical",
+    "note": "Eligibility (5-90 days), steroids."
+  },
+  {
+    "key": "guides.faq.gettingStarted.items.diagnosis.q",
+    "reason": "clinical",
+    "note": "Diagnosis requirement."
+  },
+  {
+    "key": "guides.faq.gettingStarted.items.diagnosis.a",
+    "reason": "clinical",
+    "note": "Diagnosis requirement."
+  },
+  {
+    "key": "guides.faq.programme.items.timePerDay.q",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.timePerDay.a",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.missDays.q",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.missDays.a",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.physio.q",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.physio.a",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.recovery.q",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.programme.items.recovery.a",
+    "reason": "clinical",
+    "note": "Programme and recovery claims."
+  },
+  {
+    "key": "guides.faq.scans.items.howScan.q",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.howScan.a",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.photos.q",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.photos.a",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreMeaning.q",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreMeaning.a",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreDown.q",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.scans.items.scoreDown.a",
+    "reason": "clinical",
+    "note": "Scan/score meaning."
+  },
+  {
+    "key": "guides.faq.cost.items.clinicians.a",
+    "reason": "clinical",
+    "note": "Clinician qualifications."
+  },
+  {
+    "key": "guides.articles.what-is-pfp.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.what-is-pfp.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.stages-of-recovery.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.stages-of-recovery.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.facial-taping-guide.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.facial-taping-guide.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.facial-exercises-guide.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.facial-exercises-guide.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.daily-routine.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.daily-routine.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.research-evidence.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.research-evidence.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.faq.title",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "guides.articles.faq.blurb",
+    "reason": "clinical",
+    "note": "Guide titles and summaries."
+  },
+  {
+    "key": "about.story.p1",
+    "reason": "clinical",
+    "note": "Patient story with clinical detail (steroids, synkinesis)."
+  },
+  {
+    "key": "about.story.p2",
+    "reason": "clinical",
+    "note": "Patient story with clinical detail (steroids, synkinesis)."
+  },
+  {
+    "key": "about.story.p3",
+    "reason": "clinical",
+    "note": "Patient story with clinical detail (steroids, synkinesis)."
+  },
+  {
+    "key": "about.whatWeAreNot.body",
+    "reason": "clinical",
+    "note": "Not diagnostic / not medical care."
+  },
+  {
+    "key": "landing.hero.lead",
+    "reason": "clinical",
+    "note": "Clinical claim."
+  },
+  {
+    "key": "landing.problem.eyebrow",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.title",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.lead",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.rightWork.title",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.rightWork.body",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.proof.title",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.proof.body",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.person.title",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.problem.person.body",
+    "reason": "clinical",
+    "note": "Claims about stage-matched work and scans."
+  },
+  {
+    "key": "landing.ethics.predictions.body",
+    "reason": "clinical",
+    "note": "No recovery predictions."
+  },
+  {
+    "key": "landing.gettingStarted.eyebrow",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.title",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.assessment.title",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.assessment.body",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.plan.title",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.plan.body",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.daily.title",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "landing.gettingStarted.daily.body",
+    "reason": "clinical",
+    "note": "Assessment and placement claims."
+  },
+  {
+    "key": "dashboard.library.logHint",
+    "reason": "clinical",
+    "note": "Clinical claim (function before geometry)."
+  },
+  {
+    "key": "dashboard.session.taping.title",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.none",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.goal",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.tension",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.wear",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.stripLine",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.taping.markDone",
+    "reason": "clinical",
+    "note": "Taping labels."
+  },
+  {
+    "key": "dashboard.session.exercises.dose",
+    "reason": "clinical",
+    "note": "Exercise dose format."
+  },
+  {
+    "key": "stories.items.marta.where",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.marta.dx",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.marta.summary",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.marta.body",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.marta.quote",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.tomas.where",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.tomas.dx",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.tomas.summary",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.tomas.body",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.tomas.quote",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.sanne.where",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.sanne.dx",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.sanne.summary",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.sanne.body",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.items.sanne.quote",
+    "reason": "clinical",
+    "note": "Patient case story with clinical detail."
+  },
+  {
+    "key": "stories.testimonials.marek.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.marek.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.aisling.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.aisling.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.dieter.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.dieter.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.rosa.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.rosa.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.youssef.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.youssef.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.lena.quote",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.testimonials.lena.ctx",
+    "reason": "clinical",
+    "note": "Testimonial with diagnosis/eye care detail."
+  },
+  {
+    "key": "stories.endorsements.rahn.role",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.rahn.where",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.rahn.quote",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.aubert.role",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.aubert.where",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.aubert.quote",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.solberg.role",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.solberg.where",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "stories.endorsements.solberg.quote",
+    "reason": "clinical",
+    "note": "Clinician endorsement."
+  },
+  {
+    "key": "pricing.plans.guided.forWho",
+    "reason": "clinical",
+    "note": "Clinical mistakes (taping tension, synkinesis)."
+  },
+  {
+    "key": "pricing.plans.supported.forWho",
+    "reason": "clinical",
+    "note": "Complex cases description."
+  },
+  {
+    "key": "onboarding.consent.eyebrow",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.heading",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.lead",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.required",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.optional",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.dataProcessing.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.dataProcessing.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.photoStorage.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.photoStorage.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.photoKeep.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.photoKeep.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.clinicianShare.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.clinicianShare.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.researchOptIn.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.researchOptIn.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.marketing.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.marketing.body",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.laterNote",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.submit",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.errRequired",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.meta.title",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.meta.description",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.gdprNote",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "onboarding.consent.termsAgreement",
+    "reason": "legal",
+    "note": "Consent wording (GDPR Art. 9, explicit consent)."
+  },
+  {
+    "key": "guides.faq.privacy.items.dataStored.q",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.privacy.items.dataStored.a",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.privacy.items.sellData.q",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.privacy.items.sellData.a",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.privacy.items.exportDelete.q",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.privacy.items.exportDelete.a",
+    "reason": "legal",
+    "note": "Data storage/GDPR wording."
+  },
+  {
+    "key": "guides.faq.cost.items.cancel.a",
+    "reason": "legal",
+    "note": "Cancellation terms."
+  },
+  {
+    "key": "guides.faq.cost.items.pricing.a",
+    "reason": "legal",
+    "note": "Pricing and trial terms."
+  },
+  {
+    "key": "onboarding.ready.trialSummary",
+    "reason": "legal",
+    "note": "Trial charge terms."
+  },
+  {
+    "key": "auth.signUp.footnote",
+    "reason": "legal",
+    "note": "Charge terms."
+  },
+  {
+    "key": "pricing.extras.referral.body",
+    "reason": "legal",
+    "note": "Referral data-sharing consent."
+  },
+  {
+    "key": "common.footer.copyright",
+    "reason": "legal",
+    "note": "Legal line."
+  },
+  {
+    "key": "landing.cred.gdpr",
+    "reason": "legal",
+    "note": "GDPR claim."
+  },
+  {
+    "key": "clinician.awaitingVerification.body",
+    "reason": "legal",
+    "note": "Clinician verification."
+  },
+  {
+    "key": "onboarding.ready.nameFallback",
+    "reason": "tone",
+    "note": "Fallback for {name} in 'Alles is gereed, {name}' is 'welkom'; English 'there' has no Afrikaans equivalent. Reads slightly odd."
+  },
+  {
+    "key": "stories.items.tomas.quote",
+    "reason": "tone",
+    "note": "'vies vir haar' is informal; matches the spoken quote."
+  },
+  {
+    "key": "auth.continue.errors.roleMismatch",
+    "reason": "tone",
+    "note": "Select branches use \"'n administrateur / 'n klinikus / 'n pasient\"."
+  },
+  {
+    "key": "admin.roles.admin",
+    "reason": "terminology",
+    "note": "Role Admin = \"Administrateur\" (plural \"Administrateurs\"); admin area itself stays \"Administrasie\" as in admin.json. Patient = Pasiënt, Clinician = Klinikus/Klinici."
+  },
+  {
+    "key": "passwordReset.forgot.sent",
+    "reason": "legal",
+    "note": "Security wording kept non-committal: \"As daar 'n rekening vir hierdie e-posadres bestaan, het ons 'n herstelskakel gestuur.\""
+  },
+  {
+    "key": "clinician.patient.notes.hint",
+    "reason": "legal",
+    "note": "Notes are part of the patient record and cannot be edited/deleted — rendered as \"pasiënt se rekord\"; confirm medico-legal wording."
+  },
+  {
+    "key": "assessment.reasons.clinicianOverride",
+    "reason": "clinical",
+    "note": "Stage = \"fase\" throughout; override sentence uses \"hy of sy\" for the clinician."
+  },
+  {
+    "key": "admin.audit.actions.user_demoted_self_registered",
+    "reason": "terminology",
+    "note": "\"demoted\" = \"afgegradeer\" — please confirm."
+  },
+  {
+    "key": "emails.invite.body",
+    "reason": "tone",
+    "note": "ICU select placed after \"na Palsya uitgenooi\" per English order; reads naturally in both branches."
+  }
+]

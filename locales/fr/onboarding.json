@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Bienvenue",
+    "assessment": "Bilan",
+    "stage": "Votre étape",
+    "preferences": "Préférences",
+    "consent": "Consentement",
+    "ready": "Prêt"
+  },
+  "stepIndicator": "Étape {current} sur {total} · {label}",
+  "nav": {
+    "back": "Retour",
+    "continue": "Continuer"
+  },
+  "welcome": {
+    "eyebrow": "Avant de commencer",
+    "heading": "Seize questions, environ huit minutes",
+    "lead": "Vos réponses déterminent le point de départ de votre programme. Il n'y a pas de bonne réponse et rien à réussir — une réponse trop optimiste vous donnera simplement un programme qui ne vous correspond pas.",
+    "mirrorTitle": "Gardez un miroir à portée de main",
+    "mirrorBody": "Trois questions vous demandent d'essayer un mouvement et d'observer ce qui se passe. Un miroir de salle de bains sous un éclairage uniforme est idéal.",
+    "safetyTitle": "Nous vous dirons si nous ne sommes pas adaptés à votre situation",
+    "safetyBody": "Certaines réponses signifient que vous avez besoin d'un médecin plutôt que d'une application. Si c'est le cas, nous nous arrêtons et nous vous le disons clairement.",
+    "clinicalNote": "<b>Ces questions ont été rédigées par notre équipe clinique.</b> L'orientation qui en découle suit le même raisonnement qu'un kinésithérapeute lors d'un premier rendez-vous : le temps écoulé depuis l'apparition, puis ce qui bouge réellement, puis le fait que certains mouvements soient liés ou non.",
+    "start": "Commencer le bilan",
+    "learnMore": "Découvrir d'abord les étapes"
+  },
+  "assessment": {
+    "sectionIndicator": "Section {current} sur {total}",
+    "previous": "Précédent",
+    "seeMyStage": "Voir mon étape",
+    "errRequired": "Merci de répondre à cette question — votre programme en dépend.",
+    "errFutureDate": "Cette date est dans le futur. Veuillez la vérifier.",
+    "meta": {
+      "title": "Bilan — Palsya",
+      "description": "Répondez à un court questionnaire pour que nous puissions vous orienter vers la bonne étape de votre programme de rééducation de la paralysie faciale."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Merci de vous arrêter là pour le moment",
+    "blockedLead": "Un élément de vos réponses relève d'un médecin plutôt que d'un programme de rééducation. Nous préférons perdre votre inscription plutôt que vous voir commencer malgré tout.",
+    "blockedSavedTitle": "Vos réponses sont enregistrées",
+    "blockedSavedBody": "Rien n'est perdu. Une fois que vous aurez été examiné — ou quand suffisamment de temps aura passé — reconnectez-vous et votre bilan sera là où vous l'avez laissé. En attendant, vous pouvez lire tous les guides de la base de connaissances, gratuitement et sans compte.",
+    "readGuides": "Lire les guides",
+    "continueAnyway": "J'ai été examiné — continuer",
+    "eyebrow": "Votre orientation",
+    "stageHeading": "Vous commencez à l'étape {stage}",
+    "stageBandLabel": "Étape {n}",
+    "whyStageHeading": "Pourquoi l'étape {stage}",
+    "daysSinceOnset": "Jours depuis l'apparition",
+    "confidenceLabel": "Niveau de confiance",
+    "confidenceHigh": "Élevé — vos réponses correspondent à un schéma clair",
+    "confidenceMedium": "Moyen — une réponse ne concorde pas tout à fait",
+    "confidenceLow": "Faible — un clinicien va vérifier",
+    "typicalWindow": "Période habituelle",
+    "dailyMeaning": "Ce que cela signifie au quotidien",
+    "yourFocus": "Vos priorités",
+    "whatToAvoid": "À éviter",
+    "tapingLabel": "Taping à cette étape :",
+    "reviewNotice": "<b>Un clinicien va vérifier cette orientation.</b> En effet, {why}. Vous pouvez commencer dès aujourd'hui — si la vérification change quelque chose, on vous dira quoi et pourquoi, sous un jour ouvré.",
+    "reasonJoiner": ", et ",
+    "stageNotFixedNote": "Votre étape n'est pas figée. Elle évolue lorsque vos scans et vos propres observations l'indiquent — vers l'avant, et parfois vers l'arrière après une maladie ou une longue période de grande fatigue. Revenir en arrière est un ajustement, pas du terrain perdu.",
+    "changeAnswer": "Modifier une réponse",
+    "setupSessions": "Configurer mes séances",
+    "confirmTitle": "Continuer malgré tout ?",
+    "confirmText": "Ne le faites que si un médecin vous a examiné et vous a dit que vous pouviez commencer la rééducation. Nous indiquerons dans votre dossier que vous avez poursuivi malgré une alerte de sécurité.",
+    "confirmOk": "J'ai été examiné",
+    "confirmCancel": "Revenir en arrière",
+    "meta": {
+      "title": "Votre étape — Palsya",
+      "description": "L'étape de votre programme, et pourquoi nous vous y avons orienté."
+    },
+    "stageHeadingNamed": "Vous commencez à l'étape {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Préférences",
+    "heading": "Comment nous intégrer à votre journée ?",
+    "lead": "Tout cela peut être modifié plus tard, et rien de tout cela ne sert à vous harceler.",
+    "remindersTitle": "Rappels",
+    "remindersBody": "Un seul rappel, à l'heure de votre choix. Si vous le manquez, c'est tout — pas de deuxième rappel qui mentionne le premier, et rien qui vous dise que vous avez tout gâché.",
+    "remindMeLabel": "Me rappeler ma séance",
+    "firstSession": "Première séance",
+    "secondSession": "Deuxième séance (facultative)",
+    "languageTitle": "Langue",
+    "languageBody": "Toute l'application et tous les guides, en {count, number} langues. Les consultations se font dans la mesure du possible avec un clinicien qui parle votre langue.",
+    "interfaceLanguage": "Langue de l'interface",
+    "displayTitle": "Lecture et affichage",
+    "textSize": "Taille du texte",
+    "sizeNormal": "Normale",
+    "sizeLarge": "Grande",
+    "sizeXl": "Très grande",
+    "sizeHint": "Beaucoup de nos utilisateurs ont plus de 60 ans. Ce n'est pas un hasard si ce réglage n'est pas caché dans un menu.",
+    "mirrorLabel": "Afficher l'aperçu de la caméra en miroir (la plupart des gens trouvent cela plus facile)",
+    "emailTitle": "E-mails",
+    "weeklySummary": "Un récapitulatif hebdomadaire de ce qui a été mesuré et enregistré",
+    "clinicianUpdates": "Me prévenir lorsqu'un clinicien ajoute une note ou modifie mon programme",
+    "meta": {
+      "title": "Préférences — Palsya",
+      "description": "Choisissez les rappels, la taille du texte et les e-mails de votre programme."
+    },
+    "languageHint": "Vous pouvez la modifier à tout moment depuis le menu des langues en haut de chaque page. Cela ne change rien d'autre à votre programme."
+  },
+  "consent": {
+    "eyebrow": "Consentement et confidentialité",
+    "heading": "Ce que vous acceptez, en termes simples",
+    "lead": "Deux de ces consentements sont obligatoires, car le programme ne peut pas fonctionner sans eux. Les autres, si vous les refusez, ne changent vraiment rien à votre programme ni à votre tarif.",
+    "required": "Obligatoire",
+    "optional": "Facultatif",
+    "dataProcessing": {
+      "title": "Traitement de mes données de santé",
+      "body": "Vos réponses au bilan, votre étape, l'historique de vos séances et vos notes. Il s'agit de données relevant des catégories particulières au sens de l'article 9 du RGPD, et nous les traitons sur la base de votre consentement explicite. Sans elles, il n'y a pas de programme possible."
+    },
+    "photoStorage": {
+      "title": "Analyse des scans de mon visage",
+      "body": "La détection des points de repère se fait sur votre appareil. <b>La conservation</b> des images fait l'objet du point suivant, séparé — si vous la refusez, vous obtenez tout de même vos scores, mais sans chronologie de photos."
+    },
+    "photoKeep": {
+      "title": "Conservation de mes photos de scan pour voir ma chronologie",
+      "body": "Conservées chiffrées, visibles uniquement par vous et par les cliniciens avec qui vous les partagez. Vous pouvez supprimer une photo, ou toutes, à tout moment, et cette suppression est réelle."
+    },
+    "clinicianShare": {
+      "title": "Partage de mon évolution avec un clinicien de mon choix",
+      "body": "Uniquement avec la personne que vous désignez, uniquement ce que vous envoyez, et révocable. Si vous avez un code de parrainage de votre propre kinésithérapeute, c'est ce consentement qui lui permet de voir vos bilans."
+    },
+    "researchOptIn": {
+      "title": "Utilisation de mes données anonymisées pour la recherche",
+      "body": "Agrégées et débarrassées de tout identifiant, utilisées pour comprendre ce qui aide. Jamais vendues. Refuser ne change rien à votre programme, à votre tarif ni à votre clinicien."
+    },
+    "marketing": {
+      "title": "Des e-mails occasionnels sur les nouveaux guides et fonctionnalités",
+      "body": "Pas une avalanche de newsletters. Environ une fois par mois, et la désinscription se fait en un clic."
+    },
+    "laterNote": "<b>Vous pouvez modifier chacun de ces choix plus tard</b>, depuis Paramètres → Confidentialité et données. Retirer votre consentement à la conservation des photos supprime les images conservées ; vos scores restent, sauf si vous les supprimez séparément.",
+    "submit": "Accepter et continuer",
+    "errRequired": "Les deux consentements obligatoires sont nécessaires au fonctionnement du programme.",
+    "meta": {
+      "title": "Consentement et confidentialité — Palsya",
+      "description": "Ce que vous acceptez, en termes simples."
+    },
+    "gdprNote": "Vos données de santé relèvent des catégories particulières de données au sens du RGPD. Elles ne sont traitées qu'avec votre consentement explicite, sont chiffrées au repos et en transit, et ne sont jamais vendues ni utilisées à des fins publicitaires.",
+    "termsAgreement": "En continuant, vous acceptez les <link>Conditions d'utilisation et la Politique de confidentialité</link> de Palsya."
+  },
+  "ready": {
+    "title": "{name}, tout est prêt",
+    "summary": "Étape {stage} — {name} : {sessions} dure environ {minutes} minutes par jour.",
+    "tapingTitle": "Taping",
+    "tapingSummary": "{name} — {minutes} minutes.",
+    "tapingHint": "Il vous faudra une bande adhésive élastique thérapeutique, de n'importe quelle marque. Testez-la d'abord sur votre avant-bras.",
+    "exercisesTitle": "Exercices",
+    "exercisesSummary": "{count} exercices, {minutes} minutes, guidés par un minuteur.",
+    "exercisesHint": "Un miroir sous un éclairage uniforme aide beaucoup lors des premières étapes.",
+    "routineTitle": "Routine quotidienne",
+    "routineSummary": "{count} éléments, {minutes} minutes, soins des yeux compris.",
+    "routineHint": "La protection de l'œil passe en premier, avant tout exercice.",
+    "trialTitle": "Vos 7 jours gratuits commencent maintenant",
+    "trialSummary": "Le montant de {price} pour trois mois sera prélevé le {date}, sauf si vous résiliez avant. Nous vous enverrons un e-mail de rappel le 5e jour, soit l'inverse de ce qui se fait d'habitude.",
+    "changePlan": "Changer de formule",
+    "goToSession": "Aller à la séance du jour",
+    "meta": {
+      "title": "Tout est prêt — Palsya",
+      "description": "Votre programme est prêt : taping, exercices et routine quotidienne."
+    },
+    "titleNoName": "Tout est prêt",
+    "sessionsFallback": "votre séance quotidienne",
+    "priceFallback": "votre formule"
+  },
+  "meta": {
+    "title": "Bienvenue — Palsya",
+    "description": "Seize questions, environ huit minutes. Vos réponses déterminent le point de départ de votre programme de rééducation."
+  }
+}

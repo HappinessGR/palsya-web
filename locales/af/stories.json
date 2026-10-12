@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Herstelverhale — Palsya",
+    "description": "Werklike herstel van Palsya-gebruikers, insluitend die plato's en terugslae, asook resensies, aanbevelings van klinici en persberigte."
+  },
+  "hero": {
+    "eyebrow": "Sosiale bewys, eerlik benoem",
+    "title": "Werklike herstel, insluitend die moeilike dele",
+    "lead": "Elke verhaal hier kom van 'n werklike gebruiker wat daartoe ingestem het, met name wat op hul versoek verkort is. Ons het nie die plato's, die terugslae of die uitkomste wat nie tot volle herstel gelei het nie, verwyder nie — dit is juis dié wat mense moet lees."
+  },
+  "quoted": "\"{text}\"",
+  "story": {
+    "title": "{name}, {where}",
+    "meta": "{dx} · begin in week {week, number} · {months, plural, one {# maand in die program} other {# maande in die program}}"
+  },
+  "reviews": {
+    "title": "Resensies",
+    "lead": "In die toep ingesamel van gebruikers wat minstens vier weke voltooi het. Ons publiseer die lae tellings ook.",
+    "stars": "{n, number} uit {max, number} sterre",
+    "verified": "Geverifieerde gebruiker"
+  },
+  "clinicians": {
+    "title": "Van klinici",
+    "lead": "Onafhanklike klinici wat pasiënte na ons verwys. Nie een van hulle word hiervoor betaal nie.",
+    "ctx": "{role} · {where}"
+  },
+  "pressSection": {
+    "title": "Pers en publikasies",
+    "meta": "{pub} · {date}"
+  },
+  "items": {
+    "marta": {
+      "where": "Warskou",
+      "dx": "Bell se verlamming",
+      "summary": "Van 'n volledige regterkantse verlamming tot normale eet en praat, met ligte sinkinese wat oorbly.",
+      "body": "Marta het op 'n Dinsdag wakker geword en kon nie haar regteroog toemaak nie. Steroïede is binne 48 uur begin. Sy het in week twee met Palsya begin, in fase 1, en elf dae lank byna niks anders gedoen as oogbeskerming en ligte masseer nie — wat sy beskryf as die moeilikste deel van die hele program. Die eerste flikkering in haar wang het op dag 19 gekom. Sinkinese het omstreeks week sewe verskyn, wat sy meer ontstellend gevind het as die oorspronklike verlamming. Koördinasiewerk deur fases 3 en 4 het dit aansienlik verminder, maar nie heeltemal nie. Vyf maande later vernou haar oog effens wanneer sy breed glimlag, en andersins het sy volle funksie.",
+      "quote": "Die stilte aan die begin het gevoel soos opgee. Dit was nie. Ek verstaan dit nou, en toe het ek nie."
+    },
+    "tomas": {
+      "where": "Porto",
+      "dx": "Bell se verlamming",
+      "summary": "'n Stadige begin, 'n plato van nege weke, en bestendige verandering daarna.",
+      "body": "Tomás het laat na Palsya gekom, in week ses, sonder enige beweging en nadat hy aangesê is om maar te wag en te kyk. Sy eerste agt skanderings het minder as vier punte verskuif, wat binne die meetmarge is en dus eintlik glad nie beweging nie. Hy beskryf weke sewe tot vyftien as die punt waar hy opgehou het om te glo dat enigiets sou verander. Sy klinikus het hom die hele tydperk in fase 2 gehou eerder as om hom te laat vorder, met die redenasie dat kompensasies gevestig raak wanneer 'n program voor die funksie uit beweeg. Beweging het in week sestien duidelik willekeurig geword. Teen maand sewe het sy simmetrietelling twee-en-twintig punte bo die basislyn gestyg.",
+      "quote": "Nege weke van plat lyne. My fisio wou my nie laat aanbeweeg nie, en sy was reg, maar ek was omtrent 'n maand lank vies vir haar."
+    },
+    "sanne": {
+      "where": "Utrecht",
+      "dx": "Ná 'n operasie",
+      "summary": "Gesigsenuweebesering ná 'n operasie vir 'n akoestiese neuroom, met gedeeltelike en asimmetriese herstel.",
+      "body": "Sanne se verlamming het op 'n operasie gevolg, wat haar in 'n ander kategorie as Bell se verlamming plaas: die herstelpatroon was minder voorspelbaar en die tydlyn langer. Sy het die hele tyd die pakket met ses konsultasies gebruik en nege maande lank by dieselfde klinikus gebly. Haar mond het aansienlik herstel, haar oog gedeeltelik, en haar voorkop skaars — 'n ongelyke patroon wat sy sê makliker was om te aanvaar sodra iemand verduidelik het waarom dit gebeur, eerder as om dit as 'n tekortkoming te behandel. Sy gaan voort in fase 5 met 'n kort onderhoudsroetine en 'n skandering elke ses weke.",
+      "quote": "Ek het opgehou om myself te meet aan die gesig wat ek vroeër gehad het. Dit was nie 'n nederlaag nie. Dit was wat my in staat gestel het om aan te gaan."
+    }
+  },
+  "testimonials": {
+    "marek": {
+      "quote": "Wat die meeste gehelp het, was om te hoor ek moet minder doen. Ek het die glimlag vyf weke lank twee keer per dag so hard as moontlik geforseer. My fisio het dit in die tweede oproep binne sowat 'n minuut raakgesien.",
+      "ctx": "Bell se verlamming · Krakau · begin in week 3"
+    },
+    "aisling": {
+      "quote": "Ek kon die verandering in die fototydlyn sien voordat ek dit in die spieël kon sien. Dit het meer saak gemaak as wat ek verwag het in die weke toe dit gelyk het asof niks gebeur nie.",
+      "ctx": "Bell se verlamming · Cork · begin in week 2"
+    },
+    "dieter": {
+      "quote": "Ramsay Hunt, so 'n stadiger pad as vir die meeste. Wat ek waardeer het, was dat niemand anders voorgegee of my 'n tydlyn belowe het wat hulle nie kon weet nie.",
+      "ctx": "Ramsay Hunt-sindroom · Leipzig · begin in week 6"
+    },
+    "rosa": {
+      "quote": "Ek is 71 en nie goed met toeps nie. Dit is een skerm met een knoppie. My dogter het dit opgestel en ek gebruik dit sedert die tweede dag op my eie.",
+      "ctx": "Bell se verlamming · Valencia · begin in week 4"
+    },
+    "youssef": {
+      "quote": "Ses maande later is my gesig nie die gesig wat ek gehad het nie. Maar ek kan uit 'n glas drink, ek kan in 'n restaurant eet, en ek het opgehou om foto's te vermy. Dit was die eintlike doel.",
+      "ctx": "Gesigsenuweebesering ná 'n operasie · Lyon"
+    },
+    "lena": {
+      "quote": "Die instruksies vir oogsorg was nuttiger as enigiets wat ek in die hospitaal gekry het, waar ek 'n pamflet gekry het en huis toe gestuur is. My kornea is in orde en ek dink dit is hoekom.",
+      "ctx": "Bell se verlamming · Malmö · begin in week 1"
+    }
+  },
+  "endorsements": {
+    "rahn": {
+      "role": "Konsultant-otolaringoloog",
+      "where": "Wene",
+      "quote": "Wat hier ongewoon is, is die selfbeheersing. Die program belowe nie herstel nie, gradeer nie pasiënte teen mekaar nie, en is eksplisiet oor waar die bewyse dun is. Ek verwys pasiënte daarheen en ek lees die vorderingsverslae wat hulle vir my stuur."
+    },
+    "aubert": {
+      "role": "Neurorehabilitasie, universiteitshospitaal",
+      "where": "Lille",
+      "quote": "Om die fase te laat pas, is die deel wat klinies saak maak. Om elke pasiënt dieselfde oefenblad te gee, ongeag of hulle sinkinese het, is algemene praktyk, en dit is nie goeie praktyk nie. Dit doen beter as dit."
+    },
+    "solberg": {
+      "role": "Gespesialiseerde gesigsfisioterapeut",
+      "where": "Oslo",
+      "quote": "Ek gebruik die skanderingstydlyn in my eie kliniese sessies. Om 'n pasiënt tydens 'n plato van nege weke objektiewe verandering te kan wys, doen iets vir hulle wat my gerusstelling alleen nie doen nie."
+    }
+  },
+  "press": {
+    "healthTechEurope": {
+      "headline": "Die rehabilitasietoeps wat weier om herstel in 'n speletjie te verander",
+      "kind": "Artikel"
+    },
+    "jdr": {
+      "headline": "Neuromuskulêre heropleiding van die gesig op afstand: 'n waarnemingskohort van 1 204 gebruikers",
+      "kind": "Portuurbeoordeel"
+    },
+    "derStandard": {
+      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
+      "kind": "Onderhoud"
+    },
+    "bpa": {
+      "headline": "Hersiene hulpbron: Palsya",
+      "kind": "Pasiëntorganisasie"
+    }
+  }
+}

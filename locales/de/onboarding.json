@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Willkommen",
+    "assessment": "Einstufung",
+    "stage": "Ihre Phase",
+    "preferences": "Einstellungen",
+    "consent": "Einwilligung",
+    "ready": "Fertig"
+  },
+  "stepIndicator": "Schritt {current} von {total} · {label}",
+  "nav": {
+    "back": "Zurück",
+    "continue": "Weiter"
+  },
+  "welcome": {
+    "eyebrow": "Bevor wir beginnen",
+    "heading": "Sechzehn Fragen, etwa acht Minuten",
+    "lead": "Ihre Antworten bestimmen, wo Ihr Programm beginnt. Es gibt keine richtige Antwort und nichts zu bestehen – eine zu optimistische Antwort bringt Ihnen nur ein Programm, das nicht passt.",
+    "mirrorTitle": "Legen Sie einen Spiegel bereit",
+    "mirrorBody": "Bei drei Fragen sollen Sie eine Bewegung ausprobieren und beobachten, was passiert. Ideal ist ein Badezimmerspiegel bei gleichmäßigem Licht.",
+    "safetyTitle": "Wir sagen es Ihnen, wenn wir nicht das Richtige sind",
+    "safetyBody": "Manche Antworten bedeuten, dass Sie eine Ärztin oder einen Arzt brauchen statt einer App. Dann halten wir an und sagen es Ihnen klar.",
+    "clinicalNote": "<b>Diese Fragen hat unser klinisches Team geschrieben.</b> Die Einordnung folgt derselben Logik, die eine Physiotherapeutin beim ersten Termin anwendet: erst die Zeit seit Beginn, dann was sich tatsächlich bewegt, dann ob Bewegungen gekoppelt sind.",
+    "start": "Einstufung starten",
+    "learnMore": "Erst über die Phasen lesen"
+  },
+  "assessment": {
+    "sectionIndicator": "Abschnitt {current} von {total}",
+    "previous": "Zurück",
+    "seeMyStage": "Meine Phase ansehen",
+    "errRequired": "Bitte beantworten Sie diese Frage – Ihr Programm hängt davon ab.",
+    "errFutureDate": "Dieses Datum liegt in der Zukunft. Bitte prüfen Sie es.",
+    "meta": {
+      "title": "Einstufung — Palsya",
+      "description": "Beantworten Sie einen kurzen Fragebogen, damit wir Sie in die richtige Phase Ihres Programms bei Gesichtslähmung einordnen können."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Bitte hören Sie hier vorerst auf",
+    "blockedLead": "Etwas in Ihren Antworten erfordert eine Ärztin oder einen Arzt statt eines Rehabilitationsprogramms. Lieber verzichten wir auf Ihre Anmeldung, als dass Sie trotzdem beginnen.",
+    "blockedSavedTitle": "Ihre Antworten sind gespeichert",
+    "blockedSavedBody": "Nichts geht verloren. Wenn Sie untersucht wurden – oder genug Zeit vergangen ist –, melden Sie sich wieder an, und Ihre Einstufung ist da, wo Sie aufgehört haben. In der Zwischenzeit können Sie alle Ratgeber in der Wissensdatenbank lesen, kostenlos und ohne Konto.",
+    "readGuides": "Ratgeber lesen",
+    "continueAnyway": "Ich wurde untersucht – weiter",
+    "eyebrow": "Ihre Einordnung",
+    "stageHeading": "Sie beginnen in Phase {stage}",
+    "stageBandLabel": "Phase {n}",
+    "whyStageHeading": "Warum Phase {stage}",
+    "daysSinceOnset": "Tage seit Beginn",
+    "confidenceLabel": "Sicherheit",
+    "confidenceHigh": "Hoch – Ihre Antworten passen in ein klares Muster",
+    "confidenceMedium": "Mittel – eine Antwort passt nicht ganz",
+    "confidenceLow": "Niedrig – eine Fachkraft prüft das",
+    "typicalWindow": "Typischer Zeitraum",
+    "dailyMeaning": "Was das für Ihren Tag bedeutet",
+    "yourFocus": "Ihr Schwerpunkt",
+    "whatToAvoid": "Was Sie vermeiden sollten",
+    "tapingLabel": "Taping in dieser Phase:",
+    "reviewNotice": "<b>Eine Fachkraft prüft diese Einordnung.</b> Das liegt daran, dass {why}. Sie können heute beginnen – falls die Prüfung etwas ändert, erfahren Sie innerhalb eines Werktags, was sich geändert hat und warum.",
+    "reasonJoiner": " und ",
+    "stageNotFixedNote": "Ihre Phase ist nicht festgelegt. Sie ändert sich, wenn Ihre Scans und Ihre eigenen Angaben es nahelegen – nach vorn und manchmal auch zurück, nach einer Krankheit oder einer Phase starker Erschöpfung. Ein Schritt zurück ist eine Anpassung, kein verlorener Boden.",
+    "changeAnswer": "Antwort ändern",
+    "setupSessions": "Einheiten einrichten",
+    "confirmTitle": "Trotzdem fortfahren?",
+    "confirmText": "Tun Sie das nur, wenn eine Ärztin oder ein Arzt Sie untersucht und Ihnen gesagt hat, dass Sie mit der Rehabilitation beginnen können. Wir vermerken in Ihrem Profil, dass Sie trotz eines Sicherheitshinweises fortgefahren sind.",
+    "confirmOk": "Ich wurde untersucht",
+    "confirmCancel": "Zurück",
+    "meta": {
+      "title": "Ihre Phase — Palsya",
+      "description": "Ihre Einordnung im Programm – und warum wir Sie dort eingeordnet haben."
+    },
+    "stageHeadingNamed": "Sie beginnen in Phase {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Einstellungen",
+    "heading": "Wie passen wir am besten in Ihren Tag?",
+    "lead": "All das können Sie später ändern, und nichts davon wird genutzt, um Sie zu drängen.",
+    "remindersTitle": "Erinnerungen",
+    "remindersBody": "Eine Erinnerung zu einer Uhrzeit Ihrer Wahl. Wenn Sie sie verpassen, war es das – keine zweite Erinnerung, die auf die erste verweist, und nichts, was Ihnen sagt, Sie hätten etwas kaputt gemacht.",
+    "remindMeLabel": "An meine Einheit erinnern",
+    "firstSession": "Erste Einheit",
+    "secondSession": "Zweite Einheit (optional)",
+    "languageTitle": "Sprache",
+    "languageBody": "Die ganze App und alle Ratgeber in {count, number} Sprachen. Sprechstunden finden nach Möglichkeit mit einer Fachkraft statt, die Ihre Sprache spricht.",
+    "interfaceLanguage": "Sprache der Oberfläche",
+    "displayTitle": "Lesen und Anzeige",
+    "textSize": "Schriftgröße",
+    "sizeNormal": "Normal",
+    "sizeLarge": "Groß",
+    "sizeXl": "Sehr groß",
+    "sizeHint": "Viele unserer Nutzer sind über 60. Das ist nicht ohne Grund nicht in einem Einstellungsmenü versteckt.",
+    "mirrorLabel": "Kameravorschau spiegeln (für die meisten einfacher)",
+    "emailTitle": "E-Mail",
+    "weeklySummary": "Eine wöchentliche Zusammenfassung dessen, was gemessen und eingetragen wurde",
+    "clinicianUpdates": "Benachrichtigen, wenn eine Fachkraft eine Notiz hinzufügt oder mein Programm ändert",
+    "meta": {
+      "title": "Einstellungen — Palsya",
+      "description": "Wählen Sie Erinnerungen, Schriftgröße und E-Mails für Ihr Programm."
+    },
+    "languageHint": "Sie können das jederzeit über das Sprachmenü oben auf jeder Seite ändern. An Ihrem Programm ändert das sonst nichts."
+  },
+  "consent": {
+    "eyebrow": "Einwilligung und Datenschutz",
+    "heading": "Wozu Sie zustimmen – in einfachen Worten",
+    "lead": "Zwei davon sind erforderlich, weil das Programm ohne sie nicht funktionieren kann. Alle anderen ändern wirklich nichts an Ihrem Programm oder Ihrem Preis, wenn Sie ablehnen.",
+    "required": "Erforderlich",
+    "optional": "Optional",
+    "dataProcessing": {
+      "title": "Verarbeitung meiner Gesundheitsdaten",
+      "body": "Ihre Antworten aus der Einstufung, Ihre Phase, die Protokolle Ihrer Einheiten und Ihre Notizen. Das sind besondere Kategorien personenbezogener Daten nach Art. 9 DSGVO, und wir verarbeiten sie auf Grundlage Ihrer ausdrücklichen Einwilligung. Ohne sie gibt es kein Programm."
+    },
+    "photoStorage": {
+      "title": "Auswertung von Scans meines Gesichts",
+      "body": "Die Erkennung der Gesichtsmerkmale läuft auf Ihrem Gerät. Das <b>Speichern</b> der Bilder ist der nächste Punkt und davon getrennt – lehnen Sie es ab, erhalten Sie trotzdem Ihre Werte, nur keine Fotochronik."
+    },
+    "photoKeep": {
+      "title": "Speichern meiner Scan-Fotos für meine Fotochronik",
+      "body": "Verschlüsselt gespeichert, sichtbar nur für Sie und für Fachkräfte, mit denen Sie sie teilen. Sie können jederzeit einzelne oder alle Fotos löschen, und die Löschung ist tatsächlich endgültig."
+    },
+    "clinicianShare": {
+      "title": "Teilen meines Fortschritts mit einer Fachkraft meiner Wahl",
+      "body": "Nur mit jemandem, den Sie benennen, nur was Sie senden, und jederzeit widerrufbar. Wenn Sie einen Empfehlungscode von Ihrer eigenen Physiotherapeutin oder Ihrem Physiotherapeuten haben, ermöglicht diese Einwilligung, dass sie Ihre Berichte sehen."
+    },
+    "researchOptIn": {
+      "title": "Nutzung meiner anonymisierten Daten für die Forschung",
+      "body": "Zusammengefasst und ohne Identifikationsmerkmale, um zu verstehen, was hilft. Niemals verkauft. Eine Ablehnung ändert nichts an Ihrem Programm, Ihrem Preis oder Ihrer Fachkraft."
+    },
+    "marketing": {
+      "title": "Gelegentliche E-Mails zu neuen Ratgebern und Funktionen",
+      "body": "Keine Newsletter-Flut. Etwa einmal im Monat, und die Abmeldung dauert einen Klick."
+    },
+    "laterNote": "<b>Sie können alles davon später ändern</b>, unter Einstellungen → Datenschutz und Daten. Wenn Sie die Einwilligung zur Fotospeicherung widerrufen, werden die gespeicherten Bilder gelöscht; Ihre Werte bleiben, sofern Sie diese nicht gesondert löschen.",
+    "submit": "Zustimmen und weiter",
+    "errRequired": "Die beiden erforderlichen Einwilligungen sind nötig, damit das Programm funktioniert.",
+    "meta": {
+      "title": "Einwilligung und Datenschutz — Palsya",
+      "description": "Wozu Sie zustimmen – in einfachen Worten."
+    },
+    "gdprNote": "Ihre Gesundheitsdaten gehören zu den besonderen Kategorien personenbezogener Daten nach DSGVO. Sie werden nur mit Ihrer ausdrücklichen Einwilligung verarbeitet, bei Speicherung und Übertragung verschlüsselt und niemals verkauft oder für Werbung genutzt.",
+    "termsAgreement": "Mit dem Fortfahren stimmen Sie den <link>Nutzungsbedingungen und der Datenschutzerklärung</link> von Palsya zu."
+  },
+  "ready": {
+    "title": "Alles bereit, {name}",
+    "summary": "Phase {stage} — {name}, etwa {minutes} Minuten pro Tag, aufgeteilt auf {sessions}.",
+    "tapingTitle": "Taping",
+    "tapingSummary": "{name} — {minutes} Minuten.",
+    "tapingHint": "Sie brauchen elastisches Kinesio-Tape. Die Marke ist egal. Testen Sie es zuerst an Ihrem Unterarm auf Hautverträglichkeit.",
+    "exercisesTitle": "Übungen",
+    "exercisesSummary": "{count} Übungen, {minutes} Minuten, mit Timer angeleitet.",
+    "exercisesHint": "Ein Spiegel bei gleichmäßigem Licht hilft in den frühen Phasen sehr.",
+    "routineTitle": "Tagesroutine",
+    "routineSummary": "{count} Punkte, {minutes} Minuten, einschließlich Augenpflege.",
+    "routineHint": "Der Augenschutz kommt zuerst, vor jeder Übung.",
+    "trialTitle": "Ihre 7 kostenlosen Tage beginnen jetzt",
+    "trialSummary": "Für drei Monate: {price}, abgebucht am {date}, sofern Sie nicht vorher kündigen. An Tag 5 erinnern wir Sie per E-Mail daran – das Gegenteil dessen, wie es sonst meist läuft.",
+    "changePlan": "Tarif ändern",
+    "goToSession": "Zur heutigen Einheit",
+    "meta": {
+      "title": "Alles bereit — Palsya",
+      "description": "Ihr Programm ist bereit: Taping, Übungen und Ihre Tagesroutine."
+    },
+    "titleNoName": "Alles bereit",
+    "sessionsFallback": "Ihre tägliche Einheit",
+    "priceFallback": "Ihr gewählter Tarif"
+  },
+  "meta": {
+    "title": "Willkommen — Palsya",
+    "description": "Sechzehn Fragen, etwa acht Minuten. Ihre Antworten bestimmen, wo Ihr Genesungsprogramm beginnt."
+  }
+}

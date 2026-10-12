@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Today — Palsya",
+    "description": "Your daily session, where you are in recovery, and what is worth reading at this stage."
+  },
+  "home": {
+    "greeting": {
+      "anonymous": {
+        "morning": "Good morning",
+        "afternoon": "Good afternoon",
+        "evening": "Good evening",
+        "night": "Good night"
+      },
+      "named": {
+        "morning": "Good morning, {name}",
+        "afternoon": "Good afternoon, {name}",
+        "evening": "Good evening, {name}",
+        "night": "Good night, {name}"
+      }
+    },
+    "daysInStage": "{days, plural, one {# day} other {# days}} in Stage {stage}"
+  },
+  "sessionCard": {
+    "stageBadge": "Stage {stage} · {name}",
+    "title": "Today's session",
+    "allDone": "All three parts are logged for today.",
+    "about": "About {minutes} minutes. You can split it across the day.",
+    "partMinutes": "{minutes} min",
+    "exercisesCount": "{count, plural, one {# exercise} other {# exercises}}",
+    "dailyRoutine": "Daily routine",
+    "review": "Review today's session",
+    "continue": "Continue session",
+    "start": "Start session",
+    "order": "Taping, exercises, then the daily routine"
+  },
+  "phaseBand": {
+    "title": "Where you are",
+    "fullProgress": "Full progress",
+    "summary": "{short} {days, plural, one {# day} other {# days}} in this stage.",
+    "patternTitle": "Sessions over the last three weeks",
+    "patternLabel": "Sessions over the last {days} days",
+    "state": {
+      "full": "Complete",
+      "part": "Partly done",
+      "none": "Not logged"
+    },
+    "legend": "Filled means complete, pale means partly done, empty means not logged. There is no streak here and nothing resets."
+  },
+  "score": {
+    "title": "Symmetry score",
+    "emptyTitle": "No baseline yet",
+    "emptyBody": "Two minutes now saves you guessing later.",
+    "cta": "Take your baseline scan"
+  },
+  "clinician": {
+    "title": "Your clinician",
+    "allConsultations": "All consultations",
+    "available": "You have {count, plural, one {# consultation} other {# consultations}} available on your plan.",
+    "add": "Add a consultation"
+  },
+  "library": {
+    "title": "Worth reading at this stage",
+    "link": "Library",
+    "readTime": "{minutes} min read",
+    "logNote": "Log something you noticed",
+    "logHint": "Function often changes before geometry does. What you notice is data too."
+  },
+  "backToDashboard": "Back to dashboard",
+  "progress": {
+    "meta": {
+      "title": "Your progress — Palsya",
+      "description": "A record of your logged sessions and how your stage has changed over time."
+    },
+    "title": "Your progress",
+    "intro": "A record of your logged sessions and how your stage has changed over time.",
+    "stageHistory": "Stage history",
+    "noPhase": "No phase has been assigned yet.",
+    "stageBadge": "Stage {stage} · {name}",
+    "sessionLog": "Session log",
+    "noSessions": "Nothing logged yet — your first session will appear here.",
+    "columns": {
+      "date": "Date",
+      "status": "Status",
+      "note": "Note"
+    },
+    "status": {
+      "full": "Complete",
+      "part": "Partly done",
+      "none": "Not logged"
+    },
+    "noNote": "—"
+  },
+  "session": {
+    "meta": {
+      "title": "Today's session — Palsya",
+      "description": "Taping, exercises, then the daily routine for your current stage."
+    },
+    "title": "Today's session — Stage {stage} · {name}",
+    "intro": "Taping, exercises, then the daily routine. Do them in one sitting or split across the day.",
+    "doneToday": "Done today",
+    "markNotDone": "Mark as not done",
+    "taping": {
+      "title": "Taping",
+      "none": "No technique assigned for this stage",
+      "goal": "Goal",
+      "tension": "Tension",
+      "wear": "Wear",
+      "stripLine": "{from} → {to}. {note}",
+      "markDone": "Mark taping done"
+    },
+    "exercises": {
+      "title": "Exercises",
+      "progress": "{done} of {total} done today",
+      "dose": "{reps} × {hold}s hold"
+    },
+    "routine": {
+      "title": "Daily routine",
+      "count": "{count, plural, one {# item} other {# items}} for this stage",
+      "markDone": "Mark routine done"
+    },
+    "note": {
+      "title": "Anything you noticed?",
+      "hint": "Optional. Logged against today, visible to your clinician if you share it.",
+      "placeholder": "e.g. Drank from a glass without holding the corner of my mouth."
+    }
+  }
+}

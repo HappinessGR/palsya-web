@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Guias — Palsya",
+    "description": "Sete guias gratuitos sobre a paralisia facial periférica, escritos pela nossa equipa clínica, revistos por um segundo clínico e datados."
+  },
+  "hero": {
+    "eyebrow": "Base de conhecimento",
+    "title": "Sete guias, gratuitos, sem conta",
+    "lead": "Escritos pela nossa equipa clínica, revistos por um segundo clínico e datados, para saber até que ponto estão atualizados. Quando a evidência é escassa, dizemo-lo."
+  },
+  "byline": "{minutes, plural, one {# min de leitura} other {# min de leitura}} · {author} · revisto em {date}",
+  "safety": "<b>Se o seu olho estiver dorido ou vermelho, ou se a sua visão tiver mudado, consulte um médico hoje.</b> A lesão da córnea num olho que não fecha é a única complicação da paralisia facial que pode causar danos permanentes, e tem tratamento. Isso é mais urgente do que qualquer coisa nesta página.",
+  "articles": {
+    "what-is-pfp": {
+      "title": "O que é a paralisia facial periférica?",
+      "blurb": "O que aconteceu ao nervo, porque é que um lado do rosto deixou de se mexer, e o que isso significa e não significa."
+    },
+    "stages-of-recovery": {
+      "title": "As fases da recuperação",
+      "blurb": "Cinco fases, o que o corpo está a fazer em cada uma e porque é que o programa muda de forma à medida que avança."
+    },
+    "facial-taping-guide": {
+      "title": "Fita adesiva facial: um guia prático",
+      "blurb": "O que a fita faz, o que não faz, como aplicá-la com segurança e quando a retirar."
+    },
+    "facial-exercises-guide": {
+      "title": "Exercícios faciais: como fazê-los bem",
+      "blurb": "Porque é que pequeno e preciso é melhor do que grande e forçado, e os erros que dificultam a recuperação."
+    },
+    "daily-routine": {
+      "title": "Criar uma rotina diária que se mantém",
+      "blurb": "Cuidados com o olho, alimentação, sono e como encaixar um programa numa vida que já existe."
+    },
+    "research-evidence": {
+      "title": "Investigação e evidência",
+      "blurb": "O que a literatura apoia, o que é incerto e de onde vêm os nossos próprios números."
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "blurb": "Elegibilidade, prazos, custo, dados e as perguntas que as pessoas fazem antes de se registarem."
+    }
+  },
+  "faq": {
+    "gettingStarted": {
+      "title": "Primeiros passos",
+      "items": {
+        "rightForMe": {
+          "q": "A Palsya é adequada para mim?",
+          "a": "A Palsya foi criada para pessoas com paralisia facial periférica — paralisia de Bell, síndrome de Ramsay Hunt e lesão do nervo facial após cirurgia ou traumatismo — cujo início foi há entre 5 e 90 dias. Se o início foi há menos de 5 dias, deve primeiro ser avaliado por um médico; os corticoides dados cedo fazem uma diferença mensurável, e essa janela importa mais do que começar a reabilitação. Se foi há mais de 90 dias, um programa estruturado ainda pode ajudar, mas deve falar com um clínico sobre o ponto de partida certo. A nossa avaliação dir-lhe-á com honestidade se não formos adequados para si."
+        },
+        "diagnosis": {
+          "q": "Preciso primeiro de um diagnóstico?",
+          "a": "Sim. A Palsya é um programa de reabilitação, não um serviço de diagnóstico. A fraqueza facial tem causas que precisam de investigação médica, algumas delas urgentes. Consulte primeiro um médico e venha ter connosco com um diagnóstico."
+        },
+        "install": {
+          "q": "Tenho de instalar alguma coisa?",
+          "a": "Não. A Palsya funciona no navegador de um telemóvel, tablet ou computador. Terá de permitir o acesso à câmara para as análises e de ter uma ligação à internet razoavelmente estável."
+        },
+        "technology": {
+          "q": "E se não me sentir à vontade com a tecnologia?",
+          "a": "A sessão diária é um ecrã com um botão. As análises são guiadas passo a passo, com instruções simples. Se tiver dificuldades, o apoio responde no seu idioma e pode acompanhá-lo numa chamada."
+        }
+      }
+    },
+    "programme": {
+      "title": "O programa",
+      "items": {
+        "timePerDay": {
+          "q": "Quanto tempo leva por dia?",
+          "a": "Entre 10 e 20 minutos, consoante a sua fase, normalmente divididos em duas sessões mais curtas. A Fase 1 é a mais curta porque é sobretudo proteção. A Fase 3 é a mais longa porque o trabalho de coordenação precisa de pausas entre repetições."
+        },
+        "missDays": {
+          "q": "E se falhar alguns dias?",
+          "a": "Não acontece nada. O seu programa não é reiniciado, nada se perde e não lhe vamos fazer sentir culpa. Abra a aplicação e faça a sessão de hoje. Se surgir um padrão de dias em falta, o seu clínico pode perguntar-lhe porquê — normalmente porque é o programa que precisa de ser ajustado, e não a pessoa."
+        },
+        "physio": {
+          "q": "Posso usar isto em paralelo com fisioterapia presencial?",
+          "a": "Sim, e muitas pessoas fazem-no. Diga ao seu terapeuta que está a usar a Palsya e partilhe com ele os seus relatórios de progresso. Se as indicações dele forem diferentes das nossas, siga as dele — ele pode vê-lo pessoalmente."
+        },
+        "recovery": {
+          "q": "Vou recuperar de certeza?",
+          "a": "Não vamos responder a isso, porque ninguém o pode fazer com honestidade. A maioria das pessoas com paralisia de Bell recupera bem. Uma minoria fica com assimetria permanente. Não vamos prever em que grupo está, e deve desconfiar de quem o faça."
+        }
+      }
+    },
+    "scans": {
+      "title": "Análises e medição",
+      "items": {
+        "howScan": {
+          "q": "Como funciona a análise?",
+          "a": "Posiciona o rosto dentro de um contorno e segue quatro indicações — repouso, elevar as sobrancelhas, sorriso suave, fechar os olhos. São detetados pontos de referência faciais e a geometria do lado afetado é comparada com a imagem espelhada do lado não afetado. O resultado é uma pontuação de simetria de 0 a 100 relativa à sua própria linha de base."
+        },
+        "photos": {
+          "q": "As minhas fotografias saem do meu dispositivo?",
+          "a": "A deteção dos pontos de referência é feita no seu dispositivo — as imagens em si não são enviadas para lado nenhum para processamento. As suas fotografias só são guardadas se der o seu consentimento, e apenas para que possa ver a sua própria cronologia. Pode apagar qualquer fotografia, ou todas, a qualquer momento."
+        },
+        "scoreMeaning": {
+          "q": "O que significa realmente a pontuação?",
+          "a": "Mede a simetria geométrica, e mais nada. Não é um grau clínico de gravidade, não corresponde a um valor de House-Brackmann e não é uma percentagem de recuperação. A sua única verdadeira função é comparar o seu estado de hoje com o do mês passado. A variabilidade da medição é de cerca de ±2,5 pontos, por isso tratamos mudanças menores como ruído."
+        },
+        "scoreDown": {
+          "q": "A minha pontuação desceu. O que significa?",
+          "a": "Na maioria das vezes: iluminação, ângulo da cabeça, hora do dia ou cansaço. Por vezes: uma semana realmente mais difícil depois de uma doença ou de dormir mal. Ocasionalmente: algo que vale a pena um clínico ver. Uma única análise mais baixa não é prova de regressão. Duas ou três seguidas justificam uma conversa, e vamos sugeri-la."
+        }
+      }
+    },
+    "cost": {
+      "title": "Custo e consultas",
+      "items": {
+        "pricing": {
+          "q": "Como funcionam os preços?",
+          "a": "Pacotes de três meses: {app} só pela aplicação, {guided} com duas consultas por vídeo, {supported} com seis. Há um período experimental gratuito de {trialDays} dias e não é cobrado antes do dia {chargeDay}. Após três meses, pode prolongar mês a mês por {extension}, ou parar. As consultas adicionais custam {consult} cada."
+        },
+        "whyThreeMonths": {
+          "q": "Porquê três meses e não mensal?",
+          "a": "Porque as mudanças significativas na reabilitação facial acontecem ao longo de meses, e uma subscrição de um mês levá-lo-ia a concluir que não estava a resultar mesmo antes de começar a resultar. Três meses é, aproximadamente, o compromisso honesto mais curto."
+        },
+        "cancel": {
+          "q": "Posso cancelar?",
+          "a": "Sim, a qualquer momento, nas definições da sua conta, em dois cliques. Sem telefonemas, sem ofertas para ficar. Se cancelar durante o período gratuito, não paga nada."
+        },
+        "clinicians": {
+          "q": "Quem são os clínicos das chamadas?",
+          "a": "Fisioterapeutas e médicos habilitados, com formação específica em reabilitação facial. Os nomes, números de cédula profissional e idiomas estão na página da nossa equipa clínica. Pode escolher com quem fala."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "items": {
+        "dataStored": {
+          "q": "Onde são guardados os meus dados?",
+          "a": "Em servidores na União Europeia, encriptados em repouso e em trânsito. Cumprimos o RGPD. As imagens faciais são tratadas como dados biométricos de categoria especial, ao abrigo do artigo 9.º, e geridas em conformidade."
+        },
+        "sellData": {
+          "q": "Vendem os meus dados?",
+          "a": "Não. Nem a anunciantes, nem a seguradoras, nem a investigadores. A utilização para investigação é opcional, separada e agregada, e recusá-la não muda nada no seu programa."
+        },
+        "exportDelete": {
+          "q": "Posso obter os meus dados, ou apagá-los?",
+          "a": "Ambas as coisas, nas definições da sua conta. A exportação dá-lhe as suas análises, sessões e relatórios num formato portátil. A eliminação é definitiva e remove as suas imagens no prazo de 30 dias."
+        }
+      }
+    }
+  },
+  "authorTeam": "Equipa clínica da Palsya"
+}

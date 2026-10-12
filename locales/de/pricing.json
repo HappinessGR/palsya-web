@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Preise — Palsya",
+    "description": "Sieben Tage kostenlos, danach Tarife über drei Monate: nur App oder mit zwei bzw. sechs Videosprechstunden. Keine Countdowns, Kündigung mit zwei Klicks."
+  },
+  "hero": {
+    "eyebrow": "Preise",
+    "title": "Sieben Tage kostenlos, dann drei Monate",
+    "lead": "Nichts ist vorausgewählt, es gibt keinen Countdown, und die mittlere Option ist als meistgewählt markiert, weil sie es ist – nicht, um Sie zu lenken."
+  },
+  "card": {
+    "mostChosen": "Meistgewählt",
+    "period": "/ {months, plural, one {# Monat} other {# Monate}}",
+    "perDay": "{price} pro Tag",
+    "goToDashboard": "Zur Übersicht",
+    "subscribe": "Abonnieren",
+    "startTrial": "{days, plural, one {# Tag} other {# Tage}} kostenlos starten"
+  },
+  "plans": {
+    "app": {
+      "name": "Nur App",
+      "forWho": "Für Menschen, die die Struktur wollen und bereits bei einer Fachkraft in Behandlung sind, der sie Fragen stellen können.",
+      "features": {
+        "programme": "Vollständiges begleitetes Programm, alle fünf Phasen",
+        "sessions": "Tägliche Einheiten mit Anleitung zu Taping und Übungen",
+        "scans": "Kamera-Scans und Verlauf des Symmetriewerts",
+        "timeline": "Fotochronik und Fortschrittsberichte",
+        "knowledge": "Komplette Wissensdatenbank in 7 Sprachen",
+        "support": "E-Mail-Support innerhalb eines Werktags"
+      }
+    },
+    "guided": {
+      "name": "App + 2 Sprechstunden",
+      "forWho": "Die Wahl der meisten. Zwei Gespräche reichen meist, um die entscheidenden Fehler zu erkennen – Tape-Spannung, Kraftaufwand und beginnende Synkinesien.",
+      "features": {
+        "everything": "Alles aus „Nur App“",
+        "consults": "<b>Zwei 30-minütige Videosprechstunden</b> mit einer Fachkraft für Gesichtsrehabilitation",
+        "notes": "Schriftliche Notizen und ein Plan nach jedem Gespräch",
+        "adjusted": "Ihr Programm wird von einer Fachkraft angepasst, nicht nur vom Algorithmus",
+        "priority": "Bevorzugter Support innerhalb von vier Arbeitsstunden"
+      }
+    },
+    "supported": {
+      "name": "App + 6 Sprechstunden",
+      "forWho": "Für komplexere Fälle: ausgeprägte Synkinesien, Genesung nach einer Operation, langsamer früher Fortschritt – oder für alle, die einfach regelmäßig mit einem Menschen sprechen möchten.",
+      "features": {
+        "everything": "Alles aus „App + 2 Sprechstunden“",
+        "consults": "<b>Sechs 30-minütige Videosprechstunden</b> – etwa alle zwei Wochen",
+        "continuity": "Durchgehend dieselbe Fachkraft",
+        "messages": "Direkter Nachrichtenverlauf mit Ihrer Fachkraft",
+        "scanReviews": "Auswertung Ihrer Scans zwischen den Gesprächen"
+      }
+    }
+  },
+  "table": {
+    "title": "Was jeder Tarif enthält",
+    "feature": "Leistung",
+    "consultsHeader": "+{count, plural, one {# Sprechstunde} other {# Sprechstunden}}",
+    "days": "{count, plural, one {# Tag} other {# Tage}}",
+    "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+    "rows": {
+      "programme": "Vollständiges begleitetes Programm, fünf Phasen",
+      "guidance": "Tägliche Anleitung zu Taping und Übungen",
+      "scans": "Kamera-Scans und Verlauf des Symmetriewerts",
+      "timeline": "Fotochronik und Vergleich",
+      "reports": "KI-Fortschrittsberichte",
+      "knowledge": "Wissensdatenbank, {count} Sprachen",
+      "share": "Berichte mit Ihrer eigenen Fachkraft teilen",
+      "consults": "Videosprechstunden",
+      "notes": "Schriftliche Notizen nach jedem Gespräch",
+      "sameClinician": "Durchgehend dieselbe Fachkraft",
+      "messages": "Nachrichtenverlauf mit Ihrer Fachkraft",
+      "scanReviews": "Scan-Auswertung zwischen den Gesprächen",
+      "support": "Antwortzeit des Supports"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "Nach den ersten drei Monaten",
+      "body": "Monatlich für {price} verlängern oder aufhören. Die meisten Menschen in Phase 4 oder 5 verlängern um zwei oder drei Monate und wechseln dann zu einer kurzen Erhaltungsroutine, die sie selbstständig machen."
+    },
+    "consult": {
+      "title": "Zusätzliche Sprechstunden",
+      "body": "{price} pro Termin, in jedem Tarif. Buchbar über Ihr Konto, meist innerhalb von drei Tagen verfügbar."
+    },
+    "referral": {
+      "title": "Von einer Fachkraft empfohlen?",
+      "body": "{discount, number, percent} Rabatt auf Ihre ersten drei Monate. Geben Sie den Empfehlungscode beim Bezahlen ein – damit kann die Fachkraft auch Ihre Fortschrittsberichte sehen, wenn Sie dem gesondert zustimmen."
+    },
+    "reducedCost": {
+      "title": "Wenn es am Geld scheitert",
+      "body": "Schreiben Sie uns. Wir halten jeden Monat eine Anzahl vergünstigter Plätze für Menschen frei, die sich das nicht leisten können. Sie müssen nichts nachweisen – ein Satz zu Ihrer Situation genügt."
+    }
+  },
+  "faq": {
+    "title": "Fragen zur Bezahlung",
+    "all": "Alle häufigen Fragen"
+  }
+}

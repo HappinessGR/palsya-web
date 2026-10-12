@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Palsya",
+    "description": "Um programa diário estruturado, criado por especialistas em reabilitação facial — fita adesiva, exercícios e cuidados com o olho ajustados à fase em que a sua recuperação realmente está."
+  },
+  "stars": "{n, number} em 5",
+  "startFree": "Comece os 7 dias grátis",
+  "hero": {
+    "eyebrow": "Para a paralisia facial periférica",
+    "title": "Um lado do seu rosto deixou de se mexer. <em>Eis o que fazer a seguir.</em>",
+    "lead": "Um programa diário estruturado, criado por especialistas em reabilitação facial — fita adesiva, exercícios e cuidados com o olho ajustados à fase em que a sua recuperação realmente está. Com análises que lhe mostram mudanças que não consegue ver ao espelho.",
+    "howItWorks": "Ver como funciona",
+    "reassure": {
+      "noCard": "Sem cartão durante 7 dias",
+      "noInstall": "Nada para instalar",
+      "cancel": "Cancele em dois cliques",
+      "languages": "{count, number} idiomas"
+    },
+    "art": {
+      "stage": "Fase {n} · {name}",
+      "week": "Semana {n}",
+      "baseline": "Linha de base · {date}",
+      "latest": "Mais recente · {date}",
+      "baselineAlt": "Análise facial de base que mostra assimetria facial",
+      "latestAlt": "Análise facial mais recente que mostra melhor simetria",
+      "score": "Pontuação de simetria <b>{from} → {to}</b>",
+      "change": "{delta} em {weeks, plural, one {# semana} other {# semanas}}"
+    }
+  },
+  "cred": {
+    "people": "<b>{count, number}+</b>pessoas em recuperação",
+    "clinician": "<b>Liderados por clínicos</b>protocolos e consultas",
+    "gdpr": "<b>RGPD</b>servidores na UE, análise facial no dispositivo",
+    "languages": "<b>{count, number}</b>idiomas",
+    "reviews": "de {count, number} avaliações"
+  },
+  "problem": {
+    "eyebrow": "Porque criámos isto",
+    "title": "A maioria das pessoas é mandada para casa com um folheto",
+    "lead": "Uma fotocópia com exercícios, sem saber quais se aplicam a si esta semana, sem forma de perceber se algo está a resultar, e quatro meses de espera até à próxima consulta. É nesse vazio que a Palsya existe.",
+    "rightWork": {
+      "title": "O trabalho certo para esta semana",
+      "body": "Forçar um sorriso grande ajuda na sexta semana e atrasa-o na segunda. O seu programa é ajustado à fase em que a sua recuperação está e muda quando ela muda."
+    },
+    "proof": {
+      "title": "A prova de que não é imaginação sua",
+      "body": "Uma análise semanal mede a geometria do seu rosto em relação à sua própria linha de base. Nas semanas de estagnação — e há semanas de estagnação — é isto que lhe diz a verdade."
+    },
+    "person": {
+      "title": "Alguém que já viu isto antes",
+      "body": "Consultas por vídeo com especialistas em reabilitação facial. A maioria das pessoas está a fazer uma ou duas coisas mal; um clínico costuma detetá-las nos primeiros dez minutos."
+    }
+  },
+  "stages": {
+    "eyebrow": "O programa",
+    "title": "Cinco fases, porque a segunda semana e o quinto mês não são o mesmo problema",
+    "readGuide": "Ler o guia completo",
+    "stage": "Fase {n} · {name}"
+  },
+  "gettingStarted": {
+    "eyebrow": "Primeiros passos",
+    "title": "Quinze minutos para começar",
+    "assessment": {
+      "title": "Responda à avaliação",
+      "body": "Dezasseis perguntas sobre o que se mexe, o que não se mexe e como está o dia a dia neste momento. Também verifica se somos adequados para si — e diz-lhe claramente se não formos."
+    },
+    "plan": {
+      "title": "Receba a sua fase e o seu plano",
+      "body": "É colocado numa de cinco fases, com o raciocínio à vista. Se as suas respostas forem invulgares, um clínico revê a atribuição antes de começar."
+    },
+    "daily": {
+      "title": "Dez a vinte minutos por dia",
+      "body": "Fita adesiva, exercícios e a rotina diária, com orientação passo a passo. Uma análise por semana. É todo o compromisso."
+    }
+  },
+  "ethics": {
+    "eyebrow": "O que não vamos fazer",
+    "title": "Uma lista curta, e é a sério",
+    "predictions": {
+      "title": "Sem previsões",
+      "body": "Nunca lhe diremos quando o seu rosto vai recuperar nem quanto vai voltar. Ninguém o pode saber a partir dos seus dados, e ouvir um número que depois não se cumpre faz mal a sério."
+    },
+    "guilt": {
+      "title": "Sem culpa pelos dias em falta",
+      "body": "Falhe uma semana e nada é reiniciado, nada se perde, e nenhuma notificação lhe diz que estragou alguma coisa. Abre a aplicação e faz a sessão de hoje."
+    },
+    "badges": {
+      "title": "Sem medalhas, pontos ou sequências",
+      "body": "Está a recuperar de uma lesão de um nervo, não a jogar um jogo. O progresso é mostrado em medições e em coisas que volta a conseguir fazer."
+    },
+    "comparing": {
+      "title": "Sem comparações com outros doentes",
+      "body": "As suas análises são comparadas com a sua própria linha de base e com mais nada. Uma classificação de rostos seria grotesca."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "De quem a usa",
+    "title": "Avaliações verificadas",
+    "quote": "“{quote}”",
+    "verified": "Utilizador verificado",
+    "readStories": "Ler as histórias de recuperação completas"
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Três meses, porque é o tempo que a mudança leva",
+    "lead": "Sete dias grátis. Não é cobrado antes do dia 8 e nada vem pré-selecionado.",
+    "mostChosen": "A mais escolhida",
+    "period": "/ {months, plural, one {# mês} other {# meses}}",
+    "perDay": "{price} por dia",
+    "cta": "Comece 7 dias grátis",
+    "after": "Depois dos primeiros três meses: {extension} por mês, ou pare. Consultas adicionais: {consult}. Foi encaminhado por um clínico? Tem {discount, number, percent} de desconto — introduza o código dele no pagamento."
+  },
+  "guides": {
+    "eyebrow": "Leitura gratuita, sem conta",
+    "title": "Os guias que gostaríamos de ter recebido",
+    "all": "Os sete guias",
+    "read": "{minutes, plural, other {# min de leitura}} · revisto em {date}"
+  },
+  "finalCta": {
+    "title": "Comece hoje, decida no sétimo dia",
+    "lead": "Sem cartão, sem cobrança antes do dia 8, e pode levar os seus dados consigo se sair."
+  },
+  "face": {
+    "defaultLabel": "Diagrama esquemático do rosto"
+  }
+}

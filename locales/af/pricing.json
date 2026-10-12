@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Pryse — Palsya",
+    "description": "Sewe dae gratis, dan planne van drie maande: slegs die toep, of met twee of ses videokonsultasies. Geen afteltellings nie, kanselleer in twee klikke."
+  },
+  "hero": {
+    "eyebrow": "Pryse",
+    "title": "Sewe dae gratis, dan drie maande",
+    "lead": "Niks is vooraf gekies nie, daar is geen afteltelling nie, en die middelste opsie is as die gewildste gemerk omdat dit is, nie om u te stuur nie."
+  },
+  "card": {
+    "mostChosen": "Gewildste",
+    "period": "/ {months, plural, one {# maand} other {# maande}}",
+    "perDay": "{price} per dag",
+    "goToDashboard": "Gaan na paneelbord",
+    "subscribe": "Teken in",
+    "startTrial": "Begin {days, plural, one {# dag} other {# dae}} gratis"
+  },
+  "plans": {
+    "app": {
+      "name": "Slegs toep",
+      "forWho": "Vir mense wat die struktuur wil hê en reeds onder die sorg is van 'n klinikus vir wie hulle vrae kan vra.",
+      "features": {
+        "programme": "Volledige begeleide program, al vyf fases",
+        "sessions": "Daaglikse sessies met leiding vir kleefband en oefeninge",
+        "scans": "Kameraskanderings en simmetrie-opvolging",
+        "timeline": "Fototydlyn en vorderingsverslae",
+        "knowledge": "Volledige kennisbasis in 7 tale",
+        "support": "E-posondersteuning binne een werksdag"
+      }
+    },
+    "guided": {
+      "name": "Toep + 2 konsultasies",
+      "forWho": "Die een wat die meeste mense kies. Twee oproepe is gewoonlik genoeg om die foute raak te sien wat saak maak — kleefbandspanning, inspanningsvlak, en sinkinese wat begin verskyn.",
+      "features": {
+        "everything": "Alles in Slegs toep",
+        "consults": "<b>Twee videokonsultasies van 30 minute</b> met 'n spesialis in gesigsrehabilitasie",
+        "notes": "Geskrewe notas en 'n plan ná elke oproep",
+        "adjusted": "U program aangepas deur 'n klinikus, nie net deur die algoritme nie",
+        "priority": "Voorkeurondersteuning binne vier werksure"
+      }
+    },
+    "supported": {
+      "name": "Toep + 6 konsultasies",
+      "forWho": "Vir meer komplekse gevalle: beduidende sinkinese, herstel ná 'n operasie, stadige vroeë vordering, of enigiemand wat bloot gereelde kontak met 'n mens wil hê.",
+      "features": {
+        "everything": "Alles in Toep + 2 konsultasies",
+        "consults": "<b>Ses videokonsultasies van 30 minute</b> — ongeveer elke twee weke",
+        "continuity": "Deurgaans dieselfde klinikus",
+        "messages": "Direkte boodskapdraad met u klinikus",
+        "scanReviews": "Hersiening van skanderings tussen oproepe"
+      }
+    }
+  },
+  "table": {
+    "title": "Wat in elke plan is",
+    "feature": "Kenmerk",
+    "consultsHeader": "+{count, plural, one {# konsultasie} other {# konsultasies}}",
+    "days": "{count, plural, one {# dag} other {# dae}}",
+    "hours": "{count, plural, one {# uur} other {# uur}}",
+    "rows": {
+      "programme": "Volledige begeleide program, vyf fases",
+      "guidance": "Daaglikse leiding vir kleefband en oefeninge",
+      "scans": "Kameraskanderings en simmetrie-opvolging",
+      "timeline": "Fototydlyn en vergelyking",
+      "reports": "KI-vorderingsverslae",
+      "knowledge": "Kennisbasis, {count} tale",
+      "share": "Deel verslae met u eie klinikus",
+      "consults": "Videokonsultasies",
+      "notes": "Geskrewe notas ná elke oproep",
+      "sameClinician": "Deurgaans dieselfde klinikus",
+      "messages": "Boodskapdraad met u klinikus",
+      "scanReviews": "Hersiening van skanderings tussen oproepe",
+      "support": "Reaksietyd van ondersteuning"
+    }
+  },
+  "extras": {
+    "extension": {
+      "title": "Ná die eerste drie maande",
+      "body": "Verleng maand vir maand teen {price}, of hou op. Die meeste mense in fase 4 of 5 verleng vir twee of drie maande en gaan dan op hul eie oor na 'n kort onderhoudsroetine."
+    },
+    "consult": {
+      "title": "Ekstra konsultasies",
+      "body": "{price} elk, op enige plan. Bespreek vanaf u rekening, gewoonlik binne drie dae beskikbaar."
+    },
+    "referral": {
+      "title": "Deur 'n klinikus verwys?",
+      "body": "{discount, number, percent} afslag op u eerste drie maande. Voer hul verwysingskode by die betaalpunt in — dit laat hulle ook u vorderingsverslae sien, as u afsonderlik daartoe instem."
+    },
+    "reducedCost": {
+      "title": "As koste die probleem is",
+      "body": "Skryf aan ons. Ons hou elke maand 'n aantal plekke teen verlaagde koste oop vir mense wat dit nie kan bekostig nie, en u sal niks hoef te bewys buiten 'n sin oor u omstandighede nie."
+    }
+  },
+  "faq": {
+    "title": "Vrae oor betaling",
+    "all": "Alle algemene vrae"
+  }
+}

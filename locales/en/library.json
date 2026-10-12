@@ -1,0 +1,231 @@
+{
+  "exercises": {
+    "brow": {
+      "name": "Brow lift",
+      "instructions": "Sit facing a mirror, shoulders down, jaw loose. Place two fingers flat on the <b>unaffected</b> eyebrow and hold it still. This stops the good side doing the work. Raise the affected eyebrow as if mildly surprised. Aim for a small movement you can control, not the biggest you can manage. Hold for three seconds, then let it fall on its own. Do not push it down. Wait five seconds between repetitions.",
+      "why": "The brow is often the last region to return. Working it keeps the pathway active and prevents the forehead from becoming stiff on the affected side.",
+      "steps": {
+        "s1": "Sit facing a mirror, shoulders down, jaw loose.",
+        "s2": "Place two fingers flat on the <b>unaffected</b> eyebrow and hold it still. This stops the good side doing the work.",
+        "s3": "Raise the affected eyebrow as if mildly surprised. Aim for a small movement you can control, not the biggest you can manage.",
+        "s4": "Hold for three seconds, then let it fall on its own. Do not push it down.",
+        "s5": "Wait five seconds between repetitions."
+      },
+      "watch": "If the eye closes or the mouth pulls when you lift, use less effort. That linkage gets stronger with practice, so we practise below it."
+    },
+    "eye": {
+      "name": "Gentle eye closure",
+      "instructions": "Look straight ahead. Let the face rest first. Close both eyes softly, as if falling asleep — not squeezing shut. Hold for two seconds and notice whether the affected lid has met the lower lid. Open slowly and completely. If the lid does not fully close, do not force it. Close as far as it goes and support the lid gently with a clean fingertip.",
+      "why": "Closure protects the cornea. Gentle repeated closure also restores the blink pattern, which recovers separately from forceful closing.",
+      "steps": {
+        "s1": "Look straight ahead. Let the face rest first.",
+        "s2": "Close both eyes softly, as if falling asleep — not squeezing shut.",
+        "s3": "Hold for two seconds and notice whether the affected lid has met the lower lid.",
+        "s4": "Open slowly and completely.",
+        "s5": "If the lid does not fully close, do not force it. Close as far as it goes and support the lid gently with a clean fingertip."
+      },
+      "watch": "Forceful squeezing recruits the mouth and the neck. If you feel the corner of your mouth move, you are squeezing."
+    },
+    "nose": {
+      "name": "Nostril flare",
+      "instructions": "Breathe in through the nose and let the nostrils widen as you do. Try to widen the nostril on the affected side slightly more. Hold two seconds, release fully. Keep the upper lip still — this is a nose movement, not a sneer.",
+      "why": "The mid-face lifts the nasolabial fold and supports the upper lip. It responds well to small isolated work and is easy to skip.",
+      "steps": {
+        "s1": "Breathe in through the nose and let the nostrils widen as you do.",
+        "s2": "Try to widen the nostril on the affected side slightly more.",
+        "s3": "Hold two seconds, release fully.",
+        "s4": "Keep the upper lip still — this is a nose movement, not a sneer."
+      },
+      "watch": "Keep the top teeth covered. If the lip lifts to show teeth, the wrong muscle has taken over."
+    },
+    "smile": {
+      "name": "Gentle smile",
+      "instructions": "Rest your lips together, teeth apart. Draw both corners of the mouth up and slightly outward — a closed-lip smile, roughly a third of your maximum. Watch the mirror: are the corners moving the same distance? If not, use less effort until they are. Hold three seconds, release slowly over two seconds. Let the face go completely blank between repetitions.",
+      "why": "The most functionally important and the most commonly overdone. A controlled small smile trains the pattern; a forced big smile trains the compensation.",
+      "steps": {
+        "s1": "Rest your lips together, teeth apart.",
+        "s2": "Draw both corners of the mouth up and slightly outward — a closed-lip smile, roughly a third of your maximum.",
+        "s3": "Watch the mirror: are the corners moving the same distance? If not, use less effort until they are.",
+        "s4": "Hold three seconds, release slowly over two seconds.",
+        "s5": "Let the face go completely blank between repetitions."
+      },
+      "watch": "The eye narrowing as you smile is the linkage we are working against. Less effort, not more repetitions."
+    },
+    "pucker": {
+      "name": "Lip pucker and seal",
+      "instructions": "Bring the lips together and forward, as if about to say \"ooh\". Keep the pucker centred — do not let it drift towards the stronger side. Hold three seconds. Press the lips together lightly, no clenching. Release and let the lips part.",
+      "why": "Lip seal is what lets you drink, eat, and speak plosive sounds. It is often the first change patients notice in daily life.",
+      "steps": {
+        "s1": "Bring the lips together and forward, as if about to say \"ooh\".",
+        "s2": "Keep the pucker centred — do not let it drift towards the stronger side.",
+        "s3": "Hold three seconds. Press the lips together lightly, no clenching.",
+        "s4": "Release and let the lips part."
+      },
+      "watch": "If the pucker pulls sideways, place a fingertip lightly at the strong corner to keep it honest."
+    },
+    "cheek": {
+      "name": "Cheek puff with hold",
+      "instructions": "Take a normal breath and puff both cheeks with the lips closed. Hold for five seconds without letting air escape. If air escapes on the affected side, hold that cheek lightly with a clean hand and try again. Release slowly through the nose, not with a pop.",
+      "why": "Air retention tests the seal under load and builds the endurance you need for speech and eating rather than for exercises.",
+      "steps": {
+        "s1": "Take a normal breath and puff both cheeks with the lips closed.",
+        "s2": "Hold for five seconds without letting air escape.",
+        "s3": "If air escapes on the affected side, hold that cheek lightly with a clean hand and try again.",
+        "s4": "Release slowly through the nose, not with a pop."
+      },
+      "watch": "Do not do this one if you have had recent ear surgery or your clinician has told you to avoid pressure changes."
+    },
+    "separate": {
+      "name": "Eye–mouth separation",
+      "instructions": "Watch the mirror. Smile gently — a third of maximum — while consciously keeping both eyes wide open. If the eye narrows at all, reduce the smile until it does not. Hold four seconds with the eye open, then release. Now reverse it: close the eyes softly while keeping the mouth completely still. Rest eight seconds between repetitions. This drill fatigues quickly.",
+      "why": "This is the core drill against synkinesis — the linked movement where one region fires when you ask for another. Separation is trained slowly and at low effort.",
+      "steps": {
+        "s1": "Watch the mirror. Smile gently — a third of maximum — while consciously keeping both eyes wide open.",
+        "s2": "If the eye narrows at all, reduce the smile until it does not.",
+        "s3": "Hold four seconds with the eye open, then release.",
+        "s4": "Now reverse it: close the eyes softly while keeping the mouth completely still.",
+        "s5": "Rest eight seconds between repetitions. This drill fatigues quickly."
+      },
+      "watch": "This is the exercise where less is genuinely more. Five accurate repetitions beat twenty linked ones."
+    },
+    "release": {
+      "name": "Tightness release",
+      "instructions": "Place clean fingertips on the tight area — commonly the cheek or the side of the chin. Apply light, steady pressure and stretch the skin slowly in the direction opposite to the tightness. Hold fifteen seconds, breathing normally. It should feel like a stretch, never a sharp pain. Release slowly and let the tissue settle before repeating.",
+      "why": "Later in recovery, tightness limits movement more than weakness does. Release work restores range that activation work cannot reach.",
+      "steps": {
+        "s1": "Place clean fingertips on the tight area — commonly the cheek or the side of the chin.",
+        "s2": "Apply light, steady pressure and stretch the skin slowly in the direction opposite to the tightness.",
+        "s3": "Hold fifteen seconds, breathing normally. It should feel like a stretch, never a sharp pain.",
+        "s4": "Release slowly and let the tissue settle before repeating."
+      },
+      "watch": "Stop if you feel sharp pain, pins and needles, or increased twitching afterwards."
+    }
+  },
+  "taping": {
+    "rest": {
+      "name": "Resting support",
+      "instructions": "Cheek: Just above the jawline, below the affected corner of the mouth -> Up and outward towards the cheekbone. Anchor with no stretch, apply the middle with light stretch, finish the last 2 cm with no stretch. Mouth corner: 1 cm out from the affected corner of the lip -> Diagonally up towards the ear. This one is very light. Its job is a cue, not a lift.",
+      "goal": "Hold the mid-face against gravity while the nerve is quiet, so the tissue does not stretch and set in a dropped position.",
+      "tension": "Very light — about 10% stretch. You should be able to slide a fingertip underneath.",
+      "wear": "4–6 hours during the day. Never overnight.",
+      "strips": {
+        "s1": {
+          "where": "Cheek",
+          "from": "Just above the jawline, below the affected corner of the mouth",
+          "to": "Up and outward towards the cheekbone",
+          "note": "Anchor with no stretch, apply the middle with light stretch, finish the last 2 cm with no stretch."
+        },
+        "s2": {
+          "where": "Mouth corner",
+          "from": "1 cm out from the affected corner of the lip",
+          "to": "Diagonally up towards the ear",
+          "note": "This one is very light. Its job is a cue, not a lift."
+        }
+      }
+    },
+    "assist": {
+      "name": "Movement assist",
+      "instructions": "Zygomatic line: The affected corner of the mouth -> Along the natural smile line to just in front of the ear. Apply while the face is at rest, not while smiling. Brow: Just above the affected eyebrow, at the outer third -> Up towards the hairline. Keep well clear of the eye. If it pulls the lid, remove and reposition lower.",
+      "goal": "Reduce the effort a movement takes, so you can practise the correct pattern at low effort instead of straining into a wrong one.",
+      "tension": "Light to moderate — about 25% stretch across the middle of the strip.",
+      "wear": "During exercise sessions, plus up to 4 hours after.",
+      "strips": {
+        "s1": {
+          "where": "Zygomatic line",
+          "from": "The affected corner of the mouth",
+          "to": "Along the natural smile line to just in front of the ear",
+          "note": "Apply while the face is at rest, not while smiling."
+        },
+        "s2": {
+          "where": "Brow",
+          "from": "Just above the affected eyebrow, at the outer third",
+          "to": "Up towards the hairline",
+          "note": "Keep well clear of the eye. If it pulls the lid, remove and reposition lower."
+        }
+      }
+    },
+    "guide": {
+      "name": "Directional guide",
+      "instructions": "Lower lid support: The outer corner of the eye -> Outward and slightly down, towards the temple. Never across the lid itself. Below the orbital rim only. Cheek counter-cue: Mid-cheek -> Downward and outward. This opposes the upward pull that comes with synkinesis.",
+      "goal": "Give the skin a directional cue during coordination work and mildly discourage the linked movement you are trying to separate.",
+      "tension": "Light — about 15%. The cue is sensory, not mechanical.",
+      "wear": "During coordination exercises only. 20–30 minutes.",
+      "strips": {
+        "s1": {
+          "where": "Lower lid support",
+          "from": "The outer corner of the eye",
+          "to": "Outward and slightly down, towards the temple",
+          "note": "Never across the lid itself. Below the orbital rim only."
+        },
+        "s2": {
+          "where": "Cheek counter-cue",
+          "from": "Mid-cheek",
+          "to": "Downward and outward",
+          "note": "This opposes the upward pull that comes with synkinesis."
+        }
+      }
+    }
+  },
+  "routine": {
+    "eye": {
+      "name": "Eye care",
+      "instructions": "Lubricating drops on waking Drops every 2–3 hours while awake Ointment and taped closure or a moisture chamber at night Sunglasses outdoors, including on cloudy days",
+      "when": "Morning, through the day, and before sleep",
+      "body": "If your eye does not close fully, protecting the cornea is the single most important thing in your day — more important than any exercise. Preservative-free lubricating drops during the day, ointment at night, and a check with your clinician if the eye becomes red, painful, or your vision changes.",
+      "items": {
+        "i1": "Lubricating drops on waking",
+        "i2": "Drops every 2–3 hours while awake",
+        "i3": "Ointment and taped closure or a moisture chamber at night",
+        "i4": "Sunglasses outdoors, including on cloudy days"
+      }
+    },
+    "eat": {
+      "name": "Eating and drinking",
+      "instructions": "Smaller mouthfuls, slower pace Place food towards the unaffected side Rinse and check the affected cheek after eating Sit upright while drinking",
+      "when": "Every meal",
+      "body": "Food collecting in the affected cheek and drinks escaping the lip seal are mechanical problems with mechanical answers. Smaller mouthfuls, food towards the stronger side, a mirror check after eating, and a straw only if it does not make the seal harder.",
+      "items": {
+        "i1": "Smaller mouthfuls, slower pace",
+        "i2": "Place food towards the unaffected side",
+        "i3": "Rinse and check the affected cheek after eating",
+        "i4": "Sit upright while drinking"
+      }
+    },
+    "massage": {
+      "name": "Massage",
+      "instructions": "Clean, dry hands Small circles, light pressure, upward direction Both sides, not only the affected side Stop if it causes twitching",
+      "when": "Once or twice daily, 3–4 minutes",
+      "body": "Slow circular pressure with clean fingertips over the cheek, jaw, and around the mouth. This maintains circulation and tissue mobility. It is not a workout — if it feels vigorous, ease off.",
+      "items": {
+        "i1": "Clean, dry hands",
+        "i2": "Small circles, light pressure, upward direction",
+        "i3": "Both sides, not only the affected side",
+        "i4": "Stop if it causes twitching"
+      }
+    },
+    "sleep": {
+      "name": "Sleep and rest",
+      "instructions": "Back or unaffected side, not face-down Eye protection before lights out Practise in the morning if evenings are heavy Rest days are part of the programme",
+      "when": "Nightly",
+      "body": "Facial fatigue is real and it flattens your movement quality. Sleep on your back or on the unaffected side so the face is not pressed into a pillow, and take the afternoon dip seriously — practise when you are fresh.",
+      "items": {
+        "i1": "Back or unaffected side, not face-down",
+        "i2": "Eye protection before lights out",
+        "i3": "Practise in the morning if evenings are heavy",
+        "i4": "Rest days are part of the programme"
+      }
+    },
+    "speech": {
+      "name": "Speech practice",
+      "instructions": "Read aloud for 3 minutes daily Emphasise p, b, m, f, v, w Slow enough to keep the seal Record yourself weekly if you find it useful",
+      "when": "Once daily, 3 minutes",
+      "body": "Plosive and labial sounds need lip seal, so they double as an exercise you can do without a mirror. Read aloud slowly and exaggerate slightly.",
+      "items": {
+        "i1": "Read aloud for 3 minutes daily",
+        "i2": "Emphasise p, b, m, f, v, w",
+        "i3": "Slow enough to keep the seal",
+        "i4": "Record yourself weekly if you find it useful"
+      }
+    }
+  }
+}

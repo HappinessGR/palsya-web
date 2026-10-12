@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "How Palsya works",
+    "description": "From the assessment to your first scan: stage placement, the daily session, weekly scans, progress over time and the clinician — without the marketing gloss."
+  },
+  "hero": {
+    "eyebrow": "How it works",
+    "title": "From the assessment to your first scan",
+    "lead": "The whole thing, without the marketing gloss."
+  },
+  "stepLabel": "Step {n}",
+  "steps": {
+    "assessment": {
+      "title": "The assessment",
+      "p1": "Sixteen questions, about eight minutes. Not a quiz you can pass — the answers set your starting point, so guessing at what sounds better makes your programme worse.",
+      "p2": "It asks when the weakness started, what your diagnosis is, what moves and what does not in three regions of your face, whether movements are linked to each other, and how daily life is going. It also asks about your eye in detail, because that is the part that can cause lasting harm.",
+      "p3": "If your answers show something that needs a doctor rather than an app — eye pain, weakness in a limb, weakness still worsening after weeks, both sides affected, or no diagnosis yet — we stop and say so. We would rather lose the sign-up."
+    },
+    "stage": {
+      "title": "Your stage, and why",
+      "p1": "Your answers go through a placement process built by our clinical team: time since onset sets an outer bound, what actually moves does the real work, then modifiers for linked movement and tightness, then a confidence check.",
+      "p2": "You see the reasoning, in plain language. Not \"Stage 3\" on its own, but why Stage 3 and what specifically that changes about your day.",
+      "p3": "When the answers do not sit together in a usual pattern, or your onset was more than 90 days ago, or your paralysis followed surgery or an injury, a clinician reviews the placement before your programme starts. That review is within one working day and it is included."
+    },
+    "session": {
+      "title": "The daily session",
+      "p1": "One screen, one button. Three parts: taping, exercises, daily routine. Ten to twenty minutes depending on your stage, and you can split it into two.",
+      "p2": "Every exercise is guided by a timer with spoken-style cues, a diagram, the repetition count for your stage, and the one thing most people get wrong about that particular movement. Taping shows you where each strip goes and how much tension — which is the mistake almost everyone makes, always in the direction of too much.",
+      "p3": "Mark it done and it is logged. Skip a day and nothing happens."
+    },
+    "scan": {
+      "title": "The weekly scan",
+      "p1": "You position your face in an outline and follow four prompts: rest, brow raise, gentle smile, eye closure. Around ninety seconds.",
+      "p2": "Before anything is measured, the image is checked for the things that produce false results — light coming from one side, too dark, blur, movement. If the image is not good enough we tell you and you retake it. A bad scan is worse than no scan.",
+      "p3": "Landmarks are detected on your device. Your affected side is compared with the mirror image of your unaffected side, region by region, and combined into one score out of 100 relative to your own baseline.",
+      "p4": "The score is a geometric measurement. It is not a severity grade, it does not convert to House-Brackmann, and it is not a percentage of recovery. Its whole purpose is comparing you today with you last month."
+    },
+    "timeline": {
+      "title": "What you see over time",
+      "p1": "A score timeline with the measurement margin drawn on it, so you can see which changes are real and which are noise. A side-by-side comparison with any earlier scan. A photo timeline you control and can delete at any point.",
+      "p2": "Progress reports written from your own data, in a template that will not predict your outcome or praise you for effort. Milestones that are factual observations — \"lip seal held while drinking\" — not badges."
+    },
+    "clinician": {
+      "title": "The clinician",
+      "p1": "On the plans that include consultations, you book a 30-minute video call with a facial rehabilitation specialist and choose who you speak to. You can share your scans and reports with them beforehand, so the call is not spent on catching up.",
+      "p2": "Afterwards you get written notes and a specific plan. If your programme should change, they change it — a clinician can override the algorithm and often does."
+    }
+  },
+  "notRight": {
+    "title": "And if it is not right for you?",
+    "lead": "Cancel during the seven free days and you are not charged. Cancel later and it takes two clicks — no phone call, no retention offer, no dark pattern. Take an export of your data on the way out.",
+    "cta": "Start your free 7 days"
+  }
+}

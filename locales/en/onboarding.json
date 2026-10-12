@@ -1,0 +1,170 @@
+{
+  "steps": {
+    "welcome": "Welcome",
+    "assessment": "Assessment",
+    "stage": "Your stage",
+    "preferences": "Preferences",
+    "consent": "Consent",
+    "ready": "Ready"
+  },
+  "stepIndicator": "Step {current} of {total} · {label}",
+  "nav": {
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "welcome": {
+    "eyebrow": "Before we start",
+    "heading": "Sixteen questions, about eight minutes",
+    "lead": "Your answers decide where your programme starts. There is no right answer and nothing to pass — an optimistic answer just gets you a programme that does not fit.",
+    "mirrorTitle": "Have a mirror nearby",
+    "mirrorBody": "Three questions ask you to try a movement and watch what happens. A bathroom mirror in even light is ideal.",
+    "safetyTitle": "We will tell you if we are wrong for you",
+    "safetyBody": "Some answers mean you need a doctor rather than an app. If that comes up we stop and say so, plainly.",
+    "clinicalNote": "<b>These questions were written by our clinical team.</b> The placement they produce follows the same reasoning a physiotherapist uses in a first appointment: time since onset, then what actually moves, then whether movements are linked.",
+    "start": "Start the assessment",
+    "learnMore": "Read about the stages first"
+  },
+  "assessment": {
+    "sectionIndicator": "Section {current} of {total}",
+    "previous": "Previous",
+    "seeMyStage": "See my stage",
+    "errRequired": "Please answer this one — your programme depends on it.",
+    "errFutureDate": "That date is in the future. Please check it.",
+    "meta": {
+      "title": "Assessment — Palsya",
+      "description": "Answer a short questionnaire so we can place you at the right stage of your facial paralysis programme."
+    }
+  },
+  "phase": {
+    "blockedTitle": "Please stop here for now",
+    "blockedLead": "Something in your answers needs a doctor rather than a rehabilitation programme. We would rather lose your sign-up than have you start anyway.",
+    "blockedSavedTitle": "Your answers are saved",
+    "blockedSavedBody": "Nothing is lost. When you have been seen — or when enough time has passed — sign back in and your assessment will be where you left it. You can also read every guide in the knowledge base in the meantime, free and without an account.",
+    "readGuides": "Read the guides",
+    "continueAnyway": "I have been assessed — continue",
+    "eyebrow": "Your placement",
+    "stageHeading": "You are starting in Stage {stage}",
+    "stageBandLabel": "Stage {n}",
+    "whyStageHeading": "Why Stage {stage}",
+    "daysSinceOnset": "Days since onset",
+    "confidenceLabel": "Confidence",
+    "confidenceHigh": "High — your answers fit a clear pattern",
+    "confidenceMedium": "Medium — one answer sits oddly",
+    "confidenceLow": "Low — a clinician will review this",
+    "typicalWindow": "Typical window",
+    "dailyMeaning": "What this means for your day",
+    "yourFocus": "Your focus",
+    "whatToAvoid": "What to avoid",
+    "tapingLabel": "Taping at this stage:",
+    "reviewNotice": "<b>A clinician will review this placement.</b> That is because {why}. You can start today — if the review changes anything, you will be told what changed and why, within one working day.",
+    "reasonJoiner": ", and ",
+    "stageNotFixedNote": "Your stage is not fixed. It moves when your scans and your own reports say it should — forwards, and sometimes backwards after illness or a heavy stretch of fatigue. Backwards is an adjustment, not lost ground.",
+    "changeAnswer": "Change an answer",
+    "setupSessions": "Set up my sessions",
+    "confirmTitle": "Continue anyway?",
+    "confirmText": "Only do this if a doctor has assessed you and told you it is appropriate to begin rehabilitation. We will note on your record that you continued past a safety flag.",
+    "confirmOk": "I have been assessed",
+    "confirmCancel": "Go back",
+    "meta": {
+      "title": "Your stage — Palsya",
+      "description": "Your programme placement, and why we placed you there."
+    },
+    "stageHeadingNamed": "You are starting in Stage {stage} — {name}"
+  },
+  "prefs": {
+    "eyebrow": "Preferences",
+    "heading": "How should we fit into your day?",
+    "lead": "All of this is changeable later, and none of it is used to nag you.",
+    "remindersTitle": "Reminders",
+    "remindersBody": "One reminder at a time you choose. If you miss it, that is the end of it — there is no second reminder that mentions the first, and nothing that says you have broken anything.",
+    "remindMeLabel": "Remind me about my session",
+    "firstSession": "First session",
+    "secondSession": "Second session (optional)",
+    "languageTitle": "Language",
+    "languageBody": "The whole app and every guide, in {count, number} languages. Consultations are with a clinician who speaks yours where possible.",
+    "interfaceLanguage": "Interface language",
+    "displayTitle": "Reading and display",
+    "textSize": "Text size",
+    "sizeNormal": "Normal",
+    "sizeLarge": "Large",
+    "sizeXl": "Extra large",
+    "sizeHint": "Many of our users are over 60. This is not buried in a settings menu for a reason.",
+    "mirrorLabel": "Mirror the camera preview (most people find this easier)",
+    "emailTitle": "Email",
+    "weeklySummary": "A weekly summary of what was measured and logged",
+    "clinicianUpdates": "Tell me when a clinician adds a note or changes my programme",
+    "meta": {
+      "title": "Preferences — Palsya",
+      "description": "Choose reminders, reading size and emails for your programme."
+    },
+    "languageHint": "You can change this at any time from the language menu at the top of every page. It does not change anything else about your programme."
+  },
+  "consent": {
+    "eyebrow": "Consent and privacy",
+    "heading": "What you are agreeing to, in plain words",
+    "lead": "Two of these are required because the programme cannot function without them. The rest genuinely change nothing about your programme or your price if you decline.",
+    "required": "Required",
+    "optional": "Optional",
+    "dataProcessing": {
+      "title": "Processing my health data",
+      "body": "Your assessment answers, stage, session logs, and notes. This is special category data under GDPR Article 9 and we process it on your explicit consent. Without it there is no programme to run."
+    },
+    "photoStorage": {
+      "title": "Analysing scans of my face",
+      "body": "Landmark detection runs on your device. <b>Storing</b> the images is the next item and is separate — decline that and you still get scores, just no photo timeline."
+    },
+    "photoKeep": {
+      "title": "Storing my scan photos so I can see my timeline",
+      "body": "Kept encrypted, visible only to you and to clinicians you share with. You can delete any single photo, or all of them, at any time, and that deletion is real."
+    },
+    "clinicianShare": {
+      "title": "Sharing my progress with a clinician I choose",
+      "body": "Only with someone you name, only what you send, and revocable. If you have a referral code from your own physiotherapist, this is the one that lets them see your reports."
+    },
+    "researchOptIn": {
+      "title": "Using my anonymised data for research",
+      "body": "Aggregated and stripped of identifiers, used to understand what helps. Never sold. Declining changes nothing about your programme, your price, or your clinician."
+    },
+    "marketing": {
+      "title": "Occasional emails about new guides and features",
+      "body": "Not a newsletter treadmill. Roughly monthly, and unsubscribing takes one click."
+    },
+    "laterNote": "<b>You can change any of these later</b>, from Settings → Privacy and data. Withdrawing consent for photo storage deletes the stored images; your scores stay unless you delete those separately.",
+    "submit": "Agree and continue",
+    "errRequired": "The two required consents are needed for the programme to work.",
+    "meta": {
+      "title": "Consent and privacy — Palsya",
+      "description": "What you are agreeing to, in plain words."
+    },
+    "gdprNote": "Your health data is special category data under GDPR and is processed only on your explicit consent, encrypted at rest and in transit, and never sold or used for advertising.",
+    "termsAgreement": "By continuing you agree to Palsya’s <link>Terms of Service and Privacy Policy</link>."
+  },
+  "ready": {
+    "title": "You are set up, {name}",
+    "summary": "Stage {stage} — {name}, about {minutes} minutes a day, split into {sessions}.",
+    "tapingTitle": "Taping",
+    "tapingSummary": "{name} — {minutes} minutes.",
+    "tapingHint": "You will need elastic therapeutic tape. Any brand. Patch-test it on your forearm first.",
+    "exercisesTitle": "Exercises",
+    "exercisesSummary": "{count} exercises, {minutes} minutes, guided with a timer.",
+    "exercisesHint": "A mirror in even light helps a great deal in the early stages.",
+    "routineTitle": "Daily routine",
+    "routineSummary": "{count} items, {minutes} minutes, including eye care.",
+    "routineHint": "Eye protection comes first, ahead of every exercise.",
+    "trialTitle": "Your free 7 days start now",
+    "trialSummary": "{price} for three months, charged on {date} unless you cancel before then. We will email you on day 5 to remind you, which is the opposite of how this usually works.",
+    "changePlan": "Change plan",
+    "goToSession": "Go to today's session",
+    "meta": {
+      "title": "You are set up — Palsya",
+      "description": "Your programme is ready: taping, exercises and your daily routine."
+    },
+    "titleNoName": "You are set up",
+    "sessionsFallback": "your daily session",
+    "priceFallback": "your selected plan"
+  },
+  "meta": {
+    "title": "Welcome — Palsya",
+    "description": "Sixteen questions, about eight minutes. Your answers decide where your recovery programme starts."
+  }
+}

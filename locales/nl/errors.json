@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "meta": {
+      "title": "Pagina niet gevonden — Palsya",
+      "description": "Deze pagina bestaat niet of is verplaatst."
+    },
+    "code": "404",
+    "title": "We konden deze pagina niet vinden",
+    "body": "De link is misschien verouderd, of de pagina wordt nog geschreven. Al het andere staat nog waar u het liet.",
+    "home": "Terug naar de startpagina",
+    "guides": "Bekijk de gidsen"
+  },
+  "error": {
+    "title": "Er is iets misgegaan",
+    "body": "Dit ligt aan ons, niet aan u. Probeer het opnieuw en neem contact op met support als het blijft gebeuren.",
+    "retry": "Opnieuw proberen",
+    "home": "Terug naar de startpagina",
+    "reference": "Referentie: {digest}"
+  },
+  "loading": "Laden…"
+}

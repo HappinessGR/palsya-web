@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Hoe Palsya werkt",
+    "description": "Van de intake tot uw eerste scan: indeling in een fase, de dagelijkse sessie, wekelijkse scans, voortgang in de tijd en de behandelaar — zonder marketingpraat."
+  },
+  "hero": {
+    "eyebrow": "Hoe het werkt",
+    "title": "Van de intake tot uw eerste scan",
+    "lead": "Het hele verhaal, zonder marketingpraat."
+  },
+  "stepLabel": "Stap {n}",
+  "steps": {
+    "assessment": {
+      "title": "De intake",
+      "p1": "Zestien vragen, ongeveer acht minuten. Geen toets waarvoor u kunt slagen — de antwoorden bepalen uw startpunt, dus gokken naar wat beter klinkt, maakt uw programma slechter.",
+      "p2": "We vragen wanneer de zwakte begon, welke diagnose u hebt, wat wel en niet beweegt in drie gebieden van uw gezicht, of bewegingen aan elkaar gekoppeld zijn, en hoe het dagelijks leven gaat. We vragen ook uitgebreid naar uw oog, omdat daar blijvende schade kan ontstaan.",
+      "p3": "Blijkt uit uw antwoorden iets waarvoor u een arts nodig hebt in plaats van een app — oogpijn, krachtverlies in een arm of been, zwakte die na weken nog toeneemt, beide kanten aangedaan, of nog geen diagnose — dan stoppen we en zeggen we dat. We verliezen liever de aanmelding."
+    },
+    "stage": {
+      "title": "Uw fase, en waarom",
+      "p1": "Uw antwoorden doorlopen een indelingsproces dat ons klinische team heeft ontwikkeld: de tijd sinds het begin bepaalt een buitengrens, wat er werkelijk beweegt doet het echte werk, dan volgen correcties voor meebewegingen en stijfheid, en tot slot een controle van de zekerheid.",
+      "p2": "U ziet de redenering, in gewone taal. Niet alleen \"fase 3\", maar waarom fase 3 en wat dat concreet verandert aan uw dag.",
+      "p3": "Passen de antwoorden niet in een gebruikelijk patroon, begonnen uw klachten meer dan 90 dagen geleden, of ontstond uw verlamming na een operatie of letsel, dan beoordeelt een behandelaar de indeling voordat uw programma begint. Die beoordeling gebeurt binnen één werkdag en is inbegrepen."
+    },
+    "session": {
+      "title": "De dagelijkse sessie",
+      "p1": "Eén scherm, één knop. Drie onderdelen: tapen, oefeningen, dagelijkse routine. Tien tot twintig minuten, afhankelijk van uw fase, en u kunt het in tweeën splitsen.",
+      "p2": "Elke oefening wordt begeleid met een timer en aanwijzingen die als gesproken tekst zijn geschreven, een tekening, het aantal herhalingen voor uw fase, en het ene punt dat de meeste mensen bij die beweging verkeerd doen. Bij het tapen ziet u waar elke strook komt en hoeveel spanning erop moet — daar gaat bijna iedereen de mist in, en altijd door te veel spanning.",
+      "p3": "Vink het af en het wordt vastgelegd. Slaat u een dag over, dan gebeurt er niets."
+    },
+    "scan": {
+      "title": "De wekelijkse scan",
+      "p1": "U plaatst uw gezicht in een omlijning en volgt vier aanwijzingen: in rust, wenkbrauwen optrekken, zachte glimlach, oog sluiten. Ongeveer negentig seconden.",
+      "p2": "Voordat er iets wordt gemeten, wordt het beeld gecontroleerd op wat tot verkeerde resultaten leidt — licht van één kant, te donker, onscherp, beweging. Is het beeld niet goed genoeg, dan zeggen we dat en maakt u het opnieuw. Een slechte scan is erger dan geen scan.",
+      "p3": "De herkenningspunten worden op uw eigen apparaat gedetecteerd. Uw aangedane kant wordt per gebied vergeleken met het spiegelbeeld van uw gezonde kant, en dat wordt samengevoegd tot één score van 0 tot 100 ten opzichte van uw eigen nulmeting.",
+      "p4": "De score is een geometrische meting. Het is geen ernstgraad, hij is niet om te rekenen naar House-Brackmann en het is geen herstelpercentage. Het enige doel is u vandaag te vergelijken met u vorige maand."
+    },
+    "timeline": {
+      "title": "Wat u in de loop van de tijd ziet",
+      "p1": "Een tijdlijn van uw score met de meetmarge erin getekend, zodat u kunt zien welke veranderingen echt zijn en welke ruis. Een vergelijking naast elkaar met elke eerdere scan. Een fototijdlijn die u zelf beheert en op elk moment kunt verwijderen.",
+      "p2": "Voortgangsrapporten op basis van uw eigen gegevens, volgens een sjabloon dat uw uitkomst niet voorspelt en u niet prijst om uw inzet. Mijlpalen die feitelijke waarnemingen zijn — \"lippen bleven gesloten tijdens het drinken\" — geen badges."
+    },
+    "clinician": {
+      "title": "De behandelaar",
+      "p1": "Bij de abonnementen met consulten boekt u een videogesprek van 30 minuten met een specialist in revalidatie van het gezicht, en u kiest zelf met wie u spreekt. U kunt uw scans en rapporten vooraf met die persoon delen, zodat het gesprek niet opgaat aan bijpraten.",
+      "p2": "Na afloop krijgt u schriftelijke aantekeningen en een concreet plan. Moet uw programma anders, dan past de behandelaar het aan — een behandelaar kan het algoritme overrulen en doet dat ook vaak."
+    }
+  },
+  "notRight": {
+    "title": "En als het niet bij u past?",
+    "lead": "Zegt u op tijdens de zeven gratis dagen, dan betaalt u niets. Zegt u later op, dan kost dat twee klikken — geen telefoontje, geen aanbod om u te laten blijven, geen trucs. Neem bij vertrek een export van uw gegevens mee.",
+    "cta": "Probeer 7 dagen gratis"
+  }
+}

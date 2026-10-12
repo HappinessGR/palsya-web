@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Einladung annehmen — Palsya",
+    "description": "Legen Sie Ihren Namen und Ihr Passwort fest, um Palsya beizutreten."
+  },
+  "loading": "Wird geladen …",
+  "title": "Einladung annehmen",
+  "lead": "Ihre E-Mail-Adresse und Rolle wurden von der Person festgelegt, die Sie eingeladen hat. Wählen Sie Ihren Namen und ein Passwort, um den Vorgang abzuschließen.",
+  "submit": "Mein Konto erstellen",
+  "side": {
+    "title": "Willkommen im Palsya-Team",
+    "points": {
+      "role": "Ihr Zugang wird von einem Admin festgelegt – Sie müssen nichts auswählen",
+      "password": "Verwenden Sie ein sicheres Passwort: Sie arbeiten mit Patientenakten"
+    }
+  },
+  "missing": {
+    "title": "Dieser Einladungslink ist unvollständig",
+    "body": "Öffnen Sie den Link aus Ihrer Einladungs-E-Mail erneut oder bitten Sie die Person, die Sie eingeladen hat, einen neuen zu senden.",
+    "signIn": "Zur Anmeldung"
+  }
+}

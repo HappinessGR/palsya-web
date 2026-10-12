@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Aanvaar u uitnodiging — Palsya",
+    "description": "Stel u naam en wagwoord in om by Palsya aan te sluit."
+  },
+  "loading": "Laai tans…",
+  "title": "Aanvaar u uitnodiging",
+  "lead": "U e-posadres en rol is ingestel deur die persoon wat u uitgenooi het. Kies u naam en 'n wagwoord om klaar te maak.",
+  "submit": "Skep my rekening",
+  "side": {
+    "title": "Welkom by die Palsya-span",
+    "points": {
+      "role": "U toegang word deur 'n administrateur ingestel — daar is niks om te kies nie",
+      "password": "Gebruik 'n sterk wagwoord: u sal met pasiëntrekords werk"
+    }
+  },
+  "missing": {
+    "title": "Hierdie uitnodigingskakel is onvolledig",
+    "body": "Maak die skakel in u uitnodigings-e-pos weer oop, of vra die administrateur wat u uitgenooi het om 'n nuwe een te stuur.",
+    "signIn": "Gaan na aanmelding"
+  }
+}
