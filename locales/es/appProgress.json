@@ -1,0 +1,156 @@
+{
+  "common": {
+    "stageLabel": "Etapa {n}",
+    "state": {
+      "full": "Completa",
+      "part": "Parcialmente hecha",
+      "none": "No registrado"
+    },
+    "parts": {
+      "taping": "Vendaje",
+      "exercises": "Ejercicios",
+      "routine": "Rutina"
+    },
+    "yes": "Sí",
+    "no": "No"
+  },
+  "progress": {
+    "meta": {
+      "title": "Fase y progreso — Palsya",
+      "description": "Tu etapa de recuperación, tus sesiones registradas y cómo ha cambiado tu etapa con el tiempo."
+    },
+    "pageTitle": "Fase de recuperación y progreso",
+    "pageSub": "Tres cosas distintas, mantenidas por separado porque miden cosas diferentes y avanzan a velocidades distintas.",
+    "reportLink": "Informe de progreso",
+    "newScan": "Nuevo escaneo",
+    "yourStage": "Tu etapa",
+    "daysInStage": "Días en esta etapa",
+    "typicalWindow": "Ventana habitual",
+    "daysSinceOnset": "Días desde el inicio",
+    "howStageChanged": "Cómo ha cambiado tu etapa",
+    "noPhase": "Aún no se ha asignado ninguna etapa.",
+    "fromAssessment": "de tu evaluación",
+    "fromProgress": "de tu progreso",
+    "setByClinician": "establecida por un clínico",
+    "threeThingsAtOnce": "Tres cosas a la vez",
+    "threeThingsBody": "No existe un único número de \"porcentaje recuperado\", porque no hay una forma honesta de calcularlo. Estas tres cosas son lo que realmente podemos medir.",
+    "measuredSymmetryChange": "Cambio de simetría medido",
+    "sessionsLogged": "Sesiones registradas",
+    "functionReported": "Función que reportaste",
+    "symmetryScore": "puntuación de simetría",
+    "arcAria": "Progreso en simetría medida, sesiones registradas y función reportada",
+    "measuredSymmetry": "Simetría medida",
+    "noBaselineYet": "aún sin referencia",
+    "completeIn28": "{n} completas en los últimos 28 días",
+    "observationsRecorded": "{n, plural, one {# observación registrada} other {# observaciones registradas}}",
+    "threeArcsHint": "Deliberadamente, tres arcos separados. Una cifra combinada ocultaría el caso en que la puntuación se mantiene plana pero de repente puedes beber de un vaso — que es el caso que más importa.",
+    "sessionsLast28": "Sesiones, últimos 28 días",
+    "patternAria": "Sesiones de los últimos {n} días",
+    "allTime": "Total histórico",
+    "noStreakHint": "Sin racha, sin objetivo, sin porcentaje. Esto existe para que tú y un clínico podáis ver el patrón junto a las mediciones.",
+    "sessionLogCalendar": "Registro de sesiones y calendario",
+    "scoreOverTime": "Puntuación de simetría a lo largo del tiempo",
+    "noScansTitle": "Aún no hay escaneos guardados",
+    "noScansBody": "Tus puntuaciones aparecerán aquí cuando se guarden escaneos en tu cuenta. Hasta entonces, este espacio queda vacío en lugar de mostrar un número que no se ha medido."
+  },
+  "report": {
+    "meta": {
+      "title": "Informe de progreso — Palsya",
+      "description": "Un resumen imprimible de tu etapa, tus sesiones registradas y lo que notaste."
+    },
+    "title": "Informe de progreso",
+    "fromToGenerated": "del {from} al {to} · generado hoy",
+    "printOrPdf": "Imprimir o guardar como PDF",
+    "brandedTitle": "Informe de progreso de Palsya",
+    "forClinician": "Para el clínico que lea esto:",
+    "clinicalNote": "todo lo que contiene este informe lo ha registrado el propio paciente —el registro de sesiones y las observaciones escritas— junto con la etapa asignada por el programa. No incluye ninguna medición de simetría, ninguna predicción ni ningún grado de gravedad, y no se corresponde con House-Brackmann ni con Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "Qué es este informe",
+        "p": "Todo lo que aparece a continuación procede de tus propias sesiones y notas entre el {from} y el {to}. No contiene predicciones ni clasificación clínica. Está escrito para que tú puedas leerlo y para que sea útil a un clínico con quien lo compartas."
+      },
+      "measurement": {
+        "h": "Medición",
+        "none": "Todavía no hay ningún escaneo guardado en tu cuenta, así que no hay nada medido que informar."
+      },
+      "programme": {
+        "h": "Tu programa",
+        "stage": "Estás en la Etapa {n} — {name}. {short}",
+        "changed": "Tu etapa cambió por última vez el {date}.",
+        "unchanged": "Tu etapa no ha cambiado desde tu evaluación."
+      },
+      "logged": {
+        "h": "Lo que registraste",
+        "p1": "En los últimos 28 días registraste {full, plural, one {# sesión completa} other {# sesiones completas}} y {part, plural, one {# sesión parcial} other {# sesiones parciales}}. En todo el programa, {done, plural, one {# sesión completa} other {# sesiones completas}}.",
+        "p2": "Esto se registra para que tú y un clínico podáis ver el patrón junto a las mediciones. No es una puntuación y nadie lo está calificando."
+      },
+      "noticed": {
+        "h": "Lo que notaste",
+        "intro": "Lo escribiste tú, y suele ser lo primero que lee un clínico:"
+      },
+      "not": {
+        "h": "Lo que este informe no dice",
+        "p": "No predice tu evolución, porque estos datos no permiten ninguna predicción honesta. No asigna un grado clínico de gravedad. Y no te compara con otros pacientes, porque esa comparación no te diría nada útil sobre tu propia cara."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Registro de sesiones — Palsya",
+      "description": "Un calendario y una lista de las sesiones que has registrado."
+    },
+    "title": "Registro de sesiones",
+    "pageSub": "Un registro, no un marcador. Existe para que tú y un clínico podáis ver el patrón junto a las mediciones.",
+    "prevMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "session": "Sesión",
+    "feltLabel": "Sensación",
+    "minutesLabel": "Minutos",
+    "noteLabel": "Nota",
+    "noSessionLogged": "No se registró ninguna sesión.",
+    "emptyDaysHint": "Los días vacíos simplemente están vacíos. No hay un color para \"has fallado\".",
+    "recentSessions": "Sesiones recientes",
+    "felt": "se sintió {comfort}",
+    "comfort": {
+      "good": "bien",
+      "tired": "cansado",
+      "rushed": "con prisa"
+    },
+    "minutes": "{n} minutos",
+    "exercises": "{n, plural, one {# ejercicio} other {# ejercicios}}",
+    "notStartedYet": "Aún no iniciado",
+    "noSessionsYet": "Aún no se ha registrado ninguna sesión.",
+    "thingsYouNoticed": "Cosas que notaste",
+    "addOne": "Añadir una",
+    "nothingYet": "Todavía nada. La función a menudo cambia antes que la geometría — \"bebí de un vaso sin sujetarme el labio\" es exactamente el tipo de cosa que vale la pena anotar."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Hitos — Palsya",
+      "description": "Observaciones factuales a partir de tus propios datos."
+    },
+    "title": "Hitos",
+    "pageSub": "Observaciones factuales a partir de tus propios datos. Sin insignias, sin puntos, y nada que puedas perder.",
+    "explainer": "Aparece un hito cuando ocurre algo concreto: un cambio de etapa o un número de sesiones completas. Nunca aparece por el esfuerzo y nunca desaparece.",
+    "nothingYet": "Todavía nada",
+    "firstArrives": "Tu primer hito llega con tu primera sesión completa.",
+    "rules": {
+      "firstSession": {
+        "title": "Primera sesión completa",
+        "body": "Terminaste el vendaje, los ejercicios y la rutina diaria en un mismo día. Esa es la forma de cada día a partir de ahora."
+      },
+      "sevenSessions": {
+        "title": "Siete sesiones completas",
+        "body": "Siete sesiones completas registradas. La evidencia clínica se basa en una constancia de este nivel."
+      },
+      "thirtySessions": {
+        "title": "Treinta sesiones completas",
+        "body": "Treinta sesiones completas. La mayor parte del cambio medible en la rehabilitación facial ocurre a lo largo de un periodo así."
+      },
+      "stage": {
+        "title": "Paso a la Etapa {n} — {name}",
+        "body": "Tu programa ha cambiado para ajustarse a la Etapa {n}: el vendaje, los ejercicios y la rutina que ves ahora son los de esta etapa."
+      }
+    }
+  }
+}

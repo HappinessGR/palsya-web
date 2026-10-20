@@ -123,5 +123,39 @@
       "hint": "Optioneel. Vastgelegd bij vandaag, zichtbaar voor uw behandelaar als u het deelt.",
       "placeholder": "Bijv. uit een glas gedronken zonder mijn mondhoek vast te houden."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Programmanavigatie",
+    "navLabel": "Programma",
+    "menu": "Menu",
+    "stageLabel": "Fase {n}",
+    "dayLabel": "Dag {n}",
+    "account": "Account",
+    "freeTrial": "Gratis proefperiode",
+    "subscriber": "Abonnee",
+    "signOut": "Uitloggen",
+    "help": "Hulp",
+    "scan": "Scannen",
+    "groups": {
+      "programme": "Programma",
+      "progress": "Voortgang",
+      "historySupport": "Geschiedenis en ondersteuning"
+    },
+    "nav": {
+      "today": "Vandaag",
+      "taping": "Tapetechniek",
+      "exercises": "Gezichtsoefeningen",
+      "routine": "Dagelijkse routine",
+      "scan": "Scan maken",
+      "phaseProgress": "Fase en voortgang",
+      "timeline": "Fototijdlijn",
+      "report": "Voortgangsrapport",
+      "milestones": "Mijlpalen",
+      "log": "Sessielogboek",
+      "consults": "Consulten",
+      "library": "Naslagbibliotheek",
+      "settings": "Instellingen",
+      "session": "Sessie"
+    }
   }
 }

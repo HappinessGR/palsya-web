@@ -1,0 +1,144 @@
+{
+  "common": {
+    "stageLabel": "Stage {n}",
+    "state": { "full": "Complete", "part": "Partly done", "none": "Not logged" },
+    "parts": { "taping": "Taping", "exercises": "Exercises", "routine": "Routine" },
+    "yes": "Yes",
+    "no": "No"
+  },
+  "progress": {
+    "meta": {
+      "title": "Phase and progress — Palsya",
+      "description": "Your recovery stage, your logged sessions and how your stage has changed over time."
+    },
+    "pageTitle": "Recovery phase and progress",
+    "pageSub": "Three different things, kept separate because they measure different things and move at different speeds.",
+    "reportLink": "Progress report",
+    "newScan": "New scan",
+    "yourStage": "Your stage",
+    "daysInStage": "Days in this stage",
+    "typicalWindow": "Typical window",
+    "daysSinceOnset": "Days since onset",
+    "howStageChanged": "How your stage has changed",
+    "noPhase": "No stage has been assigned yet.",
+    "fromAssessment": "from your assessment",
+    "fromProgress": "from your progress",
+    "setByClinician": "set by a clinician",
+    "threeThingsAtOnce": "Three things at once",
+    "threeThingsBody": "There is no single \"percent recovered\" number, because there is no honest way to compute one. These three are what we can actually measure.",
+    "measuredSymmetryChange": "Measured symmetry change",
+    "sessionsLogged": "Sessions logged",
+    "functionReported": "Function you reported",
+    "symmetryScore": "symmetry score",
+    "arcAria": "Progress across measured symmetry, sessions logged, and reported function",
+    "measuredSymmetry": "Measured symmetry",
+    "noBaselineYet": "no baseline yet",
+    "completeIn28": "{n} complete in the last 28 days",
+    "observationsRecorded": "{n, plural, one {# observation} other {# observations}} recorded",
+    "threeArcsHint": "Deliberately three separate arcs. A single combined figure would hide the case where the score is flat but you can suddenly drink from a glass — which is the case that matters most.",
+    "sessionsLast28": "Sessions, last 28 days",
+    "patternAria": "Sessions over the last {n} days",
+    "allTime": "All time",
+    "noStreakHint": "No streak, no target, no percentage. This is here so you and a clinician can see the pattern alongside the measurements.",
+    "sessionLogCalendar": "Session log and calendar",
+    "scoreOverTime": "Symmetry score over time",
+    "noScansTitle": "No scans stored yet",
+    "noScansBody": "Your scores will be plotted here once scans are saved to your account. Until then this space stays empty rather than showing a number that wasn't measured."
+  },
+  "report": {
+    "meta": {
+      "title": "Progress report — Palsya",
+      "description": "A printable summary of your stage, your logged sessions and what you noticed."
+    },
+    "title": "Progress report",
+    "fromToGenerated": "{from} to {to} · generated today",
+    "printOrPdf": "Print or save as PDF",
+    "brandedTitle": "Palsya progress report",
+    "forClinician": "For the clinician reading this:",
+    "clinicalNote": "everything in this report is self-reported by the patient — the session log and written observations — together with the stage the programme assigned. It contains no symmetry measurement, no prediction and no severity grade, and it does not map to House-Brackmann or Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "What this report is",
+        "p": "Everything below is drawn from your own sessions and notes between {from} and {to}. It contains no predictions and no clinical grading. It is written to be readable by you and useful to a clinician you share it with."
+      },
+      "measurement": {
+        "h": "Measurement",
+        "none": "No scan has been stored on your account yet, so there is nothing measured to report."
+      },
+      "programme": {
+        "h": "Your programme",
+        "stage": "You are in Stage {n} — {name}. {short}",
+        "changed": "Your stage last changed on {date}.",
+        "unchanged": "Your stage has not changed since your assessment."
+      },
+      "logged": {
+        "h": "What you logged",
+        "p1": "Over the last 28 days you logged {full, plural, one {# complete session} other {# complete sessions}} and {part, plural, one {# partial session} other {# partial sessions}}. Across the whole programme, {done, plural, one {# complete session} other {# complete sessions}}.",
+        "p2": "This is recorded so that you and a clinician can see the pattern alongside the measurements. It is not a score and nobody is grading it."
+      },
+      "noticed": {
+        "h": "What you noticed",
+        "intro": "You recorded these yourself, and they are often the part a clinician reads first:"
+      },
+      "not": {
+        "h": "What this report does not say",
+        "p": "It does not predict your outcome, because no honest prediction is available from this data. It does not assign a clinical severity grade. And it does not compare you with other patients, because that comparison would tell you nothing useful about your own face."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Session log — Palsya",
+      "description": "A calendar and list of the sessions you have logged."
+    },
+    "title": "Session log",
+    "pageSub": "A record, not a scoreboard. It exists so you and a clinician can see the pattern next to the measurements.",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "session": "Session",
+    "feltLabel": "Felt",
+    "minutesLabel": "Minutes",
+    "noteLabel": "Note",
+    "noSessionLogged": "No session logged.",
+    "emptyDaysHint": "Empty days are just empty. There is no colour for \"you failed\".",
+    "recentSessions": "Recent sessions",
+    "felt": "felt {comfort}",
+    "comfort": { "good": "good", "tired": "tired", "rushed": "rushed" },
+    "minutes": "{n} minutes",
+    "exercises": "{n, plural, one {# exercise} other {# exercises}}",
+    "notStartedYet": "Not started yet",
+    "noSessionsYet": "No sessions logged yet.",
+    "thingsYouNoticed": "Things you noticed",
+    "addOne": "Add one",
+    "nothingYet": "Nothing yet. Function often changes before geometry does — \"drank from a glass without holding my lip\" is exactly the kind of thing worth writing down."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Milestones — Palsya",
+      "description": "Factual observations from your own data."
+    },
+    "title": "Milestones",
+    "pageSub": "Factual observations from your own data. No badges, no points, and nothing you can lose.",
+    "explainer": "A milestone appears when something specific happens — a stage change, or a number of complete sessions. It never appears for effort, and it never disappears.",
+    "nothingYet": "Nothing yet",
+    "firstArrives": "Your first milestone arrives with your first complete session.",
+    "rules": {
+      "firstSession": {
+        "title": "First full session complete",
+        "body": "You finished taping, exercises, and the daily routine in one day. That is the shape of every day from here."
+      },
+      "sevenSessions": {
+        "title": "Seven full sessions",
+        "body": "Seven complete sessions logged. Consistency at this level is what the clinical evidence is built on."
+      },
+      "thirtySessions": {
+        "title": "Thirty full sessions",
+        "body": "Thirty complete sessions. Most of the measurable change in facial rehabilitation happens across this kind of span."
+      },
+      "stage": {
+        "title": "Moved to Stage {n} — {name}",
+        "body": "Your programme changed to match Stage {n}: the taping, exercises and routine you see now are the ones for this stage."
+      }
+    }
+  }
+}

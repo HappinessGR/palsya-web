@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Técnica de vendaje — Palsya",
+      "description": "Las técnicas de vendaje del programa, con la tuya resaltada."
+    },
+    "pageTitle": "Técnica de vendaje",
+    "pageSub": "Tres técnicas a lo largo del programa. La tuya está resaltada — las demás están aquí para que veas hacia dónde va esto.",
+    "todaysSession": "Sesión de hoy",
+    "patchTestTitle": "Prueba de parche antes de tu primera aplicación.",
+    "patchTestBody": "Un trozo de 3 cm en la cara interna del antebrazo durante 24 horas. Y nunca coloques vendaje sobre el párpado a menos que un clínico te haya mostrado una técnica específica para ello.",
+    "stagesWear": "Etapas {stages} · usar {wear}",
+    "currentTechnique": "Tu técnica actual",
+    "tension": "Tensión:",
+    "stripFromTo": "Desde {from} hasta {to}.",
+    "safetyEveryTime": "Seguridad, siempre",
+    "fullGuide": "Guía completa de vendaje",
+    "safety": {
+      "s1": "La piel debe estar limpia, seca y libre de aceites o cremas. De lo contrario, el vendaje no se adherirá.",
+      "s2": "Redondea las esquinas de cada tira — las esquinas cuadradas se levantan y se enganchan con la ropa.",
+      "s3": "Frota el vendaje durante 10 segundos después de aplicarlo. El adhesivo se activa con el calor.",
+      "s4": "Retira el vendaje despacio, en la dirección del crecimiento del vello, idealmente en la ducha.",
+      "s5": "Retíralo de inmediato y detente si notas picor, escozor, sarpullido o ampollas.",
+      "s6": "Nunca coloques el vendaje sobre el párpado ni dentro de la cuenca del ojo.",
+      "s7": "No apliques el vendaje sobre piel dañada, quemada por el sol o infectada.",
+      "s8": "Tómate un día de descanso del vendaje al menos una vez por semana para que la piel se recupere."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Ejercicios faciales — Palsya",
+      "description": "Los ejercicios de tu programa en tu etapa actual, más los que vendrán después."
+    },
+    "title": "Ejercicios faciales",
+    "sub": "Los {n} ejercicios de tu programa en la Etapa {stage}, más los que vendrán más adelante.",
+    "runToday": "Iniciar la sesión de hoy",
+    "thirdEffortTitle": "Aproximadamente un tercio de tu esfuerzo máximo.",
+    "thirdEffortBody": "Si aprietas los dientes o contienes la respiración, te has pasado con creces. Esto se siente como no esforzarse de verdad, y es la dosis correcta.",
+    "inProgrammeNow": "En tu programa ahora",
+    "noneNow": "No hay ejercicios en esta etapa: el programa es deliberadamente tranquilo por ahora.",
+    "laterInProgramme": "Más adelante en el programa",
+    "notYet": "Todavía no. Hacer estos ejercicios antes de tu etapa es una de las formas en que la gente se retrasa a sí misma.",
+    "why": "Por qué:",
+    "watchFor": "Ten cuidado con:",
+    "repetitions": "Repeticiones",
+    "hold": "Mantener",
+    "restBetween": "Descanso entre repeticiones",
+    "seconds": "{n} segundos",
+    "stages": "Etapas"
+  },
+  "routine": {
+    "meta": {
+      "title": "Rutina diaria — Palsya",
+      "description": "Cuidado ocular, comida, masaje, sueño y habla: la parte de la recuperación que no son ejercicios."
+    },
+    "title": "Rutina diaria",
+    "sub": "La parte que no son ejercicios, y que constituye aproximadamente tres cuartas partes de lo que hace que la recuperación vaya bien.",
+    "eyeCareTitle": "Si tu ojo no cierra por completo, el cuidado ocular tiene prioridad sobre cualquier ejercicio de tu programa.",
+    "eyeCareBody": "El daño corneal por exposición es la única complicación de la parálisis facial que puede causar un daño duradero, y es en gran medida prevenible. Dolor, enrojecimiento o visión alterada significa acudir al médico hoy mismo.",
+    "fullGuide": "La guía completa para crear una rutina que se mantenga"
+  }
+}

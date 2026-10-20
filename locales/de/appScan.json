@@ -1,0 +1,117 @@
+{
+  "scan": {
+    "meta": {
+      "title": "Scan durchführen — Palsya",
+      "description": "Eine geführte Gesichtsaufnahme mit Live-Prüfung von Licht, Schärfe und Bildausschnitt."
+    },
+    "title": "Neuer Scan",
+    "shortSteps": "{n} kurze Schritte, etwa neunzig Sekunden.",
+    "leave": "Verlassen",
+    "stepOf": "Schritt {n} von {of}",
+    "startCapture": "Aufnahme starten",
+    "captureThisOne": "Diese aufnehmen",
+    "startOver": "Von vorn beginnen",
+    "gettingReady": "Wird vorbereitet…",
+    "cameraOff": "Kamera aus",
+    "cameraUnavailableTitle": "Die Kamera ist hier nicht verfügbar.",
+    "tryAgain": "Erneut versuchen",
+    "close": "Schließen",
+    "worthComparing": "Für einen vergleichbaren Scan",
+    "tip1": "Stellen Sie sich vor ein Fenster, oder platzieren Sie eine Lampe vor sich — nie seitlich. Seitliches Licht wird als Asymmetrie gelesen.",
+    "tip2": "Wenn möglich jede Woche derselbe Ort und dieselbe Tageszeit.",
+    "tip3": "Keine Brille, Haare aus dem Gesicht, Kinn gerade.",
+    "tip4": "Stützen Sie das Gerät ab, statt es zu halten.",
+    "qualityGood": "Gute Bildqualität",
+    "qualityAllGood": "Beleuchtung, Schärfe und Bildausschnitt sind in Ordnung. Gemessene Helligkeit {mean}, Links-Rechts-Unterschied {evenness}.",
+    "poorQualityTitle": "Die Bildqualität ist schlecht",
+    "poorQualityBody": "Ein bei schlechtem Licht oder unscharf aufgenommener Scan erzeugt eine Zahl, die wie eine Messung aussieht, aber keine ist. Wir würden es vorziehen, wenn Sie zuerst das Licht korrigieren.",
+    "captureAnyway": "Trotzdem aufnehmen",
+    "letMeFixIt": "Ich möchte es korrigieren",
+    "captureNote": "Die Kamera und die Bildqualitätsprüfungen sind echt. Ihre Aufnahmen bleiben zur Durchsicht auf diesem Gerät und werden verworfen, wenn Sie diese Seite verlassen.",
+    "quality": {
+      "good": "gut",
+      "fair": "ausreichend",
+      "poor": "schlecht"
+    },
+    "errors": {
+      "noApi": "Dieser Browser bietet keinen Kamerazugriff.",
+      "insecure": "Browser erlauben den Kamerazugriff nur über eine sichere Verbindung (https).",
+      "denied": "Die Kameraberechtigung wurde abgelehnt. Sie können sie über das Schlosssymbol in der Adressleiste ändern.",
+      "notFound": "Auf diesem Gerät wurde keine Kamera gefunden.",
+      "generic": "Die Kamera konnte nicht gestartet werden."
+    },
+    "steps": {
+      "position": {
+        "title": "Gesicht ausrichten",
+        "msg": "Füllen Sie den Umriss mit Ihrem Gesicht",
+        "sub": "Gerade von vorn, Kinn waagerecht, wenn möglich beide Ohren sichtbar."
+      },
+      "rest": {
+        "title": "Ruhe",
+        "msg": "Lassen Sie das Gesicht völlig entspannt",
+        "sub": "Kein Lächeln, kein Stirnrunzeln. Augen offen, Blick in die Kamera."
+      },
+      "brow": {
+        "title": "Augenbrauen heben",
+        "msg": "Heben Sie beide Augenbrauen",
+        "sub": "Wie leicht überrascht. Halten Sie, während wir aufnehmen."
+      },
+      "smile": {
+        "title": "Sanftes Lächeln",
+        "msg": "Kleines Lächeln mit geschlossenen Lippen",
+        "sub": "Etwa ein Drittel Ihres Maximums. Kein großes."
+      },
+      "eyes": {
+        "title": "Augen schließen",
+        "msg": "Schließen Sie beide Augen sanft",
+        "sub": "Wie beim Einschlafen. Nicht zukneifen."
+      }
+    },
+    "issues": {
+      "dark": {
+        "t": "Zu dunkel",
+        "fix": "Wenden Sie sich einem Fenster zu oder schalten Sie ein Licht vor sich ein."
+      },
+      "bright": {
+        "t": "Zu hell",
+        "fix": "Gehen Sie von der Lichtquelle weg oder schließen Sie eine Jalousie."
+      },
+      "uneven": {
+        "t": "Das Licht kommt von einer Seite",
+        "fix": "Seitenlicht erzeugt Schatten, die wie Asymmetrie wirken. Drehen Sie sich zum Licht."
+      },
+      "blur": {
+        "t": "Das Bild ist unscharf",
+        "fix": "Halten Sie das Gerät ruhig und reinigen Sie die Linse."
+      },
+      "flat": {
+        "t": "Sehr wenig Kontrast",
+        "fix": "Mehr Licht, und gehen Sie etwas von einer hellen, glatten Wand weg."
+      },
+      "motion": {
+        "t": "Bitte stillhalten",
+        "fix": "Stellen Sie das Gerät nach Möglichkeit ab."
+      }
+    },
+    "review": {
+      "complete": "Aufnahme abgeschlossen · {date}",
+      "title": "Prüfen Sie Ihre Aufnahmen",
+      "sub": "Eine Aufnahme pro Schritt, so wie die Kamera sie gesehen hat.",
+      "notAvailableTitle": "Messung und Speichern sind noch nicht verfügbar.",
+      "notAvailableBody": "Es wird kein Symmetriewert berechnet und diese Aufnahmen werden nicht gespeichert — sie werden verworfen, wenn Sie diese Seite verlassen. Scan-Verlauf und Messung erscheinen hier, sobald sie bereit sind.",
+      "frameQuality": "Bild {quality}",
+      "backToToday": "Zurück zu heute",
+      "retake": "Wiederholen"
+    }
+  },
+  "timeline": {
+    "meta": {
+      "title": "Foto-Zeitleiste — Palsya",
+      "description": "Alle Ihre Scans, nebeneinander."
+    },
+    "title": "Foto-Zeitleiste",
+    "nothingYet": "Hier ist noch nichts",
+    "fillsUp": "Ihre Zeitleiste füllt sich Scan für Scan. Der erste ist der Ausgangswert, an dem alles andere gemessen wird.",
+    "takeBaselineScan": "Machen Sie Ihren Ausgangs-Scan"
+  }
+}

@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Palsya se kliniese span"
+  "authorTeam": "Palsya se kliniese span",
+  "faqPage": {
+    "meta": {
+      "title": "Algemene vrae — Palsya",
+      "description": "Geskiktheid, tydlyne, koste, data, en die vrae wat mense vra voordat hulle registreer."
+    },
+    "allGuides": "Alle gidse"
+  },
+  "article": {
+    "writtenBy": "Geskryf deur {author}",
+    "reviewedBy": "Hersien deur {reviewer}",
+    "updated": "Bygewerk op {date}",
+    "minRead": "{minutes} min. leestyd",
+    "onThisPage": "Op hierdie bladsy",
+    "signoff": "Geskryf deur {author}, hersien deur {reviewer}.",
+    "keepReading": "Lees verder"
+  }
 }

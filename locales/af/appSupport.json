@@ -1,0 +1,144 @@
+{
+  "library": {
+    "meta": {
+      "title": "Naslaanbiblioteek — Palsya",
+      "description": "Gidse vir jou fase en jou programmateriaal."
+    },
+    "pageSub": "Alles in die kennisbasis, plus jou eie programmateriaal. Gratis om te lees en gratis om te deel.",
+    "forStage": "Vir fase {n}",
+    "recommendedNow": "Nou aanbeveel",
+    "minRead": "{n} min lees",
+    "programmeMaterial": "Jou programmateriaal",
+    "tapingTitle": "Kleeftegniek",
+    "tapingBlurb": "Al drie tegnieke, met die strookplasing en die spanning vir elkeen.",
+    "exercisesTitle": "Oefeningbiblioteek",
+    "exercisesBlurb": "Elke oefening, hoekom dit daar is, en die fout wat mense daarmee maak.",
+    "routineTitle": "Daaglikse roetine",
+    "routineBlurb": "Oogsorg, eet, slaap, en hoe om dit in te pas in 'n lewe wat reeds bestaan.",
+    "allGuides": "Alle gidse",
+    "minReadReviewed": "{n} min lees · nagegaan {date}"
+  },
+  "consults": {
+    "meta": {
+      "title": "Konsultasies — Palsya",
+      "description": "Jou klinikus en jou konsultasies."
+    },
+    "pageSub": "Dertig minute met 'n spesialis in gesigsrehabilitasie. Jy kies wie.",
+    "bookACall": "Bespreek 'n oproep",
+    "completed": "Voltooi",
+    "booked": "Bespreek",
+    "noneYet": "Nog geen konsultasies nie",
+    "mostPeopleWrong": "Die meeste mense doen een of twee dinge verkeerd — gewoonlik die spanning van die kleefband of hoeveel moeite hulle insit. 'n Klinikus sien dit gewoonlik in die eerste tien minute raak.",
+    "bookFirstCall": "Bespreek jou eerste oproep",
+    "bookingUnavailable": "Aanlyn besprekings is nog nie beskikbaar nie. Niks is vir jou bespreek nie.",
+    "yourClinician": "Jou klinikus",
+    "noClinician": "Nog geen klinikus toegewys nie",
+    "noClinicianBody": "Wanneer 'n klinikus aan jou toegewys word, verskyn hul naam hier."
+  },
+  "settings": {
+    "meta": {
+      "title": "Instellings — Palsya",
+      "description": "Jou rekening, herinneringe, taal, intekening en privaatheid."
+    },
+    "tabs": {
+      "account": "Rekening",
+      "programme": "Program",
+      "reminders": "Herinneringe en taal",
+      "subscription": "Intekening",
+      "privacy": "Privaatheid en data",
+      "security": "Sekuriteit"
+    },
+    "notAvailable": "Nog nie beskikbaar nie",
+    "account": {
+      "yourDetails": "Jou besonderhede",
+      "fullName": "Volle naam",
+      "email": "E-posadres",
+      "managedHint": "Jou naam en e-pos kom van jou aanmeldrekening af. Kontak ondersteuning om dit te verander.",
+      "accountCreated": "Rekening geskep",
+      "programmeDay": "Programdag"
+    },
+    "programme": {
+      "yourStage": "Jou fase",
+      "stageLabel": "Fase {n}",
+      "askClinicianReview": "Vra 'n klinikus om dit na te gaan",
+      "reviewPendingTitle": "'n Klinikus se beoordeling is hangende.",
+      "reviewPendingBody": "Jy kan intussen met jou program voortgaan; as die beoordeling iets verander, sal jy gesê word wat en hoekom.",
+      "onsetDate": "Aanvangsdatum",
+      "daysSinceOnset": "Dae sedert aanvang",
+      "placementConfidence": "Sekerheid van plasing",
+      "confidence": {
+        "high": "hoog",
+        "medium": "medium",
+        "low": "laag"
+      },
+      "retakeAssessment": "Doen die assessering weer",
+      "retakeAssessmentHint": "As baie verander het — nuwe beweging, sinkinese wat verskyn, 'n tydperk van siekte — plaas dit jou weer. Jou geskiedenis word behou.",
+      "retakeAssessmentBtn": "Doen assessering weer"
+    },
+    "reminders": {
+      "reminders": "Herinneringe",
+      "remindersHint": "Een herinnering per sessie, op 'n tyd wat jy kies. Niks volg op 'n gemiste een op nie, en niks suggereer dat jy iemand in die steek gelaat het nie.",
+      "sessionReminders": "Sessieherinneringe",
+      "firstSession": "Eerste sessie",
+      "secondSession": "Tweede sessie",
+      "weeklySummary": "Weeklikse e-posopsomming van wat gemeet en aangeteken is",
+      "clinicianUpdates": "E-pos my wanneer 'n klinikus 'n nota byvoeg of my program verander",
+      "languageAndDisplay": "Taal en vertoning",
+      "language": "Taal",
+      "languageHint": "Verander die koppelvlaktaal dadelik.",
+      "textSize": "Teksgrootte",
+      "textSizeNormal": "Normaal",
+      "textSizeLarge": "Groot",
+      "textSizeXl": "Ekstra groot",
+      "mirrorCamera": "Spieël die kameravoorskou tydens skanderings",
+      "saveChanges": "Stoor veranderinge",
+      "saved": "Gestoor.",
+      "saveFailed": "Dit is nie gestoor nie. Probeer asseblief weer."
+    },
+    "subscription": {
+      "noSubscription": "Geen intekening nie",
+      "seePlans": "Sien planne",
+      "plan": "Jou plan",
+      "freeTrial": "Gratis proeftydperk",
+      "active": "Aktief",
+      "cancelledStatus": "Gekanselleer",
+      "pastDue": "Betaling agterstallig",
+      "firstCharge": "Eerste betaling",
+      "renews": "Hernu",
+      "accessUntil": "Toegang tot",
+      "changePlan": "Verander plan",
+      "cancelSubscription": "Kanselleer intekening",
+      "cancelHint": "Aanlyn kansellering is nog nie beskikbaar nie. Kontak ondersteuning en ons kanselleer dit vir jou."
+    },
+    "privacy": {
+      "yourConsents": "Jou toestemmings",
+      "consentsHint": "Waartoe jy ingestem het toe jy aangemeld het. Om 'n toestemming hier te verander is nog nie beskikbaar nie — kontak ondersteuning as jy een wil verander.",
+      "required": "Vereis",
+      "granted": "Gegee {date}",
+      "notGiven": "Nie gegee nie",
+      "consent": {
+        "data_processing": "Verwerking van my gesondheidsdata",
+        "photo_storage_analysis": "Ontleding van skanderings van my gesig",
+        "photo_keep": "Berging van my skanderingfoto's",
+        "clinician_share": "Deel vordering met 'n klinikus wat ek kies",
+        "research_opt_in": "Geanonimiseerde data vir navorsing",
+        "marketing": "Af en toe produk-e-posse"
+      },
+      "yourData": "Jou data",
+      "exportEverything": "Voer alles uit",
+      "deleteAccount": "Skrap jou rekening",
+      "deleteAccountHint": "Permanent. Beelde word binne 30 dae verwyder, alles anders binne 90, behalwe fakture wat ons wetlik moet hou. Daar is geen heraktivering nie.",
+      "deleteAllMyData": "Skrap my rekening en al my data",
+      "selfServiceHint": "Om self jou data uit te voer of te skrap is nog nie beskikbaar nie. Kontak ondersteuning en ons doen dit vir jou."
+    },
+    "security": {
+      "signInSecurity": "Aanmelding en sekuriteit",
+      "twoStepVerification": "Tweestapverifikasie",
+      "on": "Aan",
+      "off": "Af",
+      "lastSignIn": "Laaste aanmelding",
+      "changePassword": "Verander wagwoord",
+      "signOut": "Teken uit"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Kleeftegniek — Palsya",
+      "description": "Die kleeftegnieke deur die program, met joune uitgelig."
+    },
+    "pageTitle": "Kleeftegniek",
+    "pageSub": "Drie tegnieke deur die program. Joune is uitgelig — die ander is hier sodat jy kan sien waarheen dit gaan.",
+    "todaysSession": "Vandag se sessie",
+    "patchTestTitle": "Doen 'n veltoets voor jou eerste toediening.",
+    "patchTestBody": "'n Stuk van 3 cm aan die binnekant van jou voorarm vir 24 uur. En plak nooit oor die ooglid nie, tensy 'n klinikus jou 'n spesifieke tegniek daarvoor gewys het.",
+    "stagesWear": "Fases {stages} · dra {wear}",
+    "currentTechnique": "Jou huidige tegniek",
+    "tension": "Spanning:",
+    "stripFromTo": "Van {from} tot {to}.",
+    "safetyEveryTime": "Veiligheid, elke keer",
+    "fullGuide": "Volledige kleefgids",
+    "safety": {
+      "s1": "Die vel moet skoon, droog en vry van olies of rome wees. Anders sal die kleefband nie hou nie.",
+      "s2": "Rond die hoeke van elke strook af — vierkantige hoeke lig op en haak aan klere vas.",
+      "s3": "Vryf die kleefband vir 10 sekondes ná toediening. Die gom word deur hitte geaktiveer.",
+      "s4": "Verwyder kleefband stadig, in die rigting van haargroei, verkieslik in die stort.",
+      "s5": "Verwyder dit dadelik en hou op as jy jeuk, brand, 'n uitslag of blase kry.",
+      "s6": "Plak nooit oor die ooglid of binne die oogkas nie.",
+      "s7": "Moenie oor gebreekte, sonverbrande of geïnfekteerde vel plak nie.",
+      "s8": "Neem minstens een keer per week 'n rusdag van kleefband sodat die vel kan herstel."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Gesigsoefeninge — Palsya",
+      "description": "Die oefeninge in jou program by jou huidige fase, plus dié wat later kom."
+    },
+    "title": "Gesigsoefeninge",
+    "sub": "Die {n} oefeninge in jou program by Fase {stage}, plus dié wat later kom.",
+    "runToday": "Begin vandag se sessie",
+    "thirdEffortTitle": "Ongeveer 'n derde van jou maksimum inspanning.",
+    "thirdEffortBody": "As jy jou tande kners of jou asem ophou, is jy ver verby dit. Dit voel asof jy nie regtig probeer nie, en dit is die regte dosis.",
+    "inProgrammeNow": "Nou in jou program",
+    "noneNow": "Geen oefeninge in hierdie fase nie — die program is op die oomblik doelbewus stil.",
+    "laterInProgramme": "Later in die program",
+    "notYet": "Nog nie. Om dit voor jou fase te doen, is een van die maniere waarop mense hulself vertraag.",
+    "why": "Hoekom:",
+    "watchFor": "Let op:",
+    "repetitions": "Herhalings",
+    "hold": "Hou",
+    "restBetween": "Rus tussenin",
+    "seconds": "{n} sekondes",
+    "stages": "Fases"
+  },
+  "routine": {
+    "meta": {
+      "title": "Daaglikse roetine — Palsya",
+      "description": "Oogsorg, eet, masseer, slaap en praat — die deel van herstel wat nie oefeninge is nie."
+    },
+    "title": "Daaglikse roetine",
+    "sub": "Die deel wat nie oefeninge is nie, en wat ongeveer driekwart is van wat herstel goed laat verloop.",
+    "eyeCareTitle": "As jou oog nie heeltemal toemaak nie, is oogsorg belangriker as enige oefening in jou program.",
+    "eyeCareBody": "Skade aan die kornea deur blootstelling is die een komplikasie van gesigsverlamming wat blywende skade kan veroorsaak, en dit is grootliks voorkombaar. Pyn, rooiheid of veranderde sig beteken vandag nog 'n dokter.",
+    "fullGuide": "Die volledige gids om 'n roetine te bou wat hou"
+  }
+}

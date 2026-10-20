@@ -1,0 +1,117 @@
+{
+  "scan": {
+    "meta": {
+      "title": "Take a scan — Palsya",
+      "description": "A guided face capture with live lighting, sharpness and framing checks."
+    },
+    "title": "New scan",
+    "shortSteps": "{n} short steps, about ninety seconds.",
+    "leave": "Leave",
+    "stepOf": "Step {n} of {of}",
+    "startCapture": "Start capture",
+    "captureThisOne": "Capture this one",
+    "startOver": "Start over",
+    "gettingReady": "Getting ready…",
+    "cameraOff": "Camera off",
+    "cameraUnavailableTitle": "The camera is not available here.",
+    "tryAgain": "Try again",
+    "close": "Close",
+    "worthComparing": "For a scan worth comparing",
+    "tip1": "Face a window, or put a lamp in front of you — never to one side. Side light reads as asymmetry.",
+    "tip2": "Same place and same time of day each week, if you can.",
+    "tip3": "No glasses, hair off the face, chin level.",
+    "tip4": "Prop the device up rather than holding it.",
+    "qualityGood": "Image quality good",
+    "qualityAllGood": "Lighting, sharpness, and framing all check out. Measured brightness {mean}, left-to-right difference {evenness}.",
+    "poorQualityTitle": "The image quality is poor",
+    "poorQualityBody": "A scan taken in bad light or out of focus produces a number that looks like a measurement and is not one. We would rather you fixed the light first.",
+    "captureAnyway": "Capture anyway",
+    "letMeFixIt": "Let me fix it",
+    "captureNote": "The camera and the image-quality checks are real. Your frames stay on this device for you to review and are discarded when you leave this page.",
+    "quality": {
+      "good": "good",
+      "fair": "fair",
+      "poor": "poor"
+    },
+    "errors": {
+      "noApi": "This browser does not expose a camera API.",
+      "insecure": "Browsers only allow camera access over a secure (https) connection.",
+      "denied": "Camera permission was declined. You can change it from the padlock icon in your address bar.",
+      "notFound": "No camera was found on this device.",
+      "generic": "The camera could not be started."
+    },
+    "steps": {
+      "position": {
+        "title": "Line your face up",
+        "msg": "Fill the outline with your face",
+        "sub": "Straight on, chin level, both ears visible if you can."
+      },
+      "rest": {
+        "title": "Rest",
+        "msg": "Let your face go completely blank",
+        "sub": "No smile, no frown. Eyes open, looking at the camera."
+      },
+      "brow": {
+        "title": "Raise your brows",
+        "msg": "Raise both eyebrows",
+        "sub": "As if mildly surprised. Hold it while we capture."
+      },
+      "smile": {
+        "title": "Gentle smile",
+        "msg": "Small closed-lip smile",
+        "sub": "About a third of your maximum. Not a big one."
+      },
+      "eyes": {
+        "title": "Close your eyes",
+        "msg": "Close both eyes softly",
+        "sub": "As if falling asleep. Do not squeeze."
+      }
+    },
+    "issues": {
+      "dark": {
+        "t": "Too dark",
+        "fix": "Face a window or turn a light on in front of you."
+      },
+      "bright": {
+        "t": "Too bright",
+        "fix": "Move away from the light source or close a blind."
+      },
+      "uneven": {
+        "t": "Light is coming from one side",
+        "fix": "Side light creates shadow that reads as asymmetry. Turn to face the light."
+      },
+      "blur": {
+        "t": "Image is soft",
+        "fix": "Hold the device steady and clean the lens."
+      },
+      "flat": {
+        "t": "Very little contrast",
+        "fix": "More light, and step back from a plain bright wall."
+      },
+      "motion": {
+        "t": "Hold still",
+        "fix": "Prop the device up if you can."
+      }
+    },
+    "review": {
+      "complete": "Capture complete · {date}",
+      "title": "Check your frames",
+      "sub": "One frame for each step, as the camera saw it.",
+      "notAvailableTitle": "Measurement and saving are not available yet.",
+      "notAvailableBody": "No symmetry score is calculated and these frames are not stored — they are discarded when you leave this page. Scan history and measurement will appear here once they are ready.",
+      "frameQuality": "{quality} image",
+      "backToToday": "Back to today",
+      "retake": "Retake"
+    }
+  },
+  "timeline": {
+    "meta": {
+      "title": "Photo timeline — Palsya",
+      "description": "Every scan you have taken, side by side."
+    },
+    "title": "Photo timeline",
+    "nothingYet": "Nothing here yet",
+    "fillsUp": "Your timeline fills up one scan at a time. The first one is the baseline everything else is measured against.",
+    "takeBaselineScan": "Take your baseline scan"
+  }
+}

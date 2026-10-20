@@ -1,0 +1,156 @@
+{
+  "common": {
+    "stageLabel": "Phase {n}",
+    "state": {
+      "full": "Vollständig",
+      "part": "Teilweise erledigt",
+      "none": "Nicht protokolliert"
+    },
+    "parts": {
+      "taping": "Tapen",
+      "exercises": "Übungen",
+      "routine": "Routine"
+    },
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "progress": {
+    "meta": {
+      "title": "Phase und Fortschritt — Palsya",
+      "description": "Ihre Genesungsphase, Ihre protokollierten Sitzungen und wie sich Ihre Phase im Lauf der Zeit verändert hat."
+    },
+    "pageTitle": "Genesungsphase und Fortschritt",
+    "pageSub": "Drei verschiedene Dinge, getrennt gehalten, weil sie Unterschiedliches messen und sich unterschiedlich schnell verändern.",
+    "reportLink": "Fortschrittsbericht",
+    "newScan": "Neuer Scan",
+    "yourStage": "Ihre Phase",
+    "daysInStage": "Tage in dieser Phase",
+    "typicalWindow": "Üblicher Zeitraum",
+    "daysSinceOnset": "Tage seit Beginn",
+    "howStageChanged": "Wie sich Ihre Phase verändert hat",
+    "noPhase": "Es wurde noch keine Phase zugewiesen.",
+    "fromAssessment": "aus Ihrer Einschätzung",
+    "fromProgress": "aus Ihrem Fortschritt",
+    "setByClinician": "von einer Fachperson festgelegt",
+    "threeThingsAtOnce": "Drei Dinge gleichzeitig",
+    "threeThingsBody": "Es gibt keine einzelne Zahl für „Prozent genesen\", weil es keine ehrliche Möglichkeit gibt, sie zu berechnen. Diese drei Dinge sind das, was wir tatsächlich messen können.",
+    "measuredSymmetryChange": "Gemessene Symmetrieänderung",
+    "sessionsLogged": "Protokollierte Sitzungen",
+    "functionReported": "Von Ihnen gemeldete Funktion",
+    "symmetryScore": "Symmetrie-Score",
+    "arcAria": "Fortschritt bei gemessener Symmetrie, protokollierten Sitzungen und gemeldeter Funktion",
+    "measuredSymmetry": "Gemessene Symmetrie",
+    "noBaselineYet": "noch kein Ausgangswert",
+    "completeIn28": "{n} vollständig in den letzten 28 Tagen",
+    "observationsRecorded": "{n, plural, one {# Beobachtung} other {# Beobachtungen}} erfasst",
+    "threeArcsHint": "Bewusst drei getrennte Bögen. Eine einzige kombinierte Zahl würde den Fall verbergen, in dem der Score gleichbleibt, Sie aber plötzlich aus einem Glas trinken können — und das ist der Fall, der am meisten zählt.",
+    "sessionsLast28": "Sitzungen, letzte 28 Tage",
+    "patternAria": "Sitzungen der letzten {n} Tage",
+    "allTime": "Gesamt",
+    "noStreakHint": "Keine Serie, kein Ziel, kein Prozentsatz. Das ist hier, damit Sie und eine Fachperson das Muster neben den Messungen sehen können.",
+    "sessionLogCalendar": "Sitzungsprotokoll und Kalender",
+    "scoreOverTime": "Symmetrie-Score im Zeitverlauf",
+    "noScansTitle": "Noch keine Scans gespeichert",
+    "noScansBody": "Ihre Werte erscheinen hier, sobald Scans in Ihrem Konto gespeichert werden. Bis dahin bleibt dieser Bereich leer, statt eine Zahl zu zeigen, die nicht gemessen wurde."
+  },
+  "report": {
+    "meta": {
+      "title": "Fortschrittsbericht — Palsya",
+      "description": "Eine druckbare Zusammenfassung Ihrer Phase, Ihrer protokollierten Sitzungen und Ihrer Beobachtungen."
+    },
+    "title": "Fortschrittsbericht",
+    "fromToGenerated": "{from} bis {to} · heute erstellt",
+    "printOrPdf": "Drucken oder als PDF speichern",
+    "brandedTitle": "Palsya-Fortschrittsbericht",
+    "forClinician": "Für die Fachperson, die dies liest:",
+    "clinicalNote": "Alles in diesem Bericht stammt aus den eigenen Angaben des Patienten — dem Sitzungsprotokoll und schriftlichen Beobachtungen — zusammen mit der vom Programm zugewiesenen Phase. Er enthält keine Symmetriemessung, keine Prognose und keinen Schweregrad und entspricht weder House-Brackmann noch Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "Was dieser Bericht ist",
+        "p": "Alles Folgende stammt aus Ihren eigenen Sitzungen und Notizen zwischen dem {from} und dem {to}. Er enthält keine Prognosen und keine klinische Einstufung. Er ist so geschrieben, dass Sie ihn lesen können und er einer Fachperson nützt, mit der Sie ihn teilen."
+      },
+      "measurement": {
+        "h": "Messung",
+        "none": "In Ihrem Konto ist noch kein Scan gespeichert, daher gibt es nichts Gemessenes zu berichten."
+      },
+      "programme": {
+        "h": "Ihr Programm",
+        "stage": "Sie sind in Phase {n} — {name}. {short}",
+        "changed": "Ihre Phase hat sich zuletzt am {date} geändert.",
+        "unchanged": "Ihre Phase hat sich seit Ihrer Einschätzung nicht geändert."
+      },
+      "logged": {
+        "h": "Was Sie protokolliert haben",
+        "p1": "In den letzten 28 Tagen haben Sie {full, plural, one {# vollständige Sitzung} other {# vollständige Sitzungen}} und {part, plural, one {# teilweise Sitzung} other {# teilweise Sitzungen}} protokolliert. Über das gesamte Programm {done, plural, one {# vollständige Sitzung} other {# vollständige Sitzungen}}.",
+        "p2": "Das wird festgehalten, damit Sie und eine Fachperson das Muster neben den Messungen sehen können. Es ist keine Punktzahl, und niemand bewertet es."
+      },
+      "noticed": {
+        "h": "Was Ihnen aufgefallen ist",
+        "intro": "Diese Einträge haben Sie selbst geschrieben, und oft liest eine Fachperson sie zuerst:"
+      },
+      "not": {
+        "h": "Was dieser Bericht nicht sagt",
+        "p": "Er sagt Ihren Verlauf nicht voraus, weil diese Daten keine ehrliche Prognose erlauben. Er vergibt keinen klinischen Schweregrad. Und er vergleicht Sie nicht mit anderen Patienten, weil dieser Vergleich Ihnen nichts Nützliches über Ihr eigenes Gesicht sagen würde."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Sitzungsprotokoll — Palsya",
+      "description": "Ein Kalender und eine Liste der Sitzungen, die Sie protokolliert haben."
+    },
+    "title": "Sitzungsprotokoll",
+    "pageSub": "Ein Protokoll, keine Punktetafel. Es existiert, damit Sie und eine Fachperson das Muster neben den Messungen sehen können.",
+    "prevMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat",
+    "session": "Sitzung",
+    "feltLabel": "Gefühl",
+    "minutesLabel": "Minuten",
+    "noteLabel": "Notiz",
+    "noSessionLogged": "Keine Sitzung protokolliert.",
+    "emptyDaysHint": "Leere Tage sind einfach leer. Es gibt keine Farbe für „Sie haben versagt\".",
+    "recentSessions": "Letzte Sitzungen",
+    "felt": "gefühlt: {comfort}",
+    "comfort": {
+      "good": "gut",
+      "tired": "müde",
+      "rushed": "gehetzt"
+    },
+    "minutes": "{n} Minuten",
+    "exercises": "{n, plural, one {# Übung} other {# Übungen}}",
+    "notStartedYet": "Noch nicht begonnen",
+    "noSessionsYet": "Noch keine Sitzungen protokolliert.",
+    "thingsYouNoticed": "Dinge, die Ihnen aufgefallen sind",
+    "addOne": "Eine hinzufügen",
+    "nothingYet": "Noch nichts. Die Funktion ändert sich oft, bevor sich die Geometrie ändert — „Ich habe aus einem Glas getrunken, ohne meine Lippe zu halten\" ist genau die Art von Sache, die es wert ist, notiert zu werden."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Meilensteine — Palsya",
+      "description": "Sachliche Beobachtungen aus Ihren eigenen Daten."
+    },
+    "title": "Meilensteine",
+    "pageSub": "Faktische Beobachtungen aus Ihren eigenen Daten. Keine Abzeichen, keine Punkte, und nichts, was Sie verlieren können.",
+    "explainer": "Ein Meilenstein erscheint, wenn etwas Bestimmtes passiert — ein Phasenwechsel oder eine Anzahl vollständiger Sitzungen. Er erscheint nie für Anstrengung und verschwindet nie.",
+    "nothingYet": "Noch nichts",
+    "firstArrives": "Ihr erster Meilenstein kommt mit Ihrer ersten vollständigen Sitzung.",
+    "rules": {
+      "firstSession": {
+        "title": "Erste vollständige Sitzung",
+        "body": "Sie haben Tape, Übungen und tägliche Routine an einem Tag erledigt. So sieht ab jetzt jeder Tag aus."
+      },
+      "sevenSessions": {
+        "title": "Sieben vollständige Sitzungen",
+        "body": "Sieben vollständige Sitzungen protokolliert. Auf Regelmäßigkeit in diesem Maß stützt sich die klinische Evidenz."
+      },
+      "thirtySessions": {
+        "title": "Dreißig vollständige Sitzungen",
+        "body": "Dreißig vollständige Sitzungen. Die meisten messbaren Veränderungen in der Gesichtsrehabilitation entstehen über einen solchen Zeitraum."
+      },
+      "stage": {
+        "title": "Wechsel in Phase {n} — {name}",
+        "body": "Ihr Programm wurde an Phase {n} angepasst: Tape, Übungen und Routine, die Sie jetzt sehen, sind die für diese Phase."
+      }
+    }
+  }
+}

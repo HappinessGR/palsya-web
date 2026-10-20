@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Equipo clínico de Palsya"
+  "authorTeam": "Equipo clínico de Palsya",
+  "faqPage": {
+    "meta": {
+      "title": "Preguntas frecuentes — Palsya",
+      "description": "Requisitos, plazos, precio, datos y las preguntas que la gente hace antes de registrarse."
+    },
+    "allGuides": "Todas las guías"
+  },
+  "article": {
+    "writtenBy": "Escrito por {author}",
+    "reviewedBy": "Revisado por {reviewer}",
+    "updated": "Actualizado el {date}",
+    "minRead": "{minutes} min de lectura",
+    "onThisPage": "En esta página",
+    "signoff": "Escrito por {author}, revisado por {reviewer}.",
+    "keepReading": "Sigue leyendo"
+  }
 }

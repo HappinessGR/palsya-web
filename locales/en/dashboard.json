@@ -123,5 +123,39 @@
       "hint": "Optional. Logged against today, visible to your clinician if you share it.",
       "placeholder": "e.g. Drank from a glass without holding the corner of my mouth."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Programme navigation",
+    "navLabel": "Programme",
+    "menu": "Menu",
+    "stageLabel": "Stage {n}",
+    "dayLabel": "Day {n}",
+    "account": "Account",
+    "freeTrial": "Free trial",
+    "subscriber": "Subscriber",
+    "signOut": "Sign out",
+    "help": "Help",
+    "scan": "Scan",
+    "groups": {
+      "programme": "Programme",
+      "progress": "Progress",
+      "historySupport": "History and support"
+    },
+    "nav": {
+      "today": "Today",
+      "taping": "Taping technique",
+      "exercises": "Facial exercises",
+      "routine": "Daily routine",
+      "scan": "Take a scan",
+      "phaseProgress": "Phase and progress",
+      "timeline": "Photo timeline",
+      "report": "Progress report",
+      "milestones": "Milestones",
+      "log": "Session log",
+      "consults": "Consultations",
+      "library": "Reference library",
+      "settings": "Settings",
+      "session": "Session"
+    }
   }
 }

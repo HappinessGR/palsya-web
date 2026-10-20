@@ -54,6 +54,10 @@ export const namespaces = [
   "emails",
   "passwordReset",
   "invite",
+  "appProgramme",
+  "appScan",
+  "appProgress",
+  "appSupport",
 ] as const;
 
 export function isLocale(value: unknown): value is Locale {

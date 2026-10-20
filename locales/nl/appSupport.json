@@ -1,0 +1,144 @@
+{
+  "library": {
+    "meta": {
+      "title": "Naslagbibliotheek — Palsya",
+      "description": "Gidsen voor je fase en je programmamateriaal."
+    },
+    "pageSub": "Alles uit de kennisbank, plus je eigen programmamateriaal. Gratis te lezen en gratis te delen.",
+    "forStage": "Voor fase {n}",
+    "recommendedNow": "Nu aanbevolen",
+    "minRead": "{n} min lezen",
+    "programmeMaterial": "Je programmamateriaal",
+    "tapingTitle": "Tapetechniek",
+    "tapingBlurb": "Alle drie de technieken, met de plaatsing van de strip en de spanning voor elk.",
+    "exercisesTitle": "Oefeningenbibliotheek",
+    "exercisesBlurb": "Elke oefening, waarom die erin zit, en de fout die mensen ermee maken.",
+    "routineTitle": "Dagelijkse routine",
+    "routineBlurb": "Oogverzorging, eten, slapen, en dit inpassen in een leven dat al bestaat.",
+    "allGuides": "Alle gidsen",
+    "minReadReviewed": "{n} min lezen · beoordeeld {date}"
+  },
+  "consults": {
+    "meta": {
+      "title": "Consulten — Palsya",
+      "description": "Je behandelaar en je consulten."
+    },
+    "pageSub": "Dertig minuten met een specialist in gezichtsrevalidatie. Jij kiest wie.",
+    "bookACall": "Gesprek boeken",
+    "completed": "Voltooid",
+    "booked": "Geboekt",
+    "noneYet": "Nog geen consulten",
+    "mostPeopleWrong": "De meeste mensen doen een of twee dingen verkeerd — meestal de spanning van de tape of hoeveel kracht ze zetten. Een behandelaar ziet dat meestal in de eerste tien minuten.",
+    "bookFirstCall": "Boek je eerste gesprek",
+    "bookingUnavailable": "Online boeken is nog niet beschikbaar. Er is niets voor je geboekt.",
+    "yourClinician": "Je behandelaar",
+    "noClinician": "Nog geen behandelaar toegewezen",
+    "noClinicianBody": "Zodra er een behandelaar aan je is toegewezen, verschijnt de naam hier."
+  },
+  "settings": {
+    "meta": {
+      "title": "Instellingen — Palsya",
+      "description": "Je account, herinneringen, taal, abonnement en privacy."
+    },
+    "tabs": {
+      "account": "Account",
+      "programme": "Programma",
+      "reminders": "Herinneringen en taal",
+      "subscription": "Abonnement",
+      "privacy": "Privacy en gegevens",
+      "security": "Beveiliging"
+    },
+    "notAvailable": "Nog niet beschikbaar",
+    "account": {
+      "yourDetails": "Je gegevens",
+      "fullName": "Volledige naam",
+      "email": "E-mailadres",
+      "managedHint": "Je naam en e-mailadres komen uit je inlogaccount. Neem contact op met support om ze te wijzigen.",
+      "accountCreated": "Account aangemaakt",
+      "programmeDay": "Programmadag"
+    },
+    "programme": {
+      "yourStage": "Je fase",
+      "stageLabel": "Fase {n}",
+      "askClinicianReview": "Vraag een behandelaar dit te beoordelen",
+      "reviewPendingTitle": "Een beoordeling door een behandelaar is in behandeling.",
+      "reviewPendingBody": "Je kunt intussen gewoon doorgaan met je programma; als de beoordeling iets verandert, hoor je wat en waarom.",
+      "onsetDate": "Begindatum",
+      "daysSinceOnset": "Dagen sinds begin",
+      "placementConfidence": "Zekerheid van indeling",
+      "confidence": {
+        "high": "hoog",
+        "medium": "gemiddeld",
+        "low": "laag"
+      },
+      "retakeAssessment": "De vragenlijst opnieuw invullen",
+      "retakeAssessmentHint": "Als er veel veranderd is — nieuwe beweging, synkinesie, een periode van ziekte — word je opnieuw ingedeeld. Je geschiedenis blijft bewaard.",
+      "retakeAssessmentBtn": "Vragenlijst opnieuw invullen"
+    },
+    "reminders": {
+      "reminders": "Herinneringen",
+      "remindersHint": "Eén herinnering per sessie, op een tijd die jij kiest. Op een gemiste volgt niets, en niets suggereert dat je iemand hebt teleurgesteld.",
+      "sessionReminders": "Sessieherinneringen",
+      "firstSession": "Eerste sessie",
+      "secondSession": "Tweede sessie",
+      "weeklySummary": "Wekelijkse e-mailsamenvatting van wat is gemeten en vastgelegd",
+      "clinicianUpdates": "Mail me als een behandelaar een notitie toevoegt of mijn programma wijzigt",
+      "languageAndDisplay": "Taal en weergave",
+      "language": "Taal",
+      "languageHint": "Wijzigt de taal van de interface meteen.",
+      "textSize": "Tekstgrootte",
+      "textSizeNormal": "Normaal",
+      "textSizeLarge": "Groot",
+      "textSizeXl": "Extra groot",
+      "mirrorCamera": "Spiegel het camerabeeld tijdens scans",
+      "saveChanges": "Wijzigingen opslaan",
+      "saved": "Opgeslagen.",
+      "saveFailed": "Dat is niet opgeslagen. Probeer het opnieuw."
+    },
+    "subscription": {
+      "noSubscription": "Geen abonnement",
+      "seePlans": "Bekijk abonnementen",
+      "plan": "Je abonnement",
+      "freeTrial": "Gratis proefperiode",
+      "active": "Actief",
+      "cancelledStatus": "Opgezegd",
+      "pastDue": "Betaling achterstallig",
+      "firstCharge": "Eerste afschrijving",
+      "renews": "Verlengt",
+      "accessUntil": "Toegang tot",
+      "changePlan": "Abonnement wijzigen",
+      "cancelSubscription": "Abonnement opzeggen",
+      "cancelHint": "Online opzeggen is nog niet mogelijk. Neem contact op met support, dan zeggen wij het voor je op."
+    },
+    "privacy": {
+      "yourConsents": "Je toestemmingen",
+      "consentsHint": "Waarmee je bij het aanmelden hebt ingestemd. Een toestemming wijzigen kan hier nog niet — neem contact op met support als je er een wilt aanpassen.",
+      "required": "Verplicht",
+      "granted": "Gegeven op {date}",
+      "notGiven": "Niet gegeven",
+      "consent": {
+        "data_processing": "Verwerking van mijn gezondheidsgegevens",
+        "photo_storage_analysis": "Analyse van scans van mijn gezicht",
+        "photo_keep": "Opslag van mijn scanfoto's",
+        "clinician_share": "Voortgang delen met een behandelaar die ik kies",
+        "research_opt_in": "Geanonimiseerde gegevens voor onderzoek",
+        "marketing": "Af en toe productmails"
+      },
+      "yourData": "Je gegevens",
+      "exportEverything": "Alles exporteren",
+      "deleteAccount": "Je account verwijderen",
+      "deleteAccountHint": "Definitief. Afbeeldingen verdwijnen binnen 30 dagen, al het andere binnen 90, behalve facturen die we wettelijk moeten bewaren. Heractiveren is niet mogelijk.",
+      "deleteAllMyData": "Mijn account en al mijn gegevens verwijderen",
+      "selfServiceHint": "Zelf je gegevens exporteren of verwijderen kan nog niet. Neem contact op met support, dan doen wij het voor je."
+    },
+    "security": {
+      "signInSecurity": "Inloggen en beveiliging",
+      "twoStepVerification": "Verificatie in twee stappen",
+      "on": "Aan",
+      "off": "Uit",
+      "lastSignIn": "Laatst ingelogd",
+      "changePassword": "Wachtwoord wijzigen",
+      "signOut": "Uitloggen"
+    }
+  }
+}

@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Équipe clinique de Palsya"
+  "authorTeam": "Équipe clinique de Palsya",
+  "faqPage": {
+    "meta": {
+      "title": "Questions fréquentes — Palsya",
+      "description": "Critères d'admissibilité, délais, coût, données, et les questions que l'on se pose avant de s'inscrire."
+    },
+    "allGuides": "Tous les guides"
+  },
+  "article": {
+    "writtenBy": "Écrit par {author}",
+    "reviewedBy": "Relu par {reviewer}",
+    "updated": "Mis à jour le {date}",
+    "minRead": "{minutes} min de lecture",
+    "onThisPage": "Sur cette page",
+    "signoff": "Écrit par {author}, relu par {reviewer}.",
+    "keepReading": "Poursuivre la lecture"
+  }
 }

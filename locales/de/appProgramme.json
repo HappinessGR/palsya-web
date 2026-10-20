@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Tapetechnik — Palsya",
+      "description": "Die Tapetechniken des Programms, Ihre ist hervorgehoben."
+    },
+    "pageTitle": "Tapetechnik",
+    "pageSub": "Drei Techniken über das gesamte Programm hinweg. Ihre ist hervorgehoben — die anderen sind hier, damit Sie sehen, wohin das führt.",
+    "todaysSession": "Heutige Sitzung",
+    "patchTestTitle": "Hauttest vor der ersten Anwendung.",
+    "patchTestBody": "Ein 3 cm großes Stück an der Innenseite des Unterarms für 24 Stunden. Und tapen Sie niemals über das Augenlid, es sei denn, eine Fachperson hat Ihnen eine spezielle Technik dafür gezeigt.",
+    "stagesWear": "Phasen {stages} · Tragedauer {wear}",
+    "currentTechnique": "Ihre aktuelle Technik",
+    "tension": "Spannung:",
+    "stripFromTo": "Von {from} bis {to}.",
+    "safetyEveryTime": "Sicherheit, jedes Mal",
+    "fullGuide": "Vollständiger Tape-Leitfaden",
+    "safety": {
+      "s1": "Die Haut muss sauber, trocken und frei von Ölen oder Cremes sein. Sonst hält das Tape nicht.",
+      "s2": "Runden Sie die Ecken jedes Streifens ab — eckige Ecken lösen sich und bleiben an Kleidung hängen.",
+      "s3": "Reiben Sie das Tape nach dem Anbringen 10 Sekunden lang. Der Kleber wird durch Wärme aktiviert.",
+      "s4": "Entfernen Sie das Tape langsam, in Wuchsrichtung der Haare, idealerweise unter der Dusche.",
+      "s5": "Entfernen Sie es sofort und stoppen Sie, wenn Juckreiz, Brennen, Ausschlag oder Blasenbildung auftreten.",
+      "s6": "Kleben Sie niemals über das Augenlid oder in die Augenhöhle.",
+      "s7": "Kleben Sie nicht über verletzte, sonnenverbrannte oder infizierte Haut.",
+      "s8": "Legen Sie mindestens einmal pro Woche einen tapefreien Tag ein, damit sich die Haut erholen kann."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Gesichtsübungen — Palsya",
+      "description": "Die Übungen in Ihrem Programm in Ihrer aktuellen Phase, plus die, die später kommen."
+    },
+    "title": "Gesichtsübungen",
+    "sub": "Die {n} Übungen in Ihrem Programm in Phase {stage}, plus die, die später kommen.",
+    "runToday": "Heutige Sitzung starten",
+    "thirdEffortTitle": "Etwa ein Drittel Ihrer maximalen Anstrengung.",
+    "thirdEffortBody": "Wenn Sie die Zähne zusammenbeißen oder den Atem anhalten, sind Sie weit darüber hinaus. Das fühlt sich an, als würden Sie sich gar nicht wirklich anstrengen — und das ist die richtige Dosis.",
+    "inProgrammeNow": "Aktuell in Ihrem Programm",
+    "noneNow": "In dieser Phase gibt es keine Übungen — das Programm ist im Moment bewusst ruhig.",
+    "laterInProgramme": "Später im Programm",
+    "notYet": "Noch nicht. Diese Übungen vor der eigenen Phase zu machen ist eine der Arten, wie man sich selbst ausbremst.",
+    "why": "Warum:",
+    "watchFor": "Achten Sie auf:",
+    "repetitions": "Wiederholungen",
+    "hold": "Halten",
+    "restBetween": "Pause dazwischen",
+    "seconds": "{n} Sekunden",
+    "stages": "Phasen"
+  },
+  "routine": {
+    "meta": {
+      "title": "Tägliche Routine — Palsya",
+      "description": "Augenpflege, Essen, Massage, Schlaf und Sprechen — der Teil der Genesung, der keine Übungen sind."
+    },
+    "title": "Tägliche Routine",
+    "sub": "Der Teil, der keine Übungen sind, und der etwa drei Viertel dessen ausmacht, was eine Genesung gut verlaufen lässt.",
+    "eyeCareTitle": "Wenn sich Ihr Auge nicht vollständig schließt, hat die Augenpflege Vorrang vor jeder Übung in Ihrem Programm.",
+    "eyeCareBody": "Hornhautschäden durch Austrocknung sind die einzige Komplikation der Gesichtslähmung, die bleibenden Schaden verursachen kann, und sie ist weitgehend vermeidbar. Schmerzen, Rötung oder veränderte Sicht bedeuten: noch heute zum Arzt.",
+    "fullGuide": "Der vollständige Leitfaden für eine Routine, die hält"
+  }
+}

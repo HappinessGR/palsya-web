@@ -123,5 +123,39 @@
       "hint": "Opcional. Se registra en el día de hoy y su clínico puede verlo si lo comparte.",
       "placeholder": "p. ej., He bebido de un vaso sin sujetarme la comisura de la boca."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Navegación del programa",
+    "navLabel": "Programa",
+    "menu": "Menú",
+    "stageLabel": "Etapa {n}",
+    "dayLabel": "Día {n}",
+    "account": "Cuenta",
+    "freeTrial": "Prueba gratuita",
+    "subscriber": "Suscriptor",
+    "signOut": "Cerrar sesión",
+    "help": "Ayuda",
+    "scan": "Escanear",
+    "groups": {
+      "programme": "Programa",
+      "progress": "Progreso",
+      "historySupport": "Historial y soporte"
+    },
+    "nav": {
+      "today": "Hoy",
+      "taping": "Técnica de vendaje",
+      "exercises": "Ejercicios faciales",
+      "routine": "Rutina diaria",
+      "scan": "Hacer un escaneo",
+      "phaseProgress": "Fase y progreso",
+      "timeline": "Cronología de fotos",
+      "report": "Informe de progreso",
+      "milestones": "Hitos",
+      "log": "Registro de sesiones",
+      "consults": "Consultas",
+      "library": "Biblioteca de referencia",
+      "settings": "Ajustes",
+      "session": "Sesión"
+    }
   }
 }

@@ -85,6 +85,9 @@ li::marker { color: var(--ink-4); }
 .prose h2 { font-size: var(--t-2xl); margin: var(--s-8) 0 var(--s-3); }
 .prose h3 { font-size: var(--t-lg); margin: var(--s-7) 0 var(--s-2); }
 .prose > p + p { margin-top: 0; }
+.prose ul, .prose ol { margin-block: var(--s-3) var(--s-4); }
+.prose li { margin-bottom: .5em; }
+.prose h2 { scroll-margin-top: var(--s-9); }
 .prose strong { color: var(--ink); font-weight: 600; }
 
 .wrap { width: 100%; max-width: var(--wide); margin-inline: auto; padding-inline: var(--s-6); }

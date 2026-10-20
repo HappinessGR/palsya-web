@@ -1,0 +1,117 @@
+{
+  "scan": {
+    "meta": {
+      "title": "Hacer un escaneo — Palsya",
+      "description": "Una captura facial guiada con comprobación en directo de luz, nitidez y encuadre."
+    },
+    "title": "Nuevo escaneo",
+    "shortSteps": "{n} pasos breves, unos noventa segundos.",
+    "leave": "Salir",
+    "stepOf": "Paso {n} de {of}",
+    "startCapture": "Iniciar captura",
+    "captureThisOne": "Capturar esta",
+    "startOver": "Empezar de nuevo",
+    "gettingReady": "Preparando…",
+    "cameraOff": "Cámara apagada",
+    "cameraUnavailableTitle": "La cámara no está disponible aquí.",
+    "tryAgain": "Intentar de nuevo",
+    "close": "Cerrar",
+    "worthComparing": "Para un escaneo que valga la pena comparar",
+    "tip1": "Colócate frente a una ventana, o pon una lámpara delante de ti — nunca a un lado. La luz lateral se lee como asimetría.",
+    "tip2": "El mismo lugar y la misma hora del día cada semana, si puedes.",
+    "tip3": "Sin gafas, pelo apartado de la cara, barbilla nivelada.",
+    "tip4": "Apoya el dispositivo en lugar de sostenerlo con la mano.",
+    "qualityGood": "Buena calidad de imagen",
+    "qualityAllGood": "La iluminación, la nitidez y el encuadre están bien. Brillo medido {mean}, diferencia izquierda-derecha {evenness}.",
+    "poorQualityTitle": "La calidad de la imagen es baja",
+    "poorQualityBody": "Un escaneo hecho con mala luz o desenfocado produce un número que parece una medición y no lo es. Preferimos que primero arregles la luz.",
+    "captureAnyway": "Capturar de todos modos",
+    "letMeFixIt": "Déjame corregirlo",
+    "captureNote": "La cámara y las comprobaciones de calidad de imagen son reales. Tus fotogramas se quedan en este dispositivo para que los revises y se descartan al salir de esta página.",
+    "quality": {
+      "good": "buena",
+      "fair": "aceptable",
+      "poor": "mala"
+    },
+    "errors": {
+      "noApi": "Este navegador no ofrece acceso a la cámara.",
+      "insecure": "Los navegadores solo permiten usar la cámara a través de una conexión segura (https).",
+      "denied": "Se denegó el permiso de la cámara. Puedes cambiarlo desde el icono del candado en la barra de direcciones.",
+      "notFound": "No se encontró ninguna cámara en este dispositivo.",
+      "generic": "No se pudo iniciar la cámara."
+    },
+    "steps": {
+      "position": {
+        "title": "Centra tu cara",
+        "msg": "Llena el contorno con tu cara",
+        "sub": "De frente, barbilla nivelada, ambas orejas visibles si puedes."
+      },
+      "rest": {
+        "title": "Reposo",
+        "msg": "Deja la cara completamente relajada",
+        "sub": "Sin sonreír ni fruncir el ceño. Ojos abiertos, mirando a la cámara."
+      },
+      "brow": {
+        "title": "Levanta las cejas",
+        "msg": "Levanta ambas cejas",
+        "sub": "Como si estuvieras un poco sorprendido. Mantén mientras capturamos."
+      },
+      "smile": {
+        "title": "Sonrisa suave",
+        "msg": "Pequeña sonrisa con los labios cerrados",
+        "sub": "Más o menos un tercio de tu máximo. No una grande."
+      },
+      "eyes": {
+        "title": "Cierra los ojos",
+        "msg": "Cierra ambos ojos suavemente",
+        "sub": "Como si te quedaras dormido. No aprietes."
+      }
+    },
+    "issues": {
+      "dark": {
+        "t": "Demasiado oscuro",
+        "fix": "Ponte frente a una ventana o enciende una luz delante de ti."
+      },
+      "bright": {
+        "t": "Demasiado brillante",
+        "fix": "Aléjate de la fuente de luz o baja una persiana."
+      },
+      "uneven": {
+        "t": "La luz viene de un lado",
+        "fix": "La luz lateral crea sombras que se leen como asimetría. Gírate hacia la luz."
+      },
+      "blur": {
+        "t": "La imagen está borrosa",
+        "fix": "Mantén el dispositivo estable y limpia la lente."
+      },
+      "flat": {
+        "t": "Muy poco contraste",
+        "fix": "Más luz, y aléjate de una pared lisa y clara."
+      },
+      "motion": {
+        "t": "Quédate quieto",
+        "fix": "Apoya el dispositivo si puedes."
+      }
+    },
+    "review": {
+      "complete": "Captura completa · {date}",
+      "title": "Revisa tus fotogramas",
+      "sub": "Un fotograma por paso, tal como lo vio la cámara.",
+      "notAvailableTitle": "La medición y el guardado aún no están disponibles.",
+      "notAvailableBody": "No se calcula ninguna puntuación de simetría y estos fotogramas no se guardan: se descartan al salir de esta página. El historial de escaneos y la medición aparecerán aquí cuando estén listos.",
+      "frameQuality": "imagen {quality}",
+      "backToToday": "Volver a hoy",
+      "retake": "Repetir"
+    }
+  },
+  "timeline": {
+    "meta": {
+      "title": "Cronología de fotos — Palsya",
+      "description": "Todos los escaneos que has hecho, uno al lado del otro."
+    },
+    "title": "Cronología de fotos",
+    "nothingYet": "Todavía no hay nada aquí",
+    "fillsUp": "Tu cronología se va llenando un escaneo a la vez. El primero es la referencia con la que se mide todo lo demás.",
+    "takeBaselineScan": "Haz tu escaneo de referencia"
+  }
+}

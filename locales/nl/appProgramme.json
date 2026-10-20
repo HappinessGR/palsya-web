@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Tapetechniek — Palsya",
+      "description": "De tapetechnieken in het programma, met die van jou uitgelicht."
+    },
+    "pageTitle": "Tapetechniek",
+    "pageSub": "Drie technieken in het programma. Die van jou is uitgelicht — de andere staan hier zodat je kunt zien waar dit naartoe gaat.",
+    "todaysSession": "Sessie van vandaag",
+    "patchTestTitle": "Doe een huidtest vóór je eerste toepassing.",
+    "patchTestBody": "Een stukje van 3 cm aan de binnenkant van je onderarm, 24 uur lang. En tape nooit over het ooglid, tenzij een zorgverlener je daar een specifieke techniek voor heeft laten zien.",
+    "stagesWear": "Fases {stages} · dragen {wear}",
+    "currentTechnique": "Je huidige techniek",
+    "tension": "Spanning:",
+    "stripFromTo": "Van {from} naar {to}.",
+    "safetyEveryTime": "Veiligheid, elke keer",
+    "fullGuide": "Volledige tapegids",
+    "safety": {
+      "s1": "De huid moet schoon, droog en vrij van olie of crème zijn. Anders blijft de tape niet zitten.",
+      "s2": "Rond de hoeken van elke strook af — vierkante hoeken laten los en blijven haken aan kleding.",
+      "s3": "Wrijf de tape na het aanbrengen 10 seconden in. De lijm wordt door warmte geactiveerd.",
+      "s4": "Verwijder de tape langzaam, in de groeirichting van het haar, het liefst onder de douche.",
+      "s5": "Verwijder de tape meteen en stop bij jeuk, branderigheid, uitslag of blaren.",
+      "s6": "Tape nooit over het ooglid of in de oogkas.",
+      "s7": "Tape niet over beschadigde, verbrande of geïnfecteerde huid.",
+      "s8": "Neem minstens één keer per week een tapevrije dag zodat de huid kan herstellen."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Gezichtsoefeningen — Palsya",
+      "description": "De oefeningen in je programma in je huidige fase, plus de oefeningen die later komen."
+    },
+    "title": "Gezichtsoefeningen",
+    "sub": "De {n} oefeningen in je programma in Fase {stage}, plus de oefeningen die later komen.",
+    "runToday": "Start de sessie van vandaag",
+    "thirdEffortTitle": "Ongeveer een derde van je maximale inspanning.",
+    "thirdEffortBody": "Als je je tanden op elkaar klemt of je adem inhoudt, zit je er ver boven. Het voelt alsof je niet echt je best doet, en dat is precies de juiste dosis.",
+    "inProgrammeNow": "Nu in je programma",
+    "noneNow": "Geen oefeningen in deze fase — het programma is op dit moment bewust rustig.",
+    "laterInProgramme": "Later in het programma",
+    "notYet": "Nog niet. Deze oefeningen vóór je fase doen is een van de manieren waarop mensen zichzelf vertragen.",
+    "why": "Waarom:",
+    "watchFor": "Let op:",
+    "repetitions": "Herhalingen",
+    "hold": "Vasthouden",
+    "restBetween": "Rust tussendoor",
+    "seconds": "{n} seconden",
+    "stages": "Fases"
+  },
+  "routine": {
+    "meta": {
+      "title": "Dagelijkse routine — Palsya",
+      "description": "Oogverzorging, eten, massage, slaap en spraak — het deel van herstel dat geen oefeningen zijn."
+    },
+    "title": "Dagelijkse routine",
+    "sub": "Het deel dat geen oefeningen is, en ongeveer driekwart van wat herstel goed laat verlopen.",
+    "eyeCareTitle": "Als je oog niet volledig sluit, gaat oogverzorging boven elke oefening in je programma.",
+    "eyeCareBody": "Schade aan het hoornvlies door uitdroging is de enige complicatie van aangezichtsverlamming die blijvende schade kan geven, en is grotendeels te voorkomen. Pijn, roodheid of veranderd zicht betekent vandaag nog naar een arts.",
+    "fullGuide": "De volledige gids voor een routine die standhoudt"
+  }
+}

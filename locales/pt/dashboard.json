@@ -123,5 +123,39 @@
       "hint": "Opcional. Fica registado no dia de hoje e visível para o seu clínico, se o partilhar.",
       "placeholder": "p. ex., Bebi por um copo sem segurar o canto da boca."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Navegação do programa",
+    "navLabel": "Programa",
+    "menu": "Menu",
+    "stageLabel": "Etapa {n}",
+    "dayLabel": "Dia {n}",
+    "account": "Conta",
+    "freeTrial": "Período de teste gratuito",
+    "subscriber": "Subscritor",
+    "signOut": "Terminar sessão",
+    "help": "Ajuda",
+    "scan": "Analisar",
+    "groups": {
+      "programme": "Programa",
+      "progress": "Progresso",
+      "historySupport": "Histórico e apoio"
+    },
+    "nav": {
+      "today": "Hoje",
+      "taping": "Técnica de ligadura",
+      "exercises": "Exercícios faciais",
+      "routine": "Rotina diária",
+      "scan": "Fazer uma análise",
+      "phaseProgress": "Fase e progresso",
+      "timeline": "Cronologia de fotos",
+      "report": "Relatório de progresso",
+      "milestones": "Marcos",
+      "log": "Registo de sessões",
+      "consults": "Consultas",
+      "library": "Biblioteca de referência",
+      "settings": "Definições",
+      "session": "Sessão"
+    }
   }
 }

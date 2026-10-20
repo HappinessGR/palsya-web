@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Taping technique — Palsya",
+      "description": "The taping techniques across the programme, with yours highlighted."
+    },
+    "pageTitle": "Taping technique",
+    "pageSub": "Three techniques across the programme. Yours is highlighted — the others are here so you can see where this goes.",
+    "todaysSession": "Today's session",
+    "patchTestTitle": "Patch-test before your first application.",
+    "patchTestBody": "A 3 cm piece on your inner forearm for 24 hours. And never tape across the eyelid unless a clinician has shown you a specific technique for it.",
+    "stagesWear": "Stages {stages} · wear {wear}",
+    "currentTechnique": "Your current technique",
+    "tension": "Tension:",
+    "stripFromTo": "From {from} to {to}.",
+    "safetyEveryTime": "Safety, every time",
+    "fullGuide": "Full taping guide",
+    "safety": {
+      "s1": "Skin must be clean, dry, and free of oils or creams. Tape will not hold otherwise.",
+      "s2": "Round the corners of every strip — square corners lift and catch on clothing.",
+      "s3": "Rub the tape for 10 seconds after applying. The adhesive is heat-activated.",
+      "s4": "Remove tape slowly, in the direction of hair growth, ideally in the shower.",
+      "s5": "Remove immediately and stop if you get itching, burning, a rash, or blistering.",
+      "s6": "Never tape across the eyelid or inside the eye socket.",
+      "s7": "Do not tape over broken, sunburnt, or infected skin.",
+      "s8": "Take a rest day from tape at least once a week to let the skin recover."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Facial exercises — Palsya",
+      "description": "The exercises in your programme at your current stage, plus the ones that come later."
+    },
+    "title": "Facial exercises",
+    "sub": "The {n} exercises in your programme at Stage {stage}, plus the ones that come later.",
+    "runToday": "Run today's session",
+    "thirdEffortTitle": "Roughly a third of your maximum effort.",
+    "thirdEffortBody": "If you are gritting your teeth or holding your breath, you are far past it. This feels like not really trying, and it is the correct dose.",
+    "inProgrammeNow": "In your programme now",
+    "noneNow": "No exercises at this stage — the programme is deliberately quiet right now.",
+    "laterInProgramme": "Later in the programme",
+    "notYet": "Not yet. Doing these ahead of your stage is one of the ways people slow themselves down.",
+    "why": "Why:",
+    "watchFor": "Watch for:",
+    "repetitions": "Repetitions",
+    "hold": "Hold",
+    "restBetween": "Rest between",
+    "seconds": "{n} seconds",
+    "stages": "Stages"
+  },
+  "routine": {
+    "meta": {
+      "title": "Daily routine — Palsya",
+      "description": "Eye care, eating, massage, sleep and speech — the part of recovery that is not exercises."
+    },
+    "title": "Daily routine",
+    "sub": "The part that is not exercises, and is roughly three quarters of what makes recovery go well.",
+    "eyeCareTitle": "If your eye does not close fully, eye care outranks every exercise in your programme.",
+    "eyeCareBody": "Corneal damage from exposure is the one complication of facial paralysis that can cause lasting harm, and it is largely preventable. Pain, redness, or changed vision means a doctor today.",
+    "fullGuide": "The full guide to building a routine that holds"
+  }
+}

@@ -123,5 +123,39 @@
       "hint": "Optional. Wird für heute gespeichert und ist für Ihre Fachkraft sichtbar, wenn Sie es teilen.",
       "placeholder": "z. B. Aus einem Glas getrunken, ohne den Mundwinkel festzuhalten."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Programmnavigation",
+    "navLabel": "Programm",
+    "menu": "Menü",
+    "stageLabel": "Phase {n}",
+    "dayLabel": "Tag {n}",
+    "account": "Konto",
+    "freeTrial": "Kostenlose Testphase",
+    "subscriber": "Abonnent",
+    "signOut": "Abmelden",
+    "help": "Hilfe",
+    "scan": "Scannen",
+    "groups": {
+      "programme": "Programm",
+      "progress": "Fortschritt",
+      "historySupport": "Verlauf und Support"
+    },
+    "nav": {
+      "today": "Heute",
+      "taping": "Tapetechnik",
+      "exercises": "Gesichtsübungen",
+      "routine": "Tägliche Routine",
+      "scan": "Scan durchführen",
+      "phaseProgress": "Phase und Fortschritt",
+      "timeline": "Foto-Zeitleiste",
+      "report": "Fortschrittsbericht",
+      "milestones": "Meilensteine",
+      "log": "Sitzungsprotokoll",
+      "consults": "Beratungen",
+      "library": "Referenzbibliothek",
+      "settings": "Einstellungen",
+      "session": "Sitzung"
+    }
   }
 }

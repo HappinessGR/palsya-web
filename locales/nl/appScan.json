@@ -1,0 +1,117 @@
+{
+  "scan": {
+    "meta": {
+      "title": "Scan maken — Palsya",
+      "description": "Een begeleide gezichtsopname met live controle van licht, scherpte en kadrering."
+    },
+    "title": "Nieuwe scan",
+    "shortSteps": "{n} korte stappen, ongeveer negentig seconden.",
+    "leave": "Verlaten",
+    "stepOf": "Stap {n} van {of}",
+    "startCapture": "Opname starten",
+    "captureThisOne": "Deze vastleggen",
+    "startOver": "Opnieuw beginnen",
+    "gettingReady": "Bezig met voorbereiden…",
+    "cameraOff": "Camera uit",
+    "cameraUnavailableTitle": "De camera is hier niet beschikbaar.",
+    "tryAgain": "Opnieuw proberen",
+    "close": "Sluiten",
+    "worthComparing": "Voor een scan die het vergelijken waard is",
+    "tip1": "Ga voor een raam zitten, of zet een lamp vóór je — nooit opzij. Licht van opzij lijkt op asymmetrie.",
+    "tip2": "Elke week dezelfde plek en hetzelfde tijdstip, als dat lukt.",
+    "tip3": "Geen bril, haar uit het gezicht, kin recht.",
+    "tip4": "Zet het apparaat ergens tegenaan in plaats van het vast te houden.",
+    "qualityGood": "Beeldkwaliteit goed",
+    "qualityAllGood": "Belichting, scherpte en kadrering zijn allemaal in orde. Gemeten helderheid {mean}, verschil links-rechts {evenness}.",
+    "poorQualityTitle": "De beeldkwaliteit is slecht",
+    "poorQualityBody": "Een scan bij slecht licht of onscherp geeft een getal dat op een meting lijkt maar het niet is. We zien liever dat je eerst het licht verbetert.",
+    "captureAnyway": "Toch vastleggen",
+    "letMeFixIt": "Ik pas het aan",
+    "captureNote": "De camera en de controles van de beeldkwaliteit zijn echt. Je opnames blijven op dit apparaat zodat je ze kunt bekijken, en worden weggegooid wanneer je deze pagina verlaat.",
+    "quality": {
+      "good": "goed",
+      "fair": "redelijk",
+      "poor": "slecht"
+    },
+    "errors": {
+      "noApi": "Deze browser biedt geen toegang tot een camera.",
+      "insecure": "Browsers staan cameratoegang alleen toe via een beveiligde (https) verbinding.",
+      "denied": "Cameratoestemming is geweigerd. Je kunt dit wijzigen via het slotje in de adresbalk.",
+      "notFound": "Er is geen camera gevonden op dit apparaat.",
+      "generic": "De camera kon niet worden gestart."
+    },
+    "steps": {
+      "position": {
+        "title": "Zet je gezicht recht",
+        "msg": "Vul de omtrek met je gezicht",
+        "sub": "Recht van voren, kin recht, beide oren zichtbaar als dat lukt."
+      },
+      "rest": {
+        "title": "Rust",
+        "msg": "Laat je gezicht helemaal ontspannen",
+        "sub": "Niet lachen, niet fronsen. Ogen open, kijk in de camera."
+      },
+      "brow": {
+        "title": "Wenkbrauwen optrekken",
+        "msg": "Trek beide wenkbrauwen op",
+        "sub": "Alsof je een beetje verrast bent. Vasthouden tijdens de opname."
+      },
+      "smile": {
+        "title": "Zachte glimlach",
+        "msg": "Kleine glimlach met gesloten lippen",
+        "sub": "Ongeveer een derde van je maximum. Geen grote."
+      },
+      "eyes": {
+        "title": "Ogen sluiten",
+        "msg": "Sluit beide ogen zachtjes",
+        "sub": "Alsof je in slaap valt. Niet knijpen."
+      }
+    },
+    "issues": {
+      "dark": {
+        "t": "Te donker",
+        "fix": "Ga voor een raam zitten of doe een lamp vóór je aan."
+      },
+      "bright": {
+        "t": "Te fel",
+        "fix": "Ga verder van de lichtbron af of doe een gordijn dicht."
+      },
+      "uneven": {
+        "t": "Het licht komt van één kant",
+        "fix": "Licht van opzij geeft schaduw die op asymmetrie lijkt. Draai je naar het licht."
+      },
+      "blur": {
+        "t": "Het beeld is onscherp",
+        "fix": "Houd het apparaat stil en maak de lens schoon."
+      },
+      "flat": {
+        "t": "Heel weinig contrast",
+        "fix": "Meer licht, en ga wat verder van een effen lichte muur staan."
+      },
+      "motion": {
+        "t": "Stilhouden",
+        "fix": "Zet het apparaat ergens tegenaan als dat kan."
+      }
+    },
+    "review": {
+      "complete": "Opname voltooid · {date}",
+      "title": "Bekijk je opnames",
+      "sub": "Eén opname per stap, zoals de camera het zag.",
+      "notAvailableTitle": "Meten en opslaan zijn nog niet beschikbaar.",
+      "notAvailableBody": "Er wordt geen symmetriescore berekend en deze opnames worden niet opgeslagen — ze worden weggegooid wanneer je deze pagina verlaat. Scangeschiedenis en metingen verschijnen hier zodra ze klaar zijn.",
+      "frameQuality": "{quality} beeld",
+      "backToToday": "Terug naar vandaag",
+      "retake": "Opnieuw"
+    }
+  },
+  "timeline": {
+    "meta": {
+      "title": "Fototijdlijn — Palsya",
+      "description": "Al je scans, naast elkaar."
+    },
+    "title": "Fototijdlijn",
+    "nothingYet": "Hier staat nog niets",
+    "fillsUp": "Je tijdlijn vult zich scan voor scan. De eerste is de nulmeting waarmee al het andere wordt vergeleken.",
+    "takeBaselineScan": "Maak je nulmeting"
+  }
+}

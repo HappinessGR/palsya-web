@@ -123,5 +123,39 @@
       "hint": "Facultatif. Enregistré pour aujourd'hui, visible par votre clinicien si vous le partagez.",
       "placeholder": "Ex. : j'ai bu dans un verre sans tenir le coin de ma bouche."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Navigation du programme",
+    "navLabel": "Programme",
+    "menu": "Menu",
+    "stageLabel": "Étape {n}",
+    "dayLabel": "Jour {n}",
+    "account": "Compte",
+    "freeTrial": "Essai gratuit",
+    "subscriber": "Abonné",
+    "signOut": "Se déconnecter",
+    "help": "Aide",
+    "scan": "Scanner",
+    "groups": {
+      "programme": "Programme",
+      "progress": "Progrès",
+      "historySupport": "Historique et assistance"
+    },
+    "nav": {
+      "today": "Aujourd'hui",
+      "taping": "Technique de bandage",
+      "exercises": "Exercices faciaux",
+      "routine": "Routine quotidienne",
+      "scan": "Faire un scan",
+      "phaseProgress": "Phase et progrès",
+      "timeline": "Chronologie photo",
+      "report": "Rapport de progrès",
+      "milestones": "Jalons",
+      "log": "Journal des séances",
+      "consults": "Consultations",
+      "library": "Bibliothèque de référence",
+      "settings": "Paramètres",
+      "session": "Séance"
+    }
   }
 }

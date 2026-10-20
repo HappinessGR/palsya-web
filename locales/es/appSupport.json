@@ -1,0 +1,144 @@
+{
+  "library": {
+    "meta": {
+      "title": "Biblioteca de referencia — Palsya",
+      "description": "Guías para tu etapa y el material de tu programa."
+    },
+    "pageSub": "Todo lo que hay en la base de conocimientos, además del material de tu propio programa. Libre de leer y libre de compartir.",
+    "forStage": "Para la Etapa {n}",
+    "recommendedNow": "Recomendado ahora",
+    "minRead": "{n} min de lectura",
+    "programmeMaterial": "El material de tu programa",
+    "tapingTitle": "Técnica de vendaje",
+    "tapingBlurb": "Las tres técnicas, con la colocación de las tiras y la tensión de cada una.",
+    "exercisesTitle": "Biblioteca de ejercicios",
+    "exercisesBlurb": "Cada ejercicio, por qué está ahí, y el error que la gente comete con él.",
+    "routineTitle": "Rutina diaria",
+    "routineBlurb": "Cuidado ocular, alimentación, sueño, y cómo encajar todo esto en una vida que ya existe.",
+    "allGuides": "Todas las guías",
+    "minReadReviewed": "{n} min de lectura · revisado el {date}"
+  },
+  "consults": {
+    "meta": {
+      "title": "Consultas — Palsya",
+      "description": "Tu profesional clínico y tus consultas."
+    },
+    "pageSub": "Treinta minutos con un especialista en rehabilitación facial. Tú eliges con quién.",
+    "bookACall": "Reservar una llamada",
+    "completed": "Completadas",
+    "booked": "Reservadas",
+    "noneYet": "Aún no hay consultas",
+    "mostPeopleWrong": "La mayoría de las personas hacen mal una o dos cosas — normalmente la tensión del vendaje o el nivel de esfuerzo. Un clínico suele detectarlo en los primeros diez minutos.",
+    "bookFirstCall": "Reserva tu primera llamada",
+    "bookingUnavailable": "La reserva en línea aún no está disponible. No se ha reservado nada a tu nombre.",
+    "yourClinician": "Tu profesional clínico",
+    "noClinician": "Aún no tienes un profesional clínico asignado",
+    "noClinicianBody": "Cuando se te asigne un profesional clínico, su nombre aparecerá aquí."
+  },
+  "settings": {
+    "meta": {
+      "title": "Ajustes — Palsya",
+      "description": "Tu cuenta, recordatorios, idioma, suscripción y privacidad."
+    },
+    "tabs": {
+      "account": "Cuenta",
+      "programme": "Programa",
+      "reminders": "Recordatorios e idioma",
+      "subscription": "Suscripción",
+      "privacy": "Privacidad y datos",
+      "security": "Seguridad"
+    },
+    "notAvailable": "Aún no disponible",
+    "account": {
+      "yourDetails": "Tus datos personales",
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "managedHint": "Tu nombre y tu correo electrónico proceden de tu cuenta de inicio de sesión. Contacta con soporte para cambiarlos.",
+      "accountCreated": "Cuenta creada",
+      "programmeDay": "Día de programa"
+    },
+    "programme": {
+      "yourStage": "Tu etapa",
+      "stageLabel": "Etapa {n}",
+      "askClinicianReview": "Pedir a un clínico que revise esto",
+      "reviewPendingTitle": "Hay una revisión clínica pendiente.",
+      "reviewPendingBody": "Mientras tanto puedes continuar con tu programa; si la revisión cambia algo, se te dirá qué y por qué.",
+      "onsetDate": "Fecha de inicio",
+      "daysSinceOnset": "Días desde el inicio",
+      "placementConfidence": "Confianza de la asignación",
+      "confidence": {
+        "high": "Alta",
+        "medium": "Media",
+        "low": "Baja"
+      },
+      "retakeAssessment": "Repetir la evaluación",
+      "retakeAssessmentHint": "Si ha cambiado mucho — nuevo movimiento, aparición de sincinesias, un periodo de enfermedad — repetirla te reubica. Tu historial se conserva.",
+      "retakeAssessmentBtn": "Repetir evaluación"
+    },
+    "reminders": {
+      "reminders": "Recordatorios",
+      "remindersHint": "Un recordatorio por sesión, a la hora que elijas. Nada da seguimiento a uno que te hayas saltado, y nada implica que hayas defraudado a alguien.",
+      "sessionReminders": "Recordatorios de sesión",
+      "firstSession": "Primera sesión",
+      "secondSession": "Segunda sesión",
+      "weeklySummary": "Resumen semanal por correo de lo medido y registrado",
+      "clinicianUpdates": "Enviarme un correo cuando un clínico añada una nota o cambie mi programa",
+      "languageAndDisplay": "Idioma y visualización",
+      "language": "Idioma",
+      "languageHint": "Cambia el idioma de la interfaz al instante.",
+      "textSize": "Tamaño del texto",
+      "textSizeNormal": "Normal",
+      "textSizeLarge": "Grande",
+      "textSizeXl": "Muy grande",
+      "mirrorCamera": "Reflejar la vista previa de la cámara durante los escaneos",
+      "saveChanges": "Guardar cambios",
+      "saved": "Guardado.",
+      "saveFailed": "No se ha guardado. Inténtalo de nuevo."
+    },
+    "subscription": {
+      "noSubscription": "Sin suscripción",
+      "seePlans": "Ver planes",
+      "plan": "Tu plan",
+      "freeTrial": "Prueba gratuita",
+      "active": "Activa",
+      "cancelledStatus": "Cancelada",
+      "pastDue": "Pago pendiente",
+      "firstCharge": "Primer cobro",
+      "renews": "Se renueva",
+      "accessUntil": "Acceso hasta",
+      "changePlan": "Cambiar de plan",
+      "cancelSubscription": "Cancelar suscripción",
+      "cancelHint": "Aún no se puede cancelar en línea. Contacta con soporte y lo cancelaremos por ti."
+    },
+    "privacy": {
+      "yourConsents": "Tus consentimientos",
+      "consentsHint": "Lo que aceptaste al registrarte. Aún no se puede cambiar un consentimiento aquí; contacta con soporte si quieres cambiar alguno.",
+      "required": "Obligatorio",
+      "granted": "Dado el {date}",
+      "notGiven": "No dado",
+      "consent": {
+        "data_processing": "Procesar mis datos de salud",
+        "photo_storage_analysis": "Analizar los escaneos de mi rostro",
+        "photo_keep": "Almacenar las fotos de mis escaneos",
+        "clinician_share": "Compartir el progreso con un clínico que yo elija",
+        "research_opt_in": "Datos anonimizados para investigación",
+        "marketing": "Correos ocasionales sobre el producto"
+      },
+      "yourData": "Tus datos",
+      "exportEverything": "Exportar todo",
+      "deleteAccount": "Eliminar tu cuenta",
+      "deleteAccountHint": "Permanente. Las imágenes desaparecen en 30 días, todo lo demás en 90, excepto las facturas que estamos legalmente obligados a conservar. No hay reactivación.",
+      "deleteAllMyData": "Eliminar mi cuenta y todos mis datos",
+      "selfServiceHint": "Aún no puedes exportar ni eliminar tus datos por tu cuenta. Contacta con soporte y lo haremos por ti."
+    },
+    "security": {
+      "signInSecurity": "Inicio de sesión y seguridad",
+      "twoStepVerification": "Verificación en dos pasos",
+      "on": "Activado",
+      "off": "Desactivado",
+      "lastSignIn": "Último inicio de sesión",
+      "changePassword": "Cambiar contraseña",
+      "signOut": "Cerrar sesión"
+    }
+  }
+}

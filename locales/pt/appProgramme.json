@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Técnica de ligadura — Palsya",
+      "description": "As técnicas de ligadura do programa, com a sua destacada."
+    },
+    "pageTitle": "Técnica de ligadura",
+    "pageSub": "Três técnicas ao longo do programa. A sua está destacada — as outras estão aqui para que veja para onde isto vai.",
+    "todaysSession": "Sessão de hoje",
+    "patchTestTitle": "Teste de sensibilidade antes da primeira aplicação.",
+    "patchTestBody": "Um pedaço de 3 cm na face interna do antebraço durante 24 horas. E nunca coloque ligadura sobre a pálpebra a menos que um clínico lhe tenha mostrado uma técnica específica para isso.",
+    "stagesWear": "Etapas {stages} · usar {wear}",
+    "currentTechnique": "A sua técnica atual",
+    "tension": "Tensão:",
+    "stripFromTo": "De {from} até {to}.",
+    "safetyEveryTime": "Segurança, sempre",
+    "fullGuide": "Guia completo de ligadura",
+    "safety": {
+      "s1": "A pele deve estar limpa, seca e sem óleos ou cremes. Caso contrário, a fita não vai aderir.",
+      "s2": "Arredonde os cantos de cada tira — cantos quadrados levantam e prendem-se na roupa.",
+      "s3": "Esfregue a fita durante 10 segundos depois de a aplicar. O adesivo ativa-se com o calor.",
+      "s4": "Remova a fita devagar, na direção do crescimento do pelo, idealmente no duche.",
+      "s5": "Remova imediatamente e pare se sentir comichão, ardor, uma erupção cutânea ou bolhas.",
+      "s6": "Nunca coloque fita sobre a pálpebra ou dentro da órbita ocular.",
+      "s7": "Não coloque fita sobre pele ferida, queimada pelo sol ou infetada.",
+      "s8": "Faça uma pausa da fita pelo menos uma vez por semana para deixar a pele recuperar."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Exercícios faciais — Palsya",
+      "description": "Os exercícios do seu programa na sua etapa atual, mais os que virão depois."
+    },
+    "title": "Exercícios faciais",
+    "sub": "Os {n} exercícios do seu programa na Etapa {stage}, mais os que virão mais adiante.",
+    "runToday": "Iniciar a sessão de hoje",
+    "thirdEffortTitle": "Aproximadamente um terço do seu esforço máximo.",
+    "thirdEffortBody": "Se está a cerrar os dentes ou a prender a respiração, já foi muito além disso. Isto parece não estar mesmo a esforçar-se, e é a dose correta.",
+    "inProgrammeNow": "No seu programa agora",
+    "noneNow": "Não há exercícios nesta etapa — o programa é deliberadamente tranquilo por agora.",
+    "laterInProgramme": "Mais adiante no programa",
+    "notYet": "Ainda não. Fazer estes exercícios antes da sua etapa é uma das formas de as pessoas se atrasarem a si próprias.",
+    "why": "Porquê:",
+    "watchFor": "Atenção a:",
+    "repetitions": "Repetições",
+    "hold": "Manter",
+    "restBetween": "Descanso entre repetições",
+    "seconds": "{n} segundos",
+    "stages": "Etapas"
+  },
+  "routine": {
+    "meta": {
+      "title": "Rotina diária — Palsya",
+      "description": "Cuidado ocular, alimentação, massagem, sono e fala — a parte da recuperação que não são exercícios."
+    },
+    "title": "Rotina diária",
+    "sub": "A parte que não são exercícios, e que é aproximadamente três quartos do que faz a recuperação correr bem.",
+    "eyeCareTitle": "Se o seu olho não fecha completamente, o cuidado ocular tem prioridade sobre qualquer exercício do seu programa.",
+    "eyeCareBody": "A lesão da córnea por exposição é a única complicação da paralisia facial que pode causar dano duradouro, e é em grande parte evitável. Dor, vermelhidão ou visão alterada significa ir ao médico hoje.",
+    "fullGuide": "O guia completo para criar uma rotina que se mantém"
+  }
+}

@@ -1,0 +1,12 @@
+/* Settings tab strip — the legacy .bo-tabs rules (assets/css/app.css "Back office"),
+   which styles/app.css leaves out. Used by app/dashboard/settings. */
+.bo-tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--line); margin-bottom: var(--s-6); overflow-x: auto; }
+.bo-tab {
+  padding: 10px 15px; background: transparent; border: 0;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+  font-size: var(--t-base); font-weight: 600; color: var(--ink-3); white-space: nowrap;
+  transition: color .14s, border-color .14s;
+}
+.bo-tab:hover { color: var(--ink); }
+.bo-tab[aria-selected="true"], .bo-tab[aria-current="page"] { color: var(--brand-ink); border-bottom-color: var(--brand); }
+

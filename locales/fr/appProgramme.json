@@ -1,0 +1,62 @@
+{
+  "taping": {
+    "meta": {
+      "title": "Technique de bandage — Palsya",
+      "description": "Les techniques de bandage du programme, la vôtre mise en évidence."
+    },
+    "pageTitle": "Technique de bandage",
+    "pageSub": "Trois techniques tout au long du programme. La vôtre est mise en évidence — les autres sont là pour que vous voyiez où cela mène.",
+    "todaysSession": "Séance du jour",
+    "patchTestTitle": "Test cutané avant votre première application.",
+    "patchTestBody": "Un morceau de 3 cm sur la face interne de l'avant-bras pendant 24 heures. Et ne mettez jamais de bandage sur la paupière à moins qu'un clinicien vous ait montré une technique spécifique pour cela.",
+    "stagesWear": "Étapes {stages} · porter {wear}",
+    "currentTechnique": "Votre technique actuelle",
+    "tension": "Tension :",
+    "stripFromTo": "De {from} à {to}.",
+    "safetyEveryTime": "Sécurité, à chaque fois",
+    "fullGuide": "Guide complet du bandage",
+    "safety": {
+      "s1": "La peau doit être propre, sèche et exempte d'huiles ou de crèmes. Sinon, le tape ne tiendra pas.",
+      "s2": "Arrondissez les coins de chaque bande — les coins carrés se soulèvent et accrochent les vêtements.",
+      "s3": "Frottez le tape pendant 10 secondes après l'application. L'adhésif s'active à la chaleur.",
+      "s4": "Retirez le tape lentement, dans le sens de la pousse des poils, idéalement sous la douche.",
+      "s5": "Retirez-le immédiatement et arrêtez en cas de démangeaison, brûlure, éruption ou cloques.",
+      "s6": "Ne jamais poser de tape sur la paupière ni à l'intérieur de l'orbite.",
+      "s7": "Ne posez pas de tape sur une peau abîmée, brûlée par le soleil ou infectée.",
+      "s8": "Prenez au moins un jour de repos du tape par semaine pour laisser la peau récupérer."
+    }
+  },
+  "exercises": {
+    "meta": {
+      "title": "Exercices faciaux — Palsya",
+      "description": "Les exercices de votre programme à votre étape actuelle, plus ceux qui viennent plus tard."
+    },
+    "title": "Exercices faciaux",
+    "sub": "Les {n} exercices de votre programme à l'étape {stage}, plus ceux qui viennent plus tard.",
+    "runToday": "Lancer la séance du jour",
+    "thirdEffortTitle": "Environ un tiers de votre effort maximal.",
+    "thirdEffortBody": "Si vous serrez les dents ou retenez votre souffle, vous êtes largement au-delà. Cela donne l'impression de ne pas vraiment essayer, et c'est la bonne dose.",
+    "inProgrammeNow": "Dans votre programme actuellement",
+    "noneNow": "Aucun exercice à cette étape : le programme est volontairement calme pour l'instant.",
+    "laterInProgramme": "Plus tard dans le programme",
+    "notYet": "Pas encore. Faire ces exercices avant votre étape est l'une des façons dont on se ralentit soi-même.",
+    "why": "Pourquoi :",
+    "watchFor": "Attention à :",
+    "repetitions": "Répétitions",
+    "hold": "Maintien",
+    "restBetween": "Repos entre les répétitions",
+    "seconds": "{n} secondes",
+    "stages": "Étapes"
+  },
+  "routine": {
+    "meta": {
+      "title": "Routine quotidienne — Palsya",
+      "description": "Soin des yeux, repas, massage, sommeil et parole : la partie de la récupération qui n'est pas des exercices."
+    },
+    "title": "Routine quotidienne",
+    "sub": "La partie qui n'est pas des exercices, et qui représente environ les trois quarts de ce qui fait qu'une récupération se passe bien.",
+    "eyeCareTitle": "Si votre œil ne se ferme pas complètement, le soin des yeux prime sur tout exercice de votre programme.",
+    "eyeCareBody": "Les lésions cornéennes dues à l'exposition sont la seule complication de la paralysie faciale pouvant causer un préjudice durable, et elles sont largement évitables. Douleur, rougeur ou vision altérée signifie consulter un médecin aujourd'hui.",
+    "fullGuide": "Le guide complet pour construire une routine qui tient"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "common": {
+    "stageLabel": "Fase {n}",
+    "state": { "full": "Voltooid", "part": "Deels gedaan", "none": "Niet bijgehouden" },
+    "parts": { "taping": "Tapen", "exercises": "Oefeningen", "routine": "Routine" },
+    "yes": "Ja",
+    "no": "Nee"
+  },
+  "progress": {
+    "meta": {
+      "title": "Fase en voortgang — Palsya",
+      "description": "Je herstelfase, je bijgehouden sessies en hoe je fase in de loop van de tijd is veranderd."
+    },
+    "pageTitle": "Herstelfase en voortgang",
+    "pageSub": "Drie verschillende dingen, apart gehouden omdat ze verschillende dingen meten en in een ander tempo bewegen.",
+    "reportLink": "Voortgangsrapport",
+    "newScan": "Nieuwe scan",
+    "yourStage": "Je fase",
+    "daysInStage": "Dagen in deze fase",
+    "typicalWindow": "Gebruikelijke periode",
+    "daysSinceOnset": "Dagen sinds het begin",
+    "howStageChanged": "Hoe je fase is veranderd",
+    "noPhase": "Er is nog geen fase toegewezen.",
+    "fromAssessment": "uit je beoordeling",
+    "fromProgress": "uit je voortgang",
+    "setByClinician": "ingesteld door een behandelaar",
+    "threeThingsAtOnce": "Drie dingen tegelijk",
+    "threeThingsBody": "Er bestaat geen enkel \"percentage hersteld\", omdat er geen eerlijke manier is om dat te berekenen. Deze drie kunnen we wel echt meten.",
+    "measuredSymmetryChange": "Gemeten verandering in symmetrie",
+    "sessionsLogged": "Bijgehouden sessies",
+    "functionReported": "Functie die je meldde",
+    "symmetryScore": "symmetriescore",
+    "arcAria": "Voortgang in gemeten symmetrie, bijgehouden sessies en gemelde functie",
+    "measuredSymmetry": "Gemeten symmetrie",
+    "noBaselineYet": "nog geen nulmeting",
+    "completeIn28": "{n} voltooid in de afgelopen 28 dagen",
+    "observationsRecorded": "{n, plural, one {# observatie} other {# observaties}} vastgelegd",
+    "threeArcsHint": "Bewust drie aparte bogen. Eén gecombineerd cijfer zou verbergen dat de score gelijk kan blijven terwijl je ineens weer uit een glas kunt drinken — en dat is juist wat het meest telt.",
+    "sessionsLast28": "Sessies, afgelopen 28 dagen",
+    "patternAria": "Sessies in de afgelopen {n} dagen",
+    "allTime": "Totaal",
+    "noStreakHint": "Geen reeks, geen doel, geen percentage. Dit staat hier zodat jij en een behandelaar het patroon naast de metingen kunnen zien.",
+    "sessionLogCalendar": "Sessielogboek en kalender",
+    "scoreOverTime": "Symmetriescore in de tijd",
+    "noScansTitle": "Nog geen scans opgeslagen",
+    "noScansBody": "Je scores verschijnen hier zodra er scans in je account zijn opgeslagen. Tot die tijd blijft deze ruimte leeg in plaats van een getal te tonen dat niet is gemeten."
+  },
+  "report": {
+    "meta": {
+      "title": "Voortgangsrapport — Palsya",
+      "description": "Een afdrukbare samenvatting van je fase, je bijgehouden sessies en wat je opviel."
+    },
+    "title": "Voortgangsrapport",
+    "fromToGenerated": "{from} tot {to} · vandaag gemaakt",
+    "printOrPdf": "Afdrukken of opslaan als pdf",
+    "brandedTitle": "Palsya-voortgangsrapport",
+    "forClinician": "Voor de behandelaar die dit leest:",
+    "clinicalNote": "alles in dit rapport is door de patiënt zelf vastgelegd — het sessielogboek en geschreven observaties — samen met de fase die het programma heeft toegewezen. Het bevat geen symmetriemeting, geen voorspelling en geen ernstgraad, en het komt niet overeen met House-Brackmann of Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "Wat dit rapport is",
+        "p": "Alles hieronder komt uit je eigen sessies en notities tussen {from} en {to}. Het bevat geen voorspellingen en geen klinische indeling. Het is zo geschreven dat jij het kunt lezen en dat het nuttig is voor een behandelaar met wie je het deelt."
+      },
+      "measurement": {
+        "h": "Meting",
+        "none": "Er is nog geen scan in je account opgeslagen, dus er is niets gemeten om te rapporteren."
+      },
+      "programme": {
+        "h": "Je programma",
+        "stage": "Je zit in Fase {n} — {name}. {short}",
+        "changed": "Je fase is voor het laatst veranderd op {date}.",
+        "unchanged": "Je fase is sinds je beoordeling niet veranderd."
+      },
+      "logged": {
+        "h": "Wat je hebt bijgehouden",
+        "p1": "In de afgelopen 28 dagen heb je {full, plural, one {# volledige sessie} other {# volledige sessies}} en {part, plural, one {# gedeeltelijke sessie} other {# gedeeltelijke sessies}} bijgehouden. Over het hele programma {done, plural, one {# volledige sessie} other {# volledige sessies}}.",
+        "p2": "Dit wordt vastgelegd zodat jij en een behandelaar het patroon naast de metingen kunnen zien. Het is geen score en niemand beoordeelt het."
+      },
+      "noticed": {
+        "h": "Wat je opviel",
+        "intro": "Je hebt deze zelf opgeschreven, en vaak is dit het deel dat een behandelaar als eerste leest:"
+      },
+      "not": {
+        "h": "Wat dit rapport niet zegt",
+        "p": "Het voorspelt je herstel niet, omdat deze gegevens geen eerlijke voorspelling toelaten. Het kent geen klinische ernstgraad toe. En het vergelijkt je niet met andere patiënten, omdat die vergelijking je niets nuttigs zou vertellen over je eigen gezicht."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Sessielogboek — Palsya",
+      "description": "Een kalender en lijst van de sessies die je hebt bijgehouden."
+    },
+    "title": "Sessielogboek",
+    "pageSub": "Een verslag, geen scorebord. Het bestaat zodat jij en een behandelaar het patroon naast de metingen kunnen zien.",
+    "prevMonth": "Vorige maand",
+    "nextMonth": "Volgende maand",
+    "session": "Sessie",
+    "feltLabel": "Gevoel",
+    "minutesLabel": "Minuten",
+    "noteLabel": "Notitie",
+    "noSessionLogged": "Geen sessie bijgehouden.",
+    "emptyDaysHint": "Lege dagen zijn gewoon leeg. Er is geen kleur voor \"je hebt gefaald\".",
+    "recentSessions": "Recente sessies",
+    "felt": "voelde {comfort}",
+    "comfort": { "good": "goed", "tired": "moe", "rushed": "gehaast" },
+    "minutes": "{n} minuten",
+    "exercises": "{n, plural, one {# oefening} other {# oefeningen}}",
+    "notStartedYet": "Nog niet begonnen",
+    "noSessionsYet": "Nog geen sessies bijgehouden.",
+    "thingsYouNoticed": "Wat je opviel",
+    "addOne": "Toevoegen",
+    "nothingYet": "Nog niets. Functie verandert vaak eerder dan geometrie — \"uit een glas gedronken zonder mijn lip vast te houden\" is precies het soort ding dat het opschrijven waard is."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Mijlpalen — Palsya",
+      "description": "Feitelijke observaties uit je eigen gegevens."
+    },
+    "title": "Mijlpalen",
+    "pageSub": "Feitelijke observaties uit je eigen gegevens. Geen badges, geen punten en niets wat je kunt kwijtraken.",
+    "explainer": "Een mijlpaal verschijnt wanneer er iets specifieks gebeurt — een faseovergang, of een aantal volledige sessies. Hij verschijnt nooit voor inzet en verdwijnt nooit.",
+    "nothingYet": "Nog niets",
+    "firstArrives": "Je eerste mijlpaal komt met je eerste volledige sessie.",
+    "rules": {
+      "firstSession": {
+        "title": "Eerste volledige sessie voltooid",
+        "body": "Je hebt tapen, oefeningen en de dagelijkse routine op één dag afgerond. Zo ziet elke dag er vanaf nu uit."
+      },
+      "sevenSessions": {
+        "title": "Zeven volledige sessies",
+        "body": "Zeven volledige sessies bijgehouden. Het klinische bewijs is gebouwd op regelmaat van dit niveau."
+      },
+      "thirtySessions": {
+        "title": "Dertig volledige sessies",
+        "body": "Dertig volledige sessies. De meeste meetbare verandering bij gezichtsrevalidatie gebeurt over zo'n periode."
+      },
+      "stage": {
+        "title": "Naar Fase {n} — {name}",
+        "body": "Je programma is aangepast aan Fase {n}: het tapen, de oefeningen en de routine die je nu ziet, horen bij deze fase."
+      }
+    }
+  }
+}

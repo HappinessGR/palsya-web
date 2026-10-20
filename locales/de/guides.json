@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Klinisches Team von Palsya"
+  "authorTeam": "Klinisches Team von Palsya",
+  "faqPage": {
+    "meta": {
+      "title": "Häufige Fragen — Palsya",
+      "description": "Eignung, Zeitrahmen, Kosten, Daten und die Fragen, die Menschen vor der Anmeldung stellen."
+    },
+    "allGuides": "Alle Ratgeber"
+  },
+  "article": {
+    "writtenBy": "Verfasst von {author}",
+    "reviewedBy": "Geprüft von {reviewer}",
+    "updated": "Aktualisiert am {date}",
+    "minRead": "{minutes} Min. Lesezeit",
+    "onThisPage": "Auf dieser Seite",
+    "signoff": "Verfasst von {author}, geprüft von {reviewer}.",
+    "keepReading": "Weiterlesen"
+  }
 }

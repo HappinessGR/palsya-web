@@ -123,5 +123,39 @@
       "hint": "Opsioneel. Aangeteken teen vandag, sigbaar vir u klinikus as u dit deel.",
       "placeholder": "bv. Uit 'n glas gedrink sonder om my mondhoek vas te hou."
     }
+  },
+  "shell": {
+    "sidebarLabel": "Programnavigasie",
+    "navLabel": "Program",
+    "menu": "Kieslys",
+    "stageLabel": "Fase {n}",
+    "dayLabel": "Dag {n}",
+    "account": "Rekening",
+    "freeTrial": "Gratis proeftydperk",
+    "subscriber": "Intekenaar",
+    "signOut": "Teken uit",
+    "help": "Hulp",
+    "scan": "Skandeer",
+    "groups": {
+      "programme": "Program",
+      "progress": "Vordering",
+      "historySupport": "Geskiedenis en ondersteuning"
+    },
+    "nav": {
+      "today": "Vandag",
+      "taping": "Kleeftegniek",
+      "exercises": "Gesigsoefeninge",
+      "routine": "Daaglikse roetine",
+      "scan": "Neem 'n skandering",
+      "phaseProgress": "Fase en vordering",
+      "timeline": "Foto-tydlyn",
+      "report": "Vorderingsverslag",
+      "milestones": "Mylpale",
+      "log": "Sessielogboek",
+      "consults": "Konsultasies",
+      "library": "Naslaanbiblioteek",
+      "settings": "Instellings",
+      "session": "Sessie"
+    }
   }
 }

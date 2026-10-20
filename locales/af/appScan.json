@@ -1,0 +1,117 @@
+{
+  "scan": {
+    "meta": {
+      "title": "Neem 'n skandering — Palsya",
+      "description": "'n Begeleide gesigsopname met regstreekse kontrole van lig, skerpte en raming."
+    },
+    "title": "Nuwe skandering",
+    "shortSteps": "{n} kort stappe, sowat negentig sekondes.",
+    "leave": "Verlaat",
+    "stepOf": "Stap {n} van {of}",
+    "startCapture": "Begin opname",
+    "captureThisOne": "Neem hierdie een",
+    "startOver": "Begin oor",
+    "gettingReady": "Maak gereed…",
+    "cameraOff": "Kamera af",
+    "cameraUnavailableTitle": "Die kamera is nie hier beskikbaar nie.",
+    "tryAgain": "Probeer weer",
+    "close": "Maak toe",
+    "worthComparing": "Vir 'n skandering wat die moeite werd is om te vergelyk",
+    "tip1": "Kyk na 'n venster, of sit 'n lamp voor jou — nooit aan een kant nie. Lig van die kant af lyk soos asimmetrie.",
+    "tip2": "Elke week dieselfde plek en dieselfde tyd van die dag, as jy kan.",
+    "tip3": "Geen bril nie, hare uit die gesig, ken gelyk.",
+    "tip4": "Stut die toestel eerder as om dit vas te hou.",
+    "qualityGood": "Beeldgehalte goed",
+    "qualityAllGood": "Beligting, skerpte en raming is almal in orde. Gemete helderheid {mean}, links-na-regs-verskil {evenness}.",
+    "poorQualityTitle": "Die beeldgehalte is swak",
+    "poorQualityBody": "'n Skandering in swak lig of uit fokus lewer 'n getal wat soos 'n meting lyk, maar nie een is nie. Ons sal verkies dat jy eers die lig regstel.",
+    "captureAnyway": "Neem in elk geval",
+    "letMeFixIt": "Laat my dit regmaak",
+    "captureNote": "Die kamera en die beeldgehaltekontroles is eg. Jou opnames bly op hierdie toestel sodat jy dit kan nagaan, en word weggegooi wanneer jy hierdie bladsy verlaat.",
+    "quality": {
+      "good": "goeie",
+      "fair": "redelike",
+      "poor": "swak"
+    },
+    "errors": {
+      "noApi": "Hierdie blaaier bied nie toegang tot 'n kamera nie.",
+      "insecure": "Blaaiers laat kameratoegang slegs oor 'n veilige (https) verbinding toe.",
+      "denied": "Kameratoestemming is geweier. Jy kan dit verander via die slotikoon in jou adresbalk.",
+      "notFound": "Geen kamera is op hierdie toestel gevind nie.",
+      "generic": "Die kamera kon nie begin word nie."
+    },
+    "steps": {
+      "position": {
+        "title": "Belyn jou gesig",
+        "msg": "Vul die buitelyn met jou gesig",
+        "sub": "Reguit vorentoe, ken gelyk, albei ore sigbaar as jy kan."
+      },
+      "rest": {
+        "title": "Rus",
+        "msg": "Laat jou gesig heeltemal ontspan",
+        "sub": "Geen glimlag, geen frons nie. Oë oop, kyk na die kamera."
+      },
+      "brow": {
+        "title": "Lig jou wenkbroue",
+        "msg": "Lig albei wenkbroue",
+        "sub": "Asof effens verras. Hou dit terwyl ons opneem."
+      },
+      "smile": {
+        "title": "Sagte glimlag",
+        "msg": "Klein glimlag met geslote lippe",
+        "sub": "Omtrent 'n derde van jou maksimum. Nie 'n groot een nie."
+      },
+      "eyes": {
+        "title": "Maak jou oë toe",
+        "msg": "Maak albei oë saggies toe",
+        "sub": "Asof jy aan die slaap raak. Moenie knyp nie."
+      }
+    },
+    "issues": {
+      "dark": {
+        "t": "Te donker",
+        "fix": "Kyk na 'n venster of skakel 'n lig voor jou aan."
+      },
+      "bright": {
+        "t": "Te helder",
+        "fix": "Beweeg weg van die ligbron of trek 'n blinding toe."
+      },
+      "uneven": {
+        "t": "Die lig kom van een kant af",
+        "fix": "Lig van die kant af gee skaduwees wat soos asimmetrie lyk. Draai na die lig."
+      },
+      "blur": {
+        "t": "Die beeld is vaag",
+        "fix": "Hou die toestel stil en maak die lens skoon."
+      },
+      "flat": {
+        "t": "Baie min kontras",
+        "fix": "Meer lig, en staan weg van 'n gladde, ligte muur."
+      },
+      "motion": {
+        "t": "Bly stil",
+        "fix": "Stut die toestel as jy kan."
+      }
+    },
+    "review": {
+      "complete": "Opname voltooi · {date}",
+      "title": "Gaan jou opnames na",
+      "sub": "Een opname vir elke stap, soos die kamera dit gesien het.",
+      "notAvailableTitle": "Meting en stoor is nog nie beskikbaar nie.",
+      "notAvailableBody": "Geen simmetrietelling word bereken nie en hierdie opnames word nie gestoor nie — hulle word weggegooi wanneer jy hierdie bladsy verlaat. Skanderingsgeskiedenis en meting sal hier verskyn sodra dit gereed is.",
+      "frameQuality": "{quality} beeld",
+      "backToToday": "Terug na vandag",
+      "retake": "Neem weer"
+    }
+  },
+  "timeline": {
+    "meta": {
+      "title": "Foto-tydlyn — Palsya",
+      "description": "Elke skandering wat jy geneem het, langs mekaar."
+    },
+    "title": "Foto-tydlyn",
+    "nothingYet": "Nog niks hier nie",
+    "fillsUp": "Jou tydlyn vul een skandering op 'n slag. Die eerste een is die basislyn waarteen alles anders gemeet word.",
+    "takeBaselineScan": "Neem jou basislynskandering"
+  }
+}

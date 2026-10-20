@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Palsya clinical team"
+  "authorTeam": "Palsya clinical team",
+  "faqPage": {
+    "meta": {
+      "title": "Frequently asked questions — Palsya",
+      "description": "Eligibility, timelines, cost, data, and the questions people ask before signing up."
+    },
+    "allGuides": "All guides"
+  },
+  "article": {
+    "writtenBy": "Written by {author}",
+    "reviewedBy": "Reviewed by {reviewer}",
+    "updated": "Updated {date}",
+    "minRead": "{minutes} min read",
+    "onThisPage": "On this page",
+    "signoff": "Written by {author}, reviewed by {reviewer}.",
+    "keepReading": "Keep reading"
+  }
 }

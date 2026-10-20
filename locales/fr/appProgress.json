@@ -1,0 +1,156 @@
+{
+  "common": {
+    "stageLabel": "Étape {n}",
+    "state": {
+      "full": "Complète",
+      "part": "Partiellement faite",
+      "none": "Non enregistré"
+    },
+    "parts": {
+      "taping": "Bandage",
+      "exercises": "Exercices",
+      "routine": "Routine"
+    },
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "progress": {
+    "meta": {
+      "title": "Phase et progrès — Palsya",
+      "description": "Votre étape de récupération, vos séances enregistrées et l'évolution de votre étape dans le temps."
+    },
+    "pageTitle": "Phase de récupération et progrès",
+    "pageSub": "Trois choses différentes, gardées séparées car elles mesurent des choses différentes et évoluent à des vitesses différentes.",
+    "reportLink": "Rapport de progrès",
+    "newScan": "Nouveau scan",
+    "yourStage": "Votre étape",
+    "daysInStage": "Jours dans cette étape",
+    "typicalWindow": "Fenêtre habituelle",
+    "daysSinceOnset": "Jours depuis l'apparition",
+    "howStageChanged": "Comment votre étape a évolué",
+    "noPhase": "Aucune étape n'a encore été attribuée.",
+    "fromAssessment": "de votre évaluation",
+    "fromProgress": "de vos progrès",
+    "setByClinician": "définie par un clinicien",
+    "threeThingsAtOnce": "Trois choses à la fois",
+    "threeThingsBody": "Il n'existe pas de chiffre unique de « pourcentage de récupération », car il n'y a pas de moyen honnête de le calculer. Ces trois éléments sont ce que nous pouvons réellement mesurer.",
+    "measuredSymmetryChange": "Changement de symétrie mesuré",
+    "sessionsLogged": "Séances enregistrées",
+    "functionReported": "Fonction que vous avez rapportée",
+    "symmetryScore": "score de symétrie",
+    "arcAria": "Progrès en symétrie mesurée, séances enregistrées et fonction rapportée",
+    "measuredSymmetry": "Symétrie mesurée",
+    "noBaselineYet": "pas encore de référence",
+    "completeIn28": "{n} complètes au cours des 28 derniers jours",
+    "observationsRecorded": "{n, plural, one {# observation enregistrée} other {# observations enregistrées}}",
+    "threeArcsHint": "Volontairement, trois arcs séparés. Un chiffre combiné unique cacherait le cas où le score est stable mais où vous pouvez soudain boire dans un verre — c'est le cas qui compte le plus.",
+    "sessionsLast28": "Séances, 28 derniers jours",
+    "patternAria": "Séances des {n} derniers jours",
+    "allTime": "Depuis toujours",
+    "noStreakHint": "Pas de série, pas d'objectif, pas de pourcentage. Ceci existe pour que vous et un clinicien puissiez voir le schéma à côté des mesures.",
+    "sessionLogCalendar": "Journal des séances et calendrier",
+    "scoreOverTime": "Score de symétrie dans le temps",
+    "noScansTitle": "Aucun scan enregistré pour l'instant",
+    "noScansBody": "Vos scores s'afficheront ici dès que des scans seront enregistrés sur votre compte. D'ici là, cet espace reste vide plutôt que d'afficher un chiffre qui n'a pas été mesuré."
+  },
+  "report": {
+    "meta": {
+      "title": "Rapport de progrès — Palsya",
+      "description": "Un résumé imprimable de votre étape, de vos séances enregistrées et de ce que vous avez remarqué."
+    },
+    "title": "Rapport de progrès",
+    "fromToGenerated": "du {from} au {to} · généré aujourd'hui",
+    "printOrPdf": "Imprimer ou enregistrer en PDF",
+    "brandedTitle": "Rapport de progrès Palsya",
+    "forClinician": "Pour le clinicien qui lit ceci :",
+    "clinicalNote": "tout ce que contient ce rapport est déclaré par le patient — le journal des séances et les observations écrites — accompagné de l'étape attribuée par le programme. Il ne contient aucune mesure de symétrie, aucune prédiction et aucun grade de sévérité, et ne correspond ni à House-Brackmann ni à Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "Ce qu'est ce rapport",
+        "p": "Tout ce qui suit provient de vos propres séances et notes entre le {from} et le {to}. Il ne contient aucune prédiction ni aucune classification clinique. Il est rédigé pour être lisible par vous et utile au clinicien avec qui vous le partagez."
+      },
+      "measurement": {
+        "h": "Mesure",
+        "none": "Aucun scan n'est encore enregistré sur votre compte, il n'y a donc rien de mesuré à rapporter."
+      },
+      "programme": {
+        "h": "Votre programme",
+        "stage": "Vous êtes à l'étape {n} — {name}. {short}",
+        "changed": "Votre étape a changé pour la dernière fois le {date}.",
+        "unchanged": "Votre étape n'a pas changé depuis votre évaluation."
+      },
+      "logged": {
+        "h": "Ce que vous avez enregistré",
+        "p1": "Au cours des 28 derniers jours, vous avez enregistré {full, plural, one {# séance complète} other {# séances complètes}} et {part, plural, one {# séance partielle} other {# séances partielles}}. Sur l'ensemble du programme, {done, plural, one {# séance complète} other {# séances complètes}}.",
+        "p2": "Ceci est enregistré pour que vous et un clinicien puissiez voir la tendance à côté des mesures. Ce n'est pas un score et personne ne le note."
+      },
+      "noticed": {
+        "h": "Ce que vous avez remarqué",
+        "intro": "Vous les avez notées vous-même, et c'est souvent la partie qu'un clinicien lit en premier :"
+      },
+      "not": {
+        "h": "Ce que ce rapport ne dit pas",
+        "p": "Il ne prédit pas votre évolution, car aucune prédiction honnête n'est possible à partir de ces données. Il n'attribue aucun grade clinique de sévérité. Et il ne vous compare pas à d'autres patients, car cette comparaison ne vous apprendrait rien d'utile sur votre propre visage."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Journal des séances — Palsya",
+      "description": "Un calendrier et la liste des séances que vous avez enregistrées."
+    },
+    "title": "Journal des séances",
+    "pageSub": "Un registre, pas un tableau de score. Il existe pour que vous et un clinicien puissiez voir le schéma à côté des mesures.",
+    "prevMonth": "Mois précédent",
+    "nextMonth": "Mois suivant",
+    "session": "Séance",
+    "feltLabel": "Ressenti",
+    "minutesLabel": "Minutes",
+    "noteLabel": "Note",
+    "noSessionLogged": "Aucune séance enregistrée.",
+    "emptyDaysHint": "Les jours vides sont juste vides. Il n'y a pas de couleur pour « vous avez échoué ».",
+    "recentSessions": "Séances récentes",
+    "felt": "ressenti : {comfort}",
+    "comfort": {
+      "good": "bien",
+      "tired": "fatigué",
+      "rushed": "précipité"
+    },
+    "minutes": "{n} minutes",
+    "exercises": "{n, plural, one {# exercice} other {# exercices}}",
+    "notStartedYet": "Pas encore commencé",
+    "noSessionsYet": "Aucune séance enregistrée pour l'instant.",
+    "thingsYouNoticed": "Choses que vous avez remarquées",
+    "addOne": "En ajouter une",
+    "nothingYet": "Rien pour l'instant. La fonction change souvent avant la géométrie — « j'ai bu dans un verre sans tenir ma lèvre » est exactement le genre de chose qui mérite d'être noté."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Jalons — Palsya",
+      "description": "Des observations factuelles tirées de vos propres données."
+    },
+    "title": "Jalons",
+    "pageSub": "Des observations factuelles issues de vos propres données. Pas de badges, pas de points, et rien que vous puissiez perdre.",
+    "explainer": "Un jalon apparaît lorsqu'il se passe quelque chose de précis : un changement d'étape ou un nombre de séances complètes. Il n'apparaît jamais pour l'effort et ne disparaît jamais.",
+    "nothingYet": "Rien pour l'instant",
+    "firstArrives": "Votre premier jalon arrivera avec votre première séance complète.",
+    "rules": {
+      "firstSession": {
+        "title": "Première séance complète",
+        "body": "Vous avez terminé le bandage, les exercices et la routine quotidienne le même jour. C'est la forme de chaque journée à partir de maintenant."
+      },
+      "sevenSessions": {
+        "title": "Sept séances complètes",
+        "body": "Sept séances complètes enregistrées. Les preuves cliniques reposent sur une régularité de ce niveau."
+      },
+      "thirtySessions": {
+        "title": "Trente séances complètes",
+        "body": "Trente séances complètes. L'essentiel du changement mesurable en rééducation faciale se produit sur une durée de cet ordre."
+      },
+      "stage": {
+        "title": "Passage à l'étape {n} — {name}",
+        "body": "Votre programme a changé pour correspondre à l'étape {n} : le bandage, les exercices et la routine que vous voyez maintenant sont ceux de cette étape."
+      }
+    }
+  }
+}

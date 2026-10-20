@@ -1,0 +1,156 @@
+{
+  "common": {
+    "stageLabel": "Etapa {n}",
+    "state": {
+      "full": "Completa",
+      "part": "Parcialmente feita",
+      "none": "Não registado"
+    },
+    "parts": {
+      "taping": "Ligadura",
+      "exercises": "Exercícios",
+      "routine": "Rotina"
+    },
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "progress": {
+    "meta": {
+      "title": "Fase e progresso — Palsya",
+      "description": "A sua etapa de recuperação, as sessões registadas e como a sua etapa mudou ao longo do tempo."
+    },
+    "pageTitle": "Fase de recuperação e progresso",
+    "pageSub": "Três coisas diferentes, mantidas separadas porque medem coisas diferentes e avançam a velocidades diferentes.",
+    "reportLink": "Relatório de progresso",
+    "newScan": "Nova análise",
+    "yourStage": "A sua etapa",
+    "daysInStage": "Dias nesta etapa",
+    "typicalWindow": "Janela habitual",
+    "daysSinceOnset": "Dias desde o início",
+    "howStageChanged": "Como a sua etapa mudou",
+    "noPhase": "Ainda não foi atribuída nenhuma etapa.",
+    "fromAssessment": "da sua avaliação",
+    "fromProgress": "do seu progresso",
+    "setByClinician": "definida por um clínico",
+    "threeThingsAtOnce": "Três coisas ao mesmo tempo",
+    "threeThingsBody": "Não existe um único número de \"percentagem recuperada\", porque não há uma forma honesta de o calcular. Estas três coisas são o que conseguimos realmente medir.",
+    "measuredSymmetryChange": "Mudança de simetria medida",
+    "sessionsLogged": "Sessões registadas",
+    "functionReported": "Função que reportou",
+    "symmetryScore": "pontuação de simetria",
+    "arcAria": "Progresso em simetria medida, sessões registadas e função reportada",
+    "measuredSymmetry": "Simetria medida",
+    "noBaselineYet": "ainda sem referência",
+    "completeIn28": "{n} completas nos últimos 28 dias",
+    "observationsRecorded": "{n, plural, one {# observação registada} other {# observações registadas}}",
+    "threeArcsHint": "Deliberadamente, três arcos separados. Um único número combinado esconderia o caso em que a pontuação está estável mas você consegue de repente beber de um copo — que é o caso que mais importa.",
+    "sessionsLast28": "Sessões, últimos 28 dias",
+    "patternAria": "Sessões dos últimos {n} dias",
+    "allTime": "Total histórico",
+    "noStreakHint": "Sem sequência, sem meta, sem percentagem. Isto existe para que você e um clínico possam ver o padrão junto com as medições.",
+    "sessionLogCalendar": "Registo de sessões e calendário",
+    "scoreOverTime": "Pontuação de simetria ao longo do tempo",
+    "noScansTitle": "Ainda não há análises guardadas",
+    "noScansBody": "As suas pontuações aparecerão aqui quando houver análises guardadas na sua conta. Até lá, este espaço fica vazio em vez de mostrar um número que não foi medido."
+  },
+  "report": {
+    "meta": {
+      "title": "Relatório de progresso — Palsya",
+      "description": "Um resumo para imprimir da sua etapa, das sessões registadas e do que notou."
+    },
+    "title": "Relatório de progresso",
+    "fromToGenerated": "de {from} a {to} · gerado hoje",
+    "printOrPdf": "Imprimir ou guardar como PDF",
+    "brandedTitle": "Relatório de progresso Palsya",
+    "forClinician": "Para o clínico que lê isto:",
+    "clinicalNote": "tudo neste relatório é registado pelo próprio paciente — o registo de sessões e as observações escritas — juntamente com a etapa atribuída pelo programa. Não contém nenhuma medição de simetria, nenhuma previsão e nenhum grau de gravidade, e não corresponde a House-Brackmann nem a Sunnybrook.",
+    "sections": {
+      "what": {
+        "h": "O que é este relatório",
+        "p": "Tudo o que se segue vem das suas próprias sessões e notas entre {from} e {to}. Não contém previsões nem classificação clínica. Foi escrito para ser legível por si e útil para um clínico com quem o partilhe."
+      },
+      "measurement": {
+        "h": "Medição",
+        "none": "Ainda não há nenhuma análise guardada na sua conta, por isso não há nada medido para relatar."
+      },
+      "programme": {
+        "h": "O seu programa",
+        "stage": "Está na Etapa {n} — {name}. {short}",
+        "changed": "A sua etapa mudou pela última vez em {date}.",
+        "unchanged": "A sua etapa não mudou desde a sua avaliação."
+      },
+      "logged": {
+        "h": "O que registou",
+        "p1": "Nos últimos 28 dias registou {full, plural, one {# sessão completa} other {# sessões completas}} e {part, plural, one {# sessão parcial} other {# sessões parciais}}. Em todo o programa, {done, plural, one {# sessão completa} other {# sessões completas}}.",
+        "p2": "Isto é registado para que você e um clínico possam ver o padrão ao lado das medições. Não é uma pontuação e ninguém o está a avaliar."
+      },
+      "noticed": {
+        "h": "O que notou",
+        "intro": "Foi você que as registou, e muitas vezes são a primeira parte que um clínico lê:"
+      },
+      "not": {
+        "h": "O que este relatório não diz",
+        "p": "Não prevê a sua evolução, porque estes dados não permitem nenhuma previsão honesta. Não atribui um grau clínico de gravidade. E não o compara com outros pacientes, porque essa comparação não lhe diria nada de útil sobre o seu próprio rosto."
+      }
+    }
+  },
+  "log": {
+    "meta": {
+      "title": "Registo de sessões — Palsya",
+      "description": "Um calendário e uma lista das sessões que registou."
+    },
+    "title": "Registo de sessões",
+    "pageSub": "Um registo, não um marcador de pontos. Existe para que você e um clínico possam ver o padrão ao lado das medições.",
+    "prevMonth": "Mês anterior",
+    "nextMonth": "Mês seguinte",
+    "session": "Sessão",
+    "feltLabel": "Sensação",
+    "minutesLabel": "Minutos",
+    "noteLabel": "Nota",
+    "noSessionLogged": "Nenhuma sessão registada.",
+    "emptyDaysHint": "Os dias vazios estão simplesmente vazios. Não há uma cor para \"falhou\".",
+    "recentSessions": "Sessões recentes",
+    "felt": "sentiu-se {comfort}",
+    "comfort": {
+      "good": "bem",
+      "tired": "cansado",
+      "rushed": "apressado"
+    },
+    "minutes": "{n} minutos",
+    "exercises": "{n, plural, one {# exercício} other {# exercícios}}",
+    "notStartedYet": "Ainda não iniciado",
+    "noSessionsYet": "Ainda não há sessões registadas.",
+    "thingsYouNoticed": "Coisas que notou",
+    "addOne": "Adicionar uma",
+    "nothingYet": "Ainda nada. A função muda muitas vezes antes da geometria — \"bebi de um copo sem segurar o lábio\" é exatamente o tipo de coisa que vale a pena anotar."
+  },
+  "milestones": {
+    "meta": {
+      "title": "Marcos — Palsya",
+      "description": "Observações factuais a partir dos seus próprios dados."
+    },
+    "title": "Marcos",
+    "pageSub": "Observações factuais a partir dos seus próprios dados. Sem emblemas, sem pontos, e nada que possa perder.",
+    "explainer": "Um marco aparece quando acontece algo concreto: uma mudança de etapa ou um número de sessões completas. Nunca aparece pelo esforço e nunca desaparece.",
+    "nothingYet": "Ainda nada",
+    "firstArrives": "O seu primeiro marco chega com a sua primeira sessão completa.",
+    "rules": {
+      "firstSession": {
+        "title": "Primeira sessão completa",
+        "body": "Concluiu a ligadura, os exercícios e a rotina diária no mesmo dia. É essa a forma de cada dia a partir de agora."
+      },
+      "sevenSessions": {
+        "title": "Sete sessões completas",
+        "body": "Sete sessões completas registadas. A evidência clínica assenta numa regularidade deste nível."
+      },
+      "thirtySessions": {
+        "title": "Trinta sessões completas",
+        "body": "Trinta sessões completas. A maior parte da mudança mensurável na reabilitação facial acontece ao longo de um período assim."
+      },
+      "stage": {
+        "title": "Passou para a Etapa {n} — {name}",
+        "body": "O seu programa mudou para corresponder à Etapa {n}: a ligadura, os exercícios e a rotina que vê agora são os desta etapa."
+      }
+    }
+  }
+}

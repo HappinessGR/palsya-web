@@ -1,0 +1,3 @@
+/* Session log: calendar cells are links in the Next.js port (legacy used buttons + a modal). */
+a.cal-cell { text-decoration: none; }
+.cal-cell.on { background: var(--brand-tint); border-color: var(--brand-tint-2); }

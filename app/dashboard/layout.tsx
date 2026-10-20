@@ -1,8 +1,10 @@
 import { redirect } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import { requirePagePermission } from "../../src/lib/authz";
 import { requireActiveSubscription } from "../../lib/billing/require-active-subscription";
 import { getOnboardingProgress, nextOnboardingPath } from "../onboarding/data";
-import { SiteHeader } from "../components/SiteHeader";
+import { AppShell } from "./components/AppShell";
+import { getShellData } from "./shell-data";
 
 export default async function DashboardLayout({ children }: LayoutProps<"/dashboard">) {
   await requirePagePermission("self:programme");
@@ -12,11 +14,14 @@ export default async function DashboardLayout({ children }: LayoutProps<"/dashbo
   const next = nextOnboardingPath(progress);
   if (next !== "/dashboard") redirect(next);
 
+  const data = await getShellData();
+  const tProgramme = await getTranslations("programme");
+
   return (
-    <>
-      {/* Name, "My dashboard", "Log out" and the language picker. */}
-      <SiteHeader />
+    // Sidebar (Stage card, programme nav, settings, sign out) + top bar
+    // (page title, language, Help, Scan) around every patient page.
+    <AppShell data={data} stageName={tProgramme(`stages.${data.stageNum}.name`)}>
       {children}
-    </>
+    </AppShell>
   );
 }

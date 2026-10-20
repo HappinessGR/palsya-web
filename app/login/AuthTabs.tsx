@@ -8,7 +8,7 @@ import { SelectedPlanCard } from "../components/auth/SelectedPlanCard";
 
 type Mode = "signin" | "signup";
 
-// Sign in is email + password for every account; the role comes from the
+// Sign in is email + password or Google/Apple SSO; the role comes from the
 // database after sign-in. Sign up creates patient accounts only — clinicians
 // and admins are invited by an admin.
 export function AuthTabs({ initialMode, error }: { initialMode: Mode; error?: string }) {
@@ -36,7 +36,6 @@ export function AuthTabs({ initialMode, error }: { initialMode: Mode; error?: st
     return (
       <SignInForm
         routing="virtual"
-        showSso={false}
         intro={
           <>
             {tabs}
@@ -62,7 +61,6 @@ export function AuthTabs({ initialMode, error }: { initialMode: Mode; error?: st
   return (
     <SignUpForm
       routing="virtual"
-      showSso={false}
       intro={
         <>
           {tabs}

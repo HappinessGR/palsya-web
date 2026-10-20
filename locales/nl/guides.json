@@ -143,5 +143,21 @@
       }
     }
   },
-  "authorTeam": "Klinisch team van Palsya"
+  "authorTeam": "Klinisch team van Palsya",
+  "faqPage": {
+    "meta": {
+      "title": "Veelgestelde vragen — Palsya",
+      "description": "Wie in aanmerking komt, tijdlijnen, kosten, gegevens en de vragen die mensen stellen voordat ze zich aanmelden."
+    },
+    "allGuides": "Alle gidsen"
+  },
+  "article": {
+    "writtenBy": "Geschreven door {author}",
+    "reviewedBy": "Gecontroleerd door {reviewer}",
+    "updated": "Bijgewerkt op {date}",
+    "minRead": "{minutes} min lezen",
+    "onThisPage": "Op deze pagina",
+    "signoff": "Geschreven door {author}, gecontroleerd door {reviewer}.",
+    "keepReading": "Verder lezen"
+  }
 }

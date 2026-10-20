@@ -1,0 +1,144 @@
+{
+  "library": {
+    "meta": {
+      "title": "Reference library — Palsya",
+      "description": "Guides for your stage and your programme material."
+    },
+    "pageSub": "Everything in the knowledge base, plus your own programme material. Free to read and free to share.",
+    "forStage": "For Stage {n}",
+    "recommendedNow": "Recommended now",
+    "minRead": "{n} min read",
+    "programmeMaterial": "Your programme material",
+    "tapingTitle": "Taping technique",
+    "tapingBlurb": "All three techniques, with the strip placement and the tension for each.",
+    "exercisesTitle": "Exercise library",
+    "exercisesBlurb": "Every exercise, why it is there, and the mistake people make with it.",
+    "routineTitle": "Daily routine",
+    "routineBlurb": "Eye care, eating, sleep, and fitting this into a life that already exists.",
+    "allGuides": "All guides",
+    "minReadReviewed": "{n} min read · reviewed {date}"
+  },
+  "consults": {
+    "meta": {
+      "title": "Consultations — Palsya",
+      "description": "Your clinician and your consultations."
+    },
+    "pageSub": "Thirty minutes with a facial rehabilitation specialist. You choose who.",
+    "bookACall": "Book a call",
+    "completed": "Completed",
+    "booked": "Booked",
+    "noneYet": "No consultations yet",
+    "mostPeopleWrong": "Most people are doing one or two things wrong — usually taping tension or effort level. A clinician normally spots it in the first ten minutes.",
+    "bookFirstCall": "Book your first call",
+    "bookingUnavailable": "Online booking isn't available yet. Nothing has been booked for you.",
+    "yourClinician": "Your clinician",
+    "noClinician": "No clinician assigned yet",
+    "noClinicianBody": "When a clinician is assigned to you, their name appears here."
+  },
+  "settings": {
+    "meta": {
+      "title": "Settings — Palsya",
+      "description": "Your account, reminders, language, subscription and privacy."
+    },
+    "tabs": {
+      "account": "Account",
+      "programme": "Programme",
+      "reminders": "Reminders and language",
+      "subscription": "Subscription",
+      "privacy": "Privacy and data",
+      "security": "Security"
+    },
+    "notAvailable": "Not available yet",
+    "account": {
+      "yourDetails": "Your details",
+      "fullName": "Full name",
+      "email": "Email address",
+      "managedHint": "Your name and email come from your sign-in account. Contact support to change them.",
+      "accountCreated": "Account created",
+      "programmeDay": "Programme day"
+    },
+    "programme": {
+      "yourStage": "Your stage",
+      "stageLabel": "Stage {n}",
+      "askClinicianReview": "Ask a clinician to review this",
+      "reviewPendingTitle": "A clinician review is pending.",
+      "reviewPendingBody": "You can carry on with your programme in the meantime; if the review changes anything you will be told what and why.",
+      "onsetDate": "Onset date",
+      "daysSinceOnset": "Days since onset",
+      "placementConfidence": "Placement confidence",
+      "confidence": {
+        "high": "high",
+        "medium": "medium",
+        "low": "low"
+      },
+      "retakeAssessment": "Retake the assessment",
+      "retakeAssessmentHint": "If a lot has changed — new movement, synkinesis appearing, a stretch of illness — retaking it re-places you. Your history is kept.",
+      "retakeAssessmentBtn": "Retake assessment"
+    },
+    "reminders": {
+      "reminders": "Reminders",
+      "remindersHint": "One reminder per session, at a time you pick. Nothing follows up on a missed one, and nothing implies you have let anyone down.",
+      "sessionReminders": "Session reminders",
+      "firstSession": "First session",
+      "secondSession": "Second session",
+      "weeklySummary": "Weekly email summary of what was measured and logged",
+      "clinicianUpdates": "Email me when a clinician adds a note or changes my programme",
+      "languageAndDisplay": "Language and display",
+      "language": "Language",
+      "languageHint": "Changes the interface language straight away.",
+      "textSize": "Text size",
+      "textSizeNormal": "Normal",
+      "textSizeLarge": "Large",
+      "textSizeXl": "Extra large",
+      "mirrorCamera": "Mirror the camera preview during scans",
+      "saveChanges": "Save changes",
+      "saved": "Saved.",
+      "saveFailed": "That didn't save. Please try again."
+    },
+    "subscription": {
+      "noSubscription": "No subscription",
+      "seePlans": "See plans",
+      "plan": "Your plan",
+      "freeTrial": "Free trial",
+      "active": "Active",
+      "cancelledStatus": "Cancelled",
+      "pastDue": "Payment overdue",
+      "firstCharge": "First charge",
+      "renews": "Renews",
+      "accessUntil": "Access until",
+      "changePlan": "Change plan",
+      "cancelSubscription": "Cancel subscription",
+      "cancelHint": "Cancelling online isn't available yet. Contact support and we'll cancel it for you."
+    },
+    "privacy": {
+      "yourConsents": "Your consents",
+      "consentsHint": "What you agreed to during sign-up. Changing a consent here isn't available yet — contact support if you want one changed.",
+      "required": "Required",
+      "granted": "Given {date}",
+      "notGiven": "Not given",
+      "consent": {
+        "data_processing": "Processing my health data",
+        "photo_storage_analysis": "Analysing scans of my face",
+        "photo_keep": "Storing my scan photos",
+        "clinician_share": "Sharing progress with a clinician I choose",
+        "research_opt_in": "Anonymised data for research",
+        "marketing": "Occasional product emails"
+      },
+      "yourData": "Your data",
+      "exportEverything": "Export everything",
+      "deleteAccount": "Delete your account",
+      "deleteAccountHint": "Permanent. Images go within 30 days, everything else within 90, except invoices we are legally required to keep. There is no reactivation.",
+      "deleteAllMyData": "Delete my account and all my data",
+      "selfServiceHint": "Exporting and deleting your data yourself isn't available yet. Contact support and we'll do it for you."
+    },
+    "security": {
+      "signInSecurity": "Sign-in and security",
+      "twoStepVerification": "Two-step verification",
+      "on": "On",
+      "off": "Off",
+      "lastSignIn": "Last sign-in",
+      "changePassword": "Change password",
+      "signOut": "Sign out"
+    }
+  }
+}
