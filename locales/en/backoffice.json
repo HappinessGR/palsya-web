@@ -1,0 +1,476 @@
+{
+  "common": {
+    "demo": "Demonstration data",
+    "backToSite": "Back to the site",
+    "tabsLabel": "Sections",
+    "stageLabel": "Stage {n}",
+    "stageAbbrev": "S{n}",
+    "unstaged": "Not assessed",
+    "dash": "—",
+    "never": "Never",
+    "today": "Today",
+    "daysAgo": "{n, plural, one {# day ago} other {# days ago}}",
+    "percent": "{n}%",
+    "noneNeedAttention": "Nothing needs attention right now.",
+    "observationalNote": "<b>These are observational figures from our own users, not trial results.</b> People who choose a structured programme and stay with it differ systematically from those who do not. We report what our users experienced; we do not claim the programme caused it.",
+    "flagBadge": {
+      "review": "Needs clinician review",
+      "safety": "Continued past a safety flag",
+      "inactive": "Inactive 10+ days"
+    },
+    "flagText": {
+      "review": "Flagged for clinician review: the algorithmic stage placement had low confidence, so a person needs to confirm or change it before the programme continues.",
+      "safety": "Flagged: the assessment raised a safety flag and the patient chose to continue anyway. Worth confirming that the programme is still the right thing for them.",
+      "inactive": "Flagged: no session logged for more than 10 days. The action here is to ask whether the programme needs changing, not to send a reminder about commitment."
+    },
+    "months": "Month",
+    "programmeByStage": "Programme content by stage",
+    "col": {
+      "stage": "Stage",
+      "exercises": "Exercises",
+      "taping": "Taping",
+      "routine": "Routine",
+      "minutes": "Minutes",
+      "patients": "Patients",
+      "mean28d": "Sessions logged 28d",
+      "medianDays": "Median days in stage"
+    },
+    "content": {
+      "col": {
+        "title": "Title",
+        "author": "Author",
+        "reviewer": "Clinical reviewer",
+        "updated": "Updated",
+        "languages": "Languages",
+        "status": "Status"
+      },
+      "minRead": "{n} min read",
+      "authorTeam": "Palsya clinical team",
+      "current": "Current",
+      "reviewDue": "Review due",
+      "twoPersonRule": "<b>Two-person rule.</b> No clinical content publishes without a named author and a named second-clinician reviewer, and every article carries a review date on the page. Anything older than six months is flagged for re-review whether the science moved or not."
+    },
+    "analytics": {
+      "sessionsByStage": "Sessions logged by stage",
+      "sessionsByStageChart": "Share of days with a session logged, by stage",
+      "sessionsByStageNote": "Mean of each patient's last 28 days (or fewer, for patients newer than that).",
+      "stage3Note": "Stage 3 is the coordination stage, where the numbers move slowly — and it is where we put the most clinician contact for exactly that reason.",
+      "medianChange": "Median symmetry score change by starting stage",
+      "medianChangeNote": "Change over 90 days, in score points. Stage 5 sitting near zero is expected — maintenance is not meant to move the number.",
+      "scanNote": "Scan results are not stored on the server yet, so this chart still shows the prototype's figures."
+    }
+  },
+  "admin": {
+    "meta": {
+      "title": "Back office — Palsya",
+      "description": "Palsya back office: clinicians, patient oversight, content, analytics, finance and compliance."
+    },
+    "heading": "Back office",
+    "intro": "Clinician management, patient oversight, content, analytics, finance and compliance.",
+    "tabs": {
+      "overview": "Overview",
+      "clinicians": "Clinicians",
+      "patients": "Patient oversight",
+      "content": "Content",
+      "analytics": "Analytics",
+      "finance": "Finance",
+      "compliance": "Compliance",
+      "users": "Users"
+    },
+    "overview": {
+      "kpi": {
+        "activePatients": "Patients",
+        "activePatientsDelta": "+{n} this month",
+        "clinicians": "Clinicians",
+        "cliniciansDelta": "{n} awaiting verification",
+        "adherence": "Sessions logged, 28-day mean",
+        "awaitingReview": "Awaiting clinician review",
+        "awaitingReviewDelta": "{n, plural, one {# patient unassigned} other {# patients unassigned}}"
+      },
+      "newPatients": "New patients by month",
+      "byStage": "Patients by stage",
+      "unstagedNote": "{n, plural, one {# patient has} other {# patients have}} not finished the assessment yet and {n, plural, one {is} other {are}} not shown.",
+      "needsAttention": "Needs attention",
+      "attn": {
+        "review": "{n, plural, one {# stage placement} other {# stage placements}} waiting for clinician review",
+        "reviewSub": "Low-confidence placements need a person to confirm or change them.",
+        "safety": "{n, plural, one {# patient} other {# patients}} continued past a safety flag",
+        "safetySub": "Each one should have a clinician confirm the programme is still right for them.",
+        "inactive": "{n, plural, one {# patient} other {# patients}} inactive for over 10 days",
+        "inactiveSub": "The action is to ask what changed, never to send guilt.",
+        "unassigned": "{n, plural, one {# patient has} other {# patients have}} no assigned clinician",
+        "unassignedSub": "Assign them on the Users tab.",
+        "pendingClinicians": "{n, plural, one {# clinician} other {# clinicians}} awaiting verification",
+        "pendingCliniciansSub": "Check the registration number against the regulator's register before verifying.",
+        "invitations": "{n, plural, one {# invitation} other {# invitations}} not yet accepted",
+        "invitationsSub": "Revoke or resend them on the Invite page."
+      },
+      "thisWeek": "This week",
+      "kv": {
+        "sessionsLogged": "Sessions logged",
+        "activePatients": "Patients who logged a session",
+        "newPatients": "New patients",
+        "notesWritten": "Clinician notes written",
+        "pendingInvitations": "Pending invitations"
+      }
+    },
+    "clinicians": {
+      "kpi": {
+        "count": "Clinicians on the platform",
+        "awaitingVerification": "Awaiting verification",
+        "assigned": "Patients with a clinician",
+        "perClinician": "Mean patients per clinician"
+      },
+      "directory": "Clinician directory",
+      "invite": "Invite a clinician",
+      "col": {
+        "clinician": "Clinician",
+        "registration": "Registration",
+        "institution": "Institution",
+        "patients": "Patients",
+        "joined": "Joined",
+        "status": "Status"
+      },
+      "noRegistration": "Not given",
+      "verified": "Verified",
+      "pending": "Awaiting verification",
+      "suspended": "Suspended",
+      "review": "Review",
+      "empty": "No clinicians yet. Invite one to get started.",
+      "verificationNote": "<b>Verification is manual.</b> Every registration number is checked by hand against the regulator's public register before a clinician is verified. A suspended clinician loses access to their patients straight away.",
+      "quality": "Consultation quality",
+      "qualityNote": "Measured on what patients report afterwards, not on call volume. We do not incentivise clinicians on throughput.",
+      "stat": {
+        "specificPlan": "\"I got a specific plan\"",
+        "understoodSituation": "\"They understood my situation\"",
+        "escalated": "Calls escalated to a physician"
+      }
+    },
+    "patients": {
+      "accessNote": "<b>Access is scoped.</b> Operations staff see clinical progress under initials; full identity and contact details are shown only to the clinician assigned to that patient.",
+      "kpi": {
+        "active": "Patients",
+        "flagged": "Flagged for follow-up",
+        "adherence": "Sessions logged, 28-day mean",
+        "unassigned": "Without a clinician"
+      },
+      "flaggedTitle": "Flagged for follow-up",
+      "noFlagged": "No patients are flagged right now.",
+      "cohort": "Patient cohort",
+      "searchPlaceholder": "Search by ID or initials",
+      "search": "Search",
+      "clear": "Clear",
+      "noMatch": "No patients match \"{q}\".",
+      "empty": "No patients yet.",
+      "col": {
+        "patient": "Patient",
+        "stage": "Stage",
+        "day": "Day",
+        "sessions28d": "Sessions 28d",
+        "clinician": "Clinician",
+        "lastActive": "Last active"
+      },
+      "unassigned": "Unassigned",
+      "rowMeta": "Stage {stage} · day {day} · {clinician}",
+      "sortingNote": "No column here ranks patients against each other, and there is no leaderboard view. Symmetry scores are not shown because scan results are not stored on the server yet.",
+      "detail": {
+        "title": "{name} · {id}",
+        "privacyNote": "<b>Staff can see clinical progress, not identity.</b> Names are initialised and contact details are not exposed here. Full records are visible only to the clinician assigned to the patient.",
+        "stage": "Stage",
+        "day": "Programme day",
+        "sessions28d": "Sessions logged (28d)",
+        "confidence": "Placement confidence",
+        "clinician": "Assigned clinician",
+        "lastActive": "Last active",
+        "close": "Close",
+        "manage": "Manage assignment",
+        "confidenceLevel": {
+          "high": "High",
+          "medium": "Medium",
+          "low": "Low"
+        }
+      }
+    },
+    "content": {
+      "kpi": {
+        "publishedGuides": "Published guides",
+        "languages": "Languages",
+        "programmeItems": "Programme items",
+        "reviewDue": "Due for clinical re-review"
+      },
+      "knowledgeBase": "Knowledge base",
+      "translationStatus": "Translation status",
+      "translationRow": "{done} of {total} guides",
+      "machineNote": "Machine-drafted clinical content is never published. A clinician who reads the language signs it off or it stays unpublished."
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Patients",
+        "adherence": "Sessions logged, 28-day mean",
+        "medianDays": "Median days in current stage",
+        "activeWeek": "Logged a session this week"
+      },
+      "whereStop": "Where people stop",
+      "dropoff": {
+        "trial": "Trial",
+        "wk12": "Wk 1–2",
+        "wk34": "Wk 3–4",
+        "wk58": "Wk 5–8",
+        "wk912": "Wk 9–12"
+      },
+      "dropoffNote": "Percent of cohort. The trial figure is the honest one — a fifth of the people who start decide within seven days that this is not for them, which is exactly what a free trial is for.",
+      "scanQuality": "Scan image quality",
+      "quality": {
+        "good": "Good",
+        "fair": "Fair",
+        "poor": "Poor — retake prompted"
+      },
+      "lightingNote": "Uneven side lighting is the single most common cause of a rejected scan, which is why the guidance on that screen leads with it rather than burying it.",
+      "kv": {
+        "retaken": "Scans retaken after a prompt",
+        "medianDuration": "Median scan duration",
+        "abandoned": "Scans abandoned mid-flow"
+      }
+    },
+    "finance": {
+      "kpi": {
+        "active": "Paying subscriptions",
+        "trialing": "On a free trial",
+        "pastDue": "Payment problems",
+        "runRate": "Annual run-rate",
+        "runRateSub": "estimated from active plans"
+      },
+      "planMix": "Plan mix",
+      "planMixNote": "Paying and trialling subscriptions. The middle plan being the largest is why it is labelled \"most chosen\" on the pricing page — a description, not a nudge, and nothing is pre-selected.",
+      "noSubscriptions": "No subscriptions yet.",
+      "otherPlan": "Other price",
+      "plan": {
+        "app": "App only · {price}",
+        "guided": "App + 2 · {price}",
+        "supported": "App + 6 · {price}"
+      },
+      "revenueByMonth": "Revenue by month",
+      "revenueNote": "Thousands of euro, recognised across the three-month term rather than at the point of sale.",
+      "recentTx": "Recent transactions",
+      "col": {
+        "reference": "Reference",
+        "date": "Date",
+        "type": "Type",
+        "plan": "Plan",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "txType": {
+        "subscription": "Subscription",
+        "extraConsult": "Extra consultation",
+        "monthlyExt": "Monthly extension",
+        "refund": "Refund",
+        "subscriptionReferral": "Subscription (15% clinician referral)"
+      },
+      "planName": {
+        "appOnly": "App only",
+        "app2": "App + 2 consultations",
+        "app6": "App + 6 consultations"
+      },
+      "status": {
+        "paid": "paid",
+        "refunded": "refunded"
+      },
+      "stripeNote": "All payments run through Stripe. We never see or store a card number. Refund requests inside the first 14 days of a paid term are approved without a reason being given.",
+      "reducedCost": "Reduced-cost places",
+      "reducedCostNote": "Held for people who cannot afford the programme. One sentence about their situation is all we ask for.",
+      "stat": {
+        "placesPerMonth": "Places per month",
+        "allocated": "Allocated this month",
+        "approved": "Requests approved"
+      }
+    },
+    "compliance": {
+      "kpi": {
+        "audit30d": "Audit entries, 30 days",
+        "flagsMonth": "Safety flags this month",
+        "continued": "Continued past a flag",
+        "staffMfa": "Staff with two-step sign-in"
+      },
+      "gdprQueue": "GDPR request queue",
+      "col": {
+        "reference": "Reference",
+        "type": "Type",
+        "received": "Received",
+        "due": "Due",
+        "status": "Status"
+      },
+      "reqType": {
+        "access": "Access (Art. 15)",
+        "erasure": "Erasure (Art. 17)",
+        "portability": "Portability (Art. 20)",
+        "rectification": "Rectification (Art. 16)",
+        "objection": "Objection (Art. 21)"
+      },
+      "status": {
+        "completed": "completed",
+        "inProgress": "in progress"
+      },
+      "slaNote": "Statutory deadline is one month. Our internal target is seven days.",
+      "posture": "Data protection posture",
+      "postureRows": {
+        "dataResidency": "Data residency",
+        "dataResidencyValue": "European Union (Ireland, Frankfurt)",
+        "encryptionRest": "Encryption at rest",
+        "encryptionRestValue": "AES-256",
+        "encryptionTransit": "Encryption in transit",
+        "encryptionTransitValue": "TLS 1.3",
+        "facialImages": "Facial images",
+        "facialImagesValue": "Article 9 special category · on-device processing",
+        "retentionImages": "Retention, images",
+        "retentionImagesValue": "Deleted within 30 days of request",
+        "retentionRecords": "Retention, records",
+        "retentionRecordsValue": "Deleted within 90 days, invoices excepted",
+        "dpia": "DPIA",
+        "dpiaValue": "Completed, reviewed February 2026",
+        "subProcessors": "Sub-processors",
+        "subProcessorsValue": "4 · all EU or with adequacy decisions",
+        "penTest": "Penetration test",
+        "penTestValue": "Annual, last March 2026",
+        "dataSold": "Data sold to third parties",
+        "dataSoldValue": "None. Ever."
+      },
+      "auditLog": "Audit log",
+      "auditLogNote": "Role changes, assignments, stage changes and notes are written here. It is append-only and staff cannot delete from it.",
+      "fullLog": "Full audit log",
+      "auditEmpty": "Nothing has been logged yet.",
+      "col2": {
+        "when": "When",
+        "who": "Who",
+        "action": "Action",
+        "record": "Record"
+      },
+      "system": "System",
+      "safetyRegister": "Clinical safety register",
+      "safetyEmpty": "No safety flags raised this month.",
+      "safetyCount": "{n} this month · {continued} continued",
+      "level": {
+        "urgent": "Urgent",
+        "wait": "Wait",
+        "review": "Review",
+        "action": "Action"
+      },
+      "safetyNote": "<b>{n, plural, one {# safety flag} other {# safety flags}} raised at assessment this month.</b> Each one is a sign-up we stopped to check on rather than let through. The number is reported at board level every month for exactly that reason."
+    }
+  },
+  "clinician": {
+    "meta": {
+      "title": "Clinician portal — Palsya",
+      "description": "Your patients, reviews, consultations and the guides you sign off."
+    },
+    "heading": "Clinician portal",
+    "intro": "Your patients, the reviews waiting on you, consultations and the guides you sign off. You only ever see patients assigned to you.",
+    "tabs": {
+      "overview": "Overview",
+      "patients": "My patients",
+      "review": "Review queue",
+      "consultations": "Consultations",
+      "content": "Content",
+      "analytics": "Analytics"
+    },
+    "overview": {
+      "kpi": {
+        "patients": "Patients assigned to you",
+        "patientsDelta": "+{n} this month",
+        "review": "Awaiting your review",
+        "inactive": "Inactive 10+ days",
+        "sessions": "Sessions logged this week"
+      },
+      "byStage": "Your patients by stage",
+      "newPatients": "New patients by month",
+      "unstagedNote": "{n, plural, one {# patient has} other {# patients have}} not finished the assessment yet and {n, plural, one {is} other {are}} not shown.",
+      "needsAttention": "Needs attention",
+      "openQueue": "Open the review queue",
+      "attn": {
+        "review": "{n, plural, one {# stage placement} other {# stage placements}} to confirm",
+        "reviewSub": "The assessment wasn't confident. Confirm or change the stage before the programme continues.",
+        "safety": "{n, plural, one {# patient} other {# patients}} continued past a safety flag",
+        "safetySub": "Check the programme is still the right thing for them.",
+        "inactive": "{n, plural, one {# patient} other {# patients}} inactive for over 10 days",
+        "inactiveSub": "Ask what changed — the plan may need adjusting."
+      },
+      "thisWeek": "This week",
+      "kv": {
+        "sessionsLogged": "Sessions logged",
+        "activePatients": "Patients who logged a session",
+        "notesWritten": "Notes you wrote",
+        "adherence": "Sessions logged, 28-day mean"
+      },
+      "empty": "No patients are assigned to you yet. An admin assigns patients; they'll appear here once assigned."
+    },
+    "review": {
+      "kpi": {
+        "total": "Patients in the queue",
+        "review": "Stage placements to confirm",
+        "safety": "Continued past a safety flag",
+        "inactive": "Inactive 10+ days"
+      },
+      "title": "Review queue",
+      "empty": "Nothing waiting for you. Patients appear here when a stage placement needs confirming, they continued past a safety flag, or they've been inactive for over 10 days.",
+      "rowMeta": "{stage} · day {day} · last session {last}",
+      "open": "Open record",
+      "note": "<b>Confirming a stage clears the review.</b> Open the record and set the stage — even to the same one — with a short reason. The change is written to the patient's stage history and the audit log."
+    },
+    "consultations": {
+      "notConnected": "<b>Consultation booking isn't connected to the clinician portal yet.</b> The figures and rows below are the prototype's demonstration data, so you can see how this tab will work.",
+      "kpi": {
+        "upcoming": "Upcoming this week",
+        "callsMonth": "Calls this month",
+        "utilisation": "Slot utilisation",
+        "utilisationSub": "target 70–85%",
+        "rating": "Mean patient rating"
+      },
+      "upcoming": "Upcoming consultations",
+      "col": {
+        "when": "When",
+        "patient": "Patient",
+        "stage": "Stage",
+        "type": "Type",
+        "language": "Language"
+      },
+      "type": {
+        "followUp": "Follow-up",
+        "review": "Stage review",
+        "first": "First consultation"
+      },
+      "quality": "Consultation quality",
+      "qualityNote": "Measured on what patients report afterwards, not on call volume. We do not incentivise clinicians on throughput.",
+      "stat": {
+        "specificPlan": "\"I got a specific plan\"",
+        "understoodSituation": "\"They understood my situation\"",
+        "escalated": "Calls escalated to a physician"
+      }
+    },
+    "content": {
+      "kpi": {
+        "written": "Guides you wrote",
+        "reviewing": "Guides you review",
+        "dueYours": "Yours due for re-review",
+        "published": "Published guides"
+      },
+      "guides": "Guides",
+      "col": {
+        "yourRole": "Your role"
+      },
+      "role": {
+        "author": "Author",
+        "reviewer": "Reviewer",
+        "none": "—"
+      }
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Your patients",
+        "adherence": "Sessions logged, 28-day mean",
+        "medianDays": "Median days in current stage",
+        "activeWeek": "Logged a session this week"
+      },
+      "caseloadNote": "Figures cover only the patients assigned to you."
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "common": {
+    "demo": "Demonstrasiedata",
+    "backToSite": "Terug na die webwerf",
+    "tabsLabel": "Afdelings",
+    "stageLabel": "Fase {n}",
+    "stageAbbrev": "F{n}",
+    "unstaged": "Nie geassesseer nie",
+    "dash": "—",
+    "never": "Nooit",
+    "today": "Vandag",
+    "daysAgo": "{n, plural, one {# dag gelede} other {# dae gelede}}",
+    "percent": "{n}%",
+    "noneNeedAttention": "Niks het tans aandag nodig nie.",
+    "observationalNote": "<b>Hierdie is waarnemingsyfers van ons eie gebruikers, nie proefresultate nie.</b> Mense wat 'n gestruktureerde program kies en daarby hou, verskil stelselmatig van dié wat dit nie doen nie. Ons rapporteer wat ons gebruikers ervaar het; ons beweer nie dat die program dit veroorsaak het nie.",
+    "flagBadge": {
+      "review": "Klinikushersiening nodig",
+      "safety": "Voortgegaan ná 'n veiligheidsvlag",
+      "inactive": "10+ dae onaktief"
+    },
+    "flagText": {
+      "review": "Gevlag vir klinikushersiening: die algoritmiese fase-indeling het lae sekerheid gehad, so 'n persoon moet dit bevestig of verander voordat die program voortgaan.",
+      "safety": "Gevlag: die assessering het 'n veiligheidsvlag gelig en die pasiënt het tog gekies om voort te gaan. Dit is die moeite werd om te bevestig dat die program steeds die regte ding vir hulle is.",
+      "inactive": "Gevlag: geen sessie vir meer as 10 dae aangeteken nie. Die aksie hier is om te vra of die program verander moet word, nie om 'n herinnering oor toewyding te stuur nie."
+    },
+    "months": "Maand",
+    "programmeByStage": "Programinhoud volgens fase",
+    "col": {
+      "stage": "Fase",
+      "exercises": "Oefeninge",
+      "taping": "Kleefband",
+      "routine": "Roetine",
+      "minutes": "Minute",
+      "patients": "Pasiënte",
+      "mean28d": "Sessies aangeteken 28d",
+      "medianDays": "Mediaan dae in fase"
+    },
+    "content": {
+      "col": {
+        "title": "Titel",
+        "author": "Outeur",
+        "reviewer": "Kliniese beoordelaar",
+        "updated": "Bygewerk",
+        "languages": "Tale",
+        "status": "Status"
+      },
+      "minRead": "{n} min. leestyd",
+      "authorTeam": "Palsya se kliniese span",
+      "current": "Huidig",
+      "reviewDue": "Hersiening nodig",
+      "twoPersonRule": "<b>Tweepersoonreël.</b> Geen kliniese inhoud word gepubliseer sonder 'n genoemde outeur en 'n genoemde tweede klinikus as beoordelaar nie, en elke artikel dra 'n hersieningsdatum op die bladsy. Enigiets ouer as ses maande word vir herbeoordeling gevlag, of die wetenskap verander het of nie."
+    },
+    "analytics": {
+      "sessionsByStage": "Sessies aangeteken volgens fase",
+      "sessionsByStageChart": "Deel van dae met 'n aangetekende sessie, volgens fase",
+      "sessionsByStageNote": "Gemiddeld van elke pasiënt se laaste 28 dae (of minder, vir pasiënte wat nog nie so lank deelneem nie).",
+      "stage3Note": "Fase 3 is die koördinasiefase, waar die syfers stadig beweeg — en presies daarom plaas ons die meeste klinikuskontak daar.",
+      "medianChange": "Mediaanverandering in simmetrietelling volgens beginfase",
+      "medianChangeNote": "Verandering oor 90 dae, in tellingpunte. Dat fase 5 naby nul sit, word verwag — onderhoud is nie bedoel om die getal te laat beweeg nie.",
+      "scanNote": "Skanderingsresultate word nog nie op die bediener gestoor nie, so hierdie grafiek wys steeds die prototipe se syfers."
+    }
+  },
+  "admin": {
+    "meta": {
+      "title": "Agterkantoor — Palsya",
+      "description": "Palsya se agterkantoor: klinici, pasiënttoesig, inhoud, ontleding, finansies en nakoming."
+    },
+    "heading": "Agterkantoor",
+    "intro": "Klinikusbestuur, pasiënttoesig, inhoud, ontleding, finansies en nakoming.",
+    "tabs": {
+      "overview": "Oorsig",
+      "clinicians": "Klinici",
+      "patients": "Pasiënttoesig",
+      "content": "Inhoud",
+      "analytics": "Ontleding",
+      "finance": "Finansies",
+      "compliance": "Nakoming",
+      "users": "Gebruikers"
+    },
+    "overview": {
+      "kpi": {
+        "activePatients": "Pasiënte",
+        "activePatientsDelta": "+{n} hierdie maand",
+        "clinicians": "Klinici",
+        "cliniciansDelta": "{n} wag op verifikasie",
+        "adherence": "Sessies aangeteken, 28-dae-gemiddeld",
+        "awaitingReview": "Wag op klinikushersiening",
+        "awaitingReviewDelta": "{n, plural, one {# pasiënt nie toegewys nie} other {# pasiënte nie toegewys nie}}"
+      },
+      "newPatients": "Nuwe pasiënte per maand",
+      "byStage": "Pasiënte volgens fase",
+      "unstagedNote": "{n, plural, one {# pasiënt het} other {# pasiënte het}} nog nie die assessering voltooi nie en {n, plural, one {word} other {word}} nie gewys nie.",
+      "needsAttention": "Het aandag nodig",
+      "attn": {
+        "review": "{n, plural, one {# fase-indeling} other {# fase-indelings}} wag op klinikushersiening",
+        "reviewSub": "Indelings met lae sekerheid moet deur 'n persoon bevestig of verander word.",
+        "safety": "{n, plural, one {# pasiënt het} other {# pasiënte het}} ná 'n veiligheidsvlag voortgegaan",
+        "safetySub": "Vir elkeen moet 'n klinikus bevestig dat die program steeds reg is vir hulle.",
+        "inactive": "{n, plural, one {# pasiënt} other {# pasiënte}} vir meer as 10 dae onaktief",
+        "inactiveSub": "Die aksie is om te vra wat verander het, nooit om skuldgevoelens te stuur nie.",
+        "unassigned": "{n, plural, one {# pasiënt het} other {# pasiënte het}} geen toegewese klinikus nie",
+        "unassignedSub": "Ken hulle toe op die Gebruikers-oortjie.",
+        "pendingClinicians": "{n, plural, one {# klinikus} other {# klinici}} wag op verifikasie",
+        "pendingCliniciansSub": "Kontroleer die registrasienommer teen die reguleerder se register voordat u verifieer.",
+        "invitations": "{n, plural, one {# uitnodiging} other {# uitnodigings}} nog nie aanvaar nie",
+        "invitationsSub": "Trek hulle terug of stuur hulle weer op die Nooi uit-bladsy."
+      },
+      "thisWeek": "Hierdie week",
+      "kv": {
+        "sessionsLogged": "Sessies aangeteken",
+        "activePatients": "Pasiënte wat 'n sessie aangeteken het",
+        "newPatients": "Nuwe pasiënte",
+        "notesWritten": "Klinikusnotas geskryf",
+        "pendingInvitations": "Uitstaande uitnodigings"
+      }
+    },
+    "clinicians": {
+      "kpi": {
+        "count": "Klinici op die platform",
+        "awaitingVerification": "Wag op verifikasie",
+        "assigned": "Pasiënte met 'n klinikus",
+        "perClinician": "Gemiddelde pasiënte per klinikus"
+      },
+      "directory": "Klinikusgids",
+      "invite": "Nooi 'n klinikus uit",
+      "col": {
+        "clinician": "Klinikus",
+        "registration": "Registrasie",
+        "institution": "Instelling",
+        "patients": "Pasiënte",
+        "joined": "Aangesluit",
+        "status": "Status"
+      },
+      "noRegistration": "Nie verskaf nie",
+      "verified": "Geverifieer",
+      "pending": "Wag op verifikasie",
+      "suspended": "Opgeskort",
+      "review": "Hersien",
+      "empty": "Nog geen klinici nie. Nooi een uit om te begin.",
+      "verificationNote": "<b>Verifikasie word met die hand gedoen.</b> Elke registrasienommer word met die hand teen die reguleerder se openbare register nagegaan voordat 'n klinikus geverifieer word. 'n Opgeskorte klinikus verloor dadelik toegang tot hul pasiënte.",
+      "quality": "Konsultasiegehalte",
+      "qualityNote": "Gemeet aan wat pasiënte daarna rapporteer, nie aan die aantal oproepe nie. Ons beloon klinici nie volgens deurset nie.",
+      "stat": {
+        "specificPlan": "\"Ek het 'n spesifieke plan gekry\"",
+        "understoodSituation": "\"Hulle het my situasie verstaan\"",
+        "escalated": "Oproepe na 'n geneesheer verwys"
+      }
+    },
+    "patients": {
+      "accessNote": "<b>Toegang is afgebaken.</b> Bedryfspersoneel sien kliniese vordering onder voorletters; volledige identiteit en kontakbesonderhede word slegs gewys aan die klinikus wat aan daardie pasiënt toegewys is.",
+      "kpi": {
+        "active": "Pasiënte",
+        "flagged": "Gevlag vir opvolg",
+        "adherence": "Sessies aangeteken, 28-dae-gemiddeld",
+        "unassigned": "Sonder 'n klinikus"
+      },
+      "flaggedTitle": "Gevlag vir opvolg",
+      "noFlagged": "Geen pasiënte is tans gevlag nie.",
+      "cohort": "Pasiëntkohort",
+      "searchPlaceholder": "Soek volgens ID of voorletters",
+      "search": "Soek",
+      "clear": "Maak skoon",
+      "noMatch": "Geen pasiënte pas by \"{q}\" nie.",
+      "empty": "Nog geen pasiënte nie.",
+      "col": {
+        "patient": "Pasiënt",
+        "stage": "Fase",
+        "day": "Dag",
+        "sessions28d": "Sessies 28d",
+        "clinician": "Klinikus",
+        "lastActive": "Laas aktief"
+      },
+      "unassigned": "Nie toegewys nie",
+      "rowMeta": "Fase {stage} · dag {day} · {clinician}",
+      "sortingNote": "Geen kolom hier rangskik pasiënte teen mekaar nie, en daar is geen ranglys-aansig nie. Simmetrietellings word nie gewys nie omdat skanderingsresultate nog nie op die bediener gestoor word nie.",
+      "detail": {
+        "title": "{name} · {id}",
+        "privacyNote": "<b>Personeel kan kliniese vordering sien, nie identiteit nie.</b> Name word as voorletters gewys en kontakbesonderhede word nie hier vertoon nie. Volledige rekords is slegs sigbaar vir die klinikus wat aan die pasiënt toegewys is.",
+        "stage": "Fase",
+        "day": "Programdag",
+        "sessions28d": "Sessies aangeteken (28d)",
+        "confidence": "Sekerheid van indeling",
+        "clinician": "Toegewese klinikus",
+        "lastActive": "Laas aktief",
+        "close": "Maak toe",
+        "manage": "Bestuur toewysing",
+        "confidenceLevel": {
+          "high": "Hoog",
+          "medium": "Gemiddeld",
+          "low": "Laag"
+        }
+      }
+    },
+    "content": {
+      "kpi": {
+        "publishedGuides": "Gepubliseerde gidse",
+        "languages": "Tale",
+        "programmeItems": "Programitems",
+        "reviewDue": "Gereed vir kliniese herbeoordeling"
+      },
+      "knowledgeBase": "Kennisbasis",
+      "translationStatus": "Vertaalstatus",
+      "translationRow": "{done} van {total} gidse",
+      "machineNote": "Kliniese inhoud wat deur 'n masjien opgestel is, word nooit gepubliseer nie. 'n Klinikus wat die taal lees, keur dit goed, anders bly dit ongepubliseer."
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Pasiënte",
+        "adherence": "Sessies aangeteken, 28-dae-gemiddeld",
+        "medianDays": "Mediaan dae in huidige fase",
+        "activeWeek": "Het hierdie week 'n sessie aangeteken"
+      },
+      "whereStop": "Waar mense ophou",
+      "dropoff": {
+        "trial": "Proef",
+        "wk12": "Wk. 1–2",
+        "wk34": "Wk. 3–4",
+        "wk58": "Wk. 5–8",
+        "wk912": "Wk. 9–12"
+      },
+      "dropoffNote": "Persentasie van die kohort. Die proefsyfer is die eerlike een — 'n vyfde van die mense wat begin, besluit binne sewe dae dat dit nie vir hulle is nie, en dis presies waarvoor 'n gratis proeftydperk is.",
+      "scanQuality": "Beeldgehalte van skanderings",
+      "quality": {
+        "good": "Goed",
+        "fair": "Redelik",
+        "poor": "Swak — oorneem gevra"
+      },
+      "lightingNote": "Ongelyke syligting is die enkele algemeenste oorsaak van 'n afgekeurde skandering, en daarom begin die leiding op daardie skerm daarmee eerder as om dit weg te steek.",
+      "kv": {
+        "retaken": "Skanderings oorgeneem ná 'n aansporing",
+        "medianDuration": "Mediaan skanderingsduur",
+        "abandoned": "Skanderings halfpad laat vaar"
+      }
+    },
+    "finance": {
+      "kpi": {
+        "active": "Betalende intekeninge",
+        "trialing": "Op 'n gratis proeftydperk",
+        "pastDue": "Betalingsprobleme",
+        "runRate": "Jaarlikse lopende koers",
+        "runRateSub": "beraam uit aktiewe planne"
+      },
+      "planMix": "Planverspreiding",
+      "planMixNote": "Betalende intekeninge en dié op proef. Dat die middelste plan die grootste is, is waarom dit op die pryseblad as \"meeste gekies\" gemerk is — 'n beskrywing, nie 'n stoot nie, en niks is vooraf gekies nie.",
+      "noSubscriptions": "Nog geen intekeninge nie.",
+      "otherPlan": "Ander prys",
+      "plan": {
+        "app": "Slegs app · {price}",
+        "guided": "App + 2 · {price}",
+        "supported": "App + 6 · {price}"
+      },
+      "revenueByMonth": "Inkomste per maand",
+      "revenueNote": "Duisende euro, erken oor die termyn van drie maande eerder as op die oomblik van verkoop.",
+      "recentTx": "Onlangse transaksies",
+      "col": {
+        "reference": "Verwysing",
+        "date": "Datum",
+        "type": "Tipe",
+        "plan": "Plan",
+        "amount": "Bedrag",
+        "status": "Status"
+      },
+      "txType": {
+        "subscription": "Intekening",
+        "extraConsult": "Ekstra konsultasie",
+        "monthlyExt": "Maandelikse verlenging",
+        "refund": "Terugbetaling",
+        "subscriptionReferral": "Intekening (15% klinikusverwysing)"
+      },
+      "planName": {
+        "appOnly": "Slegs app",
+        "app2": "App + 2 konsultasies",
+        "app6": "App + 6 konsultasies"
+      },
+      "status": {
+        "paid": "betaal",
+        "refunded": "terugbetaal"
+      },
+      "stripeNote": "Alle betalings loop deur Stripe. Ons sien of stoor nooit 'n kaartnommer nie. Versoeke om terugbetaling binne die eerste 14 dae van 'n betaalde termyn word goedgekeur sonder dat 'n rede gegee hoef te word.",
+      "reducedCost": "Plekke teen verlaagde koste",
+      "reducedCostNote": "Gehou vir mense wat nie die program kan bekostig nie. Een sin oor hul situasie is al wat ons vra.",
+      "stat": {
+        "placesPerMonth": "Plekke per maand",
+        "allocated": "Hierdie maand toegeken",
+        "approved": "Versoeke goedgekeur"
+      }
+    },
+    "compliance": {
+      "kpi": {
+        "audit30d": "Ouditinskrywings, 30 dae",
+        "flagsMonth": "Veiligheidsvlae hierdie maand",
+        "continued": "Voortgegaan ná 'n vlag",
+        "staffMfa": "Personeel met tweestap-aanmelding"
+      },
+      "gdprQueue": "GDPR-versoekry",
+      "col": {
+        "reference": "Verwysing",
+        "type": "Tipe",
+        "received": "Ontvang",
+        "due": "Sperdatum",
+        "status": "Status"
+      },
+      "reqType": {
+        "access": "Toegang (art. 15)",
+        "erasure": "Uitwissing (art. 17)",
+        "portability": "Oordraagbaarheid (art. 20)",
+        "rectification": "Regstelling (art. 16)",
+        "objection": "Beswaar (art. 21)"
+      },
+      "status": {
+        "completed": "voltooi",
+        "inProgress": "aan die gang"
+      },
+      "slaNote": "Die statutêre sperdatum is een maand. Ons interne teiken is sewe dae.",
+      "posture": "Databeskermingshouding",
+      "postureRows": {
+        "dataResidency": "Dataligging",
+        "dataResidencyValue": "Europese Unie (Ierland, Frankfurt)",
+        "encryptionRest": "Enkripsie in rus",
+        "encryptionRestValue": "AES-256",
+        "encryptionTransit": "Enkripsie tydens oordrag",
+        "encryptionTransitValue": "TLS 1.3",
+        "facialImages": "Gesigsbeelde",
+        "facialImagesValue": "Artikel 9 spesiale kategorie · verwerking op die toestel",
+        "retentionImages": "Bewaring, beelde",
+        "retentionImagesValue": "Binne 30 dae ná versoek uitgevee",
+        "retentionRecords": "Bewaring, rekords",
+        "retentionRecordsValue": "Binne 90 dae uitgevee, fakture uitgesonderd",
+        "dpia": "DPIA",
+        "dpiaValue": "Voltooi, hersien in Februarie 2026",
+        "subProcessors": "Subverwerkers",
+        "subProcessorsValue": "4 · almal in die EU of met toereikendheidsbesluite",
+        "penTest": "Penetrasietoets",
+        "penTestValue": "Jaarliks, laaste in Maart 2026",
+        "dataSold": "Data aan derde partye verkoop",
+        "dataSoldValue": "Geen. Nooit nie."
+      },
+      "auditLog": "Ouditlog",
+      "auditLogNote": "Rolveranderings, toewysings, faseveranderings en notas word hier aangeteken. Daar kan slegs by gevoeg word en personeel kan niks daaruit uitvee nie.",
+      "fullLog": "Volledige ouditlog",
+      "auditEmpty": "Niks is nog aangeteken nie.",
+      "col2": {
+        "when": "Wanneer",
+        "who": "Wie",
+        "action": "Aksie",
+        "record": "Rekord"
+      },
+      "system": "Stelsel",
+      "safetyRegister": "Kliniese veiligheidsregister",
+      "safetyEmpty": "Geen veiligheidsvlae hierdie maand gelig nie.",
+      "safetyCount": "{n} hierdie maand · {continued} voortgegaan",
+      "level": {
+        "urgent": "Dringend",
+        "wait": "Wag",
+        "review": "Hersien",
+        "action": "Aksie"
+      },
+      "safetyNote": "<b>{n, plural, one {# veiligheidsvlag} other {# veiligheidsvlae}} hierdie maand by assessering gelig.</b> Elkeen is 'n registrasie wat ons gestop het om na te gaan eerder as om dit deur te laat. Die getal word presies daarom elke maand op raadsvlak gerapporteer."
+    }
+  },
+  "clinician": {
+    "meta": {
+      "title": "Klinikusportaal — Palsya",
+      "description": "U pasiënte, hersienings, konsultasies en die gidse wat u goedkeur."
+    },
+    "heading": "Klinikusportaal",
+    "intro": "U pasiënte, die hersienings wat op u wag, konsultasies en die gidse wat u goedkeur. U sien slegs pasiënte wat aan u toegewys is.",
+    "tabs": {
+      "overview": "Oorsig",
+      "patients": "My pasiënte",
+      "review": "Hersieningsry",
+      "consultations": "Konsultasies",
+      "content": "Inhoud",
+      "analytics": "Ontleding"
+    },
+    "overview": {
+      "kpi": {
+        "patients": "Pasiënte aan u toegewys",
+        "patientsDelta": "+{n} hierdie maand",
+        "review": "Wag op u hersiening",
+        "inactive": "10+ dae onaktief",
+        "sessions": "Sessies hierdie week aangeteken"
+      },
+      "byStage": "U pasiënte volgens fase",
+      "newPatients": "Nuwe pasiënte per maand",
+      "unstagedNote": "{n, plural, one {# pasiënt het} other {# pasiënte het}} nog nie die assessering voltooi nie en {n, plural, one {word} other {word}} nie gewys nie.",
+      "needsAttention": "Het aandag nodig",
+      "openQueue": "Maak die hersieningsry oop",
+      "attn": {
+        "review": "{n, plural, one {# fase-indeling} other {# fase-indelings}} om te bevestig",
+        "reviewSub": "Die assessering was nie seker nie. Bevestig of verander die fase voordat die program voortgaan.",
+        "safety": "{n, plural, one {# pasiënt het} other {# pasiënte het}} ná 'n veiligheidsvlag voortgegaan",
+        "safetySub": "Gaan na of die program steeds die regte ding vir hulle is.",
+        "inactive": "{n, plural, one {# pasiënt} other {# pasiënte}} vir meer as 10 dae onaktief",
+        "inactiveSub": "Vra wat verander het — die plan moet dalk aangepas word."
+      },
+      "thisWeek": "Hierdie week",
+      "kv": {
+        "sessionsLogged": "Sessies aangeteken",
+        "activePatients": "Pasiënte wat 'n sessie aangeteken het",
+        "notesWritten": "Notas wat u geskryf het",
+        "adherence": "Sessies aangeteken, 28-dae-gemiddeld"
+      },
+      "empty": "Nog geen pasiënte is aan u toegewys nie. 'n Administrateur ken pasiënte toe; hulle sal hier verskyn sodra hulle toegewys is."
+    },
+    "review": {
+      "kpi": {
+        "total": "Pasiënte in die ry",
+        "review": "Fase-indelings om te bevestig",
+        "safety": "Voortgegaan ná 'n veiligheidsvlag",
+        "inactive": "10+ dae onaktief"
+      },
+      "title": "Hersieningsry",
+      "empty": "Niks wag op u nie. Pasiënte verskyn hier wanneer 'n fase-indeling bevestig moet word, wanneer hulle ná 'n veiligheidsvlag voortgegaan het, of wanneer hulle vir meer as 10 dae onaktief is.",
+      "rowMeta": "{stage} · dag {day} · laaste sessie {last}",
+      "open": "Maak rekord oop",
+      "note": "<b>Om 'n fase te bevestig, sluit die hersiening af.</b> Maak die rekord oop en stel die fase in — selfs na dieselfde een — met 'n kort rede. Die verandering word in die pasiënt se fasegeskiedenis en die ouditlog aangeteken."
+    },
+    "consultations": {
+      "notConnected": "<b>Konsultasiebesprekings is nog nie aan die klinikusportaal gekoppel nie.</b> Die syfers en rye hieronder is die prototipe se demonstrasiedata, sodat u kan sien hoe hierdie oortjie sal werk.",
+      "kpi": {
+        "upcoming": "Komende hierdie week",
+        "callsMonth": "Oproepe hierdie maand",
+        "utilisation": "Gleufbenutting",
+        "utilisationSub": "teiken 70–85%",
+        "rating": "Gemiddelde pasiëntgradering"
+      },
+      "upcoming": "Komende konsultasies",
+      "col": {
+        "when": "Wanneer",
+        "patient": "Pasiënt",
+        "stage": "Fase",
+        "type": "Tipe",
+        "language": "Taal"
+      },
+      "type": {
+        "followUp": "Opvolg",
+        "review": "Fasehersiening",
+        "first": "Eerste konsultasie"
+      },
+      "quality": "Konsultasiegehalte",
+      "qualityNote": "Gemeet aan wat pasiënte daarna rapporteer, nie aan die aantal oproepe nie. Ons beloon klinici nie volgens deurset nie.",
+      "stat": {
+        "specificPlan": "\"Ek het 'n spesifieke plan gekry\"",
+        "understoodSituation": "\"Hulle het my situasie verstaan\"",
+        "escalated": "Oproepe na 'n geneesheer verwys"
+      }
+    },
+    "content": {
+      "kpi": {
+        "written": "Gidse wat u geskryf het",
+        "reviewing": "Gidse wat u beoordeel",
+        "dueYours": "U s'n, gereed vir herbeoordeling",
+        "published": "Gepubliseerde gidse"
+      },
+      "guides": "Gidse",
+      "col": {
+        "yourRole": "U rol"
+      },
+      "role": {
+        "author": "Outeur",
+        "reviewer": "Beoordelaar",
+        "none": "—"
+      }
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "U pasiënte",
+        "adherence": "Sessies aangeteken, 28-dae-gemiddeld",
+        "medianDays": "Mediaan dae in huidige fase",
+        "activeWeek": "Het hierdie week 'n sessie aangeteken"
+      },
+      "caseloadNote": "Syfers dek slegs die pasiënte wat aan u toegewys is."
+    }
+  }
+}

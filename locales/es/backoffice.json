@@ -1,0 +1,476 @@
+{
+  "common": {
+    "demo": "Datos de demostración",
+    "backToSite": "Volver al sitio",
+    "tabsLabel": "Secciones",
+    "stageLabel": "Fase {n}",
+    "stageAbbrev": "F{n}",
+    "unstaged": "Sin evaluar",
+    "dash": "—",
+    "never": "Nunca",
+    "today": "Hoy",
+    "daysAgo": "{n, plural, one {hace # día} other {hace # días}}",
+    "percent": "{n} %",
+    "noneNeedAttention": "Ahora mismo no hay nada que requiera atención.",
+    "observationalNote": "<b>Estas son cifras observacionales de nuestros propios usuarios, no resultados de un ensayo clínico.</b> Las personas que eligen un programa estructurado y lo mantienen difieren sistemáticamente de quienes no lo hacen. Informamos de lo que han experimentado nuestros usuarios; no afirmamos que el programa lo haya causado.",
+    "flagBadge": {
+      "review": "Necesita revisión clínica",
+      "safety": "Continuó pese a un aviso de seguridad",
+      "inactive": "Inactivo 10+ días"
+    },
+    "flagText": {
+      "review": "Marcado para revisión clínica: la asignación algorítmica de la fase tuvo poca confianza, así que una persona debe confirmarla o cambiarla antes de continuar con el programa.",
+      "safety": "Marcado: la evaluación generó un aviso de seguridad y el paciente decidió continuar de todos modos. Conviene confirmar que el programa sigue siendo lo adecuado para él.",
+      "inactive": "Marcado: no se ha registrado ninguna sesión en más de 10 días. La acción aquí es preguntar si el programa necesita cambios, no enviar un recordatorio sobre el compromiso."
+    },
+    "months": "Mes",
+    "programmeByStage": "Contenido del programa por fase",
+    "col": {
+      "stage": "Fase",
+      "exercises": "Ejercicios",
+      "taping": "Vendaje",
+      "routine": "Rutina",
+      "minutes": "Minutos",
+      "patients": "Pacientes",
+      "mean28d": "Sesiones registradas 28d",
+      "medianDays": "Días medianos en la fase"
+    },
+    "content": {
+      "col": {
+        "title": "Título",
+        "author": "Autor",
+        "reviewer": "Revisor clínico",
+        "updated": "Actualizado",
+        "languages": "Idiomas",
+        "status": "Estado"
+      },
+      "minRead": "{n} min de lectura",
+      "authorTeam": "Equipo clínico de Palsya",
+      "current": "Vigente",
+      "reviewDue": "Revisión pendiente",
+      "twoPersonRule": "<b>Norma de dos personas.</b> Ningún contenido clínico se publica sin un autor identificado y un segundo clínico revisor identificado, y todos los artículos llevan una fecha de revisión en la página. Todo lo que tenga más de seis meses se marca para revisión, haya avanzado o no la ciencia."
+    },
+    "analytics": {
+      "sessionsByStage": "Sesiones registradas por fase",
+      "sessionsByStageChart": "Proporción de días con una sesión registrada, por fase",
+      "sessionsByStageNote": "Media de los últimos 28 días de cada paciente (o menos, para pacientes más recientes).",
+      "stage3Note": "La Fase 3 es la fase de coordinación, donde las cifras avanzan despacio, y es donde ponemos más contacto clínico precisamente por ese motivo.",
+      "medianChange": "Cambio mediano de la puntuación de simetría según la fase inicial",
+      "medianChangeNote": "Cambio a lo largo de 90 días, en puntos de puntuación. Que la Fase 5 se sitúe cerca de cero es lo esperado: el mantenimiento no está pensado para mover la cifra.",
+      "scanNote": "Los resultados de los escaneos aún no se guardan en el servidor, así que este gráfico sigue mostrando las cifras del prototipo."
+    }
+  },
+  "admin": {
+    "meta": {
+      "title": "Panel interno — Palsya",
+      "description": "Panel interno de Palsya: clínicos, supervisión de pacientes, contenido, analítica, finanzas y cumplimiento."
+    },
+    "heading": "Panel interno",
+    "intro": "Gestión de clínicos, supervisión de pacientes, contenido, analítica, finanzas y cumplimiento normativo.",
+    "tabs": {
+      "overview": "Resumen",
+      "clinicians": "Clínicos",
+      "patients": "Supervisión de pacientes",
+      "content": "Contenido",
+      "analytics": "Analítica",
+      "finance": "Finanzas",
+      "compliance": "Cumplimiento",
+      "users": "Usuarios"
+    },
+    "overview": {
+      "kpi": {
+        "activePatients": "Pacientes",
+        "activePatientsDelta": "+{n} este mes",
+        "clinicians": "Clínicos",
+        "cliniciansDelta": "{n} pendientes de verificación",
+        "adherence": "Sesiones registradas, media de 28 días",
+        "awaitingReview": "A la espera de revisión clínica",
+        "awaitingReviewDelta": "{n, plural, one {# paciente sin asignar} other {# pacientes sin asignar}}"
+      },
+      "newPatients": "Nuevos pacientes por mes",
+      "byStage": "Pacientes por fase",
+      "unstagedNote": "{n, plural, one {# paciente no ha terminado} other {# pacientes no han terminado}} aún la evaluación y no {n, plural, one {se muestra} other {se muestran}}.",
+      "needsAttention": "Requiere atención",
+      "attn": {
+        "review": "{n, plural, one {# asignación de fase} other {# asignaciones de fase}} a la espera de revisión clínica",
+        "reviewSub": "Las asignaciones con poca confianza necesitan que una persona las confirme o las cambie.",
+        "safety": "{n, plural, one {# paciente continuó} other {# pacientes continuaron}} pese a un aviso de seguridad",
+        "safetySub": "En cada caso, un clínico debe confirmar que el programa sigue siendo adecuado.",
+        "inactive": "{n, plural, one {# paciente inactivo} other {# pacientes inactivos}} durante más de 10 días",
+        "inactiveSub": "La acción es preguntar qué ha cambiado, nunca generar culpa.",
+        "unassigned": "{n, plural, one {# paciente no tiene} other {# pacientes no tienen}} clínico asignado",
+        "unassignedSub": "Asígnelos en la pestaña Usuarios.",
+        "pendingClinicians": "{n, plural, one {# clínico} other {# clínicos}} pendientes de verificación",
+        "pendingCliniciansSub": "Compruebe el número de colegiado en el registro del organismo regulador antes de verificar.",
+        "invitations": "{n, plural, one {# invitación} other {# invitaciones}} aún sin aceptar",
+        "invitationsSub": "Revóquelas o reenvíelas en la página Invitar."
+      },
+      "thisWeek": "Esta semana",
+      "kv": {
+        "sessionsLogged": "Sesiones registradas",
+        "activePatients": "Pacientes que registraron una sesión",
+        "newPatients": "Nuevos pacientes",
+        "notesWritten": "Notas clínicas escritas",
+        "pendingInvitations": "Invitaciones pendientes"
+      }
+    },
+    "clinicians": {
+      "kpi": {
+        "count": "Clínicos en la plataforma",
+        "awaitingVerification": "Pendientes de verificación",
+        "assigned": "Pacientes con clínico",
+        "perClinician": "Media de pacientes por clínico"
+      },
+      "directory": "Directorio de clínicos",
+      "invite": "Invitar a un clínico",
+      "col": {
+        "clinician": "Clínico",
+        "registration": "Registro",
+        "institution": "Institución",
+        "patients": "Pacientes",
+        "joined": "Alta",
+        "status": "Estado"
+      },
+      "noRegistration": "No indicado",
+      "verified": "Verificado",
+      "pending": "Pendiente de verificación",
+      "suspended": "Suspendido",
+      "review": "Revisar",
+      "empty": "Todavía no hay clínicos. Invite a uno para empezar.",
+      "verificationNote": "<b>La verificación es manual.</b> Cada número de colegiado se comprueba a mano en el registro público del organismo regulador antes de verificar a un clínico. Un clínico suspendido pierde el acceso a sus pacientes de inmediato.",
+      "quality": "Calidad de las consultas",
+      "qualityNote": "Se mide por lo que los pacientes informan después, no por el volumen de llamadas. No incentivamos a los clínicos por el rendimiento.",
+      "stat": {
+        "specificPlan": "«Obtuve un plan concreto»",
+        "understoodSituation": "«Entendieron mi situación»",
+        "escalated": "Llamadas derivadas a un médico"
+      }
+    },
+    "patients": {
+      "accessNote": "<b>El acceso está delimitado.</b> El personal de operaciones ve el progreso clínico bajo iniciales; la identidad completa y los datos de contacto solo se muestran al clínico asignado a ese paciente.",
+      "kpi": {
+        "active": "Pacientes",
+        "flagged": "Marcados para seguimiento",
+        "adherence": "Sesiones registradas, media de 28 días",
+        "unassigned": "Sin clínico"
+      },
+      "flaggedTitle": "Marcados para seguimiento",
+      "noFlagged": "Ahora mismo no hay pacientes marcados.",
+      "cohort": "Cohorte de pacientes",
+      "searchPlaceholder": "Buscar por ID o iniciales",
+      "search": "Buscar",
+      "clear": "Borrar",
+      "noMatch": "Ningún paciente coincide con «{q}».",
+      "empty": "Todavía no hay pacientes.",
+      "col": {
+        "patient": "Paciente",
+        "stage": "Fase",
+        "day": "Día",
+        "sessions28d": "Sesiones 28d",
+        "clinician": "Clínico",
+        "lastActive": "Última actividad"
+      },
+      "unassigned": "Sin asignar",
+      "rowMeta": "Fase {stage} · día {day} · {clinician}",
+      "sortingNote": "Ninguna columna aquí clasifica a los pacientes entre sí, y no existe una vista de clasificación. Las puntuaciones de simetría no se muestran porque los resultados de los escaneos aún no se guardan en el servidor.",
+      "detail": {
+        "title": "{name} · {id}",
+        "privacyNote": "<b>El personal ve el progreso clínico, no la identidad.</b> Los nombres aparecen con iniciales y los datos de contacto no se muestran aquí. Las fichas completas solo son visibles para el clínico asignado al paciente.",
+        "stage": "Fase",
+        "day": "Día del programa",
+        "sessions28d": "Sesiones registradas (28d)",
+        "confidence": "Confianza de la asignación",
+        "clinician": "Clínico asignado",
+        "lastActive": "Última actividad",
+        "close": "Cerrar",
+        "manage": "Gestionar asignación",
+        "confidenceLevel": {
+          "high": "Alta",
+          "medium": "Media",
+          "low": "Baja"
+        }
+      }
+    },
+    "content": {
+      "kpi": {
+        "publishedGuides": "Guías publicadas",
+        "languages": "Idiomas",
+        "programmeItems": "Elementos del programa",
+        "reviewDue": "Pendientes de nueva revisión clínica"
+      },
+      "knowledgeBase": "Base de conocimiento",
+      "translationStatus": "Estado de traducción",
+      "translationRow": "{done} de {total} guías",
+      "machineNote": "El contenido clínico redactado por máquina nunca se publica. Un clínico que lea el idioma lo aprueba, o permanece sin publicar."
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Pacientes",
+        "adherence": "Sesiones registradas, media de 28 días",
+        "medianDays": "Días medianos en la fase actual",
+        "activeWeek": "Registraron una sesión esta semana"
+      },
+      "whereStop": "Dónde abandonan",
+      "dropoff": {
+        "trial": "Prueba",
+        "wk12": "Sem 1–2",
+        "wk34": "Sem 3–4",
+        "wk58": "Sem 5–8",
+        "wk912": "Sem 9–12"
+      },
+      "dropoffNote": "Porcentaje de la cohorte. La cifra de la prueba gratuita es la más honesta: una quinta parte de quienes empiezan deciden en los primeros siete días que esto no es para ellos, que es exactamente para lo que sirve una prueba gratuita.",
+      "scanQuality": "Calidad de la imagen del escaneo",
+      "quality": {
+        "good": "Buena",
+        "fair": "Aceptable",
+        "poor": "Deficiente — se solicita repetir"
+      },
+      "lightingNote": "Una iluminación lateral desigual es la causa más frecuente de que se rechace un escaneo, por lo que la indicación de esa pantalla empieza precisamente por ahí en lugar de dejarlo en segundo plano.",
+      "kv": {
+        "retaken": "Escaneos repetidos tras un aviso",
+        "medianDuration": "Duración mediana del escaneo",
+        "abandoned": "Escaneos abandonados a mitad de proceso"
+      }
+    },
+    "finance": {
+      "kpi": {
+        "active": "Suscripciones de pago",
+        "trialing": "En prueba gratuita",
+        "pastDue": "Problemas de pago",
+        "runRate": "Ingresos anualizados",
+        "runRateSub": "estimados a partir de los planes activos"
+      },
+      "planMix": "Distribución de planes",
+      "planMixNote": "Suscripciones de pago y en prueba. Que el plan intermedio sea el mayor es la razón por la que se etiqueta como \"el más elegido\" en la página de precios: es una descripción, no un empujón, y no hay nada preseleccionado.",
+      "noSubscriptions": "Todavía no hay suscripciones.",
+      "otherPlan": "Otro precio",
+      "plan": {
+        "app": "Solo la app · {price}",
+        "guided": "App + 2 · {price}",
+        "supported": "App + 6 · {price}"
+      },
+      "revenueByMonth": "Ingresos por mes",
+      "revenueNote": "Miles de euros, reconocidos a lo largo del período de tres meses en lugar de en el momento de la venta.",
+      "recentTx": "Transacciones recientes",
+      "col": {
+        "reference": "Referencia",
+        "date": "Fecha",
+        "type": "Tipo",
+        "plan": "Plan",
+        "amount": "Importe",
+        "status": "Estado"
+      },
+      "txType": {
+        "subscription": "Suscripción",
+        "extraConsult": "Consulta adicional",
+        "monthlyExt": "Ampliación mensual",
+        "refund": "Reembolso",
+        "subscriptionReferral": "Suscripción (15 % derivación de clínico)"
+      },
+      "planName": {
+        "appOnly": "Solo la app",
+        "app2": "App + 2 consultas",
+        "app6": "App + 6 consultas"
+      },
+      "status": {
+        "paid": "pagado",
+        "refunded": "reembolsado"
+      },
+      "stripeNote": "Todos los pagos se procesan a través de Stripe. Nunca vemos ni almacenamos un número de tarjeta. Las solicitudes de reembolso dentro de los primeros 14 días de un período pagado se aprueban sin necesidad de dar un motivo.",
+      "reducedCost": "Plazas de coste reducido",
+      "reducedCostNote": "Reservadas para personas que no pueden costear el programa. Solo pedimos una frase sobre su situación.",
+      "stat": {
+        "placesPerMonth": "Plazas al mes",
+        "allocated": "Asignadas este mes",
+        "approved": "Solicitudes aprobadas"
+      }
+    },
+    "compliance": {
+      "kpi": {
+        "audit30d": "Entradas de auditoría, 30 días",
+        "flagsMonth": "Avisos de seguridad este mes",
+        "continued": "Continuaron pese a un aviso",
+        "staffMfa": "Personal con inicio de sesión en dos pasos"
+      },
+      "gdprQueue": "Cola de solicitudes RGPD",
+      "col": {
+        "reference": "Referencia",
+        "type": "Tipo",
+        "received": "Recibida",
+        "due": "Vence",
+        "status": "Estado"
+      },
+      "reqType": {
+        "access": "Acceso (Art. 15)",
+        "erasure": "Supresión (Art. 17)",
+        "portability": "Portabilidad (Art. 20)",
+        "rectification": "Rectificación (Art. 16)",
+        "objection": "Oposición (Art. 21)"
+      },
+      "status": {
+        "completed": "completada",
+        "inProgress": "en curso"
+      },
+      "slaNote": "El plazo legal es de un mes. Nuestro objetivo interno es de siete días.",
+      "posture": "Postura de protección de datos",
+      "postureRows": {
+        "dataResidency": "Residencia de los datos",
+        "dataResidencyValue": "Unión Europea (Irlanda, Fráncfort)",
+        "encryptionRest": "Cifrado en reposo",
+        "encryptionRestValue": "AES-256",
+        "encryptionTransit": "Cifrado en tránsito",
+        "encryptionTransitValue": "TLS 1.3",
+        "facialImages": "Imágenes faciales",
+        "facialImagesValue": "Categoría especial del Art. 9 · procesamiento en el dispositivo",
+        "retentionImages": "Conservación, imágenes",
+        "retentionImagesValue": "Eliminadas en un plazo de 30 días desde la solicitud",
+        "retentionRecords": "Conservación, fichas",
+        "retentionRecordsValue": "Eliminadas en un plazo de 90 días, excepto facturas",
+        "dpia": "EIPD",
+        "dpiaValue": "Completada, revisada en febrero de 2026",
+        "subProcessors": "Subencargados",
+        "subProcessorsValue": "4 · todos en la UE o con decisión de adecuación",
+        "penTest": "Test de penetración",
+        "penTestValue": "Anual, el último en marzo de 2026",
+        "dataSold": "Datos vendidos a terceros",
+        "dataSoldValue": "Ninguno. Nunca."
+      },
+      "auditLog": "Registro de auditoría",
+      "auditLogNote": "Aquí se registran los cambios de rol, las asignaciones, los cambios de fase y las notas. Es de solo adición y el personal no puede eliminar entradas.",
+      "fullLog": "Registro de auditoría completo",
+      "auditEmpty": "Todavía no se ha registrado nada.",
+      "col2": {
+        "when": "Cuándo",
+        "who": "Quién",
+        "action": "Acción",
+        "record": "Ficha"
+      },
+      "system": "Sistema",
+      "safetyRegister": "Registro de seguridad clínica",
+      "safetyEmpty": "Este mes no se ha generado ningún aviso de seguridad.",
+      "safetyCount": "{n} este mes · {continued} continuaron",
+      "level": {
+        "urgent": "Urgente",
+        "wait": "Esperar",
+        "review": "Revisar",
+        "action": "Actuar"
+      },
+      "safetyNote": "<b>{n, plural, one {# aviso de seguridad generado} other {# avisos de seguridad generados}} en la evaluación este mes.</b> Cada uno es un alta que detuvimos para comprobar en lugar de dejarla pasar. La cifra se comunica al consejo cada mes precisamente por ese motivo."
+    }
+  },
+  "clinician": {
+    "meta": {
+      "title": "Portal para clínicos — Palsya",
+      "description": "Sus pacientes, revisiones, consultas y las guías que aprueba."
+    },
+    "heading": "Portal para clínicos",
+    "intro": "Sus pacientes, las revisiones que le esperan, las consultas y las guías que aprueba. Solo ve los pacientes que tiene asignados.",
+    "tabs": {
+      "overview": "Resumen",
+      "patients": "Mis pacientes",
+      "review": "Cola de revisión",
+      "consultations": "Consultas",
+      "content": "Contenido",
+      "analytics": "Analítica"
+    },
+    "overview": {
+      "kpi": {
+        "patients": "Pacientes asignados a usted",
+        "patientsDelta": "+{n} este mes",
+        "review": "A la espera de su revisión",
+        "inactive": "Inactivos 10+ días",
+        "sessions": "Sesiones registradas esta semana"
+      },
+      "byStage": "Sus pacientes por fase",
+      "newPatients": "Nuevos pacientes por mes",
+      "unstagedNote": "{n, plural, one {# paciente no ha terminado} other {# pacientes no han terminado}} aún la evaluación y no {n, plural, one {se muestra} other {se muestran}}.",
+      "needsAttention": "Requiere atención",
+      "openQueue": "Abrir la cola de revisión",
+      "attn": {
+        "review": "{n, plural, one {# asignación de fase} other {# asignaciones de fase}} por confirmar",
+        "reviewSub": "La evaluación no tuvo suficiente confianza. Confirme o cambie la fase antes de que continúe el programa.",
+        "safety": "{n, plural, one {# paciente continuó} other {# pacientes continuaron}} pese a un aviso de seguridad",
+        "safetySub": "Compruebe que el programa sigue siendo lo adecuado para ellos.",
+        "inactive": "{n, plural, one {# paciente inactivo} other {# pacientes inactivos}} durante más de 10 días",
+        "inactiveSub": "Pregunte qué ha cambiado: puede que haya que ajustar el plan."
+      },
+      "thisWeek": "Esta semana",
+      "kv": {
+        "sessionsLogged": "Sesiones registradas",
+        "activePatients": "Pacientes que registraron una sesión",
+        "notesWritten": "Notas que ha escrito",
+        "adherence": "Sesiones registradas, media de 28 días"
+      },
+      "empty": "Todavía no tiene pacientes asignados. Un administrador asigna los pacientes; aparecerán aquí en cuanto se le asignen."
+    },
+    "review": {
+      "kpi": {
+        "total": "Pacientes en la cola",
+        "review": "Asignaciones de fase por confirmar",
+        "safety": "Continuaron pese a un aviso de seguridad",
+        "inactive": "Inactivos 10+ días"
+      },
+      "title": "Cola de revisión",
+      "empty": "No tiene nada pendiente. Los pacientes aparecen aquí cuando hay que confirmar una asignación de fase, cuando continuaron pese a un aviso de seguridad o cuando llevan más de 10 días inactivos.",
+      "rowMeta": "{stage} · día {day} · última sesión {last}",
+      "open": "Abrir ficha",
+      "note": "<b>Confirmar una fase cierra la revisión.</b> Abra la ficha y establezca la fase (aunque sea la misma) con un motivo breve. El cambio queda registrado en el historial de fases del paciente y en el registro de auditoría."
+    },
+    "consultations": {
+      "notConnected": "<b>La reserva de consultas aún no está conectada al portal para clínicos.</b> Las cifras y filas de abajo son datos de demostración del prototipo, para que pueda ver cómo funcionará esta pestaña.",
+      "kpi": {
+        "upcoming": "Próximas esta semana",
+        "callsMonth": "Llamadas este mes",
+        "utilisation": "Ocupación de huecos",
+        "utilisationSub": "objetivo 70–85 %",
+        "rating": "Valoración media de pacientes"
+      },
+      "upcoming": "Próximas consultas",
+      "col": {
+        "when": "Cuándo",
+        "patient": "Paciente",
+        "stage": "Fase",
+        "type": "Tipo",
+        "language": "Idioma"
+      },
+      "type": {
+        "followUp": "Seguimiento",
+        "review": "Revisión de fase",
+        "first": "Primera consulta"
+      },
+      "quality": "Calidad de las consultas",
+      "qualityNote": "Se mide por lo que los pacientes informan después, no por el volumen de llamadas. No incentivamos a los clínicos por el rendimiento.",
+      "stat": {
+        "specificPlan": "«Obtuve un plan concreto»",
+        "understoodSituation": "«Entendieron mi situación»",
+        "escalated": "Llamadas derivadas a un médico"
+      }
+    },
+    "content": {
+      "kpi": {
+        "written": "Guías que ha escrito",
+        "reviewing": "Guías que revisa",
+        "dueYours": "Suyas pendientes de nueva revisión",
+        "published": "Guías publicadas"
+      },
+      "guides": "Guías",
+      "col": {
+        "yourRole": "Su función"
+      },
+      "role": {
+        "author": "Autor",
+        "reviewer": "Revisor",
+        "none": "—"
+      }
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Sus pacientes",
+        "adherence": "Sesiones registradas, media de 28 días",
+        "medianDays": "Días medianos en la fase actual",
+        "activeWeek": "Registraron una sesión esta semana"
+      },
+      "caseloadNote": "Las cifras solo incluyen los pacientes que tiene asignados."
+    }
+  }
+}

@@ -1,12 +1,10 @@
 import { desc, eq } from "drizzle-orm";
 import { getFormatter, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../components/SiteHeader";
 import { pageMetadata } from "../../../i18n/metadata";
 import { db } from "../../../src/db";
 import { actionTypes, activityLog } from "../../../src/db/schema/activity";
 import { users } from "../../../src/db/schema/users";
 import { requirePagePermission } from "../../../src/lib/authz";
-import { AdminNav } from "../AdminNav";
 
 export async function generateMetadata() {
   return pageMetadata("admin.audit.meta");
@@ -45,14 +43,10 @@ export default async function AdminAuditPage() {
 
   return (
     <>
-      <SiteHeader />
-      <div className="page">
+      <div>
         <div className="greet">
           <h2>{t("heading")}</h2>
           <p>{t("subtitle", { count: LIMIT })}</p>
-        </div>
-        <div style={{ marginTop: "var(--s-5)" }}>
-          <AdminNav />
         </div>
 
         {rows.length === 0 ? (

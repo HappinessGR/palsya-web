@@ -55,7 +55,7 @@ export async function changeStageAction(
     );
     if (!result.ok) return { status: "error", error: result.error };
     revalidatePath(`/clinician/patients/${patientProfileId}`);
-    revalidatePath("/clinician");
+    revalidatePath("/clinician", "layout");
     return { status: "ok", stage: result.value.to };
   } catch {
     return { status: "error", error: "failed" };

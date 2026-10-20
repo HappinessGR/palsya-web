@@ -1,0 +1,476 @@
+{
+  "common": {
+    "demo": "Demodaten",
+    "backToSite": "Zurück zur Website",
+    "tabsLabel": "Bereiche",
+    "stageLabel": "Phase {n}",
+    "stageAbbrev": "P{n}",
+    "unstaged": "Nicht eingestuft",
+    "dash": "—",
+    "never": "Nie",
+    "today": "Heute",
+    "daysAgo": "{n, plural, one {vor # Tag} other {vor # Tagen}}",
+    "percent": "{n} %",
+    "noneNeedAttention": "Derzeit benötigt nichts Ihre Aufmerksamkeit.",
+    "observationalNote": "<b>Dies sind Beobachtungszahlen unserer eigenen Nutzer, keine Studienergebnisse.</b> Menschen, die sich für ein strukturiertes Programm entscheiden und dabei bleiben, unterscheiden sich systematisch von denen, die es nicht tun. Wir berichten, was unsere Nutzer erlebt haben; wir behaupten nicht, dass das Programm dies verursacht hat.",
+    "flagBadge": {
+      "review": "Klinische Überprüfung erforderlich",
+      "safety": "Trotz Sicherheitshinweis fortgesetzt",
+      "inactive": "Seit 10+ Tagen inaktiv"
+    },
+    "flagText": {
+      "review": "Zur klinischen Überprüfung markiert: Die algorithmische Phaseneinordnung hatte eine geringe Konfidenz, sodass eine Person sie bestätigen oder ändern muss, bevor das Programm fortgesetzt wird.",
+      "safety": "Markiert: Die Einstufung hat einen Sicherheitshinweis ausgelöst, und die Patientin oder der Patient hat sich trotzdem für das Weitermachen entschieden. Es lohnt sich zu bestätigen, dass das Programm weiterhin das Richtige ist.",
+      "inactive": "Markiert: Seit mehr als 10 Tagen wurde keine Einheit eingetragen. Die Handlung besteht darin, zu fragen, ob sich am Programm etwas ändern muss, nicht darin, an die Verbindlichkeit zu erinnern."
+    },
+    "months": "Monat",
+    "programmeByStage": "Programminhalte nach Phase",
+    "col": {
+      "stage": "Phase",
+      "exercises": "Übungen",
+      "taping": "Tapen",
+      "routine": "Routine",
+      "minutes": "Minuten",
+      "patients": "Patienten",
+      "mean28d": "Eingetragene Einheiten 28 Tage",
+      "medianDays": "Median Tage in Phase"
+    },
+    "content": {
+      "col": {
+        "title": "Titel",
+        "author": "Autor",
+        "reviewer": "Klinische Prüfer/in",
+        "updated": "Aktualisiert",
+        "languages": "Sprachen",
+        "status": "Status"
+      },
+      "minRead": "{n} Min. Lesezeit",
+      "authorTeam": "Klinisches Team von Palsya",
+      "current": "Aktuell",
+      "reviewDue": "Überprüfung fällig",
+      "twoPersonRule": "<b>Vier-Augen-Regel.</b> Kein klinischer Inhalt wird ohne eine namentlich genannte Autorin bzw. einen Autor und eine namentlich genannte zweite prüfende Fachkraft veröffentlicht, und jeder Artikel trägt ein Überprüfungsdatum auf der Seite. Alles, was älter als sechs Monate ist, wird zur erneuten Überprüfung markiert, unabhängig davon, ob sich die Wissenschaft weiterentwickelt hat."
+    },
+    "analytics": {
+      "sessionsByStage": "Eingetragene Einheiten nach Phase",
+      "sessionsByStageChart": "Anteil der Tage mit eingetragener Einheit, nach Phase",
+      "sessionsByStageNote": "Mittelwert der letzten 28 Tage jeder Patientin bzw. jedes Patienten (oder weniger, wenn sie noch nicht so lange dabei sind).",
+      "stage3Note": "Phase 3 ist die Koordinationsphase, in der sich die Zahlen langsam bewegen — und genau deshalb setzen wir dort den meisten Kontakt mit Fachkräften an.",
+      "medianChange": "Median-Änderung des Symmetriewerts nach Startphase",
+      "medianChangeNote": "Veränderung über 90 Tage, in Wertpunkten. Dass Phase 5 nahe null liegt, ist erwartbar — die Erhaltungsphase soll die Zahl nicht bewegen.",
+      "scanNote": "Scan-Ergebnisse werden noch nicht auf dem Server gespeichert, daher zeigt dieses Diagramm weiterhin die Zahlen des Prototyps."
+    }
+  },
+  "admin": {
+    "meta": {
+      "title": "Backoffice — Palsya",
+      "description": "Palsya-Backoffice: Fachkräfte, Patientenaufsicht, Inhalte, Analysen, Finanzen und Compliance."
+    },
+    "heading": "Backoffice",
+    "intro": "Verwaltung von Fachkräften, Patientenaufsicht, Inhalte, Analysen, Finanzen und Compliance.",
+    "tabs": {
+      "overview": "Übersicht",
+      "clinicians": "Fachkräfte",
+      "patients": "Patientenaufsicht",
+      "content": "Inhalte",
+      "analytics": "Analysen",
+      "finance": "Finanzen",
+      "compliance": "Compliance",
+      "users": "Nutzer"
+    },
+    "overview": {
+      "kpi": {
+        "activePatients": "Patienten",
+        "activePatientsDelta": "+{n} diesen Monat",
+        "clinicians": "Fachkräfte",
+        "cliniciansDelta": "{n} warten auf Verifizierung",
+        "adherence": "Eingetragene Einheiten, 28-Tage-Mittel",
+        "awaitingReview": "Wartet auf klinische Überprüfung",
+        "awaitingReviewDelta": "{n, plural, one {# Patient/in nicht zugewiesen} other {# Patienten nicht zugewiesen}}"
+      },
+      "newPatients": "Neue Patienten pro Monat",
+      "byStage": "Patienten nach Phase",
+      "unstagedNote": "{n, plural, one {# Patient/in hat} other {# Patienten haben}} die Einstufung noch nicht abgeschlossen und {n, plural, one {wird} other {werden}} nicht angezeigt.",
+      "needsAttention": "Benötigt Aufmerksamkeit",
+      "attn": {
+        "review": "{n, plural, one {# Phaseneinordnung wartet} other {# Phaseneinordnungen warten}} auf klinische Überprüfung",
+        "reviewSub": "Einordnungen mit geringer Konfidenz muss eine Person bestätigen oder ändern.",
+        "safety": "{n, plural, one {# Patient/in hat} other {# Patienten haben}} trotz Sicherheitshinweis weitergemacht",
+        "safetySub": "Für jede und jeden sollte eine Fachkraft bestätigen, dass das Programm weiterhin passt.",
+        "inactive": "{n, plural, one {# Patient/in} other {# Patienten}} seit über 10 Tagen inaktiv",
+        "inactiveSub": "Die Handlung besteht darin, zu fragen, was sich geändert hat, nie darin, Schuldgefühle auszulösen.",
+        "unassigned": "{n, plural, one {# Patient/in hat} other {# Patienten haben}} keine zugewiesene Fachkraft",
+        "unassignedSub": "Weisen Sie sie im Tab „Nutzer“ zu.",
+        "pendingClinicians": "{n, plural, one {# Fachkraft wartet} other {# Fachkräfte warten}} auf Verifizierung",
+        "pendingCliniciansSub": "Prüfen Sie die Registrierungsnummer im Register der Aufsichtsbehörde, bevor Sie verifizieren.",
+        "invitations": "{n, plural, one {# Einladung} other {# Einladungen}} noch nicht angenommen",
+        "invitationsSub": "Sie können sie auf der Seite „Einladen“ widerrufen oder erneut senden."
+      },
+      "thisWeek": "Diese Woche",
+      "kv": {
+        "sessionsLogged": "Eingetragene Einheiten",
+        "activePatients": "Patienten mit eingetragener Einheit",
+        "newPatients": "Neue Patienten",
+        "notesWritten": "Verfasste Notizen von Fachkräften",
+        "pendingInvitations": "Offene Einladungen"
+      }
+    },
+    "clinicians": {
+      "kpi": {
+        "count": "Fachkräfte auf der Plattform",
+        "awaitingVerification": "Wartet auf Verifizierung",
+        "assigned": "Patienten mit Fachkraft",
+        "perClinician": "Durchschnittliche Patienten pro Fachkraft"
+      },
+      "directory": "Verzeichnis der Fachkräfte",
+      "invite": "Fachkraft einladen",
+      "col": {
+        "clinician": "Fachkraft",
+        "registration": "Registrierung",
+        "institution": "Einrichtung",
+        "patients": "Patienten",
+        "joined": "Beigetreten",
+        "status": "Status"
+      },
+      "noRegistration": "Nicht angegeben",
+      "verified": "Verifiziert",
+      "pending": "Wartet auf Verifizierung",
+      "suspended": "Gesperrt",
+      "review": "Prüfen",
+      "empty": "Noch keine Fachkräfte. Laden Sie eine ein, um loszulegen.",
+      "verificationNote": "<b>Die Verifizierung erfolgt manuell.</b> Jede Registrierungsnummer wird von Hand mit dem öffentlichen Register der Aufsichtsbehörde abgeglichen, bevor eine Fachkraft verifiziert wird. Eine gesperrte Fachkraft verliert sofort den Zugriff auf ihre Patienten.",
+      "quality": "Beratungsqualität",
+      "qualityNote": "Gemessen an dem, was Patienten anschließend berichten, nicht am Anrufvolumen. Wir vergüten Fachkräfte nicht nach Durchsatz.",
+      "stat": {
+        "specificPlan": "„Ich habe einen konkreten Plan bekommen“",
+        "understoodSituation": "„Sie haben meine Situation verstanden“",
+        "escalated": "An eine Ärztin oder einen Arzt weitergeleitete Anrufe"
+      }
+    },
+    "patients": {
+      "accessNote": "<b>Der Zugriff ist eingegrenzt.</b> Das Betriebspersonal sieht den klinischen Fortschritt unter Initialen; vollständige Identität und Kontaktdaten werden nur der Fachkraft angezeigt, die der Patientin oder dem Patienten zugewiesen ist.",
+      "kpi": {
+        "active": "Patienten",
+        "flagged": "Zur Nachverfolgung markiert",
+        "adherence": "Eingetragene Einheiten, 28-Tage-Mittel",
+        "unassigned": "Ohne Fachkraft"
+      },
+      "flaggedTitle": "Zur Nachverfolgung markiert",
+      "noFlagged": "Derzeit sind keine Patienten markiert.",
+      "cohort": "Patientenkohorte",
+      "searchPlaceholder": "Nach ID oder Initialen suchen",
+      "search": "Suchen",
+      "clear": "Zurücksetzen",
+      "noMatch": "Keine Patienten entsprechen „{q}“.",
+      "empty": "Noch keine Patienten.",
+      "col": {
+        "patient": "Patient/in",
+        "stage": "Phase",
+        "day": "Tag",
+        "sessions28d": "Einheiten 28 Tage",
+        "clinician": "Fachkraft",
+        "lastActive": "Zuletzt aktiv"
+      },
+      "unassigned": "Nicht zugewiesen",
+      "rowMeta": "Phase {stage} · Tag {day} · {clinician}",
+      "sortingNote": "Keine Spalte hier vergleicht Patienten gegeneinander, und es gibt keine Rangliste. Symmetriewerte werden nicht angezeigt, weil Scan-Ergebnisse noch nicht auf dem Server gespeichert werden.",
+      "detail": {
+        "title": "{name} · {id}",
+        "privacyNote": "<b>Das Personal sieht den klinischen Fortschritt, nicht die Identität.</b> Namen werden mit Initialen angezeigt, und Kontaktdaten werden hier nicht offengelegt. Vollständige Akten sind nur für die zugewiesene Fachkraft sichtbar.",
+        "stage": "Phase",
+        "day": "Programmtag",
+        "sessions28d": "Eingetragene Einheiten (28 Tage)",
+        "confidence": "Konfidenz der Einordnung",
+        "clinician": "Zugewiesene Fachkraft",
+        "lastActive": "Zuletzt aktiv",
+        "close": "Schließen",
+        "manage": "Zuweisung verwalten",
+        "confidenceLevel": {
+          "high": "Hoch",
+          "medium": "Mittel",
+          "low": "Gering"
+        }
+      }
+    },
+    "content": {
+      "kpi": {
+        "publishedGuides": "Veröffentlichte Ratgeber",
+        "languages": "Sprachen",
+        "programmeItems": "Programmelemente",
+        "reviewDue": "Klinische Neuprüfung fällig"
+      },
+      "knowledgeBase": "Wissensdatenbank",
+      "translationStatus": "Übersetzungsstatus",
+      "translationRow": "{done} von {total} Ratgebern",
+      "machineNote": "Maschinell erstellte klinische Inhalte werden nie veröffentlicht. Eine Fachkraft, die die Sprache liest, gibt sie frei, oder sie bleiben unveröffentlicht."
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Patienten",
+        "adherence": "Eingetragene Einheiten, 28-Tage-Mittel",
+        "medianDays": "Median Tage in aktueller Phase",
+        "activeWeek": "Diese Woche eine Einheit eingetragen"
+      },
+      "whereStop": "Wo Menschen aufhören",
+      "dropoff": {
+        "trial": "Testphase",
+        "wk12": "Wo. 1–2",
+        "wk34": "Wo. 3–4",
+        "wk58": "Wo. 5–8",
+        "wk912": "Wo. 9–12"
+      },
+      "dropoffNote": "Prozent der Kohorte. Die Zahl der Testphase ist die ehrlichste — ein Fünftel der Personen, die beginnen, entscheidet innerhalb von sieben Tagen, dass dies nichts für sie ist, wofür eine kostenlose Testphase genau gedacht ist.",
+      "scanQuality": "Scan-Bildqualität",
+      "quality": {
+        "good": "Gut",
+        "fair": "Mäßig",
+        "poor": "Schlecht — erneute Aufnahme angefordert"
+      },
+      "lightingNote": "Ungleichmäßiges seitliches Licht ist die häufigste Ursache für einen abgelehnten Scan, weshalb der Hinweis auf diesem Bildschirm genau damit beginnt, statt ihn zu verstecken.",
+      "kv": {
+        "retaken": "Nach Aufforderung wiederholte Scans",
+        "medianDuration": "Median-Scandauer",
+        "abandoned": "Mitten im Ablauf abgebrochene Scans"
+      }
+    },
+    "finance": {
+      "kpi": {
+        "active": "Bezahlte Abonnements",
+        "trialing": "In der kostenlosen Testphase",
+        "pastDue": "Zahlungsprobleme",
+        "runRate": "Jährliche Run-Rate",
+        "runRateSub": "geschätzt aus aktiven Tarifen"
+      },
+      "planMix": "Tarifverteilung",
+      "planMixNote": "Bezahlte Abonnements und Abonnements in der Testphase. Dass der mittlere Tarif der größte ist, ist der Grund, warum er auf der Preisseite als „am häufigsten gewählt“ gekennzeichnet ist — eine Beschreibung, kein Anstoß, und nichts ist vorausgewählt.",
+      "noSubscriptions": "Noch keine Abonnements.",
+      "otherPlan": "Anderer Preis",
+      "plan": {
+        "app": "Nur App · {price}",
+        "guided": "App + 2 · {price}",
+        "supported": "App + 6 · {price}"
+      },
+      "revenueByMonth": "Umsatz pro Monat",
+      "revenueNote": "Tausend Euro, erfasst über die dreimonatige Laufzeit statt zum Verkaufszeitpunkt.",
+      "recentTx": "Letzte Transaktionen",
+      "col": {
+        "reference": "Referenz",
+        "date": "Datum",
+        "type": "Typ",
+        "plan": "Tarif",
+        "amount": "Betrag",
+        "status": "Status"
+      },
+      "txType": {
+        "subscription": "Abonnement",
+        "extraConsult": "Zusätzliche Beratung",
+        "monthlyExt": "Monatliche Verlängerung",
+        "refund": "Erstattung",
+        "subscriptionReferral": "Abonnement (15 % Empfehlung durch Fachkraft)"
+      },
+      "planName": {
+        "appOnly": "Nur App",
+        "app2": "App + 2 Beratungen",
+        "app6": "App + 6 Beratungen"
+      },
+      "status": {
+        "paid": "bezahlt",
+        "refunded": "erstattet"
+      },
+      "stripeNote": "Alle Zahlungen laufen über Stripe. Wir sehen oder speichern niemals eine Kartennummer. Erstattungsanfragen innerhalb der ersten 14 Tage einer bezahlten Laufzeit werden ohne Angabe eines Grundes genehmigt.",
+      "reducedCost": "Plätze zu ermäßigten Kosten",
+      "reducedCostNote": "Reserviert für Menschen, die sich das Programm nicht leisten können. Wir bitten nur um einen Satz zu ihrer Situation.",
+      "stat": {
+        "placesPerMonth": "Plätze pro Monat",
+        "allocated": "Diesen Monat vergeben",
+        "approved": "Genehmigte Anfragen"
+      }
+    },
+    "compliance": {
+      "kpi": {
+        "audit30d": "Audit-Einträge, 30 Tage",
+        "flagsMonth": "Sicherheitshinweise diesen Monat",
+        "continued": "Trotz Hinweis fortgesetzt",
+        "staffMfa": "Team mit Zwei-Faktor-Anmeldung"
+      },
+      "gdprQueue": "DSGVO-Anfragewarteschlange",
+      "col": {
+        "reference": "Referenz",
+        "type": "Typ",
+        "received": "Eingegangen",
+        "due": "Fällig",
+        "status": "Status"
+      },
+      "reqType": {
+        "access": "Auskunft (Art. 15)",
+        "erasure": "Löschung (Art. 17)",
+        "portability": "Übertragbarkeit (Art. 20)",
+        "rectification": "Berichtigung (Art. 16)",
+        "objection": "Widerspruch (Art. 21)"
+      },
+      "status": {
+        "completed": "abgeschlossen",
+        "inProgress": "in Bearbeitung"
+      },
+      "slaNote": "Die gesetzliche Frist beträgt einen Monat. Unser internes Ziel sind sieben Tage.",
+      "posture": "Datenschutzniveau",
+      "postureRows": {
+        "dataResidency": "Datenstandort",
+        "dataResidencyValue": "Europäische Union (Irland, Frankfurt)",
+        "encryptionRest": "Verschlüsselung im Ruhezustand",
+        "encryptionRestValue": "AES-256",
+        "encryptionTransit": "Verschlüsselung bei der Übertragung",
+        "encryptionTransitValue": "TLS 1.3",
+        "facialImages": "Gesichtsbilder",
+        "facialImagesValue": "Besondere Kategorie nach Art. 9 · Verarbeitung auf dem Gerät",
+        "retentionImages": "Aufbewahrung, Bilder",
+        "retentionImagesValue": "Gelöscht innerhalb von 30 Tagen nach Anfrage",
+        "retentionRecords": "Aufbewahrung, Akten",
+        "retentionRecordsValue": "Gelöscht innerhalb von 90 Tagen, außer Rechnungen",
+        "dpia": "DSFA",
+        "dpiaValue": "Abgeschlossen, überprüft im Februar 2026",
+        "subProcessors": "Unterauftragsverarbeiter",
+        "subProcessorsValue": "4 · alle in der EU oder mit Angemessenheitsbeschluss",
+        "penTest": "Penetrationstest",
+        "penTestValue": "Jährlich, zuletzt im März 2026",
+        "dataSold": "An Dritte verkaufte Daten",
+        "dataSoldValue": "Keine. Niemals."
+      },
+      "auditLog": "Audit-Log",
+      "auditLogNote": "Rollenänderungen, Zuweisungen, Phasenänderungen und Notizen werden hier protokolliert. Es ist nur anhängend, und das Personal kann keine Einträge löschen.",
+      "fullLog": "Vollständiges Audit-Log",
+      "auditEmpty": "Bisher wurde nichts protokolliert.",
+      "col2": {
+        "when": "Wann",
+        "who": "Wer",
+        "action": "Aktion",
+        "record": "Akte"
+      },
+      "system": "System",
+      "safetyRegister": "Klinisches Sicherheitsregister",
+      "safetyEmpty": "Diesen Monat wurden keine Sicherheitshinweise ausgelöst.",
+      "safetyCount": "{n} diesen Monat · {continued} fortgesetzt",
+      "level": {
+        "urgent": "Dringend",
+        "wait": "Abwarten",
+        "review": "Prüfen",
+        "action": "Handeln"
+      },
+      "safetyNote": "<b>{n, plural, one {# Sicherheitshinweis} other {# Sicherheitshinweise}} bei der Einstufung diesen Monat.</b> Jeder davon ist eine Anmeldung, die wir zur Prüfung angehalten haben, statt sie durchzulassen. Die Zahl wird genau aus diesem Grund jeden Monat auf Vorstandsebene berichtet."
+    }
+  },
+  "clinician": {
+    "meta": {
+      "title": "Portal für Fachkräfte — Palsya",
+      "description": "Ihre Patienten, Überprüfungen, Beratungen und die Ratgeber, die Sie freigeben."
+    },
+    "heading": "Portal für Fachkräfte",
+    "intro": "Ihre Patienten, die Überprüfungen, die auf Sie warten, Beratungen und die Ratgeber, die Sie freigeben. Sie sehen nur Patienten, die Ihnen zugewiesen sind.",
+    "tabs": {
+      "overview": "Übersicht",
+      "patients": "Meine Patienten",
+      "review": "Prüfwarteschlange",
+      "consultations": "Beratungen",
+      "content": "Inhalte",
+      "analytics": "Analysen"
+    },
+    "overview": {
+      "kpi": {
+        "patients": "Ihnen zugewiesene Patienten",
+        "patientsDelta": "+{n} diesen Monat",
+        "review": "Wartet auf Ihre Überprüfung",
+        "inactive": "Seit 10+ Tagen inaktiv",
+        "sessions": "Diese Woche eingetragene Einheiten"
+      },
+      "byStage": "Ihre Patienten nach Phase",
+      "newPatients": "Neue Patienten pro Monat",
+      "unstagedNote": "{n, plural, one {# Patient/in hat} other {# Patienten haben}} die Einstufung noch nicht abgeschlossen und {n, plural, one {wird} other {werden}} nicht angezeigt.",
+      "needsAttention": "Benötigt Aufmerksamkeit",
+      "openQueue": "Prüfwarteschlange öffnen",
+      "attn": {
+        "review": "{n, plural, one {# Phaseneinordnung} other {# Phaseneinordnungen}} zu bestätigen",
+        "reviewSub": "Die Einstufung war nicht sicher. Bestätigen oder ändern Sie die Phase, bevor das Programm weitergeht.",
+        "safety": "{n, plural, one {# Patient/in hat} other {# Patienten haben}} trotz Sicherheitshinweis weitergemacht",
+        "safetySub": "Prüfen Sie, ob das Programm weiterhin das Richtige ist.",
+        "inactive": "{n, plural, one {# Patient/in} other {# Patienten}} seit über 10 Tagen inaktiv",
+        "inactiveSub": "Fragen Sie, was sich geändert hat — der Plan muss eventuell angepasst werden."
+      },
+      "thisWeek": "Diese Woche",
+      "kv": {
+        "sessionsLogged": "Eingetragene Einheiten",
+        "activePatients": "Patienten mit eingetragener Einheit",
+        "notesWritten": "Von Ihnen verfasste Notizen",
+        "adherence": "Eingetragene Einheiten, 28-Tage-Mittel"
+      },
+      "empty": "Ihnen sind noch keine Patienten zugewiesen. Patienten werden von einem Admin zugewiesen; sie erscheinen hier, sobald die Zuweisung erfolgt ist."
+    },
+    "review": {
+      "kpi": {
+        "total": "Patienten in der Warteschlange",
+        "review": "Zu bestätigende Phaseneinordnungen",
+        "safety": "Trotz Sicherheitshinweis fortgesetzt",
+        "inactive": "Seit 10+ Tagen inaktiv"
+      },
+      "title": "Prüfwarteschlange",
+      "empty": "Nichts wartet auf Sie. Patienten erscheinen hier, wenn eine Phaseneinordnung bestätigt werden muss, wenn sie trotz Sicherheitshinweis weitergemacht haben oder wenn sie seit über 10 Tagen inaktiv sind.",
+      "rowMeta": "{stage} · Tag {day} · letzte Einheit {last}",
+      "open": "Akte öffnen",
+      "note": "<b>Wenn Sie eine Phase bestätigen, ist die Überprüfung erledigt.</b> Öffnen Sie die Akte und legen Sie die Phase fest — auch wenn es dieselbe ist — mit einer kurzen Begründung. Die Änderung wird im Phasenverlauf und im Audit-Log festgehalten."
+    },
+    "consultations": {
+      "notConnected": "<b>Die Terminbuchung für Beratungen ist noch nicht mit dem Portal für Fachkräfte verbunden.</b> Die Zahlen und Zeilen unten sind Demodaten des Prototyps, damit Sie sehen, wie dieser Tab funktionieren wird.",
+      "kpi": {
+        "upcoming": "Anstehend diese Woche",
+        "callsMonth": "Anrufe diesen Monat",
+        "utilisation": "Auslastung der Termine",
+        "utilisationSub": "Ziel 70–85 %",
+        "rating": "Durchschnittliche Patientenbewertung"
+      },
+      "upcoming": "Anstehende Beratungen",
+      "col": {
+        "when": "Wann",
+        "patient": "Patient/in",
+        "stage": "Phase",
+        "type": "Typ",
+        "language": "Sprache"
+      },
+      "type": {
+        "followUp": "Folgetermin",
+        "review": "Phasenüberprüfung",
+        "first": "Erstberatung"
+      },
+      "quality": "Beratungsqualität",
+      "qualityNote": "Gemessen an dem, was Patienten anschließend berichten, nicht am Anrufvolumen. Wir vergüten Fachkräfte nicht nach Durchsatz.",
+      "stat": {
+        "specificPlan": "„Ich habe einen konkreten Plan bekommen“",
+        "understoodSituation": "„Sie haben meine Situation verstanden“",
+        "escalated": "An eine Ärztin oder einen Arzt weitergeleitete Anrufe"
+      }
+    },
+    "content": {
+      "kpi": {
+        "written": "Von Ihnen verfasste Ratgeber",
+        "reviewing": "Von Ihnen geprüfte Ratgeber",
+        "dueYours": "Ihre, zur Neuprüfung fällig",
+        "published": "Veröffentlichte Ratgeber"
+      },
+      "guides": "Ratgeber",
+      "col": {
+        "yourRole": "Ihre Rolle"
+      },
+      "role": {
+        "author": "Autor/in",
+        "reviewer": "Prüfer/in",
+        "none": "—"
+      }
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Ihre Patienten",
+        "adherence": "Eingetragene Einheiten, 28-Tage-Mittel",
+        "medianDays": "Median Tage in aktueller Phase",
+        "activeWeek": "Diese Woche eine Einheit eingetragen"
+      },
+      "caseloadNote": "Die Zahlen umfassen nur die Ihnen zugewiesenen Patienten."
+    }
+  }
+}

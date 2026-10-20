@@ -1,0 +1,476 @@
+{
+  "common": {
+    "demo": "Dados de demonstração",
+    "backToSite": "Voltar ao site",
+    "tabsLabel": "Secções",
+    "stageLabel": "Fase {n}",
+    "stageAbbrev": "F{n}",
+    "unstaged": "Não avaliado",
+    "dash": "—",
+    "never": "Nunca",
+    "today": "Hoje",
+    "daysAgo": "{n, plural, one {há # dia} other {há # dias}}",
+    "percent": "{n}%",
+    "noneNeedAttention": "Nada requer atenção neste momento.",
+    "observationalNote": "<b>Estes são números observacionais dos nossos próprios utilizadores, não resultados de ensaios clínicos.</b> As pessoas que escolhem um programa estruturado e o mantêm diferem sistematicamente das que não o fazem. Relatamos o que os nossos utilizadores vivenciaram; não afirmamos que o programa o tenha causado.",
+    "flagBadge": {
+      "review": "Necessita de revisão clínica",
+      "safety": "Continuou apesar de um alerta de segurança",
+      "inactive": "Inativo há 10+ dias"
+    },
+    "flagText": {
+      "review": "Assinalado para revisão clínica: a atribuição algorítmica da fase teve pouca confiança, pelo que uma pessoa precisa de a confirmar ou alterar antes de o programa continuar.",
+      "safety": "Assinalado: a avaliação levantou um alerta de segurança e o doente optou por continuar mesmo assim. Vale a pena confirmar que o programa continua a ser o mais adequado para ele.",
+      "inactive": "Assinalado: nenhuma sessão registada há mais de 10 dias. A ação aqui é perguntar se o programa precisa de mudar, não enviar um lembrete sobre o compromisso."
+    },
+    "months": "Mês",
+    "programmeByStage": "Conteúdo do programa por fase",
+    "col": {
+      "stage": "Fase",
+      "exercises": "Exercícios",
+      "taping": "Ligadura",
+      "routine": "Rotina",
+      "minutes": "Minutos",
+      "patients": "Doentes",
+      "mean28d": "Sessões registadas 28d",
+      "medianDays": "Dias medianos na fase"
+    },
+    "content": {
+      "col": {
+        "title": "Título",
+        "author": "Autor",
+        "reviewer": "Revisor clínico",
+        "updated": "Atualizado",
+        "languages": "Idiomas",
+        "status": "Estado"
+      },
+      "minRead": "{n} min de leitura",
+      "authorTeam": "Equipa clínica da Palsya",
+      "current": "Atual",
+      "reviewDue": "Revisão pendente",
+      "twoPersonRule": "<b>Regra das duas pessoas.</b> Nenhum conteúdo clínico é publicado sem um autor identificado e um segundo clínico revisor identificado, e todos os artigos têm uma data de revisão na página. Tudo o que tenha mais de seis meses é assinalado para nova revisão, quer a ciência tenha avançado quer não."
+    },
+    "analytics": {
+      "sessionsByStage": "Sessões registadas por fase",
+      "sessionsByStageChart": "Proporção de dias com uma sessão registada, por fase",
+      "sessionsByStageNote": "Média dos últimos 28 dias de cada doente (ou menos, para doentes mais recentes do que isso).",
+      "stage3Note": "A Fase 3 é a fase de coordenação, onde os números avançam devagar — e é onde colocamos mais contacto clínico, precisamente por essa razão.",
+      "medianChange": "Alteração mediana da pontuação de simetria por fase inicial",
+      "medianChangeNote": "Alteração ao longo de 90 dias, em pontos de pontuação. A Fase 5 situar-se perto de zero é esperado — a manutenção não visa mover o número.",
+      "scanNote": "Os resultados das análises ainda não são guardados no servidor, por isso este gráfico continua a mostrar os números do protótipo."
+    }
+  },
+  "admin": {
+    "meta": {
+      "title": "Gestão interna — Palsya",
+      "description": "Gestão interna da Palsya: clínicos, supervisão de doentes, conteúdo, análise, finanças e conformidade."
+    },
+    "heading": "Gestão interna",
+    "intro": "Gestão de clínicos, supervisão de doentes, conteúdo, análise, finanças e conformidade.",
+    "tabs": {
+      "overview": "Resumo",
+      "clinicians": "Clínicos",
+      "patients": "Supervisão de doentes",
+      "content": "Conteúdo",
+      "analytics": "Análise",
+      "finance": "Finanças",
+      "compliance": "Conformidade",
+      "users": "Utilizadores"
+    },
+    "overview": {
+      "kpi": {
+        "activePatients": "Doentes",
+        "activePatientsDelta": "+{n} este mês",
+        "clinicians": "Clínicos",
+        "cliniciansDelta": "{n} à espera de verificação",
+        "adherence": "Sessões registadas, média de 28 dias",
+        "awaitingReview": "À espera de revisão clínica",
+        "awaitingReviewDelta": "{n, plural, one {# doente sem clínico} other {# doentes sem clínico}}"
+      },
+      "newPatients": "Novos doentes por mês",
+      "byStage": "Doentes por fase",
+      "unstagedNote": "{n, plural, one {# doente ainda não terminou} other {# doentes ainda não terminaram}} a avaliação e {n, plural, one {não é apresentado} other {não são apresentados}}.",
+      "needsAttention": "Necessita de atenção",
+      "attn": {
+        "review": "{n, plural, one {# atribuição de fase} other {# atribuições de fase}} à espera de revisão clínica",
+        "reviewSub": "As atribuições com pouca confiança precisam que uma pessoa as confirme ou altere.",
+        "safety": "{n, plural, one {# doente continuou} other {# doentes continuaram}} apesar de um alerta de segurança",
+        "safetySub": "Em cada caso, um clínico deve confirmar que o programa continua a ser o adequado.",
+        "inactive": "{n, plural, one {# doente inativo} other {# doentes inativos}} há mais de 10 dias",
+        "inactiveSub": "A ação é perguntar o que mudou, nunca enviar culpabilização.",
+        "unassigned": "{n, plural, one {# doente não tem} other {# doentes não têm}} clínico atribuído",
+        "unassignedSub": "Atribua-os no separador Utilizadores.",
+        "pendingClinicians": "{n, plural, one {# clínico} other {# clínicos}} à espera de verificação",
+        "pendingCliniciansSub": "Confira o número de registo no registo da entidade reguladora antes de verificar.",
+        "invitations": "{n, plural, one {# convite ainda não aceite} other {# convites ainda não aceites}}",
+        "invitationsSub": "Revogue-os ou reenvie-os na página Convidar."
+      },
+      "thisWeek": "Esta semana",
+      "kv": {
+        "sessionsLogged": "Sessões registadas",
+        "activePatients": "Doentes que registaram uma sessão",
+        "newPatients": "Novos doentes",
+        "notesWritten": "Notas clínicas escritas",
+        "pendingInvitations": "Convites pendentes"
+      }
+    },
+    "clinicians": {
+      "kpi": {
+        "count": "Clínicos na plataforma",
+        "awaitingVerification": "À espera de verificação",
+        "assigned": "Doentes com clínico",
+        "perClinician": "Média de doentes por clínico"
+      },
+      "directory": "Diretório de clínicos",
+      "invite": "Convidar um clínico",
+      "col": {
+        "clinician": "Clínico",
+        "registration": "Registo",
+        "institution": "Instituição",
+        "patients": "Doentes",
+        "joined": "Aderiu em",
+        "status": "Estado"
+      },
+      "noRegistration": "Não indicado",
+      "verified": "Verificado",
+      "pending": "À espera de verificação",
+      "suspended": "Suspenso",
+      "review": "Rever",
+      "empty": "Ainda não há clínicos. Convide um para começar.",
+      "verificationNote": "<b>A verificação é manual.</b> Cada número de registo é conferido à mão no registo público da entidade reguladora antes de um clínico ser verificado. Um clínico suspenso perde imediatamente o acesso aos seus doentes.",
+      "quality": "Qualidade das consultas",
+      "qualityNote": "Medida com base no que os doentes relatam depois, não no volume de chamadas. Não incentivamos os clínicos com base no rendimento.",
+      "stat": {
+        "specificPlan": "\"Recebi um plano concreto\"",
+        "understoodSituation": "\"Compreenderam a minha situação\"",
+        "escalated": "Chamadas encaminhadas para um médico"
+      }
+    },
+    "patients": {
+      "accessNote": "<b>O acesso é delimitado.</b> A equipa de operações vê o progresso clínico com iniciais; a identidade completa e os dados de contacto só são apresentados ao clínico atribuído a esse doente.",
+      "kpi": {
+        "active": "Doentes",
+        "flagged": "Assinalados para acompanhamento",
+        "adherence": "Sessões registadas, média de 28 dias",
+        "unassigned": "Sem clínico"
+      },
+      "flaggedTitle": "Assinalados para acompanhamento",
+      "noFlagged": "Não há doentes assinalados neste momento.",
+      "cohort": "Coorte de doentes",
+      "searchPlaceholder": "Pesquisar por ID ou iniciais",
+      "search": "Pesquisar",
+      "clear": "Limpar",
+      "noMatch": "Nenhum doente corresponde a \"{q}\".",
+      "empty": "Ainda não há doentes.",
+      "col": {
+        "patient": "Doente",
+        "stage": "Fase",
+        "day": "Dia",
+        "sessions28d": "Sessões 28d",
+        "clinician": "Clínico",
+        "lastActive": "Última atividade"
+      },
+      "unassigned": "Sem clínico",
+      "rowMeta": "Fase {stage} · dia {day} · {clinician}",
+      "sortingNote": "Nenhuma coluna aqui classifica doentes uns contra os outros, e não existe uma vista de classificação. As pontuações de simetria não são apresentadas porque os resultados das análises ainda não são guardados no servidor.",
+      "detail": {
+        "title": "{name} · {id}",
+        "privacyNote": "<b>A equipa vê o progresso clínico, não a identidade.</b> Os nomes aparecem com iniciais e os dados de contacto não são apresentados aqui. Os registos completos só são visíveis para o clínico atribuído ao doente.",
+        "stage": "Fase",
+        "day": "Dia do programa",
+        "sessions28d": "Sessões registadas (28d)",
+        "confidence": "Confiança da atribuição",
+        "clinician": "Clínico atribuído",
+        "lastActive": "Última atividade",
+        "close": "Fechar",
+        "manage": "Gerir atribuição",
+        "confidenceLevel": {
+          "high": "Alta",
+          "medium": "Média",
+          "low": "Baixa"
+        }
+      }
+    },
+    "content": {
+      "kpi": {
+        "publishedGuides": "Guias publicados",
+        "languages": "Idiomas",
+        "programmeItems": "Itens do programa",
+        "reviewDue": "Para nova revisão clínica"
+      },
+      "knowledgeBase": "Base de conhecimento",
+      "translationStatus": "Estado da tradução",
+      "translationRow": "{done} de {total} guias",
+      "machineNote": "O conteúdo clínico com rascunho automático nunca é publicado. Um clínico que leia o idioma aprova-o, ou permanece por publicar."
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Doentes",
+        "adherence": "Sessões registadas, média de 28 dias",
+        "medianDays": "Dias medianos na fase atual",
+        "activeWeek": "Registaram uma sessão esta semana"
+      },
+      "whereStop": "Onde as pessoas param",
+      "dropoff": {
+        "trial": "Teste",
+        "wk12": "Sem 1–2",
+        "wk34": "Sem 3–4",
+        "wk58": "Sem 5–8",
+        "wk912": "Sem 9–12"
+      },
+      "dropoffNote": "Percentagem da coorte. O valor do período de teste é o mais honesto — um quinto das pessoas que começam decide em sete dias que isto não é para elas, que é exatamente para isso que serve um período de teste gratuito.",
+      "scanQuality": "Qualidade de imagem da análise",
+      "quality": {
+        "good": "Boa",
+        "fair": "Razoável",
+        "poor": "Fraca — pedido para repetir"
+      },
+      "lightingNote": "A iluminação lateral desigual é a causa mais comum de rejeição de uma análise, razão pela qual a orientação nesse ecrã começa exatamente por aí, em vez de a esconder.",
+      "kv": {
+        "retaken": "Análises repetidas após um aviso",
+        "medianDuration": "Duração mediana da análise",
+        "abandoned": "Análises abandonadas a meio"
+      }
+    },
+    "finance": {
+      "kpi": {
+        "active": "Subscrições pagas",
+        "trialing": "Em período de teste gratuito",
+        "pastDue": "Problemas de pagamento",
+        "runRate": "Receita anualizada",
+        "runRateSub": "estimada a partir dos planos ativos"
+      },
+      "planMix": "Distribuição de planos",
+      "planMixNote": "Subscrições pagas e em período de teste. O plano intermédio ser o maior é a razão pela qual é indicado como \"mais escolhido\" na página de preços — uma descrição, não um incentivo, e nada está pré-selecionado.",
+      "noSubscriptions": "Ainda não há subscrições.",
+      "otherPlan": "Outro preço",
+      "plan": {
+        "app": "Apenas a aplicação · {price}",
+        "guided": "Aplicação + 2 · {price}",
+        "supported": "Aplicação + 6 · {price}"
+      },
+      "revenueByMonth": "Receita por mês",
+      "revenueNote": "Milhares de euros, reconhecidos ao longo do prazo de três meses e não no momento da venda.",
+      "recentTx": "Transações recentes",
+      "col": {
+        "reference": "Referência",
+        "date": "Data",
+        "type": "Tipo",
+        "plan": "Plano",
+        "amount": "Montante",
+        "status": "Estado"
+      },
+      "txType": {
+        "subscription": "Subscrição",
+        "extraConsult": "Consulta adicional",
+        "monthlyExt": "Prolongamento mensal",
+        "refund": "Reembolso",
+        "subscriptionReferral": "Subscrição (15% indicação de clínico)"
+      },
+      "planName": {
+        "appOnly": "Apenas a aplicação",
+        "app2": "Aplicação + 2 consultas",
+        "app6": "Aplicação + 6 consultas"
+      },
+      "status": {
+        "paid": "pago",
+        "refunded": "reembolsado"
+      },
+      "stripeNote": "Todos os pagamentos são processados através da Stripe. Nunca vemos nem armazenamos números de cartão. Os pedidos de reembolso dentro dos primeiros 14 dias de um período pago são aprovados sem necessidade de indicar um motivo.",
+      "reducedCost": "Vagas a custo reduzido",
+      "reducedCostNote": "Reservadas para pessoas que não podem custear o programa. Só pedimos uma frase sobre a sua situação.",
+      "stat": {
+        "placesPerMonth": "Vagas por mês",
+        "allocated": "Atribuídas este mês",
+        "approved": "Pedidos aprovados"
+      }
+    },
+    "compliance": {
+      "kpi": {
+        "audit30d": "Entradas de auditoria, 30 dias",
+        "flagsMonth": "Alertas de segurança este mês",
+        "continued": "Continuaram apesar de um alerta",
+        "staffMfa": "Equipa com início de sessão em dois passos"
+      },
+      "gdprQueue": "Fila de pedidos RGPD",
+      "col": {
+        "reference": "Referência",
+        "type": "Tipo",
+        "received": "Recebido",
+        "due": "Prazo",
+        "status": "Estado"
+      },
+      "reqType": {
+        "access": "Acesso (Art. 15)",
+        "erasure": "Apagamento (Art. 17)",
+        "portability": "Portabilidade (Art. 20)",
+        "rectification": "Retificação (Art. 16)",
+        "objection": "Oposição (Art. 21)"
+      },
+      "status": {
+        "completed": "concluído",
+        "inProgress": "em curso"
+      },
+      "slaNote": "O prazo legal é de um mês. O nosso objetivo interno é de sete dias.",
+      "posture": "Postura de proteção de dados",
+      "postureRows": {
+        "dataResidency": "Residência dos dados",
+        "dataResidencyValue": "União Europeia (Irlanda, Frankfurt)",
+        "encryptionRest": "Encriptação em repouso",
+        "encryptionRestValue": "AES-256",
+        "encryptionTransit": "Encriptação em trânsito",
+        "encryptionTransitValue": "TLS 1.3",
+        "facialImages": "Imagens faciais",
+        "facialImagesValue": "Categoria especial do Art. 9 · processamento no dispositivo",
+        "retentionImages": "Retenção, imagens",
+        "retentionImagesValue": "Eliminadas dentro de 30 dias após o pedido",
+        "retentionRecords": "Retenção, registos",
+        "retentionRecordsValue": "Eliminados dentro de 90 dias, exceto faturas",
+        "dpia": "AIPD",
+        "dpiaValue": "Concluída, revista em fevereiro de 2026",
+        "subProcessors": "Subcontratantes",
+        "subProcessorsValue": "4 · todos na UE ou com decisão de adequação",
+        "penTest": "Teste de intrusão",
+        "penTestValue": "Anual, o último em março de 2026",
+        "dataSold": "Dados vendidos a terceiros",
+        "dataSoldValue": "Nenhum. Nunca."
+      },
+      "auditLog": "Registo de auditoria",
+      "auditLogNote": "Aqui ficam registadas as alterações de funções, as atribuições, as alterações de fase e as notas. É apenas de acrescento e a equipa não pode eliminar entradas.",
+      "fullLog": "Registo de auditoria completo",
+      "auditEmpty": "Ainda não há nada registado.",
+      "col2": {
+        "when": "Quando",
+        "who": "Quem",
+        "action": "Ação",
+        "record": "Registo"
+      },
+      "system": "Sistema",
+      "safetyRegister": "Registo de segurança clínica",
+      "safetyEmpty": "Nenhum alerta de segurança levantado este mês.",
+      "safetyCount": "{n} este mês · {continued} continuaram",
+      "level": {
+        "urgent": "Urgente",
+        "wait": "Aguardar",
+        "review": "Rever",
+        "action": "Ação"
+      },
+      "safetyNote": "<b>{n, plural, one {# alerta de segurança levantado} other {# alertas de segurança levantados}} na avaliação este mês.</b> Cada um é uma inscrição que parámos para verificar em vez de a deixar passar. O número é comunicado ao conselho de administração todos os meses precisamente por essa razão."
+    }
+  },
+  "clinician": {
+    "meta": {
+      "title": "Portal de clínicos — Palsya",
+      "description": "Os seus doentes, revisões, consultas e os guias que aprova."
+    },
+    "heading": "Portal de clínicos",
+    "intro": "Os seus doentes, as revisões que aguardam por si, as consultas e os guias que aprova. Só vê os doentes que lhe estão atribuídos.",
+    "tabs": {
+      "overview": "Resumo",
+      "patients": "Os meus doentes",
+      "review": "Fila de revisão",
+      "consultations": "Consultas",
+      "content": "Conteúdo",
+      "analytics": "Análise"
+    },
+    "overview": {
+      "kpi": {
+        "patients": "Doentes atribuídos a si",
+        "patientsDelta": "+{n} este mês",
+        "review": "À espera da sua revisão",
+        "inactive": "Inativos há 10+ dias",
+        "sessions": "Sessões registadas esta semana"
+      },
+      "byStage": "Os seus doentes por fase",
+      "newPatients": "Novos doentes por mês",
+      "unstagedNote": "{n, plural, one {# doente ainda não terminou} other {# doentes ainda não terminaram}} a avaliação e {n, plural, one {não é apresentado} other {não são apresentados}}.",
+      "needsAttention": "Necessita de atenção",
+      "openQueue": "Abrir a fila de revisão",
+      "attn": {
+        "review": "{n, plural, one {# atribuição de fase} other {# atribuições de fase}} por confirmar",
+        "reviewSub": "A avaliação não teve confiança suficiente. Confirme ou altere a fase antes de o programa continuar.",
+        "safety": "{n, plural, one {# doente continuou} other {# doentes continuaram}} apesar de um alerta de segurança",
+        "safetySub": "Verifique se o programa continua a ser o mais adequado para eles.",
+        "inactive": "{n, plural, one {# doente inativo} other {# doentes inativos}} há mais de 10 dias",
+        "inactiveSub": "Pergunte o que mudou — o plano pode precisar de ajustes."
+      },
+      "thisWeek": "Esta semana",
+      "kv": {
+        "sessionsLogged": "Sessões registadas",
+        "activePatients": "Doentes que registaram uma sessão",
+        "notesWritten": "Notas que escreveu",
+        "adherence": "Sessões registadas, média de 28 dias"
+      },
+      "empty": "Ainda não tem doentes atribuídos. Os doentes são atribuídos por um administrador; aparecem aqui assim que forem atribuídos."
+    },
+    "review": {
+      "kpi": {
+        "total": "Doentes na fila",
+        "review": "Atribuições de fase por confirmar",
+        "safety": "Continuaram apesar de um alerta de segurança",
+        "inactive": "Inativos há 10+ dias"
+      },
+      "title": "Fila de revisão",
+      "empty": "Nada à sua espera. Os doentes aparecem aqui quando uma atribuição de fase precisa de confirmação, quando continuaram apesar de um alerta de segurança ou quando estão inativos há mais de 10 dias.",
+      "rowMeta": "{stage} · dia {day} · última sessão {last}",
+      "open": "Abrir processo",
+      "note": "<b>Confirmar uma fase encerra a revisão.</b> Abra o processo e defina a fase — mesmo que seja a mesma — com um motivo breve. A alteração fica registada no histórico de fases do doente e no registo de auditoria."
+    },
+    "consultations": {
+      "notConnected": "<b>A marcação de consultas ainda não está ligada ao portal de clínicos.</b> Os números e as linhas abaixo são dados de demonstração do protótipo, para que possa ver como este separador vai funcionar.",
+      "kpi": {
+        "upcoming": "Próximas esta semana",
+        "callsMonth": "Chamadas este mês",
+        "utilisation": "Ocupação de horários",
+        "utilisationSub": "objetivo 70–85%",
+        "rating": "Avaliação média dos doentes"
+      },
+      "upcoming": "Próximas consultas",
+      "col": {
+        "when": "Quando",
+        "patient": "Doente",
+        "stage": "Fase",
+        "type": "Tipo",
+        "language": "Idioma"
+      },
+      "type": {
+        "followUp": "Acompanhamento",
+        "review": "Revisão de fase",
+        "first": "Primeira consulta"
+      },
+      "quality": "Qualidade das consultas",
+      "qualityNote": "Medida com base no que os doentes relatam depois, não no volume de chamadas. Não incentivamos os clínicos com base no rendimento.",
+      "stat": {
+        "specificPlan": "\"Recebi um plano concreto\"",
+        "understoodSituation": "\"Compreenderam a minha situação\"",
+        "escalated": "Chamadas encaminhadas para um médico"
+      }
+    },
+    "content": {
+      "kpi": {
+        "written": "Guias que escreveu",
+        "reviewing": "Guias que revê",
+        "dueYours": "Seus, para nova revisão",
+        "published": "Guias publicados"
+      },
+      "guides": "Guias",
+      "col": {
+        "yourRole": "A sua função"
+      },
+      "role": {
+        "author": "Autor",
+        "reviewer": "Revisor",
+        "none": "—"
+      }
+    },
+    "analytics": {
+      "kpi": {
+        "patients": "Os seus doentes",
+        "adherence": "Sessões registadas, média de 28 dias",
+        "medianDays": "Dias medianos na fase atual",
+        "activeWeek": "Registaram uma sessão esta semana"
+      },
+      "caseloadNote": "Os números abrangem apenas os doentes que lhe estão atribuídos."
+    }
+  }
+}

@@ -26,3 +26,8 @@ const bodies: Partial<Record<Locale, Record<string, ArticleBody>>> = { en, de, e
 export function articleBody(slug: string, locale: Locale): ArticleBody | null {
   return bodies[locale]?.[slug] ?? bodies.en?.[slug] ?? null;
 }
+
+/** True when the guide's body exists in this locale itself, not via the English fallback. */
+export function hasArticleBody(slug: string, locale: Locale): boolean {
+  return Boolean(bodies[locale]?.[slug]);
+}

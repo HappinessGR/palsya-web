@@ -1,11 +1,9 @@
 import { getFormatter, getLocale, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../components/SiteHeader";
 import { pageMetadata } from "../../../i18n/metadata";
 import { isLocale, localeNames, locales } from "../../../i18n/config";
 import { requirePagePermission } from "../../../src/lib/authz";
 import { INVITABLE_ROLES, isAppRole } from "../../../src/lib/permissions";
 import { listPendingInvitations } from "../../../src/lib/user-admin";
-import { AdminNav } from "../AdminNav";
 import { Flash } from "../Flash";
 import { param } from "../shared";
 import { inviteAction, revokeAction } from "./actions";
@@ -32,14 +30,10 @@ export default async function AdminInvitePage({ searchParams }: { searchParams: 
 
   return (
     <>
-      <SiteHeader />
-      <div className="page">
+      <div>
         <div className="greet">
           <h2>{t("invite.heading")}</h2>
           <p>{t("invite.subtitle")}</p>
-        </div>
-        <div style={{ marginTop: "var(--s-5)" }}>
-          <AdminNav />
         </div>
 
         <Flash result={param(sp, "result")} error={param(sp, "error")} resultNs="invite" resultCodes={RESULT_CODES} />

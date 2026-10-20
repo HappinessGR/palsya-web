@@ -1,106 +1,129 @@
-import Link from "next/link";
-import { and, count, eq, isNull, sql } from "drizzle-orm";
-import { getFormatter, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../components/SiteHeader";
+import { getFormatter, getLocale, getTranslations } from "next-intl/server";
 import { pageMetadata } from "../../i18n/metadata";
-import { db } from "../../src/db";
-import { patientProfiles, users } from "../../src/db/schema/users";
 import { requirePagePermission } from "../../src/lib/authz";
+import { listClinicians, listPatients, notesThisWeek, summarise } from "../../src/lib/backoffice";
 import { listPendingInvitations } from "../../src/lib/user-admin";
-import { AdminNav } from "./AdminNav";
+import { AttentionRow, Bars, Kpi, STAGE_COLOURS, StackBar } from "../components/backoffice/ui";
+import { monthLabel } from "../components/backoffice/format";
 
 export async function generateMetadata() {
-  return pageMetadata("admin.meta");
+  return pageMetadata("backoffice.admin.meta");
 }
 
-async function loadCounts() {
-  const byRole = await db
-    .select({ role: users.role, n: count() })
-    .from(users)
-    .where(isNull(users.deletedAt))
-    .groupBy(users.role);
-  const roleCount = (...roles: string[]) =>
-    byRole.filter((r) => roles.includes(r.role)).reduce((sum, r) => sum + Number(r.n), 0);
-
-  const [unassigned] = await db
-    .select({ n: count() })
-    .from(patientProfiles)
-    .innerJoin(users, eq(users.id, patientProfiles.userId))
-    .where(and(isNull(patientProfiles.assignedClinicianId), isNull(users.deletedAt), sql`${users.role} = 'patient'`));
-
-  let pending: number | null = null;
-  try {
-    pending = (await listPendingInvitations()).length;
-  } catch {
-    pending = null; // Clerk unreachable — show a dash rather than failing the page.
-  }
-
-  return {
-    patients: roleCount("patient"),
-    clinicians: roleCount("clinician"),
-    admins: roleCount("admin", "superuser"),
-    unassigned: Number(unassigned?.n ?? 0),
-    pendingInvitations: pending,
-  };
-}
-
-export default async function AdminPage() {
-  const actor = await requirePagePermission("users:read");
-  const t = await getTranslations("admin");
+/** Back office — Overview (legacy views-admin.js overview()). */
+export default async function AdminOverviewPage() {
+  await requirePagePermission("users:read");
+  const t = await getTranslations("backoffice");
   const format = await getFormatter();
-  const counts = await loadCounts();
-  const firstName = actor.fullName.split(" ")[0];
+  const locale = await getLocale();
 
-  const stats = [
-    { key: "patients", value: counts.patients },
-    { key: "clinicians", value: counts.clinicians },
-    { key: "admins", value: counts.admins },
-    { key: "unassigned", value: counts.unassigned },
-    { key: "pendingInvitations", value: counts.pendingInvitations },
-  ] as const;
+  const [patients, clinicians, notes, invitations] = await Promise.all([
+    listPatients({ kind: "all" }),
+    listClinicians(),
+    notesThisWeek({ kind: "all" }),
+    listPendingInvitations().catch(() => null), // Clerk unreachable — show a dash rather than failing the page.
+  ]);
+  const s = summarise(patients);
+  const unassigned = patients.filter((p) => !p.clinicianId).length;
+  const pendingClinicians = clinicians.filter((c) => c.status === "pending_verification").length;
+  const n = (v: number) => format.number(v);
 
-  const links = [
-    { href: "/admin/users", title: "users", body: "usersBody" },
-    { href: "/admin/invite", title: "invite", body: "inviteBody" },
-    { href: "/admin/audit", title: "audit", body: "auditBody" },
+  const attention = [
+    { n: s.needsReview, kind: "alert", icon: "alert", key: "review" },
+    { n: s.safety, kind: "alert", icon: "shield", key: "safety" },
+    { n: s.inactive, kind: "warn", icon: "clock", key: "inactive" },
+    { n: unassigned, kind: "warn", icon: "users", key: "unassigned" },
+    { n: pendingClinicians, kind: "info", icon: "stethoscope", key: "pendingClinicians" },
+    { n: invitations?.length ?? 0, kind: "info", icon: "mail", key: "invitations" },
   ] as const;
 
   return (
     <>
-      <SiteHeader />
-      <div className="page">
-        <div className="greet">
-          <h2>{firstName ? t("headingNamed", { name: firstName }) : t("heading")}</h2>
-          <p>{t("subtitle")}</p>
+      <div className="bo-kpis">
+        <Kpi
+          n={n(s.total)}
+          label={t("admin.overview.kpi.activePatients")}
+          delta={t("admin.overview.kpi.activePatientsDelta", { n: s.newByMonth.at(-1)?.n ?? 0 })}
+          trend="up"
+        />
+        <Kpi
+          n={n(clinicians.length)}
+          label={t("admin.overview.kpi.clinicians")}
+          delta={pendingClinicians ? t("admin.overview.kpi.cliniciansDelta", { n: pendingClinicians }) : undefined}
+          trend="flat"
+        />
+        <Kpi
+          n={s.meanAdherence === null ? t("common.dash") : t("common.percent", { n: s.meanAdherence })}
+          label={t("admin.overview.kpi.adherence")}
+        />
+        <Kpi
+          n={n(s.needsReview)}
+          label={t("admin.overview.kpi.awaitingReview")}
+          delta={unassigned ? t("admin.overview.kpi.awaitingReviewDelta", { n: unassigned }) : undefined}
+          trend="down"
+        />
+      </div>
+
+      <div className="grid g2 bo-section" style={{ alignItems: "start" }}>
+        <div className="card card-pad-lg">
+          <h3 className="h-card">{t("admin.overview.newPatients")}</h3>
+          <div style={{ marginTop: 16 }}>
+            <Bars data={s.newByMonth.map((m) => ({ l: monthLabel(m.month, locale), v: m.n }))} />
+          </div>
         </div>
 
-        <div style={{ marginTop: "var(--s-5)" }}>
-          <AdminNav />
+        <div className="card card-pad-lg">
+          <h3 className="h-card">{t("admin.overview.byStage")}</h3>
+          <div style={{ marginTop: 20 }}>
+            <StackBar
+              parts={s.byStage.map((b) => ({ l: t("common.stageLabel", { n: b.stage }), v: b.n, colour: STAGE_COLOURS[b.stage - 1] }))}
+              format={n}
+            />
+          </div>
+          {s.unstaged > 0 && (
+            <p className="small faint" style={{ marginTop: 16 }}>
+              {t("admin.overview.unstagedNote", { n: s.unstaged })}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <div className="grid g2 bo-section" style={{ alignItems: "start" }}>
+        <div className="card card-pad-lg">
+          <h3 className="h-card">{t("admin.overview.needsAttention")}</h3>
+          <div className="stack-sm" style={{ marginTop: 14 }}>
+            {attention.some((a) => a.n > 0) ? (
+              attention
+                .filter((a) => a.n > 0)
+                .map((a) => (
+                  <AttentionRow
+                    key={a.key}
+                    kind={a.kind}
+                    icon={a.icon}
+                    title={t(`admin.overview.attn.${a.key}`, { n: a.n })}
+                    sub={t(`admin.overview.attn.${a.key}Sub`)}
+                  />
+                ))
+            ) : (
+              <p className="small muted">{t("common.noneNeedAttention")}</p>
+            )}
+          </div>
         </div>
 
-        <div
-          style={{ display: "grid", gap: "var(--s-4)", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))" }}
-        >
-          {stats.map((s) => (
-            <div key={s.key} className="card card-pad-sm stat">
-              <div className="stat-n">{s.value === null ? t("overview.unavailable") : format.number(s.value)}</div>
-              <div className="stat-l">{t(`overview.counts.${s.key}`)}</div>
-            </div>
-          ))}
-        </div>
-
-        <h3 className="card-title" style={{ marginTop: "var(--s-7)" }}>
-          {t("overview.links.title")}
-        </h3>
-        <div
-          style={{ display: "grid", gap: "var(--s-4)", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}
-        >
-          {links.map((l) => (
-            <Link key={l.href} href={l.href} className="card card-pad-lg" style={{ textDecoration: "none", color: "inherit" }}>
-              <h4 className="card-title">{t(`overview.links.${l.title}`)}</h4>
-              <p className="small muted">{t(`overview.links.${l.body}`)}</p>
-            </Link>
-          ))}
+        <div className="card card-pad-lg">
+          <h3 className="h-card">{t("admin.overview.thisWeek")}</h3>
+          <dl className="kv" style={{ marginTop: 16 }}>
+            <dt>{t("admin.overview.kv.sessionsLogged")}</dt>
+            <dd className="num">{n(s.sessions7d)}</dd>
+            <dt>{t("admin.overview.kv.activePatients")}</dt>
+            <dd className="num">{n(s.active7d)}</dd>
+            <dt>{t("admin.overview.kv.newPatients")}</dt>
+            <dd className="num">{n(s.new7d)}</dd>
+            <dt>{t("admin.overview.kv.notesWritten")}</dt>
+            <dd className="num">{n(notes)}</dd>
+            <dt>{t("admin.overview.kv.pendingInvitations")}</dt>
+            <dd className="num">{invitations === null ? t("common.dash") : n(invitations.length)}</dd>
+          </dl>
         </div>
       </div>
     </>

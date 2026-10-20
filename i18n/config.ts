@@ -58,6 +58,7 @@ export const namespaces = [
   "appScan",
   "appProgress",
   "appSupport",
+  "backoffice",
 ] as const;
 
 export function isLocale(value: unknown): value is Locale {

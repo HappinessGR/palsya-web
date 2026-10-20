@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { getFormatter, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../components/SiteHeader";
 import { pageMetadata } from "../../../i18n/metadata";
 import { listActiveClinicians, requirePagePermission } from "../../../src/lib/authz";
 import { APP_ROLES, isAppRole, toAppRole } from "../../../src/lib/permissions";
 import { listUsers } from "../../../src/lib/user-admin";
-import { AdminNav } from "../AdminNav";
 import { Flash } from "../Flash";
 import { param } from "../shared";
 import { assignClinicianAction, changeRoleAction, setStatusAction } from "./actions";
@@ -35,14 +33,10 @@ export default async function AdminUsersPage({ searchParams }: { searchParams: P
 
   return (
     <>
-      <SiteHeader />
-      <div className="page">
+      <div>
         <div className="greet">
           <h2>{t("users.heading")}</h2>
           <p>{t("users.subtitle")}</p>
-        </div>
-        <div style={{ marginTop: "var(--s-5)" }}>
-          <AdminNav />
         </div>
 
         <Flash result={param(sp, "result")} error={param(sp, "error")} resultNs="users" resultCodes={RESULT_CODES} />

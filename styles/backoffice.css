@@ -1,0 +1,10 @@
+/* Back office (app/admin) and clinician portal (app/clinician) — the legacy
+   assets/css/app.css "Back office" rules that styles/app.css leaves out.
+   The tab strip itself (.bo-tabs) lives in styles/appSupport.css. */
+.bo-page { max-width: 1240px; }
+.bo-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-4); }
+@media (max-width: 1000px) { .bo-kpis { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .bo-kpis { grid-template-columns: 1fr; } }
+.bo-section { margin-top: var(--s-6); }
+.bo-demo { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.bo-row-link { width: 100%; text-align: left; color: inherit; text-decoration: none; }

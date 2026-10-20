@@ -2,7 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { DateTimeFormatOptions } from "next-intl";
 import { getFormatter, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../../components/SiteHeader";
 import { Icon } from "../../../components/Icon";
 import { pageMetadata } from "../../../../i18n/metadata";
 import { requirePagePermission } from "../../../../src/lib/authz";
@@ -47,9 +46,8 @@ export default async function ClinicianPatientPage({ params }: Props) {
 
   return (
     <>
-      <SiteHeader />
-      <div className="page">
-        <Link className="link-arrow small" href="/clinician">
+      <div>
+        <Link className="link-arrow small" href="/clinician/patients">
           <Icon name="arrow-left" size={14} />
           {t("back")}
         </Link>
