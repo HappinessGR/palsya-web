@@ -3,11 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Icon } from "../../../components/Icon";
-import { articles, fmtDateMD } from "../../../lib/content";
+import { articles, fmtDateMD, guideHref } from "../../../lib/content";
 import { articleBody } from "../../../lib/articles";
 import type { Locale } from "../../../../i18n/config";
 
-// The FAQ has its own page (app/dashboard/library/faq); every other guide renders here.
+// The FAQ has its own page (app/faq, public); every other guide renders here.
 const guide = (slug: string) => articles.find((a) => a.slug === slug && !a.faq);
 
 export async function generateMetadata(props: PageProps<"/dashboard/library/[slug]">): Promise<Metadata> {
@@ -84,7 +84,7 @@ export default async function GuidePage(props: PageProps<"/dashboard/library/[sl
           <h2 className="display h-card">{t("article.keepReading")}</h2>
           <div className="kb-grid" style={{ marginTop: 24 }}>
             {related.map((r) => (
-              <Link className="card card-pad-lg card-lift kb-card" href={`/dashboard/library/${r.slug}`} key={r.slug}>
+              <Link className="card card-pad-lg card-lift kb-card" href={guideHref(r)} key={r.slug}>
                 <h3>{t(`articles.${r.slug}.title`)}</h3>
                 <p>{t(`articles.${r.slug}.blurb`)}</p>
                 <div className="kb-read">{t("article.minRead", { minutes: r.read })}</div>

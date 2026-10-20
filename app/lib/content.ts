@@ -21,6 +21,9 @@ export type Article = {
   faq?: boolean;
 };
 
+/** The FAQ is public (/faq); every other guide is patient-only, inside the dashboard. */
+export const guideHref = (a: Article) => (a.faq ? "/faq" : `/dashboard/library/${a.slug}`);
+
 export const articles: Article[] = [
   { slug: "what-is-pfp", read: 8, updated: "2026-06-14", author: "Dr. Hana Reis", reviewer: "Dr. Anders Vogt" },
   { slug: "stages-of-recovery", read: 7, updated: "2026-07-02", author: "Dr. Hana Reis", reviewer: "Dr. Anders Vogt" },

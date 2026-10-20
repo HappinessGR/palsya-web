@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Icon } from "../../components/Icon";
+import { guideHref } from "../../lib/content";
 import { libraryPicks } from "../../lib/programme";
 
 export async function LibraryCard({ stage }: { stage: number }) {
@@ -22,7 +23,7 @@ export async function LibraryCard({ stage }: { stage: number }) {
         {picks.map((a) => (
           <Link
             className="card card-pad-sm card-flat card-lift row-between"
-            href={`/dashboard/library/${a.slug}`}
+            href={guideHref(a)}
             style={{ gap: 12 }}
             key={a.slug}
           >
