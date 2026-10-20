@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../components/SiteHeader";
-import { Footer } from "../../components/Footer";
-import { Icon } from "../../components/Icon";
-import { articles, extras, faqGroups, fmtDateMD, money, plans } from "../../lib/content";
-import { pageMetadata } from "../../../i18n/metadata";
-import type { Locale } from "../../../i18n/config";
+import { Icon } from "../../../components/Icon";
+import { articles, extras, faqGroups, fmtDateMD, money, plans } from "../../../lib/content";
+import { pageMetadata } from "../../../../i18n/metadata";
+import type { Locale } from "../../../../i18n/config";
 
 export function generateMetadata() {
   return pageMetadata("guides.faqPage.meta");
@@ -29,12 +27,10 @@ export default async function FaqPage() {
   };
 
   return (
-    <>
-      <SiteHeader />
-
+    <div className="page">
       <section className="article-hd">
         <div className="wrap-read">
-          <Link className="link-arrow" href="/guides" style={{ marginBottom: 18, display: "inline-flex" }}>
+          <Link className="link-arrow" href="/dashboard/library" style={{ marginBottom: 18, display: "inline-flex" }}>
             <Icon name="arrow-left" size={16} />
             {t("faqPage.allGuides")}
           </Link>
@@ -80,8 +76,6 @@ export default async function FaqPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </>
+    </div>
   );
 }

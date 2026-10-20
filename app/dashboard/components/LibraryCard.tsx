@@ -12,7 +12,7 @@ export async function LibraryCard({ stage }: { stage: number }) {
     <div className="card card-pad-lg">
       <div className="card-hd">
         <h3>{t("title")}</h3>
-        <Link className="link-arrow small" href="/guides">
+        <Link className="link-arrow small" href="/dashboard/library">
           {t("link")}
           <Icon name="arrow-right" size={14} />
         </Link>
@@ -22,7 +22,7 @@ export async function LibraryCard({ stage }: { stage: number }) {
         {picks.map((a) => (
           <Link
             className="card card-pad-sm card-flat card-lift row-between"
-            href={`/guides/${a.slug}`}
+            href={`/dashboard/library/${a.slug}`}
             style={{ gap: 12 }}
             key={a.slug}
           >

@@ -2,17 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
-import { SiteHeader } from "../../components/SiteHeader";
-import { Footer } from "../../components/Footer";
-import { Icon } from "../../components/Icon";
-import { articles, fmtDateMD } from "../../lib/content";
-import { articleBody } from "../../lib/articles";
-import type { Locale } from "../../../i18n/config";
+import { Icon } from "../../../components/Icon";
+import { articles, fmtDateMD } from "../../../lib/content";
+import { articleBody } from "../../../lib/articles";
+import type { Locale } from "../../../../i18n/config";
 
-// The FAQ has its own page (app/guides/faq); every other guide renders here.
+// The FAQ has its own page (app/dashboard/library/faq); every other guide renders here.
 const guide = (slug: string) => articles.find((a) => a.slug === slug && !a.faq);
 
-export async function generateMetadata(props: PageProps<"/guides/[slug]">): Promise<Metadata> {
+export async function generateMetadata(props: PageProps<"/dashboard/library/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;
   if (!guide(slug)) return {};
   const t = await getTranslations("guides.articles");
@@ -21,7 +19,7 @@ export async function generateMetadata(props: PageProps<"/guides/[slug]">): Prom
   return { title, description, openGraph: { title, description, type: "article" } };
 }
 
-export default async function GuidePage(props: PageProps<"/guides/[slug]">) {
+export default async function GuidePage(props: PageProps<"/dashboard/library/[slug]">) {
   const { slug } = await props.params;
   const article = guide(slug);
   const locale = (await getLocale()) as Locale;
@@ -34,12 +32,10 @@ export default async function GuidePage(props: PageProps<"/guides/[slug]">) {
   const related = articles.filter((a) => a.slug !== slug).slice(0, 3);
 
   return (
-    <>
-      <SiteHeader />
-
+    <div className="page">
       <section className="article-hd">
         <div className="wrap-read">
-          <Link className="link-arrow" href="/guides" style={{ marginBottom: 18, display: "inline-flex" }}>
+          <Link className="link-arrow" href="/dashboard/library" style={{ marginBottom: 18, display: "inline-flex" }}>
             <Icon name="arrow-left" size={16} />
             {t("faqPage.allGuides")}
           </Link>
@@ -88,7 +84,7 @@ export default async function GuidePage(props: PageProps<"/guides/[slug]">) {
           <h2 className="display h-card">{t("article.keepReading")}</h2>
           <div className="kb-grid" style={{ marginTop: 24 }}>
             {related.map((r) => (
-              <Link className="card card-pad-lg card-lift kb-card" href={`/guides/${r.slug}`} key={r.slug}>
+              <Link className="card card-pad-lg card-lift kb-card" href={`/dashboard/library/${r.slug}`} key={r.slug}>
                 <h3>{t(`articles.${r.slug}.title`)}</h3>
                 <p>{t(`articles.${r.slug}.blurb`)}</p>
                 <div className="kb-read">{t("article.minRead", { minutes: r.read })}</div>
@@ -97,8 +93,6 @@ export default async function GuidePage(props: PageProps<"/guides/[slug]">) {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </>
+    </div>
   );
 }

@@ -139,7 +139,7 @@ export function AppShell({
           <h1>{title}</h1>
           <div className="topbar-r">
             <LanguageSwitcher />
-            <Link className="btn btn-sm btn-quiet" href="/guides">
+            <Link className="btn btn-sm btn-quiet" href="/dashboard/library">
               <Icon name="help-circle" size={16} />
               <span className="hide-sm">{t("help")}</span>
             </Link>

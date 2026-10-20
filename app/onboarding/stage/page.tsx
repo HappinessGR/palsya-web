@@ -82,9 +82,6 @@ export default async function StagePage() {
             <h3 className="h-card">{t("blockedSavedTitle")}</h3>
             <p className="mt-4">{t("blockedSavedBody")}</p>
             <div className="row-wrap" style={{ marginTop: 18 }}>
-              <Link className="btn btn-ghost" href="/guides">
-                {t("readGuides")}
-              </Link>
               <ProceedFromStageForm assessmentResponseId={progress.assessment.id} override label={t("continueAnyway")} />
             </div>
           </div>

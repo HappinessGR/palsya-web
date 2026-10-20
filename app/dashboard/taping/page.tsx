@@ -120,7 +120,7 @@ export default async function TapingPage() {
             <li key={k}>{t(`safety.${k}`)}</li>
           ))}
         </ul>
-        <Link className="link-arrow" href="/guides/facial-taping-guide" style={{ marginTop: 14 }}>
+        <Link className="link-arrow" href="/dashboard/library/facial-taping-guide" style={{ marginTop: 14 }}>
           {t("fullGuide")}
           <Icon name="arrow-right" size={16} />
         </Link>

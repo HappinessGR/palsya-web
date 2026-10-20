@@ -2,7 +2,6 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Icon } from "./Icon";
 import { BrandMark } from "./BrandMark";
-import { articles } from "../lib/content";
 import { locales } from "../../i18n/config";
 
 const PRODUCT_LINKS = [
@@ -24,7 +23,6 @@ const COMPANY_LINKS = [
 
 export async function Footer() {
   const t = await getTranslations("common");
-  const tGuides = await getTranslations("guides.articles");
 
   return (
     <footer className="foot">
@@ -54,16 +52,6 @@ export async function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h5>{t("footer.guides")}</h5>
-            <ul>
-              {articles.slice(0, 5).map((a) => (
-                <li key={a.slug}>
-                  <Link href={`/guides/${a.slug}`}>{tGuides(`${a.slug}.title`)}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           <div>
             <h5>{t("footer.company")}</h5>

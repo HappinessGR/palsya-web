@@ -40,7 +40,7 @@ export default async function LibraryPage() {
       <h3 className="h-card">{t("forStage", { n: stageNum })}</h3>
       <div className="grid g3" style={{ marginTop: "var(--s-4)" }}>
         {libraryPicks(stageNum).map((a) => (
-          <Link className="card card-pad-lg card-lift kb-card" href={`/guides/${a.slug}`} key={a.slug}>
+          <Link className="card card-pad-lg card-lift kb-card" href={`/dashboard/library/${a.slug}`} key={a.slug}>
             <span className="badge badge-brand" style={{ alignSelf: "flex-start" }}>
               {t("recommendedNow")}
             </span>
@@ -71,7 +71,7 @@ export default async function LibraryPage() {
       </h3>
       <div className="grid g3" style={{ marginTop: "var(--s-4)" }}>
         {articles.map((a) => (
-          <Link className="card card-pad-lg card-lift kb-card" href={`/guides/${a.slug}`} key={a.slug}>
+          <Link className="card card-pad-lg card-lift kb-card" href={`/dashboard/library/${a.slug}`} key={a.slug}>
             <h3>{tg(`${a.slug}.title`)}</h3>
             <p>{tg(`${a.slug}.blurb`)}</p>
             <div className="kb-read">

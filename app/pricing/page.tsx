@@ -236,12 +236,6 @@ export default async function PricingPage() {
               </details>
             ))}
           </div>
-          <p className="center" style={{ marginTop: 28 }}>
-            <Link className="link-arrow" href="/guides/faq">
-              {t("faq.all")}
-              <Icon name="arrow-right" size={16} />
-            </Link>
-          </p>
         </div>
       </section>
 

@@ -15,7 +15,6 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 // dashboard) and "Log out". On phones these move into the burger menu.
 const NAV_LINKS = [
   { key: "howItWorks", href: "/how-it-works" },
-  { key: "guides", href: "/guides" },
   { key: "stories", href: "/stories" },
   { key: "pricing", href: "/pricing" },
   { key: "about", href: "/about" },

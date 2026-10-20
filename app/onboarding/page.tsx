@@ -64,9 +64,6 @@ export default async function OnboardingWelcomePage() {
             {t("start")}
             <Icon name="arrow-right" size={18} />
           </Link>
-          <Link className="btn btn-lg btn-quiet" href="/guides">
-            {t("learnMore")}
-          </Link>
         </div>
       </div>
     </OnboardingShell>

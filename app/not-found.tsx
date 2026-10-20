@@ -23,9 +23,6 @@ export default async function NotFound() {
           <Link className="btn" href="/">
             {t("home")}
           </Link>
-          <Link className="btn btn-ghost" href="/guides">
-            {t("guides")}
-          </Link>
         </div>
       </main>
       <Footer />

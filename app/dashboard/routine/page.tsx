@@ -59,7 +59,7 @@ export default async function RoutinePage() {
       </div>
 
       <p style={{ marginTop: "var(--s-6)" }}>
-        <Link className="link-arrow" href="/guides/daily-routine">
+        <Link className="link-arrow" href="/dashboard/library/daily-routine">
           {t("fullGuide")}
           <Icon name="arrow-right" size={16} />
         </Link>

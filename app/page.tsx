@@ -6,7 +6,7 @@ import { SiteHeader } from "./components/SiteHeader";
 import { Footer } from "./components/Footer";
 import { FaceIllustration } from "./components/FaceIllustration";
 import { Icon } from "./components/Icon";
-import { articles, extras, fmtDateMD, money, plans, testimonials, type Plan } from "./lib/content";
+import { extras, fmtDateMD, money, plans, testimonials, type Plan } from "./lib/content";
 import { stages } from "./lib/programme";
 import { pageMetadata } from "../i18n/metadata";
 import { redirectSignedInToDashboard } from "../src/lib/authz";
@@ -76,7 +76,6 @@ export default async function Home() {
   // Signed-in users skip the marketing page and land on their own dashboard.
   await redirectSignedInToDashboard();
   const t = await getTranslations("landing");
-  const tg = await getTranslations("guides.articles");
   const ts = await getTranslations("stories.testimonials");
   const tst = await getTranslations("programme.stages");
   const tc = await getTranslations("common");
@@ -241,10 +240,6 @@ export default async function Home() {
                 {t("stages.title")}
               </h2>
             </div>
-            <Link className="link-arrow" href="/guides">
-              {t("stages.readGuide")}
-              <Icon name="arrow-right" size={16} />
-            </Link>
           </div>
           <div className="tl-pub" style={{ marginTop: 8 }}>
             <div className="tl-track">
@@ -376,32 +371,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Knowledge teaser */}
-      <section className="section">
-        <div className="wrap">
-          <div className="row-between" style={{ alignItems: "flex-end", flexWrap: "wrap", gap: 20 }}>
-            <div>
-              <p className="eyebrow">{t("guides.eyebrow")}</p>
-              <h2 className="display h-sec" style={{ marginTop: 10 }}>
-                {t("guides.title")}
-              </h2>
-            </div>
-            <Link className="link-arrow" href="/guides">
-              {t("guides.all")}
-              <Icon name="arrow-right" size={16} />
-            </Link>
-          </div>
-          <div className="kb-grid" style={{ marginTop: 36 }}>
-            {articles.slice(0, 3).map((a) => (
-              <Link key={a.slug} className="card card-pad-lg card-lift kb-card" href="/guides">
-                <h3>{tg(`${a.slug}.title`)}</h3>
-                <p>{tg(`${a.slug}.blurb`)}</p>
-                <div className="kb-read">{t("guides.read", { minutes: a.read, date: fmtDateMD(a.updated, locale) })}</div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Final CTA */}
       <section className="section-sm" style={{ background: "var(--brand-tint)", borderBlock: "1px solid var(--brand-tint-2)" }}>
