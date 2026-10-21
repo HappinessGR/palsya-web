@@ -418,6 +418,7 @@
         "exit": "Sair da pré-visualização"
       },
       "ns": {
+        "home": "Página inicial (tudo o que contém)",
         "common": "Partilhado (menu, rodapé, botões)",
         "landing": "Página inicial",
         "howItWorks": "Como funciona",

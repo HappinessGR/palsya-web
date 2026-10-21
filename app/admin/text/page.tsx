@@ -9,7 +9,7 @@ import { listOverrides, type OverrideRow } from "../../../src/lib/site-text";
 import { Icon } from "../../components/Icon";
 import { param } from "../shared";
 import { previewAction, publishPageAction, textAction } from "./actions";
-import { PUBLIC_NAMESPACES } from "./shared";
+import { PAGE_GROUPS, PUBLIC_NAMESPACES, prefixesFor, underAny } from "./shared";
 
 export async function generateMetadata() {
   return pageMetadata("backoffice.admin.text.meta");
@@ -32,7 +32,8 @@ export default async function AdminTextPage({ searchParams }: { searchParams: Se
   await requirePagePermission("content:write");
   const sp = await searchParams;
   const nsParam = param(sp, "ns");
-  const ns = nsParam && (namespaces as readonly string[]).includes(nsParam) ? nsParam : "landing";
+  const ns = nsParam && prefixesFor(nsParam, namespaces) ? nsParam : "home";
+  const prefixes = prefixesFor(ns, namespaces)!;
   const localeParam = param(sp, "locale");
   const locale: Locale = isLocale(localeParam) ? localeParam : defaultLocale;
   const q = (param(sp, "q") ?? "").trim();
@@ -51,8 +52,20 @@ export default async function AdminTextPage({ searchParams }: { searchParams: Se
   const mine = byKey(locale);
   const englishEdits = byKey(defaultLocale);
 
-  const draftsIn = (name: string) => rows.filter((r) => r.locale === locale && r.draftValue !== null && r.key.startsWith(`${name}.`)).length;
-  const orderedNs = [...PUBLIC_NAMESPACES, ...namespaces.filter((n) => !(PUBLIC_NAMESPACES as readonly string[]).includes(n))];
+  const draftsIn = (name: string) => {
+    const under = prefixesFor(name, namespaces) ?? [];
+    return rows.filter((r) => r.locale === locale && r.draftValue !== null && underAny(r.key, under)).length;
+  };
+  const orderedNs = [
+    ...Object.keys(PAGE_GROUPS),
+    ...PUBLIC_NAMESPACES,
+    ...namespaces.filter((n) => !(PUBLIC_NAMESPACES as readonly string[]).includes(n)),
+  ];
+  const subtree = (prefix: string) => {
+    let cur: unknown = english;
+    for (const part of prefix.split(".")) cur = cur && typeof cur === "object" ? (cur as Record<string, unknown>)[part] : undefined;
+    return cur && typeof cur === "object" ? (cur as AbstractIntlMessages) : {};
+  };
 
   // English edited after this language's text was last set → the translation may be stale.
   const outdated = (key: string, row: OverrideRow | undefined) => {
@@ -62,7 +75,8 @@ export default async function AdminTextPage({ searchParams }: { searchParams: Se
   };
 
   const needle = q.toLowerCase();
-  const entries = flattenMessages(english[ns] as AbstractIntlMessages, ns)
+  const entries = prefixes
+    .flatMap((prefix) => flattenMessages(subtree(prefix), prefix))
     .map(([key, englishText]) => {
       const row = mine.get(key);
       const defaultValue = messageAt(own, key) ?? englishText;

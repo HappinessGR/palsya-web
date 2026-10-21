@@ -418,6 +418,7 @@
         "exit": "Vorschau beenden"
       },
       "ns": {
+        "home": "Startseite (alles darauf)",
         "common": "Allgemein (Menü, Fußzeile, Schaltflächen)",
         "landing": "Startseite",
         "howItWorks": "So funktioniert’s",

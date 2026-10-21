@@ -5,6 +5,7 @@
  * the home page.
  */
 const PREVIEW_PATHS: Record<string, string> = {
+  home: "/",
   landing: "/",
   howItWorks: "/how-it-works",
   guides: "/faq",
@@ -24,3 +25,21 @@ export function previewPath(ns: string): string {
 
 /** The namespaces most people come to edit, listed first in the picker. */
 export const PUBLIC_NAMESPACES = ["common", "landing", "howItWorks", "pricing", "about", "stories", "guides"] as const;
+
+/**
+ * Pages whose text comes from several namespaces, edited together. The home
+ * page (app/page.tsx) reads landing, the stories' testimonials and the stage
+ * names, plus the shared header and footer (common).
+ */
+export const PAGE_GROUPS: Record<string, readonly string[]> = {
+  home: ["landing", "stories.testimonials", "programme.stages", "common"],
+};
+
+/** The key prefixes a picker value covers: a page group, a single namespace, or null when unknown. */
+export function prefixesFor(value: string, namespaces: readonly string[]): readonly string[] | null {
+  if (PAGE_GROUPS[value]) return PAGE_GROUPS[value];
+  return namespaces.includes(value) ? [value] : null;
+}
+
+/** True when `key` sits under one of `prefixes` ("landing.hero.title" is under "landing"). */
+export const underAny = (key: string, prefixes: readonly string[]) => prefixes.some((p) => key.startsWith(`${p}.`));

@@ -418,6 +418,7 @@
         "exit": "Exit preview"
       },
       "ns": {
+        "home": "Home page (everything on it)",
         "common": "Shared (menu, footer, buttons)",
         "landing": "Home page",
         "howItWorks": "How it works",

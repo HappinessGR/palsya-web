@@ -418,6 +418,7 @@
         "exit": "Quitter la prévisualisation"
       },
       "ns": {
+        "home": "Page d’accueil (tout son contenu)",
         "common": "Commun (menu, pied de page, boutons)",
         "landing": "Page d'accueil",
         "howItWorks": "Fonctionnement",

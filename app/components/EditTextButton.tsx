@@ -6,7 +6,7 @@ import { Icon } from "./Icon";
 
 /** Public page → the message namespace holding most of its text (inverse of app/admin/text/shared.ts previewPath). */
 const NAMESPACE_BY_PATH: Record<string, string> = {
-  "/": "landing",
+  "/": "home",
   "/how-it-works": "howItWorks",
   "/pricing": "pricing",
   "/about": "about",

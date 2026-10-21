@@ -418,6 +418,7 @@
         "exit": "Voorbeeld sluiten"
       },
       "ns": {
+        "home": "Startpagina (alles erop)",
         "common": "Gedeeld (menu, voettekst, knoppen)",
         "landing": "Startpagina",
         "howItWorks": "Hoe het werkt",

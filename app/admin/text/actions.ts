@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { authorizeAction } from "../../../src/lib/authz";
 import { listOverrides, publishDrafts, revertToDefault, discardDraft, saveDraft, type SiteTextResult } from "../../../src/lib/site-text";
 import { isLocale, namespaces } from "../../../i18n/config";
-import { previewPath } from "./shared";
+import { prefixesFor, previewPath, underAny } from "./shared";
 
 /**
  * Server actions behind /admin/text. Same shape as app/admin/users/actions.ts:
@@ -64,10 +64,11 @@ export async function publishPageAction(form: FormData): Promise<void> {
 
   const locale = str(form, "locale");
   const ns = str(form, "ns");
-  if (!isLocale(locale) || !(namespaces as readonly string[]).includes(ns)) back(form, { error: "invalid_input" });
+  const prefixes = prefixesFor(ns, namespaces);
+  if (!isLocale(locale) || !prefixes) back(form, { error: "invalid_input" });
 
   const keys = (await listOverrides([locale]))
-    .filter((r) => r.draftValue !== null && r.key.startsWith(`${ns}.`))
+    .filter((r) => r.draftValue !== null && underAny(r.key, prefixes))
     .map((r) => r.key);
   const res = await publishDrafts(auth.actor, locale, keys);
   back(form, res.ok ? { result: "publishedAll", count: String(res.count ?? 0) } : fail(res));

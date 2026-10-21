@@ -418,6 +418,7 @@
         "exit": "Salir de la vista previa"
       },
       "ns": {
+        "home": "Página de inicio (todo su contenido)",
         "common": "Compartido (menú, pie de página, botones)",
         "landing": "Página de inicio",
         "howItWorks": "Cómo funciona",
