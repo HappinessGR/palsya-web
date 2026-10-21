@@ -442,7 +442,8 @@
         "emails": "Correos electrónicos",
         "passwordReset": "Restablecimiento de contraseña",
         "invite": "Invitaciones"
-      }
+      },
+      "editButton": "Editar el texto de esta página"
     }
   },
   "clinician": {

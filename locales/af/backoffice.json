@@ -442,7 +442,8 @@
         "emails": "E-posse",
         "passwordReset": "Wagwoordherstel",
         "invite": "Uitnodigings"
-      }
+      },
+      "editButton": "Wysig hierdie bladsy se teks"
     }
   },
   "clinician": {

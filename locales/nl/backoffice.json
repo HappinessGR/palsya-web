@@ -442,7 +442,8 @@
         "emails": "E-mails",
         "passwordReset": "Wachtwoordherstel",
         "invite": "Uitnodigingen"
-      }
+      },
+      "editButton": "Tekst van deze pagina bewerken"
     }
   },
   "clinician": {

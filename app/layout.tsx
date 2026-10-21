@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getMessages } from "next-intl/server";
+import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import { LocaleSync } from "./components/LanguageSwitcher";
 import { PreviewBanner } from "./components/PreviewBanner";
+import { EditTextButton } from "./components/EditTextButton";
+import { getActor } from "../src/lib/authz";
+import { can } from "../src/lib/permissions";
 import { pageMetadata } from "../i18n/metadata";
 import "../styles/tokens.css";
 import "../styles/components.css";
@@ -20,6 +23,10 @@ export function generateMetadata(): Promise<Metadata> {
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const locale = await getLocale();
   const messages = await getMessages();
+  // Admins browsing the site get a shortcut to the website text editor.
+  const actor = await getActor().catch(() => null);
+  const canEditText = Boolean(actor && !actor.blocked && can(actor.role, "content:write"));
+  const tText = await getTranslations("backoffice.admin.text");
 
   return (
     <ClerkProvider>
@@ -37,6 +44,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             <LocaleSync />
             <PreviewBanner />
             {children}
+            {canEditText && <EditTextButton label={tText("editButton")} />}
           </NextIntlClientProvider>
         </body>
       </html>
