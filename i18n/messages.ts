@@ -80,3 +80,13 @@ export function applyOverrides(messages: AbstractIntlMessages, overrides: { key:
   }
   return out as AbstractIntlMessages;
 }
+
+/** Returns a copy of `messages` with `fn` applied to every string, given its dotted key. */
+export function mapStrings(messages: AbstractIntlMessages, fn: (key: string, value: string) => string, prefix = ""): AbstractIntlMessages {
+  const out: AbstractIntlMessages = {};
+  for (const [k, v] of Object.entries(messages)) {
+    const key = prefix ? `${prefix}.${k}` : k;
+    out[k] = typeof v === "string" ? fn(key, v) : v && typeof v === "object" ? mapStrings(v as AbstractIntlMessages, fn, key) : v;
+  }
+  return out;
+}

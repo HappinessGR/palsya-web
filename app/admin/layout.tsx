@@ -4,7 +4,6 @@ import { BackOfficeShell } from "../components/backoffice/BackOfficeShell";
 
 const TABS = [
   { key: "overview", href: "/admin" },
-  { key: "text", href: "/admin/text" },
   { key: "clinicians", href: "/admin/clinicians" },
   { key: "patients", href: "/admin/patients" },
   { key: "content", href: "/admin/content" },

@@ -72,8 +72,8 @@ function PlanCard({ plan }: { plan: Plan }) {
 }
 
 export default async function Home() {
-  // Signed-in users may view the site too (e.g. an admin's "Back to the site"
-  // or previewing draft text); the header's "My dashboard" takes them back.
+  // Signed-in users may view the site too (e.g. an admin's "Back to the site",
+  // or editing its text on the page); the header's "My dashboard" takes them back.
   const t = await getTranslations("landing");
   const ts = await getTranslations("stories.testimonials");
   const tst = await getTranslations("programme.stages");

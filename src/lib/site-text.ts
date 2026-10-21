@@ -5,7 +5,7 @@ import { parse, TYPE, type MessageFormatElement } from "@formatjs/icu-messagefor
 import { db } from "../db";
 import { siteTextOverrides } from "../db/schema/site-text";
 import { defaultLocale, isLocale, namespaces, type Locale } from "../../i18n/config";
-import { loadMessages, messageAt } from "../../i18n/messages";
+import { flattenMessages, loadMessages, messageAt } from "../../i18n/messages";
 import { logAction } from "./audit";
 import { can } from "./permissions";
 import type { Actor } from "./authz";
@@ -18,6 +18,20 @@ import type { Actor } from "./authz";
  */
 
 export const SITE_TEXT_TAG = "site-text";
+/** Messages of the on-page editor itself, never marked as editable. */
+export const EDITOR_UI_PREFIX = "backoffice.editMode.";
+
+let keyList: Promise<string[]> | null = null;
+
+/** Every editable message key, in a fixed order: a key's index is its id in the edit-mode markers. */
+export function editableKeys(): Promise<string[]> {
+  keyList ??= loadMessages(defaultLocale).then((m) => flattenMessages(m).map(([key]) => key));
+  return keyList;
+}
+
+export async function editableKeyIds(): Promise<Map<string, number>> {
+  return new Map((await editableKeys()).map((key, i) => [key, i]));
+}
 export const SITE_TEXT_MAX_LENGTH = 5000;
 
 export type Override = { key: string; value: string };
@@ -215,4 +229,49 @@ export async function revertToDefault(actor: Actor, locale: unknown, key: unknow
     if (row.publishedValue !== null) refresh();
   }
   return { ok: true };
+}
+
+export interface EditableText {
+  locale: Locale;
+  key: string;
+  /** The bundled text for this locale (English when the locale lacks it). */
+  original: string;
+  /** English as currently published, shown as a reference when editing another language. */
+  english: string;
+  published: string | null;
+  publishedAt: Date | null;
+  draft: string | null;
+  draftUpdatedAt: Date | null;
+  /** English was published after this language's text was last set. */
+  englishChanged: boolean;
+}
+
+/** Everything the on-page editor shows for one message. Admin only. */
+export async function getEditableText(actor: Actor, locale: unknown, key: unknown): Promise<EditableText | null> {
+  if (!allowed(actor) || !isLocale(locale) || typeof key !== "string") return null;
+  const original = await defaultText(locale, key);
+  if (original === undefined) return null;
+  const rows = await db
+    .select()
+    .from(siteTextOverrides)
+    .where(and(eq(siteTextOverrides.key, key), inArray(siteTextOverrides.locale, [locale, defaultLocale])));
+  const mine = rows.find((r) => r.locale === locale);
+  const en = rows.find((r) => r.locale === defaultLocale);
+  const englishDefault = (await defaultText(defaultLocale, key))!;
+  return {
+    locale,
+    key,
+    original,
+    english: en?.publishedValue ?? englishDefault,
+    published: mine?.publishedValue ?? null,
+    publishedAt: mine?.publishedAt ?? null,
+    draft: mine?.draftValue ?? null,
+    draftUpdatedAt: mine?.draftUpdatedAt ?? null,
+    englishChanged: locale !== defaultLocale && Boolean(en?.publishedAt && (!mine?.publishedAt || en.publishedAt > mine.publishedAt)),
+  };
+}
+
+/** Drafts waiting in one locale (for the edit-mode bar). */
+export async function countDrafts(locale: Locale): Promise<number> {
+  return (await getDraftOverrides(locale)).length;
 }

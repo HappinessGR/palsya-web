@@ -1,0 +1,34 @@
+/* On-page text editing (app/components/edit-mode). Admins only. */
+.edit-fab {
+  position: fixed; right: 20px; bottom: 20px; z-index: 120;
+  box-shadow: 0 6px 20px rgba(20, 38, 35, .18);
+}
+
+body.edit-mode { padding-top: 52px; }
+.edit-bar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 260;
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; justify-content: center;
+  padding: 10px 16px; background: var(--warn-tint); color: var(--warn-ink);
+  border-bottom: 1px solid var(--line); font-size: var(--t-sm);
+}
+.edit-bar-hint { color: var(--ink-2); }
+@media (max-width: 720px) { .edit-bar-hint { display: none; } }
+
+body.edit-mode [data-edit-ids] {
+  outline: 1px dashed color-mix(in srgb, var(--brand) 45%, transparent);
+  outline-offset: 2px; cursor: text;
+}
+body.edit-mode [data-edit-ids]:hover {
+  outline: 2px solid var(--brand);
+  background: color-mix(in srgb, var(--brand) 8%, transparent);
+}
+
+.edit-panel {
+  position: fixed; top: 64px; right: 16px; z-index: 270;
+  width: min(420px, calc(100vw - 32px)); max-height: calc(100vh - 84px); overflow-y: auto;
+  box-shadow: 0 16px 48px rgba(20, 38, 35, .22);
+}
+.edit-toast {
+  position: fixed; top: 64px; left: 50%; transform: translateX(-50%); z-index: 270;
+  max-width: calc(100vw - 32px);
+}

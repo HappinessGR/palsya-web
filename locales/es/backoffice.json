@@ -75,7 +75,6 @@
       "analytics": "Analítica",
       "finance": "Finanzas",
       "compliance": "Cumplimiento",
-      "text": "Textos del sitio",
       "users": "Usuarios"
     },
     "overview": {
@@ -357,94 +356,6 @@
         "action": "Actuar"
       },
       "safetyNote": "<b>{n, plural, one {# aviso de seguridad generado} other {# avisos de seguridad generados}} en la evaluación este mes.</b> Cada uno es un alta que detuvimos para comprobar en lugar de dejarla pasar. La cifra se comunica al consejo cada mes precisamente por ese motivo."
-    },
-    "text": {
-      "meta": {
-        "title": "Textos del sitio — Panel interno de Palsya",
-        "description": "Edite, previsualice y publique los textos que se muestran en el sitio web."
-      },
-      "heading": "Textos del sitio",
-      "subtitle": "Cambie la redacción del sitio. Los cambios se guardan como borradores, que solo los administradores pueden previsualizar, hasta que los publique.",
-      "filters": {
-        "page": "Página",
-        "language": "Idioma",
-        "search": "Buscar",
-        "searchPlaceholder": "Buscar texto o una clave",
-        "changedOnly": "Solo editados",
-        "apply": "Mostrar",
-        "drafts": "{n, plural, one {# borrador} other {# borradores}}"
-      },
-      "count": "{n, plural, one {# texto} other {# textos}} · {drafts, plural, =0 {sin borradores} one {# borrador} other {# borradores}} en esta página",
-      "preview": "Previsualizar borradores",
-      "publishAll": "Publicar {n, plural, =0 {borradores} one {# borrador} other {los # borradores}}",
-      "howTo": "<b>Guardar borrador</b> mantiene su cambio en privado; <b>Previsualizar borradores</b> muestra el sitio real con sus borradores, solo a usted; <b>Publicar</b> lo pone en línea para todos al instante. Deje todo lo que esté entre llaves, como <code>'{name}'</code>, y las etiquetas como <code>'<b>…</b>'</code> exactamente como están: el sitio los completa.",
-      "empty": "Ningún texto coincide con estos filtros.",
-      "english": "Inglés:",
-      "original": "Original:",
-      "badge": {
-        "draft": "Borrador · {when}",
-        "published": "Publicado · {when}",
-        "englishChanged": "Inglés modificado desde"
-      },
-      "actions": {
-        "save": "Guardar borrador",
-        "publish": "Publicar",
-        "discard": "Descartar borrador",
-        "revert": "Restablecer original"
-      },
-      "result": {
-        "saved": "Borrador guardado. Solo pueden verlo los administradores que previsualizan borradores.",
-        "published": "Publicado. Todos ven ya el nuevo texto.",
-        "discarded": "Borrador descartado.",
-        "reverted": "Se ha restablecido el texto original.",
-        "publishedAll": "{count, plural, =0 {No había borradores que publicar.} one {# borrador publicado.} other {# borradores publicados.}}"
-      },
-      "error": {
-        "forbidden": "No tiene permiso para editar los textos del sitio.",
-        "invalid_input": "Faltaba algo en esa solicitud. Inténtelo de nuevo.",
-        "unknown_key": "Ese texto ya no existe en el sitio.",
-        "too_long": "Ese texto es demasiado largo (5000 caracteres como máximo).",
-        "empty": "El texto no puede quedar vacío. Use «Restablecer original» para deshacer una edición.",
-        "bad_syntax": "El texto tiene un problema de formato, normalmente una llave o etiqueta sin cerrar.",
-        "placeholders_changed": "Los marcadores entre llaves deben ser los mismos que en el original.",
-        "tags_changed": "Las etiquetas de formato (las partes entre corchetes angulares) deben ser las mismas que en el original."
-      },
-      "errorDetail": "Detalles: {detail}",
-      "auditLink": "Cada guardado, publicación y restablecimiento queda registrado en el registro de auditoría.",
-      "banner": {
-        "title": "Previsualizando borradores",
-        "body": "Está viendo texto no publicado. Los visitantes ven la versión publicada.",
-        "back": "Volver al editor",
-        "exit": "Salir de la vista previa"
-      },
-      "ns": {
-        "home": "Página de inicio (todo su contenido)",
-        "common": "Compartido (menú, pie de página, botones)",
-        "landing": "Página de inicio",
-        "howItWorks": "Cómo funciona",
-        "pricing": "Precios",
-        "about": "Quiénes somos y equipo",
-        "stories": "Historias",
-        "guides": "Guías y preguntas frecuentes",
-        "auth": "Inicio de sesión y registro",
-        "onboarding": "Incorporación",
-        "assessment": "Evaluación",
-        "dashboard": "Panel del paciente",
-        "programme": "Programa y fases",
-        "library": "Biblioteca",
-        "appProgramme": "App del paciente: programa",
-        "appScan": "App del paciente: escaneo",
-        "appProgress": "App del paciente: progreso",
-        "appSupport": "App del paciente: ayuda y ajustes",
-        "admin": "Páginas de administración",
-        "clinician": "Páginas de clínicos",
-        "backoffice": "Panel interno",
-        "errors": "Páginas de error",
-        "emails": "Correos electrónicos",
-        "passwordReset": "Restablecimiento de contraseña",
-        "invite": "Invitaciones"
-      },
-      "editButton": "Editar el texto de esta página"
     }
   },
   "clinician": {
@@ -561,5 +472,52 @@
       },
       "caseloadNote": "Las cifras solo incluyen los pacientes que tiene asignados."
     }
+  },
+  "editMode": {
+    "button": "Editar esta página",
+    "bar": {
+      "title": "Modo de edición",
+      "hint": "Haga clic en cualquier texto resaltado con un contorno para cambiarlo ({language}). Use Alt+clic para usar un enlace o botón.",
+      "drafts": "{n, plural, =0 {No hay cambios sin publicar} one {# cambio sin publicar} other {# cambios sin publicar}}",
+      "publishAll": "Publicar todo",
+      "exit": "Salir de la edición"
+    },
+    "panel": {
+      "title": "Editar texto",
+      "close": "Cerrar",
+      "choose": "Este punto muestra más de un texto. Elija el que desea editar:",
+      "loading": "Cargando…",
+      "english": "Inglés:",
+      "original": "Original:",
+      "hint": "Deje todo lo que esté entre llaves, como '{name}', y las etiquetas entre corchetes angulares exactamente como están: el sitio los completa.",
+      "badge": {
+        "draft": "Borrador · {when}",
+        "published": "Publicado · {when}",
+        "englishChanged": "Inglés modificado desde"
+      },
+      "save": "Guardar borrador",
+      "publish": "Publicar",
+      "discard": "Descartar borrador",
+      "revert": "Restablecer original"
+    },
+    "result": {
+      "saved": "Borrador guardado. Solo pueden verlo los administradores en modo de edición.",
+      "published": "Publicado. Todos ven ya el nuevo texto.",
+      "discarded": "Borrador descartado.",
+      "reverted": "Se ha restablecido el texto original.",
+      "publishedAll": "{count, plural, =0 {No había borradores que publicar.} one {# borrador publicado.} other {# borradores publicados.}}"
+    },
+    "error": {
+      "forbidden": "No tiene permiso para editar los textos del sitio.",
+      "invalid_input": "Faltaba algo en esa solicitud. Inténtelo de nuevo.",
+      "unknown_key": "Ese texto ya no existe en el sitio.",
+      "too_long": "Ese texto es demasiado largo (5000 caracteres como máximo).",
+      "empty": "El texto no puede quedar vacío. Use «Restablecer original» para deshacer una edición.",
+      "bad_syntax": "El texto tiene un problema de formato, normalmente una llave o etiqueta sin cerrar.",
+      "placeholders_changed": "Los marcadores entre llaves deben ser los mismos que en el original.",
+      "tags_changed": "Las etiquetas de formato (las partes entre corchetes angulares) deben ser las mismas que en el original.",
+      "not_signed_in": "Su sesión ha finalizado. Vuelva a iniciar sesión."
+    },
+    "errorDetail": "Detalles: {detail}"
   }
 }

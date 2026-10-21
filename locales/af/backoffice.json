@@ -75,7 +75,6 @@
       "analytics": "Ontleding",
       "finance": "Finansies",
       "compliance": "Nakoming",
-      "text": "Webwerfteks",
       "users": "Gebruikers"
     },
     "overview": {
@@ -357,94 +356,6 @@
         "action": "Aksie"
       },
       "safetyNote": "<b>{n, plural, one {# veiligheidsvlag} other {# veiligheidsvlae}} hierdie maand by assessering gelig.</b> Elkeen is 'n registrasie wat ons gestop het om na te gaan eerder as om dit deur te laat. Die getal word presies daarom elke maand op raadsvlak gerapporteer."
-    },
-    "text": {
-      "meta": {
-        "title": "Webwerfteks — Palsya se agterkantoor",
-        "description": "Redigeer, voorskou en publiseer die teks wat op die webwerf gewys word."
-      },
-      "heading": "Webwerfteks",
-      "subtitle": "Verander die bewoording op die webwerf. Wysigings word as konsepte gestoor, wat slegs admins kan voorskou, totdat u dit publiseer.",
-      "filters": {
-        "page": "Bladsy",
-        "language": "Taal",
-        "search": "Soek",
-        "searchPlaceholder": "Soek teks of 'n sleutel",
-        "changedOnly": "Slegs geredigeer",
-        "apply": "Wys",
-        "drafts": "{n, plural, one {# konsep} other {# konsepte}}"
-      },
-      "count": "{n, plural, one {# teksstuk} other {# teksstukke}} · {drafts, plural, =0 {geen konsepte} one {# konsep} other {# konsepte}} op hierdie bladsy",
-      "preview": "Voorskou konsepte",
-      "publishAll": "Publiseer {n, plural, =0 {konsepte} one {# konsep} other {al # konsepte}}",
-      "howTo": "<b>Stoor konsep</b> hou u wysiging privaat; <b>Voorskou konsepte</b> wys die regte webwerf met u konsepte, net aan u; <b>Publiseer</b> maak dit dadelik vir almal sigbaar. Hou enigiets tussen krulhakies soos <code>'{name}'</code> en etikette soos <code>'<b>…</b>'</code> presies soos dit is — die webwerf vul dit in.",
-      "empty": "Geen teks pas by hierdie filters nie.",
-      "english": "Engels:",
-      "original": "Oorspronklik:",
-      "badge": {
-        "draft": "Konsep · {when}",
-        "published": "Gepubliseer · {when}",
-        "englishChanged": "Engels verander sedert"
-      },
-      "actions": {
-        "save": "Stoor konsep",
-        "publish": "Publiseer",
-        "discard": "Gooi konsep weg",
-        "revert": "Herstel oorspronklike"
-      },
-      "result": {
-        "saved": "Konsep gestoor. Slegs admins wat konsepte voorskou, kan dit sien.",
-        "published": "Gepubliseer. Almal sien nou die nuwe teks.",
-        "discarded": "Konsep weggegooi.",
-        "reverted": "Die oorspronklike teks is herstel.",
-        "publishedAll": "{count, plural, =0 {Daar was geen konsepte om te publiseer nie.} one {# konsep gepubliseer.} other {# konsepte gepubliseer.}}"
-      },
-      "error": {
-        "forbidden": "U het nie toestemming om die webwerfteks te redigeer nie.",
-        "invalid_input": "Iets het in daardie versoek ontbreek. Probeer asseblief weer.",
-        "unknown_key": "Daardie teks bestaan nie meer op die webwerf nie.",
-        "too_long": "Daardie teks is te lank (hoogstens 5 000 karakters).",
-        "empty": "Die teks kan nie leeg wees nie. Gebruik “Herstel oorspronklike” om 'n wysiging ongedaan te maak.",
-        "bad_syntax": "Die teks het 'n formateringsprobleem, gewoonlik 'n krulhakie of etiket sonder 'n eweknie.",
-        "placeholders_changed": "Die plekhouers tussen krulhakies moet dieselfde as die oorspronklike bly.",
-        "tags_changed": "Die formateringsetikette (die dele tussen hoekhakies) moet dieselfde as die oorspronklike bly."
-      },
-      "errorDetail": "Besonderhede: {detail}",
-      "auditLink": "Elke stoor, publikasie en terugstelling word in die ouditlogboek aangeteken.",
-      "banner": {
-        "title": "Voorskou van konsepte",
-        "body": "U sien ongepubliseerde teks. Besoekers sien die gepubliseerde weergawe.",
-        "back": "Terug na redigeerder",
-        "exit": "Verlaat voorskou"
-      },
-      "ns": {
-        "home": "Tuisblad (alles daarop)",
-        "common": "Gedeel (kieslys, voetskrif, knoppies)",
-        "landing": "Tuisblad",
-        "howItWorks": "Hoe dit werk",
-        "pricing": "Pryse",
-        "about": "Oor ons en span",
-        "stories": "Verhale",
-        "guides": "Gidse en algemene vrae",
-        "auth": "Aanmeld en registreer",
-        "onboarding": "Aanboording",
-        "assessment": "Assessering",
-        "dashboard": "Pasiëntpaneelbord",
-        "programme": "Program en fases",
-        "library": "Biblioteek",
-        "appProgramme": "Pasiënt-app: program",
-        "appScan": "Pasiënt-app: skandering",
-        "appProgress": "Pasiënt-app: vordering",
-        "appSupport": "Pasiënt-app: ondersteuning en instellings",
-        "admin": "Adminbladsye",
-        "clinician": "Klinikusbladsye",
-        "backoffice": "Agterkantoor",
-        "errors": "Foutbladsye",
-        "emails": "E-posse",
-        "passwordReset": "Wagwoordherstel",
-        "invite": "Uitnodigings"
-      },
-      "editButton": "Wysig hierdie bladsy se teks"
     }
   },
   "clinician": {
@@ -561,5 +472,52 @@
       },
       "caseloadNote": "Syfers dek slegs die pasiënte wat aan u toegewys is."
     }
+  },
+  "editMode": {
+    "button": "Wysig hierdie bladsy",
+    "bar": {
+      "title": "Wysigmodus",
+      "hint": "Klik op enige omlynde teks om dit te verander ({language}). Alt-klik om 'n skakel of knoppie te gebruik.",
+      "drafts": "{n, plural, =0 {Geen ongepubliseerde wysigings nie} one {# ongepubliseerde wysiging} other {# ongepubliseerde wysigings}}",
+      "publishAll": "Publiseer alles",
+      "exit": "Verlaat wysigmodus"
+    },
+    "panel": {
+      "title": "Wysig teks",
+      "close": "Maak toe",
+      "choose": "Hierdie plek wys meer as een teks. Kies die een om te wysig:",
+      "loading": "Laai tans…",
+      "english": "Engels:",
+      "original": "Oorspronklik:",
+      "hint": "Hou enigiets tussen krulhakies soos '{name}' en etikette tussen hoekhakies presies soos dit is — die webwerf vul dit in.",
+      "badge": {
+        "draft": "Konsep · {when}",
+        "published": "Gepubliseer · {when}",
+        "englishChanged": "Engels verander sedert"
+      },
+      "save": "Stoor konsep",
+      "publish": "Publiseer",
+      "discard": "Gooi konsep weg",
+      "revert": "Herstel oorspronklike"
+    },
+    "result": {
+      "saved": "Konsep gestoor. Slegs admins in wysigmodus kan dit sien.",
+      "published": "Gepubliseer. Almal sien nou die nuwe teks.",
+      "discarded": "Konsep weggegooi.",
+      "reverted": "Die oorspronklike teks is herstel.",
+      "publishedAll": "{count, plural, =0 {Daar was geen konsepte om te publiseer nie.} one {# konsep gepubliseer.} other {# konsepte gepubliseer.}}"
+    },
+    "error": {
+      "forbidden": "U het nie toestemming om die webwerfteks te redigeer nie.",
+      "invalid_input": "Iets het in daardie versoek ontbreek. Probeer asseblief weer.",
+      "unknown_key": "Daardie teks bestaan nie meer op die webwerf nie.",
+      "too_long": "Daardie teks is te lank (hoogstens 5 000 karakters).",
+      "empty": "Die teks kan nie leeg wees nie. Gebruik “Herstel oorspronklike” om 'n wysiging ongedaan te maak.",
+      "bad_syntax": "Die teks het 'n formateringsprobleem, gewoonlik 'n krulhakie of etiket sonder 'n eweknie.",
+      "placeholders_changed": "Die plekhouers tussen krulhakies moet dieselfde as die oorspronklike bly.",
+      "tags_changed": "Die formateringsetikette (die dele tussen hoekhakies) moet dieselfde as die oorspronklike bly.",
+      "not_signed_in": "U sessie het verval. Meld asseblief weer aan."
+    },
+    "errorDetail": "Besonderhede: {detail}"
   }
 }

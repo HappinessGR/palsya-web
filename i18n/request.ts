@@ -1,8 +1,9 @@
 import { cookies, draftMode, headers } from "next/headers";
 import { getRequestConfig } from "next-intl/server";
 import { defaultLocale, isLocale, LOCALE_COOKIE, matchAcceptLanguage, type Locale } from "./config";
-import { applyOverrides, loadMessages, withFallback } from "./messages";
-import { getDraftOverrides, getPublishedOverrides } from "../src/lib/site-text";
+import { applyOverrides, loadMessages, mapStrings, withFallback } from "./messages";
+import { EDITOR_UI_PREFIX, editableKeyIds, getDraftOverrides, getPublishedOverrides } from "../src/lib/site-text";
+import { encodeMarker } from "../src/lib/site-text-markers";
 import { getActor } from "../src/lib/authz";
 import { can } from "../src/lib/permissions";
 
@@ -14,8 +15,8 @@ export async function resolveLocale(): Promise<Locale> {
   return matchAcceptLanguage((await headers()).get("accept-language"));
 }
 
-/** True when an admin turned on "Preview drafts" (Next Draft Mode) from /admin/text. */
-async function previewingDrafts(): Promise<boolean> {
+/** True when an admin turned on on-page edit mode (Next Draft Mode, see app/components/edit-mode). */
+export async function isEditing(): Promise<boolean> {
   if (!(await draftMode()).isEnabled) return false;
   const actor = await getActor();
   return Boolean(actor && !actor.blocked && can(actor.role, "content:write"));
@@ -23,12 +24,12 @@ async function previewingDrafts(): Promise<boolean> {
 
 export default getRequestConfig(async () => {
   const locale = await resolveLocale();
-  const preview = await previewingDrafts();
+  const editing = await isEditing();
 
   // Admin edits (src/lib/site-text.ts) are layered over the JSON files: English
   // first, so keys a translation lacks fall back to the edited English, then
-  // the locale's own edits. Drafts only ever reach an admin in preview.
-  const overrides = async (l: Locale) => [...(await getPublishedOverrides(l)), ...(preview ? await getDraftOverrides(l) : [])];
+  // the locale's own edits. Drafts only ever reach an admin in edit mode.
+  const overrides = async (l: Locale) => [...(await getPublishedOverrides(l)), ...(editing ? await getDraftOverrides(l) : [])];
   const english = applyOverrides(await loadMessages(defaultLocale), await overrides(defaultLocale));
   let messages = english;
   if (locale !== defaultLocale) {
@@ -38,6 +39,17 @@ export default getRequestConfig(async () => {
       warned.add(locale);
       console.warn(`[i18n] ${missing.length} key(s) missing in "${locale}", using English: ${missing.slice(0, 20).join(", ")}`);
     }
+  }
+
+  if (editing) {
+    // Tag each message with an invisible marker so the page can tell which
+    // text came from which key (src/lib/site-text-markers.ts). The editor's
+    // own labels stay unmarked.
+    const ids = await editableKeyIds();
+    messages = mapStrings(messages, (key, value) => {
+      const id = ids.get(key);
+      return id === undefined || key.startsWith(EDITOR_UI_PREFIX) ? value : value + encodeMarker(id);
+    });
   }
 
   return {
