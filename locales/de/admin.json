@@ -130,7 +130,8 @@
     "targets": {
       "user": "Nutzer",
       "patient": "Patient/in",
-      "invitation": "Einladung"
+      "invitation": "Einladung",
+      "site_text": "Website-Text"
     },
     "actions": {
       "role_changed": "Rolle geändert",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Notiz einer Fachkraft hinzugefügt",
       "password_reset_requested": "Passwort-Zurücksetzung angefordert",
       "password_reset_completed": "Passwort zurückgesetzt",
-      "user_demoted_self_registered": "Selbst registrierte Fachkraft herabgestuft"
+      "user_demoted_self_registered": "Selbst registrierte Fachkraft herabgestuft",
+      "site_text_draft_saved": "Entwurf eines Website-Texts gespeichert",
+      "site_text_published": "Website-Text veröffentlicht",
+      "site_text_reverted": "Website-Text zurückgesetzt"
     }
   },
   "errors": {

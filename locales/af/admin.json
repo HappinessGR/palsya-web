@@ -130,7 +130,8 @@
     "targets": {
       "user": "Gebruiker",
       "patient": "Pasiënt",
-      "invitation": "Uitnodiging"
+      "invitation": "Uitnodiging",
+      "site_text": "Webwerfteks"
     },
     "actions": {
       "role_changed": "Rol verander",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Klinikusnota bygevoeg",
       "password_reset_requested": "Wagwoordherstel aangevra",
       "password_reset_completed": "Wagwoordherstel voltooi",
-      "user_demoted_self_registered": "Selfgeregistreerde klinikus afgegradeer"
+      "user_demoted_self_registered": "Selfgeregistreerde klinikus afgegradeer",
+      "site_text_draft_saved": "Konsep van webwerfteks gestoor",
+      "site_text_published": "Webwerfteks gepubliseer",
+      "site_text_reverted": "Webwerfteks teruggestel"
     }
   },
   "errors": {

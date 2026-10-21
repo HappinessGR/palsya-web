@@ -130,7 +130,8 @@
     "targets": {
       "user": "Utilisateur",
       "patient": "Patient",
-      "invitation": "Invitation"
+      "invitation": "Invitation",
+      "site_text": "Texte du site"
     },
     "actions": {
       "role_changed": "Rôle modifié",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Note du clinicien ajoutée",
       "password_reset_requested": "Réinitialisation du mot de passe demandée",
       "password_reset_completed": "Réinitialisation du mot de passe effectuée",
-      "user_demoted_self_registered": "Clinicien auto-inscrit rétrogradé"
+      "user_demoted_self_registered": "Clinicien auto-inscrit rétrogradé",
+      "site_text_draft_saved": "Brouillon de texte du site enregistré",
+      "site_text_published": "Texte du site publié",
+      "site_text_reverted": "Texte du site rétabli"
     }
   },
   "errors": {

@@ -1,44 +1,10 @@
-import { cookies, headers } from "next/headers";
+import { cookies, draftMode, headers } from "next/headers";
 import { getRequestConfig } from "next-intl/server";
-import type { AbstractIntlMessages } from "next-intl";
-import { defaultLocale, isLocale, LOCALE_COOKIE, matchAcceptLanguage, namespaces, type Locale } from "./config";
-
-async function loadMessages(locale: Locale): Promise<AbstractIntlMessages> {
-  const entries = await Promise.all(
-    namespaces.map(async (ns) => {
-      // A namespace file not yet translated for this locale falls back to English key by key.
-      const messages = await import(`../locales/${locale}/${ns}.json`).then((m) => m.default).catch(() => ({}));
-      return [ns, messages] as const;
-    }),
-  );
-  return Object.fromEntries(entries);
-}
-
-/**
- * Deep-merges `override` onto `base`, so a key missing from a translation
- * falls back to English. Missing keys are collected so development can warn.
- */
-function withFallback(
-  base: AbstractIntlMessages,
-  override: AbstractIntlMessages,
-  missing: string[],
-  path = "",
-): AbstractIntlMessages {
-  const out: AbstractIntlMessages = {};
-  for (const [key, baseValue] of Object.entries(base)) {
-    const value = override?.[key];
-    const keyPath = path ? `${path}.${key}` : key;
-    if (value === undefined) {
-      missing.push(keyPath);
-      out[key] = baseValue;
-    } else if (baseValue && typeof baseValue === "object" && value && typeof value === "object") {
-      out[key] = withFallback(baseValue as AbstractIntlMessages, value as AbstractIntlMessages, missing, keyPath);
-    } else {
-      out[key] = value;
-    }
-  }
-  return out;
-}
+import { defaultLocale, isLocale, LOCALE_COOKIE, matchAcceptLanguage, type Locale } from "./config";
+import { applyOverrides, loadMessages, withFallback } from "./messages";
+import { getDraftOverrides, getPublishedOverrides } from "../src/lib/site-text";
+import { getActor } from "../src/lib/authz";
+import { can } from "../src/lib/permissions";
 
 const warned = new Set<Locale>();
 
@@ -48,13 +14,26 @@ export async function resolveLocale(): Promise<Locale> {
   return matchAcceptLanguage((await headers()).get("accept-language"));
 }
 
+/** True when an admin turned on "Preview drafts" (Next Draft Mode) from /admin/text. */
+async function previewingDrafts(): Promise<boolean> {
+  if (!(await draftMode()).isEnabled) return false;
+  const actor = await getActor();
+  return Boolean(actor && !actor.blocked && can(actor.role, "content:write"));
+}
+
 export default getRequestConfig(async () => {
   const locale = await resolveLocale();
-  const english = await loadMessages(defaultLocale);
+  const preview = await previewingDrafts();
+
+  // Admin edits (src/lib/site-text.ts) are layered over the JSON files: English
+  // first, so keys a translation lacks fall back to the edited English, then
+  // the locale's own edits. Drafts only ever reach an admin in preview.
+  const overrides = async (l: Locale) => [...(await getPublishedOverrides(l)), ...(preview ? await getDraftOverrides(l) : [])];
+  const english = applyOverrides(await loadMessages(defaultLocale), await overrides(defaultLocale));
   let messages = english;
   if (locale !== defaultLocale) {
     const missing: string[] = [];
-    messages = withFallback(english, await loadMessages(locale), missing);
+    messages = applyOverrides(withFallback(english, await loadMessages(locale), missing), await overrides(locale));
     if (missing.length && process.env.NODE_ENV !== "production" && !warned.has(locale)) {
       warned.add(locale);
       console.warn(`[i18n] ${missing.length} key(s) missing in "${locale}", using English: ${missing.slice(0, 20).join(", ")}`);

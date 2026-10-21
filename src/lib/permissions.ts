@@ -29,7 +29,8 @@ export type Permission =
   | "users:status"
   | "assignments:write"
   | "audit:read"
-  | "settings:write";
+  | "settings:write"
+  | "content:write"; // edit and publish the website text (src/lib/site-text.ts)
 
 export const ROLE_PERMISSIONS: Record<AppRole, readonly Permission[]> = {
   patient: ["self:programme", "self:billing"],
@@ -43,6 +44,7 @@ export const ROLE_PERMISSIONS: Record<AppRole, readonly Permission[]> = {
     "assignments:write",
     "audit:read",
     "settings:write",
+    "content:write",
   ],
 };
 

@@ -3,6 +3,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { LocaleSync } from "./components/LanguageSwitcher";
+import { PreviewBanner } from "./components/PreviewBanner";
 import { pageMetadata } from "../i18n/metadata";
 import "../styles/tokens.css";
 import "../styles/components.css";
@@ -34,6 +35,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <body>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <LocaleSync />
+            <PreviewBanner />
             {children}
           </NextIntlClientProvider>
         </body>

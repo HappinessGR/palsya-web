@@ -89,3 +89,4 @@ export * from './content-library';
 export * from './daily-sessions';
 export * from './password-reset';
 export * from './clinical-notes';
+export * from './site-text';

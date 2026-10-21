@@ -130,7 +130,8 @@
     "targets": {
       "user": "Gebruiker",
       "patient": "Patiënt",
-      "invitation": "Uitnodiging"
+      "invitation": "Uitnodiging",
+      "site_text": "Websitetekst"
     },
     "actions": {
       "role_changed": "Rol gewijzigd",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Notitie van behandelaar toegevoegd",
       "password_reset_requested": "Wachtwoordherstel aangevraagd",
       "password_reset_completed": "Wachtwoordherstel voltooid",
-      "user_demoted_self_registered": "Zelf geregistreerde behandelaar teruggezet"
+      "user_demoted_self_registered": "Zelf geregistreerde behandelaar teruggezet",
+      "site_text_draft_saved": "Concept van websitetekst opgeslagen",
+      "site_text_published": "Websitetekst gepubliceerd",
+      "site_text_reverted": "Websitetekst teruggezet"
     }
   },
   "errors": {

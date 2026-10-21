@@ -10,6 +10,7 @@ const TABS = [
   { key: "analytics", href: "/admin/analytics" },
   { key: "finance", href: "/admin/finance" },
   { key: "compliance", href: "/admin/compliance" },
+  { key: "text", href: "/admin/text" },
   { key: "users", href: "/admin/users" },
 ] as const;
 

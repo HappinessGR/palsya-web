@@ -1,6 +1,8 @@
 import "server-only";
 import { createTranslator } from "next-intl";
 import { defaultLocale, isLocale, type Locale } from "../../i18n/config";
+import { applyOverrides } from "../../i18n/messages";
+import { getPublishedOverrides, type Override } from "../../src/lib/site-text";
 import type { OutgoingEmail } from "./mailer";
 
 /**
@@ -16,7 +18,13 @@ async function translatorFor(locale: string) {
     import(`../../locales/${l}/emails.json`).then((m) => m.default).catch(() => ({})),
     import(`../../locales/en/emails.json`).then((m) => m.default),
   ]);
-  return createTranslator({ locale: l, messages: { emails: { ...fallback, ...emails } }, namespace: "emails" });
+  // Admin edits to emails.* (src/lib/site-text.ts) apply here too: English
+  // edits to the fallback, then the recipient's locale's own edits.
+  const onlyEmails = (rows: Override[]) => rows.filter((r) => r.key.startsWith("emails."));
+  const english = applyOverrides({ emails: fallback }, onlyEmails(await getPublishedOverrides(defaultLocale)));
+  const merged = { emails: { ...(english.emails as object), ...emails } };
+  const messages = l === defaultLocale ? english : applyOverrides(merged, onlyEmails(await getPublishedOverrides(l)));
+  return createTranslator({ locale: l, messages: messages as { emails: typeof fallback }, namespace: "emails" });
 }
 
 const esc = (s: string) =>

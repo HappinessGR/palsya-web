@@ -3,7 +3,7 @@ import { eq } from "drizzle-orm";
 import { db } from "../db";
 import { actionTypes, activityLog } from "../db/schema/activity";
 
-/** Codes seeded into action_types by drizzle/20260929113718_roles_audit_password_reset. */
+/** Codes seeded into action_types by drizzle/20260929113718_roles_audit_password_reset and 20261020135059_site_text_overrides. */
 export type AuditAction =
   | "role_changed"
   | "user_invited"
@@ -15,7 +15,10 @@ export type AuditAction =
   | "clinician_note_added"
   | "password_reset_requested"
   | "password_reset_completed"
-  | "user_demoted_self_registered";
+  | "user_demoted_self_registered"
+  | "site_text_draft_saved"
+  | "site_text_published"
+  | "site_text_reverted";
 
 const actionTypeIds = new Map<string, number>();
 

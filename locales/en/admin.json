@@ -130,7 +130,8 @@
     "targets": {
       "user": "User",
       "patient": "Patient",
-      "invitation": "Invitation"
+      "invitation": "Invitation",
+      "site_text": "Website text"
     },
     "actions": {
       "role_changed": "Role changed",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Clinician note added",
       "password_reset_requested": "Password reset requested",
       "password_reset_completed": "Password reset completed",
-      "user_demoted_self_registered": "Self-registered clinician demoted"
+      "user_demoted_self_registered": "Self-registered clinician demoted",
+      "site_text_draft_saved": "Website text draft saved",
+      "site_text_published": "Website text published",
+      "site_text_reverted": "Website text reverted"
     }
   },
   "errors": {

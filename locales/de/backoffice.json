@@ -75,6 +75,7 @@
       "analytics": "Analysen",
       "finance": "Finanzen",
       "compliance": "Compliance",
+      "text": "Website-Texte",
       "users": "Nutzer"
     },
     "overview": {
@@ -356,6 +357,92 @@
         "action": "Handeln"
       },
       "safetyNote": "<b>{n, plural, one {# Sicherheitshinweis} other {# Sicherheitshinweise}} bei der Einstufung diesen Monat.</b> Jeder davon ist eine Anmeldung, die wir zur Prüfung angehalten haben, statt sie durchzulassen. Die Zahl wird genau aus diesem Grund jeden Monat auf Vorstandsebene berichtet."
+    },
+    "text": {
+      "meta": {
+        "title": "Website-Texte — Palsya-Backoffice",
+        "description": "Texte der Website bearbeiten, in der Vorschau ansehen und veröffentlichen."
+      },
+      "heading": "Website-Texte",
+      "subtitle": "Ändern Sie die Formulierungen auf der Website. Änderungen werden als Entwürfe gespeichert, die nur Admins in der Vorschau sehen können, bis Sie sie veröffentlichen.",
+      "filters": {
+        "page": "Seite",
+        "language": "Sprache",
+        "search": "Suche",
+        "searchPlaceholder": "Text oder Schlüssel suchen",
+        "changedOnly": "Nur bearbeitete",
+        "apply": "Anzeigen",
+        "drafts": "{n, plural, one {# Entwurf} other {# Entwürfe}}"
+      },
+      "count": "{n, plural, one {# Text} other {# Texte}} · {drafts, plural, =0 {keine Entwürfe} one {# Entwurf} other {# Entwürfe}} auf dieser Seite",
+      "preview": "Entwürfe in der Vorschau",
+      "publishAll": "{n, plural, =0 {Entwürfe} one {# Entwurf} other {Alle # Entwürfe}} veröffentlichen",
+      "howTo": "<b>Entwurf speichern</b> hält Ihre Änderung privat; <b>Entwürfe in der Vorschau</b> zeigt die echte Website mit Ihren Entwürfen, nur Ihnen; <b>Veröffentlichen</b> schaltet sie sofort für alle live. Lassen Sie alles in geschweiften Klammern wie <code>'{name}'</code> und Tags wie <code>'<b>…</b>'</code> genau so, wie es ist — die Website füllt diese aus.",
+      "empty": "Keine Texte entsprechen diesen Filtern.",
+      "english": "Englisch:",
+      "original": "Original:",
+      "badge": {
+        "draft": "Entwurf · {when}",
+        "published": "Veröffentlicht · {when}",
+        "englishChanged": "Englisch geändert seit"
+      },
+      "actions": {
+        "save": "Entwurf speichern",
+        "publish": "Veröffentlichen",
+        "discard": "Entwurf verwerfen",
+        "revert": "Original wiederherstellen"
+      },
+      "result": {
+        "saved": "Entwurf gespeichert. Nur Admins in der Entwurfsvorschau können ihn sehen.",
+        "published": "Veröffentlicht. Alle sehen jetzt den neuen Text.",
+        "discarded": "Entwurf verworfen.",
+        "reverted": "Der Originaltext wurde wiederhergestellt.",
+        "publishedAll": "{count, plural, =0 {Es gab keine Entwürfe zum Veröffentlichen.} one {# Entwurf veröffentlicht.} other {# Entwürfe veröffentlicht.}}"
+      },
+      "error": {
+        "forbidden": "Sie haben keine Berechtigung, die Website-Texte zu bearbeiten.",
+        "invalid_input": "In dieser Anfrage fehlte etwas. Bitte versuchen Sie es erneut.",
+        "unknown_key": "Diesen Text gibt es auf der Website nicht mehr.",
+        "too_long": "Dieser Text ist zu lang (höchstens 5.000 Zeichen).",
+        "empty": "Der Text darf nicht leer sein. Verwenden Sie „Original wiederherstellen“, um eine Änderung rückgängig zu machen.",
+        "bad_syntax": "Der Text hat ein Formatierungsproblem, meist eine geschweifte Klammer oder ein Tag ohne Gegenstück.",
+        "placeholders_changed": "Die Platzhalter in geschweiften Klammern müssen dieselben bleiben wie im Original.",
+        "tags_changed": "Die Formatierungs-Tags (die Teile in spitzen Klammern) müssen dieselben bleiben wie im Original."
+      },
+      "errorDetail": "Details: {detail}",
+      "auditLink": "Jedes Speichern, Veröffentlichen und Zurücksetzen wird im Audit-Protokoll erfasst.",
+      "banner": {
+        "title": "Entwurfsvorschau",
+        "body": "Sie sehen unveröffentlichten Text. Besucher sehen die veröffentlichte Version.",
+        "back": "Zurück zum Editor",
+        "exit": "Vorschau beenden"
+      },
+      "ns": {
+        "common": "Allgemein (Menü, Fußzeile, Schaltflächen)",
+        "landing": "Startseite",
+        "howItWorks": "So funktioniert’s",
+        "pricing": "Preise",
+        "about": "Über uns & Team",
+        "stories": "Erfahrungen",
+        "guides": "Ratgeber & FAQ",
+        "auth": "Anmelden & Registrieren",
+        "onboarding": "Onboarding",
+        "assessment": "Einstufung",
+        "dashboard": "Patienten-Dashboard",
+        "programme": "Programm & Phasen",
+        "library": "Bibliothek",
+        "appProgramme": "Patienten-App: Programm",
+        "appScan": "Patienten-App: Scan",
+        "appProgress": "Patienten-App: Fortschritt",
+        "appSupport": "Patienten-App: Hilfe & Einstellungen",
+        "admin": "Admin-Seiten",
+        "clinician": "Seiten für Fachkräfte",
+        "backoffice": "Backoffice",
+        "errors": "Fehlerseiten",
+        "emails": "E-Mails",
+        "passwordReset": "Passwort zurücksetzen",
+        "invite": "Einladungen"
+      }
     }
   },
   "clinician": {

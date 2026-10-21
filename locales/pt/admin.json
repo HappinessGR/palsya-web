@@ -130,7 +130,8 @@
     "targets": {
       "user": "Utilizador",
       "patient": "Doente",
-      "invitation": "Convite"
+      "invitation": "Convite",
+      "site_text": "Texto do site"
     },
     "actions": {
       "role_changed": "Função alterada",
@@ -143,7 +144,10 @@
       "clinician_note_added": "Nota do clínico adicionada",
       "password_reset_requested": "Reposição de palavra-passe pedida",
       "password_reset_completed": "Reposição de palavra-passe concluída",
-      "user_demoted_self_registered": "Clínico autorregistado despromovido"
+      "user_demoted_self_registered": "Clínico autorregistado despromovido",
+      "site_text_draft_saved": "Rascunho de texto do site guardado",
+      "site_text_published": "Texto do site publicado",
+      "site_text_reverted": "Texto do site reposto"
     }
   },
   "errors": {

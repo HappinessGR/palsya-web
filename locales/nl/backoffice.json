@@ -75,6 +75,7 @@
       "analytics": "Analyses",
       "finance": "Financiën",
       "compliance": "Compliance",
+      "text": "Websiteteksten",
       "users": "Gebruikers"
     },
     "overview": {
@@ -356,6 +357,92 @@
         "action": "Actie"
       },
       "safetyNote": "<b>{n, plural, one {# veiligheidssignaal} other {# veiligheidssignalen}} bij de intake deze maand.</b> Elk daarvan is een aanmelding die we hebben stilgezet om na te gaan, in plaats van haar door te laten. Juist daarom wordt dit getal elke maand op directieniveau gerapporteerd."
+    },
+    "text": {
+      "meta": {
+        "title": "Websiteteksten — Palsya-backoffice",
+        "description": "Bewerk, bekijk en publiceer de teksten op de website."
+      },
+      "heading": "Websiteteksten",
+      "subtitle": "Pas de teksten op de site aan. Wijzigingen worden als concept opgeslagen, dat alleen beheerders kunnen bekijken, totdat u ze publiceert.",
+      "filters": {
+        "page": "Pagina",
+        "language": "Taal",
+        "search": "Zoeken",
+        "searchPlaceholder": "Zoek tekst of een sleutel",
+        "changedOnly": "Alleen bewerkt",
+        "apply": "Tonen",
+        "drafts": "{n, plural, one {# concept} other {# concepten}}"
+      },
+      "count": "{n, plural, one {# tekst} other {# teksten}} · {drafts, plural, =0 {geen concepten} one {# concept} other {# concepten}} op deze pagina",
+      "preview": "Concepten bekijken",
+      "publishAll": "{n, plural, =0 {Concepten} one {# concept} other {Alle # concepten}} publiceren",
+      "howTo": "Met <b>Concept opslaan</b> blijft uw wijziging privé; <b>Concepten bekijken</b> toont de echte site met uw concepten, alleen aan u; <b>Publiceren</b> zet de wijziging meteen live voor iedereen. Laat alles tussen accolades, zoals <code>'{name}'</code>, en tags zoals <code>'<b>…</b>'</code> precies zoals ze zijn — de site vult die in.",
+      "empty": "Geen tekst komt overeen met deze filters.",
+      "english": "Engels:",
+      "original": "Origineel:",
+      "badge": {
+        "draft": "Concept · {when}",
+        "published": "Gepubliceerd · {when}",
+        "englishChanged": "Engels gewijzigd sinds"
+      },
+      "actions": {
+        "save": "Concept opslaan",
+        "publish": "Publiceren",
+        "discard": "Concept verwijderen",
+        "revert": "Origineel herstellen"
+      },
+      "result": {
+        "saved": "Concept opgeslagen. Alleen beheerders die concepten bekijken, kunnen het zien.",
+        "published": "Gepubliceerd. Iedereen ziet nu de nieuwe tekst.",
+        "discarded": "Concept verwijderd.",
+        "reverted": "De originele tekst is hersteld.",
+        "publishedAll": "{count, plural, =0 {Er waren geen concepten om te publiceren.} one {# concept gepubliceerd.} other {# concepten gepubliceerd.}}"
+      },
+      "error": {
+        "forbidden": "U hebt geen toestemming om de websiteteksten te bewerken.",
+        "invalid_input": "Er ontbrak iets in dat verzoek. Probeer het opnieuw.",
+        "unknown_key": "Die tekst bestaat niet meer op de site.",
+        "too_long": "Die tekst is te lang (maximaal 5000 tekens).",
+        "empty": "De tekst mag niet leeg zijn. Gebruik ‘Origineel herstellen’ om een bewerking ongedaan te maken.",
+        "bad_syntax": "De tekst heeft een opmaakprobleem, meestal een accolade of tag zonder tegenhanger.",
+        "placeholders_changed": "De plaatsaanduidingen tussen accolades moeten hetzelfde blijven als in het origineel.",
+        "tags_changed": "De opmaaktags (de delen tussen punthaken) moeten hetzelfde blijven als in het origineel."
+      },
+      "errorDetail": "Details: {detail}",
+      "auditLink": "Elke opslag, publicatie en terugzetting wordt vastgelegd in het auditlogboek.",
+      "banner": {
+        "title": "Concepten bekijken",
+        "body": "U ziet niet-gepubliceerde tekst. Bezoekers zien de gepubliceerde versie.",
+        "back": "Terug naar de editor",
+        "exit": "Voorbeeld sluiten"
+      },
+      "ns": {
+        "common": "Gedeeld (menu, voettekst, knoppen)",
+        "landing": "Startpagina",
+        "howItWorks": "Hoe het werkt",
+        "pricing": "Prijzen",
+        "about": "Over ons en team",
+        "stories": "Verhalen",
+        "guides": "Gidsen en veelgestelde vragen",
+        "auth": "Inloggen en registreren",
+        "onboarding": "Onboarding",
+        "assessment": "Beoordeling",
+        "dashboard": "Patiëntendashboard",
+        "programme": "Programma en fasen",
+        "library": "Bibliotheek",
+        "appProgramme": "Patiëntenapp: programma",
+        "appScan": "Patiëntenapp: scan",
+        "appProgress": "Patiëntenapp: voortgang",
+        "appSupport": "Patiëntenapp: ondersteuning en instellingen",
+        "admin": "Beheerpagina’s",
+        "clinician": "Pagina’s voor behandelaars",
+        "backoffice": "Backoffice",
+        "errors": "Foutpagina’s",
+        "emails": "E-mails",
+        "passwordReset": "Wachtwoordherstel",
+        "invite": "Uitnodigingen"
+      }
     }
   },
   "clinician": {

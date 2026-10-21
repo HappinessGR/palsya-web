@@ -75,6 +75,7 @@
       "analytics": "Analytique",
       "finance": "Finances",
       "compliance": "Conformité",
+      "text": "Textes du site",
       "users": "Utilisateurs"
     },
     "overview": {
@@ -356,6 +357,92 @@
         "action": "Action"
       },
       "safetyNote": "<b>{n, plural, one {# alerte de sécurité déclenchée} other {# alertes de sécurité déclenchées}} lors du bilan ce mois-ci.</b> Chacune correspond à une inscription que nous avons interrompue pour vérifier plutôt que de la laisser passer. Ce chiffre est présenté chaque mois au conseil d'administration précisément pour cette raison."
+    },
+    "text": {
+      "meta": {
+        "title": "Textes du site — Espace d'administration Palsya",
+        "description": "Modifiez, prévisualisez et publiez les textes affichés sur le site."
+      },
+      "heading": "Textes du site",
+      "subtitle": "Modifiez la formulation du site. Les modifications sont enregistrées comme brouillons, que seuls les administrateurs peuvent prévisualiser, jusqu'à ce que vous les publiiez.",
+      "filters": {
+        "page": "Page",
+        "language": "Langue",
+        "search": "Rechercher",
+        "searchPlaceholder": "Chercher un texte ou une clé",
+        "changedOnly": "Modifiés uniquement",
+        "apply": "Afficher",
+        "drafts": "{n, plural, one {# brouillon} other {# brouillons}}"
+      },
+      "count": "{n, plural, one {# texte} other {# textes}} · {drafts, plural, =0 {aucun brouillon} one {# brouillon} other {# brouillons}} sur cette page",
+      "preview": "Prévisualiser les brouillons",
+      "publishAll": "Publier {n, plural, =0 {les brouillons} one {# brouillon} other {les # brouillons}}",
+      "howTo": "<b>Enregistrer le brouillon</b> garde votre modification privée ; <b>Prévisualiser les brouillons</b> affiche le vrai site avec vos brouillons, pour vous seul ; <b>Publier</b> la met en ligne pour tout le monde immédiatement. Laissez tel quel tout ce qui figure entre accolades, comme <code>'{name}'</code>, ainsi que les balises comme <code>'<b>…</b>'</code> — le site les remplit.",
+      "empty": "Aucun texte ne correspond à ces filtres.",
+      "english": "Anglais :",
+      "original": "Original :",
+      "badge": {
+        "draft": "Brouillon · {when}",
+        "published": "Publié · {when}",
+        "englishChanged": "Anglais modifié depuis"
+      },
+      "actions": {
+        "save": "Enregistrer le brouillon",
+        "publish": "Publier",
+        "discard": "Supprimer le brouillon",
+        "revert": "Rétablir l'original"
+      },
+      "result": {
+        "saved": "Brouillon enregistré. Seuls les administrateurs qui prévisualisent les brouillons peuvent le voir.",
+        "published": "Publié. Tout le monde voit désormais le nouveau texte.",
+        "discarded": "Brouillon supprimé.",
+        "reverted": "Le texte original a été rétabli.",
+        "publishedAll": "{count, plural, =0 {Il n'y avait aucun brouillon à publier.} one {# brouillon publié.} other {# brouillons publiés.}}"
+      },
+      "error": {
+        "forbidden": "Vous n'avez pas l'autorisation de modifier les textes du site.",
+        "invalid_input": "Il manquait quelque chose dans cette requête. Veuillez réessayer.",
+        "unknown_key": "Ce texte n'existe plus sur le site.",
+        "too_long": "Ce texte est trop long (5 000 caractères maximum).",
+        "empty": "Le texte ne peut pas être vide. Utilisez « Rétablir l'original » pour annuler une modification.",
+        "bad_syntax": "Le texte présente un problème de mise en forme, généralement une accolade ou une balise non appariée.",
+        "placeholders_changed": "Les variables entre accolades doivent rester identiques à l'original.",
+        "tags_changed": "Les balises de mise en forme (les parties entre chevrons) doivent rester identiques à l'original."
+      },
+      "errorDetail": "Détails : {detail}",
+      "auditLink": "Chaque enregistrement, publication et rétablissement est consigné dans le journal d'audit.",
+      "banner": {
+        "title": "Prévisualisation des brouillons",
+        "body": "Vous voyez du texte non publié. Les visiteurs voient la version publiée.",
+        "back": "Retour à l'éditeur",
+        "exit": "Quitter la prévisualisation"
+      },
+      "ns": {
+        "common": "Commun (menu, pied de page, boutons)",
+        "landing": "Page d'accueil",
+        "howItWorks": "Fonctionnement",
+        "pricing": "Tarifs",
+        "about": "À propos et équipe",
+        "stories": "Témoignages",
+        "guides": "Guides et FAQ",
+        "auth": "Connexion et inscription",
+        "onboarding": "Prise en main",
+        "assessment": "Évaluation",
+        "dashboard": "Tableau de bord patient",
+        "programme": "Programme et étapes",
+        "library": "Bibliothèque",
+        "appProgramme": "Appli patient : programme",
+        "appScan": "Appli patient : scan",
+        "appProgress": "Appli patient : progression",
+        "appSupport": "Appli patient : aide et paramètres",
+        "admin": "Pages d'administration",
+        "clinician": "Pages des cliniciens",
+        "backoffice": "Espace d'administration",
+        "errors": "Pages d'erreur",
+        "emails": "E-mails",
+        "passwordReset": "Réinitialisation du mot de passe",
+        "invite": "Invitations"
+      }
     }
   },
   "clinician": {

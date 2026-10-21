@@ -75,6 +75,7 @@
       "analytics": "Análise",
       "finance": "Finanças",
       "compliance": "Conformidade",
+      "text": "Textos do site",
       "users": "Utilizadores"
     },
     "overview": {
@@ -356,6 +357,92 @@
         "action": "Ação"
       },
       "safetyNote": "<b>{n, plural, one {# alerta de segurança levantado} other {# alertas de segurança levantados}} na avaliação este mês.</b> Cada um é uma inscrição que parámos para verificar em vez de a deixar passar. O número é comunicado ao conselho de administração todos os meses precisamente por essa razão."
+    },
+    "text": {
+      "meta": {
+        "title": "Textos do site — Gestão interna da Palsya",
+        "description": "Edite, pré-visualize e publique os textos apresentados no site."
+      },
+      "heading": "Textos do site",
+      "subtitle": "Altere a redação do site. As alterações são guardadas como rascunhos, que só os administradores podem pré-visualizar, até as publicar.",
+      "filters": {
+        "page": "Página",
+        "language": "Idioma",
+        "search": "Pesquisar",
+        "searchPlaceholder": "Procurar texto ou chave",
+        "changedOnly": "Só editados",
+        "apply": "Mostrar",
+        "drafts": "{n, plural, one {# rascunho} other {# rascunhos}}"
+      },
+      "count": "{n, plural, one {# texto} other {# textos}} · {drafts, plural, =0 {sem rascunhos} one {# rascunho} other {# rascunhos}} nesta página",
+      "preview": "Pré-visualizar rascunhos",
+      "publishAll": "Publicar {n, plural, =0 {rascunhos} one {# rascunho} other {todos os # rascunhos}}",
+      "howTo": "<b>Guardar rascunho</b> mantém a sua alteração privada; <b>Pré-visualizar rascunhos</b> mostra o site real com os seus rascunhos, apenas a si; <b>Publicar</b> torna-a visível para todos de imediato. Mantenha tudo o que estiver entre chavetas, como <code>'{name}'</code>, e etiquetas como <code>'<b>…</b>'</code> exatamente como estão — o site preenche-os.",
+      "empty": "Nenhum texto corresponde a estes filtros.",
+      "english": "Inglês:",
+      "original": "Original:",
+      "badge": {
+        "draft": "Rascunho · {when}",
+        "published": "Publicado · {when}",
+        "englishChanged": "Inglês alterado desde"
+      },
+      "actions": {
+        "save": "Guardar rascunho",
+        "publish": "Publicar",
+        "discard": "Descartar rascunho",
+        "revert": "Repor original"
+      },
+      "result": {
+        "saved": "Rascunho guardado. Só os administradores que pré-visualizam rascunhos o podem ver.",
+        "published": "Publicado. Todos veem agora o novo texto.",
+        "discarded": "Rascunho descartado.",
+        "reverted": "Reposto o texto original.",
+        "publishedAll": "{count, plural, =0 {Não havia rascunhos para publicar.} one {# rascunho publicado.} other {# rascunhos publicados.}}"
+      },
+      "error": {
+        "forbidden": "Não tem permissão para editar os textos do site.",
+        "invalid_input": "Faltava algo nesse pedido. Tente novamente.",
+        "unknown_key": "Esse texto já não existe no site.",
+        "too_long": "Esse texto é demasiado longo (máximo de 5000 caracteres).",
+        "empty": "O texto não pode ficar vazio. Use «Repor original» para anular uma edição.",
+        "bad_syntax": "O texto tem um problema de formatação, normalmente uma chaveta ou etiqueta sem par.",
+        "placeholders_changed": "Os marcadores entre chavetas têm de ficar iguais aos do original.",
+        "tags_changed": "As etiquetas de formatação (as partes entre parênteses angulares) têm de ficar iguais às do original."
+      },
+      "errorDetail": "Detalhes: {detail}",
+      "auditLink": "Cada gravação, publicação e reposição fica registada no registo de auditoria.",
+      "banner": {
+        "title": "A pré-visualizar rascunhos",
+        "body": "Está a ver texto não publicado. Os visitantes veem a versão publicada.",
+        "back": "Voltar ao editor",
+        "exit": "Sair da pré-visualização"
+      },
+      "ns": {
+        "common": "Partilhado (menu, rodapé, botões)",
+        "landing": "Página inicial",
+        "howItWorks": "Como funciona",
+        "pricing": "Preços",
+        "about": "Sobre nós e equipa",
+        "stories": "Histórias",
+        "guides": "Guias e perguntas frequentes",
+        "auth": "Entrar e registar",
+        "onboarding": "Integração",
+        "assessment": "Avaliação",
+        "dashboard": "Painel do doente",
+        "programme": "Programa e fases",
+        "library": "Biblioteca",
+        "appProgramme": "App do doente: programa",
+        "appScan": "App do doente: análise",
+        "appProgress": "App do doente: progresso",
+        "appSupport": "App do doente: apoio e definições",
+        "admin": "Páginas de administração",
+        "clinician": "Páginas dos clínicos",
+        "backoffice": "Gestão interna",
+        "errors": "Páginas de erro",
+        "emails": "E-mails",
+        "passwordReset": "Reposição de palavra-passe",
+        "invite": "Convites"
+      }
     }
   },
   "clinician": {

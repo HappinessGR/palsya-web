@@ -75,6 +75,7 @@
       "analytics": "Analytics",
       "finance": "Finance",
       "compliance": "Compliance",
+      "text": "Website text",
       "users": "Users"
     },
     "overview": {
@@ -356,6 +357,92 @@
         "action": "Action"
       },
       "safetyNote": "<b>{n, plural, one {# safety flag} other {# safety flags}} raised at assessment this month.</b> Each one is a sign-up we stopped to check on rather than let through. The number is reported at board level every month for exactly that reason."
+    },
+    "text": {
+      "meta": {
+        "title": "Website text — Palsya back office",
+        "description": "Edit, preview and publish the text shown on the website."
+      },
+      "heading": "Website text",
+      "subtitle": "Change the wording on the site. Edits are saved as drafts, which only admins can preview, until you publish them.",
+      "filters": {
+        "page": "Page",
+        "language": "Language",
+        "search": "Search",
+        "searchPlaceholder": "Find text or a key",
+        "changedOnly": "Edited only",
+        "apply": "Show",
+        "drafts": "{n, plural, one {# draft} other {# drafts}}"
+      },
+      "count": "{n, plural, one {# piece of text} other {# pieces of text}} · {drafts, plural, =0 {no drafts} one {# draft} other {# drafts}} on this page",
+      "preview": "Preview drafts",
+      "publishAll": "Publish {n, plural, =0 {drafts} one {# draft} other {all # drafts}}",
+      "howTo": "<b>Save draft</b> keeps your change private; <b>Preview drafts</b> shows the real site with your drafts, only to you; <b>Publish</b> makes it live for everyone straight away. Keep anything in curly braces such as <code>'{name}'</code> and tags such as <code>'<b>…</b>'</code> exactly as they are — the site fills those in.",
+      "empty": "No text matches these filters.",
+      "english": "English:",
+      "original": "Original:",
+      "badge": {
+        "draft": "Draft · {when}",
+        "published": "Published · {when}",
+        "englishChanged": "English changed since"
+      },
+      "actions": {
+        "save": "Save draft",
+        "publish": "Publish",
+        "discard": "Discard draft",
+        "revert": "Revert to original"
+      },
+      "result": {
+        "saved": "Draft saved. Only admins previewing drafts can see it.",
+        "published": "Published. Everyone sees the new text now.",
+        "discarded": "Draft discarded.",
+        "reverted": "Reverted to the original text.",
+        "publishedAll": "{count, plural, =0 {There were no drafts to publish.} one {# draft published.} other {# drafts published.}}"
+      },
+      "error": {
+        "forbidden": "You don't have permission to edit the website text.",
+        "invalid_input": "Something was missing from that request. Please try again.",
+        "unknown_key": "That text no longer exists on the site.",
+        "too_long": "That text is too long (5,000 characters at most).",
+        "empty": "The text can't be empty. Use “Revert to original” to undo an edit.",
+        "bad_syntax": "The text has a formatting problem, usually an unmatched curly brace or tag.",
+        "placeholders_changed": "The placeholders in curly braces must stay the same as the original.",
+        "tags_changed": "The formatting tags (the parts in angle brackets) must stay the same as the original."
+      },
+      "errorDetail": "Details: {detail}",
+      "auditLink": "Every save, publish and revert is recorded in the audit log.",
+      "banner": {
+        "title": "Previewing drafts",
+        "body": "You're seeing unpublished text. Visitors see the published version.",
+        "back": "Back to editor",
+        "exit": "Exit preview"
+      },
+      "ns": {
+        "common": "Shared (menu, footer, buttons)",
+        "landing": "Home page",
+        "howItWorks": "How it works",
+        "pricing": "Pricing",
+        "about": "About & team",
+        "stories": "Stories",
+        "guides": "Guides & FAQ",
+        "auth": "Sign in & sign up",
+        "onboarding": "Onboarding",
+        "assessment": "Assessment",
+        "dashboard": "Patient dashboard",
+        "programme": "Programme & stages",
+        "library": "Library",
+        "appProgramme": "Patient app: programme",
+        "appScan": "Patient app: scan",
+        "appProgress": "Patient app: progress",
+        "appSupport": "Patient app: support & settings",
+        "admin": "Admin pages",
+        "clinician": "Clinician pages",
+        "backoffice": "Back office",
+        "errors": "Error pages",
+        "emails": "Emails",
+        "passwordReset": "Password reset",
+        "invite": "Invitations"
+      }
     }
   },
   "clinician": {
