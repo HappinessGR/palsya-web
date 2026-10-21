@@ -9,7 +9,6 @@ import { Icon } from "./components/Icon";
 import { extras, fmtDateMD, money, plans, testimonials, type Plan } from "./lib/content";
 import { stages } from "./lib/programme";
 import { pageMetadata } from "../i18n/metadata";
-import { redirectSignedInToDashboard } from "../src/lib/authz";
 import { locales, type Locale } from "../i18n/config";
 
 export function generateMetadata(): Promise<Metadata> {
@@ -73,8 +72,8 @@ function PlanCard({ plan }: { plan: Plan }) {
 }
 
 export default async function Home() {
-  // Signed-in users skip the marketing page and land on their own dashboard.
-  await redirectSignedInToDashboard();
+  // Signed-in users may view the site too (e.g. an admin's "Back to the site"
+  // or previewing draft text); the header's "My dashboard" takes them back.
   const t = await getTranslations("landing");
   const ts = await getTranslations("stories.testimonials");
   const tst = await getTranslations("programme.stages");
