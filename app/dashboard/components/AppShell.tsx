@@ -54,6 +54,7 @@ export function AppShell({
       <aside className={open ? "side open" : "side"} id="side" aria-label={t("sidebarLabel")}>
         <Link className="side-brand" href="/">
           <BrandMark size={28} />
+          {/* i18n-ignore: Palsya is the product's proper name. */}
           <span className="brand-name">Palsya</span>
         </Link>
 

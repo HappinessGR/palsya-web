@@ -10,7 +10,7 @@ const flag = (name) => {
   return i >= 0 ? args[i + 1] : undefined;
 };
 const extraCookie = flag("--cookie");
-const paths = (flag("--paths") ?? "/,/how-it-works,/guides,/stories,/pricing,/about,/login,/sign-in,/sign-up,/this-page-does-not-exist").split(",");
+const paths = (flag("--paths") ?? "/,/about,/how-it-works,/guides,/faq,/stories,/pricing,/login,/sign-in,/sign-up,/signup,/forgot-password,/reset-password,/this-page-does-not-exist").split(",");
 const locales = ["pt", "nl", "es", "fr", "de", "af"];
 
 // Same in every language: names, brands, numbers, codes.
@@ -90,8 +90,9 @@ for (const path of paths) {
     const page = await get(path, locale);
     const same = [...texts(page.html)].filter((t) => enTexts.has(t) && suspicious(t, locale));
     const langOk = page.lang === locale;
-    table[path][locale] = same.length === 0 && langOk ? "✓" : `✗ ${same.length}${langOk ? "" : " lang"}`;
-    if (same.length || !langOk) {
+    const statusOk = path === "/this-page-does-not-exist" ? page.status === 404 : page.status === 200;
+    table[path][locale] = same.length === 0 && langOk && statusOk ? "✓" : `✗ ${same.length}${langOk ? "" : " lang"}${statusOk ? "" : ` HTTP ${page.status}`}`;
+    if (same.length || !langOk || !statusOk) {
       problems++;
       console.log(`\n${path} [${locale}] html lang=${page.lang}${page.url !== base + path ? ` (→ ${page.url})` : ""}`);
       for (const t of same.slice(0, 40)) console.log(`   ${t.slice(0, 110)}`);

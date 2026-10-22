@@ -197,6 +197,7 @@ export function ScanCapture({ mirror }: { mirror: boolean }) {
     : !q
       ? { cls: "scan-badge", icon: "info", text: t("gettingReady") }
       : {
+          // i18n-ignore: this is a CSS class string, not user-facing text.
           cls: `scan-badge ${q.grade === "good" ? "green" : q.grade === "fair" ? "amber" : "red"}`,
           icon: q.grade === "good" ? "check" : "alert",
           text: q.grade === "good" ? t("qualityGood") : t(`issues.${q.issues[0]}.t`),

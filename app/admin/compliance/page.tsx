@@ -136,7 +136,9 @@ export default async function AdminCompliancePage() {
                   <tr key={r.id}>
                     <td className="small num">{format.dateTime(r.createdAt, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}</td>
                     <td className="small strong">{r.actorName ?? t("admin.compliance.system")}</td>
+                    {/* i18n-ignore: translate known action codes; unknown values are diagnostic identifiers. */}
                     <td className="small">{ta.has(`actions.${r.code}`) ? ta(`actions.${r.code}`) : r.code}</td>
+                    {/* i18n-ignore: translate known target codes; unknown values are diagnostic identifiers. */}
                     <td className="small muted">{r.targetType ? (ta.has(`targets.${r.targetType}`) ? ta(`targets.${r.targetType}`) : r.targetType) : t("common.dash")}</td>
                   </tr>
                 ))}

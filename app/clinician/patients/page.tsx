@@ -86,6 +86,7 @@ export default async function ClinicianPatientsPage() {
                         <div className="row-wrap" style={{ gap: 6 }}>
                           {(flagsById.get(p.patientProfileId) ?? []).map((f) => (
                             <span key={f} className={`badge ${FLAG_BADGE[f]}`}>
+                              {/* i18n-ignore: dynamic translation key for the patient's clinical flag. */}
                               {tb(`common.flagBadge.${f}`)}
                             </span>
                           ))}
