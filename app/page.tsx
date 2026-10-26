@@ -17,7 +17,6 @@ export function generateMetadata(): Promise<Metadata> {
 
 // Ported section-for-section from the legacy prototype's home view
 // (assets/js/views-public.js V.home) so this page matches the reference app.
-// Links to per-guide pages point at /guides until those pages exist.
 
 function Stars({ n }: { n: number }) {
   const t = useTranslations("landing");

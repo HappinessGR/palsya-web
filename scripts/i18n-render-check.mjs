@@ -10,7 +10,7 @@ const flag = (name) => {
   return i >= 0 ? args[i + 1] : undefined;
 };
 const extraCookie = flag("--cookie");
-const paths = (flag("--paths") ?? "/,/about,/how-it-works,/guides,/faq,/stories,/pricing,/login,/sign-in,/sign-up,/signup,/forgot-password,/reset-password,/this-page-does-not-exist").split(",");
+const paths = (flag("--paths") ?? "/,/about,/how-it-works,/faq,/stories,/pricing,/login,/sign-in,/sign-up,/signup,/forgot-password,/reset-password,/this-page-does-not-exist").split(",");
 const locales = ["pt", "nl", "es", "fr", "de", "af"];
 
 // Same in every language: names, brands, numbers, codes.
