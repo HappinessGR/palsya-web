@@ -3,6 +3,7 @@ import { createTranslator } from "next-intl";
 import { defaultLocale, isLocale, type Locale } from "../../i18n/config";
 import { applyOverrides } from "../../i18n/messages";
 import { getPublishedOverrides, type Override } from "../../src/lib/site-text";
+import { supportEmail } from "../contact";
 import type { OutgoingEmail } from "./mailer";
 
 /**
@@ -72,7 +73,7 @@ ${(l.afterButton ?? []).map(p).join("\n")}
   return { to, subject, html, text };
 }
 
-const support = () => process.env.SUPPORT_EMAIL ?? "support@palsya.health";
+const support = supportEmail;
 
 export async function passwordResetEmail(to: string, locale: string, url: string, minutes: number) {
   const t = await translatorFor(locale);

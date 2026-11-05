@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Contact Palsya",
+    "description": "How to reach Palsya by email, phone or post, with our office address in Amsterdam."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "lead": "Questions about your programme, your account or billing? Email us, call us, or write to us at our Amsterdam office."
+  },
+  "email": {
+    "title": "Email",
+    "body": "The best way to reach us about your account, billing or the programme."
+  },
+  "phone": {
+    "title": "Phone",
+    "body": "Call us if you'd rather talk to a person."
+  },
+  "address": {
+    "title": "Office",
+    "map": "Open in maps"
+  },
+  "faq": {
+    "body": "Many questions about eligibility, cost and your data are already answered in our FAQ.",
+    "link": "Read the FAQ"
+  },
+  "medical": {
+    "title": "Not for medical emergencies."
+  }
+}

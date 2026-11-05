@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Contact met Palsya",
+    "description": "Zo bereikt u Palsya per e-mail, telefoon of post, met het adres van ons kantoor in Amsterdam."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Neem contact op",
+    "lead": "Vragen over uw programma, uw account of de facturering? Mail of bel ons, of schrijf ons op ons kantoor in Amsterdam."
+  },
+  "email": {
+    "title": "E-mail",
+    "body": "De beste manier om ons te bereiken over uw account, de facturering of het programma."
+  },
+  "phone": {
+    "title": "Telefoon",
+    "body": "Bel ons als u liever met iemand spreekt."
+  },
+  "address": {
+    "title": "Kantoor",
+    "map": "Openen in kaarten"
+  },
+  "faq": {
+    "body": "Veel vragen over geschiktheid, kosten en uw gegevens worden al beantwoord in onze veelgestelde vragen.",
+    "link": "Lees de veelgestelde vragen"
+  },
+  "medical": {
+    "title": "Niet voor medische noodgevallen."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Contactar con Palsya",
+    "description": "Cómo contactar con Palsya por correo electrónico, teléfono o correo postal, con la dirección de nuestra oficina en Ámsterdam."
+  },
+  "hero": {
+    "eyebrow": "Contacto",
+    "title": "Ponte en contacto",
+    "lead": "¿Tienes preguntas sobre tu programa, tu cuenta o la facturación? Escríbenos un correo, llámanos o escríbenos a nuestra oficina de Ámsterdam."
+  },
+  "email": {
+    "title": "Correo electrónico",
+    "body": "La mejor forma de contactarnos sobre tu cuenta, la facturación o el programa."
+  },
+  "phone": {
+    "title": "Teléfono",
+    "body": "Llámanos si prefieres hablar con una persona."
+  },
+  "address": {
+    "title": "Oficina",
+    "map": "Abrir en el mapa"
+  },
+  "faq": {
+    "body": "Muchas preguntas sobre requisitos, precios y tus datos ya tienen respuesta en nuestras preguntas frecuentes.",
+    "link": "Leer las preguntas frecuentes"
+  },
+  "medical": {
+    "title": "No es para urgencias médicas."
+  }
+}

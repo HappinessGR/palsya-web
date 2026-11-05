@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
+import { contact, countryName } from "../../lib/contact";
 import { Icon } from "./Icon";
 import { BrandMark } from "./BrandMark";
 import { locales } from "../../i18n/config";
@@ -23,6 +24,7 @@ const COMPANY_LINKS = [
 
 export async function Footer() {
   const t = await getTranslations("common");
+  const locale = await getLocale();
 
   return (
     <footer className="foot">
@@ -39,6 +41,13 @@ export async function Footer() {
             <p className="small muted" style={{ marginTop: 14 }}>
               {t("footer.location", { year: 2023 })}
             </p>
+            <address className="small muted" style={{ marginTop: 14, fontStyle: "normal", lineHeight: 1.6 }}>
+              {contact.street}
+              <br />
+              {contact.postalCodeCity}, {countryName(locale)}
+              <br />
+              <a href={contact.phoneHref}>{contact.phoneDisplay}</a>
+            </address>
           </div>
 
           <div>

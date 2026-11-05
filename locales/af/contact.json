@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Kontak Palsya",
+    "description": "Hoe om Palsya per e-pos, telefoon of pos te bereik, met die adres van ons kantoor in Amsterdam."
+  },
+  "hero": {
+    "eyebrow": "Kontak",
+    "title": "Kontak ons",
+    "lead": "Vrae oor jou program, jou rekening of fakturering? Stuur vir ons 'n e-pos, bel ons, of skryf aan ons kantoor in Amsterdam."
+  },
+  "email": {
+    "title": "E-pos",
+    "body": "Die beste manier om ons oor jou rekening, fakturering of die program te bereik."
+  },
+  "phone": {
+    "title": "Telefoon",
+    "body": "Bel ons as jy eerder met iemand wil praat."
+  },
+  "address": {
+    "title": "Kantoor",
+    "map": "Maak oop in kaarte"
+  },
+  "faq": {
+    "body": "Baie vrae oor geskiktheid, koste en jou data word reeds in ons gereelde vrae beantwoord.",
+    "link": "Lees die gereelde vrae"
+  },
+  "medical": {
+    "title": "Nie vir mediese noodgevalle nie."
+  }
+}

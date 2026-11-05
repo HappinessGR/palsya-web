@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Contactar a Palsya",
+    "description": "Como contactar a Palsya por e-mail, telefone ou correio, com a morada do nosso escritório em Amesterdão."
+  },
+  "hero": {
+    "eyebrow": "Contacto",
+    "title": "Fale connosco",
+    "lead": "Tem dúvidas sobre o seu programa, a sua conta ou a faturação? Envie-nos um e-mail, ligue-nos ou escreva-nos para o nosso escritório em Amesterdão."
+  },
+  "email": {
+    "title": "E-mail",
+    "body": "A melhor forma de nos contactar sobre a sua conta, a faturação ou o programa."
+  },
+  "phone": {
+    "title": "Telefone",
+    "body": "Ligue-nos se preferir falar com uma pessoa."
+  },
+  "address": {
+    "title": "Escritório",
+    "map": "Abrir no mapa"
+  },
+  "faq": {
+    "body": "Muitas perguntas sobre elegibilidade, custos e os seus dados já têm resposta nas nossas perguntas frequentes.",
+    "link": "Ler as perguntas frequentes"
+  },
+  "medical": {
+    "title": "Não se destina a emergências médicas."
+  }
+}

@@ -42,6 +42,7 @@ export const namespaces = [
   "stories",
   "pricing",
   "about",
+  "contact",
   "auth",
   "onboarding",
   "assessment",
