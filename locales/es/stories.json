@@ -1,54 +1,116 @@
 {
   "meta": {
     "title": "Historias de recuperación — Palsya",
-    "description": "Recuperaciones reales de usuarios de Palsya, con los estancamientos y los retrocesos, además de opiniones, avales de clínicos y prensa."
+    "description": "Pacientes cuentan, con sus propias palabras, cómo fueron tratados de la parálisis de Bell y la parálisis facial y cómo se recuperaron."
   },
   "hero": {
-    "eyebrow": "Testimonios, etiquetados con honestidad",
-    "title": "Recuperaciones reales, también en sus partes difíciles",
-    "lead": "Cada historia de esta página es de un usuario real que ha dado su permiso, con el nombre abreviado a petición suya. No hemos quitado los estancamientos, los retrocesos ni los resultados que se quedaron por debajo de una recuperación completa: son precisamente los que la gente necesita leer."
+    "eyebrow": "Testimonios de pacientes",
+    "title": "Historias de recuperación, en palabras de los propios pacientes",
+    "lead": "Personas tratadas de parálisis facial cuentan qué les ocurrió, el tratamiento que recibieron y cómo se recuperaron. Estos testimonios se escribieron originalmente en neerlandés. Cada recuperación es distinta, y estas experiencias no garantizan el mismo resultado."
   },
-  "quoted": "«{text}»",
-  "story": {
-    "title": "{name}, {where}",
-    "meta": "{dx} · empezó en la semana {week, number} · {months, plural, one {# mes después} other {# meses después}}"
-  },
-  "reviews": {
-    "title": "Opiniones",
-    "lead": "Recogidas en la aplicación entre usuarios que han completado al menos cuatro semanas. También publicamos las bajas.",
-    "stars": "{n, number} de {max, number} estrellas",
-    "verified": "Usuario verificado"
-  },
-  "clinicians": {
-    "title": "De clínicos",
-    "lead": "Clínicos independientes que nos derivan pacientes. Ninguno de ellos cobra por ello.",
-    "ctx": "{role} · {where}"
-  },
-  "pressSection": {
-    "title": "Prensa y publicaciones",
-    "meta": "{pub} · {date}"
-  },
+  "itemMeta": "{country} · {date}",
   "items": {
-    "marta": {
-      "where": "Varsovia",
-      "dx": "Parálisis de Bell",
-      "summary": "De una parálisis completa del lado derecho a comer y hablar con normalidad, con una sincinesia leve residual.",
-      "body": "Marta se despertó un martes sin poder cerrar el ojo derecho. Empezó con corticoides en menos de 48 horas. Comenzó Palsya en la segunda semana, en la fase 1, y pasó once días sin hacer casi nada más que proteger el ojo y darse masajes suaves, lo que describe como la parte más difícil de todo el programa. El primer atisbo de movimiento en la mejilla llegó el día 19. La sincinesia apareció hacia la séptima semana, y le resultó más angustiosa que la parálisis inicial. El trabajo de coordinación durante las fases 3 y 4 la redujo mucho, pero no del todo. A los cinco meses, se le entrecierra ligeramente el ojo cuando sonríe mucho y, por lo demás, tiene una función completa.",
-      "quote": "La quietud del principio me parecía rendirme. No lo era. Ahora lo entiendo; entonces no."
+    "paulS": {
+      "p1": "El sábado 22 de diciembre de 2018 empecé a notar una sensación extraña en el músculo o el nervio de detrás de la oreja. Después de dormir una hora, me desperté absolutamente aterrado. De repente, todo el lado derecho de mi cara estaba paralizado.",
+      "p2": "Fui directamente a urgencias, donde me dijeron que tenía parálisis de Bell. Me pautaron prednisona durante 10 días, colirio y pomada ocular, y me dijeron que descansara y que la afección podía resolverse sola o no.",
+      "p3": "Estaba muy preocupado e insatisfecho con que no se pudiera hacer nada más. Empecé a buscar en internet y encontré la web de Margarita Petrova. Pude verla al día siguiente y quedé muy satisfecho con su experiencia en este campo.",
+      "p4": "Me ayudó muchísimo con acupuntura y masaje facial. También me explicó cómo el vendaje diario con cinta podía ayudar a mantener la simetría facial en la medida de lo posible. Además, me dio ejercicios para entrenar la fuerza de los músculos faciales y las expresiones faciales.",
+      "p5": "Era tranquilizador poder trabajar activamente en recuperarme de la parálisis. También me dio un verdadero impulso anímico. Simplemente esperar sin hacer nada no era una opción para mí.",
+      "p6": "Ahora, seis semanas después, mi cara se ha recuperado aproximadamente en un 95 %, y el pronóstico es que me recuperaré por completo.",
+      "p7": "Quiero darle las gracias de todo corazón a Margarita por su atención profesional, experta y agradable. Se la recomendaría a todo el mundo."
     },
-    "tomas": {
-      "where": "Oporto",
-      "dx": "Parálisis de Bell",
-      "summary": "Un comienzo lento, un estancamiento de nueve semanas y un cambio constante después.",
-      "body": "Tomás llegó tarde a Palsya, en la sexta semana, sin ningún movimiento y tras haberle dicho que esperara a ver. Sus ocho primeros escaneos variaron menos de cuatro puntos, lo que está dentro del margen de medición y, por tanto, no es realmente un cambio. Describe las semanas siete a quince como el momento en que dejó de creer que algo fuera a cambiar. Su clínica le mantuvo en la fase 2 durante todo ese periodo en lugar de hacerle avanzar, con el razonamiento de que adelantar el programa a la función es como se instauran las compensaciones. El movimiento pasó a ser claramente voluntario en la semana dieciséis. Al séptimo mes, su puntuación de simetría había subido veintidós puntos respecto a su punto de partida.",
-      "quote": "Nueve semanas de líneas planas. Mi fisioterapeuta no quería hacerme avanzar y tenía razón, pero estuve casi un mes resentido con ella."
+    "harryN": {
+      "p1": "El 25 de octubre noté por primera vez algo raro en el sentido del gusto en el lado derecho de la lengua. A la mañana siguiente, noté que el lado derecho de mi cara tenía un aspecto extraño y parecía tirar ligeramente. Enseguida me hice una comprobación corporal, porque los síntomas se parecían a los de un ictus. Por suerte, no era el caso.",
+      "p2": "Luego fui a mi médico de cabecera, que me diagnosticó parálisis de Bell, también conocida como parálisis facial. Nunca había oído hablar de ella. Me recetaron prednisona para reducir la inflamación que afectaba al nervio.",
+      "p3": "Decidí investigar un poco en internet, porque el consejo del médico era simplemente descansar y esperar a que la afección se resolviera sola. ¡Naturalmente, no quería esperar sin hacer nada!",
+      "p4": "Así fue como encontré Bell’s Palsy Amsterdam. Llamé el lunes siguiente y expliqué lo que había pasado. Contacté con ellos pronto, lo cual era importante porque los primeros días y la primera semana son cruciales. Conseguí cita para ese jueves.",
+      "p5": "Me recibieron con mucha calidez, y la Sra. Petrova entendía de verdad la afección y lo que yo estaba pasando. Fue un gran alivio.",
+      "p6": "El tratamiento empezó de inmediato y me dieron ejercicios para hacer en casa e instrucciones sobre cómo vendarme la cara con cinta por la mañana y por la noche. Acudía dos veces por semana para recibir acupuntura y masaje facial.",
+      "p7": "¡Al cabo de dos semanas empecé a notar mejoras! Al cabo de tres semanas, la mejora era realmente significativa.",
+      "p8": "Lamento que los médicos no siempre mencionen que existen tratamientos complementarios para la parálisis de Bell, de modo que los pacientes tienen que descubrir estas opciones por sí mismos buscando en internet.",
+      "p9": "Para mí, el tratamiento fue sumamente beneficioso, y Margarita Petrova me atendió de forma excelente. Entiende lo que estás pasando y se toma el tiempo necesario para ayudarte.",
+      "p10": "Ya han pasado siete semanas, ¡y mi cara ha vuelto casi por completo a la normalidad! Todavía tengo algunos síntomas residuales leves, pero sigo haciendo mis ejercicios todos los días y todo va progresando bien.",
+      "p11": "Me sentía muy avergonzado de mi aspecto y pasé una etapa emocionalmente muy difícil. Sin embargo, manteniéndome positivo, con el apoyo de una pareja que estuvo a mi lado en lo bueno y en lo malo, y con la ayuda de la Sra. Petrova, logré salir adelante.",
+      "p12": "Recomendaría a cualquiera que sufra parálisis de Bell que contacte con Bell’s Palsy Amsterdam. ¡Siempre le estaré agradecido!"
     },
-    "sanne": {
-      "where": "Utrecht",
-      "dx": "Posquirúrgica",
-      "summary": "Lesión del nervio facial tras una cirugía de neurinoma del acústico, con una recuperación parcial y asimétrica.",
-      "body": "La parálisis de Sanne se produjo tras una cirugía, lo que la sitúa en una categoría distinta de la parálisis de Bell: el patrón de recuperación era menos predecible y los plazos, más largos. Usó el paquete de seis consultas de principio a fin y siguió con el mismo clínico durante nueve meses. La boca se recuperó mucho, el ojo en parte y la frente apenas nada: un patrón desigual que, según dice, le resultó más fácil de aceptar cuando alguien le explicó por qué ocurre, en lugar de tratarlo como una carencia. Sigue en la fase 5 con una rutina breve de mantenimiento y un escaneo cada seis semanas.",
-      "quote": "Dejé de compararme con la cara que tenía antes. No fue una derrota. Fue lo que me permitió seguir adelante."
+    "corinaB": {
+      "p1": "El 7 de septiembre, a mí también me afectó la parálisis de Bell.",
+      "p2": "Estaba absolutamente aterrada. Solo tenía 23 años y una mañana me desperté con la cara muy deformada. Sobre todo el ojo, que no se cerraba en absoluto.",
+      "p3": "Fui directamente a urgencias y me recetaron prednisona durante 10 días.",
+      "p4": "Pasados diez días apenas había mejorado, y me sentía muy insegura y preocupada por toda la situación. Entonces empecé a buscar en internet y encontré a Margarita.",
+      "p5": "Pedí cita y pude verla esa misma semana.",
+      "p6": "Después de un solo tratamiento con masaje facial y acupuntura, ya pude ver un resultado. Recibí seis tratamientos en total y he recuperado la confianza en mi cara.",
+      "p7": "Aún quedan algunos problemas leves, pero estoy segura de que mejorarán.",
+      "p8": "Recomiendo de verdad este tratamiento a cualquiera que pase por esta terrible experiencia.",
+      "p9": "¡Estoy absolutamente encantada con los resultados!"
+    },
+    "brunoS": {
+      "p1": "A los pocos días de que me diagnosticaran parálisis de Bell, empecé el tratamiento con Margarita Petrova. Incluía acupuntura, masaje facial y ejercicios para hacer en casa.",
+      "p2": "Al cabo de unas semanas empezó mi recuperación, y a las cinco semanas ya no había ningún signo visible de la afección en mi cara.",
+      "p3": "Su experiencia, sus consejos, su interés sincero y su atención me resultaron sumamente beneficiosos.",
+      "p4": "Trabajar junto con la Sra. Petrova me dio la sensación de que podía hacer algo activamente por mi afección en lugar de limitarme a esperar la recuperación.",
+      "p5": "¡Recomendaría el tratamiento con la Sra. Petrova a todas las personas con parálisis de Bell!",
+      "p6": "Bruno (48 años)"
+    },
+    "martijnP": {
+      "p1": "Mientras me reponía del susto y volvía a casa en coche desde un centro de atención médica urgente, donde una médica acababa de decirme que tenía parálisis de Bell y me había recetado prednisona de inmediato, mi novia me indicó Bellseparese.nl.",
+      "p2": "Solo unos días después, ya estaba recibiendo tratamiento de Margarita. Me sorprendió de verdad que los médicos te digan que esperes a ver si la afección se recupera, en qué medida y con qué rapidez, aunque noté que los médicos suelen ser optimistas sobre el resultado.",
+      "p3": "Por supuesto, es difícil medir exactamente cuánto contribuyeron a mi recuperación los tratamientos de Margarita. Cada paciente es distinto y, en muchos casos, los pacientes también se recuperan sin tratamiento.",
+      "p4": "Sin embargo, estoy convencido de que los tratamientos y ejercicios que me dio contribuyeron de forma importante a mi recuperación.",
+      "p5": "En este sentido, veo el papel de Margarita en el tratamiento de mis problemas faciales de forma muy parecida al de mi fisioterapeuta. Un fisioterapeuta ayuda a que una lesión se cure bien y más rápido de lo que lo haría sin fisioterapia. Igual que Margarita, mi fisioterapeuta también me da ejercicios para favorecer la recuperación.",
+      "p6": "En mi caso, resultó que tenía una parálisis facial leve y ahora, poco más de cinco semanas después, me he recuperado casi por completo.",
+      "p7": "También es increíblemente tranquilizador poder acudir a Margarita, que sabe muchísimo de esta afección y te ayuda a recuperarte de los síntomas lo más rápido posible, procurando a la vez reducir el riesgo de pequeños problemas permanentes.",
+      "p8": "Me alegro mucho de haber contactado con Margarita de inmediato.",
+      "p9": "Muchísimas gracias por todo, Margarita."
+    },
+    "anoukA": {
+      "p1": "El 23 de febrero me desperté con parálisis de Bell en el lado izquierdo de la cara.",
+      "p2": "Mi médico de cabecera y mi neurólogo me recomendaron un tratamiento con prednisona, pero después poco más podían hacer aparte de decirme que la recuperación llevaría mucho tiempo y que tenía que ser paciente.",
+      "p3": "Eso no me pareció suficiente.",
+      "p4": "A través de esta web encontré a Margarita Petrova. ¡Desde el primer momento fue un soplo de aire fresco!",
+      "p5": "Margarita se tomó el tiempo de escucharme, se tomó en serio mis preocupaciones y me dio ejercicios y consejos de masaje. Incluso dejó que mi marido grabara el masaje para que pudiéramos repetirlo en casa. Por supuesto, también me hizo tratamientos de acupuntura y, más adelante, de biopuntura.",
+      "p6": "Me hizo sentir que podía contribuir activamente a mi propia recuperación y ayudar a que todo volviera a ponerse en marcha.",
+      "p7": "Tras la respuesta decepcionante de mi médico de cabecera, que por lo demás es muy buen médico, me alegré muchísimo de haber encontrado a Margarita.",
+      "p8": "Y sí, he superado la parálisis. ¡Todo vuelve a moverse!",
+      "p9": "Gracias, Margarita, por todo tu trabajo y tu apoyo. ¡Me has ayudado a no perder la cabeza durante todo esto!"
+    },
+    "marcE": {
+      "p1": "Hace casi nueve meses me diagnosticaron parálisis de Bell. La médica de cabecera de guardia me atendió adecuadamente de inmediato y me recetó prednisona, pero nunca había oído hablar de ningún tratamiento específico para esta afección.",
+      "p2": "Al principio estaba absolutamente aterrado cuando los síntomas empeoraron aún más.",
+      "p3": "Naturalmente, como mucha gente hoy en día, busqué en internet y encontré a Margarita Petrova.",
+      "p4": "Qué alivio fue encontrar a alguien que sabía lo que había que hacer y que podía empezar a ayudarme enseguida.",
+      "p5": "El tratamiento consistió en vendaje con cinta, masaje facial, acupuntura y mucho descanso.",
+      "p6": "Funcionó de maravilla, y estaba —y sigo estando— enormemente agradecido a Margarita por todo lo que hizo.",
+      "p7": "Es una médica muy competente que además sabe tranquilizar muy bien a los pacientes.",
+      "p8": "También me trató con biopuntura por mis sinusitis recurrentes y mis resfriados persistentes, y eso también me funcionó muy bien.",
+      "p9": "Ahora me he recuperado por completo, sin ningún síntoma residual, lo cual me parece un resultado asombroso. Tengo 50 años, así que ya no soy de los pacientes más jóvenes.",
+      "p10": "Recomiendo a cualquiera que sufra parálisis de Bell que contacte con Margarita de inmediato. Es especialista en este campo.",
+      "p11": "Margarita, ¡gracias por tu fantástico trabajo!"
+    },
+    "anoukV": {
+      "p1": "Dos días después de dar a luz, en agosto, empecé a notar entumecimiento en la boca y la lengua. Era como si me hubieran puesto anestesia local en el dentista y todavía no se me hubiera pasado el efecto.",
+      "p2": "Esa noche ya no podía juntar bien los labios y, durante la noche, el ojo izquierdo también dejó de cerrarse.",
+      "p3": "Me preocupaba estar sufriendo un accidente isquémico transitorio (AIT) o un ictus.",
+      "p4": "A la mañana siguiente fui directamente a mi médico de cabecera, y me recetaron prednisona durante 10 días.",
+      "p5": "¡Estaba muy asustada!",
+      "p6": "Lo que mi médico de cabecera no me dijo fue que la afección podía seguir empeorando durante los cinco primeros días. Cada mañana me despertaba preguntándome qué aspecto tendría mi cara ese día.",
+      "p7": "Durante unas tres semanas tuve que beber con pajita.",
+      "p8": "A través de un conocido me derivaron a la Sra. Petrova. Gracias a sus tratamientos, al vendaje con cinta y a los ejercicios, me recuperé con una rapidez notable.",
+      "p9": "Al final recibí cinco tratamientos.",
+      "p10": "Mi médico de cabecera me había dicho que la recuperación podía tardar de tres a seis meses. Por suerte, en mi caso no fue así.",
+      "p11": "Estoy muy feliz de haber recibido tratamiento de la Sra. Petrova y le estoy muy agradecida."
+    },
+    "antjeP": {
+      "p1": "El 2 de julio de 2017, tras dos semanas de fuertes dolores de cabeza, sufrí de repente una parálisis facial en el lado derecho de la cara.",
+      "p2": "La causa era una infección por enfermedad de Lyme.",
+      "p3": "Mi neurólogo dispuso que recibiera antibióticos por vía intravenosa durante dos semanas.",
+      "p4": "Mi médico de cabecera me habló de Margarita Petrova, que se había especializado en el tratamiento de esta afección.",
+      "p5": "Resultó ser un enorme apoyo. Además del tratamiento, me dio instrucciones prácticas sobre lo que podía hacer yo misma, como ejercicios diarios y vendar con cinta el lado paralizado de la cara.",
+      "p6": "Controlaba mi evolución haciendo fotografías y comparándolas con las de visitas anteriores.",
+      "p7": "En total necesité ocho tratamientos hasta que quedó satisfecha con los resultados y mi cara volvió a parecer normal, al menos para alguien de fuera.",
+      "p8": "En resumen, me alegro mucho de que me acompañara durante todo este proceso, porque al principio tenía la cara completamente paralizada. El ojo no se cerraba y no podía mover en absoluto la ceja ni el párpado.",
+      "p9": "Ahora estamos a 20 de septiembre y vuelvo a poder hacer vida normal. Gran parte de esta recuperación se la debo a la dedicación y el cariño con que me trató.",
+      "p10": "Dicho de otro modo, ¡recomiendo de todo corazón a Margarita Petrova a cualquiera que tenga que enfrentarse a esta angustiosa afección!"
     }
   },
   "testimonials": {
@@ -75,41 +137,6 @@
     "lena": {
       "quote": "Las instrucciones para cuidar el ojo me sirvieron más que nada de lo que me dieron en el hospital, donde me entregaron un folleto y me mandaron a casa. Mi córnea está bien y creo que es por eso.",
       "ctx": "Parálisis de Bell · Malmö · empezó en la semana 1"
-    }
-  },
-  "endorsements": {
-    "rahn": {
-      "role": "Especialista en Otorrinolaringología",
-      "where": "Viena",
-      "quote": "Lo inusual aquí es la contención. El programa no promete la recuperación, no clasifica a los pacientes unos frente a otros y dice claramente dónde la evidencia es escasa. Le derivo pacientes y leo los informes de progreso que me envían."
-    },
-    "aubert": {
-      "role": "Neurorrehabilitación, hospital universitario",
-      "where": "Lille",
-      "quote": "La adaptación a la fase es lo que importa clínicamente. Dar a todos los pacientes la misma hoja de ejercicios, tengan o no sincinesia, es una práctica habitual y no es una buena práctica. Esto lo hace mejor."
-    },
-    "solberg": {
-      "role": "Fisioterapeuta especialista en rehabilitación facial",
-      "where": "Oslo",
-      "quote": "Uso la cronología de escaneos en mis propias sesiones en consulta. Poder mostrar a un paciente un cambio objetivo durante un estancamiento de nueve semanas le aporta algo que mis palabras de ánimo por sí solas no consiguen."
-    }
-  },
-  "press": {
-    "healthTechEurope": {
-      "headline": "Las aplicaciones de rehabilitación que se niegan a convertir la recuperación en un juego",
-      "kind": "Reportaje"
-    },
-    "jdr": {
-      "headline": "Reeducación neuromuscular facial a distancia: una cohorte observacional de 1.204 usuarios",
-      "kind": "Revisado por pares"
-    },
-    "derStandard": {
-      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
-      "kind": "Entrevista"
-    },
-    "bpa": {
-      "headline": "Recurso revisado: Palsya",
-      "kind": "Organización de pacientes"
     }
   }
 }

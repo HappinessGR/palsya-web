@@ -1,54 +1,116 @@
 {
   "meta": {
     "title": "Recovery stories — Palsya",
-    "description": "Real recoveries from Palsya users, including the plateaus and setbacks, plus reviews, clinician endorsements and press."
+    "description": "Patients describe, in their own words, how they were treated for Bell’s palsy and facial paralysis and how they recovered."
   },
   "hero": {
-    "eyebrow": "Social proof, honestly labelled",
-    "title": "Real recoveries, including the difficult parts",
-    "lead": "Every story here is from a real user who agreed to it, with names shortened at their request. We have not removed the plateaus, the setbacks, or the outcomes that stopped short of full recovery — those are the ones people actually need to read."
+    "eyebrow": "Patient testimonials",
+    "title": "Recovery stories, in patients’ own words",
+    "lead": "People treated for facial paralysis describe what happened to them, the treatment they received and how they recovered. These testimonials were originally written in Dutch. Every recovery is different, and these experiences are not a promise of the same result."
   },
-  "quoted": "“{text}”",
-  "story": {
-    "title": "{name}, {where}",
-    "meta": "{dx} · started at week {week, number} · {months, plural, one {# month in} other {# months in}}"
-  },
-  "reviews": {
-    "title": "Reviews",
-    "lead": "Collected in-app from users who have completed at least four weeks. We publish the low ones too.",
-    "stars": "{n, number} out of {max, number} stars",
-    "verified": "Verified user"
-  },
-  "clinicians": {
-    "title": "From clinicians",
-    "lead": "Independent clinicians who refer patients to us. None of them are paid for this.",
-    "ctx": "{role} · {where}"
-  },
-  "pressSection": {
-    "title": "Press and publications",
-    "meta": "{pub} · {date}"
-  },
+  "itemMeta": "{country} · {date}",
   "items": {
-    "marta": {
-      "where": "Warsaw",
-      "dx": "Bell's palsy",
-      "summary": "From a complete right-sided palsy to eating and speaking normally, with mild synkinesis remaining.",
-      "body": "Marta woke on a Tuesday unable to close her right eye. Steroids started within 48 hours. She began Palsya at week two, in Stage 1, and spent eleven days doing almost nothing but eye protection and light massage — which she describes as the hardest part of the whole programme. The first flicker in her cheek came at day 19. Synkinesis appeared around week seven, which she found more distressing than the original paralysis. Coordination work through Stages 3 and 4 reduced it substantially but not completely. Five months in, she has mild eye narrowing when she smiles broadly and full function otherwise.",
-      "quote": "The stillness at the start felt like giving up. It was not. I understand that now and I did not then."
+    "paulS": {
+      "p1": "On Saturday, December 22, 2018, I began experiencing an unusual sensation in the muscle or nerve behind my ear. After sleeping for an hour, I woke up absolutely terrified. Suddenly, the entire right side of my face was paralysed.",
+      "p2": "I went straight to the emergency department, where I was told that I had Bell’s palsy. I was given a 10-day course of prednisone, eye drops and eye ointment, and was told to rest and that the condition might or might not resolve on its own.",
+      "p3": "I was extremely worried and dissatisfied with the fact that nothing more could be done. I started searching online and came across Margarita Petrova’s website. I was able to see her the very next day and was very pleased with her expertise in this field.",
+      "p4": "She helped me tremendously with acupuncture and facial massage. She also explained how daily taping could help maintain facial symmetry as much as possible. In addition, she gave me exercises to train facial muscle strength and facial expressions.",
+      "p5": "It was reassuring to be able to actively work on recovering from the paralysis. It also gave me a real mental boost. Simply waiting and doing nothing was not an option for me.",
+      "p6": "Now, six weeks later, my face has recovered by approximately 95%, and the prognosis is that I will make a full recovery.",
+      "p7": "I would like to thank Margarita very warmly for her professional, knowledgeable and pleasant care. I would recommend her to everyone."
     },
-    "tomas": {
-      "where": "Porto",
-      "dx": "Bell's palsy",
-      "summary": "A slow start, a nine-week plateau, and steady change after it.",
-      "body": "Tomás came to Palsya late, at week six, with no movement at all and having been told to wait and see. His first eight scans moved by less than four points, which is inside the measurement margin and therefore not really movement at all. He describes weeks seven through fifteen as the point where he stopped believing anything would change. His clinician kept him in Stage 2 through that entire period rather than advancing him, on the reasoning that advancing a programme ahead of the function is how compensations get established. Movement became clearly voluntary at week sixteen. By month seven his symmetry score had risen twenty-two points from baseline.",
-      "quote": "Nine weeks of flat lines. My physio would not move me on and she was right, but I resented her for about a month."
+    "harryN": {
+      "p1": "On October 25, I first noticed something unusual about my sense of taste on the right side of my tongue. The following morning, I noticed that the right side of my face looked strange and seemed to be pulling slightly. I immediately performed a body check because the symptoms resembled those of a stroke. Fortunately, that was not the case.",
+      "p2": "I then went to my GP, who diagnosed me with Bell’s palsy, also known as facial paralysis. I had never heard of it before. I was prescribed prednisone to reduce the swelling affecting the nerve.",
+      "p3": "I decided to do some research online because the advice from the doctor was simply to rest and wait for the condition to resolve on its own. Naturally, I did not want to wait and do nothing!",
+      "p4": "That is how I found Bell’s Palsy Amsterdam. I called the following Monday and explained what had happened. I contacted them early, which was important because the first few days and the first week are crucial. I was able to get an appointment that Thursday.",
+      "p5": "I received a very warm welcome, and Ms Petrova really understood the condition and what I was going through. That was a great relief.",
+      "p6": "Treatment started immediately and I was given exercises to do at home and instructions on how to tape my face in the morning and evening. I attended twice a week for acupuncture and facial massage.",
+      "p7": "After two weeks, I began to notice improvements! After three weeks, the improvement was really significant.",
+      "p8": "I regret that doctors do not always mention that complementary treatments are available for Bell’s palsy, leaving patients to discover these options themselves through online research.",
+      "p9": "For me, the treatment was extremely beneficial, and Margarita Petrova provided excellent care. She understands what you are going through and takes the time to help you.",
+      "p10": "It has now been seven weeks, and my face has almost completely returned to normal! I still have a few minor residual symptoms, but I continue to do my exercises every day, and things are progressing well.",
+      "p11": "I felt really embarrassed about my appearance and went through a very difficult period emotionally. However, by staying positive, with the support of a partner who stood by me through thick and thin, and with Ms Petrova’s help, I managed to get through it.",
+      "p12": "I would recommend anyone who develops Bell’s palsy to contact Bell’s Palsy Amsterdam. I will always be grateful to her!"
     },
-    "sanne": {
-      "where": "Utrecht",
-      "dx": "Post-surgical",
-      "summary": "Facial nerve injury after acoustic neuroma surgery, with a partial and asymmetric recovery.",
-      "body": "Sanne's paralysis followed surgery, which puts her in a different category from Bell's palsy: the recovery pattern was less predictable and the timeline longer. She used the six-consultation package throughout and stayed with the same clinician for nine months. Her mouth recovered substantially, her eye partially, and her forehead barely at all — an uneven pattern that she says was easier to accept once someone explained why it happens rather than treating it as a shortfall. She continues in Stage 5 with a short maintenance routine and a scan every six weeks.",
-      "quote": "I stopped measuring myself against the face I used to have. That was not a defeat. It was the thing that let me get on with it."
+    "corinaB": {
+      "p1": "On September 7, I was also struck by Bell’s palsy.",
+      "p2": "I was absolutely terrified. I was only 23 years old and woke up one morning with a severely distorted face. My eye, in particular, would not close at all.",
+      "p3": "I went straight to the emergency department and was prescribed a 10-day course of prednisone.",
+      "p4": "After ten days, there was little improvement, and I became very insecure and worried about the whole situation. I then started searching online and came across Margarita.",
+      "p5": "I made an appointment and was able to see her that same week.",
+      "p6": "After just one treatment involving facial massage and acupuncture, I could already see a result. I had a total of six treatments and have regained my confidence in my face.",
+      "p7": "There are still a few minor issues, but I am sure they will improve.",
+      "p8": "I genuinely recommend this treatment to anyone affected by this terrible experience.",
+      "p9": "I am absolutely delighted with the results!"
+    },
+    "brunoS": {
+      "p1": "Within a few days of being diagnosed with Bell’s palsy, I started treatment with Margarita Petrova. This included acupuncture, facial massage and exercises to do at home.",
+      "p2": "After a few weeks, my recovery began, and after five weeks, there was no visible sign of the condition on my face.",
+      "p3": "Her expertise, advice, genuine interest and care were extremely beneficial to me.",
+      "p4": "Working together with Ms Petrova gave me the feeling that I could actively do something about my condition rather than simply waiting for recovery.",
+      "p5": "I would recommend treatment with Ms Petrova to everyone with Bell’s palsy!",
+      "p6": "Bruno (48 years old)"
+    },
+    "martijnP": {
+      "p1": "While recovering from the shock and driving home from an urgent medical care centre, where a doctor had just told me that I had Bell’s palsy and immediately prescribed prednisone, my girlfriend pointed me towards Bellseparese.nl.",
+      "p2": "Just a few days later, I was already receiving treatment from Margarita. I was genuinely surprised that doctors tell you to wait and see whether, to what extent and how quickly the condition will recover, although I noticed that doctors are generally optimistic about the outcome.",
+      "p3": "Of course, it is difficult to measure exactly how much the treatments Margarita provided contributed to my recovery. Every patient is different, and in many cases, patients also recover without treatment.",
+      "p4": "However, I am convinced that the treatments and exercises she gave me made an important contribution to my recovery.",
+      "p5": "In this respect, I see Margarita’s role in treating my facial problems in much the same way as that of my physiotherapist. A physiotherapist helps an injury heal properly and more quickly than it might without physiotherapy. Just like Margarita, my physiotherapist also gives me exercises to promote recovery.",
+      "p6": "In my case, it turned out that I had a mild facial paralysis, and now, just over five weeks later, I have almost completely recovered.",
+      "p7": "It is also incredibly reassuring to be able to turn to Margarita, who knows so much about this condition and helps you recover from the symptoms as quickly as possible, while also aiming to reduce the risk of minor lasting problems.",
+      "p8": "I am very glad that I contacted Margarita immediately.",
+      "p9": "Thank you so much for everything, Margarita."
+    },
+    "anoukA": {
+      "p1": "On February 23, I woke up with Bell’s palsy on the left side of my face.",
+      "p2": "My GP and neurologist recommended a course of prednisone, but afterwards there was little they could do apart from telling me that recovery would take a long time and that I needed to be patient.",
+      "p3": "I found this unsatisfactory.",
+      "p4": "Through this website, I found Margarita Petrova. She was an immediate breath of fresh air!",
+      "p5": "Margarita took the time to listen to me, took my concerns seriously and gave me exercises and massage advice. My husband was even allowed to film the massage so that we could repeat it at home. Of course, she also provided acupuncture treatments, followed later by biopuncture treatments.",
+      "p6": "She gave me the feeling that I could actively contribute to my own recovery and help get things moving again.",
+      "p7": "After the disappointing response from my GP, who is otherwise a very good doctor, I was extremely glad that I found Margarita.",
+      "p8": "And yes, I have overcome the paralysis. Everything moves again!",
+      "p9": "Thank you, Margarita, for all your work and support. You have kept me sane through all of this!"
+    },
+    "marcE": {
+      "p1": "Almost nine months ago, I was diagnosed with Bell’s palsy. The GP on duty provided appropriate care immediately and prescribed prednisone, but she had never heard of any specific treatment for the condition.",
+      "p2": "At first, I was absolutely terrified when the symptoms became even worse.",
+      "p3": "Naturally, like many people nowadays, I searched online and found Margarita Petrova.",
+      "p4": "What a relief it was to find someone who knew what needed to be done and who could start helping me straight away.",
+      "p5": "The treatment involved taping, facial massage, acupuncture and getting plenty of rest.",
+      "p6": "It worked wonderfully, and I was—and still am—extremely grateful to Margarita for everything she did.",
+      "p7": "She is a highly skilled doctor who is also very good at reassuring patients.",
+      "p8": "I also received biopuncture treatment from her for my recurrent sinus infections and persistent colds, which worked very well for me too.",
+      "p9": "I have now recovered completely, without any residual symptoms, which I find an astonishing result. I am 50 years old, so I am no longer one of the youngest patients.",
+      "p10": "I recommend that anyone who develops Bell’s palsy contact Margarita immediately. She is a specialist in this field.",
+      "p11": "Margarita, thank you for your fantastic work!"
+    },
+    "anoukV": {
+      "p1": "Two days after giving birth in August, I developed a numb sensation in my mouth and tongue. It felt as though I had received an injection of local anaesthetic at the dentist and it had not yet worn off.",
+      "p2": "That evening, my lips could no longer meet properly, and during the night, my left eye also stopped closing.",
+      "p3": "I was worried that I might be having a transient ischaemic attack (TIA) or a stroke.",
+      "p4": "I went straight to my GP the following morning, and I was prescribed a 10-day course of prednisone.",
+      "p5": "I was extremely frightened!",
+      "p6": "What my GP did not tell me was that the condition could continue to worsen during the first five days. Every morning, I woke up wondering what my face would look like that day.",
+      "p7": "For about three weeks, I had to drink through a straw.",
+      "p8": "Through someone I knew, I was referred to Ms Petrova. Thanks to her treatments, taping and exercises, I recovered remarkably quickly.",
+      "p9": "I ultimately had five treatments.",
+      "p10": "My GP had told me that recovery could take three to six months. Fortunately, that was not the case for me.",
+      "p11": "I am extremely happy that I received treatment from Ms Petrova and very grateful to her."
+    },
+    "antjeP": {
+      "p1": "On July 2, 2017, after two weeks of severe headaches, I was suddenly struck by facial paralysis on the right side of my face.",
+      "p2": "The cause was a Lyme disease infection.",
+      "p3": "My neurologist arranged for me to receive antibiotics intravenously for two weeks.",
+      "p4": "My GP drew my attention to Margarita Petrova, who had specialised in treating this condition.",
+      "p5": "She proved to be an enormous source of support. In addition to the treatment, she gave me practical instructions on what I could do myself, including daily exercises and taping the paralysed side of my face.",
+      "p6": "She monitored my progress by taking photographs and comparing them with those from previous visits.",
+      "p7": "In total, I needed eight treatments before she was satisfied with the results and my face looked normal again, at least to an outside observer.",
+      "p8": "All in all, I am very glad that she supported me throughout this process, because initially my face was completely paralysed. My eye would not close, and I could not move my eyebrow or eyelid at all.",
+      "p9": "It is now September 20, and I am once again able to function normally. I owe a large part of this recovery to the dedication and care with which she treated me.",
+      "p10": "In other words, I can wholeheartedly recommend Margarita Petrova to anyone who has to deal with this distressing condition!"
     }
   },
   "testimonials": {
@@ -75,41 +137,6 @@
     "lena": {
       "quote": "The eye care instructions were more useful than anything I got at the hospital, where I was handed a leaflet and sent home. My cornea is fine and I think that is why.",
       "ctx": "Bell's palsy · Malmö · started at week 1"
-    }
-  },
-  "endorsements": {
-    "rahn": {
-      "role": "Consultant Otolaryngologist",
-      "where": "Vienna",
-      "quote": "What is unusual here is the restraint. The programme does not promise recovery, does not grade patients against each other, and is explicit about where the evidence is thin. I refer patients to it and I read the progress reports they send me."
-    },
-    "aubert": {
-      "role": "Neurorehabilitation, university hospital",
-      "where": "Lille",
-      "quote": "Stage-matching is the part that matters clinically. Handing every patient the same exercise sheet regardless of whether they have synkinesis is common practice and it is not good practice. This does better than that."
-    },
-    "solberg": {
-      "role": "Specialist facial physiotherapist",
-      "where": "Oslo",
-      "quote": "I use the scan timeline in my own clinic sessions. Being able to show a patient objective change during a nine-week plateau does something for them that my reassurance alone does not."
-    }
-  },
-  "press": {
-    "healthTechEurope": {
-      "headline": "The rehabilitation apps that refuse to gamify recovery",
-      "kind": "Feature"
-    },
-    "jdr": {
-      "headline": "Remote facial neuromuscular retraining: an observational cohort of 1,204 users",
-      "kind": "Peer-reviewed"
-    },
-    "derStandard": {
-      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
-      "kind": "Interview"
-    },
-    "bpa": {
-      "headline": "Reviewed resource: Palsya",
-      "kind": "Patient organisation"
     }
   }
 }

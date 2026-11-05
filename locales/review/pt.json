@@ -300,54 +300,9 @@
     "note": "Deletion within 30 days."
   },
   {
-    "key": "stories.items.marta.body",
-    "reason": "clinical",
-    "note": "Clinical course narrative; synkinesis; steroids within 48 h."
-  },
-  {
-    "key": "stories.items.tomas.body",
-    "reason": "clinical",
-    "note": "Plateau, measurement margin, compensations ('compensações se instalam')."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "terminology",
-    "note": "'Acoustic neuroma' = 'neurinoma do acústico' (alternatively 'schwannoma vestibular')."
-  },
-  {
-    "key": "stories.items.sanne.body",
-    "reason": "clinical",
-    "note": "Post-surgical recovery pattern."
-  },
-  {
     "key": "stories.testimonials.lena.quote",
     "reason": "clinical",
     "note": "Cornea / eye care claim in testimonial."
-  },
-  {
-    "key": "stories.endorsements.rahn.role",
-    "reason": "terminology",
-    "note": "'Consultant Otolaryngologist' = 'Especialista em Otorrinolaringologia' (gender-neutral; adjust if gender is known)."
-  },
-  {
-    "key": "stories.endorsements.aubert.quote",
-    "reason": "clinical",
-    "note": "Clinical claim about stage-matching."
-  },
-  {
-    "key": "stories.endorsements.solberg.role",
-    "reason": "terminology",
-    "note": "'Specialist facial physiotherapist'."
-  },
-  {
-    "key": "stories.press.jdr.headline",
-    "reason": "terminology",
-    "note": "Paper title translated ('Reeducação neuromuscular facial à distância'); may prefer the original English title."
-  },
-  {
-    "key": "stories.press.derStandard.headline",
-    "reason": "terminology",
-    "note": "Left in original German (real headline of a German-language publication)."
   },
   {
     "key": "onboarding.welcome.clinicalNote",

@@ -1,54 +1,116 @@
 {
   "meta": {
-    "title": "Genesungsberichte — Palsya",
-    "description": "Echte Genesungsverläufe von Palsya-Nutzern, einschließlich Stillstand und Rückschlägen, dazu Bewertungen, Stimmen von Fachkräften und Presse."
+    "title": "Genesungsgeschichten — Palsya",
+    "description": "Patientinnen und Patienten beschreiben in eigenen Worten, wie sie wegen einer Bell-Lähmung bzw. Fazialisparese behandelt wurden und wie sie sich erholt haben."
   },
   "hero": {
-    "eyebrow": "Erfahrungsberichte, ehrlich gekennzeichnet",
-    "title": "Echte Genesungsverläufe – auch die schwierigen Teile",
-    "lead": "Jeder Bericht hier stammt von einer echten Person, die zugestimmt hat; die Namen sind auf ihren Wunsch gekürzt. Wir haben die Phasen des Stillstands, die Rückschläge und die Verläufe ohne vollständige Genesung nicht entfernt – genau die brauchen Menschen wirklich zu lesen."
+    "eyebrow": "Erfahrungsberichte von Patienten",
+    "title": "Genesungsgeschichten, in den eigenen Worten der Patienten",
+    "lead": "Menschen, die wegen einer Gesichtslähmung behandelt wurden, beschreiben, was ihnen passiert ist, welche Behandlung sie erhalten haben und wie sie sich erholt haben. Diese Erfahrungsberichte wurden ursprünglich auf Niederländisch verfasst. Jede Genesung verläuft anders, und diese Erfahrungen sind kein Versprechen für das gleiche Ergebnis."
   },
-  "quoted": "„{text}“",
-  "story": {
-    "title": "{name}, {where}",
-    "meta": "{dx} · Start in Woche {week, number} · seit {months, plural, one {# Monat} other {# Monaten}}"
-  },
-  "reviews": {
-    "title": "Bewertungen",
-    "lead": "In der App gesammelt von Nutzern, die mindestens vier Wochen abgeschlossen haben. Wir veröffentlichen auch die schlechten.",
-    "stars": "{n, number} von {max, number} Sternen",
-    "verified": "Geprüfte Nutzerin/geprüfter Nutzer"
-  },
-  "clinicians": {
-    "title": "Von Fachkräften",
-    "lead": "Unabhängige Fachkräfte, die Patienten an uns überweisen. Keine von ihnen wird dafür bezahlt.",
-    "ctx": "{role} · {where}"
-  },
-  "pressSection": {
-    "title": "Presse und Publikationen",
-    "meta": "{pub} · {date}"
-  },
+  "itemMeta": "{country} · {date}",
   "items": {
-    "marta": {
-      "where": "Warschau",
-      "dx": "Idiopathische Fazialisparese",
-      "summary": "Von einer vollständigen rechtsseitigen Lähmung bis zu normalem Essen und Sprechen, mit leichten verbleibenden Synkinesien.",
-      "body": "Marta wachte an einem Dienstag auf und konnte ihr rechtes Auge nicht schließen. Innerhalb von 48 Stunden begann die Kortisonbehandlung. In Woche zwei startete sie mit Palsya in Phase 1 und tat elf Tage lang fast nichts außer Augenschutz und leichter Massage – was sie als den schwierigsten Teil des ganzen Programms beschreibt. Die erste Regung in ihrer Wange kam an Tag 19. Um Woche sieben traten Synkinesien auf, die sie belastender fand als die ursprüngliche Lähmung. Die Koordinationsarbeit in den Phasen 3 und 4 verringerte sie deutlich, aber nicht vollständig. Nach fünf Monaten verengt sich ihr Auge leicht, wenn sie breit lächelt; ansonsten ist die Funktion vollständig.",
-      "quote": "Die Ruhe am Anfang fühlte sich an wie Aufgeben. Das war sie nicht. Heute verstehe ich das, damals nicht."
+    "paulS": {
+      "p1": "Am Samstag, dem 22. Dezember 2018, bemerkte ich ein ungewöhnliches Gefühl im Muskel oder Nerv hinter meinem Ohr. Nachdem ich eine Stunde geschlafen hatte, wachte ich völlig verängstigt auf. Plötzlich war meine gesamte rechte Gesichtshälfte gelähmt.",
+      "p2": "Ich ging sofort in die Notaufnahme, wo man mir sagte, dass ich eine Bell-Lähmung hatte. Ich bekam eine zehntägige Behandlung mit Prednison, Augentropfen und Augensalbe, und man sagte mir, ich solle mich ausruhen und die Erkrankung könne von selbst abklingen – oder auch nicht.",
+      "p3": "Ich war äußerst besorgt und unzufrieden damit, dass nicht mehr getan werden konnte. Ich begann im Internet zu suchen und stieß auf die Website von Margarita Petrova. Ich konnte sie gleich am nächsten Tag aufsuchen und war sehr zufrieden mit ihrer Fachkompetenz auf diesem Gebiet.",
+      "p4": "Sie hat mir mit Akupunktur und Gesichtsmassage enorm geholfen. Sie erklärte mir auch, wie tägliches Tapen helfen kann, die Symmetrie des Gesichts so weit wie möglich zu erhalten. Außerdem gab sie mir Übungen, um die Kraft der Gesichtsmuskeln und die Mimik zu trainieren.",
+      "p5": "Es war beruhigend, aktiv an der Genesung von der Lähmung arbeiten zu können. Das hat mir auch mental richtig Auftrieb gegeben. Einfach abzuwarten und nichts zu tun, kam für mich nicht in Frage.",
+      "p6": "Jetzt, sechs Wochen später, hat sich mein Gesicht zu etwa 95 % erholt, und die Prognose ist, dass ich vollständig genesen werde.",
+      "p7": "Ich möchte Margarita sehr herzlich für ihre professionelle, kompetente und angenehme Betreuung danken. Ich würde sie allen empfehlen."
     },
-    "tomas": {
-      "where": "Porto",
-      "dx": "Idiopathische Fazialisparese",
-      "summary": "Ein langsamer Start, neun Wochen Stillstand und danach stetige Veränderung.",
-      "body": "Tomás kam spät zu Palsya, in Woche sechs, ohne jede Bewegung und mit dem Rat, abzuwarten. Seine ersten acht Scans veränderten sich um weniger als vier Punkte – innerhalb der Messungenauigkeit, also eigentlich gar keine Veränderung. Die Wochen sieben bis fünfzehn beschreibt er als die Zeit, in der er nicht mehr glaubte, dass sich etwas ändern würde. Seine Fachkraft ließ ihn die ganze Zeit in Phase 2, statt ihn weiterzustufen – mit der Begründung, dass sich Ausweichbewegungen genau dann festsetzen, wenn das Programm der Funktion vorauseilt. In Woche sechzehn wurde die Bewegung eindeutig willkürlich. Nach sieben Monaten war sein Symmetriewert um zweiundzwanzig Punkte über den Ausgangswert gestiegen.",
-      "quote": "Neun Wochen flache Linien. Meine Physiotherapeutin wollte mich nicht weiterstufen, und sie hatte recht – aber ungefähr einen Monat lang war ich ihr böse."
+    "harryN": {
+      "p1": "Am 25. Oktober bemerkte ich zum ersten Mal etwas Ungewöhnliches an meinem Geschmackssinn auf der rechten Seite der Zunge. Am nächsten Morgen fiel mir auf, dass meine rechte Gesichtshälfte seltsam aussah und leicht zu ziehen schien. Ich machte sofort einen Körpercheck, weil die Symptome denen eines Schlaganfalls ähnelten. Zum Glück war das nicht der Fall.",
+      "p2": "Dann ging ich zu meinem Hausarzt, der bei mir eine Bell-Lähmung diagnostizierte, auch Gesichtslähmung genannt. Davon hatte ich noch nie gehört. Mir wurde Prednison verschrieben, um die Schwellung zu verringern, die den Nerv beeinträchtigte.",
+      "p3": "Ich beschloss, im Internet zu recherchieren, denn der Rat des Arztes lautete einfach, mich auszuruhen und abzuwarten, bis die Erkrankung von selbst abklingt. Natürlich wollte ich nicht abwarten und nichts tun!",
+      "p4": "So fand ich Bell’s Palsy Amsterdam. Ich rief am darauffolgenden Montag an und erklärte, was passiert war. Ich habe mich früh gemeldet, was wichtig war, denn die ersten Tage und die erste Woche sind entscheidend. Ich bekam für den Donnerstag einen Termin.",
+      "p5": "Ich wurde sehr herzlich empfangen, und Frau Petrova verstand die Erkrankung und das, was ich durchmachte, wirklich. Das war eine große Erleichterung.",
+      "p6": "Die Behandlung begann sofort, und ich bekam Übungen für zu Hause sowie Anleitungen, wie ich mein Gesicht morgens und abends tapen sollte. Ich kam zweimal pro Woche zur Akupunktur und Gesichtsmassage.",
+      "p7": "Nach zwei Wochen bemerkte ich erste Verbesserungen! Nach drei Wochen war die Verbesserung wirklich deutlich.",
+      "p8": "Ich bedauere, dass Ärzte nicht immer erwähnen, dass es bei einer Bell-Lähmung ergänzende Behandlungen gibt, sodass Patienten diese Möglichkeiten selbst durch Recherche im Internet entdecken müssen.",
+      "p9": "Für mich war die Behandlung äußerst hilfreich, und Margarita Petrova hat mich hervorragend betreut. Sie versteht, was man durchmacht, und nimmt sich die Zeit, einem zu helfen.",
+      "p10": "Inzwischen sind sieben Wochen vergangen, und mein Gesicht ist fast vollständig wieder normal! Ich habe noch ein paar kleine Restsymptome, aber ich mache meine Übungen weiterhin jeden Tag, und es geht gut voran.",
+      "p11": "Ich habe mich wegen meines Aussehens sehr geschämt und emotional eine sehr schwierige Zeit durchgemacht. Doch indem ich positiv blieb, mit der Unterstützung des Menschen an meiner Seite, der durch dick und dünn zu mir stand, und mit der Hilfe von Frau Petrova habe ich es geschafft.",
+      "p12": "Ich würde allen, die eine Bell-Lähmung bekommen, empfehlen, sich an Bell’s Palsy Amsterdam zu wenden. Ich werde ihr immer dankbar sein!"
     },
-    "sanne": {
-      "where": "Utrecht",
-      "dx": "Nach Operation",
-      "summary": "Verletzung des Gesichtsnervs nach einer Akustikusneurinom-Operation, mit teilweiser und ungleichmäßiger Genesung.",
-      "body": "Sannes Lähmung trat nach einer Operation auf, was sie in eine andere Kategorie als die idiopathische Fazialisparese einordnet: Der Verlauf war weniger vorhersehbar und der Zeitrahmen länger. Sie nutzte durchgehend das Paket mit sechs Sprechstunden und blieb neun Monate bei derselben Fachkraft. Ihr Mund erholte sich deutlich, ihr Auge teilweise und ihre Stirn kaum – ein ungleichmäßiges Muster, das sie nach eigenen Worten leichter annehmen konnte, als ihr jemand erklärte, warum es so kommt, statt es als Defizit zu behandeln. Sie ist weiter in Phase 5, mit einer kurzen Erhaltungsroutine und einem Scan alle sechs Wochen.",
-      "quote": "Ich habe aufgehört, mich an dem Gesicht zu messen, das ich früher hatte. Das war keine Niederlage. Es hat mir erlaubt, weiterzumachen."
+    "corinaB": {
+      "p1": "Am 7. September traf auch mich eine Bell-Lähmung.",
+      "p2": "Ich war völlig verängstigt. Ich war erst 23 Jahre alt und wachte eines Morgens mit einem stark verzerrten Gesicht auf. Vor allem mein Auge ließ sich überhaupt nicht schließen.",
+      "p3": "Ich ging sofort in die Notaufnahme, und mir wurde eine zehntägige Behandlung mit Prednison verschrieben.",
+      "p4": "Nach zehn Tagen gab es kaum eine Besserung, und ich wurde wegen der ganzen Situation sehr unsicher und besorgt. Dann begann ich im Internet zu suchen und stieß auf Margarita.",
+      "p5": "Ich vereinbarte einen Termin und konnte sie noch in derselben Woche aufsuchen.",
+      "p6": "Schon nach einer einzigen Behandlung mit Gesichtsmassage und Akupunktur konnte ich ein Ergebnis sehen. Ich hatte insgesamt sechs Behandlungen und habe das Vertrauen in mein Gesicht zurückgewonnen.",
+      "p7": "Es gibt noch ein paar kleinere Probleme, aber ich bin sicher, dass sie besser werden.",
+      "p8": "Ich empfehle diese Behandlung aufrichtig allen, die von dieser schrecklichen Erfahrung betroffen sind.",
+      "p9": "Ich bin von den Ergebnissen absolut begeistert!"
+    },
+    "brunoS": {
+      "p1": "Wenige Tage nach der Diagnose einer Bell-Lähmung begann ich die Behandlung bei Margarita Petrova. Dazu gehörten Akupunktur, Gesichtsmassage und Übungen für zu Hause.",
+      "p2": "Nach einigen Wochen setzte meine Genesung ein, und nach fünf Wochen war in meinem Gesicht kein sichtbares Anzeichen der Erkrankung mehr zu erkennen.",
+      "p3": "Ihre Fachkompetenz, ihre Ratschläge, ihr echtes Interesse und ihre Fürsorge haben mir sehr geholfen.",
+      "p4": "Die Zusammenarbeit mit Frau Petrova gab mir das Gefühl, aktiv etwas gegen meine Erkrankung tun zu können, statt einfach auf die Genesung zu warten.",
+      "p5": "Ich würde allen mit einer Bell-Lähmung eine Behandlung bei Frau Petrova empfehlen!",
+      "p6": "Bruno (48 Jahre alt)"
+    },
+    "martijnP": {
+      "p1": "Während ich mich noch vom Schock erholte und von einer Notfallpraxis nach Hause fuhr, wo mir ein Arzt gerade gesagt hatte, dass ich eine Bell-Lähmung habe, und mir sofort Prednison verschrieben hatte, wies mich meine Freundin auf Bellseparese.nl hin.",
+      "p2": "Nur wenige Tage später wurde ich bereits von Margarita behandelt. Ich war wirklich überrascht, dass Ärzte einem raten, abzuwarten, ob, in welchem Ausmaß und wie schnell sich die Erkrankung zurückbildet, obwohl mir auffiel, dass Ärzte den Verlauf im Allgemeinen optimistisch einschätzen.",
+      "p3": "Natürlich lässt sich kaum genau messen, wie viel die Behandlungen von Margarita zu meiner Genesung beigetragen haben. Jeder Patient ist anders, und in vielen Fällen erholen sich Patienten auch ohne Behandlung.",
+      "p4": "Ich bin jedoch überzeugt, dass die Behandlungen und Übungen, die sie mir gegeben hat, einen wichtigen Beitrag zu meiner Genesung geleistet haben.",
+      "p5": "In dieser Hinsicht sehe ich Margaritas Rolle bei der Behandlung meiner Gesichtsprobleme ganz ähnlich wie die meines Physiotherapeuten. Ein Physiotherapeut hilft dabei, dass eine Verletzung richtig und schneller heilt, als sie es ohne Physiotherapie vielleicht täte. Genau wie Margarita gibt mir auch mein Physiotherapeut Übungen, um die Genesung zu fördern.",
+      "p6": "In meinem Fall stellte sich heraus, dass ich eine leichte Gesichtslähmung hatte, und jetzt, gut fünf Wochen später, habe ich mich fast vollständig erholt.",
+      "p7": "Es ist auch unglaublich beruhigend, sich an Margarita wenden zu können, die so viel über diese Erkrankung weiß und einem hilft, sich so schnell wie möglich von den Symptomen zu erholen, und dabei auch darauf abzielt, das Risiko kleinerer bleibender Beschwerden zu verringern.",
+      "p8": "Ich bin sehr froh, dass ich mich sofort an Margarita gewandt habe.",
+      "p9": "Vielen Dank für alles, Margarita."
+    },
+    "anoukA": {
+      "p1": "Am 23. Februar wachte ich mit einer Bell-Lähmung auf der linken Gesichtshälfte auf.",
+      "p2": "Mein Hausarzt und mein Neurologe empfahlen eine Behandlung mit Prednison, doch danach konnten sie kaum etwas tun, außer mir zu sagen, dass die Genesung lange dauern würde und ich Geduld haben müsse.",
+      "p3": "Das fand ich unbefriedigend.",
+      "p4": "Über diese Website fand ich Margarita Petrova. Sie war sofort ein frischer Wind!",
+      "p5": "Margarita nahm sich die Zeit, mir zuzuhören, nahm meine Sorgen ernst und gab mir Übungen und Tipps zur Massage. Mein Mann durfte die Massage sogar filmen, damit wir sie zu Hause wiederholen konnten. Natürlich behandelte sie mich auch mit Akupunktur und später mit Biopunktur.",
+      "p6": "Sie gab mir das Gefühl, aktiv zu meiner eigenen Genesung beitragen und die Dinge wieder in Gang bringen zu können.",
+      "p7": "Nach der enttäuschenden Reaktion meines Hausarztes, der ansonsten ein sehr guter Arzt ist, war ich überaus froh, Margarita gefunden zu haben.",
+      "p8": "Und ja, ich habe die Lähmung überwunden. Alles bewegt sich wieder!",
+      "p9": "Danke, Margarita, für all deine Arbeit und Unterstützung. Du hast mich bei all dem bei Verstand gehalten!"
+    },
+    "marcE": {
+      "p1": "Vor fast neun Monaten wurde bei mir eine Bell-Lähmung diagnostiziert. Die diensthabende Hausärztin versorgte mich sofort angemessen und verschrieb Prednison, hatte aber noch nie von einer speziellen Behandlung für diese Erkrankung gehört.",
+      "p2": "Anfangs war ich völlig verängstigt, als sich die Symptome noch verschlimmerten.",
+      "p3": "Natürlich suchte ich, wie heutzutage viele Menschen, im Internet und fand Margarita Petrova.",
+      "p4": "Was für eine Erleichterung, jemanden zu finden, der wusste, was zu tun war, und der mir sofort helfen konnte.",
+      "p5": "Die Behandlung bestand aus Tapen, Gesichtsmassage, Akupunktur und viel Ruhe.",
+      "p6": "Es hat wunderbar funktioniert, und ich war – und bin immer noch – Margarita für alles, was sie getan hat, äußerst dankbar.",
+      "p7": "Sie ist eine sehr kompetente Ärztin, die Patienten zudem sehr gut beruhigen kann.",
+      "p8": "Ich habe von ihr auch eine Biopunktur-Behandlung gegen meine wiederkehrenden Nasennebenhöhlenentzündungen und hartnäckigen Erkältungen bekommen, die bei mir ebenfalls sehr gut gewirkt hat.",
+      "p9": "Ich habe mich inzwischen vollständig erholt, ohne jegliche Restsymptome, was ich für ein erstaunliches Ergebnis halte. Ich bin 50 Jahre alt, also gehöre ich nicht mehr zu den jüngsten Patienten.",
+      "p10": "Ich empfehle allen, die eine Bell-Lähmung bekommen, sich sofort an Margarita zu wenden. Sie ist eine Spezialistin auf diesem Gebiet.",
+      "p11": "Margarita, danke für deine fantastische Arbeit!"
+    },
+    "anoukV": {
+      "p1": "Zwei Tage nach der Geburt meines Kindes im August bekam ich ein taubes Gefühl im Mund und in der Zunge. Es fühlte sich an, als hätte ich beim Zahnarzt eine Betäubungsspritze bekommen, deren Wirkung noch nicht nachgelassen hatte.",
+      "p2": "Am Abend konnten sich meine Lippen nicht mehr richtig schließen, und in der Nacht ließ sich auch mein linkes Auge nicht mehr schließen.",
+      "p3": "Ich hatte Angst, eine transitorische ischämische Attacke (TIA) oder einen Schlaganfall zu haben.",
+      "p4": "Am nächsten Morgen ging ich sofort zu meinem Hausarzt, und mir wurde eine zehntägige Behandlung mit Prednison verschrieben.",
+      "p5": "Ich hatte furchtbare Angst!",
+      "p6": "Was mein Hausarzt mir nicht sagte, war, dass sich die Erkrankung in den ersten fünf Tagen weiter verschlimmern konnte. Jeden Morgen wachte ich auf und fragte mich, wie mein Gesicht an diesem Tag aussehen würde.",
+      "p7": "Etwa drei Wochen lang musste ich mit einem Strohhalm trinken.",
+      "p8": "Über einen Bekannten wurde ich an Frau Petrova verwiesen. Dank ihrer Behandlungen, des Tapens und der Übungen habe ich mich bemerkenswert schnell erholt.",
+      "p9": "Insgesamt hatte ich fünf Behandlungen.",
+      "p10": "Mein Hausarzt hatte mir gesagt, dass die Genesung drei bis sechs Monate dauern könne. Zum Glück war das bei mir nicht der Fall.",
+      "p11": "Ich bin überaus glücklich, dass ich mich bei Frau Petrova habe behandeln lassen, und ihr sehr dankbar."
+    },
+    "antjeP": {
+      "p1": "Am 2. Juli 2017 traf mich nach zwei Wochen mit starken Kopfschmerzen plötzlich eine Gesichtslähmung auf der rechten Gesichtshälfte.",
+      "p2": "Die Ursache war eine Borreliose-Infektion.",
+      "p3": "Mein Neurologe veranlasste, dass ich zwei Wochen lang intravenös Antibiotika bekam.",
+      "p4": "Mein Hausarzt machte mich auf Margarita Petrova aufmerksam, die sich auf die Behandlung dieser Erkrankung spezialisiert hatte.",
+      "p5": "Sie erwies sich als enorme Stütze. Neben der Behandlung gab sie mir praktische Anleitungen, was ich selbst tun konnte, darunter tägliche Übungen und das Tapen der gelähmten Gesichtshälfte.",
+      "p6": "Sie verfolgte meine Fortschritte, indem sie Fotos machte und sie mit denen von früheren Besuchen verglich.",
+      "p7": "Insgesamt brauchte ich acht Behandlungen, bis sie mit den Ergebnissen zufrieden war und mein Gesicht wieder normal aussah, zumindest für Außenstehende.",
+      "p8": "Alles in allem bin ich sehr froh, dass sie mich während dieses ganzen Prozesses begleitet hat, denn anfangs war mein Gesicht vollständig gelähmt. Mein Auge ließ sich nicht schließen, und ich konnte meine Augenbraue und mein Augenlid überhaupt nicht bewegen.",
+      "p9": "Heute ist der 20. September, und ich kann wieder ganz normal funktionieren. Einen großen Teil dieser Genesung verdanke ich dem Engagement und der Sorgfalt, mit der sie mich behandelt hat.",
+      "p10": "Mit anderen Worten: Ich kann Margarita Petrova allen, die mit dieser belastenden Erkrankung zu kämpfen haben, von ganzem Herzen empfehlen!"
     }
   },
   "testimonials": {
@@ -75,41 +137,6 @@
     "lena": {
       "quote": "Die Anleitung zur Augenpflege war hilfreicher als alles, was ich im Krankenhaus bekam – dort drückte man mir ein Merkblatt in die Hand und schickte mich nach Hause. Meiner Hornhaut geht es gut, und ich glaube, das ist der Grund.",
       "ctx": "Idiopathische Fazialisparese · Malmö · Start in Woche 1"
-    }
-  },
-  "endorsements": {
-    "rahn": {
-      "role": "Fachärztin/Facharzt für HNO-Heilkunde",
-      "where": "Wien",
-      "quote": "Ungewöhnlich ist hier die Zurückhaltung. Das Programm verspricht keine Genesung, stellt Patienten nicht in eine Rangfolge und sagt offen, wo die Studienlage dünn ist. Ich überweise Patienten dorthin und lese die Fortschrittsberichte, die sie mir schicken."
-    },
-    "aubert": {
-      "role": "Neurorehabilitation, Universitätsklinikum",
-      "where": "Lille",
-      "quote": "Die Anpassung an die Phase ist klinisch der entscheidende Teil. Allen Patienten dasselbe Übungsblatt zu geben, egal ob sie Synkinesien haben oder nicht, ist gängige Praxis – aber keine gute. Das hier macht es besser."
-    },
-    "solberg": {
-      "role": "Spezialisierte Physiotherapie für das Gesicht",
-      "where": "Oslo",
-      "quote": "Ich nutze den Scan-Verlauf in meinen eigenen Praxisterminen. Einem Patienten während neun Wochen Stillstand eine objektive Veränderung zeigen zu können, bewirkt bei ihm etwas, das meine Beruhigung allein nicht schafft."
-    }
-  },
-  "press": {
-    "healthTechEurope": {
-      "headline": "Die Reha-Apps, die Genesung nicht zum Spiel machen wollen",
-      "kind": "Reportage"
-    },
-    "jdr": {
-      "headline": "Neuromuskuläres Training des Gesichts aus der Ferne: eine Beobachtungskohorte mit 1.204 Nutzern",
-      "kind": "Peer-Review"
-    },
-    "derStandard": {
-      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
-      "kind": "Interview"
-    },
-    "bpa": {
-      "headline": "Geprüfte Ressource: Palsya",
-      "kind": "Patientenorganisation"
     }
   }
 }

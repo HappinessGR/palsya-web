@@ -175,16 +175,6 @@
     "note": "'Measurement variability' = 'meetvariasie'; decimal comma in +-2,5."
   },
   {
-    "key": "stories.endorsements.rahn.role",
-    "reason": "terminology",
-    "note": "'Consultant Otolaryngologist' = 'Konsultant-otolaringoloog' (SA lay usage: 'oor-, neus- en keelspesialis')."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "terminology",
-    "note": "'acoustic neuroma' = 'akoestiese neuroom'."
-  },
-  {
     "key": "onboarding.phase.confidenceLabel",
     "reason": "terminology",
     "note": "Placement 'Confidence' = 'Betroubaarheid'."
@@ -203,16 +193,6 @@
     "key": "pricing.card.subscribe",
     "reason": "terminology",
     "note": "'Subscribe' = 'Teken in'; sign-in is consistently 'Meld aan'. Consider 'Word intekenaar' if confusing."
-  },
-  {
-    "key": "stories.press.jdr.headline",
-    "reason": "terminology",
-    "note": "Published English article title translated per brief rule 6; consider keeping the original since it is a citation."
-  },
-  {
-    "key": "stories.press.derStandard.headline",
-    "reason": "terminology",
-    "note": "German headline kept in original German (published title), so identical to source."
   },
   {
     "key": "common.medicalDisclaimer",
@@ -2525,81 +2505,6 @@
     "note": "Exercise dose format."
   },
   {
-    "key": "stories.items.marta.where",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.marta.dx",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.marta.summary",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.marta.body",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.marta.quote",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.tomas.where",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.tomas.dx",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.tomas.summary",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.tomas.body",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.tomas.quote",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.sanne.where",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.sanne.dx",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.sanne.body",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
-    "key": "stories.items.sanne.quote",
-    "reason": "clinical",
-    "note": "Patient case story with clinical detail."
-  },
-  {
     "key": "stories.testimonials.marek.quote",
     "reason": "clinical",
     "note": "Testimonial with diagnosis/eye care detail."
@@ -2658,51 +2563,6 @@
     "key": "stories.testimonials.lena.ctx",
     "reason": "clinical",
     "note": "Testimonial with diagnosis/eye care detail."
-  },
-  {
-    "key": "stories.endorsements.rahn.role",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.rahn.where",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.rahn.quote",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.aubert.role",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.aubert.where",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.aubert.quote",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.solberg.role",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.solberg.where",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.endorsements.solberg.quote",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
   },
   {
     "key": "pricing.plans.guided.forWho",
@@ -2908,11 +2768,6 @@
     "key": "onboarding.ready.nameFallback",
     "reason": "tone",
     "note": "Fallback for {name} in 'Alles is gereed, {name}' is 'welkom'; English 'there' has no Afrikaans equivalent. Reads slightly odd."
-  },
-  {
-    "key": "stories.items.tomas.quote",
-    "reason": "tone",
-    "note": "'vies vir haar' is informal; matches the spoken quote."
   },
   {
     "key": "auth.continue.errors.roleMismatch",

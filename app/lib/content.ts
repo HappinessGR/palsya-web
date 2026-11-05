@@ -6,8 +6,7 @@
  *
  *   guides.articles.<slug>.{title,blurb}      guides.faq.<group>.items.<q>.{q,a}
  *   pricing.plans.<id>.{name,forWho,features.<feature>}
- *   stories.items.<id>.*   stories.testimonials.<id>.*   stories.endorsements.<id>.*
- *   stories.press.<id>.{headline,kind}        common.medicalDisclaimer
+ *   stories.items.<id>.p<n>   stories.testimonials.<id>.*   common.medicalDisclaimer
  */
 import { localeRegions, type Locale } from "../../i18n/config";
 
@@ -86,12 +85,22 @@ export const plans: Plan[] = [
   },
 ];
 
-export type Story = { id: string; name: string; startedWeek: number; months: number };
+/**
+ * Patient testimonials on /stories (real, originally written in Dutch). The
+ * text is in locales/<locale>/stories.json as items.<id>.p1 … p<paragraphs>.
+ */
+export type Story = { id: string; name: string; country: string; date: string; paragraphs: number };
 
 export const stories: Story[] = [
-  { id: "marta", name: "Marta", startedWeek: 2, months: 5 },
-  { id: "tomas", name: "Tomás", startedWeek: 6, months: 7 },
-  { id: "sanne", name: "Sanne", startedWeek: 3, months: 9 },
+  { id: "paulS", name: "Paul S.", country: "NL", date: "2019-02-20", paragraphs: 7 },
+  { id: "harryN", name: "Harry N.", country: "NL", date: "2018-12-12", paragraphs: 12 },
+  { id: "corinaB", name: "Corina B.", country: "NL", date: "2018-11-10", paragraphs: 9 },
+  { id: "brunoS", name: "Bruno S.", country: "NL", date: "2018-11-02", paragraphs: 6 },
+  { id: "martijnP", name: "Martijn P.", country: "NL", date: "2018-05-30", paragraphs: 9 },
+  { id: "anoukA", name: "Anouk A.", country: "NL", date: "2018-05-17", paragraphs: 9 },
+  { id: "marcE", name: "Marc E.", country: "NL", date: "2018-03-17", paragraphs: 11 },
+  { id: "anoukV", name: "Anouk V.", country: "NL", date: "2017-12-04", paragraphs: 11 },
+  { id: "antjeP", name: "Antje P.", country: "NL", date: "2017-09-22", paragraphs: 10 },
 ];
 
 export type Testimonial = { id: string; who: string; stars: number };
@@ -103,24 +112,6 @@ export const testimonials: Testimonial[] = [
   { id: "rosa", who: "Rosa C.", stars: 4 },
   { id: "youssef", who: "Youssef B.", stars: 5 },
   { id: "lena", who: "Lena S.", stars: 5 },
-];
-
-export type Endorsement = { id: string; name: string };
-
-export const endorsements: Endorsement[] = [
-  { id: "rahn", name: "Dr. Elisabeth Rahn" },
-  { id: "aubert", name: "Prof. Michel Aubert" },
-  { id: "solberg", name: "Ingrid Solberg, PT" },
-];
-
-/** `when` is the first of the publication month; format with month + year. */
-export type PressItem = { id: string; pub: string; when: string };
-
-export const press: PressItem[] = [
-  { id: "healthTechEurope", pub: "Health Tech Europe", when: "2026-03-01" },
-  { id: "jdr", pub: "Journal of Digital Rehabilitation", when: "2026-01-01" },
-  { id: "derStandard", pub: "Der Standard", when: "2025-11-01" },
-  { id: "bpa", pub: "Bell's Palsy Association UK", when: "2025-09-01" },
 ];
 
 /**
@@ -173,13 +164,6 @@ export function money(n: number, locale: Locale): string {
 /** Day + short month ("14 Jun", "14 de jun.", "14. Juni"). */
 export function fmtDateMD(iso: string, locale: Locale): string {
   return new Intl.DateTimeFormat(localeRegions[locale], { day: "numeric", month: "short", timeZone: "UTC" }).format(
-    new Date(`${iso}T00:00:00Z`),
-  );
-}
-
-/** Month + year ("March 2026", "März 2026"). */
-export function fmtMonthYear(iso: string, locale: Locale): string {
-  return new Intl.DateTimeFormat(localeRegions[locale], { month: "long", year: "numeric", timeZone: "UTC" }).format(
     new Date(`${iso}T00:00:00Z`),
   );
 }

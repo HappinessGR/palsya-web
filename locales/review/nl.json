@@ -2180,61 +2180,6 @@
     "note": "Age reference."
   },
   {
-    "key": "stories.items.marta.body",
-    "reason": "clinical",
-    "note": "Patient story with clinical details."
-  },
-  {
-    "key": "stories.items.marta.summary",
-    "reason": "clinical",
-    "note": "Story summary."
-  },
-  {
-    "key": "stories.items.marta.quote",
-    "reason": "tone",
-    "note": "Patient quote."
-  },
-  {
-    "key": "stories.items.tomas.body",
-    "reason": "clinical",
-    "note": "Patient story with clinical details."
-  },
-  {
-    "key": "stories.items.tomas.summary",
-    "reason": "clinical",
-    "note": "Story summary."
-  },
-  {
-    "key": "stories.items.tomas.quote",
-    "reason": "tone",
-    "note": "Patient quote."
-  },
-  {
-    "key": "stories.items.sanne.body",
-    "reason": "clinical",
-    "note": "Patient story with clinical details."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "clinical",
-    "note": "Story summary."
-  },
-  {
-    "key": "stories.items.sanne.quote",
-    "reason": "tone",
-    "note": "Patient quote."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "terminology",
-    "note": "Acoustic neuroma = brughoektumor (akoestisch neurinoom)."
-  },
-  {
-    "key": "stories.items.sanne.dx",
-    "reason": "terminology",
-    "note": "Post-surgical = 'Na een operatie'."
-  },
-  {
     "key": "stories.testimonials.youssef.ctx",
     "reason": "terminology",
     "note": "Post-surgical facial nerve injury."
@@ -2248,51 +2193,6 @@
     "key": "stories.testimonials.marek.quote",
     "reason": "clinical",
     "note": "Over-effort claim."
-  },
-  {
-    "key": "stories.endorsements.rahn.role",
-    "reason": "terminology",
-    "note": "Consultant Otolaryngologist = KNO-arts."
-  },
-  {
-    "key": "stories.endorsements.aubert.role",
-    "reason": "terminology",
-    "note": "Neurorevalidatie, academisch ziekenhuis."
-  },
-  {
-    "key": "stories.endorsements.solberg.role",
-    "reason": "terminology",
-    "note": "Specialist facial physiotherapist = gespecialiseerd fysiotherapeut aangezicht."
-  },
-  {
-    "key": "stories.endorsements.aubert.quote",
-    "reason": "clinical",
-    "note": "Clinical practice claim."
-  },
-  {
-    "key": "stories.endorsements.rahn.quote",
-    "reason": "clinical",
-    "note": "Clinician endorsement."
-  },
-  {
-    "key": "stories.press.jdr.headline",
-    "reason": "terminology",
-    "note": "Research headline translated; confirm whether publication headlines should stay in the original English."
-  },
-  {
-    "key": "stories.press.jdr.kind",
-    "reason": "terminology",
-    "note": "Peer-reviewed = wetenschappelijk getoetst."
-  },
-  {
-    "key": "stories.press.derStandard.headline",
-    "reason": "terminology",
-    "note": "German original headline kept untranslated on purpose (shows in --same)."
-  },
-  {
-    "key": "stories.hero.eyebrow",
-    "reason": "tone",
-    "note": "'Social proof, honestly labelled' = 'Ervaringen, eerlijk gelabeld'."
   },
   {
     "key": "pricing.plans.guided.forWho",

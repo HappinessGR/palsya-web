@@ -220,54 +220,9 @@
     "note": "Deletion within 30 days."
   },
   {
-    "key": "stories.items.marta.dx",
-    "reason": "terminology",
-    "note": "Short diagnosis labels use 'Idiopathische Fazialisparese' for Bell's palsy (also in testimonials ctx) to distinguish from other causes. Brief suggested 'Fazialisparese'; alone it would not distinguish from Ramsay Hunt/post-surgical."
-  },
-  {
-    "key": "stories.items.marta.body",
-    "reason": "clinical",
-    "note": "Case history with synkinesis."
-  },
-  {
-    "key": "stories.items.tomas.body",
-    "reason": "clinical",
-    "note": "'compensations' rendered 'Ausweichbewegungen'."
-  },
-  {
-    "key": "stories.items.sanne.summary",
-    "reason": "terminology",
-    "note": "Acoustic neuroma -> 'Akustikusneurinom' (current term also 'Vestibularisschwannom')."
-  },
-  {
-    "key": "stories.items.sanne.body",
-    "reason": "clinical",
-    "note": "Post-surgical recovery pattern."
-  },
-  {
     "key": "stories.testimonials.lena.quote",
     "reason": "clinical",
     "note": "Eye care / cornea."
-  },
-  {
-    "key": "stories.endorsements.rahn.role",
-    "reason": "terminology",
-    "note": "'Consultant Otolaryngologist' -> 'Fachärztin/Facharzt für HNO-Heilkunde' (gender unknown)."
-  },
-  {
-    "key": "stories.endorsements.solberg.role",
-    "reason": "terminology",
-    "note": "'Specialist facial physiotherapist' -> 'Spezialisierte Physiotherapie für das Gesicht'."
-  },
-  {
-    "key": "stories.press.jdr.headline",
-    "reason": "terminology",
-    "note": "Peer-reviewed article title translated; consider keeping the original English title if it is cited."
-  },
-  {
-    "key": "stories.press.derStandard.headline",
-    "reason": "tone",
-    "note": "Already German in source; kept unchanged."
   },
   {
     "key": "onboarding.welcome.clinicalNote",

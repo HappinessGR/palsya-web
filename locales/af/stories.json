@@ -1,54 +1,116 @@
 {
   "meta": {
     "title": "Herstelverhale — Palsya",
-    "description": "Werklike herstel van Palsya-gebruikers, insluitend die plato's en terugslae, asook resensies, aanbevelings van klinici en persberigte."
+    "description": "Pasiënte beskryf in hul eie woorde hoe hulle vir Bell se verlamming en gesigsverlamming behandel is en hoe hulle herstel het."
   },
   "hero": {
-    "eyebrow": "Sosiale bewys, eerlik benoem",
-    "title": "Werklike herstel, insluitend die moeilike dele",
-    "lead": "Elke verhaal hier kom van 'n werklike gebruiker wat daartoe ingestem het, met name wat op hul versoek verkort is. Ons het nie die plato's, die terugslae of die uitkomste wat nie tot volle herstel gelei het nie, verwyder nie — dit is juis dié wat mense moet lees."
+    "eyebrow": "Getuienisse van pasiënte",
+    "title": "Herstelverhale, in pasiënte se eie woorde",
+    "lead": "Mense wat vir gesigsverlamming behandel is, beskryf wat met hulle gebeur het, watter behandeling hulle ontvang het en hoe hulle herstel het. Hierdie getuienisse is oorspronklik in Nederlands geskryf. Elke herstel is anders, en hierdie ervarings is nie ’n belofte van dieselfde resultaat nie."
   },
-  "quoted": "\"{text}\"",
-  "story": {
-    "title": "{name}, {where}",
-    "meta": "{dx} · begin in week {week, number} · {months, plural, one {# maand in die program} other {# maande in die program}}"
-  },
-  "reviews": {
-    "title": "Resensies",
-    "lead": "In die toep ingesamel van gebruikers wat minstens vier weke voltooi het. Ons publiseer die lae tellings ook.",
-    "stars": "{n, number} uit {max, number} sterre",
-    "verified": "Geverifieerde gebruiker"
-  },
-  "clinicians": {
-    "title": "Van klinici",
-    "lead": "Onafhanklike klinici wat pasiënte na ons verwys. Nie een van hulle word hiervoor betaal nie.",
-    "ctx": "{role} · {where}"
-  },
-  "pressSection": {
-    "title": "Pers en publikasies",
-    "meta": "{pub} · {date}"
-  },
+  "itemMeta": "{country} · {date}",
   "items": {
-    "marta": {
-      "where": "Warskou",
-      "dx": "Bell se verlamming",
-      "summary": "Van 'n volledige regterkantse verlamming tot normale eet en praat, met ligte sinkinese wat oorbly.",
-      "body": "Marta het op 'n Dinsdag wakker geword en kon nie haar regteroog toemaak nie. Steroïede is binne 48 uur begin. Sy het in week twee met Palsya begin, in fase 1, en elf dae lank byna niks anders gedoen as oogbeskerming en ligte masseer nie — wat sy beskryf as die moeilikste deel van die hele program. Die eerste flikkering in haar wang het op dag 19 gekom. Sinkinese het omstreeks week sewe verskyn, wat sy meer ontstellend gevind het as die oorspronklike verlamming. Koördinasiewerk deur fases 3 en 4 het dit aansienlik verminder, maar nie heeltemal nie. Vyf maande later vernou haar oog effens wanneer sy breed glimlag, en andersins het sy volle funksie.",
-      "quote": "Die stilte aan die begin het gevoel soos opgee. Dit was nie. Ek verstaan dit nou, en toe het ek nie."
+    "paulS": {
+      "p1": "Op Saterdag 22 Desember 2018 het ek ’n ongewone gevoel in die spier of senuwee agter my oor begin ervaar. Nadat ek ’n uur lank geslaap het, het ek doodsbenoud wakker geword. Skielik was die hele regterkant van my gesig verlam.",
+      "p2": "Ek is reguit na die noodafdeling, waar ek te hore gekom het dat ek Bell se verlamming het. Ek het ’n 10-dae-kursus prednisoon, oogdruppels en oogsalf gekry, en is aangesê om te rus en dat die toestand dalk vanself sou opklaar, of dalk nie.",
+      "p3": "Ek was uiters bekommerd en ontevrede daarmee dat niks meer gedoen kon word nie. Ek het aanlyn begin soek en op Margarita Petrova se webwerf afgekom. Ek kon haar sommer die volgende dag sien en was baie tevrede met haar kundigheid op hierdie gebied.",
+      "p4": "Sy het my geweldig gehelp met akupunktuur en gesigmassering. Sy het ook verduidelik hoe daaglikse tape kon help om die simmetrie van my gesig so veel moontlik te behou. Daarbenewens het sy vir my oefeninge gegee om die krag van my gesigspiere en my gesigsuitdrukkings te oefen.",
+      "p5": "Dit was gerusstellend om aktief aan my herstel van die verlamming te kon werk. Dit het my ook geestelik ’n ware hupstoot gegee. Om bloot te wag en niks te doen nie, was vir my nie ’n opsie nie.",
+      "p6": "Nou, ses weke later, het my gesig ongeveer 95% herstel, en die prognose is dat ek volkome sal herstel.",
+      "p7": "Ek wil Margarita baie hartlik bedank vir haar professionele, kundige en aangename sorg. Ek sal haar vir almal aanbeveel."
     },
-    "tomas": {
-      "where": "Porto",
-      "dx": "Bell se verlamming",
-      "summary": "'n Stadige begin, 'n plato van nege weke, en bestendige verandering daarna.",
-      "body": "Tomás het laat na Palsya gekom, in week ses, sonder enige beweging en nadat hy aangesê is om maar te wag en te kyk. Sy eerste agt skanderings het minder as vier punte verskuif, wat binne die meetmarge is en dus eintlik glad nie beweging nie. Hy beskryf weke sewe tot vyftien as die punt waar hy opgehou het om te glo dat enigiets sou verander. Sy klinikus het hom die hele tydperk in fase 2 gehou eerder as om hom te laat vorder, met die redenasie dat kompensasies gevestig raak wanneer 'n program voor die funksie uit beweeg. Beweging het in week sestien duidelik willekeurig geword. Teen maand sewe het sy simmetrietelling twee-en-twintig punte bo die basislyn gestyg.",
-      "quote": "Nege weke van plat lyne. My fisio wou my nie laat aanbeweeg nie, en sy was reg, maar ek was omtrent 'n maand lank vies vir haar."
+    "harryN": {
+      "p1": "Op 25 Oktober het ek die eerste keer iets ongewoons opgemerk aan my smaaksin aan die regterkant van my tong. Die volgende oggend het ek gesien dat die regterkant van my gesig vreemd lyk en effens skeef trek. Ek het dadelik my liggaam nagegaan, want die simptome het soos dié van ’n beroerte gelyk. Gelukkig was dit nie die geval nie.",
+      "p2": "Toe is ek na my huisdokter, wat Bell se verlamming, ook bekend as gesigsverlamming, gediagnoseer het. Ek het nog nooit daarvan gehoor nie. Ek het prednisoon voorgeskryf gekry om die swelling wat die senuwee aantas, te verminder.",
+      "p3": "Ek het besluit om aanlyn navorsing te doen, want die dokter se raad was bloot om te rus en te wag dat die toestand vanself opklaar. Ek wou natuurlik nie wag en niks doen nie!",
+      "p4": "Só het ek Bell’s Palsy Amsterdam gevind. Ek het die volgende Maandag gebel en verduidelik wat gebeur het. Ek het vroeg kontak gemaak, wat belangrik was, want die eerste paar dae en die eerste week is deurslaggewend. Ek kon daardie Donderdag ’n afspraak kry.",
+      "p5": "Ek is baie hartlik ontvang, en me. Petrova het die toestand en wat ek deurgemaak het, werklik verstaan. Dit was ’n groot verligting.",
+      "p6": "Die behandeling het dadelik begin en ek het oefeninge gekry om tuis te doen, asook instruksies oor hoe om my gesig soggens en saans te tape. Ek het twee keer per week vir akupunktuur en gesigmassering gegaan.",
+      "p7": "Ná twee weke het ek verbeterings begin opmerk! Ná drie weke was die verbetering werklik beduidend.",
+      "p8": "Ek betreur dit dat dokters nie altyd noem dat aanvullende behandelings vir Bell se verlamming beskikbaar is nie, sodat pasiënte self deur aanlyn navorsing hierdie opsies moet ontdek.",
+      "p9": "Vir my was die behandeling uiters voordelig, en Margarita Petrova het uitstekende sorg gebied. Sy verstaan wat jy deurmaak en neem die tyd om jou te help.",
+      "p10": "Dit is nou sewe weke later, en my gesig is amper heeltemal terug na normaal! Ek het nog ’n paar geringe oorblywende simptome, maar ek doen steeds elke dag my oefeninge, en dit gaan goed.",
+      "p11": "Ek het my baie geskaam oor my voorkoms en het emosioneel ’n baie moeilike tyd deurgemaak. Maar deur positief te bly, met die steun van ’n lewensmaat wat deur dik en dun by my gestaan het, en met me. Petrova se hulp, het ek daardeur gekom.",
+      "p12": "Ek sal enigiemand wat Bell se verlamming kry, aanbeveel om Bell’s Palsy Amsterdam te kontak. Ek sal altyd dankbaar wees teenoor haar!"
     },
-    "sanne": {
-      "where": "Utrecht",
-      "dx": "Ná 'n operasie",
-      "summary": "Gesigsenuweebesering ná 'n operasie vir 'n akoestiese neuroom, met gedeeltelike en asimmetriese herstel.",
-      "body": "Sanne se verlamming het op 'n operasie gevolg, wat haar in 'n ander kategorie as Bell se verlamming plaas: die herstelpatroon was minder voorspelbaar en die tydlyn langer. Sy het die hele tyd die pakket met ses konsultasies gebruik en nege maande lank by dieselfde klinikus gebly. Haar mond het aansienlik herstel, haar oog gedeeltelik, en haar voorkop skaars — 'n ongelyke patroon wat sy sê makliker was om te aanvaar sodra iemand verduidelik het waarom dit gebeur, eerder as om dit as 'n tekortkoming te behandel. Sy gaan voort in fase 5 met 'n kort onderhoudsroetine en 'n skandering elke ses weke.",
-      "quote": "Ek het opgehou om myself te meet aan die gesig wat ek vroeër gehad het. Dit was nie 'n nederlaag nie. Dit was wat my in staat gestel het om aan te gaan."
+    "corinaB": {
+      "p1": "Op 7 September is ek ook deur Bell se verlamming getref.",
+      "p2": "Ek was doodsbang. Ek was net 23 jaar oud en het een oggend wakker geword met ’n erg verwronge gesig. Veral my oog wou glad nie toegaan nie.",
+      "p3": "Ek is reguit na die noodafdeling en het ’n 10-dae-kursus prednisoon voorgeskryf gekry.",
+      "p4": "Ná tien dae was daar min verbetering, en ek het baie onseker en bekommerd oor die hele situasie geraak. Toe het ek aanlyn begin soek en op Margarita afgekom.",
+      "p5": "Ek het ’n afspraak gemaak en kon haar nog dieselfde week sien.",
+      "p6": "Ná net een behandeling met gesigmassering en akupunktuur kon ek reeds ’n resultaat sien. Ek het altesaam ses behandelings gehad en het my selfvertroue in my gesig herwin.",
+      "p7": "Daar is nog ’n paar klein kwessies, maar ek is seker hulle sal verbeter.",
+      "p8": "Ek beveel hierdie behandeling opreg aan vir enigiemand wat deur hierdie verskriklike ervaring geraak word.",
+      "p9": "Ek is uiters bly met die resultate!"
+    },
+    "brunoS": {
+      "p1": "Binne ’n paar dae nadat ek met Bell se verlamming gediagnoseer is, het ek met behandeling by Margarita Petrova begin. Dit het akupunktuur, gesigmassering en oefeninge om tuis te doen ingesluit.",
+      "p2": "Ná ’n paar weke het my herstel begin, en ná vyf weke was daar geen sigbare teken van die toestand op my gesig nie.",
+      "p3": "Haar kundigheid, raad, opregte belangstelling en sorg was vir my uiters voordelig.",
+      "p4": "Om saam met me. Petrova te werk, het my die gevoel gegee dat ek aktief iets aan my toestand kon doen eerder as om bloot op herstel te wag.",
+      "p5": "Ek sal behandeling by me. Petrova vir almal met Bell se verlamming aanbeveel!",
+      "p6": "Bruno (48 jaar oud)"
+    },
+    "martijnP": {
+      "p1": "Terwyl ek van die skok herstel het en huis toe gery het van ’n dringende mediese sorgsentrum, waar ’n dokter my pas vertel het dat ek Bell se verlamming het en dadelik prednisoon voorgeskryf het, het my meisie my na Bellseparese.nl verwys.",
+      "p2": "Net ’n paar dae later het ek reeds behandeling by Margarita ontvang. Ek was werklik verbaas dat dokters jou sê om af te wag en te sien óf, in watter mate en hoe vinnig die toestand sal herstel, hoewel ek opgemerk het dat dokters oor die algemeen optimisties oor die uitkoms is.",
+      "p3": "Dit is natuurlik moeilik om presies te meet hoeveel die behandelings wat Margarita gegee het, tot my herstel bygedra het. Elke pasiënt is anders, en in baie gevalle herstel pasiënte ook sonder behandeling.",
+      "p4": "Ek is egter oortuig dat die behandelings en oefeninge wat sy my gegee het, ’n belangrike bydrae tot my herstel gelewer het.",
+      "p5": "In hierdie opsig sien ek Margarita se rol in die behandeling van my gesigsprobleme op baie dieselfde manier as dié van my fisioterapeut. ’n Fisioterapeut help ’n besering om behoorlik en vinniger te genees as wat dit sonder fisioterapie sou doen. Net soos Margarita gee my fisioterapeut my ook oefeninge om herstel te bevorder.",
+      "p6": "In my geval het dit geblyk dat ek ’n ligte gesigsverlamming gehad het, en nou, net meer as vyf weke later, het ek amper heeltemal herstel.",
+      "p7": "Dit is ook ongelooflik gerusstellend om na Margarita te kan gaan, wat so baie van hierdie toestand weet en jou help om so vinnig moontlik van die simptome te herstel, terwyl sy ook daarna streef om die risiko van geringe blywende probleme te verminder.",
+      "p8": "Ek is baie bly dat ek Margarita dadelik gekontak het.",
+      "p9": "Baie dankie vir alles, Margarita."
+    },
+    "anoukA": {
+      "p1": "Op 23 Februarie het ek wakker geword met Bell se verlamming aan die linkerkant van my gesig.",
+      "p2": "My huisdokter en neuroloog het ’n kursus prednisoon aanbeveel, maar daarna kon hulle min doen behalwe om my te sê dat herstel lank sou neem en dat ek geduldig moes wees.",
+      "p3": "Ek het dit onbevredigend gevind.",
+      "p4": "Deur hierdie webwerf het ek Margarita Petrova gevind. Sy was dadelik ’n vars briesie!",
+      "p5": "Margarita het die tyd geneem om na my te luister, my bekommernisse ernstig opgeneem en my oefeninge en masseringsraad gegee. My man mog selfs die massering verfilm sodat ons dit tuis kon herhaal. Sy het natuurlik ook akupunktuurbehandelings gegee, en later biopunktuurbehandelings.",
+      "p6": "Sy het my die gevoel gegee dat ek aktief tot my eie herstel kon bydra en kon help om dinge weer aan die gang te kry.",
+      "p7": "Ná die teleurstellende reaksie van my huisdokter, wat andersins ’n baie goeie dokter is, was ek uiters bly dat ek Margarita gevind het.",
+      "p8": "En ja, ek het die verlamming oorkom. Alles beweeg weer!",
+      "p9": "Dankie, Margarita, vir al jou werk en steun. Jy het my deur dit alles by my volle verstand gehou!"
+    },
+    "marcE": {
+      "p1": "Amper nege maande gelede is ek met Bell se verlamming gediagnoseer. Die huisdokter aan diens het dadelik gepaste sorg verskaf en prednisoon voorgeskryf, maar sy het nog nooit van enige spesifieke behandeling vir die toestand gehoor nie.",
+      "p2": "Aanvanklik was ek doodsbang toe die simptome nog erger geword het.",
+      "p3": "Soos baie mense deesdae het ek natuurlik aanlyn gesoek en Margarita Petrova gevind.",
+      "p4": "Wat ’n verligting was dit om iemand te vind wat geweet het wat gedoen moes word en wat my dadelik kon begin help.",
+      "p5": "Die behandeling het tape, gesigmassering, akupunktuur en baie rus behels.",
+      "p6": "Dit het wonderlik gewerk, en ek was – en is steeds – uiters dankbaar teenoor Margarita vir alles wat sy gedoen het.",
+      "p7": "Sy is ’n hoogs bekwame dokter wat ook baie goed is daarmee om pasiënte gerus te stel.",
+      "p8": "Ek het ook biopunktuurbehandeling by haar ontvang vir my herhalende sinusinfeksies en aanhoudende verkoues, wat ook vir my baie goed gewerk het.",
+      "p9": "Ek het nou heeltemal herstel, sonder enige oorblywende simptome, wat ek ’n verstommende resultaat vind. Ek is 50 jaar oud, so ek is nie meer een van die jongste pasiënte nie.",
+      "p10": "Ek beveel aan dat enigiemand wat Bell se verlamming kry, Margarita dadelik kontak. Sy is ’n spesialis op hierdie gebied.",
+      "p11": "Margarita, dankie vir jou fantastiese werk!"
+    },
+    "anoukV": {
+      "p1": "Twee dae nadat ek in Augustus geboorte geskenk het, het ek ’n dowwe gevoel in my mond en tong gekry. Dit het gevoel asof ek by die tandarts ’n inspuiting met plaaslike verdowing gekry het wat nog nie uitgewerk het nie.",
+      "p2": "Daardie aand kon my lippe nie meer behoorlik op mekaar kom nie, en gedurende die nag het my linkeroog ook opgehou toegaan.",
+      "p3": "Ek was bekommerd dat ek dalk ’n verbygaande isgemiese aanval (TIA) of ’n beroerte kry.",
+      "p4": "Ek is die volgende oggend reguit na my huisdokter, en ek het ’n 10-dae-kursus prednisoon voorgeskryf gekry.",
+      "p5": "Ek was uiters bang!",
+      "p6": "Wat my huisdokter my nie vertel het nie, is dat die toestand gedurende die eerste vyf dae kon aanhou vererger. Elke oggend het ek wakker geword en gewonder hoe my gesig daardie dag sou lyk.",
+      "p7": "Vir sowat drie weke moes ek deur ’n strooitjie drink.",
+      "p8": "Deur iemand wat ek geken het, is ek na me. Petrova verwys. Danksy haar behandelings, tape en oefeninge het ek merkwaardig vinnig herstel.",
+      "p9": "Uiteindelik het ek vyf behandelings gehad.",
+      "p10": "My huisdokter het my gesê dat herstel drie tot ses maande kon neem. Gelukkig was dit nie vir my die geval nie.",
+      "p11": "Ek is uiters bly dat ek behandeling by me. Petrova ontvang het en is baie dankbaar teenoor haar."
+    },
+    "antjeP": {
+      "p1": "Op 2 Julie 2017, ná twee weke van erge hoofpyn, is ek skielik deur gesigsverlamming aan die regterkant van my gesig getref.",
+      "p2": "Die oorsaak was ’n Lyme-siekte-infeksie.",
+      "p3": "My neuroloog het gereël dat ek twee weke lank binneaarse antibiotika ontvang.",
+      "p4": "My huisdokter het my aandag gevestig op Margarita Petrova, wat in die behandeling van hierdie toestand gespesialiseer het.",
+      "p5": "Sy was ’n geweldige bron van steun. Benewens die behandeling het sy my praktiese instruksies gegee oor wat ek self kon doen, insluitend daaglikse oefeninge en die tape van die verlamde kant van my gesig.",
+      "p6": "Sy het my vordering gemonitor deur foto’s te neem en dit te vergelyk met dié van vorige besoeke.",
+      "p7": "Altesaam het ek agt behandelings nodig gehad voordat sy tevrede was met die resultate en my gesig weer normaal gelyk het, ten minste vir ’n buitestaander.",
+      "p8": "Al met al is ek baie bly dat sy my deur hierdie hele proses bygestaan het, want aanvanklik was my gesig heeltemal verlam. My oog wou nie toegaan nie, en ek kon my wenkbrou of ooglid glad nie beweeg nie.",
+      "p9": "Dit is nou 20 September, en ek kan weer normaal funksioneer. Ek het ’n groot deel van hierdie herstel te danke aan die toewyding en sorg waarmee sy my behandel het.",
+      "p10": "Met ander woorde, ek kan Margarita Petrova van harte aanbeveel vir enigiemand wat met hierdie ontstellende toestand te kampe het!"
     }
   },
   "testimonials": {
@@ -75,41 +137,6 @@
     "lena": {
       "quote": "Die instruksies vir oogsorg was nuttiger as enigiets wat ek in die hospitaal gekry het, waar ek 'n pamflet gekry het en huis toe gestuur is. My kornea is in orde en ek dink dit is hoekom.",
       "ctx": "Bell se verlamming · Malmö · begin in week 1"
-    }
-  },
-  "endorsements": {
-    "rahn": {
-      "role": "Konsultant-otolaringoloog",
-      "where": "Wene",
-      "quote": "Wat hier ongewoon is, is die selfbeheersing. Die program belowe nie herstel nie, gradeer nie pasiënte teen mekaar nie, en is eksplisiet oor waar die bewyse dun is. Ek verwys pasiënte daarheen en ek lees die vorderingsverslae wat hulle vir my stuur."
-    },
-    "aubert": {
-      "role": "Neurorehabilitasie, universiteitshospitaal",
-      "where": "Lille",
-      "quote": "Om die fase te laat pas, is die deel wat klinies saak maak. Om elke pasiënt dieselfde oefenblad te gee, ongeag of hulle sinkinese het, is algemene praktyk, en dit is nie goeie praktyk nie. Dit doen beter as dit."
-    },
-    "solberg": {
-      "role": "Gespesialiseerde gesigsfisioterapeut",
-      "where": "Oslo",
-      "quote": "Ek gebruik die skanderingstydlyn in my eie kliniese sessies. Om 'n pasiënt tydens 'n plato van nege weke objektiewe verandering te kan wys, doen iets vir hulle wat my gerusstelling alleen nie doen nie."
-    }
-  },
-  "press": {
-    "healthTechEurope": {
-      "headline": "Die rehabilitasietoeps wat weier om herstel in 'n speletjie te verander",
-      "kind": "Artikel"
-    },
-    "jdr": {
-      "headline": "Neuromuskulêre heropleiding van die gesig op afstand: 'n waarnemingskohort van 1 204 gebruikers",
-      "kind": "Portuurbeoordeel"
-    },
-    "derStandard": {
-      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
-      "kind": "Onderhoud"
-    },
-    "bpa": {
-      "headline": "Hersiene hulpbron: Palsya",
-      "kind": "Pasiëntorganisasie"
     }
   }
 }

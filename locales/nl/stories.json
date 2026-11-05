@@ -1,54 +1,116 @@
 {
   "meta": {
     "title": "Herstelverhalen — Palsya",
-    "description": "Echte herstelverhalen van Palsya-gebruikers, inclusief de periodes van stilstand en de tegenslagen, plus beoordelingen, aanbevelingen van behandelaars en pers."
+    "description": "Patiënten vertellen in hun eigen woorden hoe zij behandeld zijn voor bellse parese en aangezichtsverlamming en hoe zij hersteld zijn."
   },
   "hero": {
-    "eyebrow": "Ervaringen, eerlijk gelabeld",
-    "title": "Echt herstel, inclusief de moeilijke delen",
-    "lead": "Elk verhaal hier komt van een echte gebruiker die daar toestemming voor gaf, met op hun verzoek ingekorte namen. We hebben de periodes van stilstand, de tegenslagen en de uitkomsten die niet tot volledig herstel leidden, er niet uit gehaald — juist die verhalen hebben mensen nodig."
+    "eyebrow": "Ervaringen van patiënten",
+    "title": "Herstelverhalen, in de woorden van patiënten zelf",
+    "lead": "Mensen die behandeld zijn voor een aangezichtsverlamming vertellen wat hun overkwam, welke behandeling ze kregen en hoe ze herstelden. Deze ervaringsverhalen zijn geschreven door Nederlandse patiënten. Elk herstel is anders, en deze ervaringen zijn geen belofte van hetzelfde resultaat."
   },
-  "quoted": "‘{text}’",
-  "story": {
-    "title": "{name}, {where}",
-    "meta": "{dx} · begonnen in week {week, number} · {months, plural, one {# maand bezig} other {# maanden bezig}}"
-  },
-  "reviews": {
-    "title": "Beoordelingen",
-    "lead": "Verzameld in de app bij gebruikers die minstens vier weken hebben afgerond. We publiceren ook de lage.",
-    "stars": "{n, number} van de {max, number} sterren",
-    "verified": "Geverifieerde gebruiker"
-  },
-  "clinicians": {
-    "title": "Van behandelaars",
-    "lead": "Onafhankelijke behandelaars die patiënten naar ons doorverwijzen. Geen van hen wordt hiervoor betaald.",
-    "ctx": "{role} · {where}"
-  },
-  "pressSection": {
-    "title": "Pers en publicaties",
-    "meta": "{pub} · {date}"
-  },
+  "itemMeta": "{country} · {date}",
   "items": {
-    "marta": {
-      "where": "Warschau",
-      "dx": "Bell's parese",
-      "summary": "Van een volledige verlamming rechts tot normaal eten en praten, met nog lichte synkinesie.",
-      "body": "Marta werd op een dinsdag wakker en kon haar rechteroog niet sluiten. Binnen 48 uur begon ze met corticosteroïden. In week twee startte ze met Palsya, in fase 1, en elf dagen lang deed ze bijna niets anders dan haar oog beschermen en licht masseren — volgens haar het zwaarste deel van het hele programma. De eerste trilling in haar wang kwam op dag 19. Rond week zeven ontstond synkinesie, wat ze erger vond dan de oorspronkelijke verlamming. Coördinatietraining in fase 3 en 4 verminderde die flink, maar niet helemaal. Na vijf maanden wordt haar oog iets kleiner als ze breed lacht, en verder functioneert alles volledig.",
-      "quote": "De stilte in het begin voelde als opgeven. Dat was het niet. Nu begrijp ik dat, toen niet."
+    "paulS": {
+      "p1": "Op zaterdag 22 december 2018 kreeg ik een vreemd gevoel in de spier of zenuw achter mijn oor. Nadat ik een uur had geslapen, werd ik doodsbang wakker. Ineens was mijn hele rechtergezichtshelft verlamd.",
+      "p2": "Ik ben direct naar de spoedeisende hulp gegaan, waar mij werd verteld dat ik bellse parese had. Ik kreeg een prednisonkuur van 10 dagen, oogdruppels en oogzalf, en het advies om rust te nemen; de aandoening zou misschien vanzelf overgaan, of misschien ook niet.",
+      "p3": "Ik was erg ongerust en ontevreden over het feit dat er verder niets gedaan kon worden. Ik ben op internet gaan zoeken en kwam terecht op de website van Margarita Petrova. Ik kon de volgende dag al bij haar terecht en was erg te spreken over haar deskundigheid op dit gebied.",
+      "p4": "Zij heeft mij enorm geholpen met acupunctuur en gezichtsmassage. Ook legde ze uit hoe dagelijks tapen kon helpen om de symmetrie van het gezicht zoveel mogelijk te behouden. Daarnaast gaf ze mij oefeningen om de kracht van de gezichtsspieren en de gezichtsuitdrukkingen te trainen.",
+      "p5": "Het gaf rust dat ik actief aan mijn herstel van de verlamming kon werken. Het gaf me ook mentaal echt een steun in de rug. Alleen maar afwachten en niets doen was voor mij geen optie.",
+      "p6": "Nu, zes weken later, is mijn gezicht voor ongeveer 95% hersteld, en de verwachting is dat ik volledig zal herstellen.",
+      "p7": "Ik wil Margarita heel hartelijk bedanken voor haar professionele, deskundige en prettige zorg. Ik kan haar iedereen aanraden."
     },
-    "tomas": {
-      "where": "Porto",
-      "dx": "Bell's parese",
-      "summary": "Een trage start, negen weken stilstand, en daarna gestage verandering.",
-      "body": "Tomás kwam laat bij Palsya, in week zes, zonder enige beweging en met het advies om af te wachten. Zijn eerste acht scans veranderden minder dan vier punten, wat binnen de meetmarge valt en dus eigenlijk helemaal geen verandering is. Week zeven tot en met vijftien beschrijft hij als het moment waarop hij niet meer geloofde dat er iets zou veranderen. Zijn behandelaar hield hem die hele periode in fase 2 in plaats van hem door te laten gaan, omdat een programma dat vooruitloopt op de functie precies de manier is waarop compensaties ontstaan. In week zestien werd de beweging duidelijk bewust. In maand zeven was zijn symmetriescore tweeëntwintig punten gestegen ten opzichte van de nulmeting.",
-      "quote": "Negen weken vlakke lijnen. Mijn fysiotherapeut wilde me niet laten doorgaan en ze had gelijk, maar ik heb het haar een maand lang kwalijk genomen."
+    "harryN": {
+      "p1": "Op 25 oktober merkte ik voor het eerst iets vreemds aan mijn smaak aan de rechterkant van mijn tong. De volgende ochtend zag ik dat mijn rechtergezichtshelft er raar uitzag en een beetje leek te trekken. Ik heb meteen een lichaamscheck gedaan, omdat de klachten leken op die van een beroerte. Gelukkig was dat niet het geval.",
+      "p2": "Daarna ben ik naar mijn huisarts gegaan, die bellse parese vaststelde, ook wel aangezichtsverlamming genoemd. Ik had er nog nooit van gehoord. Ik kreeg prednison voorgeschreven om de zwelling rond de zenuw te verminderen.",
+      "p3": "Ik besloot op internet te gaan zoeken, omdat het advies van de arts simpelweg was om rust te nemen en af te wachten tot het vanzelf over zou gaan. Natuurlijk wilde ik niet afwachten en niets doen!",
+      "p4": "Zo vond ik Bell’s Palsy Amsterdam. Ik belde de maandag daarop en legde uit wat er was gebeurd. Ik nam er vroeg contact mee op, en dat was belangrijk, want de eerste dagen en de eerste week zijn cruciaal. Ik kon die donderdag al terecht.",
+      "p5": "Ik werd heel hartelijk ontvangen, en mevrouw Petrova begreep de aandoening en wat ik doormaakte echt. Dat was een grote opluchting.",
+      "p6": "De behandeling begon meteen en ik kreeg oefeningen mee voor thuis en instructies om mijn gezicht 's ochtends en 's avonds te tapen. Ik ging twee keer per week voor acupunctuur en gezichtsmassage.",
+      "p7": "Na twee weken begon ik verbetering te merken! Na drie weken was de verbetering echt aanzienlijk.",
+      "p8": "Ik vind het jammer dat artsen niet altijd vertellen dat er aanvullende behandelingen bestaan voor bellse parese, waardoor patiënten deze mogelijkheden zelf via internet moeten ontdekken.",
+      "p9": "Voor mij was de behandeling enorm waardevol, en Margarita Petrova heeft mij uitstekend geholpen. Ze begrijpt wat je doormaakt en neemt de tijd om je te helpen.",
+      "p10": "Het is nu zeven weken later en mijn gezicht is bijna helemaal weer normaal! Ik heb nog een paar kleine restklachten, maar ik blijf elke dag mijn oefeningen doen en het gaat de goede kant op.",
+      "p11": "Ik schaamde me echt voor mijn uiterlijk en heb emotioneel een heel zware periode gehad. Maar door positief te blijven, met de steun van een partner die door dik en dun achter me stond, en met de hulp van mevrouw Petrova, ben ik er doorheen gekomen.",
+      "p12": "Ik raad iedereen die bellse parese krijgt aan om contact op te nemen met Bell’s Palsy Amsterdam. Ik zal haar altijd dankbaar blijven!"
     },
-    "sanne": {
-      "where": "Utrecht",
-      "dx": "Na een operatie",
-      "summary": "Letsel van de aangezichtszenuw na een operatie aan een brughoektumor (akoestisch neurinoom), met gedeeltelijk en ongelijk herstel.",
-      "body": "Sannes verlamming ontstond na een operatie, waardoor ze in een andere categorie valt dan Bell's parese: het herstelpatroon was minder voorspelbaar en het traject langer. Ze gebruikte het hele traject het pakket met zes consulten en bleef negen maanden bij dezelfde behandelaar. Haar mond herstelde grotendeels, haar oog gedeeltelijk en haar voorhoofd nauwelijks — een ongelijk patroon dat ze naar eigen zeggen makkelijker kon accepteren toen iemand uitlegde waarom dat gebeurt, in plaats van het als een tekortkoming te behandelen. Ze gaat door in fase 5 met een korte onderhoudsroutine en een scan om de zes weken.",
-      "quote": "Ik ben opgehouden mezelf te meten aan het gezicht dat ik vroeger had. Dat was geen nederlaag. Daardoor kon ik juist verder."
+    "corinaB": {
+      "p1": "Op 7 september werd ook ik getroffen door bellse parese.",
+      "p2": "Ik was doodsbang. Ik was pas 23 jaar en werd op een ochtend wakker met een flink scheefgetrokken gezicht. Vooral mijn oog ging helemaal niet meer dicht.",
+      "p3": "Ik ben direct naar de spoedeisende hulp gegaan en kreeg een prednisonkuur van 10 dagen voorgeschreven.",
+      "p4": "Na tien dagen was er weinig verbetering, en ik werd erg onzeker en ongerust over de hele situatie. Toen ben ik op internet gaan zoeken en kwam ik bij Margarita terecht.",
+      "p5": "Ik maakte een afspraak en kon dezelfde week nog bij haar terecht.",
+      "p6": "Na slechts één behandeling met gezichtsmassage en acupunctuur zag ik al resultaat. Ik heb in totaal zes behandelingen gehad en heb het vertrouwen in mijn gezicht teruggekregen.",
+      "p7": "Er zijn nog een paar kleine dingetjes, maar ik weet zeker dat die nog verbeteren.",
+      "p8": "Ik raad deze behandeling oprecht aan iedereen aan die deze vreselijke ervaring meemaakt.",
+      "p9": "Ik ben ontzettend blij met het resultaat!"
+    },
+    "brunoS": {
+      "p1": "Binnen een paar dagen nadat bij mij bellse parese was vastgesteld, ben ik met de behandeling bij Margarita Petrova begonnen. Die bestond uit acupunctuur, gezichtsmassage en oefeningen voor thuis.",
+      "p2": "Na een paar weken begon mijn herstel, en na vijf weken was er niets meer van de aandoening aan mijn gezicht te zien.",
+      "p3": "Haar deskundigheid, adviezen, oprechte interesse en zorg hebben mij enorm geholpen.",
+      "p4": "Door de samenwerking met mevrouw Petrova had ik het gevoel dat ik actief iets aan mijn aandoening kon doen, in plaats van alleen maar af te wachten tot ik herstelde.",
+      "p5": "Ik zou een behandeling bij mevrouw Petrova iedereen met bellse parese aanraden!",
+      "p6": "Bruno (48 jaar)"
+    },
+    "martijnP": {
+      "p1": "Terwijl ik van de schrik bekwam en naar huis reed van de huisartsenpost, waar een arts mij net had verteld dat ik bellse parese had en meteen prednison had voorgeschreven, wees mijn vriendin mij op Bellseparese.nl.",
+      "p2": "Een paar dagen later werd ik al door Margarita behandeld. Ik was echt verbaasd dat artsen je zeggen af te wachten of, in welke mate en hoe snel de aandoening herstelt, al merkte ik wel dat artsen over het algemeen optimistisch zijn over de afloop.",
+      "p3": "Het is natuurlijk lastig om precies te meten hoeveel de behandelingen van Margarita aan mijn herstel hebben bijgedragen. Iedere patiënt is anders, en in veel gevallen herstellen patiënten ook zonder behandeling.",
+      "p4": "Toch ben ik ervan overtuigd dat de behandelingen en oefeningen die zij mij gaf een belangrijke bijdrage aan mijn herstel hebben geleverd.",
+      "p5": "Wat dat betreft zie ik de rol van Margarita bij de behandeling van mijn gezichtsklachten ongeveer zoals die van mijn fysiotherapeut. Een fysiotherapeut helpt een blessure goed en sneller te genezen dan zonder fysiotherapie misschien het geval zou zijn. Net als Margarita geeft mijn fysiotherapeut mij ook oefeningen om het herstel te bevorderen.",
+      "p6": "In mijn geval bleek het om een lichte aangezichtsverlamming te gaan, en nu, ruim vijf weken later, ben ik bijna volledig hersteld.",
+      "p7": "Het geeft ook ontzettend veel rust dat je terechtkunt bij Margarita, die zoveel weet van deze aandoening en je helpt zo snel mogelijk van de klachten te herstellen, met daarbij ook het doel om de kans op kleine blijvende klachten te verkleinen.",
+      "p8": "Ik ben erg blij dat ik direct contact met Margarita heb opgenomen.",
+      "p9": "Heel erg bedankt voor alles, Margarita."
+    },
+    "anoukA": {
+      "p1": "Op 23 februari werd ik wakker met bellse parese aan de linkerkant van mijn gezicht.",
+      "p2": "Mijn huisarts en neuroloog adviseerden een prednisonkuur, maar daarna konden ze weinig meer doen dan mij vertellen dat het herstel lang zou duren en dat ik geduld moest hebben.",
+      "p3": "Daar nam ik geen genoegen mee.",
+      "p4": "Via deze website vond ik Margarita Petrova. Zij was meteen een verademing!",
+      "p5": "Margarita nam de tijd om naar me te luisteren, nam mijn zorgen serieus en gaf me oefeningen en massageadviezen. Mijn man mocht de massage zelfs filmen, zodat we die thuis konden herhalen. Natuurlijk gaf ze ook acupunctuurbehandelingen, later gevolgd door biopunctuurbehandelingen.",
+      "p6": "Ze gaf me het gevoel dat ik actief kon bijdragen aan mijn eigen herstel en kon helpen de boel weer in beweging te krijgen.",
+      "p7": "Na de teleurstellende reactie van mijn huisarts, die verder een hele goede arts is, was ik ontzettend blij dat ik Margarita had gevonden.",
+      "p8": "En ja, ik ben over de verlamming heen. Alles beweegt weer!",
+      "p9": "Dank je wel, Margarita, voor al je werk en steun. Jij hebt me hier al die tijd doorheen geholpen zonder dat ik gek werd!"
+    },
+    "marcE": {
+      "p1": "Bijna negen maanden geleden werd bij mij bellse parese vastgesteld. De dienstdoende huisarts gaf direct de juiste zorg en schreef prednison voor, maar zij had nog nooit van een specifieke behandeling voor deze aandoening gehoord.",
+      "p2": "In het begin was ik doodsbang toen de klachten nog erger werden.",
+      "p3": "Natuurlijk ging ik, zoals zoveel mensen tegenwoordig, op internet zoeken en vond ik Margarita Petrova.",
+      "p4": "Wat een opluchting was het om iemand te vinden die wist wat er moest gebeuren en die me meteen kon helpen.",
+      "p5": "De behandeling bestond uit tapen, gezichtsmassage, acupunctuur en veel rust nemen.",
+      "p6": "Het werkte geweldig, en ik was – en ben nog steeds – Margarita ontzettend dankbaar voor alles wat ze heeft gedaan.",
+      "p7": "Ze is een zeer kundige arts die ook heel goed is in het geruststellen van patiënten.",
+      "p8": "Ik kreeg van haar ook biopunctuur voor mijn terugkerende bijholteontstekingen en aanhoudende verkoudheden, en dat werkte bij mij ook heel goed.",
+      "p9": "Ik ben nu volledig hersteld, zonder enige restklachten, wat ik een verbluffend resultaat vind. Ik ben 50 jaar, dus ik hoor niet meer bij de jongste patiënten.",
+      "p10": "Ik raad iedereen die bellse parese krijgt aan om direct contact op te nemen met Margarita. Zij is een specialist op dit gebied.",
+      "p11": "Margarita, bedankt voor je fantastische werk!"
+    },
+    "anoukV": {
+      "p1": "Twee dagen nadat ik in augustus was bevallen, kreeg ik een doof gevoel in mijn mond en tong. Het voelde alsof ik bij de tandarts een verdoving had gekregen die nog niet was uitgewerkt.",
+      "p2": "Die avond konden mijn lippen niet meer goed op elkaar komen, en 's nachts ging ook mijn linkeroog niet meer dicht.",
+      "p3": "Ik was bang dat ik een TIA of een beroerte had.",
+      "p4": "De volgende ochtend ben ik direct naar mijn huisarts gegaan, en ik kreeg een prednisonkuur van 10 dagen voorgeschreven.",
+      "p5": "Ik was ontzettend geschrokken!",
+      "p6": "Wat mijn huisarts mij niet vertelde, was dat de aandoening de eerste vijf dagen nog kon verergeren. Elke ochtend werd ik wakker en vroeg ik me af hoe mijn gezicht er die dag uit zou zien.",
+      "p7": "Ongeveer drie weken lang moest ik door een rietje drinken.",
+      "p8": "Via een kennis werd ik doorverwezen naar mevrouw Petrova. Dankzij haar behandelingen, het tapen en de oefeningen ben ik opmerkelijk snel hersteld.",
+      "p9": "Uiteindelijk heb ik vijf behandelingen gehad.",
+      "p10": "Mijn huisarts had me verteld dat het herstel drie tot zes maanden kon duren. Gelukkig was dat bij mij niet het geval.",
+      "p11": "Ik ben ontzettend blij dat ik door mevrouw Petrova ben behandeld en ben haar erg dankbaar."
+    },
+    "antjeP": {
+      "p1": "Op 2 juli 2017 werd ik, na twee weken van hevige hoofdpijn, plotseling getroffen door een aangezichtsverlamming aan de rechterkant van mijn gezicht.",
+      "p2": "De oorzaak was een infectie met de ziekte van Lyme.",
+      "p3": "Mijn neuroloog regelde dat ik twee weken lang antibiotica via een infuus kreeg.",
+      "p4": "Mijn huisarts wees mij op Margarita Petrova, die zich had gespecialiseerd in de behandeling van deze aandoening.",
+      "p5": "Zij bleek een enorme steun. Naast de behandeling gaf ze me praktische instructies over wat ik zelf kon doen, waaronder dagelijkse oefeningen en het tapen van de verlamde kant van mijn gezicht.",
+      "p6": "Ze volgde mijn vooruitgang door foto's te maken en die te vergelijken met die van eerdere bezoeken.",
+      "p7": "In totaal had ik acht behandelingen nodig voordat zij tevreden was met het resultaat en mijn gezicht er weer normaal uitzag, in elk geval voor een buitenstaander.",
+      "p8": "Al met al ben ik erg blij dat ze mij in dit hele proces heeft begeleid, want in het begin was mijn gezicht volledig verlamd. Mijn oog ging niet dicht en ik kon mijn wenkbrauw en ooglid helemaal niet bewegen.",
+      "p9": "Het is nu 20 september en ik kan weer normaal functioneren. Een groot deel van dit herstel heb ik te danken aan de toewijding en zorg waarmee zij mij heeft behandeld.",
+      "p10": "Kortom, ik kan Margarita Petrova van harte aanbevelen aan iedereen die met deze ingrijpende aandoening te maken krijgt!"
     }
   },
   "testimonials": {
@@ -75,41 +137,6 @@
     "lena": {
       "quote": "De instructies voor oogzorg waren nuttiger dan alles wat ik in het ziekenhuis kreeg, waar ik een folder meekreeg en naar huis werd gestuurd. Mijn hoornvlies is in orde, en ik denk dat het daardoor komt.",
       "ctx": "Bell's parese · Malmö · begonnen in week 1"
-    }
-  },
-  "endorsements": {
-    "rahn": {
-      "role": "KNO-arts",
-      "where": "Wenen",
-      "quote": "Wat hier bijzonder is, is de terughoudendheid. Het programma belooft geen herstel, zet patiënten niet tegen elkaar af en is duidelijk over waar het bewijs mager is. Ik verwijs patiënten ernaar door en ik lees de voortgangsrapporten die ze me sturen."
-    },
-    "aubert": {
-      "role": "Neurorevalidatie, academisch ziekenhuis",
-      "where": "Lille",
-      "quote": "Het afstemmen op de fase is klinisch het belangrijkste onderdeel. Elke patiënt hetzelfde oefenblad geven, ongeacht of er synkinesie is, is gangbaar maar geen goede praktijk. Dit doet het beter."
-    },
-    "solberg": {
-      "role": "Gespecialiseerd fysiotherapeut aangezicht",
-      "where": "Oslo",
-      "quote": "Ik gebruik de scantijdlijn in mijn eigen behandelsessies. Een patiënt objectieve verandering kunnen laten zien tijdens negen weken stilstand, doet iets wat mijn geruststelling alleen niet doet."
-    }
-  },
-  "press": {
-    "healthTechEurope": {
-      "headline": "De revalidatie-apps die herstel weigeren tot een spel te maken",
-      "kind": "Achtergrondartikel"
-    },
-    "jdr": {
-      "headline": "Neuromusculaire hertraining van het gezicht op afstand: een observationeel cohortonderzoek bij 1.204 gebruikers",
-      "kind": "Wetenschappelijk getoetst"
-    },
-    "derStandard": {
-      "headline": "Wenn das Gesicht stillsteht: digitale Hilfe nach Fazialisparese",
-      "kind": "Interview"
-    },
-    "bpa": {
-      "headline": "Beoordeelde bron: Palsya",
-      "kind": "Patiëntenorganisatie"
     }
   }
 }
