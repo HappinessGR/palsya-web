@@ -22,5 +22,13 @@
     "body": "{inviter} het u na Palsya uitgenooi {role, select, admin {as administrateur} other {as klinikus}}. Aanvaar die uitnodiging om u naam en wagwoord in te stel.",
     "button": "Aanvaar uitnodiging",
     "ignore": "As u nie hierdie uitnodiging verwag het nie, kan u hierdie e-pos ignoreer."
+  },
+  "contact": {
+    "subject": "Kontakvorm: {topic}",
+    "heading": "Nuwe boodskap van die kontakvorm",
+    "from": "Van: {name} <{email}>",
+    "topic": "Onderwerp: {topic}",
+    "replyIn": "Antwoord in: {language}",
+    "replyHint": "Antwoord op hierdie e-pos om {name} direk te antwoord."
   }
 }

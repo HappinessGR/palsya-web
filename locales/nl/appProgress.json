@@ -1,8 +1,16 @@
 {
   "common": {
     "stageLabel": "Fase {n}",
-    "state": { "full": "Voltooid", "part": "Deels gedaan", "none": "Niet bijgehouden" },
-    "parts": { "taping": "Tapen", "exercises": "Oefeningen", "routine": "Routine" },
+    "state": {
+      "full": "Voltooid",
+      "part": "Deels gedaan",
+      "none": "Niet bijgehouden"
+    },
+    "parts": {
+      "taping": "Tapen",
+      "exercises": "Oefeningen",
+      "routine": "Routine"
+    },
     "yes": "Ja",
     "no": "Nee"
   },
@@ -103,7 +111,11 @@
     "emptyDaysHint": "Lege dagen zijn gewoon leeg. Er is geen kleur voor \"je hebt gefaald\".",
     "recentSessions": "Recente sessies",
     "felt": "voelde {comfort}",
-    "comfort": { "good": "goed", "tired": "moe", "rushed": "gehaast" },
+    "comfort": {
+      "good": "goed",
+      "tired": "moe",
+      "rushed": "gehaast"
+    },
     "minutes": "{n} minuten",
     "exercises": "{n, plural, one {# oefening} other {# oefeningen}}",
     "notStartedYet": "Nog niet begonnen",

@@ -2948,5 +2948,395 @@
     "key": "emails.invite.body",
     "reason": "tone",
     "note": "ICU select placed after \"na Palsya uitgenooi\" per English order; reads naturally in both branches."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "'GDPR' kept as in pricing/about (not POPIA/AVBR)."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "'encrypted at rest' = 'geënkripteer in rus' (as in pricing.json)."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "GDPR rights terms (regstelling, uitwissing, beperking, oordraagbaarheid, beswaar) — please confirm legal wording."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "'national data protection authority' = 'nasionale databeskermingsowerheid'; for SA users this would be the Information Regulator."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Automated stage assignment ('fasetoewysing'); confirm clinical review wording."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "clinical",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Eligibility/age and onset window (5–90 days ná aanvang); 'onset date' paraphrased as date symptoms began."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "'pro-rate' rendered 'pro rata bereken'."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "clinical",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "Governing-law clause; confirm phrasing 'regstappe te neem waar u woon'."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by a qualified Afrikaans legal reviewer."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Red-flag symptoms; 'limb weakness' = 'swakheid in 'n arm of been'. Confirm."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Eye red flags; urgent referral wording."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "terminology",
+    "note": "DPO = 'databeskermingsbeampte'."
+  },
+  {
+    "key": "contact.topics.plan.b",
+    "reason": "tone",
+    "note": "'no retention call' paraphrased as 'geen oproep om u te probeer hou nie'. Settings labels from dashboard.json."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "clinical",
+    "note": "Specialty name 'Fisiese en Rehabilitasiegeneeskunde'; confirm SA naming."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; check terminology (fase, sinkinese, kleefband)."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "clinical",
+    "note": "Degrees kept as MD, PhD."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; check terminology (fase, sinkinese, kleefband)."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "terminology",
+    "note": "'Certified Facial Rehabilitation Therapist' = 'Gesertifiseerde Gesigsrehabilitasieterapeut'."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "terminology",
+    "note": "Clinical bio; check terminology (fase, sinkinese, kleefband)."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "terminology",
+    "note": "DPT kept as abbreviation."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "terminology",
+    "note": "Clinical bio; check terminology (fase, sinkinese, kleefband)."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "clinical",
+    "note": "'Otolaringologie'; SA usage may be 'oor-, neus- en keelkunde'."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; check terminology (fase, sinkinese, kleefband)."
+  },
+  {
+    "key": "team.members.weber.bio",
+    "reason": "terminology",
+    "note": "'Bell's palsy' = 'Bell se verlamming'."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "'Danish Patient Safety Authority' = 'Deense Owerheid vir Pasiëntveiligheid'."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "'Portugese Mediese Raad'."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

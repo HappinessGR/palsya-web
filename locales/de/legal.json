@@ -1,0 +1,107 @@
+{
+  "tabs": {
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookies"
+  },
+  "lastUpdated": "Zuletzt aktualisiert am {date, date, long}.",
+  "privacy": {
+    "meta": {
+      "title": "Datenschutzerklärung – Palsya",
+      "description": "Was Palsya erhebt, was es mit Ihren Daten niemals tut, wer sie sehen kann, wo sie gespeichert werden und welche Rechte Sie nach der DSGVO haben."
+    },
+    "h": "Datenschutzerklärung",
+    "sub": "Geschrieben, um gelesen zu werden – nicht, um sie durchzustehen.",
+    "s1": {
+      "h": "Die Kurzfassung",
+      "p": "Ihre Daten werden in der Europäischen Union gespeichert und sowohl bei der Speicherung als auch bei der Übertragung verschlüsselt. Gesichtsbilder sind besondere Kategorien personenbezogener Daten nach Art. 9 DSGVO und werden auf Ihrem Gerät verarbeitet. Wir verkaufen keine Daten. Die Nutzung für Forschungszwecke erfolgt nur mit Ihrer Einwilligung, und eine Ablehnung ändert nichts an Ihrem Programm."
+    },
+    "s2": {
+      "h": "Was wir erheben",
+      "p1Strong": "Kontodaten:",
+      "p1": "Ihr Name, Ihre E-Mail-Adresse, Ihr Geburtsdatum und Ihr Land. Das Geburtsdatum dient dazu, zu bestätigen, dass Sie mindestens 14 Jahre alt sind, und zu vermerken, wann die Einwilligung eines Elternteils oder einer erziehungsberechtigten Person erforderlich ist.",
+      "p2Strong": "Gesundheitsdaten:",
+      "p2": "Ihre Antworten aus der Einstufung, Ihre Phase, Ihre Protokolle der Einheiten, Ihre Notizen und Ihre Sprechstundenunterlagen. Dies sind besondere Kategorien personenbezogener Daten nach Art. 9 DSGVO, die wir auf Grundlage Ihrer ausdrücklichen Einwilligung verarbeiten.",
+      "p3Strong": "Gesichtsbilder und Landmarkendaten:",
+      "p3": "biometrische Daten, ebenfalls nach Art. 9. Die Erkennung der Gesichtslandmarken läuft auf Ihrem Gerät. Bilder werden nur gespeichert, wenn Sie der Speicherung zustimmen, und nur, damit Sie Ihren eigenen Verlauf sehen können.",
+      "p4Strong": "Technische Daten:",
+      "p4": "Browsertyp, ungefähre Region anhand Ihrer IP-Adresse und Fehlerprotokolle. Wir verwenden keine Analyse- oder Werbe-Tracker von Drittanbietern."
+    },
+    "s3": {
+      "h": "Was wir nicht tun",
+      "p": "Wir verkaufen keine Daten. Wir geben sie nicht an Werbetreibende, Versicherer oder Arbeitgeber weiter. Wir verwenden Ihr Gesicht nicht, um Modelle zu trainieren, die in Produkten anderer eingesetzt werden. Die Nutzung für Forschungszwecke ist davon getrennt, erfolgt nur mit Ihrer Einwilligung und in aggregierter Form, und eine Ablehnung ändert nichts an Ihrem Programm oder Ihrem Preis."
+    },
+    "s4": {
+      "h": "Wer Ihre Daten sehen kann",
+      "p": "Sie selbst. Die Fachkraft, bei der Sie eine Sprechstunde buchen, beschränkt auf das, was für das Gespräch nötig ist. Die Fachkraft, die Sie überwiesen hat, nur wenn Sie dem gesondert zustimmen. Unsere Entwicklerinnen und Entwickler nur, wenn eine Support-Anfrage es erfordert, nur mit Protokollierung im Audit-Log und niemals, um einfach darin zu stöbern."
+    },
+    "s5": {
+      "h": "Wo die Daten liegen und wie lange",
+      "p": "Auf Servern in der Europäischen Union, bei der Speicherung mit AES-256 und bei der Übertragung mit TLS 1.3 verschlüsselt. Daten aktiver Konten werden aufbewahrt, solange Ihr Konto besteht. Nach der Löschung werden Bilder innerhalb von 30 Tagen entfernt und alles andere innerhalb von 90 Tagen – ausgenommen Unterlagen, die wir gesetzlich aufbewahren müssen, etwa Rechnungen für steuerliche Zwecke."
+    },
+    "s6": {
+      "h": "Ihre Rechte",
+      "p1": "Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch – alle ausübbar unter Einstellungen → Datenschutz und Daten oder per E-Mail an {email}. Sie können jede Einwilligung jederzeit widerrufen. Wenn Sie die Einwilligung zur Fotospeicherung widerrufen, werden Ihre gespeicherten Bilder gelöscht; Ihre Werte bleiben erhalten, sofern Sie diese nicht ebenfalls löschen.",
+      "p2": "Sie haben außerdem das Recht, sich bei Ihrer nationalen Datenschutzaufsichtsbehörde zu beschweren."
+    },
+    "s7": {
+      "h": "Automatisierte Entscheidungen",
+      "p": "Die Einordnung in Ihre Phase erfolgt teilweise automatisiert. Sie ist keine Entscheidung mit rechtlicher Wirkung, Ihnen wird stets die Begründung angezeigt, und Sie können verlangen, dass eine Fachkraft sie überprüft – was automatisch geschieht, wenn die Einordnung unsicher ist."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Nutzungsbedingungen – Palsya",
+      "description": "Was Palsya bietet, wer es nutzen kann, wie Zahlung und Sprechstunden funktionieren, welche Pflichten Sie haben und wo die Grenzen des Angebots liegen."
+    },
+    "h": "Nutzungsbedingungen",
+    "s1": {
+      "h": "Was wir bieten",
+      "p": "Ein unterstützendes Rehabilitationsprogramm bei peripherer Fazialisparese und, in einigen Tarifen, Videosprechstunden mit zugelassenen Fachkräften. Palsya stellt keine Diagnosen, verordnet nichts und ersetzt keine ärztliche Behandlung."
+    },
+    "s2": {
+      "h": "Wer es nutzen kann",
+      "p": "Sie benötigen eine von einer Fachkraft gestellte Diagnose einer peripheren Fazialisparese und müssen mindestens 14 Jahre alt sein. Zwischen 14 und 18 Jahren muss ein Elternteil oder eine erziehungsberechtigte Person einwilligen. Wir fragen nach dem Datum des Beginns, weil unser Programm für den Zeitraum von 5 bis 90 Tagen nach Beginn ausgelegt ist; außerhalb dieses Zeitraums legt eine Fachkraft Ihren Ausgangspunkt fest."
+    },
+    "s3": {
+      "h": "Zahlung",
+      "p": "Dreimonatspakete, im Voraus über Stripe bezahlt. Die ersten sieben Tage sind kostenlos, und vor Tag 8 wird nichts abgebucht. Wenn Sie während der Testphase kündigen, zahlen Sie nichts. Wenn Sie danach kündigen, behalten Sie den Zugang bis zum Ende des bezahlten Zeitraums; angebrochene Zeiträume werden nicht anteilig erstattet."
+    },
+    "s4": {
+      "h": "Sprechstunden",
+      "p": "Die in Ihrem Tarif enthaltenen Sprechstunden verfallen am Ende des Dreimonatszeitraums. Wenn Sie mindestens 12 Stunden vorher absagen oder verschieben, wird Ihnen die Sprechstunde wieder gutgeschrieben. Termine, die ohne Absage versäumt werden, gelten als genutzt – die Zeit der Fachkräfte wird im Voraus eingeplant."
+    },
+    "s5": {
+      "h": "Ihre Pflichten",
+      "p": "Beantworten Sie die Fragen der Einstufung wahrheitsgemäß, denn Ihr Programm baut darauf auf. Teilen Sie uns mit, wenn sich Ihre gesundheitliche Situation ändert. Nutzen Sie Palsya nicht anstelle dringender medizinischer Versorgung. Brechen Sie jede Übung ab, die Schmerzen verursacht, und besprechen Sie dies mit einer Fachkraft."
+    },
+    "s6": {
+      "h": "Grenzen",
+      "p": "Wir versprechen kein bestimmtes Ergebnis und treffen keine Prognosen zur Genesung. Symmetriewerte sind geometrische Messungen und keine klinischen Bewertungsgrade. Unsere Haftung ist auf den Betrag begrenzt, den Sie uns in den vorangegangenen zwölf Monaten gezahlt haben, außer soweit das Gesetz diese Beschränkung nicht zulässt."
+    },
+    "s7": {
+      "h": "Anwendbares Recht",
+      "p": "Es gilt portugiesisches Recht; zuständig sind die Gerichte in Lissabon. Ihr Recht, an Ihrem Wohnort Klage zu erheben, bleibt davon unberührt."
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Cookies – Palsya",
+      "description": "Die wenigen Cookies, die Palsya setzt, die Tracker, die es niemals verwendet, und was es in Ihrem Browser speichert."
+    },
+    "h": "Cookies",
+    "sub": "Eine kurze Seite, denn wir verwenden sehr wenige.",
+    "s1": {
+      "h": "Was wir setzen",
+      "p": "Sitzungs-Cookies, damit Sie angemeldet bleiben, und ein Präferenz-Cookie für Ihre Sprache. Alle sind unbedingt erforderlich, und keines davon verfolgt Sie."
+    },
+    "s2": {
+      "h": "Was wir nicht setzen",
+      "p": "Keine Werbe-Cookies. Keine Analyse-Tools von Drittanbietern. Keine Social-Media-Pixel. Keinerlei seitenübergreifendes Tracking. Deshalb sehen Sie kein Cookie-Banner, das Sie bittet, zwölf Kategorien von Partnern zu akzeptieren."
+    },
+    "s3": {
+      "h": "Lokaler Speicher",
+      "p": "Einiges speichern wir in Ihrem Browser statt auf einem Server, zum Beispiel Ihre Sprachauswahl. Wenn Sie Ihre Browserdaten löschen, wird auch dies gelöscht."
+    }
+  }
+}

@@ -22,5 +22,13 @@
     "body": "{inviter} le ha invitado a Palsya {role, select, admin {como administrador} other {como clínico}}. Acepte la invitación para indicar su nombre y establecer su contraseña.",
     "button": "Aceptar invitación",
     "ignore": "Si no esperaba esta invitación, puede ignorar este correo."
+  },
+  "contact": {
+    "subject": "Formulario de contacto: {topic}",
+    "heading": "Nuevo mensaje del formulario de contacto",
+    "from": "De: {name} <{email}>",
+    "topic": "Tema: {topic}",
+    "replyIn": "Responder en: {language}",
+    "replyHint": "Responda a este correo para contestar directamente a {name}."
   }
 }

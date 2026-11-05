@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Clinical team — Palsya",
+    "description": "The clinicians who write Palsya's protocols and take the consultation calls, with their registrations and the languages they consult in."
+  },
+  "hero": {
+    "eyebrow": "Clinical team",
+    "title": "Who writes the protocols and takes the calls",
+    "lead": "Every clinician here holds a current registration in an EU or UK regulator, and the number is listed so you can verify it. Consultations are with the people on this page, not with a call centre."
+  },
+  "registration": "Registration",
+  "consultLangs": "Consultation languages",
+  "members": {
+    "reis": {
+      "role": "Clinical Director",
+      "cred": "MD, Specialist in Physical and Rehabilitation Medicine",
+      "regulator": "Portuguese Medical Council",
+      "bio": "Fifteen years in facial rehabilitation, most of it in a hospital clinic in Lisbon. Sets the clinical protocols behind every stage and reviews every algorithmic phase assignment flagged as uncertain."
+    },
+    "vogt": {
+      "role": "Head of Clinical Evidence",
+      "cred": "MD, PhD, Neurology",
+      "regulator": "Danish Patient Safety Authority",
+      "bio": "Researches nerve regeneration and outcome measurement. Responsible for what we claim, and for the wording of what we decline to claim."
+    },
+    "brandt": {
+      "role": "Lead Physiotherapist",
+      "cred": "MSc Physiotherapy, Certified Facial Rehabilitation Therapist",
+      "regulator": "CIBG BIG register",
+      "bio": "Wrote the exercise and taping protocols. Runs consultations and trains the clinicians who join the programme."
+    },
+    "okonjo": {
+      "role": "Consultant Physiotherapist",
+      "cred": "DPT, Neurological Rehabilitation",
+      "regulator": "HCPC",
+      "bio": "Specialises in synkinesis management and in patients arriving later than the usual window."
+    },
+    "moreau": {
+      "role": "Consultant Physician",
+      "cred": "MD, Otolaryngology",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Covers post-surgical and post-traumatic facial nerve injury, and eye protection decisions that need a physician."
+    },
+    "weber": {
+      "role": "Head of Product",
+      "bio": "Had Bell's palsy in 2019 and spent four months with a photocopied exercise sheet and no idea whether any of it was working. That is where Palsya started."
+    }
+  },
+  "clinician": {
+    "title": "Are you a clinician?",
+    "body": "If you treat facial paralysis and want to refer patients, you get a referral code that gives them {pct, number, percent} off and — with their separate consent — lets you read their progress reports.",
+    "link": "Get in touch"
+  }
+}

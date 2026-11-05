@@ -728,5 +728,405 @@
     "key": "emails.changed.notYou",
     "reason": "legal",
     "note": "Security notice email; verify support contact wording."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Automated phase assignment (Art. 22 DSGVO context); verify wording."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Eligibility: diagnosis by Fachkraft, 5-90 day onset window; verify clinical wording."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text; review by German-speaking counsel."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Emergency number rendered as Notruf (112), matching assessment.json."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Eye red-flag advice; verify urgency wording."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "terminology",
+    "note": "Credential localised (MD -> Arzt/Ärztin, Dr. med.); confirm accuracy and gender."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; verify terminology."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "terminology",
+    "note": "Credential localised (MD -> Arzt/Ärztin, Dr. med.); confirm accuracy and gender."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; verify terminology."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "terminology",
+    "note": "Credential localised (MD -> Arzt/Ärztin, Dr. med.); confirm accuracy and gender."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; verify terminology."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "terminology",
+    "note": "Credential localised (MD -> Arzt/Ärztin, Dr. med.); confirm accuracy and gender."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; verify terminology."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "terminology",
+    "note": "Credential localised (MD -> Arzt/Ärztin, Dr. med.); confirm accuracy and gender."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "Clinical bio; verify terminology."
+  },
+  {
+    "key": "team.members.weber.bio",
+    "reason": "tone",
+    "note": "Founder story; Bell-Lähmung as in about.json."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "Portuguese Medical Council + original name Ordem dos Médicos."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "Danish Patient Safety Authority + original name Styrelsen for Patientsikkerhed."
+  },
+  {
+    "key": "team.members.reis.role",
+    "reason": "terminology",
+    "note": "Role titles gendered by guessed gender (reis/brandt/moreau female, okonjo/weber male); confirm."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "legal",
+    "note": "DPO = Datenschutzbeauftragter; consider gender-neutral form."
+  },
+  {
+    "key": "contact.form.replyIn",
+    "reason": "terminology",
+    "note": "\"Reply in\" rendered \"Antwort auf\" (precedes language name); check UI fit."
+  },
+  {
+    "key": "contact.topics.plan.b",
+    "reason": "tone",
+    "note": "\"retention call\" rendered \"Rückhalteanruf\"; check naturalness."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

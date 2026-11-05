@@ -22,5 +22,13 @@
     "body": "{inviter} vous a invité à rejoindre Palsya {role, select, admin {en tant qu'administrateur} other {en tant que clinicien}}. Acceptez l'invitation pour définir votre nom et votre mot de passe.",
     "button": "Accepter l'invitation",
     "ignore": "Si vous n'attendiez pas cette invitation, vous pouvez ignorer cet e-mail."
+  },
+  "contact": {
+    "subject": "Formulaire de contact : {topic}",
+    "heading": "Nouveau message depuis le formulaire de contact",
+    "from": "De : {name} <{email}>",
+    "topic": "Sujet : {topic}",
+    "replyIn": "Répondre en : {language}",
+    "replyHint": "Répondez à cet e-mail pour répondre directement à {name}."
   }
 }

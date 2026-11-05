@@ -48,13 +48,13 @@ function render(to: string, subject: string, l: Layout): OutgoingEmail {
     : "";
   const html = `<!doctype html>
 <html lang="${esc(l.locale)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(subject)}</title></head>
-<body style="margin:0;padding:0;background:#faf8f5;font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif">
+<body style="margin:0;padding:0;background:#faf8f5;font-family:'Plus Jakarta Sans',Segoe UI,Helvetica,Arial,sans-serif">
 <span style="display:none;max-height:0;overflow:hidden">${esc(l.preheader)}</span>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#faf8f5;padding:32px 16px"><tr><td align="center">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border:1px solid #e7e2da;border-radius:16px;padding:32px">
 <tr><td>
-<p style="margin:0 0 24px;font-family:Newsreader,Georgia,serif;font-size:22px;font-weight:600;color:#0f172a">Palsya</p>
-<h1 style="margin:0 0 16px;font-family:Newsreader,Georgia,serif;font-size:26px;font-weight:500;color:#0f172a">${esc(l.heading)}</h1>
+<p style="margin:0 0 24px;font-family:'Plus Jakarta Sans',Segoe UI,Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;color:#0f172a">Palsya</p>
+<h1 style="margin:0 0 16px;font-family:'Plus Jakarta Sans',Segoe UI,Helvetica,Arial,sans-serif;font-size:26px;font-weight:700;color:#0f172a">${esc(l.heading)}</h1>
 ${l.paragraphs.map(p).join("\n")}
 ${button}
 ${(l.afterButton ?? []).map(p).join("\n")}
@@ -72,7 +72,7 @@ ${(l.afterButton ?? []).map(p).join("\n")}
   return { to, subject, html, text };
 }
 
-const support = () => process.env.SUPPORT_EMAIL ?? "support@palsya.health";
+export const support = () => process.env.SUPPORT_EMAIL ?? "support@palsya.health";
 
 export async function passwordResetEmail(to: string, locale: string, url: string, minutes: number) {
   const t = await translatorFor(locale);
@@ -115,4 +115,26 @@ export async function invitationEmail(
     afterButton: [t("invite.ignore")],
     footer: t("footer", { support: support() }),
   });
+}
+
+/**
+ * A /contact form message, sent to the support inbox (SUPPORT_EMAIL) in
+ * English for staff. Replies go straight to the visitor via Reply-To.
+ */
+export async function contactMessageEmail(m: { name: string; email: string; topic: string; language: string; message: string }) {
+  const t = await translatorFor(defaultLocale);
+  const lines = m.message.split(/\r?\n/).filter((l) => l.trim() !== "");
+  const email = render(support(), t("contact.subject", { topic: m.topic }), {
+    locale: defaultLocale,
+    preheader: lines[0]?.slice(0, 120) ?? "",
+    heading: t("contact.heading"),
+    paragraphs: [
+      t("contact.from", { name: m.name, email: m.email }),
+      t("contact.topic", { topic: m.topic }),
+      t("contact.replyIn", { language: m.language }),
+      ...lines,
+    ],
+    footer: t("contact.replyHint", { name: m.name }),
+  });
+  return { ...email, replyTo: m.email };
 }

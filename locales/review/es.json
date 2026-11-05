@@ -738,5 +738,400 @@
     "key": "admin.audit.columns.target",
     "reason": "terminology",
     "note": "Audit \"Target\" rendered as \"Objeto\"; alternative \"Destinatario\"/\"Elemento\"."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "tone",
+    "note": "Wordplay kept literally: 'no para sobrevivir a él'."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "'opt-in' rendered as 'voluntario (requiere su consentimiento expreso)'."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "GDPR Art. 9 'categorías especiales de datos'; explicit consent = 'consentimiento explícito'."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "GDPR rights use Spanish RGPD terms (supresión, limitación, oposición)."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Automated phase assignment and clinician review; 'dudosa' for uncertain."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "legal",
+    "note": "'licensed clinicians' = 'clínicos colegiados'."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Eligibility window (5–90 days from onset) and age/consent thresholds; confirm with clinical/legal."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "legal",
+    "note": "Liability limitation clause; check wording."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "Governing law/jurisdiction clause; 'sin perjuicio de' standard phrasing."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs legal review."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Red-flag symptoms; emergency number given as 112, matching assessment.flags.limb.body."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Eye red-flag advice; confirm urgency wording."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "terminology",
+    "note": "DPO = 'delegado de protección de datos (DPD)'."
+  },
+  {
+    "key": "contact.topics.tape.t",
+    "reason": "terminology",
+    "note": "Tape = 'vendaje' (as in appProgramme); alternative 'cinta'."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "terminology",
+    "note": "Degree equivalents and gendered forms (Médica/Médico) assumed; verify with clinician."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "terminology",
+    "note": "Degree equivalents and gendered forms (Médica/Médico) assumed; verify with clinician."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "terminology",
+    "note": "Degree equivalents and gendered forms (Médica/Médico) assumed; verify with clinician."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "clinical",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "terminology",
+    "note": "Degree equivalents and gendered forms (Médica/Médico) assumed; verify with clinician."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "clinical",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "terminology",
+    "note": "Degree equivalents and gendered forms (Médica/Médico) assumed; verify with clinician."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.weber.bio",
+    "reason": "tone",
+    "note": "Bio; verify clinical wording and gender agreement."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "Portuguese Medical Council = 'Orden de Médicos de Portugal' (Ordem dos Médicos)."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "Danish Patient Safety Authority = 'Autoridad Danesa de Seguridad del Paciente'."
+  },
+  {
+    "key": "team.registration",
+    "reason": "terminology",
+    "note": "'Registration' = 'Colegiación'; alternative 'Número de registro' for non-Spanish regulators."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

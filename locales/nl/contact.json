@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Contact en ondersteuning — Palsya",
+    "description": "Stel Palsya al uw vragen. De ondersteuning antwoordt in uw taal, meestal binnen één werkdag."
+  },
+  "hero": {
+    "title": "Stel ons al uw vragen",
+    "lead": "De ondersteuning antwoordt in uw taal. Hebt u een abonnement met consulten, dan zijn klinische vragen beter in een gesprek te bespreken dan per e-mail — plan liever een consult.",
+    "subtitle": "Ondersteuning per e-mail in uw taal, consulten via video",
+    "lead2": "U hoeft uw herstel niet alleen door te maken. Hulp is één bericht verwijderd."
+  },
+  "urgent": {
+    "strong": "Gebruik dit formulier niet voor iets dat dringend is.",
+    "body": "Pijn aan het oog, roodheid of veranderd zicht vraagt vandaag nog om een arts. Zwakte in het gezicht samen met zwakte in arm of been, verwardheid of moeite met praten is een noodgeval — bel het lokale alarmnummer."
+  },
+  "emails": {
+    "hello": "Eén werkdag. Vier uur bij abonnementen met consulten.",
+    "privacy": "Inzage, export en verwijdering van gegevens. Onze functionaris gegevensbescherming leest dit.",
+    "clinicians": "Verwijzingen, vragen over protocollen, onderzoeksaanvragen."
+  },
+  "answered": "Al beantwoord",
+  "topics": {
+    "camera": {
+      "t": "De camera start niet",
+      "b": "Scans hebben een beveiligde verbinding en toestemming voor de camera nodig. Controleer het slotje in uw adresbalk en daarna de camera-instelling van uw browser voor deze site. Op een iPhone werkt Safari het betrouwbaarst."
+    },
+    "tape": {
+      "t": "De tape blijft niet plakken",
+      "b": "Bijna altijd een kwestie van huidvoorbereiding. Geen vochtinbrengende crème, zonnebrand of make-up eronder, de huid helemaal droog, en wrijf na het aanbrengen tien seconden over de strip om de lijm te activeren."
+    },
+    "plan": {
+      "t": "Ik wil mijn abonnement wijzigen of opzeggen",
+      "b": "Instellingen → Abonnement. Opzeggen kost twee klikken en er volgt geen belletje om u over te halen. Zegt u op tijdens de gratis proefperiode, dan betaalt u helemaal niets."
+    },
+    "data": {
+      "t": "Ik wil mijn gegevens, of ik wil ze laten verwijderen",
+      "b": "Instellingen → Privacy en gegevens. Met een export krijgt u alles in een overdraagbaar formaat. Verwijderen is definitief en wist uw beelden binnen 30 dagen."
+    },
+    "worried": {
+      "t": "Iets aan mijn herstel baart me zorgen",
+      "b": "Gaat het om uw oog — pijn, roodheid of veranderd zicht — ga dan vandaag nog naar een arts, niet naar ons. Voor al het andere: plan een consult of stuur uw behandelaar een bericht."
+    }
+  },
+  "form": {
+    "title": "Stuur ons een bericht",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mailadres",
+    "topic": "Waar gaat het over?",
+    "topics": {
+      "before": "Een vraag voordat ik me aanmeld",
+      "broken": "Er werkt iets niet",
+      "billing": "Betaling of mijn abonnement",
+      "privacy": "Mijn gegevens of privacy",
+      "clinician": "Ik ben behandelaar",
+      "feedback": "Feedback of een klacht",
+      "other": "Iets anders"
+    },
+    "replyIn": "Antwoord in",
+    "message": "Uw bericht",
+    "messageHint": "Hoe specifieker uw vraag, hoe nuttiger ons antwoord.",
+    "submit": "Bericht versturen",
+    "sending": "Versturen…",
+    "note": "We gebruiken wat u stuurt alleen om u te antwoorden. Niets hiervan komt op een marketinglijst.",
+    "respond": "Wij antwoorden binnen één werkdag."
+  },
+  "errors": {
+    "fill": "Vul uw naam, e-mailadres en bericht in.",
+    "email": "Dat e-mailadres lijkt niet te kloppen.",
+    "tooLong": "Uw bericht is te lang. Houd het onder de {max, number} tekens.",
+    "rateLimited": "U hebt in korte tijd meerdere berichten verstuurd. Wacht even en probeer het opnieuw, of mail ons rechtstreeks.",
+    "failed": "Uw bericht kon niet worden verstuurd. Probeer het opnieuw, of mail ons rechtstreeks."
+  },
+  "sent": {
+    "title": "Bericht verstuurd",
+    "body": "Dank u. Een medewerker antwoordt in het {language}, meestal binnen één werkdag."
+  },
+  "info": {
+    "title": "Contactgegevens"
+  },
+  "testimonial": {
+    "title": "Wat mensen zeggen"
+  },
+  "cta": {
+    "title": "Krijg begeleide ondersteuning bij aangezichtsverlamming en zet de volgende stap in uw herstel.",
+    "lead": "Zeven dagen gratis. Niets te installeren, en u kunt in twee klikken opzeggen."
+  },
+  "location": "Gevestigd in Lissabon en Amsterdam, voor mensen in heel Europa.",
+  "banner": {
+    "alt": "Drie gezichten die laten zien hoe de symmetrie van het gezicht in de loop van de tijd terugkeert"
+  }
+}

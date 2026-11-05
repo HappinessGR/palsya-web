@@ -78,7 +78,7 @@
 /* ---------------- Dashboard greeting ---------------- */
 .greet { margin-bottom: var(--s-6); }
 .greet h2 {
-  font-family: var(--font-display); font-weight: 500;
+  font-family: var(--font-display); font-weight: 700;
   font-size: var(--t-3xl); letter-spacing: -.02em;
 }
 .greet p { font-size: var(--t-base); color: var(--ink-2); margin-top: 6px; }
@@ -97,7 +97,7 @@
   background: linear-gradient(180deg, var(--brand-tint) 0%, rgba(230,245,243,0) 100%);
 }
 .session-card.is-done .session-top { background: linear-gradient(180deg, var(--ok-tint) 0%, rgba(230,246,238,0) 100%); }
-.session-title { font-family: var(--font-display); font-weight: 500; font-size: var(--t-2xl); letter-spacing: -.018em; }
+.session-title { font-family: var(--font-display); font-weight: 700; font-size: var(--t-2xl); letter-spacing: -.018em; }
 .session-parts { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-4); }
 .spart {
   display: inline-flex; align-items: center; gap: 7px;
@@ -253,7 +253,7 @@
 }
 .rep-l { font-size: var(--t-sm); color: var(--ink-3); margin-top: 4px; }
 .cue {
-  font-family: var(--font-display); font-size: var(--t-2xl); font-weight: 500;
+  font-family: var(--font-display); font-size: var(--t-2xl); font-weight: 700;
   color: var(--ink); margin-top: var(--s-5); letter-spacing: -.015em; min-height: 2.4em;
   display: grid; place-items: center;
 }
@@ -324,7 +324,7 @@
 /* ---------------- Report ---------------- */
 .report { max-width: 700px; margin-inline: auto; }
 .report h2 {
-  font-family: var(--font-display); font-weight: 500; font-size: var(--t-2xl);
+  font-family: var(--font-display); font-weight: 700; font-size: var(--t-2xl);
   margin: var(--s-8) 0 var(--s-3); letter-spacing: -.018em;
 }
 .report h2:first-of-type { margin-top: var(--s-5); }

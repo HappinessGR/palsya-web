@@ -9,6 +9,8 @@ export interface OutgoingEmail {
   subject: string;
   text: string;
   html: string;
+  /** Where replies go instead of the sender, e.g. the visitor who used the contact form. */
+  replyTo?: string;
 }
 
 /**

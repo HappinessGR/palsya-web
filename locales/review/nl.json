@@ -2373,5 +2373,390 @@
     "key": "admin.invite.form.emailPlaceholder",
     "reason": "tone",
     "note": "Placeholder localized to naam@voorbeeld.nl."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "AVG used for GDPR; \"bijzondere persoonsgegevens\" = special category data."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "\"uitdrukkelijke toestemming\" = explicit consent (art. 9(2)(a) AVG)."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Landmark data rendered as \"gegevens over gezichtspunten\"; verify term."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "Landmark detection = \"herkenning van gezichtspunten\"; verify term."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "\"auditregistratie\" for audit record."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Tax retention phrased \"voor de belastingdienst\"."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "AVG rights terms: inzage, rectificatie, wissing, beperking, overdraagbaarheid, bezwaar."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "Generic \"nationale toezichthouder\"; NL = Autoriteit Persoonsgegevens, not named."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Art. 22 AVG wording: \"besluit met rechtsgevolgen\"."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "legal",
+    "note": "\"licensed clinicians\" = \"geregistreerde behandelaars\"."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Onset eligibility window 5-90 days; age/guardian consent."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "\"pro-rate\" = \"naar rato verrekend\"."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "legal",
+    "note": "Liability cap; \"klinische graderingen\" for clinical grades."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "\"onverminderd uw recht\" for consumer forum right."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "\"strikt noodzakelijk\" per Telecommunicatiewet cookie rules."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text; check wording."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Emergency red flags; \"bel het lokale alarmnummer\" (112 not named)."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Same-day doctor for eye symptoms."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "terminology",
+    "note": "DPO = \"functionaris gegevensbescherming\" (AVG term)."
+  },
+  {
+    "key": "contact.sent.body",
+    "reason": "tone",
+    "note": "\"in het {language}\" assumes language name is a noun like \"Nederlands\"; check rendering."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "clinical",
+    "note": "Specialist in Physical and Rehabilitation Medicine = \"specialist in revalidatiegeneeskunde\" (Dutch title \"revalidatiearts\")."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "\"algoritmische fase-indeling\" for algorithmic phase assignment."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "terminology",
+    "note": "MD rendered \"Arts\"."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "\"klinisch bewijs\" for clinical evidence."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "clinical",
+    "note": "Certified Facial Rehabilitation Therapist rendered descriptively; NL has \"facial therapeut\" as a recognised specialisation."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "clinical",
+    "note": "Exercise/taping protocols wording."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "terminology",
+    "note": "DPT kept as-is (no Dutch equivalent)."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "clinical",
+    "note": "\"synkinesie\"; late-arriving patients phrased \"later instromen\"."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "clinical",
+    "note": "Otolaryngology = \"keel-, neus- en oorheelkunde\" (KNO)."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "\"aangezichtszenuwletsel\"; eye protection decisions."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "Portuguese Medical Council = \"Portugese Orde van Artsen (Ordem dos Médicos)\"."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "Danish Patient Safety Authority = \"Deense Autoriteit voor Patiëntveiligheid\" (Styrelsen for Patientsikkerhed)."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

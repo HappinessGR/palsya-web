@@ -2823,5 +2823,410 @@
     "key": "emails.invite.subject",
     "reason": "tone",
     "note": "Masculine generic \"invité\"/\"déconnecté\" used in emails/invite (no gender info available); consider inclusive form if desired."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Clinical eligibility/phase-assignment wording; check with clinician and legal."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Clinical eligibility/phase-assignment wording; check with clinician and legal."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text; needs review by French-qualified legal reviewer."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Red-flag symptom guidance (eye, stroke signs)."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Eye red-flag guidance."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "terminology",
+    "note": "Credential/title rendering (MD → Docteur en médecine; MSc/DPT); verify against official French titles."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "terminology",
+    "note": "Credential/title rendering (MD → Docteur en médecine; MSc/DPT); verify against official French titles."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "terminology",
+    "note": "Credential/title rendering (MD → Docteur en médecine; MSc/DPT); verify against official French titles."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "clinical",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "terminology",
+    "note": "Credential/title rendering (MD → Docteur en médecine; MSc/DPT); verify against official French titles."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "clinical",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "terminology",
+    "note": "Credential/title rendering (MD → Docteur en médecine; MSc/DPT); verify against official French titles."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.weber.bio",
+    "reason": "tone",
+    "note": "Clinician bio; check clinical wording and gendered forms."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "Rendered as 'Ordre des médecins portugais' (Ordem dos Médicos)."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "Rendered as 'Autorité danoise de sécurité des patients' (Styrelsen for Patientsikkerhed)."
+  },
+  {
+    "key": "team.members.vogt.role",
+    "reason": "terminology",
+    "note": "'Clinical Evidence' rendered as 'données cliniques'; consider 'preuves cliniques'."
+  },
+  {
+    "key": "team.members.reis.role",
+    "reason": "terminology",
+    "note": "Gendered forms (Directrice/Docteure) assumed female for Reis and Brandt, male for others; confirm."
+  },
+  {
+    "key": "team.clinician.body",
+    "reason": "terminology",
+    "note": "'referral code' rendered as 'code de parrainage'; also 'orienter des patients'."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "terminology",
+    "note": "DPO kept as acronym (DPD in official French usage)."
+  },
+  {
+    "key": "contact.topics.tape.t",
+    "reason": "terminology",
+    "note": "'tape' kept as anglicism, consistent with 'taping' elsewhere."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

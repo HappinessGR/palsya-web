@@ -22,5 +22,13 @@
     "body": "{inviter} convidou-o para a Palsya {role, select, admin {como administrador} other {como clínico}}. Aceite o convite para definir o seu nome e a sua palavra-passe.",
     "button": "Aceitar convite",
     "ignore": "Se não estava à espera deste convite, pode ignorar este email."
+  },
+  "contact": {
+    "subject": "Formulário de contacto: {topic}",
+    "heading": "Nova mensagem do formulário de contacto",
+    "from": "De: {name} <{email}>",
+    "topic": "Assunto: {topic}",
+    "replyIn": "Responder em: {language}",
+    "replyHint": "Responda a este email para responder diretamente a {name}."
   }
 }

@@ -123,6 +123,35 @@ export const press: PressItem[] = [
   { id: "bpa", pub: "Bell's Palsy Association UK", when: "2025-09-01" },
 ];
 
+/**
+ * Clinical team (/team). Role, credentials, regulator and bio are translated
+ * in locales/<locale>/team.json under members.<id>; `langs` are ISO 639-1
+ * codes, shown with Intl.DisplayNames in the reader's language.
+ * TODO(content): these people and registration numbers come from the
+ * prototype. Replace them with the real team before relying on this page —
+ * the page tells visitors the numbers can be verified.
+ */
+export type TeamMember = { id: string; name: string; regNo?: string; langs: string[] };
+
+export const team: TeamMember[] = [
+  { id: "reis", name: "Dr. Hana Reis", regNo: "48211", langs: ["pt", "en", "es"] },
+  { id: "vogt", name: "Dr. Anders Vogt", regNo: "0092841", langs: ["da", "en", "de"] },
+  { id: "brandt", name: "Ilse Brandt", regNo: "39104822891", langs: ["nl", "en", "de", "fr"] },
+  { id: "okonjo", name: "Dr. Amara Okonjo", regNo: "PH108422", langs: ["en", "fr"] },
+  { id: "moreau", name: "Dr. Léa Moreau", regNo: "751029384", langs: ["fr", "en", "it"] },
+  { id: "weber", name: "Jonas Weber", langs: ["de", "en"] },
+];
+
+/** Public contact addresses shown on /contact and in the privacy notice. */
+export const contactEmails = {
+  hello: "hello@palsya.app",
+  privacy: "privacy@palsya.app",
+  clinicians: "clinicians@palsya.app",
+} as const;
+
+/** Date shown as "Last updated" on each legal page. */
+export const legalUpdated = { privacy: "2026-08-12", terms: "2026-08-12", cookies: "2026-08-12" } as const;
+
 export const extras = {
   extension: { price: 29 },
   consult: { price: 49 },

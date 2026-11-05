@@ -1,0 +1,107 @@
+{
+  "tabs": {
+    "privacy": "Privacy notice",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  },
+  "lastUpdated": "Last updated {date, date, long}.",
+  "privacy": {
+    "meta": {
+      "title": "Privacy notice — Palsya",
+      "description": "What Palsya collects, what it never does with your data, who can see it, where it is stored, and your rights under GDPR."
+    },
+    "h": "Privacy notice",
+    "sub": "Written to be read, not to be survived.",
+    "s1": {
+      "h": "The short version",
+      "p": "Your data is stored in the European Union, encrypted at rest and in transit. Facial images are special category data under GDPR Article 9 and are processed on your device. We do not sell data. Research use is opt-in and refusing it changes nothing about your programme."
+    },
+    "s2": {
+      "h": "What we collect",
+      "p1Strong": "Account data:",
+      "p1": "your name, email address, date of birth, and country. Date of birth is used to confirm you are 14 or over and to note where a parent or guardian needs to consent.",
+      "p2Strong": "Health data:",
+      "p2": "your assessment answers, your stage, your session logs, your notes, and your consultation records. This is special category data under GDPR Article 9 and we process it on the basis of your explicit consent.",
+      "p3Strong": "Facial images and landmark data:",
+      "p3": "biometric data, also Article 9. Landmark detection runs on your device. Images are stored only if you consent to storage, and only so that you can see your own timeline.",
+      "p4Strong": "Technical data:",
+      "p4": "browser type, approximate region from your IP address, and error logs. We do not use third-party analytics or advertising trackers."
+    },
+    "s3": {
+      "h": "What we do not do",
+      "p": "We do not sell data. We do not share it with advertisers, insurers, or employers. We do not use your face to train models that other people's products use. Research use is separate, opt-in, aggregated, and refusing it changes nothing about your programme or your price."
+    },
+    "s4": {
+      "h": "Who can see your data",
+      "p": "You. The clinician you book a consultation with, limited to what is needed for the call. Your referring clinician, only if you separately agree to that. Our engineers, only where a support request needs it, only with an audit record, and never to browse."
+    },
+    "s5": {
+      "h": "Where it lives, and for how long",
+      "p": "Servers in the European Union, encrypted at rest with AES-256 and in transit with TLS 1.3. Active account data is kept while your account exists. After deletion, images are removed within 30 days and the rest within 90, except records we are legally required to keep — invoices, for tax purposes."
+    },
+    "s6": {
+      "h": "Your rights",
+      "p1": "Access, rectification, erasure, restriction, portability, and objection, all exercisable from Settings → Privacy and data, or by writing to {email}. You can withdraw any consent at any time. Withdrawing consent for photo storage deletes your stored images; your scores stay unless you delete those too.",
+      "p2": "You also have the right to complain to your national data protection authority."
+    },
+    "s7": {
+      "h": "Automated decisions",
+      "p": "Your stage assignment is partly automated. It is not a decision with legal effect, you are always shown the reasoning, and you can ask for a clinician to review it — which happens automatically where the assignment is uncertain."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of service — Palsya",
+      "description": "What Palsya provides, who can use it, how payment and consultations work, your responsibilities, and the limits of the service."
+    },
+    "h": "Terms of service",
+    "s1": {
+      "h": "What we provide",
+      "p": "A rehabilitation support programme for peripheral facial paralysis, and on some plans, video consultations with licensed clinicians. Palsya does not diagnose, does not prescribe, and does not replace medical care."
+    },
+    "s2": {
+      "h": "Who can use it",
+      "p": "You need a diagnosis of peripheral facial paralysis from a clinician, and to be 14 or older. Between 14 and 18, a parent or guardian must consent. We ask about your onset date because our programme is designed for 5 to 90 days from onset; outside that range a clinician sets your starting point."
+    },
+    "s3": {
+      "h": "Payment",
+      "p": "Three-month packages, paid in advance through Stripe. The first seven days are free and no charge is taken before day 8. Cancel during the trial and you pay nothing. Cancel afterwards and you keep access until the end of the period you paid for; we do not pro-rate partial periods."
+    },
+    "s4": {
+      "h": "Consultations",
+      "p": "Consultations included in your plan expire at the end of the three-month period. Cancel or reschedule at least 12 hours ahead and the consultation is returned to you. Missed calls without notice are treated as used — clinician time is booked in advance."
+    },
+    "s5": {
+      "h": "Your responsibilities",
+      "p": "Give us accurate assessment answers, because your programme is built from them. Tell us if your medical situation changes. Do not use Palsya instead of urgent medical care. Stop any exercise that causes pain and raise it with a clinician."
+    },
+    "s6": {
+      "h": "Limits",
+      "p": "We do not promise any particular outcome, and we do not predict recovery. Symmetry scores are geometric measurements and are not clinical grades. Our liability is limited to what you paid us in the preceding twelve months, except where the law does not permit that limitation."
+    },
+    "s7": {
+      "h": "Governing law",
+      "p": "Portuguese law, with the courts of Lisbon having jurisdiction, without affecting your right to bring proceedings where you live."
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Cookies — Palsya",
+      "description": "The few cookies Palsya sets, the trackers it never uses, and what it keeps in your browser."
+    },
+    "h": "Cookies",
+    "sub": "A short page, because we use very few.",
+    "s1": {
+      "h": "What we set",
+      "p": "Session cookies to keep you signed in, and a preference cookie for your language. All of them are strictly necessary and none of them tracks you."
+    },
+    "s2": {
+      "h": "What we do not set",
+      "p": "No advertising cookies. No third-party analytics. No social media pixels. No cross-site tracking of any kind. This is why you do not see a cookie banner asking you to accept twelve categories of partner."
+    },
+    "s3": {
+      "h": "Local storage",
+      "p": "We keep a small amount in your browser rather than on a server, such as your language choice. Clearing your browser data clears it."
+    }
+  }
+}

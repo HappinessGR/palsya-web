@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Kontak en ondersteuning — Palsya",
+    "description": "Vra Palsya enigiets. Ondersteuning antwoord in u taal, gewoonlik binne een werksdag."
+  },
+  "hero": {
+    "title": "Vra ons enigiets",
+    "lead": "Ondersteuning antwoord in u taal. As u 'n plan met konsultasies het, word kliniese vrae beter in 'n oproep as in 'n e-pos hanteer — bespreek eerder een.",
+    "subtitle": "Ondersteuning per e-pos in u taal, konsultasies per video",
+    "lead2": "U hoef nie u herstel alleen deur te maak nie. Hulp is net een boodskap ver."
+  },
+  "urgent": {
+    "strong": "Moenie hierdie vorm vir enigiets dringends gebruik nie.",
+    "body": "Oogpyn, rooiheid of veranderde sig moet vandag deur 'n dokter gesien word. Gesigswakheid saam met swakheid in 'n arm of been, verwarring of moeite om te praat is 'n noodgeval — bel u plaaslike noodnommer."
+  },
+  "emails": {
+    "hello": "Een werksdag. Vier uur op planne met konsultasies.",
+    "privacy": "Toegang tot data, uitvoer, uitvee. Ons databeskermingsbeampte lees dit.",
+    "clinicians": "Verwysings, protokolvrae, navorsingsversoeke."
+  },
+  "answered": "Reeds beantwoord",
+  "topics": {
+    "camera": {
+      "t": "Die kamera wil nie begin nie",
+      "b": "Skanderings vereis 'n veilige verbinding en kameratoestemming. Kyk na die hangslot in u adresbalk en dan na u blaaier se kamera-instelling vir hierdie webwerf. Op 'n iPhone is Safari die betroubaarste keuse."
+    },
+    "tape": {
+      "t": "Die kleefband wil nie vassit nie",
+      "b": "Byna altyd die voorbereiding van die vel. Geen bevogtiger, sonskerm of grimering onder die band nie, die vel heeltemal droog, en vryf die strook tien sekondes lank ná aanbring om die kleefmiddel te aktiveer."
+    },
+    "plan": {
+      "t": "Ek wil my plan verander of kanselleer",
+      "b": "Instellings → Intekening. Kansellering neem twee klikke en daar is geen oproep om u te probeer hou nie. As u tydens die gratis proeftydperk kanselleer, word u glad nie gehef nie."
+    },
+    "data": {
+      "t": "Ek het my data nodig, of wil dit laat uitvee",
+      "b": "Instellings → Privaatheid en data. Uitvoer gee u alles in 'n oordraagbare formaat. Uitvee is permanent en verwyder u beelde binne 30 dae."
+    },
+    "worried": {
+      "t": "Iets omtrent my herstel bekommer my",
+      "b": "As dit u oog is — pyn, rooiheid of veranderde sig — gaan sien vandag 'n dokter, nie vir ons nie. Vir enigiets anders, bespreek 'n konsultasie of stuur 'n boodskap aan u klinikus."
+    }
+  },
+  "form": {
+    "title": "Stuur vir ons 'n boodskap",
+    "firstName": "Voornaam",
+    "lastName": "Van",
+    "email": "E-posadres",
+    "topic": "Waaroor gaan dit?",
+    "topics": {
+      "before": "'n Vraag voordat ek aansluit",
+      "broken": "Iets werk nie",
+      "billing": "Fakturering of my intekening",
+      "privacy": "My data of privaatheid",
+      "clinician": "Ek is 'n klinikus",
+      "feedback": "Terugvoer of 'n klagte",
+      "other": "Iets anders"
+    },
+    "replyIn": "Antwoord in",
+    "message": "U boodskap",
+    "messageHint": "Hoe meer spesifiek, hoe nuttiger sal ons antwoord wees.",
+    "submit": "Stuur boodskap",
+    "sending": "Stuur tans…",
+    "note": "Ons gebruik wat u stuur slegs om u te antwoord. Niks hiervan word by 'n bemarkingslys gevoeg nie.",
+    "respond": "Ons antwoord binne een werkdag."
+  },
+  "errors": {
+    "fill": "Vul asseblief u naam, e-posadres en boodskap in.",
+    "email": "Daardie e-posadres lyk nie reg nie.",
+    "tooLong": "U boodskap is te lank. Hou dit asseblief korter as {max, number} karakters.",
+    "rateLimited": "U het verskeie boodskappe in 'n kort tyd gestuur. Wag asseblief 'n rukkie en probeer weer, of stuur vir ons 'n e-pos.",
+    "failed": "U boodskap kon nie gestuur word nie. Probeer asseblief weer, of stuur vir ons 'n e-pos."
+  },
+  "sent": {
+    "title": "Boodskap gestuur",
+    "body": "Dankie. 'n Mens sal in {language} antwoord, gewoonlik binne een werksdag."
+  },
+  "info": {
+    "title": "Kontakbesonderhede"
+  },
+  "testimonial": {
+    "title": "Wat mense sê"
+  },
+  "cta": {
+    "title": "Kry begeleide ondersteuning vir gesigsverlamming en neem die volgende stap in u herstel.",
+    "lead": "Sewe dae gratis. Niks om te installeer nie, en u kan in twee klieks kanselleer."
+  },
+  "location": "Gesetel in Lissabon en Amsterdam, en ondersteun mense regoor Europa.",
+  "banner": {
+    "alt": "Drie gesigte wat wys hoe gesigsimmetrie mettertyd terugkeer"
+  }
+}

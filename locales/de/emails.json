@@ -22,5 +22,13 @@
     "body": "{inviter} hat Sie {role, select, admin {als Administrator/in} other {als Fachkraft}} zu Palsya eingeladen. Nehmen Sie die Einladung an, um Ihren Namen und Ihr Passwort festzulegen.",
     "button": "Einladung annehmen",
     "ignore": "Wenn Sie diese Einladung nicht erwartet haben, können Sie diese E-Mail ignorieren."
+  },
+  "contact": {
+    "subject": "Kontaktformular: {topic}",
+    "heading": "Neue Nachricht über das Kontaktformular",
+    "from": "Von: {name} <{email}>",
+    "topic": "Thema: {topic}",
+    "replyIn": "Antwort auf: {language}",
+    "replyHint": "Antworten Sie auf diese E-Mail, um {name} direkt zu antworten."
   }
 }

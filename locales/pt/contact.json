@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Contacto e apoio — Palsya",
+    "description": "Pergunte o que quiser à Palsya. O apoio responde na sua língua, normalmente no prazo de um dia útil."
+  },
+  "hero": {
+    "title": "Pergunte-nos o que quiser",
+    "lead": "O apoio responde na sua língua. Se tem um plano com consultas, as questões clínicas resolvem-se melhor numa chamada do que por email — marque uma.",
+    "subtitle": "Apoio por e-mail na sua língua, consultas por vídeo",
+    "lead2": "Não tem de fazer a recuperação sozinho. A ajuda está à distância de uma mensagem."
+  },
+  "urgent": {
+    "strong": "Não use este formulário para nada urgente.",
+    "body": "Dor no olho, vermelhidão ou alterações da visão exigem um médico no próprio dia. Fraqueza facial acompanhada de fraqueza num braço ou numa perna, confusão ou dificuldade em falar é uma emergência — ligue para o número de emergência local."
+  },
+  "emails": {
+    "hello": "Um dia útil. Quatro horas nos planos com consultas.",
+    "privacy": "Acesso, exportação e eliminação de dados. O nosso EPD lê estas mensagens.",
+    "clinicians": "Encaminhamentos, questões sobre protocolos, pedidos de investigação."
+  },
+  "answered": "Já respondido",
+  "topics": {
+    "camera": {
+      "t": "A câmara não arranca",
+      "b": "As análises precisam de uma ligação segura e de autorização para usar a câmara. Verifique o cadeado na barra de endereço e depois a definição de câmara do navegador para este site. No iPhone, o Safari é a opção mais fiável."
+    },
+    "tape": {
+      "t": "A fita não adere",
+      "b": "Quase sempre é a preparação da pele. Nada de hidratante, protetor solar ou maquilhagem por baixo, pele completamente seca, e esfregue a tira durante dez segundos depois de a aplicar para ativar o adesivo."
+    },
+    "plan": {
+      "t": "Quero mudar ou cancelar o meu plano",
+      "b": "Definições → Subscrição. Cancelar leva dois cliques e não há nenhuma chamada para o tentar convencer a ficar. Se cancelar durante o período experimental gratuito, não paga nada."
+    },
+    "data": {
+      "t": "Preciso dos meus dados, ou quero que sejam eliminados",
+      "b": "Definições → Privacidade e dados. A exportação dá-lhe tudo num formato portátil. A eliminação é definitiva e apaga as suas imagens no prazo de 30 dias."
+    },
+    "worried": {
+      "t": "Há algo na minha recuperação que me preocupa",
+      "b": "Se for o olho — dor, vermelhidão ou alterações da visão — consulte um médico hoje, não a nós. Para tudo o resto, marque uma consulta ou envie uma mensagem ao seu clínico."
+    }
+  },
+  "form": {
+    "title": "Envie-nos uma mensagem",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "email": "Endereço de email",
+    "topic": "Qual é o assunto?",
+    "topics": {
+      "before": "Uma pergunta antes de me inscrever",
+      "broken": "Algo não está a funcionar",
+      "billing": "Faturação ou a minha subscrição",
+      "privacy": "Os meus dados ou privacidade",
+      "clinician": "Sou clínico",
+      "feedback": "Comentário ou reclamação",
+      "other": "Outro assunto"
+    },
+    "replyIn": "Responder em",
+    "message": "A sua mensagem",
+    "messageHint": "Quanto mais concreta for, mais útil será a nossa resposta.",
+    "submit": "Enviar mensagem",
+    "sending": "A enviar…",
+    "note": "Usamos o que nos envia apenas para lhe responder. Nada daqui é adicionado a uma lista de marketing.",
+    "respond": "Respondemos no prazo de um dia útil."
+  },
+  "errors": {
+    "fill": "Preencha o seu nome, email e mensagem.",
+    "email": "Esse endereço de email não parece correto.",
+    "tooLong": "A sua mensagem é demasiado longa. Mantenha-a abaixo de {max, number} caracteres.",
+    "rateLimited": "Enviou várias mensagens num curto espaço de tempo. Aguarde um pouco e tente novamente, ou envie-nos um email diretamente.",
+    "failed": "Não foi possível enviar a sua mensagem. Tente novamente, ou envie-nos um email diretamente."
+  },
+  "sent": {
+    "title": "Mensagem enviada",
+    "body": "Obrigado. Uma pessoa vai responder-lhe em {language}, normalmente no prazo de um dia útil."
+  },
+  "info": {
+    "title": "Contactos"
+  },
+  "testimonial": {
+    "title": "O que dizem as pessoas"
+  },
+  "cta": {
+    "title": "Tenha acompanhamento orientado para a paralisia facial e dê o próximo passo na sua recuperação.",
+    "lead": "Sete dias grátis. Nada para instalar, e pode cancelar em dois cliques."
+  },
+  "location": "Com sede em Lisboa e Amesterdão, a apoiar pessoas em toda a Europa.",
+  "banner": {
+    "alt": "Três rostos a mostrar a simetria facial a regressar ao longo do tempo"
+  }
+}

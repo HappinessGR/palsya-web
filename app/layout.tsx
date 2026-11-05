@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -13,6 +14,15 @@ import "../styles/app.css";
 import "./globals.css";
 import "./tailwind.css";
 
+/** Site typeface, self-hosted by next/font and exposed as --font-sans (see styles/tokens.css). */
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
 export function generateMetadata(): Promise<Metadata> {
   return pageMetadata("common.meta");
 }
@@ -23,15 +33,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
 
   return (
     <ClerkProvider>
-      <html lang={locale}>
-        <head>
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
-        </head>
+      <html lang={locale} className={jakarta.variable}>
         <body>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <LocaleSync />

@@ -1,0 +1,107 @@
+{
+  "tabs": {
+    "privacy": "Privacyverklaring",
+    "terms": "Voorwaarden",
+    "cookies": "Cookies"
+  },
+  "lastUpdated": "Laatst bijgewerkt op {date, date, long}.",
+  "privacy": {
+    "meta": {
+      "title": "Privacyverklaring — Palsya",
+      "description": "Wat Palsya verzamelt, wat het nooit met uw gegevens doet, wie ze kan zien, waar ze worden opgeslagen en uw rechten onder de AVG."
+    },
+    "h": "Privacyverklaring",
+    "sub": "Geschreven om gelezen te worden, niet om doorheen te ploeteren.",
+    "s1": {
+      "h": "De korte versie",
+      "p": "Uw gegevens worden opgeslagen in de Europese Unie, versleuteld bij opslag en tijdens verzending. Gezichtsbeelden zijn bijzondere persoonsgegevens onder artikel 9 AVG en worden op uw apparaat verwerkt. We verkopen geen gegevens. Gebruik voor onderzoek gebeurt alleen met uw toestemming, en weigeren verandert niets aan uw programma."
+    },
+    "s2": {
+      "h": "Wat we verzamelen",
+      "p1Strong": "Accountgegevens:",
+      "p1": "uw naam, e-mailadres, geboortedatum en land. De geboortedatum gebruiken we om te bevestigen dat u 14 jaar of ouder bent en om vast te leggen wanneer een ouder of voogd toestemming moet geven.",
+      "p2Strong": "Gezondheidsgegevens:",
+      "p2": "uw antwoorden bij de beoordeling, uw fase, uw sessielogboeken, uw aantekeningen en uw consultverslagen. Dit zijn bijzondere persoonsgegevens onder artikel 9 AVG en we verwerken ze op basis van uw uitdrukkelijke toestemming.",
+      "p3Strong": "Gezichtsbeelden en gegevens over gezichtspunten:",
+      "p3": "biometrische gegevens, eveneens artikel 9. De herkenning van gezichtspunten gebeurt op uw apparaat. Beelden worden alleen opgeslagen als u toestemming geeft voor opslag, en alleen zodat u uw eigen tijdlijn kunt bekijken.",
+      "p4Strong": "Technische gegevens:",
+      "p4": "browsertype, de globale regio op basis van uw IP-adres, en foutlogboeken. We gebruiken geen analysediensten of advertentietrackers van derden."
+    },
+    "s3": {
+      "h": "Wat we niet doen",
+      "p": "We verkopen geen gegevens. We delen ze niet met adverteerders, verzekeraars of werkgevers. We gebruiken uw gezicht niet om modellen te trainen die in producten van anderen worden gebruikt. Gebruik voor onderzoek staat hier los van, gebeurt alleen met uw toestemming en in geaggregeerde vorm, en weigeren verandert niets aan uw programma of uw prijs."
+    },
+    "s4": {
+      "h": "Wie uw gegevens kan zien",
+      "p": "U zelf. De behandelaar bij wie u een consult boekt, beperkt tot wat nodig is voor het gesprek. Uw verwijzende behandelaar, alleen als u daar apart mee instemt. Onze technici, alleen als een ondersteuningsverzoek dat vereist, alleen met een auditregistratie, en nooit om rond te kijken."
+    },
+    "s5": {
+      "h": "Waar ze staan, en hoe lang",
+      "p": "Servers in de Europese Unie, versleuteld bij opslag met AES-256 en tijdens verzending met TLS 1.3. Gegevens van een actief account bewaren we zolang uw account bestaat. Na verwijdering worden beelden binnen 30 dagen gewist en de rest binnen 90 dagen, behalve gegevens die we wettelijk moeten bewaren — facturen, voor de belastingdienst."
+    },
+    "s6": {
+      "h": "Uw rechten",
+      "p1": "Inzage, rectificatie, wissing, beperking, overdraagbaarheid en bezwaar, allemaal uit te oefenen via Instellingen → Privacy en gegevens, of door te schrijven naar {email}. U kunt elke toestemming op elk moment intrekken. Trekt u de toestemming voor foto-opslag in, dan worden uw opgeslagen beelden verwijderd; uw scores blijven bewaard, tenzij u die ook verwijdert.",
+      "p2": "U hebt ook het recht om een klacht in te dienen bij uw nationale toezichthouder voor gegevensbescherming."
+    },
+    "s7": {
+      "h": "Geautomatiseerde besluiten",
+      "p": "De indeling in uw fase is deels geautomatiseerd. Het is geen besluit met rechtsgevolgen, u krijgt altijd de onderbouwing te zien en u kunt vragen om beoordeling door een behandelaar — wat automatisch gebeurt als de indeling onzeker is."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Gebruiksvoorwaarden — Palsya",
+      "description": "Wat Palsya biedt, wie het kan gebruiken, hoe betaling en consulten werken, uw verantwoordelijkheden en de grenzen van de dienst."
+    },
+    "h": "Gebruiksvoorwaarden",
+    "s1": {
+      "h": "Wat we bieden",
+      "p": "Een programma ter ondersteuning van revalidatie bij perifere aangezichtsverlamming, en bij sommige abonnementen videoconsulten met geregistreerde behandelaars. Palsya stelt geen diagnoses, schrijft niets voor en vervangt geen medische zorg."
+    },
+    "s2": {
+      "h": "Wie het kan gebruiken",
+      "p": "U hebt een diagnose van perifere aangezichtsverlamming door een behandelaar nodig, en u moet 14 jaar of ouder zijn. Tussen 14 en 18 jaar moet een ouder of voogd toestemming geven. We vragen naar de datum waarop de verlamming begon, omdat ons programma is ontworpen voor 5 tot 90 dagen na het begin; daarbuiten bepaalt een behandelaar uw startpunt."
+    },
+    "s3": {
+      "h": "Betaling",
+      "p": "Pakketten van drie maanden, vooraf betaald via Stripe. De eerste zeven dagen zijn gratis en vóór dag 8 wordt niets afgeschreven. Zegt u op tijdens de proefperiode, dan betaalt u niets. Zegt u daarna op, dan houdt u toegang tot het einde van de periode waarvoor u hebt betaald; gedeeltelijke periodes worden niet naar rato verrekend."
+    },
+    "s4": {
+      "h": "Consulten",
+      "p": "Consulten die bij uw abonnement horen, vervallen aan het einde van de periode van drie maanden. Annuleert of verzet u minstens 12 uur van tevoren, dan krijgt u het consult terug. Gemiste gesprekken zonder afmelding gelden als gebruikt — de tijd van behandelaars wordt vooraf ingepland."
+    },
+    "s5": {
+      "h": "Uw verantwoordelijkheden",
+      "p": "Geef ons juiste antwoorden bij de beoordeling, want uw programma wordt daarop gebaseerd. Laat het ons weten als uw medische situatie verandert. Gebruik Palsya niet in plaats van dringende medische zorg. Stop met elke oefening die pijn doet en bespreek dit met een behandelaar."
+    },
+    "s6": {
+      "h": "Grenzen",
+      "p": "We beloven geen bepaald resultaat en we voorspellen geen herstel. Symmetriescores zijn geometrische metingen en geen klinische graderingen. Onze aansprakelijkheid is beperkt tot wat u ons in de voorafgaande twaalf maanden hebt betaald, behalve waar de wet die beperking niet toestaat."
+    },
+    "s7": {
+      "h": "Toepasselijk recht",
+      "p": "Portugees recht, waarbij de rechtbanken van Lissabon bevoegd zijn, onverminderd uw recht om een procedure te beginnen waar u woont."
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Cookies — Palsya",
+      "description": "De paar cookies die Palsya plaatst, de trackers die het nooit gebruikt, en wat het in uw browser bewaart."
+    },
+    "h": "Cookies",
+    "sub": "Een korte pagina, want we gebruiken er maar heel weinig.",
+    "s1": {
+      "h": "Wat we plaatsen",
+      "p": "Sessiecookies om u ingelogd te houden, en een voorkeurscookie voor uw taal. Ze zijn allemaal strikt noodzakelijk en geen ervan volgt u."
+    },
+    "s2": {
+      "h": "Wat we niet plaatsen",
+      "p": "Geen advertentiecookies. Geen analysediensten van derden. Geen pixels van sociale media. Geen enkele vorm van tracking over websites heen. Daarom ziet u geen cookiebanner die u vraagt twaalf categorieën partners te accepteren."
+    },
+    "s3": {
+      "h": "Lokale opslag",
+      "p": "Een klein beetje bewaren we in uw browser in plaats van op een server, zoals uw taalkeuze. Als u uw browsergegevens wist, wordt dit ook gewist."
+    }
+  }
+}

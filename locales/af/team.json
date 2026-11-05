@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Kliniese span — Palsya",
+    "description": "Die klinici wat Palsya se protokolle skryf en die konsultasie-oproepe hanteer, met hul registrasies en die tale waarin hulle konsulteer."
+  },
+  "hero": {
+    "eyebrow": "Kliniese span",
+    "title": "Wie die protokolle skryf en die oproepe hanteer",
+    "lead": "Elke klinikus hier het 'n geldige registrasie by 'n reguleerder in die EU of die VK, en die nommer word gelys sodat u dit kan nagaan. Konsultasies is met die mense op hierdie bladsy, nie met 'n inbelsentrum nie."
+  },
+  "registration": "Registrasie",
+  "consultLangs": "Konsultasietale",
+  "members": {
+    "reis": {
+      "role": "Kliniese Direkteur",
+      "cred": "MD, Spesialis in Fisiese en Rehabilitasiegeneeskunde",
+      "regulator": "Portugese Mediese Raad",
+      "bio": "Vyftien jaar in gesigsrehabilitasie, die meeste daarvan in 'n hospitaalkliniek in Lissabon. Stel die kliniese protokolle agter elke fase op en hersien elke algoritmiese fasetoewysing wat as onseker gemerk is."
+    },
+    "vogt": {
+      "role": "Hoof van Kliniese Bewyse",
+      "cred": "MD, PhD, Neurologie",
+      "regulator": "Deense Owerheid vir Pasiëntveiligheid",
+      "bio": "Doen navorsing oor senuweeregenerasie en uitkomsmeting. Verantwoordelik vir wat ons beweer, en vir die bewoording van wat ons weier om te beweer."
+    },
+    "brandt": {
+      "role": "Hooffisioterapeut",
+      "cred": "MSc Fisioterapie, Gesertifiseerde Gesigsrehabilitasieterapeut",
+      "regulator": "CIBG BIG register",
+      "bio": "Het die oefen- en kleefbandprotokolle geskryf. Hanteer konsultasies en lei die klinici op wat by die program aansluit."
+    },
+    "okonjo": {
+      "role": "Konsultant-fisioterapeut",
+      "cred": "DPT, Neurologiese Rehabilitasie",
+      "regulator": "HCPC",
+      "bio": "Spesialiseer in die hantering van sinkinese en in pasiënte wat later as die gewone tydperk opdaag."
+    },
+    "moreau": {
+      "role": "Konsultant-geneesheer",
+      "cred": "MD, Otolaringologie",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Behandel gesigsenuweebesering ná 'n operasie of trauma, en besluite oor oogbeskerming wat 'n geneesheer vereis."
+    },
+    "weber": {
+      "role": "Hoof van Produk",
+      "bio": "Het in 2019 Bell se verlamming gehad en vier maande lank met 'n gefotostateerde oefenblad gesit sonder om te weet of enigiets daarvan werk. Dis waar Palsya begin het."
+    }
+  },
+  "clinician": {
+    "title": "Is u 'n klinikus?",
+    "body": "As u gesigsverlamming behandel en pasiënte wil verwys, kry u 'n verwysingskode wat hulle {pct, number, percent} afslag gee en — met hul afsonderlike toestemming — u toelaat om hul vorderingsverslae te lees.",
+    "link": "Kontak ons"
+  }
+}

@@ -1,8 +1,16 @@
 {
   "common": {
     "stageLabel": "Fase {n}",
-    "state": { "full": "Voltooi", "part": "Deels gedoen", "none": "Nie aangeteken nie" },
-    "parts": { "taping": "Kleefband", "exercises": "Oefeninge", "routine": "Roetine" },
+    "state": {
+      "full": "Voltooi",
+      "part": "Deels gedoen",
+      "none": "Nie aangeteken nie"
+    },
+    "parts": {
+      "taping": "Kleefband",
+      "exercises": "Oefeninge",
+      "routine": "Roetine"
+    },
     "yes": "Ja",
     "no": "Nee"
   },
@@ -103,7 +111,11 @@
     "emptyDaysHint": "Leë dae is net leeg. Daar is geen kleur vir \"jy het misluk\" nie.",
     "recentSessions": "Onlangse sessies",
     "felt": "het {comfort} gevoel",
-    "comfort": { "good": "goed", "tired": "moeg", "rushed": "gejaag" },
+    "comfort": {
+      "good": "goed",
+      "tired": "moeg",
+      "rushed": "gejaag"
+    },
     "minutes": "{n} minute",
     "exercises": "{n, plural, one {# oefening} other {# oefeninge}}",
     "notStartedYet": "Nog nie begin nie",

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Equipa clínica — Palsya",
+    "description": "Os clínicos que escrevem os protocolos da Palsya e fazem as consultas, com os respetivos registos profissionais e as línguas em que dão consulta."
+  },
+  "hero": {
+    "eyebrow": "Equipa clínica",
+    "title": "Quem escreve os protocolos e faz as consultas",
+    "lead": "Todos os clínicos aqui apresentados têm inscrição em vigor num organismo regulador da UE ou do Reino Unido, e o número é indicado para que o possa verificar. As consultas são com as pessoas desta página, não com um centro de atendimento."
+  },
+  "registration": "Registo profissional",
+  "consultLangs": "Línguas de consulta",
+  "members": {
+    "reis": {
+      "role": "Diretora Clínica",
+      "cred": "Médica, especialista em Medicina Física e de Reabilitação",
+      "regulator": "Ordem dos Médicos",
+      "bio": "Quinze anos em reabilitação facial, a maior parte numa consulta hospitalar em Lisboa. Define os protocolos clínicos por trás de cada fase e revê todas as atribuições de fase feitas pelo algoritmo que são assinaladas como incertas."
+    },
+    "vogt": {
+      "role": "Responsável pela Evidência Clínica",
+      "cred": "Médico, Doutoramento, Neurologia",
+      "regulator": "Autoridade Dinamarquesa para a Segurança do Doente",
+      "bio": "Investiga a regeneração nervosa e a medição de resultados. É responsável pelo que afirmamos e pela forma como dizemos o que nos recusamos a afirmar."
+    },
+    "brandt": {
+      "role": "Fisioterapeuta Coordenadora",
+      "cred": "Mestrado em Fisioterapia, Terapeuta Certificada em Reabilitação Facial",
+      "regulator": "CIBG BIG register",
+      "bio": "Escreveu os protocolos de exercícios e de aplicação de fita. Faz consultas e forma os clínicos que se juntam ao programa."
+    },
+    "okonjo": {
+      "role": "Fisioterapeuta Consultor",
+      "cred": "DPT, Reabilitação Neurológica",
+      "regulator": "HCPC",
+      "bio": "Especializado no controlo da sincinesia e em doentes que chegam mais tarde do que o habitual."
+    },
+    "moreau": {
+      "role": "Médico Consultor",
+      "cred": "Médico, Otorrinolaringologia",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Acompanha lesões do nervo facial pós-cirúrgicas e pós-traumáticas, e as decisões sobre proteção ocular que exigem um médico."
+    },
+    "weber": {
+      "role": "Responsável de Produto",
+      "bio": "Teve paralisia de Bell em 2019 e passou quatro meses com uma folha de exercícios fotocopiada, sem fazer ideia se alguma coisa estava a resultar. Foi aí que a Palsya começou."
+    }
+  },
+  "clinician": {
+    "title": "É clínico?",
+    "body": "Se trata paralisia facial e quer encaminhar doentes, recebe um código de referência que lhes dá {pct, number, percent} de desconto e — com o consentimento separado deles — lhe permite ler os seus relatórios de progresso.",
+    "link": "Entre em contacto"
+  }
+}

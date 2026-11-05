@@ -1,0 +1,107 @@
+{
+  "tabs": {
+    "privacy": "Privaatheidskennisgewing",
+    "terms": "Bepalings",
+    "cookies": "Koekies"
+  },
+  "lastUpdated": "Laas bygewerk op {date, date, long}.",
+  "privacy": {
+    "meta": {
+      "title": "Privaatheidskennisgewing — Palsya",
+      "description": "Wat Palsya insamel, wat dit nooit met u data doen nie, wie dit kan sien, waar dit gestoor word, en u regte ingevolge die GDPR."
+    },
+    "h": "Privaatheidskennisgewing",
+    "sub": "Geskryf om gelees te word, nie om oorleef te word nie.",
+    "s1": {
+      "h": "Die kort weergawe",
+      "p": "U data word in die Europese Unie gestoor, geënkripteer in rus en tydens oordrag. Gesigsbeelde is data van 'n spesiale kategorie ingevolge artikel 9 van die GDPR en word op u toestel verwerk. Ons verkoop nie data nie. Gebruik vir navorsing is opsioneel, en as u dit weier, verander niks aan u program nie."
+    },
+    "s2": {
+      "h": "Wat ons insamel",
+      "p1Strong": "Rekeningdata:",
+      "p1": "u naam, e-posadres, geboortedatum en land. U geboortedatum word gebruik om te bevestig dat u 14 jaar of ouer is en om aan te teken waar 'n ouer of voog toestemming moet gee.",
+      "p2Strong": "Gesondheidsdata:",
+      "p2": "u assesseringsantwoorde, u fase, u sessielogboeke, u notas en u konsultasierekords. Dit is data van 'n spesiale kategorie ingevolge artikel 9 van die GDPR, en ons verwerk dit op grond van u uitdruklike toestemming.",
+      "p3Strong": "Gesigsbeelde en landmerkdata:",
+      "p3": "biometriese data, ook ingevolge artikel 9. Landmerkopsporing loop op u toestel. Beelde word slegs gestoor as u tot berging toestem, en slegs sodat u u eie tydlyn kan sien.",
+      "p4Strong": "Tegniese data:",
+      "p4": "blaaiertipe, benaderde streek volgens u IP-adres, en foutlogboeke. Ons gebruik geen derdeparty-analise of advertensievolgers nie."
+    },
+    "s3": {
+      "h": "Wat ons nie doen nie",
+      "p": "Ons verkoop nie data nie. Ons deel dit nie met adverteerders, versekeraars of werkgewers nie. Ons gebruik nie u gesig om modelle op te lei wat ander mense se produkte gebruik nie. Gebruik vir navorsing is afsonderlik, opsioneel en saamgevoeg, en as u dit weier, verander niks aan u program of u prys nie."
+    },
+    "s4": {
+      "h": "Wie u data kan sien",
+      "p": "U. Die klinikus met wie u 'n konsultasie bespreek, beperk tot wat vir die oproep nodig is. U verwysende klinikus, slegs as u afsonderlik daartoe instem. Ons ingenieurs, slegs waar 'n ondersteuningsversoek dit vereis, slegs met 'n ouditrekord, en nooit om rond te blaai nie."
+    },
+    "s5": {
+      "h": "Waar dit gestoor word, en vir hoe lank",
+      "p": "Bedieners in die Europese Unie, geënkripteer in rus met AES-256 en tydens oordrag met TLS 1.3. Data van aktiewe rekeninge word bewaar solank u rekening bestaan. Ná uitvee word beelde binne 30 dae verwyder en die res binne 90, behalwe rekords wat ons wetlik verplig is om te bewaar — fakture, vir belastingdoeleindes."
+    },
+    "s6": {
+      "h": "U regte",
+      "p1": "Toegang, regstelling, uitwissing, beperking, oordraagbaarheid en beswaar, wat u almal kan uitoefen via Instellings → Privaatheid en data, of deur na {email} te skryf. U kan enige toestemming te eniger tyd terugtrek. As u toestemming vir die berging van foto's terugtrek, word u gestoorde beelde uitgevee; u tellings bly behoue tensy u dit ook uitvee.",
+      "p2": "U het ook die reg om 'n klagte by u nasionale databeskermingsowerheid in te dien."
+    },
+    "s7": {
+      "h": "Outomatiese besluite",
+      "p": "U fasetoewysing is gedeeltelik outomaties. Dit is nie 'n besluit met regsgevolge nie, die redenasie word altyd aan u gewys, en u kan vra dat 'n klinikus dit hersien — wat outomaties gebeur waar die toewysing onseker is."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Diensbepalings — Palsya",
+      "description": "Wat Palsya verskaf, wie dit kan gebruik, hoe betaling en konsultasies werk, u verantwoordelikhede, en die grense van die diens."
+    },
+    "h": "Diensbepalings",
+    "s1": {
+      "h": "Wat ons verskaf",
+      "p": "'n Rehabilitasie-ondersteuningsprogram vir perifere gesigsverlamming, en op sommige planne, videokonsultasies met gelisensieerde klinici. Palsya diagnoseer nie, skryf nie voor nie, en vervang nie mediese sorg nie."
+    },
+    "s2": {
+      "h": "Wie dit kan gebruik",
+      "p": "U moet 'n diagnose van perifere gesigsverlamming van 'n klinikus hê, en 14 jaar of ouer wees. Tussen 14 en 18 moet 'n ouer of voog toestemming gee. Ons vra na die datum waarop u simptome begin het, omdat ons program ontwerp is vir 5 tot 90 dae ná aanvang; buite daardie tydperk bepaal 'n klinikus u beginpunt."
+    },
+    "s3": {
+      "h": "Betaling",
+      "p": "Driemaandelikse pakkette, vooruit betaal via Stripe. Die eerste sewe dae is gratis en niks word voor dag 8 gehef nie. Kanselleer tydens die proeftydperk en u betaal niks. Kanselleer daarna en u behou toegang tot die einde van die tydperk waarvoor u betaal het; ons bereken nie gedeeltelike tydperke pro rata nie."
+    },
+    "s4": {
+      "h": "Konsultasies",
+      "p": "Konsultasies wat by u plan ingesluit is, verval aan die einde van die driemaandtydperk. Kanselleer of herskeduleer minstens 12 uur vooraf en die konsultasie word aan u terugbesorg. Oproepe wat sonder kennisgewing gemis word, word as gebruik beskou — klinici se tyd word vooraf bespreek."
+    },
+    "s5": {
+      "h": "U verantwoordelikhede",
+      "p": "Gee ons akkurate assesseringsantwoorde, want u program word daarop gebou. Laat weet ons as u mediese situasie verander. Moenie Palsya in plaas van dringende mediese sorg gebruik nie. Staak enige oefening wat pyn veroorsaak en bespreek dit met 'n klinikus."
+    },
+    "s6": {
+      "h": "Beperkings",
+      "p": "Ons belowe geen bepaalde uitkoms nie, en ons voorspel nie herstel nie. Simmetrietellings is geometriese metings en nie kliniese graderings nie. Ons aanspreeklikheid is beperk tot wat u ons in die voorafgaande twaalf maande betaal het, behalwe waar die wet nie daardie beperking toelaat nie."
+    },
+    "s7": {
+      "h": "Toepaslike reg",
+      "p": "Portugese reg, met die howe van Lissabon wat jurisdiksie het, sonder om u reg te raak om regstappe te neem waar u woon."
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Koekies — Palsya",
+      "description": "Die paar koekies wat Palsya stel, die volgers wat dit nooit gebruik nie, en wat dit in u blaaier bewaar."
+    },
+    "h": "Koekies",
+    "sub": "'n Kort bladsy, want ons gebruik baie min.",
+    "s1": {
+      "h": "Wat ons stel",
+      "p": "Sessiekoekies om u aangemeld te hou, en 'n voorkeurkoekie vir u taal. Almal is streng noodsaaklik en nie een daarvan volg u nie."
+    },
+    "s2": {
+      "h": "Wat ons nie stel nie",
+      "p": "Geen advertensiekoekies nie. Geen derdeparty-analise nie. Geen sosialemediapieksels nie. Geen kruiswebwerf-volging van enige aard nie. Dis waarom u nie 'n koekiebanier sien wat u vra om twaalf kategorieë vennote te aanvaar nie."
+    },
+    "s3": {
+      "h": "Plaaslike berging",
+      "p": "Ons bewaar 'n klein hoeveelheid in u blaaier eerder as op 'n bediener, soos u taalkeuse. As u u blaaierdata uitvee, word dit ook uitgevee."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "tabs": {
+    "privacy": "Aviso de privacidade",
+    "terms": "Termos",
+    "cookies": "Cookies"
+  },
+  "lastUpdated": "Última atualização: {date, date, long}.",
+  "privacy": {
+    "meta": {
+      "title": "Aviso de privacidade — Palsya",
+      "description": "O que a Palsya recolhe, o que nunca faz com os seus dados, quem os pode ver, onde são guardados e os seus direitos ao abrigo do RGPD."
+    },
+    "h": "Aviso de privacidade",
+    "sub": "Escrito para ser lido, não para ser suportado.",
+    "s1": {
+      "h": "A versão curta",
+      "p": "Os seus dados são guardados na União Europeia, encriptados em repouso e em trânsito. As imagens faciais são dados de categoria especial ao abrigo do artigo 9.º do RGPD e são tratadas no seu dispositivo. Não vendemos dados. A utilização para investigação depende da sua adesão e recusá-la não altera nada no seu programa."
+    },
+    "s2": {
+      "h": "O que recolhemos",
+      "p1Strong": "Dados da conta:",
+      "p1": "o seu nome, endereço de email, data de nascimento e país. A data de nascimento serve para confirmar que tem 14 anos ou mais e para registar quando é necessário o consentimento de um dos pais ou de um tutor.",
+      "p2Strong": "Dados de saúde:",
+      "p2": "as respostas da avaliação, a sua fase, os registos das sessões, as suas notas e os registos das consultas. São dados de categoria especial ao abrigo do artigo 9.º do RGPD e tratamo-los com base no seu consentimento explícito.",
+      "p3Strong": "Imagens faciais e dados de pontos de referência:",
+      "p3": "dados biométricos, também abrangidos pelo artigo 9.º. A deteção de pontos de referência é feita no seu dispositivo. As imagens só são guardadas se consentir no armazenamento, e apenas para que possa ver a sua própria cronologia.",
+      "p4Strong": "Dados técnicos:",
+      "p4": "tipo de navegador, região aproximada a partir do seu endereço IP e registos de erros. Não usamos ferramentas de análise de terceiros nem rastreadores de publicidade."
+    },
+    "s3": {
+      "h": "O que não fazemos",
+      "p": "Não vendemos dados. Não os partilhamos com anunciantes, seguradoras nem empregadores. Não usamos o seu rosto para treinar modelos usados nos produtos de outras pessoas. A utilização para investigação é separada, depende da sua adesão, é feita com dados agregados, e recusá-la não altera nada no seu programa nem no seu preço."
+    },
+    "s4": {
+      "h": "Quem pode ver os seus dados",
+      "p": "O próprio. O clínico com quem marca uma consulta, limitado ao necessário para a chamada. O clínico que o encaminhou, apenas se der o seu acordo em separado. Os nossos engenheiros, apenas quando um pedido de apoio o exija, sempre com registo de auditoria, e nunca para consultar livremente."
+    },
+    "s5": {
+      "h": "Onde ficam guardados, e durante quanto tempo",
+      "p": "Servidores na União Europeia, com encriptação em repouso AES-256 e em trânsito TLS 1.3. Os dados de uma conta ativa são conservados enquanto a conta existir. Após a eliminação, as imagens são apagadas no prazo de 30 dias e o resto no prazo de 90, exceto os registos que somos legalmente obrigados a conservar — as faturas, para efeitos fiscais."
+    },
+    "s6": {
+      "h": "Os seus direitos",
+      "p1": "Acesso, retificação, apagamento, limitação do tratamento, portabilidade e oposição, todos exercíveis em Definições → Privacidade e dados, ou escrevendo para {email}. Pode retirar qualquer consentimento a qualquer momento. Retirar o consentimento para o armazenamento de fotografias apaga as imagens guardadas; as suas pontuações mantêm-se, a menos que também as elimine.",
+      "p2": "Tem também o direito de apresentar reclamação à autoridade nacional de proteção de dados do seu país."
+    },
+    "s7": {
+      "h": "Decisões automatizadas",
+      "p": "A atribuição da sua fase é parcialmente automatizada. Não é uma decisão que produza efeitos jurídicos, é-lhe sempre mostrada a fundamentação, e pode pedir que seja revista por um clínico — o que acontece automaticamente quando a atribuição é incerta."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Termos de serviço — Palsya",
+      "description": "O que a Palsya oferece, quem a pode usar, como funcionam o pagamento e as consultas, as suas responsabilidades e os limites do serviço."
+    },
+    "h": "Termos de serviço",
+    "s1": {
+      "h": "O que oferecemos",
+      "p": "Um programa de apoio à reabilitação da paralisia facial periférica e, em alguns planos, consultas por vídeo com clínicos habilitados. A Palsya não faz diagnósticos, não prescreve e não substitui os cuidados médicos."
+    },
+    "s2": {
+      "h": "Quem pode usar",
+      "p": "Precisa de ter um diagnóstico de paralisia facial periférica feito por um clínico e de ter 14 anos ou mais. Entre os 14 e os 18 anos, é necessário o consentimento de um dos pais ou de um tutor. Perguntamos a data de início dos sintomas porque o nosso programa foi concebido para o período entre 5 e 90 dias após o início; fora desse intervalo, é um clínico que define o seu ponto de partida."
+    },
+    "s3": {
+      "h": "Pagamento",
+      "p": "Pacotes de três meses, pagos antecipadamente através da Stripe. Os primeiros sete dias são gratuitos e nada é cobrado antes do 8.º dia. Se cancelar durante o período experimental, não paga nada. Se cancelar depois, mantém o acesso até ao fim do período pago; não fazemos reembolsos proporcionais de períodos parciais."
+    },
+    "s4": {
+      "h": "Consultas",
+      "p": "As consultas incluídas no seu plano expiram no fim do período de três meses. Se cancelar ou remarcar com pelo menos 12 horas de antecedência, a consulta é-lhe devolvida. As faltas sem aviso são consideradas consultas utilizadas — o tempo dos clínicos é reservado com antecedência."
+    },
+    "s5": {
+      "h": "As suas responsabilidades",
+      "p": "Dê-nos respostas exatas na avaliação, porque o seu programa é construído a partir delas. Informe-nos se a sua situação clínica mudar. Não use a Palsya em vez de cuidados médicos urgentes. Pare qualquer exercício que cause dor e fale sobre isso com um clínico."
+    },
+    "s6": {
+      "h": "Limites",
+      "p": "Não prometemos nenhum resultado em particular e não fazemos previsões de recuperação. As pontuações de simetria são medições geométricas e não classificações clínicas. A nossa responsabilidade está limitada ao montante que nos pagou nos doze meses anteriores, exceto quando a lei não permita essa limitação."
+    },
+    "s7": {
+      "h": "Lei aplicável",
+      "p": "Lei portuguesa, sendo competentes os tribunais de Lisboa, sem prejuízo do seu direito de intentar uma ação no seu país de residência."
+    }
+  },
+  "cookies": {
+    "meta": {
+      "title": "Cookies — Palsya",
+      "description": "Os poucos cookies que a Palsya define, os rastreadores que nunca usa e o que guarda no seu navegador."
+    },
+    "h": "Cookies",
+    "sub": "Uma página curta, porque usamos muito poucos.",
+    "s1": {
+      "h": "O que definimos",
+      "p": "Cookies de sessão para manter a sessão iniciada e um cookie de preferência para a sua língua. Todos são estritamente necessários e nenhum deles o rastreia."
+    },
+    "s2": {
+      "h": "O que não definimos",
+      "p": "Nenhum cookie de publicidade. Nenhuma ferramenta de análise de terceiros. Nenhum pixel de redes sociais. Nenhum tipo de rastreamento entre sites. É por isso que não vê uma faixa de cookies a pedir-lhe que aceite doze categorias de parceiros."
+    },
+    "s3": {
+      "h": "Armazenamento local",
+      "p": "Guardamos uma pequena quantidade de informação no seu navegador em vez de num servidor, como a sua escolha de língua. Limpar os dados do navegador apaga-a."
+    }
+  }
+}

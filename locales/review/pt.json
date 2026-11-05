@@ -833,5 +833,415 @@
     "key": "passwordReset.forgotLink",
     "reason": "terminology",
     "note": "Reset link = \"ligação de reposição\"; reset = \"repor\" (not \"redefinir\", which leans pt-BR)."
+  },
+  {
+    "key": "legal.tabs.privacy",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.tabs.terms",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.tabs.cookies",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.lastUpdated",
+    "reason": "legal",
+    "note": "'Última atualização: {date}' — check date format reads naturally."
+  },
+  {
+    "key": "legal.privacy.meta.title",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.meta.description",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.sub",
+    "reason": "legal",
+    "note": "'suportado' for 'survived' — check tone works."
+  },
+  {
+    "key": "legal.privacy.s1.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s1.p",
+    "reason": "legal",
+    "note": "'opt-in' rendered as 'depende da sua adesão'; 'processed' = 'tratadas' (RGPD term)."
+  },
+  {
+    "key": "legal.privacy.s2.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s2.p1Strong",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s2.p1",
+    "reason": "legal",
+    "note": "Age-of-consent wording: 'um dos pais ou de um tutor'."
+  },
+  {
+    "key": "legal.privacy.s2.p2Strong",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s2.p2",
+    "reason": "legal",
+    "note": "Explicit consent basis, art. 9.º RGPD — check legal wording."
+  },
+  {
+    "key": "legal.privacy.s2.p3Strong",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s2.p3",
+    "reason": "legal",
+    "note": "'landmark data' = 'dados de pontos de referência'; biometric data art. 9.º."
+  },
+  {
+    "key": "legal.privacy.s2.p4Strong",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s2.p4",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s3.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s3.p",
+    "reason": "legal",
+    "note": "'opt-in, aggregated' = 'depende da sua adesão, é feita com dados agregados'."
+  },
+  {
+    "key": "legal.privacy.s4.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s4.p",
+    "reason": "legal",
+    "note": "'You.' rendered as 'O próprio.' to avoid 'você' — check it reads well."
+  },
+  {
+    "key": "legal.privacy.s5.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s5.p",
+    "reason": "legal",
+    "note": "Retention periods and 'faturas, para efeitos fiscais' — check."
+  },
+  {
+    "key": "legal.privacy.s6.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s6.p1",
+    "reason": "legal",
+    "note": "RGPD rights terms (apagamento, limitação do tratamento, oposição) follow official PT text of the RGPD."
+  },
+  {
+    "key": "legal.privacy.s6.p2",
+    "reason": "legal",
+    "note": "Right to complain to supervisory authority (CNPD in PT) — generic wording kept."
+  },
+  {
+    "key": "legal.privacy.s7.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.privacy.s7.p",
+    "reason": "clinical",
+    "note": "Automated stage assignment / clinician review wording ('fase', 'fundamentação')."
+  },
+  {
+    "key": "legal.terms.meta.title",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.meta.description",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s1.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s1.p",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s2.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s2.p",
+    "reason": "clinical",
+    "note": "Onset window wording: 'data de início dos sintomas', '5 a 90 dias após o início'."
+  },
+  {
+    "key": "legal.terms.s3.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s3.p",
+    "reason": "legal",
+    "note": "'we do not pro-rate' = 'não fazemos reembolsos proporcionais' — confirm intended meaning."
+  },
+  {
+    "key": "legal.terms.s4.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s4.p",
+    "reason": "legal",
+    "note": "'Missed calls without notice' = 'faltas sem aviso' — check."
+  },
+  {
+    "key": "legal.terms.s5.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s5.p",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s6.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s6.p",
+    "reason": "legal",
+    "note": "Liability limitation clause — legal review needed."
+  },
+  {
+    "key": "legal.terms.s7.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.terms.s7.p",
+    "reason": "legal",
+    "note": "Governing law/jurisdiction: 'sendo competentes os tribunais de Lisboa, sem prejuízo do seu direito de intentar uma ação no seu país de residência'."
+  },
+  {
+    "key": "legal.cookies.meta.title",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.meta.description",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.sub",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.s1.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.s1.p",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.s2.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.s2.p",
+    "reason": "legal",
+    "note": "'cookie banner' = 'faixa de cookies'."
+  },
+  {
+    "key": "legal.cookies.s3.h",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "legal.cookies.s3.p",
+    "reason": "legal",
+    "note": "Legal text — check wording against the English source."
+  },
+  {
+    "key": "contact.urgent.body",
+    "reason": "clinical",
+    "note": "Red-flag symptoms: 'fraqueza num braço ou numa perna' for limb weakness; 'médico no próprio dia'."
+  },
+  {
+    "key": "contact.topics.worried.b",
+    "reason": "clinical",
+    "note": "Eye red-flag wording: 'dor, vermelhidão ou alterações da visão'."
+  },
+  {
+    "key": "contact.emails.privacy",
+    "reason": "terminology",
+    "note": "DPO = 'EPD' (Encarregado da Proteção de Dados)."
+  },
+  {
+    "key": "contact.topics.plan.b",
+    "reason": "tone",
+    "note": "'no retention call' = 'nenhuma chamada para o tentar convencer a ficar'."
+  },
+  {
+    "key": "contact.topics.tape.b",
+    "reason": "terminology",
+    "note": "tape = 'fita', strip = 'tira' (as in appProgramme)."
+  },
+  {
+    "key": "team.hero.lead",
+    "reason": "terminology",
+    "note": "'registration in a regulator' = 'inscrição em vigor num organismo regulador'."
+  },
+  {
+    "key": "team.registration",
+    "reason": "terminology",
+    "note": "'Registo profissional' (cédula) — check label."
+  },
+  {
+    "key": "team.members.reis.cred",
+    "reason": "clinical",
+    "note": "'Médica, especialista em Medicina Física e de Reabilitação' (feminine assumed for Reis; also role 'Diretora Clínica') — confirm gender."
+  },
+  {
+    "key": "team.members.reis.bio",
+    "reason": "clinical",
+    "note": "'hospital clinic' = 'consulta hospitalar'; 'algorithmic phase assignment flagged as uncertain'."
+  },
+  {
+    "key": "team.members.reis.regulator",
+    "reason": "terminology",
+    "note": "Ordem dos Médicos."
+  },
+  {
+    "key": "team.members.vogt.cred",
+    "reason": "clinical",
+    "note": "'MD, PhD' = 'Médico, Doutoramento' — confirm gender (masculine assumed)."
+  },
+  {
+    "key": "team.members.vogt.regulator",
+    "reason": "terminology",
+    "note": "Danish Patient Safety Authority = 'Autoridade Dinamarquesa para a Segurança do Doente'."
+  },
+  {
+    "key": "team.members.vogt.bio",
+    "reason": "clinical",
+    "note": "'nerve regeneration' = 'regeneração nervosa'; 'outcome measurement' = 'medição de resultados'."
+  },
+  {
+    "key": "team.members.brandt.cred",
+    "reason": "clinical",
+    "note": "'MSc Physiotherapy' = 'Mestrado em Fisioterapia'; feminine assumed for Brandt (also 'Fisioterapeuta Coordenadora') — confirm."
+  },
+  {
+    "key": "team.members.brandt.bio",
+    "reason": "clinical",
+    "note": "'taping protocols' = 'protocolos de aplicação de fita'."
+  },
+  {
+    "key": "team.members.okonjo.cred",
+    "reason": "clinical",
+    "note": "DPT kept as abbreviation (no PT equivalent); masculine assumed — confirm."
+  },
+  {
+    "key": "team.members.okonjo.bio",
+    "reason": "clinical",
+    "note": "'synkinesis management' = 'controlo da sincinesia'; 'usual window' = 'mais tarde do que o habitual'."
+  },
+  {
+    "key": "team.members.moreau.cred",
+    "reason": "clinical",
+    "note": "'Médico, Otorrinolaringologia'; masculine assumed — confirm."
+  },
+  {
+    "key": "team.members.moreau.bio",
+    "reason": "clinical",
+    "note": "'eye protection decisions' = 'decisões sobre proteção ocular'."
+  },
+  {
+    "key": "team.members.weber.bio",
+    "reason": "tone",
+    "note": "'paralisia de Bell'; masculine/feminine neutral in text."
+  },
+  {
+    "key": "team.clinician.body",
+    "reason": "terminology",
+    "note": "'referral code' = 'código de referência'; consent wording."
+  },
+  {
+    "key": "contact.hero.subtitle",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.hero.lead2",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.cta.title",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
+  },
+  {
+    "key": "contact.location",
+    "reason": "tone",
+    "note": "Added in the /contact redesign; check it reads naturally."
   }
 ]

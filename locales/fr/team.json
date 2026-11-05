@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Équipe clinique — Palsya",
+    "description": "Les cliniciens qui rédigent les protocoles de Palsya et assurent les consultations, avec leurs numéros d'inscription et les langues dans lesquelles ils consultent."
+  },
+  "hero": {
+    "eyebrow": "Équipe clinique",
+    "title": "Qui rédige les protocoles et assure les consultations",
+    "lead": "Chaque clinicien présenté ici est inscrit auprès d'un organisme de réglementation de l'UE ou du Royaume-Uni, et son numéro est indiqué pour que vous puissiez le vérifier. Vos consultations ont lieu avec les personnes de cette page, pas avec un centre d'appels."
+  },
+  "registration": "Inscription",
+  "consultLangs": "Langues de consultation",
+  "members": {
+    "reis": {
+      "role": "Directrice médicale",
+      "cred": "Docteure en médecine, spécialiste en médecine physique et de réadaptation",
+      "regulator": "Ordre des médecins portugais",
+      "bio": "Quinze ans de rééducation faciale, en grande partie dans une consultation hospitalière à Lisbonne. Elle définit les protocoles cliniques de chaque phase et revoit chaque attribution de phase algorithmique signalée comme incertaine."
+    },
+    "vogt": {
+      "role": "Responsable des données cliniques",
+      "cred": "Docteur en médecine, PhD, neurologie",
+      "regulator": "Autorité danoise de sécurité des patients",
+      "bio": "Mène des recherches sur la régénération nerveuse et la mesure des résultats. Responsable de ce que nous affirmons, et de la formulation de ce que nous refusons d'affirmer."
+    },
+    "brandt": {
+      "role": "Kinésithérapeute principale",
+      "cred": "Master en kinésithérapie, thérapeute certifiée en rééducation faciale",
+      "regulator": "CIBG BIG register",
+      "bio": "A rédigé les protocoles d'exercices et de taping. Assure des consultations et forme les cliniciens qui rejoignent le programme."
+    },
+    "okonjo": {
+      "role": "Kinésithérapeute consultant",
+      "cred": "DPT, rééducation neurologique",
+      "regulator": "HCPC",
+      "bio": "Spécialisé dans la prise en charge de la syncinésie et des patients qui arrivent après le délai habituel."
+    },
+    "moreau": {
+      "role": "Médecin consultant",
+      "cred": "Docteur en médecine, oto-rhino-laryngologie",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Prend en charge les lésions du nerf facial post-chirurgicales et post-traumatiques, ainsi que les décisions de protection oculaire qui nécessitent un médecin."
+    },
+    "weber": {
+      "role": "Responsable produit",
+      "bio": "A eu une paralysie de Bell en 2019 et a passé quatre mois avec une feuille d'exercices photocopiée, sans savoir si quoi que ce soit fonctionnait. C'est là que Palsya a commencé."
+    }
+  },
+  "clinician": {
+    "title": "Vous êtes clinicien ?",
+    "body": "Si vous traitez la paralysie faciale et souhaitez orienter des patients, vous recevez un code de parrainage qui leur offre {pct, number, percent} de réduction et — avec leur consentement distinct — vous permet de consulter leurs rapports de progression.",
+    "link": "Nous contacter"
+  }
+}

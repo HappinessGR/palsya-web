@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Contact et assistance — Palsya",
+    "description": "Posez toutes vos questions à Palsya. L'assistance répond dans votre langue, généralement sous un jour ouvré."
+  },
+  "hero": {
+    "title": "Posez-nous toutes vos questions",
+    "lead": "L'assistance répond dans votre langue. Si votre formule comprend des consultations, les questions cliniques se traitent mieux lors d'un appel que par e-mail — réservez-en un plutôt.",
+    "subtitle": "Assistance par e-mail dans votre langue, consultations en vidéo",
+    "lead2": "Vous n’avez pas à traverser votre rétablissement seul. L’aide est à un message près."
+  },
+  "urgent": {
+    "strong": "N'utilisez pas ce formulaire pour une urgence.",
+    "body": "Une douleur à l'œil, une rougeur ou une modification de la vision nécessitent de voir un médecin aujourd'hui. Une faiblesse du visage accompagnée d'une faiblesse d'un membre, d'une confusion ou de difficultés à parler est une urgence — appelez le numéro d'urgence local."
+  },
+  "emails": {
+    "hello": "Un jour ouvré. Quatre heures pour les formules avec consultations.",
+    "privacy": "Accès, export et suppression des données. Notre DPO lit ces messages.",
+    "clinicians": "Orientations de patients, questions sur les protocoles, demandes de recherche."
+  },
+  "answered": "Déjà répondu",
+  "topics": {
+    "camera": {
+      "t": "La caméra ne démarre pas",
+      "b": "Les scans nécessitent une connexion sécurisée et l'autorisation d'accès à la caméra. Vérifiez le cadenas dans la barre d'adresse, puis le réglage de la caméra de votre navigateur pour ce site. Sur iPhone, Safari est le choix le plus fiable."
+    },
+    "tape": {
+      "t": "Le tape ne colle pas",
+      "b": "C'est presque toujours une question de préparation de la peau. Pas de crème hydratante, d'écran solaire ni de maquillage en dessous, une peau bien sèche, et frottez la bande pendant dix secondes après la pose pour activer l'adhésif."
+    },
+    "plan": {
+      "t": "Je veux changer ou annuler ma formule",
+      "b": "Paramètres → Abonnement. L'annulation se fait en deux clics, sans appel pour vous retenir. Si vous annulez pendant l'essai gratuit, rien ne vous est facturé."
+    },
+    "data": {
+      "t": "J'ai besoin de mes données, ou je veux les faire supprimer",
+      "b": "Paramètres → Confidentialité et données. L'export vous fournit tout dans un format portable. La suppression est définitive et efface vos images sous 30 jours."
+    },
+    "worried": {
+      "t": "Quelque chose m'inquiète dans ma récupération",
+      "b": "S'il s'agit de votre œil — douleur, rougeur ou modification de la vision —, consultez un médecin aujourd'hui, pas nous. Pour tout le reste, réservez une consultation ou écrivez à votre clinicien."
+    }
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "topic": "De quoi s'agit-il ?",
+    "topics": {
+      "before": "Une question avant de m'inscrire",
+      "broken": "Quelque chose ne fonctionne pas",
+      "billing": "Facturation ou mon abonnement",
+      "privacy": "Mes données ou ma confidentialité",
+      "clinician": "Je suis clinicien",
+      "feedback": "Un avis ou une réclamation",
+      "other": "Autre chose"
+    },
+    "replyIn": "Réponse en",
+    "message": "Votre message",
+    "messageHint": "Plus votre message est précis, plus notre réponse sera utile.",
+    "submit": "Envoyer le message",
+    "sending": "Envoi…",
+    "note": "Nous utilisons ce que vous envoyez uniquement pour vous répondre. Rien n'est ajouté à une liste marketing.",
+    "respond": "Nous répondons sous un jour ouvré."
+  },
+  "errors": {
+    "fill": "Veuillez indiquer votre nom, votre e-mail et votre message.",
+    "email": "Cette adresse e-mail ne semble pas correcte.",
+    "tooLong": "Votre message est trop long. Veuillez ne pas dépasser {max, number} caractères.",
+    "rateLimited": "Vous avez envoyé plusieurs messages en peu de temps. Veuillez patienter un moment avant de réessayer, ou écrivez-nous directement par e-mail.",
+    "failed": "Votre message n'a pas pu être envoyé. Veuillez réessayer, ou écrivez-nous directement par e-mail."
+  },
+  "sent": {
+    "title": "Message envoyé",
+    "body": "Merci. Une personne vous répondra en {language}, généralement sous un jour ouvré."
+  },
+  "info": {
+    "title": "Coordonnées"
+  },
+  "testimonial": {
+    "title": "Ce qu’en disent les utilisateurs"
+  },
+  "cta": {
+    "title": "Bénéficiez d’un accompagnement guidé pour la paralysie faciale et franchissez la prochaine étape de votre rétablissement.",
+    "lead": "Sept jours gratuits. Rien à installer, et vous pouvez résilier en deux clics."
+  },
+  "location": "Basés à Lisbonne et à Amsterdam, au service de personnes dans toute l’Europe.",
+  "banner": {
+    "alt": "Trois visages montrant la symétrie du visage qui revient au fil du temps"
+  }
+}

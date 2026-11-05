@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Kontakt und Support – Palsya",
+    "description": "Fragen Sie Palsya alles. Der Support antwortet in Ihrer Sprache, meist innerhalb eines Werktags."
+  },
+  "hero": {
+    "title": "Fragen Sie uns alles",
+    "lead": "Der Support antwortet in Ihrer Sprache. Wenn Ihr Tarif Sprechstunden enthält, sind klinische Fragen in einem Gespräch besser aufgehoben als in einer E-Mail – buchen Sie stattdessen eine Sprechstunde.",
+    "subtitle": "Support per E-Mail in Ihrer Sprache, Sprechstunden per Video",
+    "lead2": "Sie müssen Ihre Genesung nicht allein bewältigen. Hilfe ist nur eine Nachricht entfernt."
+  },
+  "urgent": {
+    "strong": "Nutzen Sie dieses Formular nicht für dringende Anliegen.",
+    "body": "Augenschmerzen, Rötung oder verändertes Sehen müssen noch heute ärztlich untersucht werden. Eine Gesichtsschwäche zusammen mit Schwäche in Arm oder Bein, Verwirrtheit oder Sprachstörungen ist ein Notfall – rufen Sie den Notruf (112)."
+  },
+  "emails": {
+    "hello": "Ein Werktag. Vier Stunden bei Tarifen mit Sprechstunden.",
+    "privacy": "Auskunft, Export und Löschung von Daten. Unser Datenschutzbeauftragter liest mit.",
+    "clinicians": "Überweisungen, Fragen zu Protokollen, Forschungsanfragen."
+  },
+  "answered": "Bereits beantwortet",
+  "topics": {
+    "camera": {
+      "t": "Die Kamera startet nicht",
+      "b": "Scans benötigen eine sichere Verbindung und die Kameraberechtigung. Prüfen Sie das Schloss-Symbol in der Adressleiste und dann die Kameraeinstellung Ihres Browsers für diese Website. Auf dem iPhone ist Safari die zuverlässigste Wahl."
+    },
+    "tape": {
+      "t": "Das Tape hält nicht",
+      "b": "Fast immer liegt es an der Hautvorbereitung. Keine Feuchtigkeitscreme, kein Sonnenschutz und kein Make-up darunter, die Haut vollständig trocken, und reiben Sie den Streifen nach dem Aufkleben zehn Sekunden lang, um den Klebstoff zu aktivieren."
+    },
+    "plan": {
+      "t": "Ich möchte meinen Tarif ändern oder kündigen",
+      "b": "Einstellungen → Abonnement. Die Kündigung dauert zwei Klicks, und es gibt keinen Rückhalteanruf. Wenn Sie während der kostenlosen Testphase kündigen, wird Ihnen nichts berechnet."
+    },
+    "data": {
+      "t": "Ich brauche meine Daten oder möchte sie löschen lassen",
+      "b": "Einstellungen → Datenschutz und Daten. Der Export gibt Ihnen alles in einem übertragbaren Format. Die Löschung ist endgültig und entfernt Ihre Bilder innerhalb von 30 Tagen."
+    },
+    "worried": {
+      "t": "Etwas an meiner Genesung beunruhigt mich",
+      "b": "Wenn es um Ihr Auge geht – Schmerzen, Rötung oder verändertes Sehen –, gehen Sie noch heute zu einer Ärztin oder einem Arzt, nicht zu uns. Bei allem anderen buchen Sie eine Sprechstunde oder schreiben Sie Ihrer Fachkraft."
+    }
+  },
+  "form": {
+    "title": "Schreiben Sie uns",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail-Adresse",
+    "topic": "Worum geht es?",
+    "topics": {
+      "before": "Eine Frage vor der Anmeldung",
+      "broken": "Etwas funktioniert nicht",
+      "billing": "Abrechnung oder mein Abonnement",
+      "privacy": "Meine Daten oder Datenschutz",
+      "clinician": "Ich bin eine Fachkraft",
+      "feedback": "Feedback oder eine Beschwerde",
+      "other": "Etwas anderes"
+    },
+    "replyIn": "Antwort auf",
+    "message": "Ihre Nachricht",
+    "messageHint": "Je konkreter Sie schreiben, desto hilfreicher wird unsere Antwort.",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet …",
+    "note": "Wir verwenden Ihre Angaben nur, um Ihnen zu antworten. Nichts davon landet auf einer Marketingliste.",
+    "respond": "Wir antworten innerhalb eines Werktags."
+  },
+  "errors": {
+    "fill": "Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht ein.",
+    "email": "Diese E-Mail-Adresse scheint nicht korrekt zu sein.",
+    "tooLong": "Ihre Nachricht ist zu lang. Bitte bleiben Sie unter {max, number} Zeichen.",
+    "rateLimited": "Sie haben in kurzer Zeit mehrere Nachrichten gesendet. Bitte warten Sie eine Weile und versuchen Sie es erneut, oder schreiben Sie uns direkt eine E-Mail.",
+    "failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut, oder schreiben Sie uns direkt eine E-Mail."
+  },
+  "sent": {
+    "title": "Nachricht gesendet",
+    "body": "Vielen Dank. Ein Mensch antwortet Ihnen auf {language}, meist innerhalb eines Werktags."
+  },
+  "info": {
+    "title": "Kontakt"
+  },
+  "testimonial": {
+    "title": "Was Nutzerinnen und Nutzer sagen"
+  },
+  "cta": {
+    "title": "Holen Sie sich angeleitete Unterstützung bei Gesichtslähmung und gehen Sie den nächsten Schritt Ihrer Genesung.",
+    "lead": "Sieben Tage kostenlos. Nichts zu installieren, und Sie können mit zwei Klicks kündigen."
+  },
+  "location": "Mit Sitz in Lissabon und Amsterdam, für Menschen in ganz Europa.",
+  "banner": {
+    "alt": "Drei Gesichter, die zeigen, wie die Gesichtssymmetrie mit der Zeit zurückkehrt"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Klinisches Team – Palsya",
+    "description": "Die Fachkräfte, die die Protokolle von Palsya schreiben und die Sprechstunden führen – mit ihren Registrierungen und den Sprachen, in denen sie beraten."
+  },
+  "hero": {
+    "eyebrow": "Klinisches Team",
+    "title": "Wer die Protokolle schreibt und die Sprechstunden führt",
+    "lead": "Jede Fachkraft hier ist aktuell bei einer Aufsichtsbehörde in der EU oder im Vereinigten Königreich registriert, und die Nummer ist angegeben, damit Sie sie überprüfen können. Ihre Sprechstunden finden mit den Personen auf dieser Seite statt, nicht mit einem Callcenter."
+  },
+  "registration": "Registrierung",
+  "consultLangs": "Sprachen der Sprechstunde",
+  "members": {
+    "reis": {
+      "role": "Klinische Direktorin",
+      "cred": "Ärztin, Fachärztin für Physikalische und Rehabilitative Medizin",
+      "regulator": "Portugiesische Ärztekammer (Ordem dos Médicos)",
+      "bio": "Fünfzehn Jahre in der Gesichtsrehabilitation, die meisten davon in einer Klinikambulanz in Lissabon. Legt die klinischen Protokolle hinter jeder Phase fest und prüft jede algorithmische Phaseneinordnung, die als unsicher markiert wurde."
+    },
+    "vogt": {
+      "role": "Leitung Klinische Evidenz",
+      "cred": "Dr. med., PhD, Neurologie",
+      "regulator": "Dänische Behörde für Patientensicherheit (Styrelsen for Patientsikkerhed)",
+      "bio": "Forscht zu Nervenregeneration und Ergebnismessung. Verantwortlich für das, was wir behaupten – und für die Formulierung dessen, was wir bewusst nicht behaupten."
+    },
+    "brandt": {
+      "role": "Leitende Physiotherapeutin",
+      "cred": "MSc Physiotherapie, zertifizierte Therapeutin für Gesichtsrehabilitation",
+      "regulator": "CIBG BIG-Register",
+      "bio": "Hat die Übungs- und Tape-Protokolle geschrieben. Führt Sprechstunden durch und schult die Fachkräfte, die neu zum Programm kommen."
+    },
+    "okonjo": {
+      "role": "Beratender Physiotherapeut",
+      "cred": "DPT, Neurologische Rehabilitation",
+      "regulator": "HCPC",
+      "bio": "Spezialisiert auf die Behandlung von Synkinesien und auf Patientinnen und Patienten, die später als im üblichen Zeitfenster zu uns kommen."
+    },
+    "moreau": {
+      "role": "Beratende Ärztin",
+      "cred": "Ärztin, Hals-Nasen-Ohren-Heilkunde",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Zuständig für Verletzungen des Gesichtsnervs nach Operationen und Unfällen sowie für Entscheidungen zum Augenschutz, die eine Ärztin oder ein Arzt treffen muss."
+    },
+    "weber": {
+      "role": "Produktleiter",
+      "bio": "Hatte 2019 eine Bell-Lähmung und verbrachte vier Monate mit einem kopierten Übungsblatt, ohne zu wissen, ob irgendetwas davon wirkte. Dort hat Palsya angefangen."
+    }
+  },
+  "clinician": {
+    "title": "Sind Sie eine Fachkraft?",
+    "body": "Wenn Sie Gesichtslähmungen behandeln und Patientinnen und Patienten überweisen möchten, erhalten Sie einen Empfehlungscode, der ihnen {pct, number, percent} Rabatt gibt und Ihnen – mit ihrer gesonderten Einwilligung – erlaubt, ihre Fortschrittsberichte zu lesen.",
+    "link": "Kontakt aufnehmen"
+  }
+}

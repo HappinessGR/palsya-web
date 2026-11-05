@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Klinisch team — Palsya",
+    "description": "De behandelaars die de protocollen van Palsya schrijven en de consulten voeren, met hun registraties en de talen waarin zij consulten geven."
+  },
+  "hero": {
+    "eyebrow": "Klinisch team",
+    "title": "Wie de protocollen schrijft en de gesprekken voert",
+    "lead": "Elke behandelaar hier heeft een geldige registratie bij een toezichthouder in de EU of het VK, en het nummer staat erbij zodat u het kunt controleren. Consulten zijn met de mensen op deze pagina, niet met een callcenter."
+  },
+  "registration": "Registratie",
+  "consultLangs": "Talen voor consulten",
+  "members": {
+    "reis": {
+      "role": "Klinisch directeur",
+      "cred": "Arts, specialist in revalidatiegeneeskunde",
+      "regulator": "Portugese Orde van Artsen (Ordem dos Médicos)",
+      "bio": "Vijftien jaar ervaring in revalidatie van het gezicht, het grootste deel in een ziekenhuiskliniek in Lissabon. Stelt de klinische protocollen achter elke fase op en beoordeelt elke algoritmische fase-indeling die als onzeker is gemarkeerd."
+    },
+    "vogt": {
+      "role": "Hoofd klinisch bewijs",
+      "cred": "Arts, PhD, neurologie",
+      "regulator": "Deense Autoriteit voor Patiëntveiligheid",
+      "bio": "Doet onderzoek naar zenuwregeneratie en het meten van uitkomsten. Verantwoordelijk voor wat we beweren, en voor de formulering van wat we uitdrukkelijk niet beweren."
+    },
+    "brandt": {
+      "role": "Hoofd fysiotherapie",
+      "cred": "MSc Fysiotherapie, gecertificeerd therapeut in revalidatie van het gezicht",
+      "regulator": "BIG-register (CIBG)",
+      "bio": "Schreef de oefen- en tapeprotocollen. Voert consulten en leidt de behandelaars op die zich bij het programma aansluiten."
+    },
+    "okonjo": {
+      "role": "Consulterend fysiotherapeut",
+      "cred": "DPT, neurologische revalidatie",
+      "regulator": "HCPC",
+      "bio": "Gespecialiseerd in de behandeling van synkinesie en in patiënten die later instromen dan gebruikelijk."
+    },
+    "moreau": {
+      "role": "Consulterend arts",
+      "cred": "Arts, keel-, neus- en oorheelkunde",
+      "regulator": "Conseil National de l'Ordre des Médecins",
+      "bio": "Behandelt aangezichtszenuwletsel na een operatie of trauma, en beslissingen over oogbescherming waarvoor een arts nodig is."
+    },
+    "weber": {
+      "role": "Hoofd product",
+      "bio": "Kreeg in 2019 Bell's parese en zat vier maanden met een gekopieerd oefenvelletje, zonder enig idee of het iets uithaalde. Daar is Palsya begonnen."
+    }
+  },
+  "clinician": {
+    "title": "Bent u behandelaar?",
+    "body": "Als u aangezichtsverlamming behandelt en patiënten wilt doorverwijzen, krijgt u een verwijscode die hun {pct, number, percent} korting geeft en waarmee u — als zij daar apart mee instemmen — hun voortgangsrapporten kunt lezen.",
+    "link": "Neem contact op"
+  }
+}

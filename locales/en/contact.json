@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Contact and support — Palsya",
+    "description": "Ask Palsya anything. Support answers in your language, usually within one working day."
+  },
+  "hero": {
+    "title": "Ask us anything",
+    "lead": "Support answers in your language. If you have a plan with consultations, clinical questions are better on a call than in an email — book one instead.",
+    "subtitle": "Support by email in your language, consultations by video",
+    "lead2": "You do not have to work through recovery on your own. Help is a message away."
+  },
+  "urgent": {
+    "strong": "Do not use this form for anything urgent.",
+    "body": "Eye pain, redness, or changed vision needs a doctor today. Facial weakness with limb weakness, confusion, or trouble speaking is an emergency — call your local emergency number."
+  },
+  "emails": {
+    "hello": "One working day. Four hours on plans with consultations.",
+    "privacy": "Data access, export, deletion. Our DPO reads this.",
+    "clinicians": "Referrals, protocol questions, research requests."
+  },
+  "answered": "Answered already",
+  "topics": {
+    "camera": {
+      "t": "The camera will not start",
+      "b": "Scans need a secure connection and camera permission. Check the padlock in your address bar, then your browser's camera setting for this site. On iPhone, Safari is the most reliable choice."
+    },
+    "tape": {
+      "t": "Tape is not sticking",
+      "b": "Almost always skin preparation. No moisturiser, sunscreen, or make-up underneath, skin fully dry, and rub the strip for ten seconds after applying to activate the adhesive."
+    },
+    "plan": {
+      "t": "I want to change or cancel my plan",
+      "b": "Settings → Subscription. Cancelling takes two clicks and there is no retention call. Cancelling during the free trial means no charge at all."
+    },
+    "data": {
+      "t": "I need my data, or I want it deleted",
+      "b": "Settings → Privacy and data. Export gives you everything in a portable format. Deletion is permanent and clears your images within 30 days."
+    },
+    "worried": {
+      "t": "Something about my recovery worries me",
+      "b": "If it is your eye — pain, redness, or changed vision — see a doctor today, not us. For anything else, book a consultation or message your clinician."
+    }
+  },
+  "form": {
+    "title": "Send us a message",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email address",
+    "topic": "What is this about?",
+    "topics": {
+      "before": "A question before signing up",
+      "broken": "Something is not working",
+      "billing": "Billing or my subscription",
+      "privacy": "My data or privacy",
+      "clinician": "I am a clinician",
+      "feedback": "Feedback or a complaint",
+      "other": "Something else"
+    },
+    "replyIn": "Reply in",
+    "message": "Your message",
+    "messageHint": "The more specific, the more useful our answer will be.",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "note": "We use what you send only to answer you. Nothing here is added to a marketing list.",
+    "respond": "We reply within one working day."
+  },
+  "errors": {
+    "fill": "Please fill in your name, email, and message.",
+    "email": "That email address does not look right.",
+    "tooLong": "Your message is too long. Please keep it under {max, number} characters.",
+    "rateLimited": "You have sent several messages in a short time. Please wait a while and try again, or email us directly.",
+    "failed": "Your message could not be sent. Please try again, or email us directly."
+  },
+  "sent": {
+    "title": "Message sent",
+    "body": "Thank you. A person will reply in {language}, usually within one working day."
+  },
+  "info": {
+    "title": "Contact info"
+  },
+  "testimonial": {
+    "title": "What people are saying"
+  },
+  "cta": {
+    "title": "Get guided support for facial paralysis and take the next step in your recovery.",
+    "lead": "Seven days free. Nothing to install, and you can cancel in two clicks."
+  },
+  "location": "Based in Lisbon and Amsterdam, supporting people across Europe.",
+  "banner": {
+    "alt": "Three faces showing facial symmetry returning over time"
+  }
+}

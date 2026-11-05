@@ -22,5 +22,13 @@
     "body": "{inviter} heeft u uitgenodigd voor Palsya {role, select, admin {als beheerder} other {als behandelaar}}. Accepteer de uitnodiging om uw naam en wachtwoord in te stellen.",
     "button": "Uitnodiging accepteren",
     "ignore": "Verwachtte u deze uitnodiging niet? Dan kunt u deze e-mail negeren."
+  },
+  "contact": {
+    "subject": "Contactformulier: {topic}",
+    "heading": "Nieuw bericht via het contactformulier",
+    "from": "Van: {name} <{email}>",
+    "topic": "Onderwerp: {topic}",
+    "replyIn": "Antwoorden in: {language}",
+    "replyHint": "Beantwoord deze e-mail om {name} rechtstreeks te antwoorden."
   }
 }

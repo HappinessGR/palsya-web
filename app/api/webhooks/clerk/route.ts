@@ -4,7 +4,7 @@ import { verifyWebhook } from "@clerk/nextjs/webhooks";
 import type { UserJSON, DeletedObjectJSON } from "@clerk/nextjs/server";
 import { db } from "../../../../src/db";
 import { users, patientProfiles, staffProfiles } from "../../../../src/db/schema/users";
-import { invitedRole } from "../../../../src/lib/authz";
+import { deletedEmailSql, invitedRole, releaseDeletedEmail } from "../../../../src/lib/authz";
 
 // Closes the gap noted in app/dashboard/data.ts: without this webhook no
 // `users` row is ever created, so getPatientStage() always falls back to
@@ -40,12 +40,14 @@ export async function POST(req: NextRequest) {
         const data = evt.data as UserJSON;
         const primaryEmail = data.email_addresses.find((e) => e.id === data.primary_email_address_id);
         const role = invitedRole(data.public_metadata) ?? "patient";
+        const email = primaryEmail?.email_address ?? `${data.id}@unknown.palsya.invalid`;
 
+        await releaseDeletedEmail(email);
         const [user] = await db
           .insert(users)
           .values({
             clerkUserId: data.id,
-            email: primaryEmail?.email_address ?? `${data.id}@unknown.palsya.invalid`,
+            email,
             fullName: nameFrom(data),
             role,
             status: "active",
@@ -95,10 +97,11 @@ export async function POST(req: NextRequest) {
         const data = evt.data as DeletedObjectJSON;
         if (data.id) {
           // GDPR soft-delete (see users.ts schema comment) — sign_in_events
-          // and activity_log rows keep their audit value.
+          // and activity_log rows keep their audit value. The email is released
+          // so the person can sign up again with the same address.
           await db
             .update(users)
-            .set({ deletedAt: new Date(), status: "suspended", updatedAt: new Date() })
+            .set({ deletedAt: new Date(), status: "suspended", email: deletedEmailSql, updatedAt: new Date() })
             .where(eq(users.clerkUserId, data.id));
         }
         break;

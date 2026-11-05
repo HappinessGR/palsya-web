@@ -3,7 +3,7 @@ import { cache } from "react";
 import { redirect } from "next/navigation";
 import { NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs/server";
-import { and, eq } from "drizzle-orm";
+import { and, eq, isNotNull, sql } from "drizzle-orm";
 import { db } from "../db";
 import { patientProfiles, staffProfiles, users } from "../db/schema/users";
 import { can, isAppRole, ROLE_HOME, toAppRole, type AppRole, type Permission } from "./permissions";
@@ -58,6 +58,21 @@ export function invitedRole(publicMetadata: unknown): AppRole | null {
 
 type UserRow = typeof users.$inferSelect;
 
+/** Placeholder email for a soft-deleted users row, so the real address (users.email is unique) can be reused. */
+export const deletedEmailSql = sql<string>`'deleted+' || ${users.id} || '@palsya.invalid'`;
+
+/**
+ * Frees an email still held by a soft-deleted users row (one deleted before
+ * user.deleted released it, or whose webhook never arrived), so a new account
+ * with that address can be provisioned.
+ */
+export async function releaseDeletedEmail(email: string): Promise<void> {
+  await db
+    .update(users)
+    .set({ email: deletedEmailSql, updatedAt: new Date() })
+    .where(and(eq(users.email, email), isNotNull(users.deletedAt)));
+}
+
 /**
  * Creates the users row for a Clerk account that has none yet (first sign-in
  * after sign-up, or an account created before the webhook existed). The role
@@ -74,6 +89,7 @@ async function provisionUser(clerkUserId: string): Promise<UserRow | null> {
     // i18n-ignore -- stored DB placeholder name, never shown as UI copy
     [clerkUser.firstName, clerkUser.lastName].filter(Boolean).join(" ") || email.split("@")[0] || "Palsya user";
 
+  await releaseDeletedEmail(email);
   await db
     .insert(users)
     .values({
